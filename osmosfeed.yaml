@@ -2,3 +2,4 @@ cacheUrl: https://eleblebici.github.io/efeed/cache.json
 sources:
   - href: https://github.com/osmoscraft/osmosfeed/releases.atom # Get new feature announcement via this feed
   - href: https://www.cncf.io/feed/
+  - href: https://blog.benjojo.co.uk/rss.xml
