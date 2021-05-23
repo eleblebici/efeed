@@ -98,6 +98,103 @@
       ]
     },
     {
+      "title": "Cloud Native Computing Foundation",
+      "feedUrl": "https://www.cncf.io/feed/",
+      "siteUrl": "https://www.cncf.io",
+      "articles": [
+        {
+          "id": "https://www.cncf.io/?p=62319",
+          "author": "Jessie",
+          "description": "Guest post by Akash Bakshi, Lead Content Writer at MSys Technologies With the rise of cloud computing, companies are constantly migrating their legacy data warehouses or analytical databases to the cloud. However,...",
+          "link": "https://www.cncf.io/blog/2021/05/20/building-a-modern-day-data-analytics-platform-on-aws/",
+          "publishedOn": "2021-05-20T15:00:00.000Z",
+          "wordCount": 1170,
+          "title": "Building a modern-day data analytics platform on AWS"
+        },
+        {
+          "id": "https://www.cncf.io/?p=62265",
+          "author": "Jessie",
+          "description": "Guest post by Nick Palumbo and Lewis Macdonald from Bloomberg Over the last decade, numerous workflow orchestration platforms have become popular in the technology community. The need to run logical flows of...",
+          "link": "https://www.cncf.io/blog/2021/05/18/our-journey-to-building-a-managed-orchestration-system-at-bloomberg/",
+          "publishedOn": "2021-05-18T15:00:00.000Z",
+          "wordCount": 2346,
+          "title": "Our journey to building a managed orchestration system at Bloomberg"
+        },
+        {
+          "id": "https://www.cncf.io/?p=62293",
+          "author": "Jessie",
+          "description": "Guest post originally published on Rookout’s blog by Dudi Cohen, VP of Research and Development at Rookout As an R&D manager, there are many things on my mind that keep me up...",
+          "link": "https://www.cncf.io/blog/2021/05/17/solving-customer-related-problems-with-rd/",
+          "publishedOn": "2021-05-17T15:00:00.000Z",
+          "wordCount": 2239,
+          "title": "Solving customer related problems with R&D"
+        },
+        {
+          "id": "https://www.cncf.io/?p=62237",
+          "author": "Jessie",
+          "description": "KubeCon + CloudNativeCon Europe 2021 – Virtual sponsored post by Cisco and written by Vijoy Pandey VP Engineering, Emerging Technologies and Incubations, Cisco Unless you’ve been living in a cave, KubeCon, the CNCF conference focused...",
+          "link": "https://www.cncf.io/blog/2021/05/17/the-psychological-value-of-a-mesh/",
+          "publishedOn": "2021-05-17T15:00:00.000Z",
+          "wordCount": 1377,
+          "title": "The psychological value of a mesh"
+        },
+        {
+          "id": "https://www.cncf.io/?p=62286",
+          "author": "Katie Meinders",
+          "description": "Last December, as we were all counting down the days until 2020 was no more, FireEye posted an announcement that caused various beveragewares across the world to fall and shatter on the...",
+          "link": "https://www.cncf.io/blog/2021/05/14/evaluating-your-supply-chain-security/",
+          "publishedOn": "2021-05-14T17:00:00.000Z",
+          "wordCount": 1657,
+          "title": "Evaluating your Supply Chain Security"
+        },
+        {
+          "id": "https://www.cncf.io/?p=62283",
+          "author": "Katie Meinders",
+          "description": "New paper demonstrates an actionable approach to architecting a secure supply chain amidst an increase in cyber attacks SAN FRANCISCO, Calif. – May 14, 2021 – The Cloud Native Computing Foundation® (CNCF®),...",
+          "link": "https://www.cncf.io/announcements/2021/05/14/cncf-paper-defines-best-practices-for-supply-chain-security/",
+          "publishedOn": "2021-05-14T17:00:00.000Z",
+          "wordCount": 1108,
+          "title": "CNCF Paper Defines Best Practices for Supply Chain Security"
+        },
+        {
+          "id": "https://www.cncf.io/?p=62231",
+          "author": "Jessie",
+          "description": "Guest post originally published on Fairwinds’s blog by Danielle Cook, technical writer at Fairwinds As we outlined in our first post in this series, there are some things that you should simply never,...",
+          "link": "https://www.cncf.io/blog/2021/05/14/never-should-you-ever-in-kubernetes-part-2-kubernetes-security-mistakes/",
+          "publishedOn": "2021-05-14T15:00:00.000Z",
+          "wordCount": 1042,
+          "title": "Never should you ever in Kubernetes part 2: Kubernetes security mistakes"
+        },
+        {
+          "id": "https://www.cncf.io/?p=62221",
+          "author": "Jessie",
+          "description": "Guest post originally published on Mia-Platform’s blog by Davide Tantillo, Senior Technical Leader, and Davide Bianchi, Senior Technical Leader at Mia-Platform In this article we will talk about how to manage machine...",
+          "link": "https://www.cncf.io/blog/2021/05/13/m2m-authentication-and-authorization-with-oauth-2-0-and-openid-connect/",
+          "publishedOn": "2021-05-13T15:00:00.000Z",
+          "wordCount": 2225,
+          "title": "M2M authentication and authorization with OAuth 2.0 and OpenID Connect"
+        },
+        {
+          "id": "https://www.cncf.io/?p=62193",
+          "author": "Jessie",
+          "description": "Guest post originally published on Flux’s blog by Daniel Holbach Flux v2 has its first anniversary and reaches the 0.13 milestone, Alison joins maintainers, new guides and use-cases docs, upcoming events (yes...",
+          "link": "https://www.cncf.io/blog/2021/05/12/may-2021-update/",
+          "publishedOn": "2021-05-12T15:00:00.000Z",
+          "wordCount": 1860,
+          "title": "Flux: May 2021 update"
+        },
+        {
+          "id": "https://www.cncf.io/?p=62208",
+          "author": "Katie Meinders",
+          "description": "We probably don’t need to tell you how in demand cloud skills are right now, and how big of a shortage there is of qualified professionals. Just read these articles from TechHQ,...",
+          "link": "https://www.cncf.io/blog/2021/05/11/save-up-to-50-on-cloud-training-bundles-and-bootcamps/",
+          "publishedOn": "2021-05-11T16:18:18.000Z",
+          "wordCount": 1438,
+          "title": "Save up to 50% on Cloud Training Bundles and Bootcamps!"
+        }
+      ]
+    },
+    {
       "title": "CSS-Tricks",
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
