@@ -193,6 +193,12 @@
           "title": "Save up to 50% on Cloud Training Bundles and Bootcamps!"
         }
       ]
+    },
+    {
+      "title": "benjojo blog",
+      "feedUrl": "https://blog.benjojo.co.uk/rss.xml",
+      "siteUrl": "https://blog.benjojo.co.uk",
+      "articles": []
     }
   ],
   "cliVersion": "1.8.1"
