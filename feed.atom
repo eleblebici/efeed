@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-05-24T00:55:16.576Z</updated>
+    <updated>2021-05-25T00:54:32.677Z</updated>
     <generator>osmosfeed 1.8.1</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How AIOps helps in application monitoring]]></title>
+        <id>https://www.cncf.io/?p=62462</id>
+        <link href="https://www.cncf.io/blog/2021/05/24/how-aiops-helps-in-application-monitoring/"/>
+        <updated>2021-05-24T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on the LOGIQ blog by Ajit Chelat There’s no one-size-fits-all approach regarding application monitoring, especially for companies using applications in various cloud environments. Companies are rapidly investing in...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Red Hat and IBM Research launch the Konveyor project]]></title>
+        <id>https://www.cncf.io/?p=62227</id>
+        <link href="https://www.cncf.io/blog/2021/05/24/red-hat-and-ibm-research-launch-the-konveyor-project/"/>
+        <updated>2021-05-24T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[KubeCon + CloudNativeCon Europe 2021 – Virtual sponsored post by Red Hat  Kubernetes, supported by a vibrant open source community, can drive outstanding innovation. To help in Kubernetes adoption, Red Hat and IBM Research...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v1.8.1]]></title>
         <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.1</id>
