@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-05-27T01:10:18.579Z</updated>
+    <updated>2021-05-28T01:19:46.267Z</updated>
     <generator>osmosfeed 1.9.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Argo rollouts 1.0 released!]]></title>
+        <id>https://www.cncf.io/?p=62554</id>
+        <link href="https://www.cncf.io/blog/2021/05/27/argo-rollouts-1-0-released/"/>
+        <updated>2021-05-27T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Project post from Henrik Blixt and Argo maintainers It’s with great pride and excitement that we announce Argo Rollouts 1.0! The project has seen rapid adoption and production use even in it’s 0.x releases...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v1.9.0]]></title>
         <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.9.0</id>
