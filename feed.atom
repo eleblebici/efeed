@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-05-28T01:19:46.267Z</updated>
+    <updated>2021-05-29T01:36:00.963Z</updated>
     <generator>osmosfeed 1.9.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Benchmarking Linkerd and Istio]]></title>
+        <id>https://www.cncf.io/?p=62565</id>
+        <link href="https://www.cncf.io/blog/2021/05/28/benchmarking-linkerd-and-istio/"/>
+        <updated>2021-05-28T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest Project Post originally published on the Linkerd blog by William Morgan of Linkerd Two years ago, the fine folks at Kinvolk benchmarked the performance of Linkerd and Istio and showed that Linkerd was dramatically...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Disaster Recovery Plan: How to make sure you’re prepared for the worst]]></title>
+        <id>https://www.cncf.io/?p=62514</id>
+        <link href="https://www.cncf.io/blog/2021/05/28/disaster-recovery-plan-how-to-make-sure-youre-prepared-for-the-worst/"/>
+        <updated>2021-05-28T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on Rookout’s blog by Gilad Weiss, Full Stack Developer at Rookout The first lesson you learn as you start to work around the DevOps field is that being...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Argo rollouts 1.0 released!]]></title>
         <id>https://www.cncf.io/?p=62554</id>
