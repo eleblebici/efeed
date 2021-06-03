@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-02T02:23:31.009Z</updated>
+    <updated>2021-06-03T01:59:31.665Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Linux Foundation Kubernetes Certifications Now Include Exam Simulator]]></title>
+        <id>https://www.cncf.io/?p=62689</id>
+        <link href="https://www.cncf.io/announcements/2021/06/02/linux-foundation-kubernetes-certifications-now-include-exam-simulator/"/>
+        <updated>2021-06-02T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New tool will enable those registered for a certification exam to experience the test environment before sitting for their exam SAN FRANCISCO, June 2, 2021 – The Linux Foundation, the nonprofit organization enabling mass innovation...]]></summary>
+        <author>
+            <name>Katie Meinders</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flux June 2021 update]]></title>
+        <id>https://www.cncf.io/?p=62634</id>
+        <link href="https://www.cncf.io/blog/2021/06/02/flux-june-2021-update/"/>
+        <updated>2021-06-02T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As the Flux family of projects and its communities are growing, we strive to inform you each month about what has already landed, new possibilities which are available for integration and where...]]></summary>
+        <author>
+            <name>Katie Meinders</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Overcoming 5 key challenges of analytics in the cloud]]></title>
         <id>https://www.cncf.io/?p=62516</id>
