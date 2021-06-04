@@ -94,24 +94,6 @@
           "publishedOn": "2021-05-08T05:16:47.000Z",
           "wordCount": 306,
           "title": "v1.5.0"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.3.1",
-          "author": null,
-          "description": "Fixed: Avoid crwalers.\nFixed: Error logging from XML parser.\nFixed: Typo in docs.\nThank you: @dym-sh, @tabokie, @cheese1",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.3.1",
-          "publishedOn": "2021-05-05T05:19:57.000Z",
-          "wordCount": 285,
-          "title": "v1.3.1"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.3.0",
-          "author": null,
-          "description": "Added: Customize cache lifespan with cacheMaxDays property in osmosfeed.yaml.\nAdded: Documentation for osmosfeed.yaml.\nFixed: More intuitive logging during build.\nChore: Refactored parameter passing for enrich step.",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.3.0",
-          "publishedOn": "2021-05-05T05:19:26.000Z",
-          "wordCount": 293,
-          "title": "v1.3.0"
         }
       ]
     },
@@ -120,6 +102,20 @@
       "feedUrl": "https://www.cncf.io/feed/",
       "siteUrl": "https://www.cncf.io",
       "articles": [
+        {
+          "id": "https://www.cncf.io/?p=62684",
+          "author": "Katie Meinders",
+          "description": "We are ecstatic to announce the launch of 10 new community shows on CloudNative.tv starting on June 7th. CNCF launched livestreaming on Twitch at the beginning of the year with Cloud Native...",
+          "link": "https://www.cncf.io/blog/2021/06/03/cloud-native-community-goes-live-with-10-shows-on-twitch/",
+          "publishedOn": "2021-06-03T15:00:00.000Z",
+          "wordCount": 1250,
+          "title": "#TeamCloudNative goes live with 10 shows on Twitch",
+          "enclosure": {
+            "url": "https://www.cncf.io/wp-content/uploads/2021/06/CNVT-Teaser-Licensed-FINAL.mp4",
+            "length": "43228256",
+            "type": "video/mp4"
+          }
+        },
         {
           "id": "https://www.cncf.io/?p=62689",
           "author": "Katie Meinders",

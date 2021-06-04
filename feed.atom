@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-03T01:59:31.665Z</updated>
+    <updated>2021-06-04T01:40:23.476Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[#TeamCloudNative goes live with 10 shows on Twitch]]></title>
+        <id>https://www.cncf.io/?p=62684</id>
+        <link href="https://www.cncf.io/blog/2021/06/03/cloud-native-community-goes-live-with-10-shows-on-twitch/"/>
+        <updated>2021-06-03T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are ecstatic to announce the launch of 10 new community shows on CloudNative.tv starting on June 7th. CNCF launched livestreaming on Twitch at the beginning of the year with Cloud Native...]]></summary>
+        <author>
+            <name>Katie Meinders</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Linux Foundation Kubernetes Certifications Now Include Exam Simulator]]></title>
         <id>https://www.cncf.io/?p=62689</id>
@@ -303,32 +313,6 @@ Added: Customizable site title
 Added: Copy all files from static directory to the root of the site.
 Changed: Favicon, css, and js assets now existing at site root level.
 Chore: Excluded testing files from repo.]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.3.1]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.3.1</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.3.1"/>
-        <updated>2021-05-05T05:19:57.000Z</updated>
-        <summary type="html"><![CDATA[Fixed: Avoid crwalers.
-Fixed: Error logging from XML parser.
-Fixed: Typo in docs.
-Thank you: @dym-sh, @tabokie, @cheese1]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.3.0]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.3.0</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.3.0"/>
-        <updated>2021-05-05T05:19:26.000Z</updated>
-        <summary type="html"><![CDATA[Added: Customize cache lifespan with cacheMaxDays property in osmosfeed.yaml.
-Added: Documentation for osmosfeed.yaml.
-Fixed: More intuitive logging during build.
-Chore: Refactored parameter passing for enrich step.]]></summary>
         <author>
             <name>Release notes from osmosfeed</name>
         </author>
