@@ -103,6 +103,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=62549",
+          "author": "Jessie",
+          "description": "Guest post originally published on The New Stack by Tito George, co-founder, logic.ai Most log management solutions store log data in a database and enable search by storing an index of the...",
+          "link": "https://www.cncf.io/blog/2021/06/04/compute-and-storage-should-be-decoupled-for-log-management-at-scale/",
+          "publishedOn": "2021-06-04T15:00:00.000Z",
+          "wordCount": 1518,
+          "title": "Compute and storage should be decoupled for log management at scale"
+        },
+        {
           "id": "https://www.cncf.io/?p=62684",
           "author": "Katie Meinders",
           "description": "We are ecstatic to announce the launch of 10 new community shows on CloudNative.tv starting on June 7th. CNCF launched livestreaming on Twitch at the beginning of the year with Cloud Native...",
