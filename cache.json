@@ -94,6 +94,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=62557",
+          "author": "Jessie",
+          "description": "Guest post originally published on New Relic’s blog by Lavanya Chockalingam, Senior Product Marketing manager at New Relic Working within the Linux kernel is ideal when implementing security, networking, and observability features....",
+          "link": "https://www.cncf.io/blog/2021/06/07/what-is-ebpf-and-why-does-it-matter-for-observability/",
+          "publishedOn": "2021-06-07T15:00:00.000Z",
+          "wordCount": 1535,
+          "title": "What is eBPF and why does it matter for observability?"
+        },
+        {
           "id": "https://www.cncf.io/?p=62549",
           "author": "Jessie",
           "description": "Guest post originally published on The New Stack by Tito George, co-founder, logic.ai Most log management solutions store log data in a database and enable search by storing an index of the...",
