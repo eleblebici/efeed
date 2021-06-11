@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-10T00:49:30.159Z</updated>
+    <updated>2021-06-11T00:43:18.038Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TiKV + SPDK: Pushing the limits of storage performance]]></title>
+        <id>https://www.cncf.io/?p=62815</id>
+        <link href="https://www.cncf.io/blog/2021/06/10/tikv-spdk-pushing-the-limits-of-storage-performance/"/>
+        <updated>2021-06-10T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on PingCAP’s blog by Ke’ao Yang, Software Engineer at PingCAP At the heart of modern software is layered abstraction. In abstraction, each layer hides details that are not...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Harbor operator 1.0 is available now!]]></title>
         <id>https://www.cncf.io/?p=62844</id>
@@ -305,16 +315,6 @@ Thank you @tianheg, @onnyyonn]]></summary>
         <summary type="html"><![CDATA[Guest post originally published on Flux’s blog by Daniel Holbach Flux v2 has its first anniversary and reaches the 0.13 milestone, Alison joins maintainers, new guides and use-cases docs, upcoming events (yes...]]></summary>
         <author>
             <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Save up to 50% on Cloud Training Bundles and Bootcamps!]]></title>
-        <id>https://www.cncf.io/?p=62208</id>
-        <link href="https://www.cncf.io/blog/2021/05/11/save-up-to-50-on-cloud-training-bundles-and-bootcamps/"/>
-        <updated>2021-05-11T16:18:18.000Z</updated>
-        <summary type="html"><![CDATA[We probably don’t need to tell you how in demand cloud skills are right now, and how big of a shortage there is of qualified professionals. Just read these articles from TechHQ,...]]></summary>
-        <author>
-            <name>Katie Meinders</name>
         </author>
     </entry>
 </feed>

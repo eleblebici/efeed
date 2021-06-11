@@ -76,6 +76,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=62815",
+          "author": "Jessie",
+          "description": "Guest post originally published on PingCAP’s blog by Ke’ao Yang, Software Engineer at PingCAP At the heart of modern software is layered abstraction. In abstraction, each layer hides details that are not...",
+          "link": "https://www.cncf.io/blog/2021/06/10/tikv-spdk-pushing-the-limits-of-storage-performance/",
+          "publishedOn": "2021-06-10T15:00:00.000Z",
+          "wordCount": 1547,
+          "title": "TiKV + SPDK: Pushing the limits of storage performance"
+        },
+        {
           "id": "https://www.cncf.io/?p=62844",
           "author": "Katie Meinders",
           "description": "Harbor is a CNCF Graduated project, creating an open source trusted cloud native registry project that stores, signs, and scans content. A Kubernetes operator is a method of packaging, deploying, and managing...",
@@ -277,15 +286,6 @@
           "publishedOn": "2021-05-12T15:00:00.000Z",
           "wordCount": 1860,
           "title": "Flux: May 2021 update"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62208",
-          "author": "Katie Meinders",
-          "description": "We probably don’t need to tell you how in demand cloud skills are right now, and how big of a shortage there is of qualified professionals. Just read these articles from TechHQ,...",
-          "link": "https://www.cncf.io/blog/2021/05/11/save-up-to-50-on-cloud-training-bundles-and-bootcamps/",
-          "publishedOn": "2021-05-11T16:18:18.000Z",
-          "wordCount": 1438,
-          "title": "Save up to 50% on Cloud Training Bundles and Bootcamps!"
         }
       ]
     },
