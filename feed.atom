@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-11T00:43:18.038Z</updated>
+    <updated>2021-06-12T00:39:07.481Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[KubeCon + CloudNativeCon Europe 2021 – Virtual Conference Transparency Report]]></title>
+        <id>https://www.cncf.io/?p=62875</id>
+        <link href="https://www.cncf.io/blog/2021/06/11/kubecon-cloudnativecon-europe-2021-virtual-conference-transparency-report/"/>
+        <updated>2021-06-11T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With the challenges that have been brought on in the last year, and as we shift into new routines, cloud native has remained front and center of the digital transformation efforts keeping...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using CoreDNS effectively with Kubernetes]]></title>
+        <id>https://www.cncf.io/?p=62824</id>
+        <link href="https://www.cncf.io/blog/2021/06/11/using-coredns-effectively-with-kubernetes/"/>
+        <updated>2021-06-11T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on InfraCloud’s blog by Sanket Sudake, tech lead, open source contributor at InfraCloud Backstory We were increasing HTTP requests for one of our applications, hosted on the Kubernetes...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TiKV + SPDK: Pushing the limits of storage performance]]></title>
         <id>https://www.cncf.io/?p=62815</id>
@@ -303,16 +323,6 @@ Thank you @tianheg, @onnyyonn]]></summary>
         <link href="https://www.cncf.io/blog/2021/05/13/m2m-authentication-and-authorization-with-oauth-2-0-and-openid-connect/"/>
         <updated>2021-05-13T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[Guest post originally published on Mia-Platform’s blog by Davide Tantillo, Senior Technical Leader, and Davide Bianchi, Senior Technical Leader at Mia-Platform In this article we will talk about how to manage machine...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flux: May 2021 update]]></title>
-        <id>https://www.cncf.io/?p=62193</id>
-        <link href="https://www.cncf.io/blog/2021/05/12/may-2021-update/"/>
-        <updated>2021-05-12T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post originally published on Flux’s blog by Daniel Holbach Flux v2 has its first anniversary and reaches the 0.13 milestone, Alison joins maintainers, new guides and use-cases docs, upcoming events (yes...]]></summary>
         <author>
             <name>Jessie</name>
         </author>

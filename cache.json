@@ -76,6 +76,24 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=62875",
+          "author": "Jessie",
+          "description": "With the challenges that have been brought on in the last year, and as we shift into new routines, cloud native has remained front and center of the digital transformation efforts keeping...",
+          "link": "https://www.cncf.io/blog/2021/06/11/kubecon-cloudnativecon-europe-2021-virtual-conference-transparency-report/",
+          "publishedOn": "2021-06-11T15:00:00.000Z",
+          "wordCount": 673,
+          "title": "KubeCon + CloudNativeCon Europe 2021 – Virtual Conference Transparency Report"
+        },
+        {
+          "id": "https://www.cncf.io/?p=62824",
+          "author": "Jessie",
+          "description": "Guest post originally published on InfraCloud’s blog by Sanket Sudake, tech lead, open source contributor at InfraCloud Backstory We were increasing HTTP requests for one of our applications, hosted on the Kubernetes...",
+          "link": "https://www.cncf.io/blog/2021/06/11/using-coredns-effectively-with-kubernetes/",
+          "publishedOn": "2021-06-11T15:00:00.000Z",
+          "wordCount": 1388,
+          "title": "Using CoreDNS effectively with Kubernetes"
+        },
+        {
           "id": "https://www.cncf.io/?p=62815",
           "author": "Jessie",
           "description": "Guest post originally published on PingCAP’s blog by Ke’ao Yang, Software Engineer at PingCAP At the heart of modern software is layered abstraction. In abstraction, each layer hides details that are not...",
@@ -277,15 +295,6 @@
           "publishedOn": "2021-05-13T15:00:00.000Z",
           "wordCount": 2225,
           "title": "M2M authentication and authorization with OAuth 2.0 and OpenID Connect"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62193",
-          "author": "Jessie",
-          "description": "Guest post originally published on Flux’s blog by Daniel Holbach Flux v2 has its first anniversary and reaches the 0.13 milestone, Alison joins maintainers, new guides and use-cases docs, upcoming events (yes...",
-          "link": "https://www.cncf.io/blog/2021/05/12/may-2021-update/",
-          "publishedOn": "2021-05-12T15:00:00.000Z",
-          "wordCount": 1860,
-          "title": "Flux: May 2021 update"
         }
       ]
     },
