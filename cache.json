@@ -286,15 +286,6 @@
           "publishedOn": "2021-05-14T15:00:00.000Z",
           "wordCount": 1042,
           "title": "Never should you ever in Kubernetes part 2: Kubernetes security mistakes"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62221",
-          "author": "Jessie",
-          "description": "Guest post originally published on Mia-Platform’s blog by Davide Tantillo, Senior Technical Leader, and Davide Bianchi, Senior Technical Leader at Mia-Platform In this article we will talk about how to manage machine...",
-          "link": "https://www.cncf.io/blog/2021/05/13/m2m-authentication-and-authorization-with-oauth-2-0-and-openid-connect/",
-          "publishedOn": "2021-05-13T15:00:00.000Z",
-          "wordCount": 2225,
-          "title": "M2M authentication and authorization with OAuth 2.0 and OpenID Connect"
         }
       ]
     },

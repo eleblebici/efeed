@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-12T00:39:07.481Z</updated>
+    <updated>2021-06-13T00:46:11.093Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
@@ -313,16 +313,6 @@ Thank you @tianheg, @onnyyonn]]></summary>
         <link href="https://www.cncf.io/blog/2021/05/14/never-should-you-ever-in-kubernetes-part-2-kubernetes-security-mistakes/"/>
         <updated>2021-05-14T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[Guest post originally published on Fairwinds’s blog by Danielle Cook, technical writer at Fairwinds As we outlined in our first post in this series, there are some things that you should simply never,...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[M2M authentication and authorization with OAuth 2.0 and OpenID Connect]]></title>
-        <id>https://www.cncf.io/?p=62221</id>
-        <link href="https://www.cncf.io/blog/2021/05/13/m2m-authentication-and-authorization-with-oauth-2-0-and-openid-connect/"/>
-        <updated>2021-05-13T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post originally published on Mia-Platform’s blog by Davide Tantillo, Senior Technical Leader, and Davide Bianchi, Senior Technical Leader at Mia-Platform In this article we will talk about how to manage machine...]]></summary>
         <author>
             <name>Jessie</name>
         </author>
