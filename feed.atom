@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-13T00:46:11.093Z</updated>
+    <updated>2021-06-14T00:42:15.010Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
@@ -285,36 +285,6 @@ Chore: rendering logic refactoring. Adopting functional paradigm.
 Thank you @tianheg, @onnyyonn]]></summary>
         <author>
             <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Evaluating your Supply Chain Security]]></title>
-        <id>https://www.cncf.io/?p=62286</id>
-        <link href="https://www.cncf.io/blog/2021/05/14/evaluating-your-supply-chain-security/"/>
-        <updated>2021-05-14T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Last December, as we were all counting down the days until 2020 was no more, FireEye posted an announcement that caused various beveragewares across the world to fall and shatter on the...]]></summary>
-        <author>
-            <name>Katie Meinders</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CNCF Paper Defines Best Practices for Supply Chain Security]]></title>
-        <id>https://www.cncf.io/?p=62283</id>
-        <link href="https://www.cncf.io/announcements/2021/05/14/cncf-paper-defines-best-practices-for-supply-chain-security/"/>
-        <updated>2021-05-14T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[New paper demonstrates an actionable approach to architecting a secure supply chain amidst an increase in cyber attacks SAN FRANCISCO, Calif. – May 14, 2021 – The Cloud Native Computing Foundation® (CNCF®),...]]></summary>
-        <author>
-            <name>Katie Meinders</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Never should you ever in Kubernetes part 2: Kubernetes security mistakes]]></title>
-        <id>https://www.cncf.io/?p=62231</id>
-        <link href="https://www.cncf.io/blog/2021/05/14/never-should-you-ever-in-kubernetes-part-2-kubernetes-security-mistakes/"/>
-        <updated>2021-05-14T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post originally published on Fairwinds’s blog by Danielle Cook, technical writer at Fairwinds As we outlined in our first post in this series, there are some things that you should simply never,...]]></summary>
-        <author>
-            <name>Jessie</name>
         </author>
     </entry>
 </feed>
