@@ -49,24 +49,6 @@
           "publishedOn": "2021-05-17T05:32:19.000Z",
           "wordCount": 336,
           "title": "v1.7.2"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.1",
-          "author": null,
-          "description": "Fixed: static files were unnecessarily copied for custom templates.",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.1",
-          "publishedOn": "2021-05-16T02:33:58.000Z",
-          "wordCount": 276,
-          "title": "v1.7.1"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.0",
-          "author": null,
-          "description": "Added: templating system. Demo | Source | Docs\nChore: rendering logic refactoring. Adopting functional paradigm.\nThank you @tianheg, @onnyyonn",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.0",
-          "publishedOn": "2021-05-16T01:42:24.000Z",
-          "wordCount": 286,
-          "title": "v1.7.0"
         }
       ]
     },
@@ -75,6 +57,15 @@
       "feedUrl": "https://www.cncf.io/feed/",
       "siteUrl": "https://www.cncf.io",
       "articles": [
+        {
+          "id": "https://www.cncf.io/?p=62867",
+          "author": "Jessie",
+          "description": "Project guest post originally published on the Vitess Blog by Vicent Marti Although the main interface between applications and a Vitess database is through the MySQL protocol, Vitess is a large and...",
+          "link": "https://www.cncf.io/blog/2021/06/14/a-new-protocol-buffers-generator-for-go/",
+          "publishedOn": "2021-06-14T15:00:00.000Z",
+          "wordCount": 3071,
+          "title": "A new Protocol Buffers generator for Go"
+        },
         {
           "id": "https://www.cncf.io/?p=62875",
           "author": "Jessie",
