@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-15T00:45:23.864Z</updated>
+    <updated>2021-06-16T00:44:27.942Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Being a Linux Foundation’s CNCF mentee — My journey with Kyverno]]></title>
+        <id>https://www.cncf.io/?p=62870</id>
+        <link href="https://www.cncf.io/blog/2021/06/15/being-a-linux-foundations-cncf-mentee-my-journey-with-kyverno/"/>
+        <updated>2021-06-15T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mentorship spotlight guest post originally published on Medium by Yashvardhan Kukreja Hi folks! Recently, I completed the LFX CNCF Mentorship Programme which is an Open source programme where I worked on a...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A new Protocol Buffers generator for Go]]></title>
         <id>https://www.cncf.io/?p=62867</id>
@@ -262,17 +272,6 @@ Thank you: @LooperXX.]]></summary>
         <summary type="html"><![CDATA[KubeCon + CloudNativeCon Europe 2021 – Virtual sponsored post by Cisco and written by Vijoy Pandey VP Engineering, Emerging Technologies and Incubations, Cisco Unless you’ve been living in a cave, KubeCon, the CNCF conference focused...]]></summary>
         <author>
             <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.7.2]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.2</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.2"/>
-        <updated>2021-05-17T05:32:19.000Z</updated>
-        <summary type="html"><![CDATA[⚠ Deprecated: To accommodate the monorepo setup, the node version in all templates/demos/examples has changed from 14 to 16. This is not a breaking change as our compile target is still node 14, and node 16 is backward compatible. We still recommend you start using node-version: "16" in your .github/workflows/update-feed.yaml today to get the performance/security improvements from the newer node. See example
-Chore: Reorganize to monorepo with npm workspace.]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
         </author>
     </entry>
 </feed>
