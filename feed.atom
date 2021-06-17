@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-16T00:44:27.942Z</updated>
+    <updated>2021-06-17T00:42:40.398Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A New Kind of Trust Root]]></title>
+        <id>https://www.cncf.io/?p=62998</id>
+        <link href="https://www.cncf.io/blog/2021/06/16/a-new-kind-of-trust-root/"/>
+        <updated>2021-06-16T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Announcing the Sigstore Root Key Ceremony I’m thrilled to announce that the Sigstore community is holding our first Root Key ceremony on June 18th at 2pm Eastern, and I’m even more thrilled to announce...]]></summary>
+        <author>
+            <name>Katie Meinders</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simplifying SaaS, PaaS, and IaaS]]></title>
+        <id>https://www.cncf.io/?p=62598</id>
+        <link href="https://www.cncf.io/blog/2021/06/16/simplifying-saas-paas-and-iaas/"/>
+        <updated>2021-06-16T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on Logiq’s blog by Ajit Chelat Cloud computing is everywhere. An ever-increasing number of businesses have turned to the cloud for their storage, compute, analytics, content management and...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Being a Linux Foundation’s CNCF mentee — My journey with Kyverno]]></title>
         <id>https://www.cncf.io/?p=62870</id>
@@ -250,26 +270,6 @@ Thank you: @LooperXX.]]></summary>
         <link href="https://www.cncf.io/blog/2021/05/18/our-journey-to-building-a-managed-orchestration-system-at-bloomberg/"/>
         <updated>2021-05-18T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[Guest post by Nick Palumbo and Lewis Macdonald from Bloomberg Over the last decade, numerous workflow orchestration platforms have become popular in the technology community. The need to run logical flows of...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Solving customer related problems with R&D]]></title>
-        <id>https://www.cncf.io/?p=62293</id>
-        <link href="https://www.cncf.io/blog/2021/05/17/solving-customer-related-problems-with-rd/"/>
-        <updated>2021-05-17T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post originally published on Rookout’s blog by Dudi Cohen, VP of Research and Development at Rookout As an R&D manager, there are many things on my mind that keep me up...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The psychological value of a mesh]]></title>
-        <id>https://www.cncf.io/?p=62237</id>
-        <link href="https://www.cncf.io/blog/2021/05/17/the-psychological-value-of-a-mesh/"/>
-        <updated>2021-05-17T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[KubeCon + CloudNativeCon Europe 2021 – Virtual sponsored post by Cisco and written by Vijoy Pandey VP Engineering, Emerging Technologies and Incubations, Cisco Unless you’ve been living in a cave, KubeCon, the CNCF conference focused...]]></summary>
         <author>
             <name>Jessie</name>
         </author>

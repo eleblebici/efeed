@@ -49,6 +49,24 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=62998",
+          "author": "Katie Meinders",
+          "description": "Announcing the Sigstore Root Key Ceremony I’m thrilled to announce that the Sigstore community is holding our first Root Key ceremony on June 18th at 2pm Eastern, and I’m even more thrilled to announce...",
+          "link": "https://www.cncf.io/blog/2021/06/16/a-new-kind-of-trust-root/",
+          "publishedOn": "2021-06-16T15:00:00.000Z",
+          "wordCount": 1611,
+          "title": "A New Kind of Trust Root"
+        },
+        {
+          "id": "https://www.cncf.io/?p=62598",
+          "author": "Jessie",
+          "description": "Guest post originally published on Logiq’s blog by Ajit Chelat Cloud computing is everywhere. An ever-increasing number of businesses have turned to the cloud for their storage, compute, analytics, content management and...",
+          "link": "https://www.cncf.io/blog/2021/06/16/simplifying-saas-paas-and-iaas/",
+          "publishedOn": "2021-06-16T15:00:00.000Z",
+          "wordCount": 1168,
+          "title": "Simplifying SaaS, PaaS, and IaaS"
+        },
+        {
           "id": "https://www.cncf.io/?p=62870",
           "author": "Jessie",
           "description": "Mentorship spotlight guest post originally published on Medium by Yashvardhan Kukreja Hi folks! Recently, I completed the LFX CNCF Mentorship Programme which is an Open source programme where I worked on a...",
@@ -232,24 +250,6 @@
           "publishedOn": "2021-05-18T15:00:00.000Z",
           "wordCount": 2346,
           "title": "Our journey to building a managed orchestration system at Bloomberg"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62293",
-          "author": "Jessie",
-          "description": "Guest post originally published on Rookout’s blog by Dudi Cohen, VP of Research and Development at Rookout As an R&D manager, there are many things on my mind that keep me up...",
-          "link": "https://www.cncf.io/blog/2021/05/17/solving-customer-related-problems-with-rd/",
-          "publishedOn": "2021-05-17T15:00:00.000Z",
-          "wordCount": 2239,
-          "title": "Solving customer related problems with R&D"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62237",
-          "author": "Jessie",
-          "description": "KubeCon + CloudNativeCon Europe 2021 – Virtual sponsored post by Cisco and written by Vijoy Pandey VP Engineering, Emerging Technologies and Incubations, Cisco Unless you’ve been living in a cave, KubeCon, the CNCF conference focused...",
-          "link": "https://www.cncf.io/blog/2021/05/17/the-psychological-value-of-a-mesh/",
-          "publishedOn": "2021-05-17T15:00:00.000Z",
-          "wordCount": 1377,
-          "title": "The psychological value of a mesh"
         }
       ]
     },
