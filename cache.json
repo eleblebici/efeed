@@ -49,6 +49,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63081",
+          "author": "Jessie",
+          "description": "Guest post originally published on the Elastisys blog by Lars Larsson of Elastisys Let’s be honest. As InfoWorld recently humorously put it, “no one wants to manage Kubernetes anymore”. And with all...",
+          "link": "https://www.cncf.io/blog/2021/06/18/cloud-agnostic-third-party-managed-kubernetes-services-the-unexploited-opportunity/",
+          "publishedOn": "2021-06-18T15:00:00.000Z",
+          "wordCount": 1244,
+          "title": "Cloud-agnostic third party managed Kubernetes services – the unexploited opportunity"
+        },
+        {
           "id": "https://www.cncf.io/?p=62998",
           "author": "Katie Meinders",
           "description": "Announcing the Sigstore Root Key Ceremony I’m thrilled to announce that the Sigstore community is holding our first Root Key ceremony on June 18th at 2pm Eastern, and I’m even more thrilled to announce...",
