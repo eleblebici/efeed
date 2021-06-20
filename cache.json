@@ -241,15 +241,6 @@
           "publishedOn": "2021-05-24T15:00:00.000Z",
           "wordCount": 1096,
           "title": "Red Hat and IBM Research launch the Konveyor project"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62319",
-          "author": "Jessie",
-          "description": "Guest post by Akash Bakshi, Lead Content Writer at MSys Technologies With the rise of cloud computing, companies are constantly migrating their legacy data warehouses or analytical databases to the cloud. However,...",
-          "link": "https://www.cncf.io/blog/2021/05/20/building-a-modern-day-data-analytics-platform-on-aws/",
-          "publishedOn": "2021-05-20T15:00:00.000Z",
-          "wordCount": 1170,
-          "title": "Building a modern-day data analytics platform on AWS"
         }
       ]
     },

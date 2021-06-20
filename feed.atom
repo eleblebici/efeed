@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-19T00:44:13.611Z</updated>
+    <updated>2021-06-20T00:46:15.760Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
@@ -262,16 +262,6 @@ Thank you @Zenigata]]></summary>
 Thank you: @LooperXX.]]></summary>
         <author>
             <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a modern-day data analytics platform on AWS]]></title>
-        <id>https://www.cncf.io/?p=62319</id>
-        <link href="https://www.cncf.io/blog/2021/05/20/building-a-modern-day-data-analytics-platform-on-aws/"/>
-        <updated>2021-05-20T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post by Akash Bakshi, Lead Content Writer at MSys Technologies With the rise of cloud computing, companies are constantly migrating their legacy data warehouses or analytical databases to the cloud. However,...]]></summary>
-        <author>
-            <name>Jessie</name>
         </author>
     </entry>
 </feed>
