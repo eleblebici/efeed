@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-21T00:45:16.531Z</updated>
+    <updated>2021-06-22T00:41:07.615Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How H-E-B achieved four nines of reliability using Kubernetes and Linkerd]]></title>
+        <id>https://www.cncf.io/?p=63085</id>
+        <link href="https://www.cncf.io/blog/2021/06/21/how-h-e-b-achieved-four-nines-of-reliability-using-kubernetes-and-linkerd/"/>
+        <updated>2021-06-21T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post by Justin Turner, Director of Engineering at H-E-B Reinventing ourselves when it mattered most 2020 was a challenging year for many of us, both personally and professionally. The COVID-19 pandemic...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cloud-agnostic third party managed Kubernetes services – the unexploited opportunity]]></title>
         <id>https://www.cncf.io/?p=63081</id>
@@ -241,27 +251,6 @@ Thank you @Zenigata]]></summary>
         <summary type="html"><![CDATA[KubeCon + CloudNativeCon Europe 2021 – Virtual sponsored post by Red Hat  Kubernetes, supported by a vibrant open source community, can drive outstanding innovation. To help in Kubernetes adoption, Red Hat and IBM Research...]]></summary>
         <author>
             <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.8.1]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.1</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.1"/>
-        <updated>2021-05-23T05:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Fixed: UnhandledPromiseRejectionWarning: Error: At least one option must be a string]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.8.0]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.0</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.0"/>
-        <updated>2021-05-23T05:12:08.000Z</updated>
-        <summary type="html"><![CDATA[Changed: Smart summary truncation. When there is no dedicated summary (only Atom feed has it, and many sites don't use it) from the source, we check if the content/description (Both Atom and RSS) field is long enough to be full text. If so, it will be truncated into a "pseudo" summary. If not, we assume the source used the content field as summary, and it will be displayed in full length.
-Thank you: @LooperXX.]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
         </author>
     </entry>
 </feed>

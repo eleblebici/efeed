@@ -22,24 +22,6 @@
           "publishedOn": "2021-05-26T06:02:55.000Z",
           "wordCount": 417,
           "title": "v1.9.0"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.1",
-          "author": null,
-          "description": "Fixed: UnhandledPromiseRejectionWarning: Error: At least one option must be a string",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.1",
-          "publishedOn": "2021-05-23T05:40:12.000Z",
-          "wordCount": 282,
-          "title": "v1.8.1"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.0",
-          "author": null,
-          "description": "Changed: Smart summary truncation. When there is no dedicated summary (only Atom feed has it, and many sites don't use it) from the source, we check if the content/description (Both Atom and RSS) field is long enough to be full text. If so, it will be truncated into a \"pseudo\" summary. If not, we assume the source used the content field as summary, and it will be displayed in full length.\nThank you: @LooperXX.",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.0",
-          "publishedOn": "2021-05-23T05:12:08.000Z",
-          "wordCount": 341,
-          "title": "v1.8.0"
         }
       ]
     },
@@ -48,6 +30,15 @@
       "feedUrl": "https://www.cncf.io/feed/",
       "siteUrl": "https://www.cncf.io",
       "articles": [
+        {
+          "id": "https://www.cncf.io/?p=63085",
+          "author": "Jessie",
+          "description": "Guest post by Justin Turner, Director of Engineering at H-E-B Reinventing ourselves when it mattered most 2020 was a challenging year for many of us, both personally and professionally. The COVID-19 pandemic...",
+          "link": "https://www.cncf.io/blog/2021/06/21/how-h-e-b-achieved-four-nines-of-reliability-using-kubernetes-and-linkerd/",
+          "publishedOn": "2021-06-21T15:00:00.000Z",
+          "wordCount": 2622,
+          "title": "How H-E-B achieved four nines of reliability using Kubernetes and Linkerd"
+        },
         {
           "id": "https://www.cncf.io/?p=63081",
           "author": "Jessie",
