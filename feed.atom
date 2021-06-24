@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-23T00:40:08.657Z</updated>
-    <generator>osmosfeed 1.10.2</generator>
+    <updated>2021-06-24T00:34:36.979Z</updated>
+    <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[CNCF End User Community Provides Insights into Kubernetes Cluster Management with Technology Radar]]></title>
+        <id>https://www.cncf.io/?p=63293</id>
+        <link href="https://www.cncf.io/announcements/2021/06/23/cncf-end-user-community-provides-insights-into-kubernetes-cluster-management-with-technology-radar/"/>
+        <updated>2021-06-23T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[End User Community reports that cluster management is complex with no defined path to success SAN FRANCISCO, Calif. – June 23, 2021 – The Cloud Native Computing Foundation® (CNCF®), which builds sustainable...]]></summary>
+        <author>
+            <name>Katie Meinders</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using KubeEdge in the industrial internet big data center]]></title>
+        <id>https://www.cncf.io/?p=63260</id>
+        <link href="https://www.cncf.io/blog/2021/06/23/using-kubeedge-in-the-industrial-internet-big-data-center/"/>
+        <updated>2021-06-23T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post by Huawei Project Background In 2018, the Ministry of Industry and Information Technology (MIIT) of China launched a national innovation and development project to build an industrial big data center....]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v1.11.0]]></title>
+        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.0</id>
+        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.0"/>
+        <updated>2021-06-23T05:57:59.000Z</updated>
+        <summary type="html"><![CDATA[Added: support an experimental template for YouTube feed 📺 Demo | Source
+
+Aggregate content from any YouTube channel rss url https://www.youtube.com/feeds/videos.xml?channel_id=<replace_with_channel_id>
+Videos are embedded via iframe and loading accelerated by youtube-lite-embed
+Ads are reduced thanks to YouTube's policy for embedded videos 🙃
+Works on mobile devices with butter smooth horizontal scroll.
+Caveat: the template works only with YouTube content. You cannot mix textual RSS feed or other video sources such as Vimeo.
+Changed: Default HTML template meta tag adjusted to match convention
+Changed: sources in template data is now ordered by last update timestamp (as opposed to alphabetical)
+Thank you @PiyushLosalka]]></summary>
+        <author>
+            <name>Release notes from osmosfeed</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How H-E-B achieved four nines of reliability using Kubernetes and Linkerd]]></title>
         <id>https://www.cncf.io/?p=63085</id>
@@ -231,26 +270,6 @@ Fixed: the articles in template data were not sorted.
 Thank you @Zenigata]]></summary>
         <author>
             <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How AIOps helps in application monitoring]]></title>
-        <id>https://www.cncf.io/?p=62462</id>
-        <link href="https://www.cncf.io/blog/2021/05/24/how-aiops-helps-in-application-monitoring/"/>
-        <updated>2021-05-24T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post originally published on the LOGIQ blog by Ajit Chelat There’s no one-size-fits-all approach regarding application monitoring, especially for companies using applications in various cloud environments. Companies are rapidly investing in...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Red Hat and IBM Research launch the Konveyor project]]></title>
-        <id>https://www.cncf.io/?p=62227</id>
-        <link href="https://www.cncf.io/blog/2021/05/24/red-hat-and-ibm-research-launch-the-konveyor-project/"/>
-        <updated>2021-05-24T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[KubeCon + CloudNativeCon Europe 2021 – Virtual sponsored post by Red Hat  Kubernetes, supported by a vibrant open source community, can drive outstanding innovation. To help in Kubernetes adoption, Red Hat and IBM Research...]]></summary>
-        <author>
-            <name>Jessie</name>
         </author>
     </entry>
 </feed>

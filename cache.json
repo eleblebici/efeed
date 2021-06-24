@@ -6,6 +6,15 @@
       "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
       "articles": [
         {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.0",
+          "author": null,
+          "description": "Added: support an experimental template for YouTube feed 📺 Demo | Source\n\nAggregate content from any YouTube channel rss url https://www.youtube.com/feeds/videos.xml?channel_id=<replace_with_channel_id>\nVideos are embedded via iframe and loading accelerated by youtube-lite-embed\nAds are reduced thanks to YouTube's policy for embedded videos 🙃\nWorks on mobile devices with butter smooth horizontal scroll.\nCaveat: the template works only with YouTube content. You cannot mix textual RSS feed or other video sources such as Vimeo.\nChanged: Default HTML template meta tag adjusted to match convention\nChanged: sources in template data is now ordered by last update timestamp (as opposed to alphabetical)\nThank you @PiyushLosalka",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.0",
+          "publishedOn": "2021-06-23T05:57:59.000Z",
+          "wordCount": 368,
+          "title": "v1.11.0"
+        },
+        {
           "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.10.2",
           "author": null,
           "description": "Added: testing and CI/CD workflows",
@@ -30,6 +39,24 @@
       "feedUrl": "https://www.cncf.io/feed/",
       "siteUrl": "https://www.cncf.io",
       "articles": [
+        {
+          "id": "https://www.cncf.io/?p=63293",
+          "author": "Katie Meinders",
+          "description": "End User Community reports that cluster management is complex with no defined path to success SAN FRANCISCO, Calif. – June 23, 2021 – The Cloud Native Computing Foundation® (CNCF®), which builds sustainable...",
+          "link": "https://www.cncf.io/announcements/2021/06/23/cncf-end-user-community-provides-insights-into-kubernetes-cluster-management-with-technology-radar/",
+          "publishedOn": "2021-06-23T16:00:00.000Z",
+          "wordCount": 1425,
+          "title": "CNCF End User Community Provides Insights into Kubernetes Cluster Management with Technology Radar"
+        },
+        {
+          "id": "https://www.cncf.io/?p=63260",
+          "author": "Jessie",
+          "description": "Guest post by Huawei Project Background In 2018, the Ministry of Industry and Information Technology (MIIT) of China launched a national innovation and development project to build an industrial big data center....",
+          "link": "https://www.cncf.io/blog/2021/06/23/using-kubeedge-in-the-industrial-internet-big-data-center/",
+          "publishedOn": "2021-06-23T15:00:00.000Z",
+          "wordCount": 1753,
+          "title": "Using KubeEdge in the industrial internet big data center"
+        },
         {
           "id": "https://www.cncf.io/?p=63085",
           "author": "Jessie",
@@ -214,24 +241,6 @@
           "publishedOn": "2021-05-27T15:00:00.000Z",
           "wordCount": 810,
           "title": "Argo rollouts 1.0 released!"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62462",
-          "author": "Jessie",
-          "description": "Guest post originally published on the LOGIQ blog by Ajit Chelat There’s no one-size-fits-all approach regarding application monitoring, especially for companies using applications in various cloud environments. Companies are rapidly investing in...",
-          "link": "https://www.cncf.io/blog/2021/05/24/how-aiops-helps-in-application-monitoring/",
-          "publishedOn": "2021-05-24T15:00:00.000Z",
-          "wordCount": 1388,
-          "title": "How AIOps helps in application monitoring"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62227",
-          "author": "Jessie",
-          "description": "KubeCon + CloudNativeCon Europe 2021 – Virtual sponsored post by Red Hat  Kubernetes, supported by a vibrant open source community, can drive outstanding innovation. To help in Kubernetes adoption, Red Hat and IBM Research...",
-          "link": "https://www.cncf.io/blog/2021/05/24/red-hat-and-ibm-research-launch-the-konveyor-project/",
-          "publishedOn": "2021-05-24T15:00:00.000Z",
-          "wordCount": 1096,
-          "title": "Red Hat and IBM Research launch the Konveyor project"
         }
       ]
     },
@@ -242,5 +251,5 @@
       "articles": []
     }
   ],
-  "cliVersion": "1.10.2"
+  "cliVersion": "1.11.0"
 }
