@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-25T00:47:51.100Z</updated>
+    <updated>2021-06-26T00:42:13.572Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The time for cloud-native communities is now… and it is data-driven]]></title>
+        <id>https://www.cncf.io/?p=63314</id>
+        <link href="https://www.cncf.io/blog/2021/06/25/the-time-for-cloud-native-communities-is-now-and-it-is-data-driven/"/>
+        <updated>2021-06-25T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post by Adrian Gonzalez Sanchez, Head of AI Customer Success at Peritus.ai The international and cloud-native context  The evolution of the cloud-native ecosystem has been unstoppable during the last five years....]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CNCF celebrates LGBTQ+ month: diversity-powered resilience in action]]></title>
         <id>https://www.cncf.io/?p=63315</id>

@@ -31,6 +31,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63314",
+          "author": "Jessie",
+          "description": "Guest post by Adrian Gonzalez Sanchez, Head of AI Customer Success at Peritus.ai The international and cloud-native context  The evolution of the cloud-native ecosystem has been unstoppable during the last five years....",
+          "link": "https://www.cncf.io/blog/2021/06/25/the-time-for-cloud-native-communities-is-now-and-it-is-data-driven/",
+          "publishedOn": "2021-06-25T15:00:00.000Z",
+          "wordCount": 1373,
+          "title": "The time for cloud-native communities is now… and it is data-driven"
+        },
+        {
           "id": "https://www.cncf.io/?p=63315",
           "author": "Priyanka Sharma",
           "description": "Happy Pride Month, Everyone! This June we’re celebrating LGBTQ+ Pride Month, recognizing the incredible resilience and determination of the LGBTQ+ community. This blog post is a little bit later than we planned,...",
