@@ -250,15 +250,6 @@
           "publishedOn": "2021-05-28T15:00:00.000Z",
           "wordCount": 1658,
           "title": "Disaster Recovery Plan: How to make sure you’re prepared for the worst"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62554",
-          "author": "Jessie",
-          "description": "Project post from Henrik Blixt and Argo maintainers It’s with great pride and excitement that we announce Argo Rollouts 1.0! The project has seen rapid adoption and production use even in it’s 0.x releases...",
-          "link": "https://www.cncf.io/blog/2021/05/27/argo-rollouts-1-0-released/",
-          "publishedOn": "2021-05-27T15:00:00.000Z",
-          "wordCount": 810,
-          "title": "Argo rollouts 1.0 released!"
         }
       ]
     },

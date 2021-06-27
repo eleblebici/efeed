@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-26T00:42:13.572Z</updated>
+    <updated>2021-06-27T00:50:15.415Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
@@ -271,16 +271,6 @@ Thank you @PiyushLosalka]]></summary>
         <link href="https://www.cncf.io/blog/2021/05/28/disaster-recovery-plan-how-to-make-sure-youre-prepared-for-the-worst/"/>
         <updated>2021-05-28T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[Guest post originally published on Rookout’s blog by Gilad Weiss, Full Stack Developer at Rookout The first lesson you learn as you start to work around the DevOps field is that being...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Argo rollouts 1.0 released!]]></title>
-        <id>https://www.cncf.io/?p=62554</id>
-        <link href="https://www.cncf.io/blog/2021/05/27/argo-rollouts-1-0-released/"/>
-        <updated>2021-05-27T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Project post from Henrik Blixt and Argo maintainers It’s with great pride and excitement that we announce Argo Rollouts 1.0! The project has seen rapid adoption and production use even in it’s 0.x releases...]]></summary>
         <author>
             <name>Jessie</name>
         </author>
