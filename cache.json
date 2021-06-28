@@ -232,24 +232,6 @@
           "publishedOn": "2021-06-01T15:00:00.000Z",
           "wordCount": 1382,
           "title": "Overcoming 5 key challenges of analytics in the cloud"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62565",
-          "author": "Jessie",
-          "description": "Guest Project Post originally published on the Linkerd blog by William Morgan of Linkerd Two years ago, the fine folks at Kinvolk benchmarked the performance of Linkerd and Istio and showed that Linkerd was dramatically...",
-          "link": "https://www.cncf.io/blog/2021/05/28/benchmarking-linkerd-and-istio/",
-          "publishedOn": "2021-05-28T15:00:00.000Z",
-          "wordCount": 2598,
-          "title": "Benchmarking Linkerd and Istio"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62514",
-          "author": "Jessie",
-          "description": "Guest post originally published on Rookout’s blog by Gilad Weiss, Full Stack Developer at Rookout The first lesson you learn as you start to work around the DevOps field is that being...",
-          "link": "https://www.cncf.io/blog/2021/05/28/disaster-recovery-plan-how-to-make-sure-youre-prepared-for-the-worst/",
-          "publishedOn": "2021-05-28T15:00:00.000Z",
-          "wordCount": 1658,
-          "title": "Disaster Recovery Plan: How to make sure you’re prepared for the worst"
         }
       ]
     },
