@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-28T00:47:01.194Z</updated>
+    <updated>2021-06-29T00:43:23.383Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TiFS, a TiKV-based partition tolerant, strictly consistent file system]]></title>
+        <id>https://www.cncf.io/?p=63268</id>
+        <link href="https://www.cncf.io/blog/2021/06/28/tifs-a-tikv-based-partition-tolerant-strictly-consistent-file-system/"/>
+        <updated>2021-06-28T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on PingCap’s blog by Hexi Lee, Software Engineer Intern at PingCAP TiKV is a distributed key-value storage engine, featuring strong consistency and partition tolerance. It can act either...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The time for cloud-native communities is now… and it is data-driven]]></title>
         <id>https://www.cncf.io/?p=63314</id>

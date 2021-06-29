@@ -31,6 +31,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63268",
+          "author": "Jessie",
+          "description": "Guest post originally published on PingCap’s blog by Hexi Lee, Software Engineer Intern at PingCAP TiKV is a distributed key-value storage engine, featuring strong consistency and partition tolerance. It can act either...",
+          "link": "https://www.cncf.io/blog/2021/06/28/tifs-a-tikv-based-partition-tolerant-strictly-consistent-file-system/",
+          "publishedOn": "2021-06-28T15:00:00.000Z",
+          "wordCount": 2835,
+          "title": "TiFS, a TiKV-based partition tolerant, strictly consistent file system"
+        },
+        {
           "id": "https://www.cncf.io/?p=63314",
           "author": "Jessie",
           "description": "Guest post by Adrian Gonzalez Sanchez, Head of AI Customer Success at Peritus.ai The international and cloud-native context  The evolution of the cloud-native ecosystem has been unstoppable during the last five years....",
