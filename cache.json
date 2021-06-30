@@ -31,6 +31,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63494",
+          "author": "Katie Meinders",
+          "description": "With the help of the FinOps Foundation, CNCF recently conducted a microsurvey of the extended community to see how organizations are managing Kubernetes and cloud costs with FInOps or Cloud Financial Management...",
+          "link": "https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend/",
+          "publishedOn": "2021-06-29T15:00:00.000Z",
+          "wordCount": 602,
+          "title": "FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes cost monitoring is causing overspend"
+        },
+        {
           "id": "https://www.cncf.io/?p=63268",
           "author": "Jessie",
           "description": "Guest post originally published on PingCap’s blog by Hexi Lee, Software Engineer Intern at PingCAP TiKV is a distributed key-value storage engine, featuring strong consistency and partition tolerance. It can act either...",

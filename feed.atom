@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-29T00:43:23.383Z</updated>
+    <updated>2021-06-30T00:47:54.820Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes cost monitoring is causing overspend]]></title>
+        <id>https://www.cncf.io/?p=63494</id>
+        <link href="https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend/"/>
+        <updated>2021-06-29T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With the help of the FinOps Foundation, CNCF recently conducted a microsurvey of the extended community to see how organizations are managing Kubernetes and cloud costs with FInOps or Cloud Financial Management...]]></summary>
+        <author>
+            <name>Katie Meinders</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TiFS, a TiKV-based partition tolerant, strictly consistent file system]]></title>
         <id>https://www.cncf.io/?p=63268</id>
