@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-30T00:47:54.820Z</updated>
+    <updated>2021-07-01T00:47:20.839Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Securing Access to your Kubernetes Applications with Dex and RBAC]]></title>
+        <id>https://www.cncf.io/?p=63500</id>
+        <link href="https://www.cncf.io/blog/2021/06/30/securing-access-to-your-kubernetes-applications-with-dex-and-rbac/"/>
+        <updated>2021-06-30T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post from Onkar Bhat, Engineering Manager and Deepika Dixit, Software Engineer, Kasten by Veeam Security is a critical requirement for application development, as is configuring authentication and authorization workflows in a...]]></summary>
+        <author>
+            <name>Katie Meinders</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes cost monitoring is causing overspend]]></title>
         <id>https://www.cncf.io/?p=63494</id>
@@ -263,16 +273,6 @@ Thank you @PiyushLosalka]]></summary>
         <summary type="html"><![CDATA[Guest post by Akash Bakshi of MSys Technologies In today’s world of enterprise IT, managing vast amounts of data is necessary for all digital transformation. According to MarketsandMarkets.com, the global cloud analytics market...]]></summary>
         <author>
             <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.10.2]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.10.2</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.10.2"/>
-        <updated>2021-06-01T04:39:30.000Z</updated>
-        <summary type="html"><![CDATA[Added: testing and CI/CD workflows]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
         </author>
     </entry>
 </feed>

@@ -13,15 +13,6 @@
           "publishedOn": "2021-06-23T05:57:59.000Z",
           "wordCount": 368,
           "title": "v1.11.0"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.10.2",
-          "author": null,
-          "description": "Added: testing and CI/CD workflows",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.10.2",
-          "publishedOn": "2021-06-01T04:39:30.000Z",
-          "wordCount": 268,
-          "title": "v1.10.2"
         }
       ]
     },
@@ -30,6 +21,15 @@
       "feedUrl": "https://www.cncf.io/feed/",
       "siteUrl": "https://www.cncf.io",
       "articles": [
+        {
+          "id": "https://www.cncf.io/?p=63500",
+          "author": "Katie Meinders",
+          "description": "Guest post from Onkar Bhat, Engineering Manager and Deepika Dixit, Software Engineer, Kasten by Veeam Security is a critical requirement for application development, as is configuring authentication and authorization workflows in a...",
+          "link": "https://www.cncf.io/blog/2021/06/30/securing-access-to-your-kubernetes-applications-with-dex-and-rbac/",
+          "publishedOn": "2021-06-30T15:00:00.000Z",
+          "wordCount": 1047,
+          "title": "Securing Access to your Kubernetes Applications with Dex and RBAC"
+        },
         {
           "id": "https://www.cncf.io/?p=63494",
           "author": "Katie Meinders",
