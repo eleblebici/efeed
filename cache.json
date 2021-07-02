@@ -22,6 +22,24 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63351",
+          "author": "Jessie",
+          "description": "Guest post originally published on Fairwinds’s blog by Robert Brennan, Director of Open Source Software at Fairwinds Kubernetes is an incredibly powerful platform for deploying software. The level of flexibility it provides...",
+          "link": "https://www.cncf.io/blog/2021/07/01/what-is-fairwinds-polaris-kubernetes-open-source-configuration-validation/",
+          "publishedOn": "2021-07-01T15:00:00.000Z",
+          "wordCount": 1294,
+          "title": "What is Polaris? Kubernetes open source configuration validation"
+        },
+        {
+          "id": "https://www.cncf.io/?p=63633",
+          "author": "Jessie",
+          "description": "Expenditure on Kubernetes is rising dramatically, and most businesses are struggling to accurately project how much they’re expecting to spend on their container orchestration systems in future. Over the last year, Kubernetes-related...",
+          "link": "https://www.cncf.io/blog/2021/06/30/itpro-kubernetes-costs-spiraling-as-businesses-fail-to-monitor-spend/",
+          "publishedOn": "2021-06-30T19:15:00.000Z",
+          "wordCount": 438,
+          "title": "ITPro: “Kubernetes costs spiraling as businesses fail to monitor spend”"
+        },
+        {
           "id": "https://www.cncf.io/?p=63500",
           "author": "Katie Meinders",
           "description": "Guest post from Onkar Bhat, Engineering Manager and Deepika Dixit, Software Engineer, Kasten by Veeam Security is a critical requirement for application development, as is configuring authentication and authorization workflows in a...",
@@ -241,15 +259,6 @@
           "publishedOn": "2021-06-02T15:00:00.000Z",
           "wordCount": 1461,
           "title": "Flux June 2021 update"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62516",
-          "author": "Jessie",
-          "description": "Guest post by Akash Bakshi of MSys Technologies In today’s world of enterprise IT, managing vast amounts of data is necessary for all digital transformation. According to MarketsandMarkets.com, the global cloud analytics market...",
-          "link": "https://www.cncf.io/blog/2021/06/01/overcoming-5-key-challenges-of-analytics-in-the-cloud/",
-          "publishedOn": "2021-06-01T15:00:00.000Z",
-          "wordCount": 1382,
-          "title": "Overcoming 5 key challenges of analytics in the cloud"
         }
       ]
     },

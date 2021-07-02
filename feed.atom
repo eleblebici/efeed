@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-01T00:47:20.839Z</updated>
+    <updated>2021-07-02T00:43:32.644Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[What is Polaris? Kubernetes open source configuration validation]]></title>
+        <id>https://www.cncf.io/?p=63351</id>
+        <link href="https://www.cncf.io/blog/2021/07/01/what-is-fairwinds-polaris-kubernetes-open-source-configuration-validation/"/>
+        <updated>2021-07-01T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on Fairwinds’s blog by Robert Brennan, Director of Open Source Software at Fairwinds Kubernetes is an incredibly powerful platform for deploying software. The level of flexibility it provides...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ITPro: “Kubernetes costs spiraling as businesses fail to monitor spend”]]></title>
+        <id>https://www.cncf.io/?p=63633</id>
+        <link href="https://www.cncf.io/blog/2021/06/30/itpro-kubernetes-costs-spiraling-as-businesses-fail-to-monitor-spend/"/>
+        <updated>2021-06-30T19:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Expenditure on Kubernetes is rising dramatically, and most businesses are struggling to accurately project how much they’re expecting to spend on their container orchestration systems in future. Over the last year, Kubernetes-related...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Securing Access to your Kubernetes Applications with Dex and RBAC]]></title>
         <id>https://www.cncf.io/?p=63500</id>
@@ -263,16 +283,6 @@ Thank you @PiyushLosalka]]></summary>
         <summary type="html"><![CDATA[As the Flux family of projects and its communities are growing, we strive to inform you each month about what has already landed, new possibilities which are available for integration and where...]]></summary>
         <author>
             <name>Katie Meinders</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Overcoming 5 key challenges of analytics in the cloud]]></title>
-        <id>https://www.cncf.io/?p=62516</id>
-        <link href="https://www.cncf.io/blog/2021/06/01/overcoming-5-key-challenges-of-analytics-in-the-cloud/"/>
-        <updated>2021-06-01T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post by Akash Bakshi of MSys Technologies In today’s world of enterprise IT, managing vast amounts of data is necessary for all digital transformation. According to MarketsandMarkets.com, the global cloud analytics market...]]></summary>
-        <author>
-            <name>Jessie</name>
         </author>
     </entry>
 </feed>
