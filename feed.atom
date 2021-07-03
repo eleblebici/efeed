@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-02T00:43:32.644Z</updated>
+    <updated>2021-07-03T00:43:46.629Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Decoding Disaster Recovery (DR) scenarios in AWS]]></title>
+        <id>https://www.cncf.io/?p=63362</id>
+        <link href="https://www.cncf.io/blog/2021/07/02/decoding-disaster-recovery-dr-scenarios-in-aws/"/>
+        <updated>2021-07-02T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post by Akash Bakshi at MSys Technologies AWS is known to be a high-performance, scalable computing infrastructure, which more and more organizations are adapting to modernize their IT. However, one must...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What is Polaris? Kubernetes open source configuration validation]]></title>
         <id>https://www.cncf.io/?p=63351</id>
@@ -261,26 +271,6 @@ Thank you @PiyushLosalka]]></summary>
         <link href="https://www.cncf.io/blog/2021/06/03/cloud-native-community-goes-live-with-10-shows-on-twitch/"/>
         <updated>2021-06-03T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[We are ecstatic to announce the launch of 10 new community shows on CloudNative.tv starting on June 7th. CNCF launched livestreaming on Twitch at the beginning of the year with Cloud Native...]]></summary>
-        <author>
-            <name>Katie Meinders</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Foundation Kubernetes Certifications Now Include Exam Simulator]]></title>
-        <id>https://www.cncf.io/?p=62689</id>
-        <link href="https://www.cncf.io/announcements/2021/06/02/linux-foundation-kubernetes-certifications-now-include-exam-simulator/"/>
-        <updated>2021-06-02T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[New tool will enable those registered for a certification exam to experience the test environment before sitting for their exam SAN FRANCISCO, June 2, 2021 – The Linux Foundation, the nonprofit organization enabling mass innovation...]]></summary>
-        <author>
-            <name>Katie Meinders</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flux June 2021 update]]></title>
-        <id>https://www.cncf.io/?p=62634</id>
-        <link href="https://www.cncf.io/blog/2021/06/02/flux-june-2021-update/"/>
-        <updated>2021-06-02T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As the Flux family of projects and its communities are growing, we strive to inform you each month about what has already landed, new possibilities which are available for integration and where...]]></summary>
         <author>
             <name>Katie Meinders</name>
         </author>

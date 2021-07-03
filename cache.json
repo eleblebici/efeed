@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63362",
+          "author": "Jessie",
+          "description": "Guest post by Akash Bakshi at MSys Technologies AWS is known to be a high-performance, scalable computing infrastructure, which more and more organizations are adapting to modernize their IT. However, one must...",
+          "link": "https://www.cncf.io/blog/2021/07/02/decoding-disaster-recovery-dr-scenarios-in-aws/",
+          "publishedOn": "2021-07-02T15:00:00.000Z",
+          "wordCount": 1725,
+          "title": "Decoding Disaster Recovery (DR) scenarios in AWS"
+        },
+        {
           "id": "https://www.cncf.io/?p=63351",
           "author": "Jessie",
           "description": "Guest post originally published on Fairwinds’s blog by Robert Brennan, Director of Open Source Software at Fairwinds Kubernetes is an incredibly powerful platform for deploying software. The level of flexibility it provides...",
@@ -241,24 +250,6 @@
             "length": "43228256",
             "type": "video/mp4"
           }
-        },
-        {
-          "id": "https://www.cncf.io/?p=62689",
-          "author": "Katie Meinders",
-          "description": "New tool will enable those registered for a certification exam to experience the test environment before sitting for their exam SAN FRANCISCO, June 2, 2021 – The Linux Foundation, the nonprofit organization enabling mass innovation...",
-          "link": "https://www.cncf.io/announcements/2021/06/02/linux-foundation-kubernetes-certifications-now-include-exam-simulator/",
-          "publishedOn": "2021-06-02T16:00:00.000Z",
-          "wordCount": 1082,
-          "title": "Linux Foundation Kubernetes Certifications Now Include Exam Simulator"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62634",
-          "author": "Katie Meinders",
-          "description": "As the Flux family of projects and its communities are growing, we strive to inform you each month about what has already landed, new possibilities which are available for integration and where...",
-          "link": "https://www.cncf.io/blog/2021/06/02/flux-june-2021-update/",
-          "publishedOn": "2021-06-02T15:00:00.000Z",
-          "wordCount": 1461,
-          "title": "Flux June 2021 update"
         }
       ]
     },
