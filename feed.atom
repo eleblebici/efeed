@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-03T00:43:46.629Z</updated>
+    <updated>2021-07-04T00:45:44.263Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
@@ -263,16 +263,6 @@ Thank you @PiyushLosalka]]></summary>
         <summary type="html"><![CDATA[Guest post originally published on The New Stack by Tito George, co-founder, logic.ai Most log management solutions store log data in a database and enable search by storing an index of the...]]></summary>
         <author>
             <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[#TeamCloudNative goes live with 10 shows on Twitch]]></title>
-        <id>https://www.cncf.io/?p=62684</id>
-        <link href="https://www.cncf.io/blog/2021/06/03/cloud-native-community-goes-live-with-10-shows-on-twitch/"/>
-        <updated>2021-06-03T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We are ecstatic to announce the launch of 10 new community shows on CloudNative.tv starting on June 7th. CNCF launched livestreaming on Twitch at the beginning of the year with Cloud Native...]]></summary>
-        <author>
-            <name>Katie Meinders</name>
         </author>
     </entry>
 </feed>
