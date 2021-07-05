@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-04T00:45:44.263Z</updated>
+    <updated>2021-07-05T00:41:05.327Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
@@ -251,16 +251,6 @@ Thank you @PiyushLosalka]]></summary>
         <link href="https://www.cncf.io/blog/2021/06/07/what-is-ebpf-and-why-does-it-matter-for-observability/"/>
         <updated>2021-06-07T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[Guest post originally published on New Relic’s blog by Lavanya Chockalingam, Senior Product Marketing manager at New Relic Working within the Linux kernel is ideal when implementing security, networking, and observability features....]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Compute and storage should be decoupled for log management at scale]]></title>
-        <id>https://www.cncf.io/?p=62549</id>
-        <link href="https://www.cncf.io/blog/2021/06/04/compute-and-storage-should-be-decoupled-for-log-management-at-scale/"/>
-        <updated>2021-06-04T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post originally published on The New Stack by Tito George, co-founder, logic.ai Most log management solutions store log data in a database and enable search by storing an index of the...]]></summary>
         <author>
             <name>Jessie</name>
         </author>
