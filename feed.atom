@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-05T00:41:05.327Z</updated>
+    <updated>2021-07-06T00:46:01.372Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[KubeEdge: cloud native edge computing]]></title>
+        <id>https://www.cncf.io/?p=63275</id>
+        <link href="https://www.cncf.io/blog/2021/07/05/kubeedge-cloud-native-edge-computing/"/>
+        <updated>2021-07-05T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Project guest post by KubeEdge Maintainers KubeEdge enables cloud-edge synergy, computing at edge, and easy access of a massive number of devices based on Kubernetes container orchestration and scheduling capabilities. This article...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Decoding Disaster Recovery (DR) scenarios in AWS]]></title>
         <id>https://www.cncf.io/?p=63362</id>

@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63275",
+          "author": "Jessie",
+          "description": "Project guest post by KubeEdge Maintainers KubeEdge enables cloud-edge synergy, computing at edge, and easy access of a massive number of devices based on Kubernetes container orchestration and scheduling capabilities. This article...",
+          "link": "https://www.cncf.io/blog/2021/07/05/kubeedge-cloud-native-edge-computing/",
+          "publishedOn": "2021-07-05T15:00:00.000Z",
+          "wordCount": 1483,
+          "title": "KubeEdge: cloud native edge computing"
+        },
+        {
           "id": "https://www.cncf.io/?p=63362",
           "author": "Jessie",
           "description": "Guest post by Akash Bakshi at MSys Technologies AWS is known to be a high-performance, scalable computing infrastructure, which more and more organizations are adapting to modernize their IT. However, one must...",
