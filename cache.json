@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63498",
+          "author": "Jessie",
+          "description": "Guest post by Michael Peters (Red Hat) & Gheorghe Almasi (IBM) If your organization is managing hundreds or thousands (or hundreds of thousands) of servers, how do you make sure they haven’t...",
+          "link": "https://www.cncf.io/blog/2021/07/06/ibm-implements-remote-attestation-on-linux-with-a-hardware-root-of-trust-using-keylime/",
+          "publishedOn": "2021-07-06T15:00:00.000Z",
+          "wordCount": 739,
+          "title": "IBM implements remote attestation on Linux with a hardware root-of-trust using Keylime"
+        },
+        {
           "id": "https://www.cncf.io/?p=63275",
           "author": "Jessie",
           "description": "Project guest post by KubeEdge Maintainers KubeEdge enables cloud-edge synergy, computing at edge, and easy access of a massive number of devices based on Kubernetes container orchestration and scheduling capabilities. This article...",

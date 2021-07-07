@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-06T00:46:01.372Z</updated>
+    <updated>2021-07-07T00:46:43.748Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[IBM implements remote attestation on Linux with a hardware root-of-trust using Keylime]]></title>
+        <id>https://www.cncf.io/?p=63498</id>
+        <link href="https://www.cncf.io/blog/2021/07/06/ibm-implements-remote-attestation-on-linux-with-a-hardware-root-of-trust-using-keylime/"/>
+        <updated>2021-07-06T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post by Michael Peters (Red Hat) & Gheorghe Almasi (IBM) If your organization is managing hundreds or thousands (or hundreds of thousands) of servers, how do you make sure they haven’t...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[KubeEdge: cloud native edge computing]]></title>
         <id>https://www.cncf.io/?p=63275</id>
