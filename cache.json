@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63625",
+          "author": "Jessie",
+          "description": "Guest post originally published on Chaos Mesh’s blog by Debabrata Panigrahi, LFX Mentee at Chaos Mesh About Me# I’m a junior undergraduate majoring in Biomedical Engineering in the Department of Biotechnology and Medical...",
+          "link": "https://www.cncf.io/blog/2021/07/07/from-a-newbie-in-software-engineering-to-a-graduated-lfx-mentee/",
+          "publishedOn": "2021-07-07T15:00:00.000Z",
+          "wordCount": 1200,
+          "title": "From a newbie in software engineering to a graduated LFX-mentee"
+        },
+        {
           "id": "https://www.cncf.io/?p=63498",
           "author": "Jessie",
           "description": "Guest post by Michael Peters (Red Hat) & Gheorghe Almasi (IBM) If your organization is managing hundreds or thousands (or hundreds of thousands) of servers, how do you make sure they haven’t...",
@@ -236,15 +245,6 @@
           "publishedOn": "2021-06-09T15:00:00.000Z",
           "wordCount": 873,
           "title": "Introducing Kubernetes Community Days Bengaluru 2021"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62557",
-          "author": "Jessie",
-          "description": "Guest post originally published on New Relic’s blog by Lavanya Chockalingam, Senior Product Marketing manager at New Relic Working within the Linux kernel is ideal when implementing security, networking, and observability features....",
-          "link": "https://www.cncf.io/blog/2021/06/07/what-is-ebpf-and-why-does-it-matter-for-observability/",
-          "publishedOn": "2021-06-07T15:00:00.000Z",
-          "wordCount": 1535,
-          "title": "What is eBPF and why does it matter for observability?"
         }
       ]
     },

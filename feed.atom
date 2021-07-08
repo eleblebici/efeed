@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-07T00:46:43.748Z</updated>
+    <updated>2021-07-08T00:42:56.033Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[From a newbie in software engineering to a graduated LFX-mentee]]></title>
+        <id>https://www.cncf.io/?p=63625</id>
+        <link href="https://www.cncf.io/blog/2021/07/07/from-a-newbie-in-software-engineering-to-a-graduated-lfx-mentee/"/>
+        <updated>2021-07-07T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on Chaos Mesh’s blog by Debabrata Panigrahi, LFX Mentee at Chaos Mesh About Me# I’m a junior undergraduate majoring in Biomedical Engineering in the Department of Biotechnology and Medical...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[IBM implements remote attestation on Linux with a hardware root-of-trust using Keylime]]></title>
         <id>https://www.cncf.io/?p=63498</id>
@@ -261,16 +271,6 @@ Thank you @PiyushLosalka]]></summary>
         <link href="https://www.cncf.io/blog/2021/06/09/introducing-kubernetes-community-days-bengaluru-2021/"/>
         <updated>2021-06-09T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[Community Guest Post by Neependra Khare, founder of CloudYuga and CNCF Ambassador Kubernetes Community Days (KCD) Bengaluru 2021 is the inaugural KCD event in India completely organized by the community, for the...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is eBPF and why does it matter for observability?]]></title>
-        <id>https://www.cncf.io/?p=62557</id>
-        <link href="https://www.cncf.io/blog/2021/06/07/what-is-ebpf-and-why-does-it-matter-for-observability/"/>
-        <updated>2021-06-07T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post originally published on New Relic’s blog by Lavanya Chockalingam, Senior Product Marketing manager at New Relic Working within the Linux kernel is ideal when implementing security, networking, and observability features....]]></summary>
         <author>
             <name>Jessie</name>
         </author>
