@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63777",
+          "author": "Jessie",
+          "description": "Guest post originally published on Kong’s blog by Marco Palladino, CTO at Kong The more services you have running across different clouds and Kubernetes clusters, the harder it is to ensure that you have...",
+          "link": "https://www.cncf.io/blog/2021/07/08/automate-service-mesh-observability-with-kuma/",
+          "publishedOn": "2021-07-08T15:00:00.000Z",
+          "wordCount": 1526,
+          "title": "Automate service mesh observability with Kuma"
+        },
+        {
           "id": "https://www.cncf.io/?p=63625",
           "author": "Jessie",
           "description": "Guest post originally published on Chaos Mesh’s blog by Debabrata Panigrahi, LFX Mentee at Chaos Mesh About Me# I’m a junior undergraduate majoring in Biomedical Engineering in the Department of Biotechnology and Medical...",
