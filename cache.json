@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63799",
+          "author": "Jessie",
+          "description": "Guest post originally published on Flux’s blog by Daniel Holbach As the Flux family of projects and its communities are growing, we strive to inform you each month about what has already...",
+          "link": "https://www.cncf.io/blog/2021/07/09/july-2021-update/",
+          "publishedOn": "2021-07-09T15:00:00.000Z",
+          "wordCount": 1920,
+          "title": "Flux project update – July 2021"
+        },
+        {
           "id": "https://www.cncf.io/?p=63777",
           "author": "Jessie",
           "description": "Guest post originally published on Kong’s blog by Marco Palladino, CTO at Kong The more services you have running across different clouds and Kubernetes clusters, the harder it is to ensure that you have...",
@@ -236,24 +245,6 @@
           "publishedOn": "2021-06-10T15:00:00.000Z",
           "wordCount": 1547,
           "title": "TiKV + SPDK: Pushing the limits of storage performance"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62844",
-          "author": "Katie Meinders",
-          "description": "Harbor is a CNCF Graduated project, creating an open source trusted cloud native registry project that stores, signs, and scans content. A Kubernetes operator is a method of packaging, deploying, and managing...",
-          "link": "https://www.cncf.io/blog/2021/06/09/harbor-operator-1-0-is-available-now/",
-          "publishedOn": "2021-06-09T15:00:00.000Z",
-          "wordCount": 1513,
-          "title": "Harbor operator 1.0 is available now!"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62838",
-          "author": "Jessie",
-          "description": "Community Guest Post by Neependra Khare, founder of CloudYuga and CNCF Ambassador Kubernetes Community Days (KCD) Bengaluru 2021 is the inaugural KCD event in India completely organized by the community, for the...",
-          "link": "https://www.cncf.io/blog/2021/06/09/introducing-kubernetes-community-days-bengaluru-2021/",
-          "publishedOn": "2021-06-09T15:00:00.000Z",
-          "wordCount": 873,
-          "title": "Introducing Kubernetes Community Days Bengaluru 2021"
         }
       ]
     },
