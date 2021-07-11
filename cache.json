@@ -236,15 +236,6 @@
           "publishedOn": "2021-06-11T15:00:00.000Z",
           "wordCount": 1388,
           "title": "Using CoreDNS effectively with Kubernetes"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62815",
-          "author": "Jessie",
-          "description": "Guest post originally published on PingCAP’s blog by Ke’ao Yang, Software Engineer at PingCAP At the heart of modern software is layered abstraction. In abstraction, each layer hides details that are not...",
-          "link": "https://www.cncf.io/blog/2021/06/10/tikv-spdk-pushing-the-limits-of-storage-performance/",
-          "publishedOn": "2021-06-10T15:00:00.000Z",
-          "wordCount": 1547,
-          "title": "TiKV + SPDK: Pushing the limits of storage performance"
         }
       ]
     },
