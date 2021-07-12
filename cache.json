@@ -218,24 +218,6 @@
           "publishedOn": "2021-06-14T15:00:00.000Z",
           "wordCount": 3071,
           "title": "A new Protocol Buffers generator for Go"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62875",
-          "author": "Jessie",
-          "description": "With the challenges that have been brought on in the last year, and as we shift into new routines, cloud native has remained front and center of the digital transformation efforts keeping...",
-          "link": "https://www.cncf.io/blog/2021/06/11/kubecon-cloudnativecon-europe-2021-virtual-conference-transparency-report/",
-          "publishedOn": "2021-06-11T15:00:00.000Z",
-          "wordCount": 673,
-          "title": "KubeCon + CloudNativeCon Europe 2021 – Virtual Conference Transparency Report"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62824",
-          "author": "Jessie",
-          "description": "Guest post originally published on InfraCloud’s blog by Sanket Sudake, tech lead, open source contributor at InfraCloud Backstory We were increasing HTTP requests for one of our applications, hosted on the Kubernetes...",
-          "link": "https://www.cncf.io/blog/2021/06/11/using-coredns-effectively-with-kubernetes/",
-          "publishedOn": "2021-06-11T15:00:00.000Z",
-          "wordCount": 1388,
-          "title": "Using CoreDNS effectively with Kubernetes"
         }
       ]
     },

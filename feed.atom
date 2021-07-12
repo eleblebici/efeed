@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-11T00:49:32.574Z</updated>
+    <updated>2021-07-12T00:43:07.472Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
@@ -241,26 +241,6 @@ Thank you @PiyushLosalka]]></summary>
         <link href="https://www.cncf.io/blog/2021/06/14/a-new-protocol-buffers-generator-for-go/"/>
         <updated>2021-06-14T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[Project guest post originally published on the Vitess Blog by Vicent Marti Although the main interface between applications and a Vitess database is through the MySQL protocol, Vitess is a large and...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KubeCon + CloudNativeCon Europe 2021 – Virtual Conference Transparency Report]]></title>
-        <id>https://www.cncf.io/?p=62875</id>
-        <link href="https://www.cncf.io/blog/2021/06/11/kubecon-cloudnativecon-europe-2021-virtual-conference-transparency-report/"/>
-        <updated>2021-06-11T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With the challenges that have been brought on in the last year, and as we shift into new routines, cloud native has remained front and center of the digital transformation efforts keeping...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using CoreDNS effectively with Kubernetes]]></title>
-        <id>https://www.cncf.io/?p=62824</id>
-        <link href="https://www.cncf.io/blog/2021/06/11/using-coredns-effectively-with-kubernetes/"/>
-        <updated>2021-06-11T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post originally published on InfraCloud’s blog by Sanket Sudake, tech lead, open source contributor at InfraCloud Backstory We were increasing HTTP requests for one of our applications, hosted on the Kubernetes...]]></summary>
         <author>
             <name>Jessie</name>
         </author>
