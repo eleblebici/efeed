@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63628",
+          "author": "Jessie",
+          "description": "Guest post originally published on Elastisys’s blog by Lars Larsson, Senior Cloud Architect, and DevOps Expert Engineer at Elastisys CTOs with applications targeting EU citizens know that GDPR in this post-“Schrems II” world...",
+          "link": "https://www.cncf.io/blog/2021/07/12/but-what-if-we-just-use-encryption-practical-gdpr-for-ctos/",
+          "publishedOn": "2021-07-12T15:00:00.000Z",
+          "wordCount": 1345,
+          "title": "“But what if we just use encryption?” – Practical GDPR for CTOs"
+        },
+        {
           "id": "https://www.cncf.io/?p=63799",
           "author": "Jessie",
           "description": "Guest post originally published on Flux’s blog by Daniel Holbach As the Flux family of projects and its communities are growing, we strive to inform you each month about what has already...",

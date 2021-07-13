@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-12T00:43:07.472Z</updated>
+    <updated>2021-07-13T00:47:04.698Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[“But what if we just use encryption?” – Practical GDPR for CTOs]]></title>
+        <id>https://www.cncf.io/?p=63628</id>
+        <link href="https://www.cncf.io/blog/2021/07/12/but-what-if-we-just-use-encryption-practical-gdpr-for-ctos/"/>
+        <updated>2021-07-12T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on Elastisys’s blog by Lars Larsson, Senior Cloud Architect, and DevOps Expert Engineer at Elastisys CTOs with applications targeting EU citizens know that GDPR in this post-“Schrems II” world...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Flux project update – July 2021]]></title>
         <id>https://www.cncf.io/?p=63799</id>
