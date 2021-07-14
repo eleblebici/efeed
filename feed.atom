@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-13T00:47:04.698Z</updated>
+    <updated>2021-07-14T00:41:30.336Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Spring Term LFX Program: Largest graduating class with 28 successful CNCF interns!]]></title>
+        <id>https://www.cncf.io/?p=63826</id>
+        <link href="https://www.cncf.io/blog/2021/07/13/spring-term-lfx-program-largest-graduating-class-with-28-successful-cncf-interns/"/>
+        <updated>2021-07-13T18:06:41.000Z</updated>
+        <summary type="html"><![CDATA[Post by Ihor Dvoretskyi 28 interns have just successfully graduated from the latest LFX mentorship program funded by CNCF. 16 CNCF Graduated, Incubating and Sandbox projects joined this round with projects from...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to prepare for CKAD and CKA certification]]></title>
+        <id>https://www.cncf.io/?p=63638</id>
+        <link href="https://www.cncf.io/blog/2021/07/13/how-to-prepare-for-ckad-and-cka-certification/"/>
+        <updated>2021-07-13T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on InfraCloud’s blog by Ninad Desai, Gaurav Gahlot, Yatish Sharma, Jaiganesh Karthikeyan, and Dhruv Mewada While preparing for the CNCF’s CKAD or CKA certification, there could be numerous doubts, which exam to...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[“But what if we just use encryption?” – Practical GDPR for CTOs]]></title>
         <id>https://www.cncf.io/?p=63628</id>
