@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-14T00:41:30.336Z</updated>
+    <updated>2021-07-15T00:44:45.545Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
@@ -261,16 +261,6 @@ Thank you @PiyushLosalka]]></summary>
         <link href="https://www.cncf.io/blog/2021/06/15/being-a-linux-foundations-cncf-mentee-my-journey-with-kyverno/"/>
         <updated>2021-06-15T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[Mentorship spotlight guest post originally published on Medium by Yashvardhan Kukreja Hi folks! Recently, I completed the LFX CNCF Mentorship Programme which is an Open source programme where I worked on a...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A new Protocol Buffers generator for Go]]></title>
-        <id>https://www.cncf.io/?p=62867</id>
-        <link href="https://www.cncf.io/blog/2021/06/14/a-new-protocol-buffers-generator-for-go/"/>
-        <updated>2021-06-14T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Project guest post originally published on the Vitess Blog by Vicent Marti Although the main interface between applications and a Vitess database is through the MySQL protocol, Vitess is a large and...]]></summary>
         <author>
             <name>Jessie</name>
         </author>

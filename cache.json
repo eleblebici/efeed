@@ -236,15 +236,6 @@
           "publishedOn": "2021-06-15T15:00:00.000Z",
           "wordCount": 1567,
           "title": "Being a Linux Foundation’s CNCF mentee — My journey with Kyverno"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62867",
-          "author": "Jessie",
-          "description": "Project guest post originally published on the Vitess Blog by Vicent Marti Although the main interface between applications and a Vitess database is through the MySQL protocol, Vitess is a large and...",
-          "link": "https://www.cncf.io/blog/2021/06/14/a-new-protocol-buffers-generator-for-go/",
-          "publishedOn": "2021-06-14T15:00:00.000Z",
-          "wordCount": 3071,
-          "title": "A new Protocol Buffers generator for Go"
         }
       ]
     },
