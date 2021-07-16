@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-15T00:44:45.545Z</updated>
+    <updated>2021-07-16T00:44:31.432Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Networking with a service mesh: use cases, best practices, and comparison of top mesh options]]></title>
+        <id>https://www.cncf.io/?p=63713</id>
+        <link href="https://www.cncf.io/blog/2021/07/15/networking-with-a-service-mesh-use-cases-best-practices-and-comparison-of-top-mesh-options/"/>
+        <updated>2021-07-15T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post by Amir Kaushansky, VP Product, ARMO Service mesh technology emerged with the popularization of microservice architectures. Because service mesh facilitates the separation of networking from the business logic, it enables...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Spring Term LFX Program: Largest graduating class with 28 successful CNCF interns!]]></title>
         <id>https://www.cncf.io/?p=63826</id>
@@ -251,16 +261,6 @@ Thank you @PiyushLosalka]]></summary>
         <link href="https://www.cncf.io/blog/2021/06/16/simplifying-saas-paas-and-iaas/"/>
         <updated>2021-06-16T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[Guest post originally published on Logiq’s blog by Ajit Chelat Cloud computing is everywhere. An ever-increasing number of businesses have turned to the cloud for their storage, compute, analytics, content management and...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Being a Linux Foundation’s CNCF mentee — My journey with Kyverno]]></title>
-        <id>https://www.cncf.io/?p=62870</id>
-        <link href="https://www.cncf.io/blog/2021/06/15/being-a-linux-foundations-cncf-mentee-my-journey-with-kyverno/"/>
-        <updated>2021-06-15T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Mentorship spotlight guest post originally published on Medium by Yashvardhan Kukreja Hi folks! Recently, I completed the LFX CNCF Mentorship Programme which is an Open source programme where I worked on a...]]></summary>
         <author>
             <name>Jessie</name>
         </author>

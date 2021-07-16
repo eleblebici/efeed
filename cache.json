@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63713",
+          "author": "Jessie",
+          "description": "Guest post by Amir Kaushansky, VP Product, ARMO Service mesh technology emerged with the popularization of microservice architectures. Because service mesh facilitates the separation of networking from the business logic, it enables...",
+          "link": "https://www.cncf.io/blog/2021/07/15/networking-with-a-service-mesh-use-cases-best-practices-and-comparison-of-top-mesh-options/",
+          "publishedOn": "2021-07-15T15:00:00.000Z",
+          "wordCount": 2062,
+          "title": "Networking with a service mesh: use cases, best practices, and comparison of top mesh options"
+        },
+        {
           "id": "https://www.cncf.io/?p=63826",
           "author": "Jessie",
           "description": "Post by Ihor Dvoretskyi 28 interns have just successfully graduated from the latest LFX mentorship program funded by CNCF. 16 CNCF Graduated, Incubating and Sandbox projects joined this round with projects from...",
@@ -227,15 +236,6 @@
           "publishedOn": "2021-06-16T15:00:00.000Z",
           "wordCount": 1168,
           "title": "Simplifying SaaS, PaaS, and IaaS"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62870",
-          "author": "Jessie",
-          "description": "Mentorship spotlight guest post originally published on Medium by Yashvardhan Kukreja Hi folks! Recently, I completed the LFX CNCF Mentorship Programme which is an Open source programme where I worked on a...",
-          "link": "https://www.cncf.io/blog/2021/06/15/being-a-linux-foundations-cncf-mentee-my-journey-with-kyverno/",
-          "publishedOn": "2021-06-15T15:00:00.000Z",
-          "wordCount": 1567,
-          "title": "Being a Linux Foundation’s CNCF mentee — My journey with Kyverno"
         }
       ]
     },
