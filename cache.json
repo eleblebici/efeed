@@ -22,6 +22,24 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63820",
+          "author": "Jessie",
+          "description": "Guest post originally published on Rookout’s blog by Dan Sela, Development Team Lead at Rookout You know the phrase “good enough”? As in, “it’s good enough right now, we can worry about...",
+          "link": "https://www.cncf.io/blog/2021/07/16/when-good-enough-isnt-good-or-enough/",
+          "publishedOn": "2021-07-16T15:40:00.000Z",
+          "wordCount": 1402,
+          "title": "When ‘good enough’ isn’t good or enough"
+        },
+        {
+          "id": "https://www.cncf.io/?p=63889",
+          "author": "Katie Meinders",
+          "description": "Kubernetes defines operators as software extensions that make use of custom resources to manage applications and their components. They have quickly become one of the most popular ways for users to adopt...",
+          "link": "https://www.cncf.io/blog/2021/07/16/learn-how-to-simplify-application-management-with-operators-with-the-cncf-operator-white-paper-from-tag-app-delivery/",
+          "publishedOn": "2021-07-16T15:00:00.000Z",
+          "wordCount": 709,
+          "title": "Learn how to simplify application management with Operators with the CNCF Operator White Paper from TAG App Delivery"
+        },
+        {
           "id": "https://www.cncf.io/?p=63713",
           "author": "Jessie",
           "description": "Guest post by Amir Kaushansky, VP Product, ARMO Service mesh technology emerged with the popularization of microservice architectures. Because service mesh facilitates the separation of networking from the business logic, it enables...",
@@ -218,24 +236,6 @@
           "publishedOn": "2021-06-18T15:00:00.000Z",
           "wordCount": 1244,
           "title": "Cloud-agnostic third party managed Kubernetes services – the unexploited opportunity"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62998",
-          "author": "Katie Meinders",
-          "description": "Announcing the Sigstore Root Key Ceremony I’m thrilled to announce that the Sigstore community is holding our first Root Key ceremony on June 18th at 2pm Eastern, and I’m even more thrilled to announce...",
-          "link": "https://www.cncf.io/blog/2021/06/16/a-new-kind-of-trust-root/",
-          "publishedOn": "2021-06-16T15:00:00.000Z",
-          "wordCount": 1611,
-          "title": "A New Kind of Trust Root"
-        },
-        {
-          "id": "https://www.cncf.io/?p=62598",
-          "author": "Jessie",
-          "description": "Guest post originally published on Logiq’s blog by Ajit Chelat Cloud computing is everywhere. An ever-increasing number of businesses have turned to the cloud for their storage, compute, analytics, content management and...",
-          "link": "https://www.cncf.io/blog/2021/06/16/simplifying-saas-paas-and-iaas/",
-          "publishedOn": "2021-06-16T15:00:00.000Z",
-          "wordCount": 1168,
-          "title": "Simplifying SaaS, PaaS, and IaaS"
         }
       ]
     },

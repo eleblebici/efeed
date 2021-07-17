@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-16T00:44:31.432Z</updated>
+    <updated>2021-07-17T00:44:20.195Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[When ‘good enough’ isn’t good or enough]]></title>
+        <id>https://www.cncf.io/?p=63820</id>
+        <link href="https://www.cncf.io/blog/2021/07/16/when-good-enough-isnt-good-or-enough/"/>
+        <updated>2021-07-16T15:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on Rookout’s blog by Dan Sela, Development Team Lead at Rookout You know the phrase “good enough”? As in, “it’s good enough right now, we can worry about...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn how to simplify application management with Operators with the CNCF Operator White Paper from TAG App Delivery]]></title>
+        <id>https://www.cncf.io/?p=63889</id>
+        <link href="https://www.cncf.io/blog/2021/07/16/learn-how-to-simplify-application-management-with-operators-with-the-cncf-operator-white-paper-from-tag-app-delivery/"/>
+        <updated>2021-07-16T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Kubernetes defines operators as software extensions that make use of custom resources to manage applications and their components. They have quickly become one of the most popular ways for users to adopt...]]></summary>
+        <author>
+            <name>Katie Meinders</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Networking with a service mesh: use cases, best practices, and comparison of top mesh options]]></title>
         <id>https://www.cncf.io/?p=63713</id>
@@ -241,26 +261,6 @@ Thank you @PiyushLosalka]]></summary>
         <link href="https://www.cncf.io/blog/2021/06/18/cloud-agnostic-third-party-managed-kubernetes-services-the-unexploited-opportunity/"/>
         <updated>2021-06-18T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[Guest post originally published on the Elastisys blog by Lars Larsson of Elastisys Let’s be honest. As InfoWorld recently humorously put it, “no one wants to manage Kubernetes anymore”. And with all...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A New Kind of Trust Root]]></title>
-        <id>https://www.cncf.io/?p=62998</id>
-        <link href="https://www.cncf.io/blog/2021/06/16/a-new-kind-of-trust-root/"/>
-        <updated>2021-06-16T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Announcing the Sigstore Root Key Ceremony I’m thrilled to announce that the Sigstore community is holding our first Root Key ceremony on June 18th at 2pm Eastern, and I’m even more thrilled to announce...]]></summary>
-        <author>
-            <name>Katie Meinders</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Simplifying SaaS, PaaS, and IaaS]]></title>
-        <id>https://www.cncf.io/?p=62598</id>
-        <link href="https://www.cncf.io/blog/2021/06/16/simplifying-saas-paas-and-iaas/"/>
-        <updated>2021-06-16T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post originally published on Logiq’s blog by Ajit Chelat Cloud computing is everywhere. An ever-increasing number of businesses have turned to the cloud for their storage, compute, analytics, content management and...]]></summary>
         <author>
             <name>Jessie</name>
         </author>
