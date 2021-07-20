@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-19T00:46:35.031Z</updated>
+    <updated>2021-07-20T00:48:39.498Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Think gRPC, when you are architecting modern microservices!]]></title>
+        <id>https://www.cncf.io/?p=63876</id>
+        <link href="https://www.cncf.io/blog/2021/07/19/think-grpc-when-you-are-architecting-modern-microservices/"/>
+        <updated>2021-07-19T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post by Nikhil Mohan, Senior Technology Architect at Infosys More than ever before, present day businesses want their IT systems to constantly evolve and be capable of responding positively to the...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[When ‘good enough’ isn’t good or enough]]></title>
         <id>https://www.cncf.io/?p=63820</id>
