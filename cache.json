@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63903",
+          "author": "Jessie",
+          "description": "Guest post from the KubeEdge Maintainers Intro Multi-Access Edge Computing (MEC) is developing rapidly. As 5G MEC is being widely commercially deployed, edge-cloud synergy becomes a common requirement. The KubeEdge community recognizes...",
+          "link": "https://www.cncf.io/blog/2021/07/20/kubeedgemec-combining-the-kubernetes-ecosystem-with-5g/",
+          "publishedOn": "2021-07-20T15:00:00.000Z",
+          "wordCount": 1279,
+          "title": "KubeEdge@MEC: Combining the Kubernetes ecosystem with 5G"
+        },
+        {
           "id": "https://www.cncf.io/?p=63876",
           "author": "Jessie",
           "description": "Guest post by Nikhil Mohan, Senior Technology Architect at Infosys More than ever before, present day businesses want their IT systems to constantly evolve and be capable of responding positively to the...",

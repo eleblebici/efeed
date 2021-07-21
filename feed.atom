@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-20T00:48:39.498Z</updated>
+    <updated>2021-07-21T00:46:42.236Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[KubeEdge@MEC: Combining the Kubernetes ecosystem with 5G]]></title>
+        <id>https://www.cncf.io/?p=63903</id>
+        <link href="https://www.cncf.io/blog/2021/07/20/kubeedgemec-combining-the-kubernetes-ecosystem-with-5g/"/>
+        <updated>2021-07-20T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post from the KubeEdge Maintainers Intro Multi-Access Edge Computing (MEC) is developing rapidly. As 5G MEC is being widely commercially deployed, edge-cloud synergy becomes a common requirement. The KubeEdge community recognizes...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Think gRPC, when you are architecting modern microservices!]]></title>
         <id>https://www.cncf.io/?p=63876</id>
