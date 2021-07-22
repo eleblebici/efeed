@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=63886",
+          "author": "Jessie",
+          "description": "Guest post by Ajit Chelat, LOGIQ With the ever-increasing complexity in today’s software stacks, there’s a greater need to ramp up an organization’s observability capabilities to take on challenges brought about by...",
+          "link": "https://www.cncf.io/blog/2021/07/21/comparing-log-management-saas-and-paas-solutions/",
+          "publishedOn": "2021-07-21T15:00:00.000Z",
+          "wordCount": 1572,
+          "title": "Comparing log management SaaS and PaaS solutions"
+        },
+        {
           "id": "https://www.cncf.io/?p=63903",
           "author": "Jessie",
           "description": "Guest post from the KubeEdge Maintainers Intro Multi-Access Edge Computing (MEC) is developing rapidly. As 5G MEC is being widely commercially deployed, edge-cloud synergy becomes a common requirement. The KubeEdge community recognizes...",
@@ -236,15 +245,6 @@
           "publishedOn": "2021-06-23T15:00:00.000Z",
           "wordCount": 1753,
           "title": "Using KubeEdge in the industrial internet big data center"
-        },
-        {
-          "id": "https://www.cncf.io/?p=63085",
-          "author": "Jessie",
-          "description": "Guest post by Justin Turner, Director of Engineering at H-E-B Reinventing ourselves when it mattered most 2020 was a challenging year for many of us, both personally and professionally. The COVID-19 pandemic...",
-          "link": "https://www.cncf.io/blog/2021/06/21/how-h-e-b-achieved-four-nines-of-reliability-using-kubernetes-and-linkerd/",
-          "publishedOn": "2021-06-21T15:00:00.000Z",
-          "wordCount": 2622,
-          "title": "How H-E-B achieved four nines of reliability using Kubernetes and Linkerd"
         }
       ]
     },

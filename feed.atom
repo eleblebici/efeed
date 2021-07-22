@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-07-21T00:46:42.236Z</updated>
+    <updated>2021-07-22T00:46:16.535Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Comparing log management SaaS and PaaS solutions]]></title>
+        <id>https://www.cncf.io/?p=63886</id>
+        <link href="https://www.cncf.io/blog/2021/07/21/comparing-log-management-saas-and-paas-solutions/"/>
+        <updated>2021-07-21T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post by Ajit Chelat, LOGIQ With the ever-increasing complexity in today’s software stacks, there’s a greater need to ramp up an organization’s observability capabilities to take on challenges brought about by...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[KubeEdge@MEC: Combining the Kubernetes ecosystem with 5G]]></title>
         <id>https://www.cncf.io/?p=63903</id>
@@ -263,16 +273,6 @@ Changed: sources in template data is now ordered by last update timestamp (as op
 Thank you @PiyushLosalka]]></summary>
         <author>
             <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How H-E-B achieved four nines of reliability using Kubernetes and Linkerd]]></title>
-        <id>https://www.cncf.io/?p=63085</id>
-        <link href="https://www.cncf.io/blog/2021/06/21/how-h-e-b-achieved-four-nines-of-reliability-using-kubernetes-and-linkerd/"/>
-        <updated>2021-06-21T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post by Justin Turner, Director of Engineering at H-E-B Reinventing ourselves when it mattered most 2020 was a challenging year for many of us, both personally and professionally. The COVID-19 pandemic...]]></summary>
-        <author>
-            <name>Jessie</name>
         </author>
     </entry>
 </feed>
