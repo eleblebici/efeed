@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=64558",
+          "author": "Jessie",
+          "description": "Guest post originally published on Kong’s blog by Alvin Lee Think back to when your development team made the switch to Dockerized containers. What was once an application requiring multiple services on...",
+          "link": "https://www.cncf.io/blog/2021/09/17/managing-docker-apps-with-kubernetes-ingress-controller/",
+          "publishedOn": "2021-09-17T15:00:00.000Z",
+          "wordCount": 3976,
+          "title": "Managing Docker apps with Kubernetes Ingress Controller"
+        },
+        {
           "id": "https://www.cncf.io/?p=64589",
           "author": "Katie Meinders",
           "description": "In the world of open source software, end users are the best resource for providing feedback to projects on usability, feature additions, and improvements. They also offer incredibly valuable feedback to each...",
