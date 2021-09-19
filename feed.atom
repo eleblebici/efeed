@@ -2,10 +2,1143 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-18T00:51:04.333Z</updated>
+    <updated>2021-09-19T00:52:59.308Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[freeCodeCamp/freeCodeCamp]]></title>
+        <id>https://github.com/freeCodeCamp/freeCodeCamp</id>
+        <link href="https://github.com/freeCodeCamp/freeCodeCamp"/>
+        <updated>2021-09-19T00:52:59.291Z</updated>
+        <summary type="html"><![CDATA[freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.
+
+
+ 
+    
+ 
+freeCodeCamp.org's open-source codebase and curriculum
+ 
+freeCodeCamp.org is a friendly community where you can learn to code for free. It is run by a donor-supported 501(c)(3) nonprofit to help millions of busy adults transition into tech. Our community has already helped more than 10,000 people get their first developer job.
+ 
+Our full-stack web development and machine learning curriculum is completely free and self-paced. We have thousands of interactive coding challenges to help you expand your skills.
+ 
+Table of Contents
+ 
+ 
+ 
+Certifications
+ 
+ 
+The Learning Platform
+ 
+ 
+Reporting Bugs and Issues
+ 
+ 
+Reporting Security Issues and Responsible Disclosure
+ 
+ 
+Contributing
+ 
+ 
+Platform, Build and De…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[facebook/jest]]></title>
+        <id>https://github.com/facebook/jest</id>
+        <link href="https://github.com/facebook/jest"/>
+        <updated>2021-09-19T00:52:59.210Z</updated>
+        <summary type="html"><![CDATA[Delightful JavaScript Testing.
+
+      
+ 
+ 
+ 
+ 
+
+ 
+🃏 Delightful JavaScript Testing
+ 
+👩🏻‍💻 Developer Ready: A comprehensive JavaScript testing solution. Works out of the box for most JavaScript projects.
+ 
+🏃🏽 Instant Feedback: Fast, interactive watch mode only runs test files related to changed files.
+ 
+📸 Snapshot Testing: Capture snapshots of large objects to simplify testing and to analyze how they change over time.
+ 
+See more on jestjs.io
+ 
+Table of Contents
+ 
+ 
+ 
+Getting Started
+ 
+ 
+Running from command line
+ 
+ 
+Additional Configuration 
+  
+ 
+   
+Generate a basic configuration file
+ 
+   
+Using Babel
+ 
+   
+Using Webpack
+ 
+   
+Using Parcel
+ 
+   
+Using Typescript
+ 
+  
+  
+ 
+Documentation
+ 
+ 
+Badge
+ 
+ 
+Contributing 
+  
+ 
+   
+Code of Conduct
+ 
+   
+Contributing Guide
+ 
+   
+Good First Iss…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[authelia/authelia]]></title>
+        <id>https://github.com/authelia/authelia</id>
+        <link href="https://github.com/authelia/authelia"/>
+        <updated>2021-09-19T00:52:59.161Z</updated>
+        <summary type="html"><![CDATA[The Single Sign-On Multi-Factor portal for web apps
+
+  
+ 
+           
+ 
+Authelia is an open-source authentication and authorization server providing two-factor authentication and single sign-on (SSO) for your applications via a web portal. It acts as a companion for reverse proxies like nginx, Traefik or HAProxy to let them know whether requests should either be allowed or redirected to Authelia's portal for authentication.
+ 
+Documentation is available at https://www.authelia.com/docs.
+ 
+The following is a simple diagram of the architecture:
+ 
+  
+ 
+Authelia can be installed as a standalone service from the AUR, APT, FreeBSD Ports, or using a Static binary, .deb package, Docker or Kubernetes either manually or via the Helm Chart (beta) leveraging ingress controllers and ingress configuratio…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Androz2091/discord-music-bot]]></title>
+        <id>https://github.com/Androz2091/discord-music-bot</id>
+        <link href="https://github.com/Androz2091/discord-music-bot"/>
+        <updated>2021-09-19T00:52:59.071Z</updated>
+        <summary type="html"><![CDATA[The perfect music bot for your Discord server! 🤘
+
+Discord Music Bot
+ 
+The perfect music bot for your Discord server! 🎶
+ 
+Features
+ 
+Highlights
+ 
+ 
+ 
+Simple & easy to use 🤘
+ 
+ 
+Audio filters (bassboost) 🎸
+ 
+ 
+YouTube, Facebook and Vimeo support 🌌
+ 
+ 
+Slash Commands support 🤖
+ 
+ 
+Play in multiple servers at the same time 🚗
+ 
+ 
+Commands
+ 
+Here are all the available commands in the bot!
+ 
+ 
+  
+  
+ 
+   Name 
+   Description 
+   Options 
+  
+ 
+  
+  
+  
+ 
+   /back 
+   Plays the previous track 
+    
+  
+ 
+  
+ 
+   /bassboost 
+   Toggles bassboost filter 
+    
+  
+ 
+  
+ 
+   /clear 
+   Clear the current queue. 
+    
+  
+ 
+  
+ 
+   /jump 
+   Jumps to a specific track 
+   <tracks> 
+  
+ 
+  
+ 
+   /loop 
+   Sets loop mode 
+   <mode> 
+  
+ 
+  
+ 
+   /np 
+   See what's currently being played 
+    
+  
+ 
+  
+ 
+…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SudhanPlayz/Discord-MusicBot]]></title>
+        <id>https://github.com/SudhanPlayz/Discord-MusicBot</id>
+        <link href="https://github.com/SudhanPlayz/Discord-MusicBot"/>
+        <updated>2021-09-19T00:52:59.034Z</updated>
+        <summary type="html"><![CDATA[An advanced discord music bot, supports Spotify, Soundcloud, YouTube with Shuffling, Volume Control and Web Dashboard with Slash Commands support!
+
+ Discord Music Bot 
+ 
+Thanks for 25k Views with 500 subs!
+ 
+✨Latest Updates✨
+ 
+ 
+ 
+DISCORD.JS v13 WILL BREAK THIS BOT. DO NOT USE IT UNTIL v5 IS OUT.
+ 
+ 
+VERSION 5 OF THIS BOT HAS NO RELEASE DATE
+ 
+ 
+❗Prerequisites❗
+ 
+ 
+ 
+Node.js 14+
+ 
+ 
+discord.js@12.5.3
+ 
+ 
+Lavalink Server
+ 
+ 
+DO NOT JOIN OUR DISCORD FOR LAVALINK ISSUES
+ 
+ 
+ 
+NOTE: Lavalink is needed for music functionality. You need to have a working Lavalink server to make the bot work.
+ 
+ 
+📝 Tutorial
+ 
+A Tutorial has been uploaded on YouTube, Watch it by clicking here
+ 
+📝 Support Server
+ 
+DO NOT JOIN OUR DISCORD FOR DASHBOARD ISSUES AND LAVALINK ISSUES. WE WILL NOT HELP YOU.
+ 
+If you have major coding issues with this bot, please join and ask for help.
+ 
+📸 Screenshots
+ 
+
+ 
+
+
+ 
+
+
+ 
+ 
+
+ 
+ 
+💨 Run the projects
+ 
+  
+ 
+✨ Contributors
+ 
+Contributions are always welcomed :D Make sure to follow Contributing.md
+ 
+   
+Made with ❤️ and JavaScript!]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sogou/workflow]]></title>
+        <id>https://github.com/sogou/workflow</id>
+        <link href="https://github.com/sogou/workflow"/>
+        <updated>2021-09-19T00:52:58.989Z</updated>
+        <summary type="html"><![CDATA[C++ Parallel Computing and Asynchronous Networking Engine
+
+中文版入口
+ 
+Sogou C++ Workflow
+ 
+   
+ 
+As Sogou`s C++ server engine, Sogou C++ Workflow supports almost all back-end C++ online services of Sogou, including all search services, cloud input method，online advertisements, etc., handling more than 10 billion requests every day. This is an enterprise-level programming engine in light and elegant design which can satisfy most C++ back-end development requirements.
+ 
+You can use it:
+ 
+ 
+ 
+To quickly build an HTTP server:
+ 
+ 
+#include <stdio.h>
+#include "workflow/WFHttpServer.h"
+
+int main()
+{
+    WFHttpServer server([](WFHttpTask *task) {
+        task->get_resp()->append_output_body("<html>Hello World!</html>");
+    });
+
+    if (server.start(8888) == 0) { // start server on port 8888
+        …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[30-seconds/30-seconds-of-code]]></title>
+        <id>https://github.com/30-seconds/30-seconds-of-code</id>
+        <link href="https://github.com/30-seconds/30-seconds-of-code"/>
+        <updated>2021-09-19T00:52:58.951Z</updated>
+        <summary type="html"><![CDATA[Short JavaScript code snippets for all your development needs
+
+
+ 
+30 seconds of code
+ 
+ 
+ 
+Short JavaScript code snippets for all your development needs
+ 
+ 
+ 
+ 
+Visit our website to view our snippet collection.
+ 
+ 
+Use the Search page to find snippets that suit your needs. You can search by name, tag, language or using a snippet's description. Just start typing a term and see what comes up.
+ 
+ 
+Browse the JavaScript Snippet collection to see all the snippets in this project or click individual tags at the top of the same page to narrow down your search to a specific tag.
+ 
+ 
+Click on each snippet card to view the whole snippet, including code, explanation and examples.
+ 
+ 
+You can use the button at the bottom of a snippet card to copy the code to clipboard.
+ 
+ 
+If you like the project, give it a star. It means a lot to the people maintaining it.
+ 
+ 
+Want to contribute?
+ 
+ 
+ 
+If you want to help us improve, take a minute to read the Contribution Guidelines first.
+ 
+ 
+Use the Snippet Template to add new snippets to the collection.
+ 
+ 
+If you find a problem with a specific snippet, please open an issue.
+ 
+ 
+If you find a problem with the website, please report it in the web repository.
+ 
+ 
+Credits
+ 
+ 
+ 
+This repository is maintained by the 30 seconds of code organization on GitHub.
+ 
+ 
+All snippets are licensed under the CC0-1.0 License, unless explicitly stated otherwise.
+ 
+ 
+Logos, names and trademarks are not to be used without the explicit consent of the owners of the 30 seconds of code GitHub organization.
+ 
+ 
+Our website is powered by Netlify, Next.js & GitHub.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PyTorchLightning/lightning-flash]]></title>
+        <id>https://github.com/PyTorchLightning/lightning-flash</id>
+        <link href="https://github.com/PyTorchLightning/lightning-flash"/>
+        <updated>2021-09-19T00:52:58.920Z</updated>
+        <summary type="html"><![CDATA[Your PyTorch AI Factory - Flash enables you to easily configure and run complex AI recipes for over 15 tasks across 7 data domains
+
+ 
+  
+ 
+Your PyTorch AI Factory
+ 
+ 
+ 
+ 
+ Installation • Flash in 3 Steps • Docs • Contribute • Community • Website • License 
+ 
+ 
+      
+ 
+ 
+ 
+
+  Flash enables you to easily configure and run complex AI recipes for over 15 tasks across 7 data domains 
+    
+ 
+Getting Started
+ 
+From PyPI:
+ 
+pip install lightning-flash
+
+ 
+See our installation guide for more options.
+ 
+Flash in 3 Steps
+ 
+Step 1. Load your data
+ 
+All data loading in Flash is performed via a from_* classmethod on a DataModule. Which DataModule to use and which from_* methods are available depends on the task you want to perform. For example, for image segmentation where your data is stored in folders…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sindresorhus/awesome]]></title>
+        <id>https://github.com/sindresorhus/awesome</id>
+        <link href="https://github.com/sindresorhus/awesome"/>
+        <updated>2021-09-19T00:52:58.870Z</updated>
+        <summary type="html"><![CDATA[😎 Awesome lists about all kinds of interesting topics
+
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  My open source work is supported by the community  
+ 
+ Special thanks to: 
+ 
+ 
+ 
+ 
+    
+ 
+ 
+ 
+ 
+    
+ 
+ 
+ 
+ 
+  
+  
+ 
+    
+  
+ All your environment variables, in one place 
+  
+ 
+   Stop struggling with scattered API keys, hacking together home-brewed tools, 
+   
+ 
+   and avoiding access controls. Keep your team and servers in sync with Doppler. 
+  
+  
+ 
+ 
+  
+  
+ 
+    
+  
+ Your app, enterprise-ready. 
+  
+ 
+   Start selling to enterprise customers with just a few lines of code. 
+   
+ 
+   Add Single Sign-On (and more) in minutes instead of months. 
+  
+  
+ 
+ 
+  
+  
+ 
+    
+  
+ Strapi is the leading open-source headless CMS. 
+  
+ 
+   It’s 100% JavaScript, fully customizable, and developer-first. 
+  
+  
+ 
+ 
+  
+  
+ 
+  …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[jlevy/the-art-of-command-line]]></title>
+        <id>https://github.com/jlevy/the-art-of-command-line</id>
+        <link href="https://github.com/jlevy/the-art-of-command-line"/>
+        <updated>2021-09-19T00:52:58.810Z</updated>
+        <summary type="html"><![CDATA[Master the command line, in one page
+
+🌍 Čeština ∙ Deutsch ∙ Ελληνικά ∙ English ∙ Español ∙ Français ∙ Indonesia ∙ Italiano ∙ 日本語 ∙ 한국어 ∙ polski ∙ Português ∙ Română ∙ Русский ∙ Slovenščina ∙ Українська ∙ 简体中文 ∙ 繁體中文
+ 
+The Art of Command Line
+ 
+Note: I'm planning to revise this and looking for a new co-author to help with expanding this into a more comprehensive guide. While it's very popular, it could be broader and a bit deeper. If you like to write and are close to being an expert on this material and willing to consider helping, please drop me a note at josh (0x40) holloway.com. –jlevy, Holloway. Thank you!
+ 
+ 
+ 
+Meta
+ 
+ 
+Basics
+ 
+ 
+Everyday use
+ 
+ 
+Processing files and data
+ 
+ 
+System debugging
+ 
+ 
+One-liners
+ 
+ 
+Obscure but useful
+ 
+ 
+macOS only
+ 
+ 
+Windows only
+ 
+ 
+More resources
+ 
+…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[7kms/react-illustration-series]]></title>
+        <id>https://github.com/7kms/react-illustration-series</id>
+        <link href="https://github.com/7kms/react-illustration-series"/>
+        <updated>2021-09-19T00:52:58.753Z</updated>
+        <summary type="html"><![CDATA[图解react源码, 用大量配图的方式, 致力于将react原理表述清楚.
+
+图解 React 源码系列
+ 
+ 
+ 
+react源码, 基于react@17.0.2(尽可能跟随 react 版本的升级, 持续更新). 用大量配图的方式, 致力于将react原理表述清楚.
+ 
+ 
+使用指南
+ 
+ 
+ 
+本系列以 react 核心包结构和运行机制为主线索进行展开. 包括react 宏观结构, react 工作循环, react 启动模式, react fiber原理, react hook原理, react 合成事件等核心内容.
+ 
+ 
+开源作品需要社区的净化和参与, 如有表述不清晰或表述错误, 欢迎issue 勘误. 如果对你有帮助, 请不吝 star.
+ 
+ 
+本系列最初写作于 2020 年 6 月(当时稳定版本是 v16.13.1), 随着 react 官方的升级, 本 repo 会将主要版本的文章保存在以版本号命名的分支中.
+ 
+ 
+当下前端技术圈总体比较浮躁, 各技术平台充斥着不少"标题党". 真正对于技术本身, 不能急于求成, 需要静下心来修炼.
+ 
+ 
+本系列不是面经, 但会列举一些面试题来加深对 react 理解.
+ 
+ 
+本系列所有内容皆为原创, 如需转载, 请注明出处.
+ 
+ 
+适用读者
+ 
+ 
+ 
+对react,react-dom开发 web 应用有实践经验.
+ 
+ 
+期望深入理解react内在作用原理.
+ 
+ 
+ 
+版本跟踪
+ 
+ 
+ 
+本系列暂时只跟踪稳定版本的变动. react仓库代码改动比较频繁, 在写作过程中, 如果伴随小版本的发布, 文章中的源码链接会以写作当天的最新小版本为基准.
+ 
+ 
+ 
+ 
+ react@17.0.0作为主版本升级, 相较于 16.x 版本, 在使用层面基本维持不变, 在源码层面需要关注的重大的变动如下
+ 
+  
+ 
+    
+    
+ 
+     重大变动 
+     所属板块 
+     官方解释 
+    
+ 
+    
+    
+    
+ 
+     重构Fiber.expirationTime并引入Fiber.lanes 
+     react-reconciler 
+     Initial Lanes implementation #18796 
+    
+ 
+    
+ 
+     事件代理节点从 document 变成 rootNode, 取消合成事件的缓存池等 
+     legacy-events(被移除), react-dom/events 
+     changes-to-event-delegation 
+    
+ 
+    
+  
+  
+ 
+ react@17.0.1相较于主版本v17.0.0做了一个点的优化, 改动了 1 个文件, 修复 ie11 兼容问题, 同时提升 v8 内部的执行性能.
+  
+ 
+ 
+ 
+react@17.0.2相较于v17.0.1, 改动集中于Scheduler包, 主杆逻辑没有变动, 只与调度性能统计相关.
+ 
+ 
+主要类容
+ 
+基本概念
+ 
+ 
+ 
+宏观包结构
+ 
+ 
+两大工作循环
+ 
+ 
+高频对象
+ 
+ 
+运行核心
+ 
+ 
+ 
+reconciler 运作流程
+ 
+ 
+启动过程
+ 
+ 
+优先级管理
+ 
+ 
+scheduler 调度原理
+ 
+ 
+fiber 树构造(基础准备)
+ 
+ 
+fiber 树构造(初次创建)
+ 
+ 
+fiber 树构造(对比更新)
+ 
+ 
+fiber 树渲染
+ 
+ 
+异常处理
+ 
+ 
+数据管理
+ 
+ 
+ 
+状态与副作用
+ 
+ 
+hook 原理(概览)
+ 
+ 
+hook 原理(状态 Hook)
+ 
+ 
+hook 原理(副作用 Hook)
+ 
+ 
+context 原理
+ 
+ 
+交互
+ 
+ 
+ 
+合成事件原理
+ 
+ 
+高频算法
+ 
+ 
+ 
+位运算
+ 
+ 
+堆排序
+ 
+ 
+深度优先遍历
+ 
+ 
+链表操作
+ 
+ 
+栈操作
+ 
+ 
+diff 算法
+ 
+ 
+历史版本
+ 
+ 
+ 
+基于 v16.13.1 版本的分析
+ 
+ 
+基于 v17.0.1 版本的分析]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[calendso/calendso]]></title>
+        <id>https://github.com/calendso/calendso</id>
+        <link href="https://github.com/calendso/calendso"/>
+        <updated>2021-09-19T00:52:58.718Z</updated>
+        <summary type="html"><![CDATA[Scheduling infrastructure for absolutely everyone.
+
+    
+Cal.com (formerly Calendso)
+ 
+ The open-source Calendly alternative. 
+ Learn more » 
+  Slack · Website · Issues 
+ 
+
+ 
+         
+ 
+ 
+About The Project
+ 
+ 
+Scheduling infrastructure for absolutely everyone.
+ 
+The open source Calendly alternative. You are in charge of your own data, workflow and appearance.
+ 
+Calendly and other scheduling tools are awesome. It made our lives massively easier. We're using it for business meetings, seminars, yoga classes and even calls with our families. However, most tools are very limited in terms of control and customisations.
+ 
+That's where Cal.com comes in. Self-hosted or hosted by us. White-label by design. API-driven and ready to be deployed on your own domain. Full control of your events and data.…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DopplerHQ/awesome-interview-questions]]></title>
+        <id>https://github.com/DopplerHQ/awesome-interview-questions</id>
+        <link href="https://github.com/DopplerHQ/awesome-interview-questions"/>
+        <updated>2021-09-19T00:52:58.657Z</updated>
+        <summary type="html"><![CDATA[A curated awesome list of lists of interview questions. Feel free to contribute! 🎓
+
+ 
+ 
+  
+  
+ 
+  All your environment variables, in one place 
+  
+ 
+  
+   
+ 
+ 
+ 
+Awesome Interviews 
+ 
+ 
+ 
+A curated list of lists of technical interview questions.
+ 
+ 
+What makes for an awesome list?
+ 
+Please read the contribution guidelines or creating a list guide if you want to contribute.
+ 
+Table of Contents
+ 
+ 
+ 
+ Programming Languages/Frameworks/Platforms
+ 
+  
+ 
+   
+Android
+ 
+   
+AngularJS
+ 
+   
+Angular
+ 
+   
+BackboneJS
+ 
+   
+C++
+ 
+   
+C
+ 
+   
+C♯
+ 
+   
+.NET
+ 
+   
+Clojure
+ 
+   
+CSS
+ 
+   
+Cucumber
+ 
+   
+Django
+ 
+   
+Docker
+ 
+   
+EmberJS
+ 
+   
+Erlang
+ 
+   
+Golang
+ 
+   
+GraphQl
+ 
+   
+HTML
+ 
+   
+Ionic
+ 
+   
+iOS
+ 
+   
+Java
+ 
+   
+JavaScript
+ 
+   
+jQuery
+ 
+   
+Front-end build tools
+ 
+   
+KnockoutJS
+ 
+   
+Less
+…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Atmosphere-NX/Atmosphere]]></title>
+        <id>https://github.com/Atmosphere-NX/Atmosphere</id>
+        <link href="https://github.com/Atmosphere-NX/Atmosphere"/>
+        <updated>2021-09-19T00:52:58.602Z</updated>
+        <summary type="html"><![CDATA[Atmosphère is a work-in-progress customized firmware for the Nintendo Switch.
+
+
+ 
+ 
+ 
+Atmosphère is a work-in-progress customized firmware for the Nintendo Switch.
+ 
+Components
+ 
+Atmosphère consists of multiple components, each of which replaces/modifies a different component of the system:
+ 
+ 
+ 
+Fusée: First-stage Loader, responsible for loading and validating stage 2 (custom TrustZone) plus package2 (Kernel/FIRM sysmodules), and patching them as needed. This replaces all functionality normally in Package1loader/NX Bootloader. 
+  
+ 
+   
+Sept: Payload used to enable support for runtime key derivation on 7.0.0.
+ 
+  
+  
+ 
+Exosphère: Customized TrustZone, to run a customized Secure Monitor
+ 
+ 
+Thermosphère: EL2 EmuNAND support, i.e. backing up and using virtualized/redirected NAND images
+ 
+ 
+…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LeCoupa/awesome-cheatsheets]]></title>
+        <id>https://github.com/LeCoupa/awesome-cheatsheets</id>
+        <link href="https://github.com/LeCoupa/awesome-cheatsheets"/>
+        <updated>2021-09-19T00:52:58.538Z</updated>
+        <summary type="html"><![CDATA[👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.
+
+
+ 
+ 
+ 
+WEBSITE DIRECTORY: Available here.
+ 
+ 
+ 
+📚 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.
+ 
+ 
+🤔 Why Awesome-Cheatsheets?
+ 
+I usually make a cheat sheet when I want to improve my skills in a programming language, a framework or a development tool. I started doing these kinds of things a long time ago on Gist. To better keep track of the history and to let people contribute, I reorganized all of them into this single repository. Most of the content is coming from official documentation and some books I have read.
+ 
+Feel free…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[crossplane/crossplane]]></title>
+        <id>https://github.com/crossplane/crossplane</id>
+        <link href="https://github.com/crossplane/crossplane"/>
+        <updated>2021-09-19T00:52:58.511Z</updated>
+        <summary type="html"><![CDATA[Manage any infrastructure your applications need directly from Kubernetes
+
+     
+ 
+
+ 
+Crossplane is an open source Kubernetes add-on that enables platform teams to assemble infrastructure from multiple vendors, and expose higher level self-service APIs for application teams to consume. Crossplane effectively enables platform teams to quickly put together their own opinionated platform declaratively without having to write any code, and offer it to their application teams as a self-service Kubernetes-style declarative API.
+ 
+Both the higher level abstractions as well as the granular resources they are composed of are represented simply as objects in the Kubernetes API, meaning they can all be provisioned and managed by kubectl, GitOps, or any tools that can talk with the Kubernetes API. To …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[eritislami/evobot]]></title>
+        <id>https://github.com/eritislami/evobot</id>
+        <link href="https://github.com/eritislami/evobot"/>
+        <updated>2021-09-19T00:52:58.408Z</updated>
+        <summary type="html"><![CDATA[🤖 EvoBot is a Discord Music Bot built with discord.js & uses Command Handler from discordjs.guide
+
+  
+ 
+
+ 
+🤖 EvoBot (Discord Music Bot)
+ 
+ 
+ 
+EvoBot is a Discord Music Bot built with discord.js & uses Command Handler from discordjs.guide
+ 
+ 
+Requirements
+ 
+ 
+ 
+Discord Bot Token Guide
+ 
+ 
+YouTube Data API v3 Key Guide
+ 2.1 (Optional) Soundcloud Client ID Guide
+ 
+ 
+Node.js v14.0.0 or newer
+ 
+ 
+🚀 Getting Started
+ 
+git clone https://github.com/eritislami/evobot.git
+cd evobot
+npm install
+
+ 
+After installation finishes follow configuration instructions then run node index.js to start the bot.
+ 
+⚙️ Configuration
+ 
+Copy or Rename config.json.example to config.json and fill out the values:
+ 
+⚠️ Note: Never commit or share your token or api keys publicly ⚠️
+ 
+{
+  "TOKEN": "",
+  "YOUTUBE_API_KEY":…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[kamranahmedse/developer-roadmap]]></title>
+        <id>https://github.com/kamranahmedse/developer-roadmap</id>
+        <link href="https://github.com/kamranahmedse/developer-roadmap"/>
+        <updated>2021-09-19T00:52:58.277Z</updated>
+        <summary type="html"><![CDATA[Roadmap to becoming a web developer in 2021
+
+
+ 
+ 
+ 
+Roadmap to becoming a web developer in 2021
+ 
+ 
+   
+ 
+Below you find a set of charts demonstrating the paths that you can take and the technologies that you would want to adopt in order to become a frontend, backend or a devops. I made these charts for an old professor of mine who wanted something to share with his college students to give them a perspective; sharing them here to help the community.
+ 
+ 
+ Special Announcement: 
+    
+ We now have a YouTube Channel 
+ I plan on covering the roadmaps and put more content there
+Subscribe to the channel. 
+ 
+ 
+Purpose of these Roadmaps
+ 
+ 
+ 
+The purpose of these roadmaps is to give you an idea about the landscape and to guide you if you are confused about what to learn next and not to encourage y…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Managing Docker apps with Kubernetes Ingress Controller]]></title>
         <id>https://www.cncf.io/?p=64558</id>

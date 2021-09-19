@@ -139,6 +139,168 @@
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
         {
+          "id": "https://github.com/freeCodeCamp/freeCodeCamp",
+          "author": null,
+          "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.\n\n\n \n    \n \nfreeCodeCamp.org's open-source codebase and curriculum\n \nfreeCodeCamp.org is a friendly community where you can learn to code for free. It is run by a donor-supported 501(c)(3) nonprofit to help millions of busy adults transition into tech. Our community has already helped more than 10,000 people get their first developer job.\n \nOur full-stack web development and machine learning curriculum is completely free and self-paced. We have thousands of interactive coding challenges to help you expand your skills.\n \nTable of Contents\n \n \n \nCertifications\n \n \nThe Learning Platform\n \n \nReporting Bugs and Issues\n \n \nReporting Security Issues and Responsible Disclosure\n \n \nContributing\n \n \nPlatform, Build and De…",
+          "link": "https://github.com/freeCodeCamp/freeCodeCamp",
+          "publishedOn": "2021-09-19T00:52:59.291Z",
+          "wordCount": 1993,
+          "title": "freeCodeCamp/freeCodeCamp"
+        },
+        {
+          "id": "https://github.com/facebook/jest",
+          "author": null,
+          "description": "Delightful JavaScript Testing.\n\n      \n \n \n \n \n\n \n🃏 Delightful JavaScript Testing\n \n👩🏻‍💻 Developer Ready: A comprehensive JavaScript testing solution. Works out of the box for most JavaScript projects.\n \n🏃🏽 Instant Feedback: Fast, interactive watch mode only runs test files related to changed files.\n \n📸 Snapshot Testing: Capture snapshots of large objects to simplify testing and to analyze how they change over time.\n \nSee more on jestjs.io\n \nTable of Contents\n \n \n \nGetting Started\n \n \nRunning from command line\n \n \nAdditional Configuration \n  \n \n   \nGenerate a basic configuration file\n \n   \nUsing Babel\n \n   \nUsing Webpack\n \n   \nUsing Parcel\n \n   \nUsing Typescript\n \n  \n  \n \nDocumentation\n \n \nBadge\n \n \nContributing \n  \n \n   \nCode of Conduct\n \n   \nContributing Guide\n \n   \nGood First Iss…",
+          "link": "https://github.com/facebook/jest",
+          "publishedOn": "2021-09-19T00:52:59.210Z",
+          "wordCount": 1852,
+          "title": "facebook/jest"
+        },
+        {
+          "id": "https://github.com/authelia/authelia",
+          "author": null,
+          "description": "The Single Sign-On Multi-Factor portal for web apps\n\n  \n \n           \n \nAuthelia is an open-source authentication and authorization server providing two-factor authentication and single sign-on (SSO) for your applications via a web portal. It acts as a companion for reverse proxies like nginx, Traefik or HAProxy to let them know whether requests should either be allowed or redirected to Authelia's portal for authentication.\n \nDocumentation is available at https://www.authelia.com/docs.\n \nThe following is a simple diagram of the architecture:\n \n  \n \nAuthelia can be installed as a standalone service from the AUR, APT, FreeBSD Ports, or using a Static binary, .deb package, Docker or Kubernetes either manually or via the Helm Chart (beta) leveraging ingress controllers and ingress configuratio…",
+          "link": "https://github.com/authelia/authelia",
+          "publishedOn": "2021-09-19T00:52:59.161Z",
+          "wordCount": 2046,
+          "title": "authelia/authelia"
+        },
+        {
+          "id": "https://github.com/Androz2091/discord-music-bot",
+          "author": null,
+          "description": "The perfect music bot for your Discord server! 🤘\n\nDiscord Music Bot\n \nThe perfect music bot for your Discord server! 🎶\n \nFeatures\n \nHighlights\n \n \n \nSimple & easy to use 🤘\n \n \nAudio filters (bassboost) 🎸\n \n \nYouTube, Facebook and Vimeo support 🌌\n \n \nSlash Commands support 🤖\n \n \nPlay in multiple servers at the same time 🚗\n \n \nCommands\n \nHere are all the available commands in the bot!\n \n \n  \n  \n \n   Name \n   Description \n   Options \n  \n \n  \n  \n  \n \n   /back \n   Plays the previous track \n    \n  \n \n  \n \n   /bassboost \n   Toggles bassboost filter \n    \n  \n \n  \n \n   /clear \n   Clear the current queue. \n    \n  \n \n  \n \n   /jump \n   Jumps to a specific track \n   <tracks> \n  \n \n  \n \n   /loop \n   Sets loop mode \n   <mode> \n  \n \n  \n \n   /np \n   See what's currently being played \n    \n  \n \n  \n \n…",
+          "link": "https://github.com/Androz2091/discord-music-bot",
+          "publishedOn": "2021-09-19T00:52:59.071Z",
+          "wordCount": 775,
+          "title": "Androz2091/discord-music-bot"
+        },
+        {
+          "id": "https://github.com/SudhanPlayz/Discord-MusicBot",
+          "author": null,
+          "description": "An advanced discord music bot, supports Spotify, Soundcloud, YouTube with Shuffling, Volume Control and Web Dashboard with Slash Commands support!\n\n Discord Music Bot \n \nThanks for 25k Views with 500 subs!\n \n✨Latest Updates✨\n \n \n \nDISCORD.JS v13 WILL BREAK THIS BOT. DO NOT USE IT UNTIL v5 IS OUT.\n \n \nVERSION 5 OF THIS BOT HAS NO RELEASE DATE\n \n \n❗Prerequisites❗\n \n \n \nNode.js 14+\n \n \ndiscord.js@12.5.3\n \n \nLavalink Server\n \n \nDO NOT JOIN OUR DISCORD FOR LAVALINK ISSUES\n \n \n \nNOTE: Lavalink is needed for music functionality. You need to have a working Lavalink server to make the bot work.\n \n \n📝 Tutorial\n \nA Tutorial has been uploaded on YouTube, Watch it by clicking here\n \n📝 Support Server\n \nDO NOT JOIN OUR DISCORD FOR DASHBOARD ISSUES AND LAVALINK ISSUES. WE WILL NOT HELP YOU.\n \nIf you have major coding issues with this bot, please join and ask for help.\n \n📸 Screenshots\n \n\n \n\n\n \n\n\n \n \n\n \n \n💨 Run the projects\n \n  \n \n✨ Contributors\n \nContributions are always welcomed :D Make sure to follow Contributing.md\n \n   \nMade with ❤️ and JavaScript!",
+          "link": "https://github.com/SudhanPlayz/Discord-MusicBot",
+          "publishedOn": "2021-09-19T00:52:59.034Z",
+          "wordCount": 775,
+          "title": "SudhanPlayz/Discord-MusicBot"
+        },
+        {
+          "id": "https://github.com/sogou/workflow",
+          "author": null,
+          "description": "C++ Parallel Computing and Asynchronous Networking Engine\n\n中文版入口\n \nSogou C++ Workflow\n \n   \n \nAs Sogou`s C++ server engine, Sogou C++ Workflow supports almost all back-end C++ online services of Sogou, including all search services, cloud input method，online advertisements, etc., handling more than 10 billion requests every day. This is an enterprise-level programming engine in light and elegant design which can satisfy most C++ back-end development requirements.\n \nYou can use it:\n \n \n \nTo quickly build an HTTP server:\n \n \n#include <stdio.h>\n#include \"workflow/WFHttpServer.h\"\n\nint main()\n{\n    WFHttpServer server([](WFHttpTask *task) {\n        task->get_resp()->append_output_body(\"<html>Hello World!</html>\");\n    });\n\n    if (server.start(8888) == 0) { // start server on port 8888\n        …",
+          "link": "https://github.com/sogou/workflow",
+          "publishedOn": "2021-09-19T00:52:58.989Z",
+          "wordCount": 1666,
+          "title": "sogou/workflow"
+        },
+        {
+          "id": "https://github.com/30-seconds/30-seconds-of-code",
+          "author": null,
+          "description": "Short JavaScript code snippets for all your development needs\n\n\n \n30 seconds of code\n \n \n \nShort JavaScript code snippets for all your development needs\n \n \n \n \nVisit our website to view our snippet collection.\n \n \nUse the Search page to find snippets that suit your needs. You can search by name, tag, language or using a snippet's description. Just start typing a term and see what comes up.\n \n \nBrowse the JavaScript Snippet collection to see all the snippets in this project or click individual tags at the top of the same page to narrow down your search to a specific tag.\n \n \nClick on each snippet card to view the whole snippet, including code, explanation and examples.\n \n \nYou can use the button at the bottom of a snippet card to copy the code to clipboard.\n \n \nIf you like the project, give it a star. It means a lot to the people maintaining it.\n \n \nWant to contribute?\n \n \n \nIf you want to help us improve, take a minute to read the Contribution Guidelines first.\n \n \nUse the Snippet Template to add new snippets to the collection.\n \n \nIf you find a problem with a specific snippet, please open an issue.\n \n \nIf you find a problem with the website, please report it in the web repository.\n \n \nCredits\n \n \n \nThis repository is maintained by the 30 seconds of code organization on GitHub.\n \n \nAll snippets are licensed under the CC0-1.0 License, unless explicitly stated otherwise.\n \n \nLogos, names and trademarks are not to be used without the explicit consent of the owners of the 30 seconds of code GitHub organization.\n \n \nOur website is powered by Netlify, Next.js & GitHub.",
+          "link": "https://github.com/30-seconds/30-seconds-of-code",
+          "publishedOn": "2021-09-19T00:52:58.951Z",
+          "wordCount": 630,
+          "title": "30-seconds/30-seconds-of-code"
+        },
+        {
+          "id": "https://github.com/PyTorchLightning/lightning-flash",
+          "author": null,
+          "description": "Your PyTorch AI Factory - Flash enables you to easily configure and run complex AI recipes for over 15 tasks across 7 data domains\n\n \n  \n \nYour PyTorch AI Factory\n \n \n \n \n Installation • Flash in 3 Steps • Docs • Contribute • Community • Website • License \n \n \n      \n \n \n \n\n  Flash enables you to easily configure and run complex AI recipes for over 15 tasks across 7 data domains \n    \n \nGetting Started\n \nFrom PyPI:\n \npip install lightning-flash\n\n \nSee our installation guide for more options.\n \nFlash in 3 Steps\n \nStep 1. Load your data\n \nAll data loading in Flash is performed via a from_* classmethod on a DataModule. Which DataModule to use and which from_* methods are available depends on the task you want to perform. For example, for image segmentation where your data is stored in folders…",
+          "link": "https://github.com/PyTorchLightning/lightning-flash",
+          "publishedOn": "2021-09-19T00:52:58.920Z",
+          "wordCount": 1549,
+          "title": "PyTorchLightning/lightning-flash"
+        },
+        {
+          "id": "https://github.com/sindresorhus/awesome",
+          "author": null,
+          "description": "😎 Awesome lists about all kinds of interesting topics\n\n \n  \n \n \n \n \n \n \n \n \n \n  My open source work is supported by the community  \n \n Special thanks to: \n \n \n \n \n    \n \n \n \n \n    \n \n \n \n \n  \n  \n \n    \n  \n All your environment variables, in one place \n  \n \n   Stop struggling with scattered API keys, hacking together home-brewed tools, \n   \n \n   and avoiding access controls. Keep your team and servers in sync with Doppler. \n  \n  \n \n \n  \n  \n \n    \n  \n Your app, enterprise-ready. \n  \n \n   Start selling to enterprise customers with just a few lines of code. \n   \n \n   Add Single Sign-On (and more) in minutes instead of months. \n  \n  \n \n \n  \n  \n \n    \n  \n Strapi is the leading open-source headless CMS. \n  \n \n   It’s 100% JavaScript, fully customizable, and developer-first. \n  \n  \n \n \n  \n  \n \n  …",
+          "link": "https://github.com/sindresorhus/awesome",
+          "publishedOn": "2021-09-19T00:52:58.870Z",
+          "wordCount": 4743,
+          "title": "sindresorhus/awesome"
+        },
+        {
+          "id": "https://github.com/jlevy/the-art-of-command-line",
+          "author": null,
+          "description": "Master the command line, in one page\n\n🌍 Čeština ∙ Deutsch ∙ Ελληνικά ∙ English ∙ Español ∙ Français ∙ Indonesia ∙ Italiano ∙ 日本語 ∙ 한국어 ∙ polski ∙ Português ∙ Română ∙ Русский ∙ Slovenščina ∙ Українська ∙ 简体中文 ∙ 繁體中文\n \nThe Art of Command Line\n \nNote: I'm planning to revise this and looking for a new co-author to help with expanding this into a more comprehensive guide. While it's very popular, it could be broader and a bit deeper. If you like to write and are close to being an expert on this material and willing to consider helping, please drop me a note at josh (0x40) holloway.com. –jlevy, Holloway. Thank you!\n \n \n \nMeta\n \n \nBasics\n \n \nEveryday use\n \n \nProcessing files and data\n \n \nSystem debugging\n \n \nOne-liners\n \n \nObscure but useful\n \n \nmacOS only\n \n \nWindows only\n \n \nMore resources\n \n…",
+          "link": "https://github.com/jlevy/the-art-of-command-line",
+          "publishedOn": "2021-09-19T00:52:58.810Z",
+          "wordCount": 6277,
+          "title": "jlevy/the-art-of-command-line"
+        },
+        {
+          "id": "https://github.com/7kms/react-illustration-series",
+          "author": null,
+          "description": "图解react源码, 用大量配图的方式, 致力于将react原理表述清楚.\n\n图解 React 源码系列\n \n \n \nreact源码, 基于react@17.0.2(尽可能跟随 react 版本的升级, 持续更新). 用大量配图的方式, 致力于将react原理表述清楚.\n \n \n使用指南\n \n \n \n本系列以 react 核心包结构和运行机制为主线索进行展开. 包括react 宏观结构, react 工作循环, react 启动模式, react fiber原理, react hook原理, react 合成事件等核心内容.\n \n \n开源作品需要社区的净化和参与, 如有表述不清晰或表述错误, 欢迎issue 勘误. 如果对你有帮助, 请不吝 star.\n \n \n本系列最初写作于 2020 年 6 月(当时稳定版本是 v16.13.1), 随着 react 官方的升级, 本 repo 会将主要版本的文章保存在以版本号命名的分支中.\n \n \n当下前端技术圈总体比较浮躁, 各技术平台充斥着不少\"标题党\". 真正对于技术本身, 不能急于求成, 需要静下心来修炼.\n \n \n本系列不是面经, 但会列举一些面试题来加深对 react 理解.\n \n \n本系列所有内容皆为原创, 如需转载, 请注明出处.\n \n \n适用读者\n \n \n \n对react,react-dom开发 web 应用有实践经验.\n \n \n期望深入理解react内在作用原理.\n \n \n \n版本跟踪\n \n \n \n本系列暂时只跟踪稳定版本的变动. react仓库代码改动比较频繁, 在写作过程中, 如果伴随小版本的发布, 文章中的源码链接会以写作当天的最新小版本为基准.\n \n \n \n \n react@17.0.0作为主版本升级, 相较于 16.x 版本, 在使用层面基本维持不变, 在源码层面需要关注的重大的变动如下\n \n  \n \n    \n    \n \n     重大变动 \n     所属板块 \n     官方解释 \n    \n \n    \n    \n    \n \n     重构Fiber.expirationTime并引入Fiber.lanes \n     react-reconciler \n     Initial Lanes implementation #18796 \n    \n \n    \n \n     事件代理节点从 document 变成 rootNode, 取消合成事件的缓存池等 \n     legacy-events(被移除), react-dom/events \n     changes-to-event-delegation \n    \n \n    \n  \n  \n \n react@17.0.1相较于主版本v17.0.0做了一个点的优化, 改动了 1 个文件, 修复 ie11 兼容问题, 同时提升 v8 内部的执行性能.\n  \n \n \n \nreact@17.0.2相较于v17.0.1, 改动集中于Scheduler包, 主杆逻辑没有变动, 只与调度性能统计相关.\n \n \n主要类容\n \n基本概念\n \n \n \n宏观包结构\n \n \n两大工作循环\n \n \n高频对象\n \n \n运行核心\n \n \n \nreconciler 运作流程\n \n \n启动过程\n \n \n优先级管理\n \n \nscheduler 调度原理\n \n \nfiber 树构造(基础准备)\n \n \nfiber 树构造(初次创建)\n \n \nfiber 树构造(对比更新)\n \n \nfiber 树渲染\n \n \n异常处理\n \n \n数据管理\n \n \n \n状态与副作用\n \n \nhook 原理(概览)\n \n \nhook 原理(状态 Hook)\n \n \nhook 原理(副作用 Hook)\n \n \ncontext 原理\n \n \n交互\n \n \n \n合成事件原理\n \n \n高频算法\n \n \n \n位运算\n \n \n堆排序\n \n \n深度优先遍历\n \n \n链表操作\n \n \n栈操作\n \n \ndiff 算法\n \n \n历史版本\n \n \n \n基于 v16.13.1 版本的分析\n \n \n基于 v17.0.1 版本的分析",
+          "link": "https://github.com/7kms/react-illustration-series",
+          "publishedOn": "2021-09-19T00:52:58.753Z",
+          "wordCount": 597,
+          "title": "7kms/react-illustration-series"
+        },
+        {
+          "id": "https://github.com/calendso/calendso",
+          "author": null,
+          "description": "Scheduling infrastructure for absolutely everyone.\n\n    \nCal.com (formerly Calendso)\n \n The open-source Calendly alternative. \n Learn more » \n  Slack · Website · Issues \n \n\n \n         \n \n \nAbout The Project\n \n \nScheduling infrastructure for absolutely everyone.\n \nThe open source Calendly alternative. You are in charge of your own data, workflow and appearance.\n \nCalendly and other scheduling tools are awesome. It made our lives massively easier. We're using it for business meetings, seminars, yoga classes and even calls with our families. However, most tools are very limited in terms of control and customisations.\n \nThat's where Cal.com comes in. Self-hosted or hosted by us. White-label by design. API-driven and ready to be deployed on your own domain. Full control of your events and data.…",
+          "link": "https://github.com/calendso/calendso",
+          "publishedOn": "2021-09-19T00:52:58.718Z",
+          "wordCount": 2116,
+          "title": "calendso/calendso"
+        },
+        {
+          "id": "https://github.com/DopplerHQ/awesome-interview-questions",
+          "author": null,
+          "description": "A curated awesome list of lists of interview questions. Feel free to contribute! 🎓\n\n \n \n  \n  \n \n  All your environment variables, in one place \n  \n \n  \n   \n \n \n \nAwesome Interviews \n \n \n \nA curated list of lists of technical interview questions.\n \n \nWhat makes for an awesome list?\n \nPlease read the contribution guidelines or creating a list guide if you want to contribute.\n \nTable of Contents\n \n \n \n Programming Languages/Frameworks/Platforms\n \n  \n \n   \nAndroid\n \n   \nAngularJS\n \n   \nAngular\n \n   \nBackboneJS\n \n   \nC++\n \n   \nC\n \n   \nC♯\n \n   \n.NET\n \n   \nClojure\n \n   \nCSS\n \n   \nCucumber\n \n   \nDjango\n \n   \nDocker\n \n   \nEmberJS\n \n   \nErlang\n \n   \nGolang\n \n   \nGraphQl\n \n   \nHTML\n \n   \nIonic\n \n   \niOS\n \n   \nJava\n \n   \nJavaScript\n \n   \njQuery\n \n   \nFront-end build tools\n \n   \nKnockoutJS\n \n   \nLess\n…",
+          "link": "https://github.com/DopplerHQ/awesome-interview-questions",
+          "publishedOn": "2021-09-19T00:52:58.657Z",
+          "wordCount": 3754,
+          "title": "DopplerHQ/awesome-interview-questions"
+        },
+        {
+          "id": "https://github.com/Atmosphere-NX/Atmosphere",
+          "author": null,
+          "description": "Atmosphère is a work-in-progress customized firmware for the Nintendo Switch.\n\n\n \n \n \nAtmosphère is a work-in-progress customized firmware for the Nintendo Switch.\n \nComponents\n \nAtmosphère consists of multiple components, each of which replaces/modifies a different component of the system:\n \n \n \nFusée: First-stage Loader, responsible for loading and validating stage 2 (custom TrustZone) plus package2 (Kernel/FIRM sysmodules), and patching them as needed. This replaces all functionality normally in Package1loader/NX Bootloader. \n  \n \n   \nSept: Payload used to enable support for runtime key derivation on 7.0.0.\n \n  \n  \n \nExosphère: Customized TrustZone, to run a customized Secure Monitor\n \n \nThermosphère: EL2 EmuNAND support, i.e. backing up and using virtualized/redirected NAND images\n \n \n…",
+          "link": "https://github.com/Atmosphere-NX/Atmosphere",
+          "publishedOn": "2021-09-19T00:52:58.602Z",
+          "wordCount": 825,
+          "title": "Atmosphere-NX/Atmosphere"
+        },
+        {
+          "id": "https://github.com/LeCoupa/awesome-cheatsheets",
+          "author": null,
+          "description": "👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.\n\n\n \n \n \nWEBSITE DIRECTORY: Available here.\n \n \n \n📚 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.\n \n \n🤔 Why Awesome-Cheatsheets?\n \nI usually make a cheat sheet when I want to improve my skills in a programming language, a framework or a development tool. I started doing these kinds of things a long time ago on Gist. To better keep track of the history and to let people contribute, I reorganized all of them into this single repository. Most of the content is coming from official documentation and some books I have read.\n \nFeel free…",
+          "link": "https://github.com/LeCoupa/awesome-cheatsheets",
+          "publishedOn": "2021-09-19T00:52:58.538Z",
+          "wordCount": 787,
+          "title": "LeCoupa/awesome-cheatsheets"
+        },
+        {
+          "id": "https://github.com/crossplane/crossplane",
+          "author": null,
+          "description": "Manage any infrastructure your applications need directly from Kubernetes\n\n     \n \n\n \nCrossplane is an open source Kubernetes add-on that enables platform teams to assemble infrastructure from multiple vendors, and expose higher level self-service APIs for application teams to consume. Crossplane effectively enables platform teams to quickly put together their own opinionated platform declaratively without having to write any code, and offer it to their application teams as a self-service Kubernetes-style declarative API.\n \nBoth the higher level abstractions as well as the granular resources they are composed of are represented simply as objects in the Kubernetes API, meaning they can all be provisioned and managed by kubectl, GitOps, or any tools that can talk with the Kubernetes API. To …",
+          "link": "https://github.com/crossplane/crossplane",
+          "publishedOn": "2021-09-19T00:52:58.511Z",
+          "wordCount": 1227,
+          "title": "crossplane/crossplane"
+        },
+        {
+          "id": "https://github.com/eritislami/evobot",
+          "author": null,
+          "description": "🤖 EvoBot is a Discord Music Bot built with discord.js & uses Command Handler from discordjs.guide\n\n  \n \n\n \n🤖 EvoBot (Discord Music Bot)\n \n \n \nEvoBot is a Discord Music Bot built with discord.js & uses Command Handler from discordjs.guide\n \n \nRequirements\n \n \n \nDiscord Bot Token Guide\n \n \nYouTube Data API v3 Key Guide\n 2.1 (Optional) Soundcloud Client ID Guide\n \n \nNode.js v14.0.0 or newer\n \n \n🚀 Getting Started\n \ngit clone https://github.com/eritislami/evobot.git\ncd evobot\nnpm install\n\n \nAfter installation finishes follow configuration instructions then run node index.js to start the bot.\n \n⚙️ Configuration\n \nCopy or Rename config.json.example to config.json and fill out the values:\n \n⚠️ Note: Never commit or share your token or api keys publicly ⚠️\n \n{\n  \"TOKEN\": \"\",\n  \"YOUTUBE_API_KEY\":…",
+          "link": "https://github.com/eritislami/evobot",
+          "publishedOn": "2021-09-19T00:52:58.408Z",
+          "wordCount": 913,
+          "title": "eritislami/evobot"
+        },
+        {
+          "id": "https://github.com/kamranahmedse/developer-roadmap",
+          "author": null,
+          "description": "Roadmap to becoming a web developer in 2021\n\n\n \n \n \nRoadmap to becoming a web developer in 2021\n \n \n   \n \nBelow you find a set of charts demonstrating the paths that you can take and the technologies that you would want to adopt in order to become a frontend, backend or a devops. I made these charts for an old professor of mine who wanted something to share with his college students to give them a perspective; sharing them here to help the community.\n \n \n Special Announcement: \n    \n We now have a YouTube Channel \n I plan on covering the roadmaps and put more content there\nSubscribe to the channel. \n \n \nPurpose of these Roadmaps\n \n \n \nThe purpose of these roadmaps is to give you an idea about the landscape and to guide you if you are confused about what to learn next and not to encourage y…",
+          "link": "https://github.com/kamranahmedse/developer-roadmap",
+          "publishedOn": "2021-09-19T00:52:58.277Z",
+          "wordCount": 847,
+          "title": "kamranahmedse/developer-roadmap"
+        },
+        {
           "id": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap",
           "author": null,
           "description": "Roadmap to becoming an Artificial Intelligence Expert in 2021\n\n    \ni.am.ai\nAI Expert Roadmap\n \nRoadmap to becoming an Artificial Intelligence Expert in 2021\n \n      \n \n \n\n \nBelow you find a set of charts demonstrating the paths that you can take and the technologies that you would want to adopt in order to become a data scientist, machine learning or an ai expert. We made these charts for our new employees to make them AI Experts but we wanted to share them here to help the community.\n \nIf you are interested to become an AI EXPERT at AMAI in Germany, or you want to hire an AI Expert, please say hi@am.ai.\n \nNote\n \n👉 An interactive version with links to follow about each bullet of the list can be found at i.am.ai/roadmap 👈\n \nTo receive updates star ⭐ and watch 👀 the GitHub Repo to get notified, when we add new content to stay on the top of the most recent research.\n \nDisclaimer\n \nThe purpose of these roadmaps is to give you an idea about the landscape and to guide you if you are confused about what to learn next and not to encourage you to pick what is hip and trendy. You should grow some understanding of why one tool would better suited for some cases than the other and remember hip and trendy never means best suited for the job.\n \nIntroduction\n \n    \n \nFundamentals\n \n    \n \nData Science Roadmap\n \n    \n \nMachine Learning Roadmap\n \n    \n \nDeep Learning Roadmap\n \n    \n \nData Engineer Roadmap\n \n    \n \nBig Data Engineer Roadmap\n \n    \n \n🚦 Wrap Up\n \nIf you think any of the roadmaps can be improved, please do open a PR with any updates and submit any issues. Also, we will continue to improve this, so you might want to watch/star this repository to revisit.\n \n🙌 Contribution\n \n \n \nHave a look at the contribution docs for how to update any of the roadmaps\n \n \n \n \nOpen pull request with improvements\n \n \nDiscuss ideas in issues\n \n \nSpread the word\n \n \nReach out with any feedback\n \n \nSupported By",
