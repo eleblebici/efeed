@@ -2,10 +2,486 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-19T00:52:59.308Z</updated>
+    <updated>2021-09-20T00:55:50.162Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[mui-org/material-ui]]></title>
+        <id>https://github.com/mui-org/material-ui</id>
+        <link href="https://github.com/mui-org/material-ui"/>
+        <updated>2021-09-20T00:55:50.143Z</updated>
+        <summary type="html"><![CDATA[Material-UI is a simple and customizable component library to build faster, beautiful, and more accessible React applications. Follow your own design system, or start with Material Design.
+
+ 
+ 
+
+ 
+MUI
+ 
+ 
+ 
+Quickly build beautiful React apps. MUI is a simple and customizable component library to build faster, beautiful, and more accessible React applications. Follow your own design system, or start with Material Design.
+ 
+ 
+          
+ 
+ 
+Installation
+ 
+MUI is available as an npm package.
+ 
+Stable channel v5
+ 
+// with npm
+npm install @mui/material @emotion/react @emotion/styled
+
+// with yarn
+yarn add @mui/material @emotion/react @emotion/styled
+
+ 
+ 
+ Older versions 
+ 
+ 
+  
+v4.x (Migration from v4 to v5)
+ 
+  
+v3.x (Migration from v3 to v4)
+ 
+  
+v0.x (Migration to v1)
+ 
+ 
+ 
+ 
+Please note tha…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[smartvotedocs/votesmart2021]]></title>
+        <id>https://github.com/smartvotedocs/votesmart2021</id>
+        <link href="https://github.com/smartvotedocs/votesmart2021"/>
+        <updated>2021-09-20T00:55:49.912Z</updated>
+        <summary type="html"><![CDATA[Кандидаты Умного голосования в Госдуму 2021
+
+Кандидаты Умного голосования в Госдуму 2021
+ 
+В этом README вы найдете кандидатов от Умного голосования на выборах в Госдуму и ссылку на актуальную версию андроид-приложения. Чтобы не стать жертвой кремлевских мошенников, скачивайте ее ТОЛЬКО с GitHub по этой ссылке
+ 
+ 
+ 
+ Если вы голосуете за границей или хотите получить рекомендации по местным выборам, напишите нашему телеграм-боту. Он подскажет, где и за кого проголосовать. Или заходите на сайт.
+  
+ 
+ Cкачайте наши листовки, распечатайте их и повесьте в своём подъезде.
+  
+ 
+ 
+ 
+В бюллетене со списком партий выбирайте любую парламентскую партию, кроме «Единой России». Помните: голос, отданный за партию, которая наберет меньше 5%, достанется единороссам.
+ 
+ 
+ 
+ 
+На губернаторских выборах голосу…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ventoy/Ventoy]]></title>
+        <id>https://github.com/ventoy/Ventoy</id>
+        <link href="https://github.com/ventoy/Ventoy"/>
+        <updated>2021-09-20T00:55:49.839Z</updated>
+        <summary type="html"><![CDATA[A new bootable USB solution.
+
+ Ventoy 
+ 
+     
+ 
+ Ventoy is an open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files. 
+ With ventoy, you don't need to format the disk over and over, you just need to copy the image files to the USB drive and boot it. You can copy many image files at a time and ventoy will give you a boot menu to select them. 
+ x86 Legacy BIOS, IA32 UEFI, x86_64 UEFI, ARM64 UEFI and MIPS64EL UEFI are supported in the same way.
+ Both MBR and GPT partition style are supported in the same way.
+ Most type of OS supported(Windows/WinPE/Linux/Unix/ChromeOS/Vmware/Xen...) 
+ 730+ ISO files are tested (List). 90%+ distros in distrowatch.com supported (Details). 
+ Official Website: https://www.ventoy.net 
+ 
+Tested OS
+ 
+Windows
+ Windows 7, Windows 8, Windows 8.…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[thunil/Physics-Based-Deep-Learning]]></title>
+        <id>https://github.com/thunil/Physics-Based-Deep-Learning</id>
+        <link href="https://github.com/thunil/Physics-Based-Deep-Learning"/>
+        <updated>2021-09-20T00:55:49.795Z</updated>
+        <summary type="html"><![CDATA[Links to works on deep learning algorithms for physics problems, TUM-I15 and beyond
+
+Physics-Based Deep Learning
+ 
+The following collection of materials targets "Physics-Based Deep Learning" (PBDL), i.e., the field of methods with combinations of physical modeling and deep learning (DL) techniques. Here, DL will typically refer to methods based on artificial neural networks. The general direction of PBDL represents a very active and quickly growing field of research.
+ 
+If you're interested in a comprehensive overview, please check our digital PBDL book: https://www.physicsbaseddeeplearning.org/ (or as PDF: https://arxiv.org/pdf/2109.05237.pdf)
+ 
+
+ 
+Within this area, we can distinguish a variety of different physics-based approaches, from targeting designs, constraints, combined methods, an…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[girlscript/winter-of-contributing]]></title>
+        <id>https://github.com/girlscript/winter-of-contributing</id>
+        <link href="https://github.com/girlscript/winter-of-contributing"/>
+        <updated>2021-09-20T00:55:49.720Z</updated>
+        <summary type="html"><![CDATA[GirlScript Winter of Contributing is a three-month-long Open-Source Program organized by🧡GirlScript Foundation to create the world's largest multilingual content repository that will be available to everyone.
+
+GirlScript Winter of Contributing 
+    
+ 
+ 
+ 
+ 
+GirlScript Winter of Contributing is a three-month newly established initiative by GirlScript Foundation that will take place over the winter months. GWOC invites people to contribute their expertise and ideas in order to improve their technical abilities and obtain significant experience in the field of tech education.Throughout the program, the participants can contribute to a range of themes while being guided by an expert facilitator.The goal of GWOC is to develop the world's largest multilingual repository.🧡
+ 
+ 
+Contributing Guidelines
+ 
+Please follow the contributing guidelines to contribute to the project.
+ 
+Code of Conduct
+ 
+This project and everyone participating in it is governed by the GirlScript Code of Conduct. By participating, you are expected to uphold this code]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[klezVirus/CVE-2021-40444]]></title>
+        <id>https://github.com/klezVirus/CVE-2021-40444</id>
+        <link href="https://github.com/klezVirus/CVE-2021-40444"/>
+        <updated>2021-09-20T00:55:49.698Z</updated>
+        <summary type="html"><![CDATA[CVE-2021-40444 - Fully Weaponized Microsoft Office Word RCE Exploit
+
+Fully Weaponized CVE-2021-40444
+ 
+Malicious docx generator to exploit CVE-2021-40444 (Microsoft Office Word Remote Code Execution), works with arbitrary DLL files.
+ 
+Background
+ 
+Although many PoC are already around the internet, I guessed to give myself a run to weaponizing this vulnerability, as what I found available lacked valuable information that it's worth sharing, also considering Microsoft already released a patch for this vulnerability.
+ 
+So far, the only valuable resources I've seen to create a fully working generator are:
+ 
+ 
+ 
+Blog by Ret2Pwn
+ 
+ 
+Twit by j00sean
+ 
+ 
+The above resources outline a lot of the requirements needed to create a full chain. To avoid repeating too much unnecessary information, I'll ju…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[orico/www.mlcompendium.com]]></title>
+        <id>https://github.com/orico/www.mlcompendium.com</id>
+        <link href="https://github.com/orico/www.mlcompendium.com"/>
+        <updated>2021-09-20T00:55:49.666Z</updated>
+        <summary type="html"><![CDATA[The Machine Learning & Deep Learning Compendium is an open knowledge-sharing project compiled using Gitbook.
+
+ 
+description: An open knowledge-sharing project .
+ 
+The Machine & Deep Learning Compendium
+ 
+Hi! Nearly a year ago I announced the Machine & Deep Learning Compendium, a Google document that I have been writing for the last 4 years. The ML Compendium contains over 500-topics, and it is over 400 pages long.
+ 
+The Compendium is fully open. It is now a project on GitBook & GitHub (please star it!). I believe in knowledge sharing and the compendium will always be free to everyone.
+ 
+I see this compendium as a gateway, as a frequently visited resource for people of various proficiency levels, for industry data scientists, and academics. The compendium will save you countless hours googling and sifting through articles that may not give you any value.
+ 
+The Compendium includes around 500 topics, that contains various summaries, links, and articles that I have read on numerous topics that I found interesting or that I had needed to learn. It include the majority of modern machine learning algorithms, statistics, feature selection, and engineering techniques, deep-learning, NLP, audio, deep & classic vision, time-series, anomaly detection, graphs, experiment management, and much more. In addition to strategic topics such as data science management and team building, and essential topics such as product management, product design, and a technology stack from a DS POV.
+ 
+Please keep in mind that this is a perpetual work in progress with a variety of topics. If you feel that something should be changed, you can now easily contribute using GitBook, GitHub, or contact me.
+ 
+I would like to thank the following contributors: Samuel Jefroykin, Sefi Keller
+ 
+Many Thanks,
+ Dr. Ori Cohen | LinkedIn| Medium | OriCohen.com | MLCompendium.com | book.mlcompendium.com]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pointfreeco/swift-composable-architecture]]></title>
+        <id>https://github.com/pointfreeco/swift-composable-architecture</id>
+        <link href="https://github.com/pointfreeco/swift-composable-architecture"/>
+        <updated>2021-09-20T00:55:49.609Z</updated>
+        <summary type="html"><![CDATA[A library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind.
+
+The Composable Architecture
+ 
+  
+ 
+The Composable Architecture (TCA, for short) is a library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind. It can be used in SwiftUI, UIKit, and more, and on any Apple platform (iOS, macOS, tvOS, and watchOS).
+ 
+ 
+ 
+What is the Composable Architecture?
+ 
+ 
+Learn more
+ 
+ 
+Examples
+ 
+ 
+Basic usage
+ 
+ 
+Supplemental libraries
+ 
+ 
+FAQ
+ 
+ 
+Requirements
+ 
+ 
+Installation
+ 
+ 
+Documentation
+ 
+ 
+Help
+ 
+ 
+Translations
+ 
+ 
+Credits and thanks
+ 
+ 
+Other libraries
+ 
+ 
+What is the Composable Architecture?
+ 
+This library provides a few core tools that can be used to build applicat…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[testerSunshine/12306]]></title>
+        <id>https://github.com/testerSunshine/12306</id>
+        <link href="https://github.com/testerSunshine/12306"/>
+        <updated>2021-09-20T00:55:49.569Z</updated>
+        <summary type="html"><![CDATA[12306智能刷票，订票
+
+12306 购票小助手
+ 
+python版本
+ 
+ 
+ 
+ 2.7.10 - 2.7.15
+ 
+ 
+ 3.6 - 3.7.4
+ 
+ 
+ 2.7.9
+ 
+ 
+已有功能
+ 
+ 
+ 
+ 自动打码
+ 
+ 
+ 自动登录
+ 
+ 
+ 准点预售和捡漏
+ 
+ 
+ 智能候补
+ 
+ 
+ 邮件通知
+ 
+ 
+ server酱通知
+ 
+ 
+依赖库
+ 
+ 
+ 
+验证码目前可以本地识别，需要下载模型，放于项目根目录，全部代码来源于此项目 传送门，表示感谢 
+  1. 模型下载链接:https://pan.baidu.com/s/1rS155VjweWVWIJogakechA  密码:bmlm
+     群里面也可以下载
+  2. git仓库下载：https://github.com/testerSunshine/12306model.git
+
+  
+ 
+自托管云打码服务器搭建：12306_code_server 
+  
+ 
+   
+如果大家有空闲的服务器，可搭建之后在这个 issues 里面填入自己的服务器(请注意服务器安全！)
+ 
+  
+  
+ 
+项目依赖 requirements.txt
+ 
+ 
+安装方法x: 
+  
+ 
+   
+root用户(避免多python环境产生问题): pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+ 
+   
+非root用户（避免安装和运行时使用了不同环境）: pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+ 
+   
+许多windows的用户装不了tensorflow的话，可以适当降低版本或者升高版本都是可以的 
+1. tensorfl…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DataWithDanny/sql-masterclass]]></title>
+        <id>https://github.com/DataWithDanny/sql-masterclass</id>
+        <link href="https://github.com/DataWithDanny/sql-masterclass"/>
+        <updated>2021-09-20T00:55:49.496Z</updated>
+        <summary type="html"><![CDATA[Welcome to the SQL Masterclass Free GitHub Course!!!
+ 
+You can find all of the content and slides for Danny Ma's SQL Masterclass held at the ODSC Asia Pacific 2021 virtual conference!
+ 
+Table of Contents
+ 
+ 
+ 
+📚 Course Content
+ 
+ 
+📊 Accessing the Data
+ 
+ 
+🙏 Conclusion
+ 
+ 
+😎 About the Author
+ 
+ 
+👋 Introduction
+ 
+This free GitHub course is sorted into multiple tutorials which were actually delivered using O'Reilly Katacoda during the live training (which is totally ah-mazing 🤩 )
+ 
+To avoid any legal issues - all of the SQL live training material is available directly here on GitHub as a companion course which you can learn from at your leisure 👌
+ 
+You can also see the presentation slides for the live training here!
+ 
+📚 Course Content 
+ 
+Click the navigation badge below to get started…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[wpengine/faustjs]]></title>
+        <id>https://github.com/wpengine/faustjs</id>
+        <link href="https://github.com/wpengine/faustjs"/>
+        <updated>2021-09-20T00:55:49.468Z</updated>
+        <summary type="html"><![CDATA[Faust.js - The Headless WordPress Framework
+
+  NOTE: This is prerelease software. As we work towards our first release, we will 💯 introduce breaking changes.  
+ 
+  
+Faust.js
+  
+
+ 
+       
+ 
+    
+        
+ 
+Introduction
+ 
+Faust.js is a framework for building front-end applications for headless WordPress sites. Faust.js provides tooling to reduce the pains of building a headless WordPress site (namely around data fetching, authentication, previews, and SSR/SSG) while offering a pleasant experience for both developers and publishers.
+ 
+Getting Started
+ 
+Faust.js aims to be framework agnostic, so it can be used with any front-end framework. Visit one of the guides below for a starting point:
+ 
+ 
+ 
+Getting started with Next.js
+ 
+ 
+As we work towards our first release, we will be introducing support for other frameworks.
+ 
+Documentation
+ 
+Visit https://faustjs.org/docs/next/getting-started to view the full documentation.
+ 
+WordPress Plugin
+ 
+There are two key parts to Faust.js: the NPM packages and the WordPress plugin. To take full advantage of headless, you will need to install the plugin in addition to the npm packages.
+ 
+📥 Download Latest Version
+ 
+After downloading the zip linked above, we recommend installing by manually uploading via the WordPress admin
+ 
+Community
+ 
+To chat with other Faust.js users and the headless community as a whole, you can join the WP Engine Developers Discord.
+ 
+Additionally, if you have questions or ideas, please share them on GitHub Discussions.
+ 
+Contributing
+ 
+There are many ways to contribute to this project.
+ 
+ 
+ 
+Discuss open issues to help define the future of the project.
+ 
+ 
+Submit bugs and help us verify fixes as they are checked in.
+ 
+ 
+Review and discuss the source code changes.
+ 
+ 
+Contribute bug fixes]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[freeCodeCamp/freeCodeCamp]]></title>
         <id>https://github.com/freeCodeCamp/freeCodeCamp</id>
