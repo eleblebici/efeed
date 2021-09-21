@@ -2,10 +2,432 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-20T00:55:50.162Z</updated>
+    <updated>2021-09-21T00:53:28.552Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[laoshenkaopu/kkndme_tianya]]></title>
+        <id>https://github.com/laoshenkaopu/kkndme_tianya</id>
+        <link href="https://github.com/laoshenkaopu/kkndme_tianya"/>
+        <updated>2021-09-21T00:53:28.520Z</updated>
+        <summary type="html"><![CDATA[天涯 kkndme 神贴聊房价
+
+kkndme_tianya（持续更新中...）
+ 
+ 
+ 
+天涯神贴「2010年的房地产调控，我们收获了什么？写在房价暴涨前」脱水版，内容时间顺序和原贴一致，原贴中的优质非楼主写的内容，添加了引用格式便于区分。
+ 
+ 
+除标题外，所有内容均来自原贴，标题是我简单加的，目的是为了做目录，便于查看。
+ 
+ 
+kkndme神贴的内容还没有整理完，待全部整理完：
+ 
+ 
+ 
+  
+对kkndme的思想有了完整的认识后，我应该会在公众号沈正方上写写我对这个帖子内容的思考。
+ 
+  
+其次，我会把本仓库的内容做成PDF，通过公众号沈正方发出去，欢迎关注一起讨论！
+ 
+ 
+ 
+ 
+ 
+ 
+希望调控可以降房价，希望终有一天房价下跌是人们的一厢情愿 
+  
+ 
+   
+1、人人都有居住权。房子是用来住的，不是用来炒的。
+ 
+   
+2、房子太贵了，租售比严重不合理，空置率太高，人均收入太低，早晚要崩盘。
+ 
+   
+3、房价上涨造成物价上涨，人民生活变得困难
+ 
+  
+  
+ 
+房地产调控的真正目的：防范金融风险 & 通过垄断实现gj利益最大化
+ 
+ 
+官方公布的统计数据，只要关系到某个群体的利益，就一定会被修饰导致失真
+ 
+ 
+税收从来都是向下游转嫁的 & 房产税迟迟不出台的真正原因
+ 
+ 
+房地产的现状
+ 
+ 
+房价持续上涨的本质是稀缺性让好房子成为资金最好的去处
+ 
+ 
+关于垄断 
+  
+ 
+   
+1、垄断的好处是没有风险
+ 
+   
+2、垄断可以解决社会稳定
+ 
+   
+3、房屋垄断只会愈演愈烈，底层人民想要拥有一套房子的难度只会越来越难
+ 
+  
+  
+ 
+为什么政府没有那么在意民生问题？
+ 
+ 
+房产税的制定原则
+ 
+ 
+维稳的本质是人民能吃饱饭
+ 
+ 
+公租房是为体制内服务的
+ 
+ 
+房产税一定会转嫁给租房人
+ 
+ 
+巨大的税收消耗也决定了G…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[jumpserver/jumpserver]]></title>
+        <id>https://github.com/jumpserver/jumpserver</id>
+        <link href="https://github.com/jumpserver/jumpserver"/>
+        <updated>2021-09-21T00:53:28.167Z</updated>
+        <summary type="html"><![CDATA[JumpServer 是全球首款开源的堡垒机，是符合 4A 的专业运维安全审计系统。
+
+
+ 
+多云环境下更好用的堡垒机
+ 
+     
+ 
+ 
+ 
+ 
+ENGLISH
+ 
+ 
+JumpServer 是全球首款开源的堡垒机，使用 GNU GPL v2.0 开源协议，是符合 4A 规范的运维安全审计系统。
+ 
+JumpServer 使用 Python 开发，遵循 Web 2.0 规范，配备了业界领先的 Web Terminal 方案，交互界面美观、用户体验好。
+ 
+JumpServer 采纳分布式架构，支持多机房跨区域部署，支持横向扩展，无资产数量及并发限制。
+ 
+改变世界，从一点点开始 ...
+ 
+ 
+ 
+如需进一步了解 JumpServer 开源项目，推荐阅读 JumpServer 的初心和使命
+ 
+ 
+特色优势
+ 
+ 
+ 
+开源: 零门槛，线上快速获取和安装；
+ 
+ 
+分布式: 轻松支持大规模并发访问；
+ 
+ 
+无插件: 仅需浏览器，极致的 Web Terminal 使用体验；
+ 
+ 
+多云支持: 一套系统，同时管理不同云上面的资产；
+ 
+ 
+云端存储: 审计录像云端存储，永不丢失；
+ 
+ 
+多租户: 一套系统，多个子公司和部门同时使用；
+ 
+ 
+多应用支持: 数据库，Windows远程应用，Kubernetes。
+ 
+ 
+UI 展示
+ 
+
+ 
+在线体验
+ 
+ 
+ 
+环境地址：https://demo.jumpserver.org/
+ 
+ 
+ 
+  
+  
+ 
+   ⚠ 注意 
+  
+ 
+  
+  
+  
+ 
+   该环境仅作体验目的使用，我们会定时清理、重置数据！ 
+  
+ 
+  
+ 
+   请勿修改体验环境用户的密码！ 
+  
+ 
+  
+ 
+   请勿在环境中添加业务生产环境地址、用户名密码等敏感信息！ 
+  
+ 
+  
+ 
+快速开始
+ 
+ 
+ 
+极速安装
+ 
+ 
+完…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenIMSDK/Open-IM-Server]]></title>
+        <id>https://github.com/OpenIMSDK/Open-IM-Server</id>
+        <link href="https://github.com/OpenIMSDK/Open-IM-Server"/>
+        <updated>2021-09-21T00:53:28.128Z</updated>
+        <summary type="html"><![CDATA[Open-IM-Server is open source instant messaging Server.Backend in Go.
+
+Open-IM-Server
+ 
+
+ 
+ 
+ 
+Open-IM-Server: Open source Instant Messaging Server
+ 
+Instant messaging server. Backend in pure Golang, wire transport protocol is JSON over websocket.
+ 
+Everything is a message in Open-IM-Server, so you can extend custom messages easily, there is no need to modify the server code.
+ 
+Using microservice architectures, Open-IM-Server can be deployed using clusters.
+ 
+By deployment of the Open-IM-Server on the customer's server, developers can integrate instant messaging and real-time network capabilities into their own applications free of charge and quickly, and ensure the security and privacy of business data.
+ 
+Features
+ 
+ 
+ 
+Everything in Free
+ 
+ 
+Scalable architecture
+ 
+ 
+Easy integration
+ 
+ …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[eugeneyan/applied-ml]]></title>
+        <id>https://github.com/eugeneyan/applied-ml</id>
+        <link href="https://github.com/eugeneyan/applied-ml"/>
+        <updated>2021-09-21T00:53:28.090Z</updated>
+        <summary type="html"><![CDATA[📚 Papers & tech blogs by companies sharing their work on data science & machine learning in production.
+
+applied-ml
+ 
+Curated papers, articles, and blogs on data science & machine learning in production. ⚙️
+ 
+  
+ 
+Figuring out how to implement your ML project? Learn how other organizations did it:
+ 
+ 
+ 
+How the problem is framed 🔎(e.g., personalization as recsys vs. search vs. sequences)
+ 
+ 
+What machine learning techniques worked ✅ (and sometimes, what didn't ❌)
+ 
+ 
+Why it works, the science behind it with research, literature, and references 📂
+ 
+ 
+What real-world results were achieved (so you can better assess ROI ⏰💰📈)
+ 
+ 
+P.S., Want a summary of ML advancements? 👉ml-surveys
+ 
+P.P.S, Looking for guides and interviews on applying ML? 👉applyingML
+ 
+Table of Contents
+ 
+ 
+ 
+Data Quali…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[seaswalker/spring-analysis]]></title>
+        <id>https://github.com/seaswalker/spring-analysis</id>
+        <link href="https://github.com/seaswalker/spring-analysis"/>
+        <updated>2021-09-21T00:53:27.962Z</updated>
+        <summary type="html"><![CDATA[Spring源码阅读
+
+Spring
+ 
+Spring相关组件阅读笔记.
+ 
+传送门
+ 
+ 
+ 
+spring-core
+ 
+ 
+spring-aop
+ 
+ 
+spring-context
+ 
+ 
+spring-task
+ 
+ 
+spring-transaction
+ 
+ 
+spring-mvc
+ 
+ 
+guava-cache]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TheAlgorithms/Java]]></title>
+        <id>https://github.com/TheAlgorithms/Java</id>
+        <link href="https://github.com/TheAlgorithms/Java"/>
+        <updated>2021-09-21T00:53:27.933Z</updated>
+        <summary type="html"><![CDATA[All Algorithms implemented in Java
+
+
+ 
+The Algorithms - Java
+ 
+      
+ 
+You can run and edit the algorithms or contribute to them using Gitpod.io, a free online development environment, with a single click.
+ 
+
+ 
+All algorithms are implemented in Java (for educational purposes)
+ 
+These implementations are for learning purposes. The implementations may be less efficient than the Java standard library.
+ 
+Contribution Guidelines
+ 
+Read our Contribution Guidelines before you contribute.
+ 
+Community Channel
+ 
+We're on Gitter! Please join us.
+ 
+Algorithms
+ 
+See our directory.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PeterL1n/RobustVideoMatting]]></title>
+        <id>https://github.com/PeterL1n/RobustVideoMatting</id>
+        <link href="https://github.com/PeterL1n/RobustVideoMatting"/>
+        <updated>2021-09-21T00:53:27.904Z</updated>
+        <summary type="html"><![CDATA[Robust Video Matting in PyTorch, TensorFlow, TensorFlow.js, ONNX, CoreML!
+
+Robust Video Matting (RVM)
+ 
+
+ 
+English | 中文
+ 
+Official repository for the paper Robust High-Resolution Video Matting with Temporal Guidance. RVM is specifically designed for robust human video matting. Unlike existing neural models that process frames as independent images, RVM uses a recurrent neural network to process videos with temporal memory. RVM can perform matting in real-time on any videos without additional inputs. It achieves 4K 76FPS and HD 104FPS on an Nvidia GTX 1080 Ti GPU. The project was developed at ByteDance Inc.
+ 
+ 
+News
+ 
+ 
+ 
+[Sep 16 2021] Code is re-released under GPL-3.0 license.
+ 
+ 
+[Aug 25 2021] Source code and pretrained models are published.
+ 
+ 
+[Jul 27 2021] Paper is accepted by WACV 202…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First is the dream]]></title>
+        <id>https://www.cncf.io/?p=64719</id>
+        <link href="https://www.cncf.io/blog/2021/09/20/first-is-the-dream/"/>
+        <updated>2021-09-20T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Community guest post by Raul Flamenco, founder of Acopula Networks and co-organizer of Cloud Native San Salvador “A man may not achieve everything he has dreamed, but he will never achieve anything...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Chaos Mesh helps Apache APISIX improve system stability]]></title>
+        <id>https://www.cncf.io/?p=64564</id>
+        <link href="https://www.cncf.io/blog/2021/09/20/how-chaos-mesh-helps-apache-apisix-improve-system-stability/"/>
+        <updated>2021-09-20T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on PingCAP‘s blog by Shuyang Wu Apache APISIX is a cloud-native, high-performance, scaling microservices API gateway. It is one of the Apache Software Foundation’s top-level projects and serves hundreds...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Imaging mounted disk volumes under duress]]></title>
+        <id>741a4420-141c-4010-322-703384b78ce8</id>
+        <link href="https://blog.benjojo.co.uk/post/imaging-mounted-disk-volumes-live"/>
+        <updated>2021-09-20T11:25:28.000Z</updated>
+        <summary type="html"><![CDATA[Imaging mounted disk volumes under duress
+
+Backups are critical. If you are lucky and organised you have a set of useful backup primitives, such as Point in Time snapshots on your Infra]]></summary>
+        <author>
+            <name>ben@benjojo.co.uk</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[mui-org/material-ui]]></title>
         <id>https://github.com/mui-org/material-ui</id>
