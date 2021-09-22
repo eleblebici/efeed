@@ -167,6 +167,159 @@
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
         {
+          "id": "https://github.com/openkraken/kraken",
+          "author": null,
+          "description": "A high-performance, web standards-compliant rendering engine based on Flutter.\n\n\n \nKraken  \n \n💁 Have a try\n \n \n \n Install Kraken CLI (macOS only currently)\n $ npm i @openkraken/cli -g\n\n  \n \n Open with kraken\n # kraken [localfile|URL]\n$ kraken https://raw.githubusercontent.com/openkraken/kraken/master/kraken/example/assets/bundle.js\n\n  \n \n💌 Why kraken\n \n \n \n Quick development 🎉\n Compatibility with web standards means you don't have to change your stack.\n const text = document.createTextNode('Hello World!');\ndocument.body.appendChild(text);\n\n  \n \n Cross platform ⚛️\n Seamless integration with Flutter, supports web, mobile (iOS, Android) and desktop (MacOS, Linux, Windows).\n  \n \n Fast performance 🚀\n Provide native-like performance such as navigation, animation and infinite list scrolling.\n  \n \n👏 Contributing\n \nBy contributing to Kraken, you agree that your contributions will be licensed under its Apache-2.0 License.\n \n \n \n Prerequisites\n \n  \n \n   \nNode.js v12.0 or later\n \n   \nFlutter version in the kraken/pubspec.yaml\n \n   \nCMake v3.2.0 or later\n \n   \nXcode (10.12) or later (Running on macOS or iOS)\n \n   \nAndroid NDK version 21.4.7075529 (Running on Android)\n \n  \n  \n \n Install\n $ npm install\n\n  \n \n Building bridge\n Building bridge for all supported platform (macOS, iOS, Android)\n $ npm run build:bridge:all\n\n Building bridge for one platform\n macOS\n $ npm run build:bridge:macos\n\n iOS\n $ npm run build:bridge:ios\n\n Android\n \n  \n \n   \nFor Windows users, make sure that running this command under MINGW64 environment(eg. Git Bash).\n \n  \n $ npm run build:bridge:android\n\n  \n \n Start example\n $ cd kraken/example\n$ flutter run\n\n  \n \n Test (Unit Test and Integration Test)\n $ npm test",
+          "link": "https://github.com/openkraken/kraken",
+          "publishedOn": "2021-09-22T00:54:56.044Z",
+          "wordCount": 717,
+          "title": "openkraken/kraken"
+        },
+        {
+          "id": "https://github.com/typescript-cheatsheets/react",
+          "author": null,
+          "description": "Cheatsheets for experienced React developers getting started with TypeScript\n\n \n \nReact+TypeScript Cheatsheets\n \n    \n \nCheatsheets for experienced React developers getting started with TypeScript\n \n \nWeb docs | 中文翻译 | Español | Português | Contribute! | Ask!\n \n \n \n \n \n👋 This repo is maintained by @swyx, @ferdaber, @eps1lon, @jsjoeio and @arvind-one, we're so happy you want to try out TypeScript with React! If you see anything wrong or missing, please file an issue! 👍\n \n \n \n |  | \n \nAll React + TypeScript Cheatsheets\n \n \n \nThe Basic Cheatsheet (/README.md) is focused on helping React devs just start using TS in React apps \n  \n \n   \nFocus on opinionated best practices, copy+pastable examples.\n \n   \nExplains some basic TS types usage and setup along the way.\n \n   \nAnswers the most Frequent…",
+          "link": "https://github.com/typescript-cheatsheets/react",
+          "publishedOn": "2021-09-22T00:54:56.003Z",
+          "wordCount": 13091,
+          "title": "typescript-cheatsheets/react"
+        },
+        {
+          "id": "https://github.com/skyline-emu/skyline",
+          "author": null,
+          "description": "Run Nintendo Switch homebrew & games on your Android device!\n\n  \n      \n   \n \n Skyline is an experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system, licensed under Mozilla Public License 2.0 \n \n \nContact\n \nYou can contact the core developers of Skyline at our Discord. If you have any questions, feel free to ask. It's also a good place to just keep up with the emulator, as most talk regarding development goes on over there.\n \n \nSpecial Thanks\n \nA few noteworthy teams/projects who've helped us along the way are:\n \n \n \n Ryujinx: We've used Ryujinx for reference throughout the project, the amount of accuracy of their HLE kernel implementation is what makes them such an amazing reference. The team behind the project has been really helpful with any queries we've had. It should be noted that Skyline is not based on Ryujinx.\n  \n \n Switchbrew: We've extensively used Switchbrew whether that be their wiki with it's colossal amount of information on the Switch that has saved us countless hours of time or libnx which was crucial to initial development of the emulator to ensure that our HLE kernel and sysmodule implementations were accurate.\n  \n \n Atmosphère: We've used libmesosphere as another reference for our HLE kernel, it's faithfulness to the HOS kernel helps us a lot. This makes it invaluably important for us as a tool for writing code that can accurately emulate HOS behavior without missing any crucial parts.\n  \n \n \nDisclaimer\n \n \n \nNintendo Switch is a trademark of Nintendo Co., Ltd\n \n \nAndroid is a trademark of Google LLC",
+          "link": "https://github.com/skyline-emu/skyline",
+          "publishedOn": "2021-09-22T00:54:55.833Z",
+          "wordCount": 632,
+          "title": "skyline-emu/skyline"
+        },
+        {
+          "id": "https://github.com/jorisschellekens/borb",
+          "author": null,
+          "description": "borb is a library for reading, creating and manipulating PDF files in python.\n\n borb\n \n   \n \nborb is a library for creating and manipulating PDF files in python.\n \n0. About borb\n \nborb is a pure python library to read, write and manipulate PDF documents. It represents a PDF document as a JSON-like datastructure of nested lists, dictionaries and primitives (numbers, string, booleans, etc)\n \nThis is currently a one-man project, so the focus will always be to support those use-cases that are more common in favor of those that are rare.\n \n1. About the Examples\n \nThe examples can be found in a separate repository. This ensures the borb repository stays relatively small, whilst still providing a thorough knowledgebase of code-samples, screenshots and explanatory text.\n \nCheck out the examples re…",
+          "link": "https://github.com/jorisschellekens/borb",
+          "publishedOn": "2021-09-22T00:54:55.811Z",
+          "wordCount": 877,
+          "title": "jorisschellekens/borb"
+        },
+        {
+          "id": "https://github.com/termux/termux-packages",
+          "author": null,
+          "description": "A build system and primary set of packages for Termux.\n\nTermux packages\n \n     \n \n\n \nThis project contains scripts and patches to build packages for the Termux Android application.\n \nQuick how-to about Termux package management is available at Package Management. It also has info on how to fix repository is under maintenance or down errors when running apt or pkg commands.\n \nContributing\n \n@termux is looking for help with fixing issues, adding new packages and maintaining existing ones. It would be very helpful if you submit a pull request with bug fixes.\n \nRead CONTRIBUTING.md and Developer's Wiki for more details.\n \nContacts\n \nGeneral mailing list: https://groups.io/g/termux\n \nDeveloper mailing list: https://groups.io/g/termux-dev\n \nGeneral chat: https://gitter.im/termux/termux or #termux on IRC/libera.chat.\n \nDeveloper chat: https://gitter.im/termux/dev.",
+          "link": "https://github.com/termux/termux-packages",
+          "publishedOn": "2021-09-22T00:54:55.775Z",
+          "wordCount": 647,
+          "title": "termux/termux-packages"
+        },
+        {
+          "id": "https://github.com/Richasy/Bili.Uwp",
+          "author": null,
+          "description": "适用于新系统UI的哔哩\n\n  \n \n \n \n哔哩\n \n \n    \n \n \n哔哩 现在为 Windows 11 设计！\n \n \n \n哔哩 是一款 哔哩哔哩 的第三方应用，使用 UWP 框架开发，是原生的 Windows 应用，支持 Windows 10/11 系统。主打设计和易用性，广受用户好评。\n \n🙌 简单的开始\n \n如果想安装哔哩，请打开右侧的 Release 页面，找到最新版本，并选择适用于当前系统的安装包下载。\n \n然后打开 系统设置，打开 开发者模式 ，并等待系统安装一些必要的扩展项。\n \n在应用压缩包下载完成后，解压压缩包，并在管理员模式下，使用 Windows PowerShell (不是PowerShell Core) 运行解压后的 install.ps1 脚本，根据提示进行安装。\n \nWatch 项目，以获取应用的更新动态。\n \n关于如何一步步地使用侧加载 (Sideload) 方式安装 UWP 应用及订阅应用更新，请参见 下载并安装哔哩的详细说明 。\n \n📃 文档\n \n所有关于 哔哩 的文档，包括架构、使用说明等，都放在仓库的 Wiki 中，如果你发现有文档缺失或错误，请提交 Issue 说明错漏的内容。\n \n🚀 协作\n \n非常感谢有兴趣的开发者或爱好者参与 哔哩 项目，分享你的见解与思路。对于任何有兴趣想为 哔哩 做出贡献的小伙伴，请参见我们的 哔哩 Wiki 了解更多有关协作的内容和引导知识。\n \n💬 讨论\n \n借助 Github 平台提供的 Discussions 功能，对于一般讨论、提议或分享，我们都可以在 哔哩论坛 中进行，欢迎来这里进行讨论。\n \n🌏 路线图\n \n哔哩会逐步完善，请查看 哔哩里程碑 来了解哔哩下一步打算做的事情。于此同时，欢迎各位开发者加入，让我们一起打造哔哩的未来。\n \n🧩 截图",
+          "link": "https://github.com/Richasy/Bili.Uwp",
+          "publishedOn": "2021-09-22T00:54:55.740Z",
+          "wordCount": 533,
+          "title": "Richasy/Bili.Uwp"
+        },
+        {
+          "id": "https://github.com/GoTurkiye/training",
+          "author": null,
+          "description": "🇹🇷 Go Türkiye 🇹🇷\n \n \nGo Türkiye Eğitim Kampı\n \nGo programlama dilini anlatmayı ve öğretmeyi hedeflediğimiz eğitim kampının akışını, örnek kodları ve etkinlik kayıtlarını burada bulabilirsin. Bu repo eğitim boyunca güncellenecek olup sen de bu repoya katkı sağlayabilirsin.\n \nİçerik\n \n \n \n Basics (Etkinlik Kaydi)\n \n  \n \n   \nVariables\n \n   \nArray\n \n   \nSlices\n \n   \nMaps\n \n   \nStrings\n \n   \nLoops\n \n   \nStructs\n \n   \nPointers\n \n   \nFunctions\n \n   \nErrors\n \n   \nInterfaces\n \n   \nModules\n \n  \n  \n \n Concurrency (Etkinlik Kaydi)\n \n  \n \n   \nGo Routines\n \n   \nChannels\n \n   \nWaitGroups\n \n   \nMutex\n \n   \nSyncPool\n \n   \nDead Lock\n \n  \n  \n \n Http Package [21.09.2021 20:30]\n \n  \n \n   \nhttp\n \n   \nhttputil\n \n   \ngrpc\n \n   \nReverse Proxy\n \n   \nRestful Api\n \n   \nWeb Frameworks (echo, gin, fasthttp)\n \n  \n  …",
+          "link": "https://github.com/GoTurkiye/training",
+          "publishedOn": "2021-09-22T00:54:55.697Z",
+          "wordCount": 597,
+          "title": "GoTurkiye/training"
+        },
+        {
+          "id": "https://github.com/krayin/laravel-crm",
+          "author": null,
+          "description": "Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.\n\n  \n \n    \n \nTopics\n \n \n \nIntroduction\n \n \nDocumentation\n \n \nRequirements\n \n \nInstallation & Configuration\n \n \nLicense\n \n \nSecurity Vulnerabilities\n \n \nIntroduction\n \nKrayin CRM is a hand tailored CRM framework built on some of the hottest opensource technologies such as Laravel (a PHP framework) and Vue.js a progressive Javascript framework.\n \nFree & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.\n \nRead our documentation: Krayin CRM Docs\n \nWe also have a forum for any type of concerns, feature requests, or discussions. Please visit: Krayin CRM Forums\n \nVisit our live Demo\n \nIt packs in lots of features that will allow your E-Comm…",
+          "link": "https://github.com/krayin/laravel-crm",
+          "publishedOn": "2021-09-22T00:54:55.656Z",
+          "wordCount": 972,
+          "title": "krayin/laravel-crm"
+        },
+        {
+          "id": "https://github.com/joehillen/sysz",
+          "author": null,
+          "description": "An fzf terminal UI for systemctl\n\nsysz\n \nA fzf terminal UI for systemctl\n \nDemo\n \n\n \nFeatures\n \nVERSION: 1.2.3\n \n \n \nSee and filter both system and user units simultaneously\n \n \nSupports all units types\n \n \nUnits ordered by service, timer, socket, and the rest\n \n \nRuns sudo automatically and only if necessary\n \n \nHistory (Ctrl-p and Ctrl-n)\n \n \nSupport short versions of systemctl commands to reduce typing\n \n \nRuns status after other commands (start, stop, restart, etc)\n \n \nSelect multiple units and commands using TAB key\n \n \nOnly prompts commands based on current state (e.g. show \"start\" and \"restart\" only if the unit is inactive)\n \n \nCan filter units based on their state using the --state option\n \n \nRequirements\n \n \n \nfzf >= 0.22.0\n \n \nbash > 4.3 (released 2009)\n \n \nawk\n \n \nInstallation\n …",
+          "link": "https://github.com/joehillen/sysz",
+          "publishedOn": "2021-09-22T00:54:55.608Z",
+          "wordCount": 890,
+          "title": "joehillen/sysz"
+        },
+        {
+          "id": "https://github.com/sherlock-project/sherlock",
+          "author": null,
+          "description": "🔎 Hunt down social media accounts by username across social networks\n\n  \n Hunt down social media accounts by username across social networks \n        \n \n Installation    |    Usage    |    Docker Notes    |    Contributing \n \n    \n \nInstallation\n \n# clone the repo\n$ git clone https://github.com/sherlock-project/sherlock.git\n\n# change the working directory to sherlock\n$ cd sherlock\n\n# install the requirements\n$ python3 -m pip install -r requirements.txt\n\n \n \n \nUsage\n \n$ python3 sherlock --help\nusage: sherlock [-h] [--version] [--verbose] [--folderoutput FOLDEROUTPUT]\n                [--output OUTPUT] [--tor] [--unique-tor] [--csv]\n                [--site SITE_NAME] [--proxy PROXY_URL] [--json JSON_FILE]\n                [--timeout TIMEOUT] [--print-all] [--print-found] [--no-color]\n        …",
+          "link": "https://github.com/sherlock-project/sherlock",
+          "publishedOn": "2021-09-22T00:54:55.572Z",
+          "wordCount": 1353,
+          "title": "sherlock-project/sherlock"
+        },
+        {
+          "id": "https://github.com/microsoft/PythonProgrammingPuzzles",
+          "author": null,
+          "description": "A Dataset of Python Challenges for AI Research\n\nPython Programming Puzzles (P3)\n \nThis repo contains a dataset of Python programming puzzles which can be used to teach and evaluate an AI's programming proficiency. We hope this dataset will grow rapidly, and it is already diverse in terms of problem difficulty, domain, and algorithmic tools needed to solve the problems. Please propose a new puzzle or browse newly proposed puzzles or contribute through pull requests.\n \nTo learn more about how well AI systems such as GPT-3 can solve these problems, read our paper:\n \nProgramming Puzzles. Tal Schuster, Ashwin Kalyan, Oleksandr Polozov, Adam Tauman Kalai.\n \n@misc{schuster2021programming,\n      title={Programming Puzzles}, \n      author={Tal Schuster and Ashwin Kalyan and Oleksandr Polozov and Ad…",
+          "link": "https://github.com/microsoft/PythonProgrammingPuzzles",
+          "publishedOn": "2021-09-22T00:54:55.532Z",
+          "wordCount": 1620,
+          "title": "microsoft/PythonProgrammingPuzzles"
+        },
+        {
+          "id": "https://github.com/IrisShaders/Iris",
+          "author": null,
+          "description": "(WIP) A new shaders mod for Minecraft intended to be compatible with existing ShadersMod/Optifine shaders\n\n\n \nIris\n \nLinks\n \n \n \nVisit our website for downloads and pretty screenshots!\n \n \nVisit our Discord server to chat about the mod and get support! It's also a great place to get development updates right as they're happening.\n \n \nVisit my Patreon page to support the continued development of Iris!\n \n \nWhy did you make Iris?\n \nIris was created to fill a void that I saw in the Minecraft customization and graphical enhancement community: the lack of an open-source shaders mod that would let me load my favorite shader packs on modern versions of the game, while retaining performance and compatibility with modpacks. OptiFine, the current dominant mod for loading shader packs, has restrictive…",
+          "link": "https://github.com/IrisShaders/Iris",
+          "publishedOn": "2021-09-22T00:54:55.505Z",
+          "wordCount": 2200,
+          "title": "IrisShaders/Iris"
+        },
+        {
+          "id": "https://github.com/DovAmir/awesome-design-patterns",
+          "author": null,
+          "description": "A curated list of software and architecture related design patterns.\n\nAwesome Software and Architectural Design Patterns\n \n \n  \n \n \n \n \nA curated list of software and architecture related design patterns.\n \n \nSoftware design pattern - A general, reusable solution to a commonly occurring problem within a given context in software design. It is a description or template for how to solve a problem that can be used in many different situations.\n \n \nContents\n \n \n \nProgramming language design patterns\n \n \nGeneral Architecture\n \n \nCloud Architecture\n \n \nServerless Architecture\n \n \nMicro services & Distributed Systems\n \n \nInternet of things\n \n \nBig Data\n \n \nDatabases and storage\n \n \nDocker and DevOps\n \n \nMobile\n \n \nFront End Development\n \n \nSecurity\n \n \nBooks\n \n \n \nProgramming Language Design Patt…",
+          "link": "https://github.com/DovAmir/awesome-design-patterns",
+          "publishedOn": "2021-09-22T00:54:55.467Z",
+          "wordCount": 1300,
+          "title": "DovAmir/awesome-design-patterns"
+        },
+        {
+          "id": "https://github.com/mamun-sec/dfirt",
+          "author": null,
+          "description": "Collect information of Windows PC when doing incident response\n\n \n \n🔳 DFIRT (DFIR Tool)\n \nCollect information of Windows PC when doing incident response.\n \n \nℹ DFIRT is a Powershell script. It collects information of- \n \n \n \nrecently used files,\n \n \nsuspicious Event ID,\n \n \nPowershell history for all session,\n \n \nfiles opened directly from Windows Explorer,\n \n \nnetwork related running services,\n \n \nfree space of disk,\n \n \nInternet connectivity information,\n \n \nsafe DLL search mode,\n \n \nlast boot up time,\n \n \nuser accounts list from SID,\n \n \ncomputer name, current build, ID,\n \n \ncurrent user language settings,\n \n \nWindows Defender Status,\n \n \ncurrent Admin Approval Mode policy,\n \n \ndomain,\n \n \nnon default folders in Program File.\n \n \n \n🔰 How to use:\n 1. Download the dfirt.ps1 script.\n 2. Start Windows Powershell.\n 3. Go to the DFIR folder.\n 4. Write \n.\\dfirt.ps1 and press Enter.\n 5. Now, DFIRT will start collecting information and save those information in report.txt file. \n \n⚠ Remember\n When you will run the script, result will be saved in report.txt file. But, if you again run the script and there is still previously saved report.txt file in the DFIRT folder then, the file will be overwritten with new report. \n \n💬 A message to you:\n I will try to continuously add new features to DFIRT. If you wish to add functionality, feel free to contribute here.",
+          "link": "https://github.com/mamun-sec/dfirt",
+          "publishedOn": "2021-09-22T00:54:55.337Z",
+          "wordCount": 573,
+          "title": "mamun-sec/dfirt"
+        },
+        {
+          "id": "https://github.com/willmcgugan/rich",
+          "author": null,
+          "description": "Rich is a Python library for rich text and beautiful formatting in the terminal.\n\n    \n \n\n \nEnglish readme • 中文 readme • Lengua española readme • Deutsche readme • Läs på svenska • 日本語 readme • 한국어 readme • Français readme • Schwizerdütsch readme • हिन्दी readme • Português brasileiro readme\n \nRich is a Python library for rich text and beautiful formatting in the terminal.\n \nThe Rich API makes it easy to add color and style to terminal output. Rich can also render pretty tables, progress bars, markdown, syntax highlighted source code, tracebacks, and more — out of the box.\n \n\n \nFor a video introduction to Rich see calmcode.io by @fishnets88.\n \nSee what people are saying about Rich.\n \nCompatibility\n \nRich works with Linux, OSX, and Windows. True color / emoji works with new Windows Terminal…",
+          "link": "https://github.com/willmcgugan/rich",
+          "publishedOn": "2021-09-22T00:54:55.279Z",
+          "wordCount": 2501,
+          "title": "willmcgugan/rich"
+        },
+        {
+          "id": "https://github.com/geerlingguy/internet-pi",
+          "author": null,
+          "description": "Raspberry Pi config for all things Internet.\n\nInternet Pi\n \n\n \nA Raspberry Pi Configuration for Internet connectivity\n \nI have had a couple Pis doing random Internet-related duties for years. It's finally time to formalize their configs and make all the DNS/ad-blocking/monitoring stuff encapsulated into one Ansible project.\n \nSo that's what this is.\n \nFeatures\n \nInternet Monitoring: Installs Prometheus and Grafana, along with a few Docker containers to monitor your Internet connection with Speedtest.net speedtests and HTTP tests so you can see uptime, ping stats, and speedtest results over time.\n \n\n \nPi-hole: Installs the Pi-hole Docker configuration so you can use Pi-hole for network-wide ad-blocking and local DNS. Make sure to update your network router config to direct all DNS queries t…",
+          "link": "https://github.com/geerlingguy/internet-pi",
+          "publishedOn": "2021-09-22T00:54:55.157Z",
+          "wordCount": 1322,
+          "title": "geerlingguy/internet-pi"
+        },
+        {
+          "id": "https://github.com/input-output-hk/essential-cardano",
+          "author": null,
+          "description": "Repository for the Essential Cardano list\n\nessential-cardano\n \nWelcome to the Essential Cardano list, a central source for all things Cardano-related. We have outlined all the organizations, partners, and groups that are part of the Cardano ecosystem, as well as a comprehensive collection of resources to help you learn more about Cardano. Whether you want to understand what Cardano is, learn about our mission and roadmap, or get stuck in and build on Cardano, this is the place to start.\n \nEssential Cardano is a list that is designed as a central library of materials, a one stop shop where you can find various resources for Cardano. This list includes official resources and community-generated materials.\n \nThis is an open source repository that is initiated and overseen by myself Niamh Ahern, Ben O'Hanlon, and Tim Harrison, all at IO Global. We encourage you to contribute and help us evolve this list, but please do not reproduce it.\n \nWant to contribute?\n \nWe would love to hear your suggestions and ideas on what else we could include and how we can grow this list. Please get in touch with us and raise a PR with new suggestions and additions to enhance our list and we provide our feedback on the pull requests.\n \n‘One list to rule them all...’\n \n\n \n \n \n(image credit: P. Ahern)",
+          "link": "https://github.com/input-output-hk/essential-cardano",
+          "publishedOn": "2021-09-22T00:54:55.097Z",
+          "wordCount": 637,
+          "title": "input-output-hk/essential-cardano"
+        },
+        {
           "id": "https://github.com/laoshenkaopu/kkndme_tianya",
           "author": null,
           "description": "天涯 kkndme 神贴聊房价\n\nkkndme_tianya（持续更新中...）\n \n \n \n天涯神贴「2010年的房地产调控，我们收获了什么？写在房价暴涨前」脱水版，内容时间顺序和原贴一致，原贴中的优质非楼主写的内容，添加了引用格式便于区分。\n \n \n除标题外，所有内容均来自原贴，标题是我简单加的，目的是为了做目录，便于查看。\n \n \nkkndme神贴的内容还没有整理完，待全部整理完：\n \n \n \n  \n对kkndme的思想有了完整的认识后，我应该会在公众号沈正方上写写我对这个帖子内容的思考。\n \n  \n其次，我会把本仓库的内容做成PDF，通过公众号沈正方发出去，欢迎关注一起讨论！\n \n \n \n \n \n \n希望调控可以降房价，希望终有一天房价下跌是人们的一厢情愿 \n  \n \n   \n1、人人都有居住权。房子是用来住的，不是用来炒的。\n \n   \n2、房子太贵了，租售比严重不合理，空置率太高，人均收入太低，早晚要崩盘。\n \n   \n3、房价上涨造成物价上涨，人民生活变得困难\n \n  \n  \n \n房地产调控的真正目的：防范金融风险 & 通过垄断实现gj利益最大化\n \n \n官方公布的统计数据，只要关系到某个群体的利益，就一定会被修饰导致失真\n \n \n税收从来都是向下游转嫁的 & 房产税迟迟不出台的真正原因\n \n \n房地产的现状\n \n \n房价持续上涨的本质是稀缺性让好房子成为资金最好的去处\n \n \n关于垄断 \n  \n \n   \n1、垄断的好处是没有风险\n \n   \n2、垄断可以解决社会稳定\n \n   \n3、房屋垄断只会愈演愈烈，底层人民想要拥有一套房子的难度只会越来越难\n \n  \n  \n \n为什么政府没有那么在意民生问题？\n \n \n房产税的制定原则\n \n \n维稳的本质是人民能吃饱饭\n \n \n公租房是为体制内服务的\n \n \n房产税一定会转嫁给租房人\n \n \n巨大的税收消耗也决定了G…",

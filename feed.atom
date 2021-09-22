@@ -2,10 +2,905 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-21T00:53:28.552Z</updated>
+    <updated>2021-09-22T00:54:56.106Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[openkraken/kraken]]></title>
+        <id>https://github.com/openkraken/kraken</id>
+        <link href="https://github.com/openkraken/kraken"/>
+        <updated>2021-09-22T00:54:56.044Z</updated>
+        <summary type="html"><![CDATA[A high-performance, web standards-compliant rendering engine based on Flutter.
+
+
+ 
+Kraken  
+ 
+💁 Have a try
+ 
+ 
+ 
+ Install Kraken CLI (macOS only currently)
+ $ npm i @openkraken/cli -g
+
+  
+ 
+ Open with kraken
+ # kraken [localfile|URL]
+$ kraken https://raw.githubusercontent.com/openkraken/kraken/master/kraken/example/assets/bundle.js
+
+  
+ 
+💌 Why kraken
+ 
+ 
+ 
+ Quick development 🎉
+ Compatibility with web standards means you don't have to change your stack.
+ const text = document.createTextNode('Hello World!');
+document.body.appendChild(text);
+
+  
+ 
+ Cross platform ⚛️
+ Seamless integration with Flutter, supports web, mobile (iOS, Android) and desktop (MacOS, Linux, Windows).
+  
+ 
+ Fast performance 🚀
+ Provide native-like performance such as navigation, animation and infinite list scrolling.
+  
+ 
+👏 Contributing
+ 
+By contributing to Kraken, you agree that your contributions will be licensed under its Apache-2.0 License.
+ 
+ 
+ 
+ Prerequisites
+ 
+  
+ 
+   
+Node.js v12.0 or later
+ 
+   
+Flutter version in the kraken/pubspec.yaml
+ 
+   
+CMake v3.2.0 or later
+ 
+   
+Xcode (10.12) or later (Running on macOS or iOS)
+ 
+   
+Android NDK version 21.4.7075529 (Running on Android)
+ 
+  
+  
+ 
+ Install
+ $ npm install
+
+  
+ 
+ Building bridge
+ Building bridge for all supported platform (macOS, iOS, Android)
+ $ npm run build:bridge:all
+
+ Building bridge for one platform
+ macOS
+ $ npm run build:bridge:macos
+
+ iOS
+ $ npm run build:bridge:ios
+
+ Android
+ 
+  
+ 
+   
+For Windows users, make sure that running this command under MINGW64 environment(eg. Git Bash).
+ 
+  
+ $ npm run build:bridge:android
+
+  
+ 
+ Start example
+ $ cd kraken/example
+$ flutter run
+
+  
+ 
+ Test (Unit Test and Integration Test)
+ $ npm test]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[typescript-cheatsheets/react]]></title>
+        <id>https://github.com/typescript-cheatsheets/react</id>
+        <link href="https://github.com/typescript-cheatsheets/react"/>
+        <updated>2021-09-22T00:54:56.003Z</updated>
+        <summary type="html"><![CDATA[Cheatsheets for experienced React developers getting started with TypeScript
+
+ 
+ 
+React+TypeScript Cheatsheets
+ 
+    
+ 
+Cheatsheets for experienced React developers getting started with TypeScript
+ 
+ 
+Web docs | 中文翻译 | Español | Português | Contribute! | Ask!
+ 
+ 
+ 
+ 
+ 
+👋 This repo is maintained by @swyx, @ferdaber, @eps1lon, @jsjoeio and @arvind-one, we're so happy you want to try out TypeScript with React! If you see anything wrong or missing, please file an issue! 👍
+ 
+ 
+ 
+ |  | 
+ 
+All React + TypeScript Cheatsheets
+ 
+ 
+ 
+The Basic Cheatsheet (/README.md) is focused on helping React devs just start using TS in React apps 
+  
+ 
+   
+Focus on opinionated best practices, copy+pastable examples.
+ 
+   
+Explains some basic TS types usage and setup along the way.
+ 
+   
+Answers the most Frequent…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[skyline-emu/skyline]]></title>
+        <id>https://github.com/skyline-emu/skyline</id>
+        <link href="https://github.com/skyline-emu/skyline"/>
+        <updated>2021-09-22T00:54:55.833Z</updated>
+        <summary type="html"><![CDATA[Run Nintendo Switch homebrew & games on your Android device!
+
+  
+      
+   
+ 
+ Skyline is an experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system, licensed under Mozilla Public License 2.0 
+ 
+ 
+Contact
+ 
+You can contact the core developers of Skyline at our Discord. If you have any questions, feel free to ask. It's also a good place to just keep up with the emulator, as most talk regarding development goes on over there.
+ 
+ 
+Special Thanks
+ 
+A few noteworthy teams/projects who've helped us along the way are:
+ 
+ 
+ 
+ Ryujinx: We've used Ryujinx for reference throughout the project, the amount of accuracy of their HLE kernel implementation is what makes them such an amazing reference. The team behind the project has been really helpful with any queries we've had. It should be noted that Skyline is not based on Ryujinx.
+  
+ 
+ Switchbrew: We've extensively used Switchbrew whether that be their wiki with it's colossal amount of information on the Switch that has saved us countless hours of time or libnx which was crucial to initial development of the emulator to ensure that our HLE kernel and sysmodule implementations were accurate.
+  
+ 
+ Atmosphère: We've used libmesosphere as another reference for our HLE kernel, it's faithfulness to the HOS kernel helps us a lot. This makes it invaluably important for us as a tool for writing code that can accurately emulate HOS behavior without missing any crucial parts.
+  
+ 
+ 
+Disclaimer
+ 
+ 
+ 
+Nintendo Switch is a trademark of Nintendo Co., Ltd
+ 
+ 
+Android is a trademark of Google LLC]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[jorisschellekens/borb]]></title>
+        <id>https://github.com/jorisschellekens/borb</id>
+        <link href="https://github.com/jorisschellekens/borb"/>
+        <updated>2021-09-22T00:54:55.811Z</updated>
+        <summary type="html"><![CDATA[borb is a library for reading, creating and manipulating PDF files in python.
+
+ borb
+ 
+   
+ 
+borb is a library for creating and manipulating PDF files in python.
+ 
+0. About borb
+ 
+borb is a pure python library to read, write and manipulate PDF documents. It represents a PDF document as a JSON-like datastructure of nested lists, dictionaries and primitives (numbers, string, booleans, etc)
+ 
+This is currently a one-man project, so the focus will always be to support those use-cases that are more common in favor of those that are rare.
+ 
+1. About the Examples
+ 
+The examples can be found in a separate repository. This ensures the borb repository stays relatively small, whilst still providing a thorough knowledgebase of code-samples, screenshots and explanatory text.
+ 
+Check out the examples re…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[termux/termux-packages]]></title>
+        <id>https://github.com/termux/termux-packages</id>
+        <link href="https://github.com/termux/termux-packages"/>
+        <updated>2021-09-22T00:54:55.775Z</updated>
+        <summary type="html"><![CDATA[A build system and primary set of packages for Termux.
+
+Termux packages
+ 
+     
+ 
+
+ 
+This project contains scripts and patches to build packages for the Termux Android application.
+ 
+Quick how-to about Termux package management is available at Package Management. It also has info on how to fix repository is under maintenance or down errors when running apt or pkg commands.
+ 
+Contributing
+ 
+@termux is looking for help with fixing issues, adding new packages and maintaining existing ones. It would be very helpful if you submit a pull request with bug fixes.
+ 
+Read CONTRIBUTING.md and Developer's Wiki for more details.
+ 
+Contacts
+ 
+General mailing list: https://groups.io/g/termux
+ 
+Developer mailing list: https://groups.io/g/termux-dev
+ 
+General chat: https://gitter.im/termux/termux or #termux on IRC/libera.chat.
+ 
+Developer chat: https://gitter.im/termux/dev.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Richasy/Bili.Uwp]]></title>
+        <id>https://github.com/Richasy/Bili.Uwp</id>
+        <link href="https://github.com/Richasy/Bili.Uwp"/>
+        <updated>2021-09-22T00:54:55.740Z</updated>
+        <summary type="html"><![CDATA[适用于新系统UI的哔哩
+
+  
+ 
+ 
+ 
+哔哩
+ 
+ 
+    
+ 
+ 
+哔哩 现在为 Windows 11 设计！
+ 
+ 
+ 
+哔哩 是一款 哔哩哔哩 的第三方应用，使用 UWP 框架开发，是原生的 Windows 应用，支持 Windows 10/11 系统。主打设计和易用性，广受用户好评。
+ 
+🙌 简单的开始
+ 
+如果想安装哔哩，请打开右侧的 Release 页面，找到最新版本，并选择适用于当前系统的安装包下载。
+ 
+然后打开 系统设置，打开 开发者模式 ，并等待系统安装一些必要的扩展项。
+ 
+在应用压缩包下载完成后，解压压缩包，并在管理员模式下，使用 Windows PowerShell (不是PowerShell Core) 运行解压后的 install.ps1 脚本，根据提示进行安装。
+ 
+Watch 项目，以获取应用的更新动态。
+ 
+关于如何一步步地使用侧加载 (Sideload) 方式安装 UWP 应用及订阅应用更新，请参见 下载并安装哔哩的详细说明 。
+ 
+📃 文档
+ 
+所有关于 哔哩 的文档，包括架构、使用说明等，都放在仓库的 Wiki 中，如果你发现有文档缺失或错误，请提交 Issue 说明错漏的内容。
+ 
+🚀 协作
+ 
+非常感谢有兴趣的开发者或爱好者参与 哔哩 项目，分享你的见解与思路。对于任何有兴趣想为 哔哩 做出贡献的小伙伴，请参见我们的 哔哩 Wiki 了解更多有关协作的内容和引导知识。
+ 
+💬 讨论
+ 
+借助 Github 平台提供的 Discussions 功能，对于一般讨论、提议或分享，我们都可以在 哔哩论坛 中进行，欢迎来这里进行讨论。
+ 
+🌏 路线图
+ 
+哔哩会逐步完善，请查看 哔哩里程碑 来了解哔哩下一步打算做的事情。于此同时，欢迎各位开发者加入，让我们一起打造哔哩的未来。
+ 
+🧩 截图]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GoTurkiye/training]]></title>
+        <id>https://github.com/GoTurkiye/training</id>
+        <link href="https://github.com/GoTurkiye/training"/>
+        <updated>2021-09-22T00:54:55.697Z</updated>
+        <summary type="html"><![CDATA[🇹🇷 Go Türkiye 🇹🇷
+ 
+ 
+Go Türkiye Eğitim Kampı
+ 
+Go programlama dilini anlatmayı ve öğretmeyi hedeflediğimiz eğitim kampının akışını, örnek kodları ve etkinlik kayıtlarını burada bulabilirsin. Bu repo eğitim boyunca güncellenecek olup sen de bu repoya katkı sağlayabilirsin.
+ 
+İçerik
+ 
+ 
+ 
+ Basics (Etkinlik Kaydi)
+ 
+  
+ 
+   
+Variables
+ 
+   
+Array
+ 
+   
+Slices
+ 
+   
+Maps
+ 
+   
+Strings
+ 
+   
+Loops
+ 
+   
+Structs
+ 
+   
+Pointers
+ 
+   
+Functions
+ 
+   
+Errors
+ 
+   
+Interfaces
+ 
+   
+Modules
+ 
+  
+  
+ 
+ Concurrency (Etkinlik Kaydi)
+ 
+  
+ 
+   
+Go Routines
+ 
+   
+Channels
+ 
+   
+WaitGroups
+ 
+   
+Mutex
+ 
+   
+SyncPool
+ 
+   
+Dead Lock
+ 
+  
+  
+ 
+ Http Package [21.09.2021 20:30]
+ 
+  
+ 
+   
+http
+ 
+   
+httputil
+ 
+   
+grpc
+ 
+   
+Reverse Proxy
+ 
+   
+Restful Api
+ 
+   
+Web Frameworks (echo, gin, fasthttp)
+ 
+  
+  …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[krayin/laravel-crm]]></title>
+        <id>https://github.com/krayin/laravel-crm</id>
+        <link href="https://github.com/krayin/laravel-crm"/>
+        <updated>2021-09-22T00:54:55.656Z</updated>
+        <summary type="html"><![CDATA[Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.
+
+  
+ 
+    
+ 
+Topics
+ 
+ 
+ 
+Introduction
+ 
+ 
+Documentation
+ 
+ 
+Requirements
+ 
+ 
+Installation & Configuration
+ 
+ 
+License
+ 
+ 
+Security Vulnerabilities
+ 
+ 
+Introduction
+ 
+Krayin CRM is a hand tailored CRM framework built on some of the hottest opensource technologies such as Laravel (a PHP framework) and Vue.js a progressive Javascript framework.
+ 
+Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.
+ 
+Read our documentation: Krayin CRM Docs
+ 
+We also have a forum for any type of concerns, feature requests, or discussions. Please visit: Krayin CRM Forums
+ 
+Visit our live Demo
+ 
+It packs in lots of features that will allow your E-Comm…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[joehillen/sysz]]></title>
+        <id>https://github.com/joehillen/sysz</id>
+        <link href="https://github.com/joehillen/sysz"/>
+        <updated>2021-09-22T00:54:55.608Z</updated>
+        <summary type="html"><![CDATA[An fzf terminal UI for systemctl
+
+sysz
+ 
+A fzf terminal UI for systemctl
+ 
+Demo
+ 
+
+ 
+Features
+ 
+VERSION: 1.2.3
+ 
+ 
+ 
+See and filter both system and user units simultaneously
+ 
+ 
+Supports all units types
+ 
+ 
+Units ordered by service, timer, socket, and the rest
+ 
+ 
+Runs sudo automatically and only if necessary
+ 
+ 
+History (Ctrl-p and Ctrl-n)
+ 
+ 
+Support short versions of systemctl commands to reduce typing
+ 
+ 
+Runs status after other commands (start, stop, restart, etc)
+ 
+ 
+Select multiple units and commands using TAB key
+ 
+ 
+Only prompts commands based on current state (e.g. show "start" and "restart" only if the unit is inactive)
+ 
+ 
+Can filter units based on their state using the --state option
+ 
+ 
+Requirements
+ 
+ 
+ 
+fzf >= 0.22.0
+ 
+ 
+bash > 4.3 (released 2009)
+ 
+ 
+awk
+ 
+ 
+Installation
+ …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sherlock-project/sherlock]]></title>
+        <id>https://github.com/sherlock-project/sherlock</id>
+        <link href="https://github.com/sherlock-project/sherlock"/>
+        <updated>2021-09-22T00:54:55.572Z</updated>
+        <summary type="html"><![CDATA[🔎 Hunt down social media accounts by username across social networks
+
+  
+ Hunt down social media accounts by username across social networks 
+        
+ 
+ Installation    |    Usage    |    Docker Notes    |    Contributing 
+ 
+    
+ 
+Installation
+ 
+# clone the repo
+$ git clone https://github.com/sherlock-project/sherlock.git
+
+# change the working directory to sherlock
+$ cd sherlock
+
+# install the requirements
+$ python3 -m pip install -r requirements.txt
+
+ 
+ 
+ 
+Usage
+ 
+$ python3 sherlock --help
+usage: sherlock [-h] [--version] [--verbose] [--folderoutput FOLDEROUTPUT]
+                [--output OUTPUT] [--tor] [--unique-tor] [--csv]
+                [--site SITE_NAME] [--proxy PROXY_URL] [--json JSON_FILE]
+                [--timeout TIMEOUT] [--print-all] [--print-found] [--no-color]
+        …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[microsoft/PythonProgrammingPuzzles]]></title>
+        <id>https://github.com/microsoft/PythonProgrammingPuzzles</id>
+        <link href="https://github.com/microsoft/PythonProgrammingPuzzles"/>
+        <updated>2021-09-22T00:54:55.532Z</updated>
+        <summary type="html"><![CDATA[A Dataset of Python Challenges for AI Research
+
+Python Programming Puzzles (P3)
+ 
+This repo contains a dataset of Python programming puzzles which can be used to teach and evaluate an AI's programming proficiency. We hope this dataset will grow rapidly, and it is already diverse in terms of problem difficulty, domain, and algorithmic tools needed to solve the problems. Please propose a new puzzle or browse newly proposed puzzles or contribute through pull requests.
+ 
+To learn more about how well AI systems such as GPT-3 can solve these problems, read our paper:
+ 
+Programming Puzzles. Tal Schuster, Ashwin Kalyan, Oleksandr Polozov, Adam Tauman Kalai.
+ 
+@misc{schuster2021programming,
+      title={Programming Puzzles}, 
+      author={Tal Schuster and Ashwin Kalyan and Oleksandr Polozov and Ad…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IrisShaders/Iris]]></title>
+        <id>https://github.com/IrisShaders/Iris</id>
+        <link href="https://github.com/IrisShaders/Iris"/>
+        <updated>2021-09-22T00:54:55.505Z</updated>
+        <summary type="html"><![CDATA[(WIP) A new shaders mod for Minecraft intended to be compatible with existing ShadersMod/Optifine shaders
+
+
+ 
+Iris
+ 
+Links
+ 
+ 
+ 
+Visit our website for downloads and pretty screenshots!
+ 
+ 
+Visit our Discord server to chat about the mod and get support! It's also a great place to get development updates right as they're happening.
+ 
+ 
+Visit my Patreon page to support the continued development of Iris!
+ 
+ 
+Why did you make Iris?
+ 
+Iris was created to fill a void that I saw in the Minecraft customization and graphical enhancement community: the lack of an open-source shaders mod that would let me load my favorite shader packs on modern versions of the game, while retaining performance and compatibility with modpacks. OptiFine, the current dominant mod for loading shader packs, has restrictive…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DovAmir/awesome-design-patterns]]></title>
+        <id>https://github.com/DovAmir/awesome-design-patterns</id>
+        <link href="https://github.com/DovAmir/awesome-design-patterns"/>
+        <updated>2021-09-22T00:54:55.467Z</updated>
+        <summary type="html"><![CDATA[A curated list of software and architecture related design patterns.
+
+Awesome Software and Architectural Design Patterns
+ 
+ 
+  
+ 
+ 
+ 
+ 
+A curated list of software and architecture related design patterns.
+ 
+ 
+Software design pattern - A general, reusable solution to a commonly occurring problem within a given context in software design. It is a description or template for how to solve a problem that can be used in many different situations.
+ 
+ 
+Contents
+ 
+ 
+ 
+Programming language design patterns
+ 
+ 
+General Architecture
+ 
+ 
+Cloud Architecture
+ 
+ 
+Serverless Architecture
+ 
+ 
+Micro services & Distributed Systems
+ 
+ 
+Internet of things
+ 
+ 
+Big Data
+ 
+ 
+Databases and storage
+ 
+ 
+Docker and DevOps
+ 
+ 
+Mobile
+ 
+ 
+Front End Development
+ 
+ 
+Security
+ 
+ 
+Books
+ 
+ 
+ 
+Programming Language Design Patt…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mamun-sec/dfirt]]></title>
+        <id>https://github.com/mamun-sec/dfirt</id>
+        <link href="https://github.com/mamun-sec/dfirt"/>
+        <updated>2021-09-22T00:54:55.337Z</updated>
+        <summary type="html"><![CDATA[Collect information of Windows PC when doing incident response
+
+ 
+ 
+🔳 DFIRT (DFIR Tool)
+ 
+Collect information of Windows PC when doing incident response.
+ 
+ 
+ℹ DFIRT is a Powershell script. It collects information of- 
+ 
+ 
+ 
+recently used files,
+ 
+ 
+suspicious Event ID,
+ 
+ 
+Powershell history for all session,
+ 
+ 
+files opened directly from Windows Explorer,
+ 
+ 
+network related running services,
+ 
+ 
+free space of disk,
+ 
+ 
+Internet connectivity information,
+ 
+ 
+safe DLL search mode,
+ 
+ 
+last boot up time,
+ 
+ 
+user accounts list from SID,
+ 
+ 
+computer name, current build, ID,
+ 
+ 
+current user language settings,
+ 
+ 
+Windows Defender Status,
+ 
+ 
+current Admin Approval Mode policy,
+ 
+ 
+domain,
+ 
+ 
+non default folders in Program File.
+ 
+ 
+ 
+🔰 How to use:
+ 1. Download the dfirt.ps1 script.
+ 2. Start Windows Powershell.
+ 3. Go to the DFIR folder.
+ 4. Write 
+.\dfirt.ps1 and press Enter.
+ 5. Now, DFIRT will start collecting information and save those information in report.txt file. 
+ 
+⚠ Remember
+ When you will run the script, result will be saved in report.txt file. But, if you again run the script and there is still previously saved report.txt file in the DFIRT folder then, the file will be overwritten with new report. 
+ 
+💬 A message to you:
+ I will try to continuously add new features to DFIRT. If you wish to add functionality, feel free to contribute here.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[willmcgugan/rich]]></title>
+        <id>https://github.com/willmcgugan/rich</id>
+        <link href="https://github.com/willmcgugan/rich"/>
+        <updated>2021-09-22T00:54:55.279Z</updated>
+        <summary type="html"><![CDATA[Rich is a Python library for rich text and beautiful formatting in the terminal.
+
+    
+ 
+
+ 
+English readme • 中文 readme • Lengua española readme • Deutsche readme • Läs på svenska • 日本語 readme • 한국어 readme • Français readme • Schwizerdütsch readme • हिन्दी readme • Português brasileiro readme
+ 
+Rich is a Python library for rich text and beautiful formatting in the terminal.
+ 
+The Rich API makes it easy to add color and style to terminal output. Rich can also render pretty tables, progress bars, markdown, syntax highlighted source code, tracebacks, and more — out of the box.
+ 
+
+ 
+For a video introduction to Rich see calmcode.io by @fishnets88.
+ 
+See what people are saying about Rich.
+ 
+Compatibility
+ 
+Rich works with Linux, OSX, and Windows. True color / emoji works with new Windows Terminal…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[geerlingguy/internet-pi]]></title>
+        <id>https://github.com/geerlingguy/internet-pi</id>
+        <link href="https://github.com/geerlingguy/internet-pi"/>
+        <updated>2021-09-22T00:54:55.157Z</updated>
+        <summary type="html"><![CDATA[Raspberry Pi config for all things Internet.
+
+Internet Pi
+ 
+
+ 
+A Raspberry Pi Configuration for Internet connectivity
+ 
+I have had a couple Pis doing random Internet-related duties for years. It's finally time to formalize their configs and make all the DNS/ad-blocking/monitoring stuff encapsulated into one Ansible project.
+ 
+So that's what this is.
+ 
+Features
+ 
+Internet Monitoring: Installs Prometheus and Grafana, along with a few Docker containers to monitor your Internet connection with Speedtest.net speedtests and HTTP tests so you can see uptime, ping stats, and speedtest results over time.
+ 
+
+ 
+Pi-hole: Installs the Pi-hole Docker configuration so you can use Pi-hole for network-wide ad-blocking and local DNS. Make sure to update your network router config to direct all DNS queries t…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[input-output-hk/essential-cardano]]></title>
+        <id>https://github.com/input-output-hk/essential-cardano</id>
+        <link href="https://github.com/input-output-hk/essential-cardano"/>
+        <updated>2021-09-22T00:54:55.097Z</updated>
+        <summary type="html"><![CDATA[Repository for the Essential Cardano list
+
+essential-cardano
+ 
+Welcome to the Essential Cardano list, a central source for all things Cardano-related. We have outlined all the organizations, partners, and groups that are part of the Cardano ecosystem, as well as a comprehensive collection of resources to help you learn more about Cardano. Whether you want to understand what Cardano is, learn about our mission and roadmap, or get stuck in and build on Cardano, this is the place to start.
+ 
+Essential Cardano is a list that is designed as a central library of materials, a one stop shop where you can find various resources for Cardano. This list includes official resources and community-generated materials.
+ 
+This is an open source repository that is initiated and overseen by myself Niamh Ahern, Ben O'Hanlon, and Tim Harrison, all at IO Global. We encourage you to contribute and help us evolve this list, but please do not reproduce it.
+ 
+Want to contribute?
+ 
+We would love to hear your suggestions and ideas on what else we could include and how we can grow this list. Please get in touch with us and raise a PR with new suggestions and additions to enhance our list and we provide our feedback on the pull requests.
+ 
+‘One list to rule them all...’
+ 
+
+ 
+ 
+ 
+(image credit: P. Ahern)]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[laoshenkaopu/kkndme_tianya]]></title>
         <id>https://github.com/laoshenkaopu/kkndme_tianya</id>
