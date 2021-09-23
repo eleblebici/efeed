@@ -2,10 +2,791 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-22T00:54:56.106Z</updated>
+    <updated>2021-09-23T00:56:50.124Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[samuelcolvin/pydantic]]></title>
+        <id>https://github.com/samuelcolvin/pydantic</id>
+        <link href="https://github.com/samuelcolvin/pydantic"/>
+        <updated>2021-09-23T00:56:50.103Z</updated>
+        <summary type="html"><![CDATA[Data parsing and validation using Python type hints
+
+pydantic
+ 
+      
+ 
+Data validation and settings management using Python type hinting.
+ 
+Fast and extensible, pydantic plays nicely with your linters/IDE/brain. Define how data should be in pure, canonical Python 3.6+; validate it with pydantic.
+ 
+Help
+ 
+See documentation for more details.
+ 
+Installation
+ 
+Install using pip install -U pydantic or conda install pydantic -c conda-forge. For more installation options to make pydantic even faster, see the Install section in the documentation.
+ 
+A Simple Example
+ 
+from datetime import datetime
+from typing import List, Optional
+from pydantic import BaseModel
+
+class User(BaseModel):
+    id: int
+    name = 'John Doe'
+    signup_ts: Optional[datetime] = None
+    friends: List[int] = []
+
+external_data = {'id': '123', 'signup_ts': '2017-06-01 12:22', 'friends': [1, '2', b'3']}
+user = User(**external_data)
+print(user)
+#> User id=123 name='John Doe' signup_ts=datetime.datetime(2017, 6, 1, 12, 22) friends=[1, 2, 3]
+print(user.id)
+#> 123
+
+ 
+Contributing
+ 
+For guidance on setting up a development environment and how to make a contribution to pydantic, see Contributing to Pydantic.
+ 
+Reporting a Security Vulnerability
+ 
+See our security policy.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[juice-shop/juice-shop]]></title>
+        <id>https://github.com/juice-shop/juice-shop</id>
+        <link href="https://github.com/juice-shop/juice-shop"/>
+        <updated>2021-09-23T00:56:49.964Z</updated>
+        <summary type="html"><![CDATA[OWASP Juice Shop: Probably the most modern and sophisticated insecure web application
+
+ OWASP Juice Shop
+ 
+   
+ 
+      
+ 
+ 
+ 
+The most trustworthy online shop out there. (@dschadow) — The best juice shop on the whole internet! (@shehackspurple) — Actually the most bug-free vulnerable application in existence! (@vanderaj) — First you 😂😂then you 😢 (@kramse) — But this doesn't have anything to do with juice. (@coderPatros' wife)
+ 
+ 
+OWASP Juice Shop is probably the most modern and sophisticated insecure web application! It can be used in security trainings, awareness demos, CTFs and as a guinea pig for security tools! Juice Shop encompasses vulnerabilities from the entire OWASP Top Ten along with many other security flaws found in real-world applications!
+ 
+
+ 
+For a detailed introduction, …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[expo/expo]]></title>
+        <id>https://github.com/expo/expo</id>
+        <link href="https://github.com/expo/expo"/>
+        <updated>2021-09-23T00:56:49.907Z</updated>
+        <summary type="html"><![CDATA[An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.
+
+   
+Expo
+  
+
+ 
+                
+ 
+ Try Expo in the Browser | Read the Documentation 📚 
+ 
+       
+ 
+ 
+ 
+ 
+📚 Documentation
+ 
+ 
+🗺 Project Layout
+ 
+ 
+🏅 Badges
+ 
+ 
+👏 Contributing
+ 
+ 
+❓ FAQ
+ 
+ 
+💙 The Team
+ 
+ 
+License
+ 
+ 
+Expo is an open-source platform for making universal native apps that run on Android, iOS, and the web. It includes a universal runtime and libraries that let you build native apps by writing React and JavaScript. This repository is where the Expo client software is developed, and includes the client apps, modules, apps, and more. The Expo CLI repository contains the Expo development tools.
+ 
+Click here to view the Expo Community Guidelines. Thank you for helping k…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mlflow/mlflow]]></title>
+        <id>https://github.com/mlflow/mlflow</id>
+        <link href="https://github.com/mlflow/mlflow"/>
+        <updated>2021-09-23T00:56:49.834Z</updated>
+        <summary type="html"><![CDATA[Open source platform for the machine learning lifecycle
+
+============================================= MLflow: A Machine Learning Lifecycle Platform
+ 
+MLflow is a platform to streamline machine learning development, including tracking experiments, packaging code into reproducible runs, and sharing and deploying models. MLflow offers a set of lightweight APIs that can be used with any existing machine learning application or library (TensorFlow, PyTorch, XGBoost, etc), wherever you currently run ML code (e.g. in notebooks, standalone applications or the cloud). MLflow's current components are:
+ 
+ 
+ 
+MLflow Tracking <https://mlflow.org/docs/latest/tracking.html>_: An API to log parameters, code, and results in machine learning experiments and compare them using an interactive UI.
+ 
+ 
+MLflow …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[frappe/frappe]]></title>
+        <id>https://github.com/frappe/frappe</id>
+        <link href="https://github.com/frappe/frappe"/>
+        <updated>2021-09-23T00:56:49.782Z</updated>
+        <summary type="html"><![CDATA[Low code web framework for real world applications, in Python and Javascript
+
+ 
+ 
+     
+ 
+ 
+ a web framework with "batteries included" 
+ 
+ 
+ it's pronounced - fra-pay 
+ 
+ 
+ 
+    
+    
+    
+    
+    
+ 
+Full-stack web application framework that uses Python and MariaDB on the server side and a tightly integrated client side library. Built for ERPNext
+ 
+Table of Contents
+ 
+ 
+ 
+Installation
+ 
+ 
+Documentation
+ 
+ 
+License
+ 
+ 
+Installation
+ 
+ 
+ 
+Install via Docker
+ 
+ 
+Install via Frappe Bench
+ 
+ 
+Contributing
+ 
+ 
+ 
+Contribution Guidelines
+ 
+ 
+Translations
+ 
+ 
+Website
+ 
+For details and documentation, see the website https://frappeframework.com
+ 
+License
+ 
+This repository has been released under the MIT License.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[denysdovhan/wtfjs]]></title>
+        <id>https://github.com/denysdovhan/wtfjs</id>
+        <link href="https://github.com/denysdovhan/wtfjs"/>
+        <updated>2021-09-23T00:56:49.728Z</updated>
+        <summary type="html"><![CDATA[🤪 A list of funny and tricky JavaScript examples
+
+What the f*ck JavaScript?
+ 
+   
+ 
+ 
+ 
+A list of funny and tricky JavaScript examples
+ 
+ 
+JavaScript is a great language. It has a simple syntax, large ecosystem and, what is most important, a great community.
+ 
+At the same time, we all know that JavaScript is quite a funny language with tricky parts. Some of them can quickly turn our everyday job into hell, and some of them can make us laugh out loud.
+ 
+The original idea for WTFJS belongs to Brian Leroux. This list is highly inspired by his talk “WTFJS” at dotJS 2012:
+ 
+
+ 
+Node Packaged Manuscript
+ 
+You can install this handbook using npm. Just run:
+ 
+$ npm install -g wtfjs
+
+ 
+You should be able to run wtfjs at the command line now. This will open the manual in your selected $PAGER. Otherw…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[kornia/kornia]]></title>
+        <id>https://github.com/kornia/kornia</id>
+        <link href="https://github.com/kornia/kornia"/>
+        <updated>2021-09-23T00:56:49.571Z</updated>
+        <summary type="html"><![CDATA[Open Source Differentiable Computer Vision Library
+
+ 
+ 
+  
+ 
+ 
+ 
+ 
+English | 简体中文
+ 
+  
+ 
+Website • Docs • Try it Now • Tutorials • Examples • Blog • Community
+ 
+ 
+     
+ 
+ 
+    
+ 
+ 
+
+ 
+ 
+ 
+ 
+Kornia is a differentiable computer vision library for PyTorch.
+ 
+It consists of a set of routines and differentiable modules to solve generic computer vision problems. At its core, the package uses PyTorch as its main backend both for efficiency and to take advantage of the reverse-mode auto-differentiation to define and compute the gradient of complex functions.
+ 
+ 
+  
+ 
+ 
+Overview
+ 
+Inspired by existing packages, this library is composed by a subset of packages containing operators that can be inserted within neural networks to train models to perform image transformations, epipolar geometry, depth …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EddieHubCommunity/LinkFree]]></title>
+        <id>https://github.com/EddieHubCommunity/LinkFree</id>
+        <link href="https://github.com/EddieHubCommunity/LinkFree"/>
+        <updated>2021-09-23T00:56:49.520Z</updated>
+        <summary type="html"><![CDATA[Open source alternative to LinkTree
+
+EddieHub Members
+ 
+
+ 
+
+ 
+Initially created on a YouTube live stream https://www.youtube.com/watch?v=Jorl_vcp-Ew
+ 
+Quickstart
+ 
+ 
+ 
+Fork project
+ 
+ 
+Clone project
+ 
+ 
+Navigate to project directory cd LinkFree
+ 
+ 
+Install dependencies with npm install
+ 
+ 
+Run npm start
+ 
+ 
+To add your profile
+ 
+Create a file public/data/<your-username>.json with the following structure:
+ 
+{
+  "name": "Eddie Jaoude",
+  "bio": "Founder of EddieHub",
+  "avatar": "https://github.com/eddiejaoude.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/eddiejaoude",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/eddiejaoude",
+      "icon": "twitter"
+    }
+  ]
+}
+
+ 
+Your url will be http://linkfree.eddiehub.org/<yourusername>, for example http://linkfree.eddiehub.org/eddiejaoude
+ 
+Your avatar URL should take the format of https://github.com/<yourusername>.png.
+ 
+Home page profiles
+ 
+Your profile will automatically appear on the home page.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pedroslopez/whatsapp-web.js]]></title>
+        <id>https://github.com/pedroslopez/whatsapp-web.js</id>
+        <link href="https://github.com/pedroslopez/whatsapp-web.js"/>
+        <updated>2021-09-23T00:56:49.419Z</updated>
+        <summary type="html"><![CDATA[A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app
+
+   
+ 
+whatsapp-web.js
+ 
+A WhatsApp API client that connects through the WhatsApp Web browser app
+ 
+It uses Puppeteer to run a real instance of Whatsapp Web to avoid getting blocked.
+ 
+NOTE: I can't guarantee you will not be blocked by using this method, although it has worked for me. WhatsApp does not allow bots or unofficial clients on their platform, so this shouldn't be considered totally safe.
+ 
+Installation
+ 
+The module is now available on npm! npm i whatsapp-web.js
+ 
+Please note that Node v12+ is required.
+ 
+Example usage
+ 
+const { Client } = require('whatsapp-web.js');
+
+const client = new Client();
+
+client.on('qr', (qr) => {
+    // Generate and scan this code with your phone
+    console.log('QR …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[freqtrade/freqtrade]]></title>
+        <id>https://github.com/freqtrade/freqtrade</id>
+        <link href="https://github.com/freqtrade/freqtrade"/>
+        <updated>2021-09-23T00:56:49.371Z</updated>
+        <summary type="html"><![CDATA[Free, open source crypto trading bot
+
+
+ 
+   
+ 
+Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
+ 
+
+ 
+Disclaimer
+ 
+This software is for educational purposes only. Do not risk money which you are afraid to lose. USE THE SOFTWARE AT YOUR OWN RISK. THE AUTHORS AND ALL AFFILIATES ASSUME NO RESPONSIBILITY FOR YOUR TRADING RESULTS.
+ 
+Always start by running a trading bot in Dry-run and do not engage money before you understand how it works and what profit/loss you should expect.
+ 
+We strongly recommend you to have coding and Python knowledge. Do not hesitate to read the source code …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MicrosoftDocs/azure-docs]]></title>
+        <id>https://github.com/MicrosoftDocs/azure-docs</id>
+        <link href="https://github.com/MicrosoftDocs/azure-docs"/>
+        <updated>2021-09-23T00:56:49.204Z</updated>
+        <summary type="html"><![CDATA[Open source documentation of Microsoft Azure
+
+Microsoft Azure Documentation
+ 
+Welcome to the open-source documentation of Microsoft Azure. Please review this README file to understand how you can assist in contributing to the Microsoft Azure documentation.
+ 
+Getting Started
+ 
+Contributing to open source is more than just providing updates, it's also about letting us know when there is an issue. Read our Contributing guidance to find out more.
+ 
+Prerequisites
+ 
+You've decided to contribute, that's great! To contribute to the documentation, you need a few tools.
+ 
+Contributing to the documentation requires a GitHub account. If you don't have an account, follow the instructions for the GitHub account setup from our contributor guide.
+ 
+Download
+ 
+Install the following tools:
+ 
+ 
+ 
+Git
+ 
+ 
+Visual Studio Code
+ 
+ 
+Docs Authoring Pack extension for Visual Studio Code
+ 
+ 
+Install
+ 
+Follow the instructions provided in the Install content authoring tools from our contributor guide.
+ 
+License
+ 
+Please refer to LICENSE, LICENSE-CODE and ThirdPartyNotices for all Licensing information.
+ 
+Code of Conduct
+ 
+This project has adopted the Microsoft Open Source Code of Conduct. For more information, see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pittcsc/Summer2022-Internships]]></title>
+        <id>https://github.com/pittcsc/Summer2022-Internships</id>
+        <link href="https://github.com/pittcsc/Summer2022-Internships"/>
+        <updated>2021-09-23T00:56:49.114Z</updated>
+        <summary type="html"><![CDATA[Collection of Summer 2022 tech internships!
+
+Summer 2022 Tech Internships by Pitt CSC 🤿👩‍💻
+ 
+Use this repo to share and keep track of software, tech, CS, PM, quant internships for Summer 2022. List maintained by the Pitt Computer Science Club!
+ 
+⚠ This repository is only for internships/co-ops in the United States, Canada or for Remote positions🌎.
+ 
+📈 For more tips on the internship process check out the Zero to Offer program here. 📈
+ 
+🎓 Check out our New Grad repo here.
+ 
+🤗 Contribute by submitting a pull request or filling out this form! 🤗
+ 
+The List 👔
+ 
+ 
+  
+  
+ 
+   Name 
+   Location 
+   Notes 
+  
+ 
+  
+  
+  
+ 
+   Hudson River Trading 
+   NYC, Chicago, London, Austin 
+   SWE, Algo Internship 
+  
+ 
+  
+ 
+   Bridgewater Associates 
+    
+   Closed 
+  
+ 
+  
+ 
+   Credit Suisse 
+   Ra…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cipher387/Dorks-collections-list]]></title>
+        <id>https://github.com/cipher387/Dorks-collections-list</id>
+        <link href="https://github.com/cipher387/Dorks-collections-list"/>
+        <updated>2021-09-23T00:56:49.004Z</updated>
+        <summary type="html"><![CDATA[List of Github repositories and articles with list of dorks for different search engines
+
+Dorks collections list
+ 
+Google, Bing, Ecosia, Yahoo or Yandex
+ 
+https://github.com/Zarcolio/sitedorks
+ 
+Google dorks
+ 
+https://github.com/BullsEye0/google_dork_list
+ https://github.com/sushiwushi/bug-bounty-dorks
+ https://github.com/rootac355/SQL-injection-dorks-list
+ https://github.com/unexpectedBy/SQLi-Dork-Repository
+ https://github.com/thomasdesr/Google-dorks
+ https://github.com/arimogi/Google-Dorks
+ https://github.com/aleedhillon/7000-Google-Dork-List
+ 
+DuckDuckGo dorks
+ 
+https://github.com/d34dfr4m3/goDuck
+ 
+Github dorks
+ 
+https://github.com/techgaun/github-dorks
+ https://github.com/jcesarstef/ghhdb-Github-Hacking-Database
+ https://github.com/H4CK3RT3CH/github-dorks
+ 
+Shodan dorks
+ 
+https://github.com/humblelad/Shodan-Dorks
+ https://github.com/AustrianEnergyCERT/ICS_IoT_Shodan_Dorks
+ https://github.com/lothos612/shodan
+ https://github.com/jakejarvis/awesome-shodan-queries
+ https://github.com/IFLinfosec/shodan-dorks
+ https://www.osintme.com/index.php/2021/01/16/ultimate-osint-with-shodan-100-great-shodan-queries/
+ 
+Virus Total dorks
+ 
+https://github.com/Neo23x0/vti-dorks
+ 
+Binary Edge + Shodan + Google
+ 
+https://github.com/iGotRootSRC/Dorkers
+ 
+ 
+I also recommend checking out my collection of 505 tools for OSINT:
+ 
+https://cipher387.github.io/osint_stuff_tool_collection/]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[aristocratos/btop]]></title>
+        <id>https://github.com/aristocratos/btop</id>
+        <link href="https://github.com/aristocratos/btop"/>
+        <updated>2021-09-23T00:56:48.965Z</updated>
+        <summary type="html"><![CDATA[A monitor of resources
+
+
+ 
+      
+ 
+Index
+ 
+ 
+ 
+News
+ 
+ 
+Documents
+ 
+ 
+Description
+ 
+ 
+Features
+ 
+ 
+Themes
+ 
+ 
+Support and funding
+ 
+ 
+Prerequisites (Read this if you are having issues!)
+ 
+ 
+Screenshots
+ 
+ 
+Keybindings
+ 
+ 
+Installation
+ 
+ 
+Manual compilation
+ 
+ 
+Configurability
+ 
+ 
+License
+ 
+ 
+News
+ 
+Under development
+ 
+18 September 2021
+ 
+The Linux version of btop++ is complete. Released as version 1.0.0
+ 
+I will be providing statically compiled binaries for a range of architectures in every release for those having problems compiling.
+ 
+For compilation GCC 10 is required, GCC 11 preferred.
+ 
+Please report any bugs to the Issues page.
+ 
+The development plan right now:
+ 
+ 
+ 
+1.1.0 Mac OsX support
+ 
+ 
+1.2.0 FreeBSD support
+ 
+ 
+1.3.0 Support for GPU monitoring
+ 
+ 
+1.X.0 Other platforms and f…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[frontendbr/vagas]]></title>
+        <id>https://github.com/frontendbr/vagas</id>
+        <link href="https://github.com/frontendbr/vagas"/>
+        <updated>2021-09-23T00:56:48.834Z</updated>
+        <summary type="html"><![CDATA[🔬 Espaço para divulgação de vagas para front-enders.
+
+  
+ 
+Vagas
+ 
+🔬 Espaço para divulgação de vagas para front-enders.
+ 
+Vagas (Somente vagas de Front-End)
+ 
+Espaço para a divulgação de vagas para desenvolvedores via issues do Github.
+ 
+Vagas disponíveis em https://github.com/frontendbr/vagas/issues
+ 
+Cadastrando uma vaga
+ 
+ 
+ 
+Abra uma issue e, no título desta issue, coloque o nome da cidade entre colchetes seguido do nome da vaga e nome da empresa.
+ 
+ 
+Exemplo: [São Paulo] Front-End Developer na [NOME DA EMPRESA]
+ 
+ 
+ 
+Informe quais labels devemos adicionar, contendo o nível de experiência desejada e a forma de contração.
+ 
+ 
+⚠️ Importante
+ 
+Com o objetivo de manter a qualidade das vagas postadas e respeitar todas as pessoas e empresas, NÃO ACEITAMOS:
+ 
+ 
+ 
+Vagas sem o nome da empresa…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[academind/react-complete-guide-code]]></title>
+        <id>https://github.com/academind/react-complete-guide-code</id>
+        <link href="https://github.com/academind/react-complete-guide-code"/>
+        <updated>2021-09-23T00:56:48.700Z</updated>
+        <summary type="html"><![CDATA[Code snapshots and materials for our "React - The Complete Guide" course (https://acad.link/reactjs)
+
+Course Code & Materials
+ 
+This repository contains the course source code and other extra materials like slides.
+ 
+How to use
+ 
+The code snapshots are organized in multiple branches where every branch represents a course section.
+ 
+For example, the branch 01-getting-started holds all code snapshots and extra materials for section 1 of the course ("Getting Started").
+ 
+You can switch branches via the branch dropdown above the directory explorer.
+ 
+
+ 
+In most branches, you'll find multiple folders which organize the section-specific content further:
+ 
+ 
+ 
+Often, you'll find a /code subfolder which contains any relevent code snapshots for the given course section
+ 
+ 
+You also often find /slid…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CNCF End User Technology Radar Provides Insights into DevSecOps]]></title>
+        <id>https://www.cncf.io/?p=64746</id>
+        <link href="https://www.cncf.io/announcements/2021/09/22/cncf-end-user-technology-radar-provides-insights-into-devsecops/"/>
+        <updated>2021-09-22T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[End User Community reports that there are many tools and approaches for DevSecOps, and the space is continuing to grow SAN FRANCISCO, Calif. – September 22, 2021 – The Cloud Native Computing...]]></summary>
+        <author>
+            <name>Katie Meinders</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understand OpenTelemetry part 4: Instrument a Java app with OpenTelemetry]]></title>
+        <id>https://www.cncf.io/?p=64752</id>
+        <link href="https://www.cncf.io/blog/2021/09/22/understand-opentelemetry-part-4-instrument-a-java-app-with-opentelemetry/"/>
+        <updated>2021-09-22T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on New Relic’s blog by Jack Berg, engineer at New Relic This blog post is part of the Understand OpenTelemetry series. Part 1 gave an overview to OpenTelemetry and discussed why it...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[openkraken/kraken]]></title>
         <id>https://github.com/openkraken/kraken</id>
@@ -899,6 +1680,16 @@ We would love to hear your suggestions and ideas on what else we could include a
 (image credit: P. Ahern)]]></summary>
         <author>
             <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why choose a multi-cloud strategy?]]></title>
+        <id>https://www.cncf.io/?p=64751</id>
+        <link href="https://www.cncf.io/blog/2021/09/21/why-choose-a-multi-cloud-strategy/"/>
+        <updated>2021-09-21T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on the Snapt blog by Craig Risi To cloud or not to cloud? This question has been around for a while now, as the cloud has opened the...]]></summary>
+        <author>
+            <name>Jessie</name>
         </author>
     </entry>
     <entry>
