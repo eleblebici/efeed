@@ -2,10 +2,708 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-23T00:56:50.124Z</updated>
+    <updated>2021-09-24T00:53:47.353Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[lydiahallie/javascript-questions]]></title>
+        <id>https://github.com/lydiahallie/javascript-questions</id>
+        <link href="https://github.com/lydiahallie/javascript-questions"/>
+        <updated>2021-09-24T00:53:47.332Z</updated>
+        <summary type="html"><![CDATA[A long list of (advanced) JavaScript questions, and their explanations ✨
+
+ 
+  
+ 
+JavaScript Questions
+ 
+ 
+ 
+ 
+I post multiple choice JavaScript questions on my Instagram stories, which I'll also post here! Last updated: June 12th
+ 
+ 
+From basic to advanced: test how well you know JavaScript, refresh your knowledge a bit, or prepare for your coding interview! 💪 🚀 I update this repo regularly with new questions. I added the answers in the collapsed sections below the questions, simply click on them to expand it. It's just for fun, good luck! ❤️
+ 
+ 
+Feel free to reach out to me! 😊 
+ Instagram || Twitter || LinkedIn || Blog
+ 
+ 
+ 
+  
+  
+ 
+   Feel free to use them in a project! 😃 I would really appreciate a reference to this repo, I create the questions and explanations (yes I'm sad lol) and…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[groue/GRDB.swift]]></title>
+        <id>https://github.com/groue/GRDB.swift</id>
+        <link href="https://github.com/groue/GRDB.swift"/>
+        <updated>2021-09-24T00:53:47.140Z</updated>
+        <summary type="html"><![CDATA[A toolkit for SQLite databases, with a focus on application development
+
+
+ 
+A toolkit for SQLite databases, with a focus on application development
+ 
+     
+ 
+ 
+Latest release: September 3, 2021 • version 5.11.0 • CHANGELOG • Migrating From GRDB 4 to GRDB 5
+ 
+Requirements: iOS 10.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+ • SQLite 3.8.5+ • Swift 5.2+ / Xcode 11.4+
+ 
+ 
+  
+  
+ 
+   Swift version 
+   GRDB version 
+  
+ 
+  
+  
+  
+ 
+   Swift 5.2+ 
+   v5.11.0 
+  
+ 
+  
+ 
+   Swift 5.1 
+   v4.14.0 
+  
+ 
+  
+ 
+   Swift 5 
+   v4.14.0 
+  
+ 
+  
+ 
+   Swift 4.2 
+   v4.14.0 
+  
+ 
+  
+ 
+   Swift 4.1 
+   v3.7.0 
+  
+ 
+  
+ 
+   Swift 4 
+   v2.10.0 
+  
+ 
+  
+ 
+   Swift 3.2 
+   v1.3.0 
+  
+ 
+  
+ 
+   Swift 3.1 
+   v1.3.0 
+  
+ 
+  
+ 
+   Swift 3 
+   v1.0 
+  
+ 
+  
+ 
+   Swift 2.3 
+   v0.81.2 
+  
+ 
+  
+ 
+   Swift 2.2 
+   v0.…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[containers/buildah]]></title>
+        <id>https://github.com/containers/buildah</id>
+        <link href="https://github.com/containers/buildah"/>
+        <updated>2021-09-24T00:53:46.767Z</updated>
+        <summary type="html"><![CDATA[A tool that facilitates building OCI images.
+
+
+ 
+Buildah - a tool that facilitates building Open Container Initiative (OCI) container images
+ 
+
+ 
+The Buildah package provides a command line tool that can be used to
+ 
+ 
+ 
+create a working container, either from scratch or using an image as a starting point
+ 
+ 
+create an image, either from a working container or via the instructions in a Dockerfile
+ 
+ 
+images can be built in either the OCI image format or the traditional upstream docker image format
+ 
+ 
+mount a working container's root filesystem for manipulation
+ 
+ 
+unmount a working container's root filesystem
+ 
+ 
+use the updated contents of a container's root filesystem as a filesystem layer to create a new image
+ 
+ 
+delete a working container or an image
+ 
+ 
+rename a local container
+ 
+ 
+…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[facebook/react-native]]></title>
+        <id>https://github.com/facebook/react-native</id>
+        <link href="https://github.com/facebook/react-native"/>
+        <updated>2021-09-24T00:53:46.725Z</updated>
+        <summary type="html"><![CDATA[A framework for building native applications using React
+
+  React Native  
+ 
+ Learn once, write anywhere:
+ Build mobile apps with React. 
+ 
+                
+ 
+ Getting Started  ·  Learn the Basics  ·  Showcase  ·  Contribute  ·  Community  ·  Support 
+ 
+React Native brings React's declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform.
+ 
+ 
+ 
+Declarative. React makes it painless to create interactive UIs. Declarative views make your code more predictable and easier to debug.
+ 
+ 
+Component-Based. Build encapsulated components that manage their state, then compose them to make complex UIs.
+ 
+ 
+Developer Velocity. See local changes in seconds. Changes to JavaScript code can be live reloaded without rebuilding the n…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[hashicorp/nomad]]></title>
+        <id>https://github.com/hashicorp/nomad</id>
+        <link href="https://github.com/hashicorp/nomad"/>
+        <updated>2021-09-24T00:53:46.664Z</updated>
+        <summary type="html"><![CDATA[Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations.
+
+Nomad  
+ 
+    
+ 
+Nomad is a simple and flexible workload orchestrator to deploy and manage containers (docker, podman), non-containerized applications (executable, Java), and virtual machines (qemu) across on-prem and clouds at scale.
+ 
+Nomad is supported on Linux, Windows, and macOS. A commercial version of Nomad, Nomad Enterprise, is also available.
+ 
+ 
+ 
+Website: https://nomadproject.io
+ 
+ 
+Tutorials: HashiCorp Learn
+ 
+ 
+Forum: Discuss
+ 
+ 
+Mailing List: Google Groups
+ 
+ 
+Gitter: hashicorp-nomad
+ 
+ 
+Nomad provides several key features:
+ 
+ 
+ …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[onevcat/Kingfisher]]></title>
+        <id>https://github.com/onevcat/Kingfisher</id>
+        <link href="https://github.com/onevcat/Kingfisher"/>
+        <updated>2021-09-24T00:53:46.619Z</updated>
+        <summary type="html"><![CDATA[A lightweight, pure-Swift library for downloading and caching images from the web.
+
+  
+ 
+      
+   
+ 
+Kingfisher is a powerful, pure-Swift library for downloading and caching images from the web. It provides you a chance to use a pure-Swift way to work with remote images in your next app.
+ 
+Features
+ 
+ 
+ 
+ Asynchronous image downloading and caching.
+ 
+ 
+ Loading image from either URLSession-based networking or local provided data.
+ 
+ 
+ Useful image processors and filters provided.
+ 
+ 
+ Multiple-layer hybrid cache for both memory and disk.
+ 
+ 
+ Fine control on cache behavior. Customizable expiration date and size limit.
+ 
+ 
+ Cancelable downloading and auto-reusing previous downloaded content to improve performance.
+ 
+ 
+ Independent components. Use the downloader, caching system, and image p…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[chatwoot/chatwoot]]></title>
+        <id>https://github.com/chatwoot/chatwoot</id>
+        <link href="https://github.com/chatwoot/chatwoot"/>
+        <updated>2021-09-24T00:53:46.572Z</updated>
+        <summary type="html"><![CDATA[Open-source customer engagement suite, an alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬
+
+  
+Customer engagement suite, an open-source alternative to Intercom, Zendesk, Salesforce Service Cloud etc.
+ 
+
+ 
+    
+ 
+ 
+            
+ 
+ 
+Chatwoot is an open-source omnichannel customer support software. The development of Chatwoot started in 2016. It failed to succeed as a business and eventually shut up shop in 2017. During 2019 #Hacktoberfest, the maintainers decided to make it open-source, instead of letting the code rust in a private repo. With a pleasant surprise, Chatwoot became a trending project on Hacker News and best of all, got lots of love from the community. Now, a failed project is back on track and the prospects are looking great. The team is back to working on …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AriaMinaei/theatre]]></title>
+        <id>https://github.com/AriaMinaei/theatre</id>
+        <link href="https://github.com/AriaMinaei/theatre"/>
+        <updated>2021-09-24T00:53:46.504Z</updated>
+        <summary type="html"><![CDATA[Motion design editor for the web
+
+Theatre.js
+ 
+Theatre.js is an animation library for high-fidelity motion graphics. It is designed to help you express detailed animation, enabling you to create intricate movement, and convey nuance.
+ 
+Theatre can be used both programmatically and visually.
+ 
+You can use Theatre.js to:
+ 
+ 
+ 
+ Animate 3D objects made with THREE.js or other 3D libraries
+ 
+ Art by drei.lu
+  
+ 
+ Animate HTML/SVG via React or other libraries
+ 
+  
+ 
+ Design micro-interactions
+ 
+  
+ 
+ Choreograph generative interactive art
+ 
+  
+ 
+ Or animate any other JS variable
+ 
+  
+ 
+Documentation and Tutorials
+ 
+You can find the documentation and video tutorials here.
+ 
+Community
+ 
+Join us on Discord or write us an email.
+ 
+License
+ 
+Your use of Theatre.js is governed under the Apache License Version 2.0:
+ 
+ 
+ 
+Theatre's core (@theatre/core) is released under the Apache License. Same goes for most packages in this repository.
+ 
+ 
+The studio (@theatre/studio) is released under the AGPL 3.0 License. This is the package that you use to edit your animations, setup your scenes, etc. You only use the studio during design/development. Your project's final bundle only includes @theatre/core, so only the Apache License applies.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[reacttips-dev/codebases]]></title>
+        <id>https://github.com/reacttips-dev/codebases</id>
+        <link href="https://github.com/reacttips-dev/codebases"/>
+        <updated>2021-09-24T00:53:46.454Z</updated>
+        <summary type="html"><![CDATA[Collection of some big project codebases - for studying only
+
+Codebases
+ 
+This is collection of some big project's codebases built with Reactjs that direct downloaded from some websites. They're good for reading and studying, but not recommended for using in product.
+ 
+All of codebases in this repo should be reviewed by our team, to ensure they are good for users to reference.
+ 
+Index
+ 
+Notes:
+ 
+ 
+ 
+Before you submit a PR to add a codebase to this repo, you must add it to this index
+ 
+ 
+Try to keep those items bellow in alphabet sort
+ 
+ 
+Named template: NAME (URL) - CATEGORIES / ADDED_BY, ADDED_AT. eg: Zappos (https://www.zappos.com/) - eCommerce / Cong Nguyen, 2021/09/20
+ 
+ 
+A
+ 
+ 
+ 
+Anchor (https://anchor.fm/) - Audio / Cong Nguyen, 2021/09/20
+ 
+ 
+Auth Udacity - (https://auth.udacity.com/…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[angular/angular-cli]]></title>
+        <id>https://github.com/angular/angular-cli</id>
+        <link href="https://github.com/angular/angular-cli"/>
+        <updated>2021-09-24T00:53:46.384Z</updated>
+        <summary type="html"><![CDATA[CLI tool for Angular
+
+Angular CLI
+ 
+Development tools and libraries specialized for Angular
+ 
+This is the home of the DevKit and the Angular CLI code. You can find the Angular CLI specific README here.
+ 
+  
+ 
+
+ 
+ 
+ 
+Quick Links
+ 
+ 
+  
+  
+ 
+   Gitter 
+   Contributing 
+   Angular CLI 
+  
+ 
+  
+ 
+ 
+The Goal of Angular CLI
+ 
+The Angular CLI creates, manages, builds and test your Angular projects. It's built on top of the Angular DevKit.
+ 
+The Goal of DevKit
+ 
+DevKit's goal is to provide a large set of libraries that can be used to manage, develop, deploy and analyze your code.
+ 
+Getting Started - Local Development
+ 
+Installation
+ 
+To get started locally, follow these instructions:
+ 
+ 
+ 
+If you haven't done it already, make a fork of this repo.
+ 
+ 
+Clone to your local computer using git.
+ 
+ 
+Mak…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[lnbook/lnbook]]></title>
+        <id>https://github.com/lnbook/lnbook</id>
+        <link href="https://github.com/lnbook/lnbook"/>
+        <updated>2021-09-24T00:53:46.342Z</updated>
+        <summary type="html"><![CDATA[Mastering the Lightning Network (LN)
+
+Mastering the Lightning Network
+ 
+
+ 
+STATUS: IN PRODUCTION
+ 
+NO EDITS OR PULL REQUESTS ARE ACCEPTED AT THIS TIME.
+ 
+The book is currently (Sep 2021) in final production. No changes will be accepted.
+ 
+ 
+About
+ 
+Mastering the Lightning Network is an O'Reilly Media book, due for publication in Q4'2021, and announced in August 2019 by authors Andreas M. Antonopoulos (@aantonop), Olaoluwa Osuntokun (@roasbeef), Rene Pickhardt (@renepickhardt).
+ 
+The book describes the Lightning Network (LN), a Peer-to-Peer protocol running on top of Bitcoin and other blockchains, which provides near-instant, secure, micro-payments.
+ 
+The book is suitable for technical readers with an understanding of the fundamentals of Bitcoin and other open blockchains.
+ 
+Legend
+ 
+ 
+ 
+🔃…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[rust-lang/mdBook]]></title>
+        <id>https://github.com/rust-lang/mdBook</id>
+        <link href="https://github.com/rust-lang/mdBook"/>
+        <updated>2021-09-24T00:53:46.293Z</updated>
+        <summary type="html"><![CDATA[Create book from markdown files. Like Gitbook but implemented in Rust
+
+mdBook
+ 
+  
+ 
+mdBook is a utility to create modern online books from Markdown files.
+ 
+What does it look like?
+ 
+The User Guide for mdBook has been written in Markdown and is using mdBook to generate the online book-like website you can read. The documentation uses the latest version on GitHub and showcases the available features.
+ 
+Installation
+ 
+There are multiple ways to install mdBook.
+ 
+ 
+ 
+ Binaries
+ Binaries are available for download here. Make sure to put the path to the binary into your PATH.
+  
+ 
+ From Crates.io
+ This requires at least Rust 1.39 and Cargo to be installed. Once you have installed Rust, type the following in the terminal:
+ cargo install mdbook
+
+ This will download and compile mdBook for you, th…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PySimpleGUI/PySimpleGUI]]></title>
+        <id>https://github.com/PySimpleGUI/PySimpleGUI</id>
+        <link href="https://github.com/PySimpleGUI/PySimpleGUI"/>
+        <updated>2021-09-24T00:53:46.262Z</updated>
+        <summary type="html"><![CDATA[Launched in 2018 Actively developed & supported. Supports tkinter, Qt, WxPython, Remi (in browser). Create custom GUI Windows simply, trivially with a full set of widgets. Multi-Window applications are also simple. Python 2.7 & 3 Support. 300+ Demo programs & Cookbook for rapid start. Extensive documentation. Examples using Machine Learning(GUI,…
+
+  
+Python GUIs for Humans
+ 
+
+ 
+Transforms the tkinter, Qt, WxPython, and Remi (browser-based) GUI frameworks into a simpler interface. The window definition is simplified by using Python core data types understood by beginners (lists and dictionaries). Further simplification happens by changing event handling from a callback-based model to a message passing one.
+ 
+Your code is not required to have an object oriented architecture which makes the p…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[software-mansion/react-native-reanimated]]></title>
+        <id>https://github.com/software-mansion/react-native-reanimated</id>
+        <link href="https://github.com/software-mansion/react-native-reanimated"/>
+        <updated>2021-09-24T00:53:46.162Z</updated>
+        <summary type="html"><![CDATA[React Native's Animated library reimplemented
+ 
+React Native's Animated library reimplemented
+ 
+ 
+ 
+Reanimated 2 is here! Check out our documentation page for more information
+ 
+ 
+React Native Reanimated provides a more comprehensive, low level abstraction for the Animated library API to be built on top of and hence allow for much greater flexibility especially when it comes to gesture based interactions.
+ 
+Installation
+ 
+Check out installation section of our docs for the detailed installation instructions.
+ 
+Documentation
+ 
+Check out our dedicated documentation page for info about this library, API reference and more: https://docs.swmansion.com/react-native-reanimated/docs/
+ 
+Examples
+ 
+The source code for the example (showcase) app is under the Example/ directory. If you want to play with the API but don't feel like trying it on a real app, you can run the example project. Check Example/ directory README for installation instructions.
+ 
+License
+ 
+Reanimated library is licensed under The MIT License.
+ 
+Credits
+ 
+This project has been build and is maintained thanks to the support from Shopify, Expo.io and Software Mansion]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[juntossomosmais/frontend-guideline]]></title>
+        <id>https://github.com/juntossomosmais/frontend-guideline</id>
+        <link href="https://github.com/juntossomosmais/frontend-guideline"/>
+        <updated>2021-09-24T00:53:46.108Z</updated>
+        <summary type="html"><![CDATA[📝 Front-end Guideline by Juntos Somos Mais
+
+
+ 
+Front-end - Guideline
+ 
+Guideline Webpage
+ 
+ 
+ 
+ 
+ 
+"Every line of code should appear to be written by a single person, no matter the number of contributors." - Chinese Proverb.
+ 
+ 
+The following document describes generic rules of writing in development languages that we use on our Front-end projects, that HTML, CSS, JavaScript, React, and Vue
+ 
+The idea of this repository is not to be a complete guideline, the target is just to help developers who participate in our projects to be able to inform the coding standards used.
+ 
+As this is a live document, some rules may not have been applied in old projects and changes can occur at any time.
+ 
+We are hiring! 🔥
+ 
+If you are looking opportunities as Front-end Developer we are hiring!
+ 
+You can c…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[rails/propshaft]]></title>
+        <id>https://github.com/rails/propshaft</id>
+        <link href="https://github.com/rails/propshaft"/>
+        <updated>2021-09-24T00:53:46.047Z</updated>
+        <summary type="html"><![CDATA[Deliver assets for Rails
+
+Propshaft
+ 
+Propshaft is an asset pipeline library for Rails. It's built for an era where bundling assets to save on HTTP connections is no longer urgent, where JavaScript and CSS are either compiled by dedicated Node.js bundlers or served directly to the browsers, and where increases in bandwidth have made the need for minification less pressing. These factors allow for a dramatically simpler and faster asset pipeline compared to previous options, like Sprockets.
+ 
+So that's what Propshaft doesn't do. Here's what it does provide:
+ 
+ 
+ 
+Configurable load path: You can register directories from multiple places in your app and gems, and reference assets from all of these paths as though they were one.
+ 
+ 
+Digest stamping: All assets in the load path will be copied (…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pierian-Data/Complete-Python-3-Bootcamp]]></title>
+        <id>https://github.com/Pierian-Data/Complete-Python-3-Bootcamp</id>
+        <link href="https://github.com/Pierian-Data/Complete-Python-3-Bootcamp"/>
+        <updated>2021-09-24T00:53:45.982Z</updated>
+        <summary type="html"><![CDATA[Course Files for Complete Python 3 Bootcamp Course on Udemy
+
+Complete-Python-3-Bootcamp
+ 
+Course Files for Complete Python 3 Bootcamp Course on Udemy
+ 
+Copyright by Pierian Data Inc.
+ 
+Get it now for 95% off with the link: https://www.udemy.com/complete-python-bootcamp/?couponCode=COMPLETE_GITHUB
+ 
+Thanks!]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Handle flash sale with Easegress and WebAssembly]]></title>
+        <id>https://www.cncf.io/?p=64766</id>
+        <link href="https://www.cncf.io/blog/2021/09/23/handle-flash-sale-with-easegress-and-webassembly/"/>
+        <updated>2021-09-23T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on Github by Bomin Zhang of Megaease A flash sale is a discount or promotion offered by an eCommerce store for a short period. The quantity is limited,...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloud native chaos and telcos – Enforcing reliability and availability for telcos]]></title>
+        <id>https://www.cncf.io/?p=64762</id>
+        <link href="https://www.cncf.io/blog/2021/09/23/cloud-native-chaos-and-telcos-enforcing-reliability-and-availability-for-telcos/"/>
+        <updated>2021-09-23T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on VMblog by W. Watson, Principal Consultant, Vulk Coop and Karthik S, Co-founder, ChaosNative & Maintainer at LitmusChaos What is Telco Reliability? What does reliability mean to telcos? ...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[samuelcolvin/pydantic]]></title>
         <id>https://github.com/samuelcolvin/pydantic</id>

@@ -22,6 +22,24 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=64766",
+          "author": "Jessie",
+          "description": "Guest post originally published on Github by Bomin Zhang of Megaease A flash sale is a discount or promotion offered by an eCommerce store for a short period. The quantity is limited,...",
+          "link": "https://www.cncf.io/blog/2021/09/23/handle-flash-sale-with-easegress-and-webassembly/",
+          "publishedOn": "2021-09-23T15:00:00.000Z",
+          "wordCount": 2586,
+          "title": "Handle flash sale with Easegress and WebAssembly"
+        },
+        {
+          "id": "https://www.cncf.io/?p=64762",
+          "author": "Jessie",
+          "description": "Guest post originally published on VMblog by W. Watson, Principal Consultant, Vulk Coop and Karthik S, Co-founder, ChaosNative & Maintainer at LitmusChaos What is Telco Reliability? What does reliability mean to telcos? ...",
+          "link": "https://www.cncf.io/blog/2021/09/23/cloud-native-chaos-and-telcos-enforcing-reliability-and-availability-for-telcos/",
+          "publishedOn": "2021-09-23T15:00:00.000Z",
+          "wordCount": 2010,
+          "title": "Cloud native chaos and telcos – Enforcing reliability and availability for telcos"
+        },
+        {
           "id": "https://www.cncf.io/?p=64746",
           "author": "Katie Meinders",
           "description": "End User Community reports that there are many tools and approaches for DevSecOps, and the space is continuing to grow SAN FRANCISCO, Calif. – September 22, 2021 – The Cloud Native Computing...",
@@ -193,6 +211,159 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/lydiahallie/javascript-questions",
+          "author": null,
+          "description": "A long list of (advanced) JavaScript questions, and their explanations ✨\n\n \n  \n \nJavaScript Questions\n \n \n \n \nI post multiple choice JavaScript questions on my Instagram stories, which I'll also post here! Last updated: June 12th\n \n \nFrom basic to advanced: test how well you know JavaScript, refresh your knowledge a bit, or prepare for your coding interview! 💪 🚀 I update this repo regularly with new questions. I added the answers in the collapsed sections below the questions, simply click on them to expand it. It's just for fun, good luck! ❤️\n \n \nFeel free to reach out to me! 😊 \n Instagram || Twitter || LinkedIn || Blog\n \n \n \n  \n  \n \n   Feel free to use them in a project! 😃 I would really appreciate a reference to this repo, I create the questions and explanations (yes I'm sad lol) and…",
+          "link": "https://github.com/lydiahallie/javascript-questions",
+          "publishedOn": "2021-09-24T00:53:47.332Z",
+          "wordCount": 21343,
+          "title": "lydiahallie/javascript-questions"
+        },
+        {
+          "id": "https://github.com/groue/GRDB.swift",
+          "author": null,
+          "description": "A toolkit for SQLite databases, with a focus on application development\n\n\n \nA toolkit for SQLite databases, with a focus on application development\n \n     \n \n \nLatest release: September 3, 2021 • version 5.11.0 • CHANGELOG • Migrating From GRDB 4 to GRDB 5\n \nRequirements: iOS 10.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+ • SQLite 3.8.5+ • Swift 5.2+ / Xcode 11.4+\n \n \n  \n  \n \n   Swift version \n   GRDB version \n  \n \n  \n  \n  \n \n   Swift 5.2+ \n   v5.11.0 \n  \n \n  \n \n   Swift 5.1 \n   v4.14.0 \n  \n \n  \n \n   Swift 5 \n   v4.14.0 \n  \n \n  \n \n   Swift 4.2 \n   v4.14.0 \n  \n \n  \n \n   Swift 4.1 \n   v3.7.0 \n  \n \n  \n \n   Swift 4 \n   v2.10.0 \n  \n \n  \n \n   Swift 3.2 \n   v1.3.0 \n  \n \n  \n \n   Swift 3.1 \n   v1.3.0 \n  \n \n  \n \n   Swift 3 \n   v1.0 \n  \n \n  \n \n   Swift 2.3 \n   v0.81.2 \n  \n \n  \n \n   Swift 2.2 \n   v0.…",
+          "link": "https://github.com/groue/GRDB.swift",
+          "publishedOn": "2021-09-24T00:53:47.140Z",
+          "wordCount": 38246,
+          "title": "groue/GRDB.swift"
+        },
+        {
+          "id": "https://github.com/containers/buildah",
+          "author": null,
+          "description": "A tool that facilitates building OCI images.\n\n\n \nBuildah - a tool that facilitates building Open Container Initiative (OCI) container images\n \n\n \nThe Buildah package provides a command line tool that can be used to\n \n \n \ncreate a working container, either from scratch or using an image as a starting point\n \n \ncreate an image, either from a working container or via the instructions in a Dockerfile\n \n \nimages can be built in either the OCI image format or the traditional upstream docker image format\n \n \nmount a working container's root filesystem for manipulation\n \n \nunmount a working container's root filesystem\n \n \nuse the updated contents of a container's root filesystem as a filesystem layer to create a new image\n \n \ndelete a working container or an image\n \n \nrename a local container\n \n \n…",
+          "link": "https://github.com/containers/buildah",
+          "publishedOn": "2021-09-24T00:53:46.767Z",
+          "wordCount": 1254,
+          "title": "containers/buildah"
+        },
+        {
+          "id": "https://github.com/facebook/react-native",
+          "author": null,
+          "description": "A framework for building native applications using React\n\n  React Native  \n \n Learn once, write anywhere:\n Build mobile apps with React. \n \n                \n \n Getting Started  ·  Learn the Basics  ·  Showcase  ·  Contribute  ·  Community  ·  Support \n \nReact Native brings React's declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform.\n \n \n \nDeclarative. React makes it painless to create interactive UIs. Declarative views make your code more predictable and easier to debug.\n \n \nComponent-Based. Build encapsulated components that manage their state, then compose them to make complex UIs.\n \n \nDeveloper Velocity. See local changes in seconds. Changes to JavaScript code can be live reloaded without rebuilding the n…",
+          "link": "https://github.com/facebook/react-native",
+          "publishedOn": "2021-09-24T00:53:46.725Z",
+          "wordCount": 1668,
+          "title": "facebook/react-native"
+        },
+        {
+          "id": "https://github.com/hashicorp/nomad",
+          "author": null,
+          "description": "Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations.\n\nNomad  \n \n    \n \nNomad is a simple and flexible workload orchestrator to deploy and manage containers (docker, podman), non-containerized applications (executable, Java), and virtual machines (qemu) across on-prem and clouds at scale.\n \nNomad is supported on Linux, Windows, and macOS. A commercial version of Nomad, Nomad Enterprise, is also available.\n \n \n \nWebsite: https://nomadproject.io\n \n \nTutorials: HashiCorp Learn\n \n \nForum: Discuss\n \n \nMailing List: Google Groups\n \n \nGitter: hashicorp-nomad\n \n \nNomad provides several key features:\n \n \n …",
+          "link": "https://github.com/hashicorp/nomad",
+          "publishedOn": "2021-09-24T00:53:46.664Z",
+          "wordCount": 1275,
+          "title": "hashicorp/nomad"
+        },
+        {
+          "id": "https://github.com/onevcat/Kingfisher",
+          "author": null,
+          "description": "A lightweight, pure-Swift library for downloading and caching images from the web.\n\n  \n \n      \n   \n \nKingfisher is a powerful, pure-Swift library for downloading and caching images from the web. It provides you a chance to use a pure-Swift way to work with remote images in your next app.\n \nFeatures\n \n \n \n Asynchronous image downloading and caching.\n \n \n Loading image from either URLSession-based networking or local provided data.\n \n \n Useful image processors and filters provided.\n \n \n Multiple-layer hybrid cache for both memory and disk.\n \n \n Fine control on cache behavior. Customizable expiration date and size limit.\n \n \n Cancelable downloading and auto-reusing previous downloaded content to improve performance.\n \n \n Independent components. Use the downloader, caching system, and image p…",
+          "link": "https://github.com/onevcat/Kingfisher",
+          "publishedOn": "2021-09-24T00:53:46.619Z",
+          "wordCount": 1855,
+          "title": "onevcat/Kingfisher"
+        },
+        {
+          "id": "https://github.com/chatwoot/chatwoot",
+          "author": null,
+          "description": "Open-source customer engagement suite, an alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬\n\n  \nCustomer engagement suite, an open-source alternative to Intercom, Zendesk, Salesforce Service Cloud etc.\n \n\n \n    \n \n \n            \n \n \nChatwoot is an open-source omnichannel customer support software. The development of Chatwoot started in 2016. It failed to succeed as a business and eventually shut up shop in 2017. During 2019 #Hacktoberfest, the maintainers decided to make it open-source, instead of letting the code rust in a private repo. With a pleasant surprise, Chatwoot became a trending project on Hacker News and best of all, got lots of love from the community. Now, a failed project is back on track and the prospects are looking great. The team is back to working on …",
+          "link": "https://github.com/chatwoot/chatwoot",
+          "publishedOn": "2021-09-24T00:53:46.572Z",
+          "wordCount": 1664,
+          "title": "chatwoot/chatwoot"
+        },
+        {
+          "id": "https://github.com/AriaMinaei/theatre",
+          "author": null,
+          "description": "Motion design editor for the web\n\nTheatre.js\n \nTheatre.js is an animation library for high-fidelity motion graphics. It is designed to help you express detailed animation, enabling you to create intricate movement, and convey nuance.\n \nTheatre can be used both programmatically and visually.\n \nYou can use Theatre.js to:\n \n \n \n Animate 3D objects made with THREE.js or other 3D libraries\n \n Art by drei.lu\n  \n \n Animate HTML/SVG via React or other libraries\n \n  \n \n Design micro-interactions\n \n  \n \n Choreograph generative interactive art\n \n  \n \n Or animate any other JS variable\n \n  \n \nDocumentation and Tutorials\n \nYou can find the documentation and video tutorials here.\n \nCommunity\n \nJoin us on Discord or write us an email.\n \nLicense\n \nYour use of Theatre.js is governed under the Apache License Version 2.0:\n \n \n \nTheatre's core (@theatre/core) is released under the Apache License. Same goes for most packages in this repository.\n \n \nThe studio (@theatre/studio) is released under the AGPL 3.0 License. This is the package that you use to edit your animations, setup your scenes, etc. You only use the studio during design/development. Your project's final bundle only includes @theatre/core, so only the Apache License applies.",
+          "link": "https://github.com/AriaMinaei/theatre",
+          "publishedOn": "2021-09-24T00:53:46.504Z",
+          "wordCount": 733,
+          "title": "AriaMinaei/theatre"
+        },
+        {
+          "id": "https://github.com/reacttips-dev/codebases",
+          "author": null,
+          "description": "Collection of some big project codebases - for studying only\n\nCodebases\n \nThis is collection of some big project's codebases built with Reactjs that direct downloaded from some websites. They're good for reading and studying, but not recommended for using in product.\n \nAll of codebases in this repo should be reviewed by our team, to ensure they are good for users to reference.\n \nIndex\n \nNotes:\n \n \n \nBefore you submit a PR to add a codebase to this repo, you must add it to this index\n \n \nTry to keep those items bellow in alphabet sort\n \n \nNamed template: NAME (URL) - CATEGORIES / ADDED_BY, ADDED_AT. eg: Zappos (https://www.zappos.com/) - eCommerce / Cong Nguyen, 2021/09/20\n \n \nA\n \n \n \nAnchor (https://anchor.fm/) - Audio / Cong Nguyen, 2021/09/20\n \n \nAuth Udacity - (https://auth.udacity.com/…",
+          "link": "https://github.com/reacttips-dev/codebases",
+          "publishedOn": "2021-09-24T00:53:46.454Z",
+          "wordCount": 869,
+          "title": "reacttips-dev/codebases"
+        },
+        {
+          "id": "https://github.com/angular/angular-cli",
+          "author": null,
+          "description": "CLI tool for Angular\n\nAngular CLI\n \nDevelopment tools and libraries specialized for Angular\n \nThis is the home of the DevKit and the Angular CLI code. You can find the Angular CLI specific README here.\n \n  \n \n\n \n \n \nQuick Links\n \n \n  \n  \n \n   Gitter \n   Contributing \n   Angular CLI \n  \n \n  \n \n \nThe Goal of Angular CLI\n \nThe Angular CLI creates, manages, builds and test your Angular projects. It's built on top of the Angular DevKit.\n \nThe Goal of DevKit\n \nDevKit's goal is to provide a large set of libraries that can be used to manage, develop, deploy and analyze your code.\n \nGetting Started - Local Development\n \nInstallation\n \nTo get started locally, follow these instructions:\n \n \n \nIf you haven't done it already, make a fork of this repo.\n \n \nClone to your local computer using git.\n \n \nMak…",
+          "link": "https://github.com/angular/angular-cli",
+          "publishedOn": "2021-09-24T00:53:46.384Z",
+          "wordCount": 1763,
+          "title": "angular/angular-cli"
+        },
+        {
+          "id": "https://github.com/lnbook/lnbook",
+          "author": null,
+          "description": "Mastering the Lightning Network (LN)\n\nMastering the Lightning Network\n \n\n \nSTATUS: IN PRODUCTION\n \nNO EDITS OR PULL REQUESTS ARE ACCEPTED AT THIS TIME.\n \nThe book is currently (Sep 2021) in final production. No changes will be accepted.\n \n \nAbout\n \nMastering the Lightning Network is an O'Reilly Media book, due for publication in Q4'2021, and announced in August 2019 by authors Andreas M. Antonopoulos (@aantonop), Olaoluwa Osuntokun (@roasbeef), Rene Pickhardt (@renepickhardt).\n \nThe book describes the Lightning Network (LN), a Peer-to-Peer protocol running on top of Bitcoin and other blockchains, which provides near-instant, secure, micro-payments.\n \nThe book is suitable for technical readers with an understanding of the fundamentals of Bitcoin and other open blockchains.\n \nLegend\n \n \n \n🔃…",
+          "link": "https://github.com/lnbook/lnbook",
+          "publishedOn": "2021-09-24T00:53:46.342Z",
+          "wordCount": 1194,
+          "title": "lnbook/lnbook"
+        },
+        {
+          "id": "https://github.com/rust-lang/mdBook",
+          "author": null,
+          "description": "Create book from markdown files. Like Gitbook but implemented in Rust\n\nmdBook\n \n  \n \nmdBook is a utility to create modern online books from Markdown files.\n \nWhat does it look like?\n \nThe User Guide for mdBook has been written in Markdown and is using mdBook to generate the online book-like website you can read. The documentation uses the latest version on GitHub and showcases the available features.\n \nInstallation\n \nThere are multiple ways to install mdBook.\n \n \n \n Binaries\n Binaries are available for download here. Make sure to put the path to the binary into your PATH.\n  \n \n From Crates.io\n This requires at least Rust 1.39 and Cargo to be installed. Once you have installed Rust, type the following in the terminal:\n cargo install mdbook\n\n This will download and compile mdBook for you, th…",
+          "link": "https://github.com/rust-lang/mdBook",
+          "publishedOn": "2021-09-24T00:53:46.293Z",
+          "wordCount": 1712,
+          "title": "rust-lang/mdBook"
+        },
+        {
+          "id": "https://github.com/PySimpleGUI/PySimpleGUI",
+          "author": null,
+          "description": "Launched in 2018 Actively developed & supported. Supports tkinter, Qt, WxPython, Remi (in browser). Create custom GUI Windows simply, trivially with a full set of widgets. Multi-Window applications are also simple. Python 2.7 & 3 Support. 300+ Demo programs & Cookbook for rapid start. Extensive documentation. Examples using Machine Learning(GUI,…\n\n  \nPython GUIs for Humans\n \n\n \nTransforms the tkinter, Qt, WxPython, and Remi (browser-based) GUI frameworks into a simpler interface. The window definition is simplified by using Python core data types understood by beginners (lists and dictionaries). Further simplification happens by changing event handling from a callback-based model to a message passing one.\n \nYour code is not required to have an object oriented architecture which makes the p…",
+          "link": "https://github.com/PySimpleGUI/PySimpleGUI",
+          "publishedOn": "2021-09-24T00:53:46.262Z",
+          "wordCount": 6718,
+          "title": "PySimpleGUI/PySimpleGUI"
+        },
+        {
+          "id": "https://github.com/software-mansion/react-native-reanimated",
+          "author": null,
+          "description": "React Native's Animated library reimplemented\n \nReact Native's Animated library reimplemented\n \n \n \nReanimated 2 is here! Check out our documentation page for more information\n \n \nReact Native Reanimated provides a more comprehensive, low level abstraction for the Animated library API to be built on top of and hence allow for much greater flexibility especially when it comes to gesture based interactions.\n \nInstallation\n \nCheck out installation section of our docs for the detailed installation instructions.\n \nDocumentation\n \nCheck out our dedicated documentation page for info about this library, API reference and more: https://docs.swmansion.com/react-native-reanimated/docs/\n \nExamples\n \nThe source code for the example (showcase) app is under the Example/ directory. If you want to play with the API but don't feel like trying it on a real app, you can run the example project. Check Example/ directory README for installation instructions.\n \nLicense\n \nReanimated library is licensed under The MIT License.\n \nCredits\n \nThis project has been build and is maintained thanks to the support from Shopify, Expo.io and Software Mansion",
+          "link": "https://github.com/software-mansion/react-native-reanimated",
+          "publishedOn": "2021-09-24T00:53:46.162Z",
+          "wordCount": 851,
+          "title": "software-mansion/react-native-reanimated"
+        },
+        {
+          "id": "https://github.com/juntossomosmais/frontend-guideline",
+          "author": null,
+          "description": "📝 Front-end Guideline by Juntos Somos Mais\n\n\n \nFront-end - Guideline\n \nGuideline Webpage\n \n \n \n \n \n\"Every line of code should appear to be written by a single person, no matter the number of contributors.\" - Chinese Proverb.\n \n \nThe following document describes generic rules of writing in development languages that we use on our Front-end projects, that HTML, CSS, JavaScript, React, and Vue\n \nThe idea of this repository is not to be a complete guideline, the target is just to help developers who participate in our projects to be able to inform the coding standards used.\n \nAs this is a live document, some rules may not have been applied in old projects and changes can occur at any time.\n \nWe are hiring! 🔥\n \nIf you are looking opportunities as Front-end Developer we are hiring!\n \nYou can c…",
+          "link": "https://github.com/juntossomosmais/frontend-guideline",
+          "publishedOn": "2021-09-24T00:53:46.108Z",
+          "wordCount": 2643,
+          "title": "juntossomosmais/frontend-guideline"
+        },
+        {
+          "id": "https://github.com/rails/propshaft",
+          "author": null,
+          "description": "Deliver assets for Rails\n\nPropshaft\n \nPropshaft is an asset pipeline library for Rails. It's built for an era where bundling assets to save on HTTP connections is no longer urgent, where JavaScript and CSS are either compiled by dedicated Node.js bundlers or served directly to the browsers, and where increases in bandwidth have made the need for minification less pressing. These factors allow for a dramatically simpler and faster asset pipeline compared to previous options, like Sprockets.\n \nSo that's what Propshaft doesn't do. Here's what it does provide:\n \n \n \nConfigurable load path: You can register directories from multiple places in your app and gems, and reference assets from all of these paths as though they were one.\n \n \nDigest stamping: All assets in the load path will be copied (…",
+          "link": "https://github.com/rails/propshaft",
+          "publishedOn": "2021-09-24T00:53:46.047Z",
+          "wordCount": 1015,
+          "title": "rails/propshaft"
+        },
+        {
+          "id": "https://github.com/Pierian-Data/Complete-Python-3-Bootcamp",
+          "author": null,
+          "description": "Course Files for Complete Python 3 Bootcamp Course on Udemy\n\nComplete-Python-3-Bootcamp\n \nCourse Files for Complete Python 3 Bootcamp Course on Udemy\n \nCopyright by Pierian Data Inc.\n \nGet it now for 95% off with the link: https://www.udemy.com/complete-python-bootcamp/?couponCode=COMPLETE_GITHUB\n \nThanks!",
+          "link": "https://github.com/Pierian-Data/Complete-Python-3-Bootcamp",
+          "publishedOn": "2021-09-24T00:53:45.982Z",
+          "wordCount": 614,
+          "title": "Pierian-Data/Complete-Python-3-Bootcamp"
+        },
         {
           "id": "https://github.com/samuelcolvin/pydantic",
           "author": null,
