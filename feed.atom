@@ -2,10 +2,640 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-24T00:53:47.353Z</updated>
+    <updated>2021-09-25T00:51:58.806Z</updated>
     <generator>osmosfeed 1.11.1</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[bytedance/music_source_separation]]></title>
+        <id>https://github.com/bytedance/music_source_separation</id>
+        <link href="https://github.com/bytedance/music_source_separation"/>
+        <updated>2021-09-25T00:51:58.098Z</updated>
+        <summary type="html"><![CDATA[Music Source Separation
+ 
+Music source separation is a task to separate audio recordings into individual sources. This repository is an PyTorch implmementation of music source separation. Users can separate their favorite songs into different sources by installing this repository. In addition, users can train their own music source separation systems using this repository. This repository also includes speech enhancement, instruments separation, etc.
+ 
+Demos
+ 
+Vocals and accompaniment separation: https://www.youtube.com/watch?v=WH4m5HYzHsg
+ 
+Separation
+ 
+Users can easily separate their favorite audio recordings into vocals and accompaniment using the pretrained checkpoints.
+ 
+Method 1. Separate by installing the package
+ 
+python3 setup.py install
+
+ 
+python3 separate_scripts/separate.py 
+  …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[facebook/folly]]></title>
+        <id>https://github.com/facebook/folly</id>
+        <link href="https://github.com/facebook/folly"/>
+        <updated>2021-09-25T00:51:58.065Z</updated>
+        <summary type="html"><![CDATA[An open-source C++ library developed and used at Facebook.
+
+Folly: Facebook Open-source Library
+ 
+What is folly?
+ 
+ 
+Folly (acronymed loosely after Facebook Open Source Library) is a library of C++14 components designed with practicality and efficiency in mind. Folly contains a variety of core library components used extensively at Facebook. In particular, it's often a dependency of Facebook's other open source C++ efforts and place where those projects can share code.
+ 
+It complements (as opposed to competing against) offerings such as Boost and of course std. In fact, we embark on defining our own component only when something we need is either not available, or does not meet the needed performance profile. We endeavor to remove things from folly if or when std or Boost obsoletes them.
+ …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[flutter/flutter]]></title>
+        <id>https://github.com/flutter/flutter</id>
+        <link href="https://github.com/flutter/flutter"/>
+        <updated>2021-09-25T00:51:58.030Z</updated>
+        <summary type="html"><![CDATA[Flutter makes it easy and fast to build beautiful apps for mobile and beyond.
+
+
+ 
+  
+ 
+Flutter is Google's SDK for crafting beautiful, fast user experiences for mobile, web, and desktop from a single codebase. Flutter works with existing code, is used by developers and organizations around the world, and is free and open source.
+ 
+Documentation
+ 
+ 
+ 
+Install Flutter
+ 
+ 
+Flutter documentation
+ 
+ 
+Development wiki
+ 
+ 
+Contributing to Flutter
+ 
+ 
+For announcements about new releases and breaking changes, follow the flutter-announce@googlegroups.com mailing list or see the breaking changes page.
+ 
+Terms of service
+ 
+The Flutter tool may occasionally download resources from Google servers. By downloading or using the Flutter SDK you agree to the Google Terms of Service: https://policies.google.…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[facebookresearch/ic_gan]]></title>
+        <id>https://github.com/facebookresearch/ic_gan</id>
+        <link href="https://github.com/facebookresearch/ic_gan"/>
+        <updated>2021-09-25T00:51:57.993Z</updated>
+        <summary type="html"><![CDATA[Official repository for the paper "Instance-Conditioned GAN" by Arantxa Casanova, Marlene Careil, Jakob Verbeek, Michał Drożdżal, Adriana Romero-Soriano.
+
+ IC-GAN: Instance-Conditioned GAN 
+ 
+Official Pytorch code of Instance-Conditioned GAN by Arantxa Casanova, Marlene Careil, Jakob Verbeek, Michał Drożdżal, Adriana Romero-Soriano. 
+ 
+Generate images with IC-GAN in a Colab Notebook
+ 
+We provide a Google Colab notebook to generate images with IC-GAN and its class-conditional counter part.
+ 
+The figure below depicts two instances, unseen during training and downloaded from Creative Commons search, and the generated images with IC-GAN and class-conditional IC-GAN when conditioning on the class "castle":
+ 
+  
+ 
+Additionally, and inspired by this Colab, we provide the funcionality in the same …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[open-telemetry/opentelemetry-go]]></title>
+        <id>https://github.com/open-telemetry/opentelemetry-go</id>
+        <link href="https://github.com/open-telemetry/opentelemetry-go"/>
+        <updated>2021-09-25T00:51:57.899Z</updated>
+        <summary type="html"><![CDATA[OpenTelemetry Go API and SDK
+
+OpenTelemetry-Go
+ 
+    
+ 
+OpenTelemetry-Go is the Go implementation of OpenTelemetry. It provides a set of APIs to directly measure performance and behavior of your software and send this data to observability platforms.
+ 
+Project Status
+ 
+ 
+  
+  
+ 
+   Signal 
+   Status 
+   Project 
+  
+ 
+  
+  
+  
+ 
+   Traces 
+   Stable 
+   N/A 
+  
+ 
+  
+ 
+   Metrics 
+   Alpha 
+   N/A 
+  
+ 
+  
+ 
+   Logs 
+   Frozen [1] 
+   N/A 
+  
+ 
+  
+ 
+ 
+ 
+[1]: The Logs signal development is halted for this project while we develop both Traces and Metrics. No Logs Pull Requests are currently being accepted.
+ 
+ 
+Progress and status specific to this repository is tracked in our local project boards and milestones.
+ 
+Project versioning information and stability guarantees can be found in the versi…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Edubr2020/CVE-2021-40444--CABless]]></title>
+        <id>https://github.com/Edubr2020/CVE-2021-40444--CABless</id>
+        <link href="https://github.com/Edubr2020/CVE-2021-40444--CABless"/>
+        <updated>2021-09-25T00:51:57.852Z</updated>
+        <summary type="html"><![CDATA[Modified code so that we don´t need to rely on CAB archives
+
+CVE-2021-40444--CABless version
+ 
+Update: Modified code so that we don´t need to rely on CAB archives the file "index.html" that triggers payload execution will contain 1 line of code only, inside 'script' tag:
+ <script>new ActiveXObject('htmlfile').Script.location='.wsf:../../../Downloads/cabless.rar?.wsf';</script> 
+An article in PDF format is provided.
+ 
+Update: link to video demo -> https://www.youtube.com/watch?v=V9XD3VboEcU
+ 
+Note: The sample RAR file does NOT contain a Word document designed to exploit the vulnerability as I have taken as reference one of the PoCs posted on GitHub. Instead, it just have merged WSF and RAR data to demonstrate the path described in the article so the file can be parsed as RAR and WSF (chimera).]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[d3/d3]]></title>
+        <id>https://github.com/d3/d3</id>
+        <link href="https://github.com/d3/d3"/>
+        <updated>2021-09-25T00:51:57.792Z</updated>
+        <summary type="html"><![CDATA[Bring data to life with SVG, Canvas and HTML. 📊📈🎉
+
+D3: Data-Driven Documents
+ 
+
+ 
+D3 (or D3.js) is a JavaScript library for visualizing data using web standards. D3 helps you bring data to life using SVG, Canvas and HTML. D3 combines powerful visualization and interaction techniques with a data-driven approach to DOM manipulation, giving you the full capabilities of modern browsers and the freedom to design the right visual interface for your data.
+ 
+Resources
+ 
+ 
+ 
+Introduction
+ 
+ 
+API Reference
+ 
+ 
+Releases
+ 
+ 
+Examples
+ 
+ 
+Wiki
+ 
+ 
+Installing
+ 
+If you use npm, npm install d3. You can also download the latest release on GitHub. For vanilla HTML in modern browsers, import D3 from Skypack:
+ 
+<script type="module">
+
+import * as d3 from "https://cdn.skypack.dev/d3@7";
+
+const div = d3.selectAll("div");
+
+</script>
+
+ 
+For legacy environments, you can load D3’s UMD bundle from an npm-based CDN such as jsDelivr; a d3 global is exported:
+ 
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script>
+
+const div = d3.selectAll("div");
+
+</script>
+
+ 
+You can also use the standalone D3 microlibraries. For example, d3-selection:
+ 
+<script type="module">
+
+import {selectAll} from "https://cdn.skypack.dev/d3-selection@3";
+
+const div = selectAll("div");
+
+</script>
+
+ 
+D3 is written using ES2015 modules. Create a custom bundle using Rollup, Webpack, or your preferred bundler. To import D3 into an ES2015 application, either import specific symbols from specific D3 modules:
+ 
+import {scaleLinear} from "d3-scale";
+
+ 
+Or import everything into a namespace (here, d3):
+ 
+import * as d3 from "d3";
+
+ 
+Or using dynamic import:
+ 
+const d3 = await import("d3");
+
+ 
+You can also import individual modules and combine them into a d3 object using Object.assign:
+ 
+const d3 = await Promise.all([
+  import("d3-format"),
+  import("d3-geo"),
+  import("d3-geo-projection")
+]).then(d3 => Object.assign({}, ...d3));]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[7eu7d7/genshin_auto_fish]]></title>
+        <id>https://github.com/7eu7d7/genshin_auto_fish</id>
+        <link href="https://github.com/7eu7d7/genshin_auto_fish"/>
+        <updated>2021-09-25T00:51:57.637Z</updated>
+        <summary type="html"><![CDATA[基于深度强化学习的原神自动钓鱼AI
+
+Introduction
+ 
+原神自动钓鱼AI由YOLOX, DQN两部分模型组成。使用迁移学习，半监督学习进行训练。 模型也包含一些使用opencv等传统数字图像处理方法实现的不可学习部分。
+ 
+其中YOLOX用于鱼的定位和类型的识别以及鱼竿落点的定位。DQN用于自适应控制钓鱼过程的点击，让力度落在最佳区域内。
+ 
+安装使用流程
+ 
+安装python运行环境（解释器），推荐使用 anaconda.
+ 
+python环境配置
+ 
+打开anaconda prompt(命令行界面)，创建新python环境并激活:
+ 
+conda create -n ysfish python=3.6
+conda activate ysfish
+
+ 
+推荐安装python3.7或以下版本。
+ 
+下载工程代码
+ 
+使用git下载，git安装教程:
+ 
+git clone https://github.com/7eu7d7/genshin_auto_fish.git
+
+ 
+或直接在github网页端下载后直接解压。
+ 
+依赖库安装
+ 
+切换命令行到本工程所在目录:
+ 
+cd genshin_auto_fish
+
+ 
+执行以下命令安装依赖:
+ 
+python -m pip install -U pip
+python requirements.py
+
+ 
+如果要使用显卡进行加速需要 安装CUDA和cudnn 安装后无视上面的命令用下面这条安装gpu版:
+ 
+pip install -U pip
+python requirements.py --cuda [cuda版本]
+#例如安装的CUDA11.x
+python requirements.py --cuda 110
+
+ 
+可能会有Time out之类的报错，多试几遍，github太卡。
+ 
+安装yolox
+ 
+切换命令行到本工程所在目录，执行以下命令安装yolox:
+ 
+python setup.py develop
+
+ 
+预训练权重下载
+ 
+下载预训练权重 (.pth文件),yolox_tiny.pth 下载后将权重文件放在 工程目录/weights 下
+ 
+YOLOX训练工作流程
+ 
+<只用来钓鱼不需要训练，直接用预训练权重就可以>
+ 
+YOLOX部分因为打标签太累所以用半监督学习。标注少量样本后训练模型生成其余样本伪标签再人工修正，不断迭代提高精度。 样本量较少所以使用迁移学习，在COCO预训练的模型上进行fine-tuning.
+ 
+下载数据集并解压：原神鱼群数据集, 数据集(迅雷云盘:ugha)
+ 
+将yolox/exp/yolox_tiny_fish.py中的self.data_dir的值改为解压后2个文件夹所在的路径。
+ 
+训练代码:
+ 
+python yolox_tools/train.py -f yolox/exp/yolox_tiny_fish.py -d 1 -b 8 --fp16 -o -c weights/yolox_tiny.pth
+
+ 
+DQN训练工作流程
+ 
+控制力度使用强化学习模型DQN进行训练。两次进度的差值作为reward为模型提供学习方向。模型与环境间交互式学习。
+ 
+直接在原神内训练耗时较长，太累了。首先制作一个仿真环境，大概模拟钓鱼力度控制操作。在仿真环境内预训练一个模型。 随后将这一模型迁移至原神内，实现域间迁移。
+ 
+仿真环境预训练代码:
+ 
+python train_sim.py
+
+ 
+原神游戏内训练:
+ 
+python train.py
+
+ 
+运行钓鱼AI
+ 
+命令行窗口一定要以管理员权限启动
+ 
+显卡加速
+ 
+python fishing.py image -f yolox/exp/yolox_tiny_fish.py -c weights/best_tiny3.pth --conf 0.25 --nms 0.45 --tsize 640 --device gpu
+
+ 
+cpu运行
+ 
+python fishing.py image -f yolox/exp/yolox_tiny_fish.py -c weights/best_tiny3.pth --conf 0.25 --nms 0.45 --tsize 640 --device cpu
+
+ 
+运行后出现init ok后按r键开始钓鱼，原神需要全屏。出于性能考虑检测框不会实时显示，处理运算后台进行。]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tencent/secguide]]></title>
+        <id>https://github.com/Tencent/secguide</id>
+        <link href="https://github.com/Tencent/secguide"/>
+        <updated>2021-09-25T00:51:57.610Z</updated>
+        <summary type="html"><![CDATA[面向开发人员梳理的代码安全指南
+
+代码安全指南
+ 
+面向开发人员梳理的代码安全指南，旨在梳理API层面的风险点并提供详实可行的安全编码方案。
+ 
+理念
+ 
+基于DevSecOps理念，我们希望用开发者更易懂的方式阐述安全编码方案，引导从源头规避漏洞。
+ 
+索引
+ 
+ 
+  
+  
+ 
+   规范 
+   最后修订日期 
+  
+ 
+  
+  
+  
+ 
+   C/C++安全指南 
+   2021-05-18 
+  
+ 
+  
+ 
+   JavaScript安全指南 
+   2021-05-18 
+  
+ 
+  
+ 
+   Node安全指南 
+   2021-05-18 
+  
+ 
+  
+ 
+   Go安全指南 
+   2021-05-18 
+  
+ 
+  
+ 
+   Java安全指南 
+   2021-05-18 
+  
+ 
+  
+ 
+   Python安全指南 
+   2021-05-18 
+  
+ 
+  
+ 
+实践
+ 
+代码安全指引可用于以下场景：
+ 
+ 
+ 
+开发人员日常参考
+ 
+ 
+编写安全系统扫描策略
+ 
+ 
+安全组件开发
+ 
+ 
+漏洞修复指引
+ 
+ 
+贡献
+ 
+盼与社区携手，一道维护完善。欢迎提交修订建议，详参阅贡献指南。
+ 
+授权许可
+ 
+Secure Coding Guide by THL A29 Limited, a Tencent company, is licensed under CC BY 4.0.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[danistefanovic/build-your-own-x]]></title>
+        <id>https://github.com/danistefanovic/build-your-own-x</id>
+        <link href="https://github.com/danistefanovic/build-your-own-x"/>
+        <updated>2021-09-25T00:51:57.476Z</updated>
+        <summary type="html"><![CDATA[🤓 Build your own (insert technology here)
+
+[Submit tutorial]
+ 
+
+ 
+Table of contents
+ 
+ 
+ 
+3D Renderer
+ 
+ 
+Augmented Reality
+ 
+ 
+BitTorrent Client
+ 
+ 
+Blockchain / Cryptocurrency
+ 
+ 
+Bot
+ 
+ 
+Command-Line Tool
+ 
+ 
+Database
+ 
+ 
+Docker
+ 
+ 
+Emulator / Virtual Machine
+ 
+ 
+Front-end Framework / Library
+ 
+ 
+Game
+ 
+ 
+Git
+ 
+ 
+Network Stack
+ 
+ 
+Neural Network
+ 
+ 
+Operating System
+ 
+ 
+Physics Engine
+ 
+ 
+Programming Language
+ 
+ 
+Regex Engine
+ 
+ 
+Search Engine
+ 
+ 
+Shell
+ 
+ 
+Template Engine
+ 
+ 
+Text Editor
+ 
+ 
+Visual Recognition System
+ 
+ 
+Voxel Engine
+ 
+ 
+Web Search Engine
+ 
+ 
+Web Server
+ 
+ 
+Uncategorized
+ 
+ 
+Tutorials
+ 
+Build your own 3D Renderer
+ 
+ 
+ 
+C++: Introduction to Ray Tracing: a Simple Method for Creating 3D Images
+ 
+ 
+C++: How OpenGL works: software rendering in 500 lines of code
+ 
+ 
+C++: Ra…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[moscow-technologies/blockchain-voting_2021]]></title>
+        <id>https://github.com/moscow-technologies/blockchain-voting_2021</id>
+        <link href="https://github.com/moscow-technologies/blockchain-voting_2021"/>
+        <updated>2021-09-25T00:51:57.207Z</updated>
+        <summary type="html"><![CDATA[Moscow city blockchain electronic voting system]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes Ingress gRPC example with a Dune quote service]]></title>
+        <id>https://www.cncf.io/?p=64781</id>
+        <link href="https://www.cncf.io/blog/2021/09/24/kubernetes-ingress-grpc-example-with-a-dune-quote-service/"/>
+        <updated>2021-09-24T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on Kong’s blog by Viktor Gamov, Principal Developer Advocate at Kong APIs come in all different shapes and forms. In this tutorial, I’ll show you a Kubernetes Ingress...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[lydiahallie/javascript-questions]]></title>
         <id>https://github.com/lydiahallie/javascript-questions</id>

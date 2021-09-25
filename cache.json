@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=64781",
+          "author": "Jessie",
+          "description": "Guest post originally published on Kong’s blog by Viktor Gamov, Principal Developer Advocate at Kong APIs come in all different shapes and forms. In this tutorial, I’ll show you a Kubernetes Ingress...",
+          "link": "https://www.cncf.io/blog/2021/09/24/kubernetes-ingress-grpc-example-with-a-dune-quote-service/",
+          "publishedOn": "2021-09-24T15:00:00.000Z",
+          "wordCount": 1815,
+          "title": "Kubernetes Ingress gRPC example with a Dune quote service"
+        },
+        {
           "id": "https://www.cncf.io/?p=64766",
           "author": "Jessie",
           "description": "Guest post originally published on Github by Bomin Zhang of Megaease A flash sale is a discount or promotion offered by an eCommerce store for a short period. The quantity is limited,...",
@@ -211,6 +220,105 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/bytedance/music_source_separation",
+          "author": null,
+          "description": "Music Source Separation\n \nMusic source separation is a task to separate audio recordings into individual sources. This repository is an PyTorch implmementation of music source separation. Users can separate their favorite songs into different sources by installing this repository. In addition, users can train their own music source separation systems using this repository. This repository also includes speech enhancement, instruments separation, etc.\n \nDemos\n \nVocals and accompaniment separation: https://www.youtube.com/watch?v=WH4m5HYzHsg\n \nSeparation\n \nUsers can easily separate their favorite audio recordings into vocals and accompaniment using the pretrained checkpoints.\n \nMethod 1. Separate by installing the package\n \npython3 setup.py install\n\n \npython3 separate_scripts/separate.py \n  …",
+          "link": "https://github.com/bytedance/music_source_separation",
+          "publishedOn": "2021-09-25T00:51:58.098Z",
+          "wordCount": 821,
+          "title": "bytedance/music_source_separation"
+        },
+        {
+          "id": "https://github.com/facebook/folly",
+          "author": null,
+          "description": "An open-source C++ library developed and used at Facebook.\n\nFolly: Facebook Open-source Library\n \nWhat is folly?\n \n \nFolly (acronymed loosely after Facebook Open Source Library) is a library of C++14 components designed with practicality and efficiency in mind. Folly contains a variety of core library components used extensively at Facebook. In particular, it's often a dependency of Facebook's other open source C++ efforts and place where those projects can share code.\n \nIt complements (as opposed to competing against) offerings such as Boost and of course std. In fact, we embark on defining our own component only when something we need is either not available, or does not meet the needed performance profile. We endeavor to remove things from folly if or when std or Boost obsoletes them.\n …",
+          "link": "https://github.com/facebook/folly",
+          "publishedOn": "2021-09-25T00:51:58.065Z",
+          "wordCount": 1924,
+          "title": "facebook/folly"
+        },
+        {
+          "id": "https://github.com/flutter/flutter",
+          "author": null,
+          "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond.\n\n\n \n  \n \nFlutter is Google's SDK for crafting beautiful, fast user experiences for mobile, web, and desktop from a single codebase. Flutter works with existing code, is used by developers and organizations around the world, and is free and open source.\n \nDocumentation\n \n \n \nInstall Flutter\n \n \nFlutter documentation\n \n \nDevelopment wiki\n \n \nContributing to Flutter\n \n \nFor announcements about new releases and breaking changes, follow the flutter-announce@googlegroups.com mailing list or see the breaking changes page.\n \nTerms of service\n \nThe Flutter tool may occasionally download resources from Google servers. By downloading or using the Flutter SDK you agree to the Google Terms of Service: https://policies.google.…",
+          "link": "https://github.com/flutter/flutter",
+          "publishedOn": "2021-09-25T00:51:58.030Z",
+          "wordCount": 1067,
+          "title": "flutter/flutter"
+        },
+        {
+          "id": "https://github.com/facebookresearch/ic_gan",
+          "author": null,
+          "description": "Official repository for the paper \"Instance-Conditioned GAN\" by Arantxa Casanova, Marlene Careil, Jakob Verbeek, Michał Drożdżal, Adriana Romero-Soriano.\n\n IC-GAN: Instance-Conditioned GAN \n \nOfficial Pytorch code of Instance-Conditioned GAN by Arantxa Casanova, Marlene Careil, Jakob Verbeek, Michał Drożdżal, Adriana Romero-Soriano. \n \nGenerate images with IC-GAN in a Colab Notebook\n \nWe provide a Google Colab notebook to generate images with IC-GAN and its class-conditional counter part.\n \nThe figure below depicts two instances, unseen during training and downloaded from Creative Commons search, and the generated images with IC-GAN and class-conditional IC-GAN when conditioning on the class \"castle\":\n \n  \n \nAdditionally, and inspired by this Colab, we provide the funcionality in the same …",
+          "link": "https://github.com/facebookresearch/ic_gan",
+          "publishedOn": "2021-09-25T00:51:57.993Z",
+          "wordCount": 3400,
+          "title": "facebookresearch/ic_gan"
+        },
+        {
+          "id": "https://github.com/open-telemetry/opentelemetry-go",
+          "author": null,
+          "description": "OpenTelemetry Go API and SDK\n\nOpenTelemetry-Go\n \n    \n \nOpenTelemetry-Go is the Go implementation of OpenTelemetry. It provides a set of APIs to directly measure performance and behavior of your software and send this data to observability platforms.\n \nProject Status\n \n \n  \n  \n \n   Signal \n   Status \n   Project \n  \n \n  \n  \n  \n \n   Traces \n   Stable \n   N/A \n  \n \n  \n \n   Metrics \n   Alpha \n   N/A \n  \n \n  \n \n   Logs \n   Frozen [1] \n   N/A \n  \n \n  \n \n \n \n[1]: The Logs signal development is halted for this project while we develop both Traces and Metrics. No Logs Pull Requests are currently being accepted.\n \n \nProgress and status specific to this repository is tracked in our local project boards and milestones.\n \nProject versioning information and stability guarantees can be found in the versi…",
+          "link": "https://github.com/open-telemetry/opentelemetry-go",
+          "publishedOn": "2021-09-25T00:51:57.899Z",
+          "wordCount": 1164,
+          "title": "open-telemetry/opentelemetry-go"
+        },
+        {
+          "id": "https://github.com/Edubr2020/CVE-2021-40444--CABless",
+          "author": null,
+          "description": "Modified code so that we don´t need to rely on CAB archives\n\nCVE-2021-40444--CABless version\n \nUpdate: Modified code so that we don´t need to rely on CAB archives the file \"index.html\" that triggers payload execution will contain 1 line of code only, inside 'script' tag:\n <script>new ActiveXObject('htmlfile').Script.location='.wsf:../../../Downloads/cabless.rar?.wsf';</script> \nAn article in PDF format is provided.\n \nUpdate: link to video demo -> https://www.youtube.com/watch?v=V9XD3VboEcU\n \nNote: The sample RAR file does NOT contain a Word document designed to exploit the vulnerability as I have taken as reference one of the PoCs posted on GitHub. Instead, it just have merged WSF and RAR data to demonstrate the path described in the article so the file can be parsed as RAR and WSF (chimera).",
+          "link": "https://github.com/Edubr2020/CVE-2021-40444--CABless",
+          "publishedOn": "2021-09-25T00:51:57.852Z",
+          "wordCount": 477,
+          "title": "Edubr2020/CVE-2021-40444--CABless"
+        },
+        {
+          "id": "https://github.com/d3/d3",
+          "author": null,
+          "description": "Bring data to life with SVG, Canvas and HTML. 📊📈🎉\n\nD3: Data-Driven Documents\n \n\n \nD3 (or D3.js) is a JavaScript library for visualizing data using web standards. D3 helps you bring data to life using SVG, Canvas and HTML. D3 combines powerful visualization and interaction techniques with a data-driven approach to DOM manipulation, giving you the full capabilities of modern browsers and the freedom to design the right visual interface for your data.\n \nResources\n \n \n \nIntroduction\n \n \nAPI Reference\n \n \nReleases\n \n \nExamples\n \n \nWiki\n \n \nInstalling\n \nIf you use npm, npm install d3. You can also download the latest release on GitHub. For vanilla HTML in modern browsers, import D3 from Skypack:\n \n<script type=\"module\">\n\nimport * as d3 from \"https://cdn.skypack.dev/d3@7\";\n\nconst div = d3.selectAll(\"div\");\n\n</script>\n\n \nFor legacy environments, you can load D3’s UMD bundle from an npm-based CDN such as jsDelivr; a d3 global is exported:\n \n<script src=\"https://cdn.jsdelivr.net/npm/d3@7\"></script>\n<script>\n\nconst div = d3.selectAll(\"div\");\n\n</script>\n\n \nYou can also use the standalone D3 microlibraries. For example, d3-selection:\n \n<script type=\"module\">\n\nimport {selectAll} from \"https://cdn.skypack.dev/d3-selection@3\";\n\nconst div = selectAll(\"div\");\n\n</script>\n\n \nD3 is written using ES2015 modules. Create a custom bundle using Rollup, Webpack, or your preferred bundler. To import D3 into an ES2015 application, either import specific symbols from specific D3 modules:\n \nimport {scaleLinear} from \"d3-scale\";\n\n \nOr import everything into a namespace (here, d3):\n \nimport * as d3 from \"d3\";\n\n \nOr using dynamic import:\n \nconst d3 = await import(\"d3\");\n\n \nYou can also import individual modules and combine them into a d3 object using Object.assign:\n \nconst d3 = await Promise.all([\n  import(\"d3-format\"),\n  import(\"d3-geo\"),\n  import(\"d3-geo-projection\")\n]).then(d3 => Object.assign({}, ...d3));",
+          "link": "https://github.com/d3/d3",
+          "publishedOn": "2021-09-25T00:51:57.792Z",
+          "wordCount": 724,
+          "title": "d3/d3"
+        },
+        {
+          "id": "https://github.com/7eu7d7/genshin_auto_fish",
+          "author": null,
+          "description": "基于深度强化学习的原神自动钓鱼AI\n\nIntroduction\n \n原神自动钓鱼AI由YOLOX, DQN两部分模型组成。使用迁移学习，半监督学习进行训练。 模型也包含一些使用opencv等传统数字图像处理方法实现的不可学习部分。\n \n其中YOLOX用于鱼的定位和类型的识别以及鱼竿落点的定位。DQN用于自适应控制钓鱼过程的点击，让力度落在最佳区域内。\n \n安装使用流程\n \n安装python运行环境（解释器），推荐使用 anaconda.\n \npython环境配置\n \n打开anaconda prompt(命令行界面)，创建新python环境并激活:\n \nconda create -n ysfish python=3.6\nconda activate ysfish\n\n \n推荐安装python3.7或以下版本。\n \n下载工程代码\n \n使用git下载，git安装教程:\n \ngit clone https://github.com/7eu7d7/genshin_auto_fish.git\n\n \n或直接在github网页端下载后直接解压。\n \n依赖库安装\n \n切换命令行到本工程所在目录:\n \ncd genshin_auto_fish\n\n \n执行以下命令安装依赖:\n \npython -m pip install -U pip\npython requirements.py\n\n \n如果要使用显卡进行加速需要 安装CUDA和cudnn 安装后无视上面的命令用下面这条安装gpu版:\n \npip install -U pip\npython requirements.py --cuda [cuda版本]\n#例如安装的CUDA11.x\npython requirements.py --cuda 110\n\n \n可能会有Time out之类的报错，多试几遍，github太卡。\n \n安装yolox\n \n切换命令行到本工程所在目录，执行以下命令安装yolox:\n \npython setup.py develop\n\n \n预训练权重下载\n \n下载预训练权重 (.pth文件),yolox_tiny.pth 下载后将权重文件放在 工程目录/weights 下\n \nYOLOX训练工作流程\n \n<只用来钓鱼不需要训练，直接用预训练权重就可以>\n \nYOLOX部分因为打标签太累所以用半监督学习。标注少量样本后训练模型生成其余样本伪标签再人工修正，不断迭代提高精度。 样本量较少所以使用迁移学习，在COCO预训练的模型上进行fine-tuning.\n \n下载数据集并解压：原神鱼群数据集, 数据集(迅雷云盘:ugha)\n \n将yolox/exp/yolox_tiny_fish.py中的self.data_dir的值改为解压后2个文件夹所在的路径。\n \n训练代码:\n \npython yolox_tools/train.py -f yolox/exp/yolox_tiny_fish.py -d 1 -b 8 --fp16 -o -c weights/yolox_tiny.pth\n\n \nDQN训练工作流程\n \n控制力度使用强化学习模型DQN进行训练。两次进度的差值作为reward为模型提供学习方向。模型与环境间交互式学习。\n \n直接在原神内训练耗时较长，太累了。首先制作一个仿真环境，大概模拟钓鱼力度控制操作。在仿真环境内预训练一个模型。 随后将这一模型迁移至原神内，实现域间迁移。\n \n仿真环境预训练代码:\n \npython train_sim.py\n\n \n原神游戏内训练:\n \npython train.py\n\n \n运行钓鱼AI\n \n命令行窗口一定要以管理员权限启动\n \n显卡加速\n \npython fishing.py image -f yolox/exp/yolox_tiny_fish.py -c weights/best_tiny3.pth --conf 0.25 --nms 0.45 --tsize 640 --device gpu\n\n \ncpu运行\n \npython fishing.py image -f yolox/exp/yolox_tiny_fish.py -c weights/best_tiny3.pth --conf 0.25 --nms 0.45 --tsize 640 --device cpu\n\n \n运行后出现init ok后按r键开始钓鱼，原神需要全屏。出于性能考虑检测框不会实时显示，处理运算后台进行。",
+          "link": "https://github.com/7eu7d7/genshin_auto_fish",
+          "publishedOn": "2021-09-25T00:51:57.637Z",
+          "wordCount": 546,
+          "title": "7eu7d7/genshin_auto_fish"
+        },
+        {
+          "id": "https://github.com/Tencent/secguide",
+          "author": null,
+          "description": "面向开发人员梳理的代码安全指南\n\n代码安全指南\n \n面向开发人员梳理的代码安全指南，旨在梳理API层面的风险点并提供详实可行的安全编码方案。\n \n理念\n \n基于DevSecOps理念，我们希望用开发者更易懂的方式阐述安全编码方案，引导从源头规避漏洞。\n \n索引\n \n \n  \n  \n \n   规范 \n   最后修订日期 \n  \n \n  \n  \n  \n \n   C/C++安全指南 \n   2021-05-18 \n  \n \n  \n \n   JavaScript安全指南 \n   2021-05-18 \n  \n \n  \n \n   Node安全指南 \n   2021-05-18 \n  \n \n  \n \n   Go安全指南 \n   2021-05-18 \n  \n \n  \n \n   Java安全指南 \n   2021-05-18 \n  \n \n  \n \n   Python安全指南 \n   2021-05-18 \n  \n \n  \n \n实践\n \n代码安全指引可用于以下场景：\n \n \n \n开发人员日常参考\n \n \n编写安全系统扫描策略\n \n \n安全组件开发\n \n \n漏洞修复指引\n \n \n贡献\n \n盼与社区携手，一道维护完善。欢迎提交修订建议，详参阅贡献指南。\n \n授权许可\n \nSecure Coding Guide by THL A29 Limited, a Tencent company, is licensed under CC BY 4.0.",
+          "link": "https://github.com/Tencent/secguide",
+          "publishedOn": "2021-09-25T00:51:57.610Z",
+          "wordCount": 422,
+          "title": "Tencent/secguide"
+        },
+        {
+          "id": "https://github.com/danistefanovic/build-your-own-x",
+          "author": null,
+          "description": "🤓 Build your own (insert technology here)\n\n[Submit tutorial]\n \n\n \nTable of contents\n \n \n \n3D Renderer\n \n \nAugmented Reality\n \n \nBitTorrent Client\n \n \nBlockchain / Cryptocurrency\n \n \nBot\n \n \nCommand-Line Tool\n \n \nDatabase\n \n \nDocker\n \n \nEmulator / Virtual Machine\n \n \nFront-end Framework / Library\n \n \nGame\n \n \nGit\n \n \nNetwork Stack\n \n \nNeural Network\n \n \nOperating System\n \n \nPhysics Engine\n \n \nProgramming Language\n \n \nRegex Engine\n \n \nSearch Engine\n \n \nShell\n \n \nTemplate Engine\n \n \nText Editor\n \n \nVisual Recognition System\n \n \nVoxel Engine\n \n \nWeb Search Engine\n \n \nWeb Server\n \n \nUncategorized\n \n \nTutorials\n \nBuild your own 3D Renderer\n \n \n \nC++: Introduction to Ray Tracing: a Simple Method for Creating 3D Images\n \n \nC++: How OpenGL works: software rendering in 500 lines of code\n \n \nC++: Ra…",
+          "link": "https://github.com/danistefanovic/build-your-own-x",
+          "publishedOn": "2021-09-25T00:51:57.476Z",
+          "wordCount": 3208,
+          "title": "danistefanovic/build-your-own-x"
+        },
+        {
+          "id": "https://github.com/moscow-technologies/blockchain-voting_2021",
+          "author": null,
+          "description": "Moscow city blockchain electronic voting system",
+          "link": "https://github.com/moscow-technologies/blockchain-voting_2021",
+          "publishedOn": "2021-09-25T00:51:57.207Z",
+          "wordCount": 341,
+          "title": "moscow-technologies/blockchain-voting_2021"
+        },
         {
           "id": "https://github.com/lydiahallie/javascript-questions",
           "author": null,
