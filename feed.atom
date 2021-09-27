@@ -2,10 +2,627 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-26T00:54:38.820Z</updated>
-    <generator>osmosfeed 1.11.1</generator>
+    <updated>2021-09-27T00:52:29.775Z</updated>
+    <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[trimstray/the-book-of-secret-knowledge]]></title>
+        <id>https://github.com/trimstray/the-book-of-secret-knowledge</id>
+        <link href="https://github.com/trimstray/the-book-of-secret-knowledge"/>
+        <updated>2021-09-27T00:52:29.755Z</updated>
+        <summary type="html"><![CDATA[A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
+
+    
+ 
+"Knowledge is powerful, be careful how you use it!"
+ 
+A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools, and more.
+ 
+ 
+       
+ 
+    
+ 
+ 
+ Created by trimstray and contributors 
+ 
+ 
+ 
+📔  What is it?
+ 
+This repository is a collection of various materials and tools that I use every day in my work. It contains a lot of useful information gathered in one piece. It is an invaluable source of knowledge for me that I often look back on.
+ 
+🚻  For whom?
+ 
+For everyone, really. Here everyone can find their favourite tastes. But to be perfectly honest, it is aimed towards System and Network administrators, DevOps, Pentesters, and Security Rese…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[nocodb/nocodb]]></title>
+        <id>https://github.com/nocodb/nocodb</id>
+        <link href="https://github.com/nocodb/nocodb"/>
+        <updated>2021-09-27T00:52:29.485Z</updated>
+        <summary type="html"><![CDATA[🔥 🔥 The Open Source Airtable alternative - Powered by Vue.js 🚀 🚀
+
+  NocoDB 
+  ✨ The Open Source Airtable Alternative ✨ 
+  
+ Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet. 
+ 
+ 
+ 
+  
+ 
+ 
+ Website • Discord • Twitter 
+ 
+
+ 
+ 
+
+ 
+Quick try
+ 
+1-Click Deploy
+ 
+Heroku
+ 
+   
+ 
+Using Docker
+ 
+docker run -d --name nocodb -p 8080:8080 nocodb/nocodb:latest
+
+ 
+ 
+ 
+To persist data you can mount volume at /usr/app/data/.
+ 
+ 
+Using Npm
+ 
+npx create-nocodb-app
+
+ 
+Using Git
+ 
+git clone https://github.com/nocodb/nocodb-seed
+cd nocodb-seed
+npm install
+npm start
+
+ 
+GUI
+ 
+Access Dashboard using : http://localhost:8080/dashboard
+ 
+Join Our Community
+ 
+   
+ 
+Screenshots
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+Features
+ 
+Rich Spreadsheet Interface
+ 
+ 
+ 
+⚡  Search, sort,…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[getify/You-Dont-Know-JS]]></title>
+        <id>https://github.com/getify/You-Dont-Know-JS</id>
+        <link href="https://github.com/getify/You-Dont-Know-JS"/>
+        <updated>2021-09-27T00:52:29.429Z</updated>
+        <summary type="html"><![CDATA[A book series on JavaScript. @YDKJS on twitter.
+
+You Don't Know JS Yet (book series) - 2nd Edition
+ 
+ 
+ 
+
+ 
+LOOK! Please support the Kickstarter to finish the remaining four books in the 2nd edition series.
+ 
+
+ 
+ 
+ 
+This is a series of books diving deep into the core mechanisms of the JavaScript language. This is the second edition of the book series:
+ 
+     ...
+ 
+To read more about the motivations and perspective behind this book series, check out the Preface.
+ 
+If you're looking for the previous first edition books, they can be found here.
+ 
+Premier Sponsor
+ 
+This edition of the YDKJS book series is exclusively sponsored by Frontend Masters.
+ 
+Frontend Masters is the gold standard for top-of-the-line expert training material in frontend-oriented software development. With over 150 course…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[apache/echarts]]></title>
+        <id>https://github.com/apache/echarts</id>
+        <link href="https://github.com/apache/echarts"/>
+        <updated>2021-09-27T00:52:29.399Z</updated>
+        <summary type="html"><![CDATA[Apache ECharts is a powerful, interactive charting and data visualization library for browser
+
+Apache ECharts
+ 
+   
+Apache ECharts is a free, powerful charting and visualization library offering an easy way of adding intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.
+ 
+中文官网 | ENGLISH HOMEPAGE
+ 
+  
+ 
+Get Apache ECharts
+ 
+You may choose one of the following methods:
+ 
+ 
+ 
+Download from the official website in 中文下载页
+ 
+ 
+Download from the official website in English
+ 
+ 
+npm install echarts --save
+ 
+ 
+CDN: jsDelivr CDN
+ 
+ 
+Docs
+ 
+ 
+ 
+ Tutorial
+ 
+  
+ 
+   
+中文
+ 
+   
+English
+ 
+  
+  
+ 
+ API
+ 
+  
+ 
+   
+中文
+ 
+   
+English
+ 
+  
+  
+ 
+ Option Manual
+ 
+  
+ 
+   
+中文
+ 
+   
+En…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[alex000kim/nsfw_data_scraper]]></title>
+        <id>https://github.com/alex000kim/nsfw_data_scraper</id>
+        <link href="https://github.com/alex000kim/nsfw_data_scraper"/>
+        <updated>2021-09-27T00:52:29.344Z</updated>
+        <summary type="html"><![CDATA[Collection of scripts to aggregate image data for the purposes of training an NSFW Image Classifier
+
+NSFW Data Scraper
+ 
+Note: use with caution - the dataset is noisy
+ 
+Description
+ 
+This is a set of scripts that allows for an automatic collection of tens of thousands of images for the following (loosely defined) categories to be later used for training an image classifier:
+ 
+ 
+ 
+porn - pornography images
+ 
+ 
+hentai - hentai images, but also includes pornographic drawings
+ 
+ 
+sexy - sexually explicit images, but not pornography. Think nude photos, playboy, bikini, etc.
+ 
+ 
+neutral - safe for work neutral images of everyday things and people
+ 
+ 
+drawings - safe for work drawings (including anime)
+ 
+ 
+Here is what each script (located under scripts directory) does:
+ 
+ 
+ 
+1_get_urls_.sh - ite…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sdmg15/Best-websites-a-programmer-should-visit]]></title>
+        <id>https://github.com/sdmg15/Best-websites-a-programmer-should-visit</id>
+        <link href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit"/>
+        <updated>2021-09-27T00:52:29.301Z</updated>
+        <summary type="html"><![CDATA[🔗 Some useful websites for programmers.
+
+   
+  
+
+ 
+Best-websites-a-programmer-should-visit
+ 
+Some useful websites for programmers.
+ 
+When learning CS, there are some useful sites you must know to get always informed to do your technologies even better and learn new things. Here is a non-exhaustive list of some sites you should visit. This list will get updated as soon as I can get another link, but you can also contribute by adding those you know 😉
+ 
+Note : Chinese Version
+ 
+Index
+ 
+ 
+ 
+When you get stuck
+ 
+ 
+News
+ 
+ 
+Magazines
+ 
+ 
+Coding practice for beginners
+ 
+ 
+Cryptocurrency
+ 
+ 
+For those who want to start a small project but can't find the ideas
+ 
+ 
+General Coding advice
+ 
+ 
+Coding Style
+ 
+ 
+General Tools
+ 
+ 
+Interview Preparation
+ 
+ 
+Documentaries
+ 
+ 
+MOOCs for learning something …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[gmpetrov/ultimate-saas-ts]]></title>
+        <id>https://github.com/gmpetrov/ultimate-saas-ts</id>
+        <link href="https://github.com/gmpetrov/ultimate-saas-ts"/>
+        <updated>2021-09-27T00:52:29.211Z</updated>
+        <summary type="html"><![CDATA[Template to quickstart a SAAS business
+
+🚀⚡️🧑‍💻 Ultimate SAAS template Typescript/Next.js/NextAuth.js/Prisma/Stripe/Tailwindcss/Postgresql
+ 
+My template to quickstart a SAAS project
+ 
+ 
+ 
+Stop losing time implementing authentication and payment over and over again.
+ Focus on what brings value to your customers
+ 
+ 
+Demo
+ 
+https://utlimate-saas-js.vercel.app
+ 
+Features
+ 
+ 
+ 
+Authentication with NextAuth.js (Own Your Data ✅) 
+  
+ 
+   
+Email with magic link
+ 
+   
+Github
+ 
+   
+Many other oauth providers available check their docs
+ 
+  
+  
+ 
+Payment with Stripe 
+  
+ 
+   
+Stripe checkout
+ 
+   
+Stripe billing portal
+ 
+   
+Stripe webhooks (products / prices are synced)
+ 
+  
+  
+ 
+Hosted on vercel for free
+ 
+ 
+Stripe
+ 
+Check the stripe section of this repo as the steps are very similar
+ 
+Postgresql
+ 
+A postgresql db is needed to deploy the app.
+ You can have a very small instance for free on heroku
+ 
+ 
+Made with
+ 
+ 
+ 
+Typescript
+ 
+ 
+Next.js
+ 
+ 
+NextAuth.js
+ 
+ 
+Prisma
+ 
+ 
+Postgresql
+ 
+ 
+Stripe
+ 
+ 
+Tailwindcss
+ 
+ 
+Develop
+ 
+# create .env 
+cp .env.example .env
+
+# install dependencies
+yarn
+
+# Launch pgsql and maildev
+yarn docker:start
+
+# migrate and seed the database
+yarn prisma:migrate:dev
+
+yarn prisma:seed
+
+# install stripe cli 
+https://stripe.com/docs/webhooks/test
+
+stripe login
+
+stripe listen --forward-to  http://localhost:3000/api/stripe-webhooks
+
+# start server
+yarn dev
+
+
+ 
+Inspirations
+ 
+ 
+ 
+https://github.com/vercel/nextjs-subscription-payments
+ 
+ 
+https://github.com/hexrcs/prisma-next-auth]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[unknwon/the-way-to-go_ZH_CN]]></title>
+        <id>https://github.com/unknwon/the-way-to-go_ZH_CN</id>
+        <link href="https://github.com/unknwon/the-way-to-go_ZH_CN"/>
+        <updated>2021-09-27T00:52:29.186Z</updated>
+        <summary type="html"><![CDATA[《The Way to Go》中文译本，中文正式名《Go 入门指南》
+
+《Go入门指南》
+ 
+在接触 Go 语言之后，对这门编程语言非常着迷，期间也陆陆续续开始一些帮助国内编程爱好者了解和发展 Go 语言的工作，比如开始录制视频教程《Go编程基础》。但由于目前国内并没有比较好的 Go 语言书籍，而国外的优秀书籍因为英文的缘故在一定程度上也为不少 Go 语言爱好者带来了一些学习上的困扰，不仅为了加快扩散 Go 爱好者的国内群体，本人在完成阅读这本名叫 《The Way to Go》 之后，决定每天抽出一点时间来进行翻译的工作，并且以开源的形式免费分享给有需要的 Go 语言爱好者。
+ 
+尽管该书对目前 Go 语言版本来说有小部分内容相对过时，但是为当下不可多得的好书，相关内容已获得作者同意根据当前 Go 语言版本进行修改而不作出特别声明。
+ 
+该翻译版本已获得原作者（Ivo Balbaert）本人授权，并表示支持开源事业的发展！
+ 
+翻译进度
+ 
+19.10 总结和增强
+ 
+支持本书
+ 
+如果你喜欢本书 《Go入门指南》，你可以参与到本书的翻译或纠正工作中来，具体请联系【无闻 E-mail：u#gogs.io】，一同完善本书并帮助壮大 Go 语言在国内的学习群体，给大家提供更好的学习资源。
+ 
+交流社区
+ 
+参见 Go 语言学习资料与社区索引。
+ 
+关注 Go 语言中文网公众号学习 Go
+ 
+
+ 
+新人守则
+ 
+ 
+ 
+2012 年 3 月 28 日以前的博文中的内容基本过时，不要再看
+ 
+ 
+符合等式 百度+思考+失败+翻墙+谷歌+尝试=解决 的问题最好不要发问
+ 
+ 
+致谢
+ 
+ 
+ 
+本书原作者：Ivo Balbaert
+ 
+ 
+参与翻译人员： 
+  
+ 
+   
+@zhanming
+ 
+   
+themorecolor
+ 
+   
+@everyx
+ 
+   
+@chidouhu
+ 
+   
+@spawnris
+ 
+   
+@domainname
+ 
+   
+@leisore
+ 
+   
+@dake
+ 
+   
+@glight2000
+ 
+   
+@songleo
+ 
+   
+@marjune163
+ 
+  
+  
+ 
+授权许可
+ 
+除特别声明外，本书中的内容使用 CC BY-SA 3.0 License（创作共用 署名-相同方式共享3.0 许可协议）授权，代码遵循 BSD 3-Clause License（3 项条款的 BSD 许可协议）。
+ 
+开始阅读
+ 
+ 
+ 
+您可以选择以下方式阅读本书： 
+  
+ 
+   
+GitHub在线
+ 
+  
+  
+ 
+想读书的人，不会找不到 目录 :)]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[will/slacktyping]]></title>
+        <id>https://github.com/will/slacktyping</id>
+        <link href="https://github.com/will/slacktyping"/>
+        <updated>2021-09-27T00:52:29.142Z</updated>
+        <summary type="html"><![CDATA[i'm typing when you're typing
+
+A very good program that makes it so it says i'm typing when anyone else is typing
+ 
+https://twitter.com/leinweber/status/989267343002951680]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v1.11.2]]></title>
+        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2</id>
+        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2"/>
+        <updated>2021-09-26T18:45:39.000Z</updated>
+        <summary type="html"><![CDATA[Fixed: unicode characters in URL caused download error
+Fixed: project root npm install error
+Added: unit test library
+Chore: Dependency updates
+Thank you: @CaptNo1]]></summary>
+        <author>
+            <name>Release notes from osmosfeed</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Snailclimb/JavaGuide]]></title>
         <id>https://github.com/Snailclimb/JavaGuide</id>
