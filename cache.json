@@ -31,6 +31,24 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=64840",
+          "author": "Jessie",
+          "description": "As part of our commitment to transparency within the cloud native community, we are providing an inside look into the work that goes on behind the scenes to bring the KubeCon +...",
+          "link": "https://www.cncf.io/blog/2021/09/28/inside-the-numbers-the-kubecon-cloudnativecon-selection-process-for-china-2021-virtual/",
+          "publishedOn": "2021-09-28T16:30:00.000Z",
+          "wordCount": 832,
+          "title": "Inside the Numbers: The KubeCon + CloudNativeCon selection process for China 2021 – Virtual"
+        },
+        {
+          "id": "https://www.cncf.io/?p=64836",
+          "author": "Jessie",
+          "description": "Back after a year break, the biggest open source event in China will offer an up-close look at exciting innovations and provide attendees with valuable insights into the cloud native ecosystem  SAN...",
+          "link": "https://www.cncf.io/announcements/2021/09/28/cloud-native-computing-foundation-announces-agenda-for-kubecon-cloudnativecon-open-source-summit-china-virtual-2021/",
+          "publishedOn": "2021-09-28T16:30:00.000Z",
+          "wordCount": 1047,
+          "title": "Cloud Native Computing Foundation Announces Agenda for KubeCon + CloudNativeCon + Open Source Summit China Virtual 2021"
+        },
+        {
           "id": "https://www.cncf.io/?p=64796",
           "author": "Jessie",
           "description": "Guest post originally published on SUSE’s blog by Robert Sirchia These days, open source has become pervasive across every aspect of our lives. From your refrigerator to your TV to your phone,...",
@@ -238,6 +256,105 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/apache/incubator-shenyu",
+          "author": null,
+          "description": "ShenYu is High-Performance Java API Gateway.\n\n  \n \n Scalable, High Performance, Responsive API Gateway Solution for all MicroServices \n \n https://shenyu.apache.org/ \n \n English | 简体中文 \n \n                         \n \n \n \nArchitecture\n \n\n \n \nFeatures\n \n \n \n ShenYu provides ability such as current limiting, fusing, forwarding, routing monitoring and so on by its plugins.\n  \n \n Support HTTP, RESTFul, WebSocket, Dubbo, GRPC, Tars and Spring Cloud Proxy.\n  \n \n Plug-in hot plug, users can customize the development.\n  \n \n Selectors and rules are dynamically configured for flexible matching.\n  \n \n Support for cluster deployment.\n  \n \n Support A/B test and grayscale publishing.\n  \n \n \nPlugin\n \nWhenever a request comes in, ShenYu will execute it by all enabled plugins through the chain of responsibili…",
+          "link": "https://github.com/apache/incubator-shenyu",
+          "publishedOn": "2021-09-29T00:51:11.712Z",
+          "wordCount": 1084,
+          "title": "apache/incubator-shenyu"
+        },
+        {
+          "id": "https://github.com/apolloconfig/apollo",
+          "author": null,
+          "description": "Apollo is a reliable configuration management system suitable for microservice configuration management scenarios.\n \nApollo - A reliable configuration management system\n \n    \n \nApollo is a reliable configuration management system. It can centrally manage the configurations of different applications and different clusters. It is suitable for microservice configuration management scenarios.\n \nThe server side is developed based on Spring Boot and Spring Cloud, which can simply run without the need to install additional application containers such as Tomcat.\n \nThe Java SDK does not rely on any framework and can run in all Java runtime environments. It also has good support for Spring/Spring Boot environments.\n \nThe .Net SDK does not rely on any framework and can run in all .Net runtime enviro…",
+          "link": "https://github.com/apolloconfig/apollo",
+          "publishedOn": "2021-09-29T00:51:11.668Z",
+          "wordCount": 1258,
+          "title": "apolloconfig/apollo"
+        },
+        {
+          "id": "https://github.com/YunaiV/ruoyi-vue-pro",
+          "author": null,
+          "description": "基于SpringBoot，Spring Security，JWT，Vue & Element 的前后端分离权限管理系统\n\n平台简介\n \n芋道，一套全部开源的企业级的快速开发平台，毫无保留给个人及企业免费使用。\n \n \n \n有任何问题，或者想要的功能，可以在 Issues 中提给艿艿。\n \n \n \n \n前端采用 vue-element-admin。\n \n \n后端采用 Spring Boot、MySQL、Redis。\n \n \n权限认证使用 Spring Security & Token，支持多终端认证系统。\n \n \n支持加载动态权限菜单，多方式轻松权限控制。\n \n \n高效率开发，使用代码生成器可以一键生成前后端代码。\n \n \n内置功能\n \n分成三种内置功能：\n \n \n \n系统功能\n \n \n基础设施\n \n \n研发工具\n \n \n \n \n友情提示：本项目基于 RuoYi-Vue 修改，重构优化后端的代码，美化前端的界面。\n \n \n额外新增的功能，我们使用 🚀 标记。\n \n \n🙂 所有功能，都通过 单元测试 保证高质量。\n \n系统功能\n \n \n  \n  \n \n    \n   功能 \n   描述 \n  \n \n  \n  \n  \n \n    \n   用户管理 \n   用户是系统操作者，该功能主要完成系统用户配置 \n  \n \n  \n \n    \n   在线用户 \n   当前系统中活跃用户状态监控，支持手动踢下线 \n  \n \n  \n \n    \n   角色管理 \n   角色菜单权限分配、设置角色按机构进行数据范围权限划分 \n  \n \n  \n \n    \n   菜单管理 \n   配置系统菜单，操作权限，按钮权限标识等 \n  \n \n  \n \n    \n   部门管理 \n   配置系统组织机构（公司、部门、小组），树结构展现支持数据权限 \n  \n \n  \n \n    \n   岗位管理 \n   配置…",
+          "link": "https://github.com/YunaiV/ruoyi-vue-pro",
+          "publishedOn": "2021-09-29T00:51:11.563Z",
+          "wordCount": 857,
+          "title": "YunaiV/ruoyi-vue-pro"
+        },
+        {
+          "id": "https://github.com/chithakumar13/FUT-Auto-Buyer",
+          "author": null,
+          "description": "Fifa 21 AutoBuyer / Snipping Bot for fifa 21 ultimate team web app with captcha solver\n\nFifa21-AutoBuyer\n \n    \n \n \nFifa21 AutoBuyer\n \n FIFA 21 Auto Buyer For Web App! \n  Report Bug · Request Feature . Subscribe \nMust Read 🚫\n \nThese tool is developed to demonstrate how someone can develop script to break our web application by automating stuffs and only for learning purpose.\n \nEA might (soft) ban from using transfer market in web app for using this tool. Continuously soft ban might lead to permanent ban as well. Also use of tools like this to gain advantage over other players is not ethically right.\n \nUse this tool at your own risk, any developers contributing to this repo won’t held responsibility if your account gets banned.\n \n\n \n\n \n \nTable of Contents\n \n \n \nInstallation\n \n \nAutoSolve C…",
+          "link": "https://github.com/chithakumar13/FUT-Auto-Buyer",
+          "publishedOn": "2021-09-29T00:51:11.511Z",
+          "wordCount": 1731,
+          "title": "chithakumar13/FUT-Auto-Buyer"
+        },
+        {
+          "id": "https://github.com/Developer-Y/cs-video-courses",
+          "author": null,
+          "description": "List of Computer Science courses with video lectures.\n\nComputer Science courses with video lectures\n \nIntroduction\n \n \n \nPlease check NOTES for general information about this list.\n \n \nPlease refer CONTRIBUTING.md for contribution guidelines.\n \n \n \nTable of Contents\n \n \n \nIntroduction to Computer Science\n \n \nData Structures and Algorithms\n \n \nSystems Programming\n \n \nDatabase Systems\n \n \nSoftware Engineering\n \n \nArtificial Intelligence\n \n \nMachine Learning\n \n \nWeb Programming and Internet Technologies\n \n \nComputer Networks\n \n \nMath for Computer Scientist\n \n \nTheoretical CS and Programming Languages\n \n \nEmbedded Systems\n \n \nComputer Organization and Architecture\n \n \nSecurity\n \n \nComputer Graphics\n \n \nImage Processing and Computer Vision\n \n \nComputational Biology\n \n \nQuantum Computing\n \n \nRob…",
+          "link": "https://github.com/Developer-Y/cs-video-courses",
+          "publishedOn": "2021-09-29T00:51:11.471Z",
+          "wordCount": 7193,
+          "title": "Developer-Y/cs-video-courses"
+        },
+        {
+          "id": "https://github.com/Lux-AI-Challenge/Lux-Design-2021",
+          "author": null,
+          "description": "Home to the design and engine of the @Lux-AI-Challenge Season 1, hosted on @Kaggle\n\nLux AI Challenge: Season 1\n \nThe night is dark and full of terrors. Two teams must fight off the darkness, collect resources, and advance through the ages. Daytime finds a desperate rush to gather and build the resources that can carry you through the impending night. Plan and expand carefully -- any city that fails to produce enough light will be consumed by darkness.\n \nWelcome to the Lux AI Challenge Season 1!\n \n \nThe Lux AI Challenge is a competition where competitors design agents to tackle a multi-variable optimization, resource gathering, and allocation problem in a 1v1 scenario against other competitors. In addition to optimization, successful agents must be capable of analyzing their opponents and d…",
+          "link": "https://github.com/Lux-AI-Challenge/Lux-Design-2021",
+          "publishedOn": "2021-09-29T00:51:11.410Z",
+          "wordCount": 1813,
+          "title": "Lux-AI-Challenge/Lux-Design-2021"
+        },
+        {
+          "id": "https://github.com/Sairyss/domain-driven-hexagon",
+          "author": null,
+          "description": "Guide on Domain-Driven Design, Hexagonal architecture, best practices etc.\n\nSeptember update:\n \nThere are a lot of updates to this repo lately:\n \nAdded more code examples:\n \n \n \nAdded UnitOfWork\n \n \nAll Domain Events can now be executed in a single database transaction using a UnitOfWork\n \n \nAdded Wallet module to show an example of using a UnitOfWork together with Domain Events\n \n \nAdded BDD tests example\n \n \nAdded GraphQL examples\n \n \nAdded Domain Events\n \n \nRefactoring:\n \n \n \nRefactored Domain Events and Domain Events Handlers\n \n \nCommands are now plain objects\n \n \nMoved generic files to /libs directory\n \n \nRefactored Entity/Aggregate creation\n \n \nUsing a command bus instead of importing a service directly\n \n \nAnd more\n \n \nUpdates in readme and code:\n \n \n \nMy opinion on some topics evol…",
+          "link": "https://github.com/Sairyss/domain-driven-hexagon",
+          "publishedOn": "2021-09-29T00:51:11.358Z",
+          "wordCount": 15501,
+          "title": "Sairyss/domain-driven-hexagon"
+        },
+        {
+          "id": "https://github.com/flipped-aurora/gin-vue-admin",
+          "author": null,
+          "description": "基于vite+vue3+gin搭建的开发基础平台，集成jwt鉴权，权限管理，动态路由，分页封装，多点登录拦截，资源权限，上传下载，代码生成器，表单生成器等开发必备功能，五分钟一套CURD前后端代码，欢迎issue和pr~\n\n \n  \n \n \n  \n  \n  \n  \n  \n \nEnglish | 简体中文\n \ngitee地址: https://gitee.com/pixelmax/gin-vue-admin\n \ngithub地址: https://github.com/flipped-aurora/gin-vue-admin\n \n插件仓库以及开发规范:https://github.com/flipped-aurora/gva-plugins\n \n审批流分支: https://github.com/flipped-aurora/gin-vue-admin/tree/gva_workflow\n \n项目文档\n \n在线文档 : https://www.gin-vue-admin.com\n \n初始化\n \n从环境到部署教学视频\n \n开发教学 (贡献者: LLemonGreen And Fann)\n \n重要提示\n \n1.本项目从起步到开发到部署均有文档和详细视频教程\n \n2.本项目需要您有一定的golang和vue基础\n \n3.您完全可以通过我们的教程和文档完成一切操作，因此我们不再提供免费的技术服务，如需服务请进行付费支持\n \n1. 基本介绍\n \n1.1 项目介绍\n \n \n \nGin-vue-admin是一个基于 vue 和 gin 开发的全栈前后端分离的开发基础平台，集成jwt鉴权，动态路由，动态菜单，casbin鉴权，表单生成器，代码生成器等功能，提供多种示例文件，让您把更多时间专注在业务开发上。\n \n \n在线预览: http://demo.gin-vue-admin.com\n \n测…",
+          "link": "https://github.com/flipped-aurora/gin-vue-admin",
+          "publishedOn": "2021-09-29T00:51:11.231Z",
+          "wordCount": 984,
+          "title": "flipped-aurora/gin-vue-admin"
+        },
+        {
+          "id": "https://github.com/CyC2018/CS-Notes",
+          "author": null,
+          "description": "📚 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计\n\n \n   \n   \n   \n   \n   --> \n   --> \n \n \n \n  \n  \n \n   算法  \n   操作系统 \n   网络  \n   面向对象 \n    数据库   \n    Java   \n   系统设计 \n     工具   \n   编码实践 \n     后记   \n  \n \n  \n  \n  \n \n   ✏ \n   💻 \n   ☁ \n   🎨 \n   💾 \n   ☕ \n   💡 \n   🔧 \n   🍉 \n   📝 \n  \n \n  \n \n \n \n  \n \n \n✏ 算法\n \n \n \n剑指 Offer 题解\n \n \nLeetcode 题解\n \n \n算法\n \n \n字节跳动内推\n \n \n💻 操作系统\n \n \n \n计算机操作系统\n \n \nLinux\n \n \n☁ 网络\n \n \n \n计算机网络\n \n \nHTTP\n \n \nSocket\n \n \n💾 数据库\n \n \n \n数据库系统原理\n \n \nSQL 语法\n \n \nSQL 练习\n \n \nMySQL\n \n \nRedis\n \n \n☕ Java\n \n \n \nJava 基础\n \n \nJava 容器\n \n \nJava 并发\n \n \nJava 虚拟机\n \n \nJava I/O\n \n \n💡 系统设计\n \n \n \n系统设计基础\n \n \n分布式\n \n \n集群\n \n \n攻击技术\n \n \n缓存\n \n \n消息队列\n \n \n🎨 面向对象\n \n \n \n面向对象思想\n \n \n设计模式\n \n \n🔧 工具\n \n \n \nGit\n \n \nDocker\n \n \n构建工具\n \n \n正则表达式\n \n \n🍉 编码实践\n \n \n \n代码可读性\n \n \n代码风格规范\n \n \n📝 后记\n \n排版\n \n笔记内容按照 中文文案排版指北 进行排版，以保证内容的可读性。\n \n不使用 ![]() 这种方式来引用图片，而是用 <img> 标签。一方面是为了能够控制图片以合适的大小显示，另一方面是因为 GFM 不支持 <center> ![]() </center> 这种方法让图片居中显示，只能使用 <div align=\"center\"> <img src=\"\"/> </div> 达到居中的效果。\n \n在线排版工具：Text-Typesetting。\n \nLicense\n \n本仓库的内容不是将网上的资料随意拼凑而来，除了少部分引用书上和技术文档的原文（这部分内容都在末尾的参考链接中加了出处），其余都是我的原创。在您引用本仓库内容或者对内容进行修改演绎时，请署名并以相同方式共享，谢谢。\n \n转载文章请在开头明显处标明该页面地址，公众号等其它转载请联系 zhengyc101@163.com。\n \nLogo：logomakr\n \n\n \n致谢\n \n感谢以下人员对本仓库做出的贡献，当然不仅仅只有这些贡献者，这里就不一一列举了。如果你希望被添加到这个名单中，并且提交过 Issue 或者 PR，请与我联系。",
+          "link": "https://github.com/CyC2018/CS-Notes",
+          "publishedOn": "2021-09-29T00:51:11.187Z",
+          "wordCount": 507,
+          "title": "CyC2018/CS-Notes"
+        },
+        {
+          "id": "https://github.com/lyrric/seckill",
+          "author": null,
+          "description": "苗苗 约苗 九价 秒杀 脚本\n\n约苗秒杀\n \n共享资源，仅能用于学习，请勿用于商业。\n Sharing of resources, can only be used for learning, not for business！！！\n \n更新日志\n \n \n \n2021.09.06 v1.5根据小程序的逻辑，修改了单线程版本的逻辑，使的单线程版本更加符合人为操作。\n 也修改了接口返回的cookie不会覆盖手工录入的cookie bug\n 在单线程版本未能成功抢到之前，不会再更新多线程版本\n 关于ecc-hs参数的猜想，ecc-hs参数的加密源来源于checkstock2接口返回的st时间，而该接口返回时会设置一个cookie，类似于b0612=afedbfbcd，其中b0612很明显是跟疫苗的id有关系的，疫苗id不同，key也不同\n \n \n2021.05.25 v1.4长时间未抢到，目测是加密参数ecc-hs起作用了，之前忙一直用的是假的ecc-hs，所以完善了加密参数，增加了单线程版本在single-thread分支\n \n \n2020.09.25 v1.3增加了加密参数ecc-hs（目前无用），秒杀时间提前至两秒，加大了并发数量\n \n \n2020.09.17 v1.2增加了地区选择功能\n \n \n2020.08.14 V1.1增加了控制台模式，通过java -jar sec-kill.jar -c 进入\n 优化了交互，减少了并发的数量避免操作频繁\n \n \n2020.08.11 优化了req-header的解析，目测可以万能解析；优化了交互\n \n \n2020.08.10 最终版，经测试已经成功抢到，不会添加新的功能了，不过后期还是会维护\n \n \n2020.08.07 小程序版秒杀V1.0，基本测试99.99%（如果有BUG，那就是那0.01%）\n \n \n2020.08.07 …",
+          "link": "https://github.com/lyrric/seckill",
+          "publishedOn": "2021-09-29T00:51:11.151Z",
+          "wordCount": 499,
+          "title": "lyrric/seckill"
+        },
+        {
+          "id": "https://github.com/RandomThings23/donut",
+          "author": null,
+          "description": "DONUTS DONUTS DONUTS 🍩\n\nDonuts! 🍩\n \n\n \nDonuts for all your donut needs! See the YouTube video: youtu.be/D26bLJ9ut88\n \n\n \nBased on spinning ASCII Donut: a1k0n.net/2011/07/20/donut-math\n \nFlavors\n \n \n \nC \n \nPython\n \n \nReference\n \n \n \nhttps://gist.github.com/gcr/1075131\n \n \nhttps://github.com/hadal1337/ASCII-Doughnut/blob/master/ASCII%20Doughnut.cpp\n \n \nLicense",
+          "link": "https://github.com/RandomThings23/donut",
+          "publishedOn": "2021-09-29T00:51:11.095Z",
+          "wordCount": 412,
+          "title": "RandomThings23/donut"
+        },
         {
           "id": "https://github.com/BuilderIO/partytown",
           "author": null,
