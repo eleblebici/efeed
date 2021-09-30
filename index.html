@@ -16,6 +16,639 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-09-30">2021-09-30</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="http://mshibanami.github.io/GitHubTrendingRSS">GitHub All Languages Daily Trending</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">tauri-apps/tauri</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/tauri-apps/tauri">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Build smaller, faster, and more secure desktop applications with a web frontend.
+ 
+   
+ 
+    
+ 
+Current Releases
+ 
+ 
+  
+  
+ 
+   Component 
+   Description 
+   Version 
+   Lin 
+   Win 
+   Mac 
+  
+ 
+  
+  
+  
+ 
+   cli.rs 
+   create, develop and build apps 
+    
+   ✅ 
+   ✅ 
+   ✅ 
+  
+ 
+  
+ 
+   cli.js 
+   Node.js CLI wrapper for cli.rs 
+    
+   ✅ 
+   ✅ 
+   ✅ 
+  
+ 
+  
+ 
+   api.js 
+   JS API for interaction with Rust backend 
+    
+   ✅ 
+   ✅ 
+   ✅ 
+  
+ 
+  
+ 
+   create-tauri-app 
+   Get started with your first Tauri app 
+    
+   ✅ 
+   ✅ 
+   ✅ 
+  
+ 
+  
+ 
+   vue-cli-plugin-tauri 
+   Vue CLI plugin for Tauri 
+    
+   ✅ 
+   ✅ 
+   ✅ 
+  
+ 
+  
+ 
+   core 
+   runtime core 
+    
+   ✅ 
+   ✅ 
+   ✅ 
+  
+ 
+  
+ 
+   bundler 
+   manufacture the final binaries 
+    
+   ✅ 
+   ✅ 
+   ✅ 
+  
+ 
+  
+ 
+Introduction
+ 
+Tauri is …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">sentsin/layui</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/sentsin/layui">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>采用自身模块规范编写的前端 UI 框架，遵循原生 HTML/CSS/JS 的书写形式，极低门槛，拿来即用。
+
+    
+ 
+ Classic modular front-end UI framework 
+ 
+     
+ --&gt; 
+ 
+
+  
+
+--&gt; 
+ 
+layui 是一款采用自身模块规范编写的前端 UI 框架，遵循原生 HTML/CSS/JS 的开发方式，极易上手，拿来即用。其风格简约轻盈，而组件优雅丰盈，从源代码到使用方法的每一处细节都经过精心雕琢，非常适合网页界面的快速开发。layui 区别于那些基于 MVVM 底层的前端框架，却并非逆道而行，而是信奉返璞归真之道。准确地说，它更多是面向后端开发者，你无需涉足前端各种工具，只需面对浏览器本身，让一切你所需要的元素与交互，从这里信手拈来。
+ 
+返璞归真
+ 
+layui 定义为“经典模块化”，并非是自吹她自身有多优秀，而是有意避开当下 JS 社区的主流方案，试图以最简单的方式去诠释高效！她的所谓经典，是在于对返璞归真的执念，她以当前浏览器普通认可的方式去组织模块！我们认为，这恰是符合当下国内绝大多数程序员从旧时代过渡到未来新标准的最佳指引。所以 layui 本身也并不是完全遵循于 AMD 时代，准确地说，她试图建立自己的模式，所以你会看到：
+ 
+//layui模块的定义
+layui.define([mods], function(exports){
+  
+  //……
+  
+  exports(&#x27;mod&#x27;, api);
+});  
+ 
+//layui模块的使用
+layui.use([&#x27;mod1&#x27;, &#x27;mod2&#x27;], function(args){
+  var mod &#x3D; layui.mod1;
+  
+  //……
+  
+});    
+
+ 
+没错，她具备 AMD 的影子，又并非受限于 CommonJS 的那些条条框框，layui 认为这种轻量的组织方式，比 WebPack 更符合绝大多数场景。所以她坚持采用经典模块化，也正是能让人避开工具的复杂配置，回归简单，安静高效地撸一会原生态的HTML、CSS、JavaScript。
+ 
+但是 layui 又并非是 Requirejs 那样的模块加载器，而是一款 UI 解决方案，她与 Bootstrap 最大的不同恰恰在于她糅合了自身对经典模块化的理解。
+ 
+快速上手
+ 
+获得 layui 后，将其完整地部署到你的静态资源项目目录，你只需要引入下述两个文件：
+ 
+./layui/css/layui.css
+./layui/layui.js
+
+ 
+这是一个基本的入门页面：
+ 
+
+
+
+  
+  
+  开始使用 layui
+  
+
+
+//一般直接写在一个js文件中
+layui.use([&#x27;layer&#x27;, &#x27;form&#x27;], function(){
+  var layer &#x3D; layui.layer
+  ,form &#x3D; layui.form;
+  
+  layer.msg(&#x27;Hello World&#x27;);
+});
+ 
+
+
+
+ 
+阅读文档
+ 
+从现在开始，尽情地拥抱 layui 吧！但愿她能成为你长远的开发伴侣，化作你方寸屏幕前的亿万字节！
+ 
+贡献者
+ 
+ 
+ 
+大概是因为 layui 让开发者变得更懒，所以贡献者才这么少？
+ 好的，姑且就这样认为吧。
+ 
+ 
+
+ 
+相关
+ 
+官网、更新日志</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">rust-embedded/rust-raspberrypi-OS-tutorials</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>📚 Learn to write an embedded OS in Rust 🦀
+
+Operating System development tutorials in Rust on the Raspberry Pi
+ 
+    
+ 
+ 
+ 
+ 
+ℹ️ Introduction
+ 
+This is a tutorial series for hobby OS developers who are new to ARM&#x27;s 64 bit ARMv8-A architecture. The tutorials will give a guided, step-by-step tour of how to write a monolithic Operating System kernel for an embedded system from scratch. They cover implementation of common Operating Systems tasks, like writing to the serial console, setting up virtual memory and handling HW exceptions. All while leveraging Rust&#x27;s unique features to provide for safety and speed.
+ 
+Have fun!
+ 
+Best regards,
+Andre (@andre-richter)
+ 
+P.S.: Chinese 🇨🇳 versions of the tutorials were started by @colachg and @readlnh. You can find them as README.CN.md in the respect…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">jackfrued/Python-100-Days</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/jackfrued/Python-100-Days">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>Python - 100天从新手到大师
+
+Python - 100天从新手到大师
+ 
+ 
+ 
+作者：骆昊
+ 
+ 
+说明：从项目上线到获得8w+星标以来，一直收到反馈说基础部分（前15天的内容）对新手来说是比较困难的，建议有配套视频进行讲解。最近把基础部分的内容重新创建了一个名为“Python-Core-50-Courses”的项目，用更为简单通俗的方式重写了这部分内容并附带了视频讲解，初学者可以关注下这个新项目。国内用户如果访问GitHub比较慢的话，也可以关注我的知乎号Python-Jack上的“从零开始学Python”专栏，专栏会持续更新，还有大家比较期待的“数据分析”的内容也即将上线，欢迎大家关注我在知乎的专栏、文章和回答。
+ 
+ 
+创作不易，感谢大家的打赏支持，这些钱基本不会用于购买咖啡，而是通过腾讯公益、美团公益、水滴筹等平台捐赠给需要帮助的人（点击了解捐赠情况）。需要加入QQ交流群的可以扫描下面的二维码，交流群会为大家提供学习资源和问题解答，还会持续为大家带来免费的线上Python体验课和行业公开课，敬请关注。
+ 
+ 
+
+ 
+Python应用领域和职业发展分析
+ 
+简单的说，Python是一个“优雅”、“明确”、“简单”的编程语言。
+ 
+ 
+ 
+学习曲线低，非专业人士也能上手
+ 
+ 
+开源系统，拥有强大的生态圈
+ 
+ 
+解释型语言，完美的平台可移植性
+ 
+ 
+动态类型语言，支持面向对象和函数式编程
+ 
+ 
+代码规范程度高，可读性强
+ 
+ 
+Python在以下领域都有用武之地。
+ 
+ 
+ 
+后端开发 - Python / Java / Go / PHP
+ 
+ 
+DevOps - Python / Shell / Ruby
+ 
+ 
+数据采集 - Python / C++ / Java
+ 
+ 
+量化交易 - Python / C++ / R
+ 
+ 
+数据科学 - Py…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">speedyg0nz/MagInkCal</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/speedyg0nz/MagInkCal">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>E-Ink Magic Calendar that automatically syncs to Google Calendar and runs off a battery powered Raspberry Pi Zero
+
+MagInkCal
+ 
+This repo contains the code needed to drive an E-Ink Magic Calendar that uses a battery powered (PiSugar2) Raspberry Pi Zero WH to retrieve events from a Google Calendar, format it into the desired layout, before pushing it to a Waveshare 12.48&quot; tri-color E-Ink display. Note that the code has only been tested on the specific hardware mentioned, and customization of the code is necessary for it to work with other E-Ink displays or Battery/RTC add-ons. That said, enjoy working on your project and hopefully this helps to jump-start your magic calendar journey.
+ 
+
+ 
+Background
+ 
+Back in 2019, I started a thread in Reddit to bounce an idea I had with the community: to r…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">im2nguyen/rover</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/im2nguyen/rover">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Interactive Terraform visualization. State and configuration explorer.
+
+Rover - Terraform Visualizer
+ 
+Rover is a Terraform visualizer.
+ 
+In order to do this, Rover:
+ 
+ 
+ 
+generates a plan file and parses the configuration in the root directory or uses a provided plan.
+ 
+ 
+parses the plan and configuration files to generate three items: the resource overview (rso), the resource map (map), and the resource graph (graph).
+ 
+ 
+consumes the rso, map, and graph to generate an interactive configuration and state visualization hosts on 0.0.0.0:9000.
+ 
+ 
+Feedback (via issues) and pull requests are appreciated!
+ 
+
+ 
+Quickstart
+ 
+The fastest way to get up and running with Rover is through Docker.
+ 
+Run the following command in any Terraform workspace to generate a visualization. This command copies …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">kimlimjustin/xplorer</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/kimlimjustin/xplorer">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Xplorer, a customizable, modern file manager
+
+ 
+  
+ 
+Xplorer, a customizable, modern and cross-platform file explorer.
+ 
+Supports • Discussion • Documentation
+ 
+ 
+What is Xplorer?
+ 
+
+ 
+ 
+  More Screenshots  
+ 
+ 
+ 
+ 
+Xplorer is a file explorer built from ground-up to be fully customizable. And even without customization, it also looks modern! It is cross-platform, built using Electron Technology that allowed our File Explorer to be run not only in Windows, but also Linux and MacOS alike. It also allowed file preview directly inside it, not only pictures or documents, but also videos!
+ 
+To summarize, Xplorer&#x27;s features contain:
+ 
+ 
+ 
+Looks modern
+ 
+ 
+Easy to use
+ 
+ 
+Cross-platform
+ 
+ 
+File Preview, even videos!
+ 
+ 
+Most importantly, FOSS, Free and Open Source, which mean you can change components inside if you see fit
+ 
+ 
+Xplorer is currently in development. Suggest improvements in Xplorer Discussions or contribute to it!
+ 
+Installation
+ 
+You can access the insider version here. Please note that it is not stable yet. Use it on your own risk.
+ 
+Common Problems
+ 
+NB: For installation common problems, please open here
+ 
+ 
+  Opening folder like &#x60;Documents&#x60;, &#x60;Desktop&#x60;, &#x60;Downloads&#x60; make Xplorer crashes  
+ 
+Disable the Extract exe file icon and make it as preview setting
+ 
+ 
+ 
+  Xplorer is unstable after installing it.  Simply restart it will fix it, if it doesn&#x27;t, please address an issue. 
+ 
+LICENSE
+ 
+Apache-2.0</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">tsoding/porth</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/tsoding/porth">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>It&#x27;s like Forth but in Python
+
+Porth
+ 
+WARNING! This language is a work in progress!
+ 
+It&#x27;s like Forth but written in Python. But I don&#x27;t actually know for sure since I never programmed in Forth, I only heard that it&#x27;s some sort of stack-based programming language. Porth is also stack-based programming language. Which makes it just like Forth am I rite?
+ 
+Porth is planned to be
+ 
+ 
+ 
+ Compiled
+ 
+ 
+ Native
+ 
+ 
+ Stack-based (just like Forth)
+ 
+ 
+ Turing-complete
+ 
+ 
+ Self-hosted (Python is used only as an initial bootstrap, once the language is mature enough we gonna rewrite it in itself)
+ 
+ 
+ Statically typed (the type checking is probably gonna be similar to the WASM validation)
+ 
+ 
+(these are not the selling points, but rather milestones of the development)
+ 
+Examples
+ 
+Hello, World:
+ 
+in…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Nyandwi/machine_learning_complete</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/Nyandwi/machine_learning_complete">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(8 min)</span>
+                    <span>A comprehensive repository containing 30+ notebooks on learning machine learning!
+
+A Complete Machine Learning Package
+ 
+ 
+Techniques, tools, best practices and everything you need to to learn machine learning!
+ 
+
+ 
+This is a comprehensive repository containing 30+ notebooks on Python programming, data manipulation, data analysis, data visualization, data cleaning, classical machine learning, Computer Vision and Natural Language Processing(NLP).
+ 
+All notebooks were created with the readers in mind. Every notebook starts with a high-level overview of any specific algorithm/concepts being covered. Wherever possible, visuals are used to make things clear.
+ 
+Viewing and Running the Notebooks
+ 
+The easiest way to view all the notebooks is to use Nbviewer.
+ 
+ 
+ 
+
+ 
+ 
+If you want to play with th…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">wangdoc/clang-tutorial</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/wangdoc/clang-tutorial">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>C 语言教程
+
+C 语言入门教程。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">stackgl/shader-school</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/stackgl/shader-school">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>🎓 A workshopper for GLSL shaders and graphics programming
+
+Shader School
+ 
+ 
+ 
+An introduction to GLSL shaders and graphics programming that runs in your web browser.
+ 
+
+ 
+Running this thing
+ 
+First, you need to get a browser with WebGL, as well as a copy of node.js and git. Once you have all of that set up, you can install the workshop using npm, which is included with node:
+ 
+npm install -g shader-school
+
+ 
+After that completes, you should be able to run the workshopper with the command:
+ 
+shader-school
+
+ 
+The script will ask you if you want to create an answer directory, press y to accept. This will populate your current directory with shader files for you to edit for each lesson – hopefully, it should also automatically open your web browser but if it doesn&#x27;t you can find the workshop menu on http://localhost:12492/.
+ 
+Stuck?
+ 
+Feedback and criticism is welcome, please log your troubles in issues. The workshop is still being worked on but is very close to being complete!
+ 
+Full curriculum reviews like this one are very helpful. More feedback like this please!
+ 
+Contributors
+ 
+
+  
+  
+Mikola Lysenko
+   GitHub/mikolalysenko
+   Twitter/@mikolalysenko
+  
+ 
+  
+Hugh Kennedy
+   GitHub/hughsk
+   Twitter/@hughskennedy
+  
+ 
+  
+Chris Dickinson
+   GitHub/chrisdickinson
+   Twitter/@isntitvacant
+  
+ 
+ 
+ 
+Color Scheme
+ 
+
+ 
+From left to right:
+ 
+ 
+ 
+#34363B vec3(0.2039, 0.2117, 0.2313) (black)
+ 
+ 
+#A9B0C3 vec3(0.5372, 0.6901, 0.7647) (dark grey)
+ 
+ 
+#DEE7FF vec3(0.8705, 0.9058, 1.0) (light grey)
+ 
+ 
+#FFFFFF vec3(1.0, 1.0, 1.0) (white)
+ 
+ 
+#58FF8B vec3(0.3451, 1.0, 0.5450) (green)
+ 
+ 
+#FF6E57 vec3(1.0, 0.4313, 0.3411) (red)
+ 
+ 
+#FFE25F vec3(1.0, 0.8862, 0.3725) (yellow)
+ 
+ 
+#61C3FF vec3(0.3804, 0.7647, 1.0) (blue)
+ 
+ 
+Screenshots</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-09-29">2021-09-29</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -797,6 +1430,23 @@ https://github.com/hadal1337/ASCII-Doughnut/blob/master/ASCII%20Doughnut.cpp
  
  
 License</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.cncf.io">Cloud Native Computing Foundation</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Automation is the future of cloud cost optimization</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(8 min)</span>
+                    <span>Guest post by Laurent Gil, Co-Founder, Chief Product Officer at CAST.AI Managing cloud costs is a balancing act. Scaling cloud resources is so easy that it often leads companies to lose control...</span>
                   </div>
                 </a>
               </details>
@@ -9690,7 +10340,7 @@ Thank you @ad-m</span>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-09-29T00:51:11.713Z">2021-09-29T00:51:11.713Z</time>
+    <time id="build-timestamp" datetime="2021-09-30T00:57:41.205Z">2021-09-30T00:57:41.205Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.2</a></span>
   </footer>
   <script src="index.js"></script>
