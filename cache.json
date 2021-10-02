@@ -275,6 +275,150 @@
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
         {
+          "id": "https://github.com/pytorch/data",
+          "author": null,
+          "description": "A PyTorch repo for data loading and utilities to be shared by the PyTorch domain libraries.\n\nTorchData (🚨 Warning: Unstable Prototype 🚨)\n \nWhy torchdata? | Install guide | What are DataPipes? | Prototype Usage and Feedback | Contributing | Future Plans\n \nThis is a prototype library currently under heavy development. It does not currently have stable releases, and as such will likely be modified significantly in BC-breaking ways until beta release (targeting early 2022), and can only be used with the PyTorch nightly binaries. If you have suggestions on the API or use cases you'd like to be covered, please open a github issue. We'd love to hear thoughts and feedback.\n \ntorchdata is a prototype library of common modular data loading primitives for easily constructing flexible and performant…",
+          "link": "https://github.com/pytorch/data",
+          "publishedOn": "2021-10-02T00:52:44.147Z",
+          "wordCount": 1931,
+          "title": "pytorch/data"
+        },
+        {
+          "id": "https://github.com/great-expectations/great_expectations",
+          "author": null,
+          "description": "Always know what to expect from your data.\n\n  \n \n>> --> \n \nGreat Expectations\n \nAlways know what to expect from your data.\n \nIntroduction\n \nGreat Expectations helps data teams eliminate pipeline debt, through data testing, documentation, and profiling.\n \nSoftware developers have long known that testing and documentation are essential for managing complex codebases. Great Expectations brings the same confidence, integrity, and acceleration to data science and data engineering teams.\n \nSee Down with Pipeline Debt! for an introduction to the philosophy of pipeline testing.\n \n>>\n\n--------------------------------------------------\n--> \nKey features\n \nExpectations\n \nExpectations are assertions for data. They are the workhorse abstraction in Great Expectations, covering all kinds of common data i…",
+          "link": "https://github.com/great-expectations/great_expectations",
+          "publishedOn": "2021-10-02T00:52:43.779Z",
+          "wordCount": 1980,
+          "title": "great-expectations/great_expectations"
+        },
+        {
+          "id": "https://github.com/jonataslaw/getx",
+          "author": null,
+          "description": "Open screens/snackbars/dialogs/bottomSheets without context, manage states and inject dependencies easily with Get.\n\n\n \n           \n \n\n \n \n \nLanguages:\n \n \n          \n \n \n \n \nAbout Get\n \n \nInstalling\n \n \nCounter App with GetX\n \n \nThe Three pillars \n  \n \n   \nState management \n    \n \n     \nReactive State Manager\n \n     \nMore details about state management\n \n    \n  \n   \nRoute management \n    \n \n     \nMore details about route management\n \n    \n  \n   \nDependency management \n    \n \n     \nMore details about dependency management\n \n    \n  \n  \n  \n \nUtils \n  \n \n   \nInternationalization \n    \n \n     \nTranslations \n      \n \n       \nUsing translations\n \n      \n  \n     \nLocales \n      \n \n       \nChange locale\n \n       \nSystem locale\n \n      \n  \n    \n  \n   \nChange Theme\n \n   \nGetConnect \n    \n \n     \nDef…",
+          "link": "https://github.com/jonataslaw/getx",
+          "publishedOn": "2021-10-02T00:52:43.718Z",
+          "wordCount": 6912,
+          "title": "jonataslaw/getx"
+        },
+        {
+          "id": "https://github.com/marcel-dempers/docker-development-youtube-series",
+          "author": null,
+          "description": "The Ultimate Engineer Toolbox  🔨🔧\n \nA Collection of tools, hands-on walkthroughs with source code. \n The Ultimate Swiss Army knife for DevOps, Developers and Platform Engineers\n \n \n \n  \n  \n \n   Steps \n   Playlist 📺 \n   Source ) \n  \n \n  \n  \n  \n \n   Learn Kubernetes ❄ \n    \n   source \n  \n \n  \n \n   Learn about CI/CD tools 🐳 \n    \n    \n  \n \n  \n \n   Deploy Kubernetes to the cloud ⛅ \n    \n   source \n  \n \n  \n \n   Monitoring Kubernetes 🔍 \n    \n   source \n  \n \n  \n \n   Guide to Logging 📃 \n    \n   source \n  \n \n  \n \n   Guide to ServiceMesh 🌐 \n    \n   source \n  \n \n  \n \nDocker Development Basics\n \n \n  \n  \n \n   Step ✔ \n   Video 🎥 \n   Source Code ) \n  \n \n  \n  \n  \n \n   Working with Dockerfiles \n(.NET, Golang, Python, NodeJS) \n    \n   source \n  \n \n  \n \n   Working with code \n(.NET, Golang, Python, NodeJS) \n    \n   source \n  \n \n  \n \n   Docker Multistage explained \n    \n   source \n  \n \n  \n \n   Debugging Go in Docker \n    \n   source \n  \n \n  \n \n   Debugging .NET in Docker \n    \n   source \n  \n \n  \n \n   Debugging Python in Docker \n    \n   source \n  \n \n  \n \n   Debugging NodeJS in Docker \n    \n   source \n  \n \n  \n \nEngineering Toolbox 🔨🔧\n \nCheckout the toolbox website",
+          "link": "https://github.com/marcel-dempers/docker-development-youtube-series",
+          "publishedOn": "2021-10-02T00:52:43.649Z",
+          "wordCount": 663,
+          "title": "marcel-dempers/docker-development-youtube-series"
+        },
+        {
+          "id": "https://github.com/knative/serving",
+          "author": null,
+          "description": "Kubernetes-based, scale-to-zero, request-driven compute\n\nKnative Serving\n \n     \n \nKnative Serving builds on Kubernetes to support deploying and serving of applications and functions as serverless containers. Serving is easy to get started with and scales to support advanced scenarios.\n \nThe Knative Serving project provides middleware primitives that enable:\n \n \n \nRapid deployment of serverless containers\n \n \nAutomatic scaling up and down to zero\n \n \nRouting and network programming\n \n \nPoint-in-time snapshots of deployed code and configurations\n \n \nFor documentation on using Knative Serving, see the serving section of the Knative documentation site.\n \nFor documentation on the Knative Serving specification, see the docs folder of this repository.\n \nIf you are interested in contributing, see CONTRIBUTING.md and DEVELOPMENT.md.",
+          "link": "https://github.com/knative/serving",
+          "publishedOn": "2021-10-02T00:52:43.611Z",
+          "wordCount": 743,
+          "title": "knative/serving"
+        },
+        {
+          "id": "https://github.com/docker/compose",
+          "author": null,
+          "description": "Define and run multi-container applications with Docker\n\nDocker Compose v2\n \n\n \n\n \nDocker Compose is a tool for running multi-container applications on Docker defined using the Compose file format. A Compose file is used to define how the one or more containers that make up your application are configured. Once you have a Compose file, you can create and start your application with a single command: docker compose up.\n \nAbout update and backward compatibility\n \nDocker Compose V2 is a major version bump release of Docker compose. It has been completely rewriten from scratch in Golang (V1 was in Python). The installation instructions for Compose V2 differ from V1. V2 is not a standalone binary anymore and installation scripts will have to be adjusted. Some commands are different.\n \nFor a smo…",
+          "link": "https://github.com/docker/compose",
+          "publishedOn": "2021-10-02T00:52:43.570Z",
+          "wordCount": 925,
+          "title": "docker/compose"
+        },
+        {
+          "id": "https://github.com/monicahq/monica",
+          "author": null,
+          "description": "Personal CRM. Remember everything about your friends, family and business relationships.\n\n \n\n \n \nPersonal Relationship Manager\n \n \n \n    \n \n \nMonica is a great open source personal relationship management system.\n \n \n \nIntroduction \n  \n \n   \nPurpose\n \n   \nFeatures\n \n   \nWho is it for?\n \n   \nWhat Monica isn’t\n \n   \nWhere does this tool come from?\n \n  \n  \n \nGet started \n  \n \n   \nRequirements\n \n   \nUpdate your instance\n \n  \n  \n \nContribute \n  \n \n   \nContribute as a community\n \n   \nContribute as a developer\n \n  \n  \n \nPrinciples, vision, goals and strategy \n  \n \n   \nPrinciples\n \n   \nVision\n \n   \nGoals\n \n   \nStrategy\n \n   \nMonetization\n \n   \nWhy Open Source?\n \n   \nPatreon\n \n  \n  \n \nContact\n \n \nTeam\n \n \nThank you, open source\n \n \nLicense\n \n \nIntroduction\n \nMonica is an open-source web application…",
+          "link": "https://github.com/monicahq/monica",
+          "publishedOn": "2021-10-02T00:52:43.534Z",
+          "wordCount": 3310,
+          "title": "monicahq/monica"
+        },
+        {
+          "id": "https://github.com/mithi/react-philosophies",
+          "author": null,
+          "description": "🧘 Things I think about when I write React code 🧘\n\nreact-philosophies\n \n   \n \nIf react-philosophies helped you in some way, consider buying me a few cups of coffee ☕☕☕. This motivates me to create more React \"stuff\"! 🙂\n \nTable of Contents\n \n \n \nIntroduction\n \n \nThe Bare Minimum\n \n \nDesign for happiness\n \n \nPerformance tips\n \n \nTesting principles\n \n \n \n The way this document is organized \n \nWhile writing, I realized that it was actually difficult for me to separate my thoughts into the design, performance, and testing. A lot of designs intended for maintainability also make your application faster and easier to test. Apologies if the discussion appears to be cluttered at times.\n \n \n \n Thanks for all the PRs 🚜, coffee ☕, recommended readings 📚, and sharing of ideas 💡 (View contributors)…",
+          "link": "https://github.com/mithi/react-philosophies",
+          "publishedOn": "2021-10-02T00:52:43.477Z",
+          "wordCount": 5005,
+          "title": "mithi/react-philosophies"
+        },
+        {
+          "id": "https://github.com/obsproject/obs-studio",
+          "author": null,
+          "description": "OBS Studio - Free and open source software for live streaming and screen recording\n\nOBS Studio https://obsproject.com\n \n.. image:: https://github.com/obsproject/obs-studio/actions/workflows/main.yml/badge.svg?branch=master&event=push :alt: OBS Studio Build Status - GitHub Actions :target: https://github.com/obsproject/obs-studio/actions/workflows/main.yml?query=event%3Apush+branch%3Amaster\n \n.. image:: https://d322cqt584bo4o.cloudfront.net/obs-studio/localized.svg :alt: OBS Studio Translation Project Progress :target: https://crowdin.com/project/obs-studio\n \n.. image:: https://img.shields.io/discord/348973006581923840.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2 :alt: OBS Studio Discord Server :target: https://obsproject.com/discord\n \nWhat is OBS Studio?\n \nOBS St…",
+          "link": "https://github.com/obsproject/obs-studio",
+          "publishedOn": "2021-10-02T00:52:43.421Z",
+          "wordCount": 930,
+          "title": "obsproject/obs-studio"
+        },
+        {
+          "id": "https://github.com/MunGell/awesome-for-beginners",
+          "author": null,
+          "description": "A list of awesome beginners-friendly projects.\n\nAwesome First PR Opportunities \n \nA list of awesome beginner-friendly projects.\n \nInspired by First Timers Only blog post.\n \nIf you are a maintainer of open-source projects, add the label first-timers-only (or similar) to your project and list it here so that people can find it.\n \nIf you are looking to contribute, then explore this list, look at first-timers-only labelled open issues on Github, and follow @first_tmrs_only on Twitter to be notified when a new first-timers-only issue is created.\n \nIf you are not a programmer but would like to contribute, check out the Awesome for non-programmers list.\n \nTable of Contents:\n \n \n \n.NET\n \n \nC\n \n \nC#\n \n \nC++\n \n \nClojure\n \n \nClojureScript\n \n \nCSS\n \n \nDart\n \n \nElixir\n \n \nGo\n \n \nJava\n \n \nJavaScript\n \n …",
+          "link": "https://github.com/MunGell/awesome-for-beginners",
+          "publishedOn": "2021-10-02T00:52:43.383Z",
+          "wordCount": 4293,
+          "title": "MunGell/awesome-for-beginners"
+        },
+        {
+          "id": "https://github.com/knadh/listmonk",
+          "author": null,
+          "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.\n\n\n \n\n \nlistmonk is a standalone, self-hosted, newsletter and mailing list manager. It is fast, feature-rich, and packed into a single binary. It uses a PostgreSQL database as its data store.\n \n\n \nVisit listmonk.app for more info. Check out the live demo.\n \nInstallation\n \nDocker\n \nThe latest image is available on DockerHub at listmonk/listmonk:latest. Use the sample docker-compose.yml to run manually or use the helper script.\n \nDemo\n \nmkdir listmonk-demo && cd listmonk-demo\nsh -c \"$(curl -fsSL https://raw.githubusercontent.com/knadh/listmonk/master/install-demo.sh)\"\n\n \nDO NOT use this demo setup in production.\n \nProduction\n \nmkdir listmonk && cd listmonk\nsh -c \"$(curl -fsSL https://raw.githubusercontent.com/knadh/listmonk/master/install-prod.sh)\"\n\n \nVisit http://localhost:9000.\n \nNOTE: Always examine the contents of shell scripts before executing them.\n \nSee installation docs.\n \n \nBinary\n \n \n \nDownload the latest release and extract the listmonk binary.\n \n \n./listmonk --new-config to generate config.toml. Then, edit the file.\n \n \n./listmonk --install to setup the Postgres DB (or --upgrade to upgrade an existing DB. Upgrades are idempotent and running them multiple times have no side effects).\n \n \nRun ./listmonk and visit http://localhost:9000.\n \n \nSee installation docs.\n \n \nHeroku\n \n\n \nDevelopers\n \nlistmonk is a free and open source software licensed under AGPLv3. If you are interested in contributing, refer to the developer setup. The backend is written in Go and the frontend is Vue with Buefy for UI.\n \nLicense\n \nlistmonk is licensed under the AGPL v3 license.",
+          "link": "https://github.com/knadh/listmonk",
+          "publishedOn": "2021-10-02T00:52:43.319Z",
+          "wordCount": 935,
+          "title": "knadh/listmonk"
+        },
+        {
+          "id": "https://github.com/strapi/strapi",
+          "author": null,
+          "description": "🚀 Open source Node.js Headless CMS to easily build customisable APIs\n\n    \n \nAPI creation made simple, secure and fast.\n \nThe most advanced open-source headless CMS to build powerful APIs with no effort.\n \nTry live demo\n \n \n          \n \n \n    \n \n \nStrapi is a free and open-source headless CMS delivering your content anywhere you need.\n \n \n \nKeep control over your data. With Strapi, you know where your data is stored, and you keep full control at all times.\n \n \nSelf-hosted. You can host and scale Strapi projects the way you want. You can choose any hosting platform you want: AWS, Render, Heroku, a VPS, or a dedicated server. You can scale as you grow, 100% independent.\n \n \nDatabase agnostic. You can choose the database you prefer. Strapi works with SQL & NoSQL databases: MongoDB, PostgreSQ…",
+          "link": "https://github.com/strapi/strapi",
+          "publishedOn": "2021-10-02T00:52:43.276Z",
+          "wordCount": 1353,
+          "title": "strapi/strapi"
+        },
+        {
+          "id": "https://github.com/livewire/livewire",
+          "author": null,
+          "description": "A full-stack framework for Laravel that takes the pain out of building dynamic UIs.\n\n\n \n \nLaravel Livewire\n \nSee the docs for everything: https://laravel-livewire.com/docs/quickstart\n \nAwesome Livewire stuff here: https://github.com/imliam/awesome-livewire\n \nAll contributions are welcomed! (but please start a discussion to make sure the PR is warranted first)\n \nIdeas, questions and bugs belong in Discussions or Discord server.\n \nContribute to the docs here: https://github.com/livewire/docs\n \nRoadmap\n \n \n \nAdd wire:append for appending DOM changes rather than replacing them\n \n \nRefine the \"asset_url\" config. Potentially change to \"app_url\" (https://github.com/livewire/livewire/pull/1693)\n \n \nSupport multiple pagination (https://github.com/livewire/livewire/pull/1997)\n \n \nA CSP-safe mode for Livewire (https://github.com/livewire/livewire/pull/2485#issuecomment-784355989)\n \n \nAdd $wire.errors() type deal\n \n \nLicense\n \nCopyright © Caleb Porzio\n \nLaravel Livewire is open-sourced software licensed under the MIT license.",
+          "link": "https://github.com/livewire/livewire",
+          "publishedOn": "2021-10-02T00:52:43.226Z",
+          "wordCount": 690,
+          "title": "livewire/livewire"
+        },
+        {
+          "id": "https://github.com/abdumostafa/awesome-in-arabic",
+          "author": null,
+          "description": "A collection of awesome developer accounts (Twitter, Facebook,...) 👨‍💻 that enrich Arabic content, podcasts, articles, Youtube channels and Some advises and guidelines.\n\n \n \nبالعربي أفضل \n \n \nEnglish Version\n \n \nلماذا بالعربي ؟ لان إيصال المعلومة و استيعابها بكون أسرع بكثير باللغة الأم و اﻷسئلة تكون أكثر دقة و تصل للمراد مباشرة، لهذا كان لابد أن يكون هناك مصدر يحوي المحتوي العربي و يفهرسه بحيث يكون سهل لأي مطور جديد أو محترف انه يصل لكل المحتوي الموجود بسهوله.\n \n \nأتمنى المشاركة لتحقيق هذا الهدف.\n \n \nيمكنكم التواصل معي على \n \n \nالمحتوى\n \n \n \n  \nمطورون و معماريون \n \n  \nبودكاست\n \n  \nيوتيوب\n \n  \nامن المعلومات\n \n  \nتعلم الآلة\n \n  \nمدونات\n \n  \nالتجمعات \n   \n \n    \nالمملكة العربية السعودية\n \n    \nمصر\n \n    \nالكويت\n \n   \n  \n  \nمواقع إلكترونية\n \n  \nكيف اشارك\n \n \n \n \nمطورين\n \n \n \n  \nمحمد حماد (FB…",
+          "link": "https://github.com/abdumostafa/awesome-in-arabic",
+          "publishedOn": "2021-10-02T00:52:43.198Z",
+          "wordCount": 1617,
+          "title": "abdumostafa/awesome-in-arabic"
+        },
+        {
+          "id": "https://github.com/appwrite/appwrite",
+          "author": null,
+          "description": "Appwrite is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment 🚀\n\n \n  \n  A complete backend solution for your [Flutter / Vue / Angular / React / iOS / Android / *ANY OTHER*] app \n  \n \n     \n \n \nAppwrite 0.10 has been released! Learn what's new!\n \nAppwrite is an end-to-end backend server for Web, Mobile, Native, or Backend apps packaged as a set of Docker\n \n   microservices. Appwrite abstracts the complexity and repetitiveness required to build a modern backend API from scratch and allows you to build secure apps faster.\n \n \n \nUsing Appwrite, you can easily integrate your app with user authentication & multiple sign-in methods, a database for storing and querying users and team data, storage and file…",
+          "link": "https://github.com/appwrite/appwrite",
+          "publishedOn": "2021-10-02T00:52:43.161Z",
+          "wordCount": 1573,
+          "title": "appwrite/appwrite"
+        },
+        {
+          "id": "https://github.com/appsmithorg/appsmith",
+          "author": null,
+          "description": "Build completely custom admin panels and internal tools. Use 30+ react components to build pages without HTML/CSS.\n\n\n \n Get Started • Docs • Community • Tutorials • Events • Youtube • Discord • Templates \n \n Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source. \n   \n   \n \nQuick Start\n \nThe fastest way to start with Appsmith is the cloud-hosted version. When you're ready, you can also host it yourself.\n \n \n \nStart building apps immediately with Appsmith Cloud\n \n \nInstall locally or on a private instance with Docker (Recommended)\n \n \nDeploy on a Kubernetes cluster\n \n \nDeploy to AWS with an AMI on the marketplace\n \n \nOne-click deploy to Heroku\n…",
+          "link": "https://github.com/appsmithorg/appsmith",
+          "publishedOn": "2021-10-02T00:52:43.103Z",
+          "wordCount": 1397,
+          "title": "appsmithorg/appsmith"
+        },
+        {
           "id": "https://github.com/spring-projects/spring-boot",
           "author": null,
           "description": "Spring Boot\n\nSpring Boot   \n \n \n \n \n  \n \n   \nSpring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss. It takes an opinionated view of the Spring platform so that new and existing users can quickly get to the bits they need.\n \n  \n \n  \n \n   \nYou can use Spring Boot to create stand-alone Java applications that can be started using java -jar or more traditional WAR deployments. We also provide a command line tool that runs Spring scripts.\n \n  \n \n  \n \n   \nOur primary goals are:\n \n  \n \n  \n \n   \n \n    \n Provide a radically faster and widely accessible getting started experience for all Spring development.\n  \n    \n Be opinionated, but get out of the way quickly as requirements start to diverge from the defaults.\n  \n    \n Provide a range…",
