@@ -2,10 +2,533 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-02T00:52:44.177Z</updated>
+    <updated>2021-10-03T00:58:40.681Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TheAlgorithms/Javascript]]></title>
+        <id>https://github.com/TheAlgorithms/Javascript</id>
+        <link href="https://github.com/TheAlgorithms/Javascript"/>
+        <updated>2021-10-03T00:58:40.619Z</updated>
+        <summary type="html"><![CDATA[A repository for All algorithms implemented in Javascript (for educational purposes only)
+
+The Algorithms - JavaScript
+ 
+        
+ 
+All algorithms implemented in JavaScript (for educational purposes only)
+ 
+ 
+ 
+These are for demonstration purposes only. There are many implementations of sorts in the JavaScript standard library that are much better for performance reasons.
+ 
+Contribution Guidelines
+ 
+Read our Contribution Guidelines before you contribute.
+ 
+List of Algorithms
+ 
+See our directory.
+ 
+Algorithm Explanation
+ 
+see our wiki]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[willmcgugan/textual]]></title>
+        <id>https://github.com/willmcgugan/textual</id>
+        <link href="https://github.com/willmcgugan/textual"/>
+        <updated>2021-10-03T00:58:40.538Z</updated>
+        <summary type="html"><![CDATA[Textual is a TUI (Text User Interface) framework for Python inspired by modern web development.
+
+Textual
+ 
+
+ 
+Textual is a TUI (Text User Interface) framework for Python inspired by modern web development.
+ 
+NOTE: This project is currently a work in progress, but usable by brave souls who don't mind some API instability between updates.
+ 
+Follow @willmcgugan for progress updates, or post in Discussions if you have any requests / suggestions.
+ 
+
+ 
+Compatibility
+ 
+Textual currently runs on MacOS / Linux only. Windows support is in the pipeline.
+ 
+How it works
+ 
+Textual uses Rich to render rich text, so anything that Rich can render may be used in Textual.
+ 
+Event handling in Textual is asynchronous (using async and await keywords). Widgets (UI components) can independently update and communi…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[swagger-api/swagger-ui]]></title>
+        <id>https://github.com/swagger-api/swagger-ui</id>
+        <link href="https://github.com/swagger-api/swagger-ui"/>
+        <updated>2021-10-03T00:58:40.497Z</updated>
+        <summary type="html"><![CDATA[Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.
+
+
+ 
+   
+ 
+   
+ 
+Introduction
+ 
+Swagger UI allows anyone — be it your development team or your end consumers — to visualize and interact with the API’s resources without having any of the implementation logic in place. It’s automatically generated from your OpenAPI (formerly known as Swagger) Specification, with the visual documentation making it easy for back end implementation and client side consumption.
+ 
+General
+ 
+👉🏼 Want to score an easy open-source contribution? Check out our Good first issue label.
+ 
+🕰️ Looking for the older version of Swagger UI? Refer to the 2.x branch.
+ 
+This repository publishes three different NPM modules:
+ 
+ 
+ 
+swagg…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[microsoft/PowerToys]]></title>
+        <id>https://github.com/microsoft/PowerToys</id>
+        <link href="https://github.com/microsoft/PowerToys"/>
+        <updated>2021-10-03T00:58:40.384Z</updated>
+        <summary type="html"><![CDATA[Windows system utilities to maximize productivity
+
+Microsoft PowerToys
+ 
+ 
+How to use PowerToys | Downloads & Release notes | Contributing to PowerToys | What's Happening | Roadmap
+ 
+Build status
+ 
+ 
+  
+  
+ 
+   Architecture 
+   Master 
+   Stable 
+   Installer 
+  
+ 
+  
+  
+  
+ 
+   x64 
+    
+    
+    
+  
+ 
+  
+ 
+About
+ 
+Microsoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity. For more info on PowerToys overviews and how to use the utilities, or any other tools and resources for Windows development environments, head over to docs.microsoft.com!
+ 
+ 
+  
+  
+ 
+    
+   Current utilities: 
+    
+  
+ 
+  
+  
+  
+ 
+   Awake 
+   Color Picker 
+   FancyZones 
+  
+ 
+  
+ 
+   File Explorer Add-ons 
+   Image Resizer 
+   Keyboard Manager 
+ …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[hashicorp/terraform]]></title>
+        <id>https://github.com/hashicorp/terraform</id>
+        <link href="https://github.com/hashicorp/terraform"/>
+        <updated>2021-10-03T00:58:40.317Z</updated>
+        <summary type="html"><![CDATA[Terraform enables you to safely and predictably create, change, and improve infrastructure. It is an open source tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
+
+Terraform
+ 
+ 
+ 
+Website: https://www.terraform.io
+ 
+ 
+Forums: HashiCorp Discuss
+ 
+ 
+Documentation: https://www.terraform.io/docs/
+ 
+ 
+Tutorials: HashiCorp's Learn Platform
+ 
+ 
+Certification Exam: HashiCorp Certified: Terraform Associate
+ 
+ 
+ 
+Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.
+ 
+The key features of Terraform are:
+ 
+ 
+ 
+ Infrastructure as Code: Infrastructure is described…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[eclipse/mosquitto]]></title>
+        <id>https://github.com/eclipse/mosquitto</id>
+        <link href="https://github.com/eclipse/mosquitto"/>
+        <updated>2021-10-03T00:58:40.266Z</updated>
+        <summary type="html"><![CDATA[Eclipse Mosquitto - An open source MQTT broker
+
+Eclipse Mosquitto
+ 
+Mosquitto is an open source implementation of a server for version 5.0, 3.1.1, and 3.1 of the MQTT protocol. It also includes a C and C++ client library, and the mosquitto_pub and mosquitto_sub utilities for publishing and subscribing.
+ 
+Links
+ 
+See the following links for more information on MQTT:
+ 
+ 
+ 
+Community page: http://mqtt.org/
+ 
+ 
+MQTT v3.1.1 standard: https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/mqtt-v3.1.1.html
+ 
+ 
+MQTT v5.0 standard: https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html
+ 
+ 
+Mosquitto project information is available at the following locations:
+ 
+ 
+ 
+Main homepage: https://mosquitto.org/
+ 
+ 
+Find existing bugs or submit a new bug: https://github.com/eclipse/mosquitto/issues
+ 
+ 
+Source code …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ripienaar/free-for-dev]]></title>
+        <id>https://github.com/ripienaar/free-for-dev</id>
+        <link href="https://github.com/ripienaar/free-for-dev"/>
+        <updated>2021-10-03T00:58:40.222Z</updated>
+        <summary type="html"><![CDATA[A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
+
+free-for.dev
+ 
+Developers and Open Source authors now have a massive amount of services offering free tiers, but it can be hard to find them all to make informed decisions.
+ 
+This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers.
+ 
+The scope of this particular list is limited to things that infrastructure developers (System Administrator, DevOps Practitioners, etc.) are likely to find useful. We love all the free services out there, but it would be good to keep it on topic. It's a bit of a grey line at times so this is a bit opinionated; do not be offended if I do not accept your contribution.
+ 
+This list is the result of Pull Requests, revi…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[goplus/gop]]></title>
+        <id>https://github.com/goplus/gop</id>
+        <link href="https://github.com/goplus/gop"/>
+        <updated>2021-10-03T00:58:40.107Z</updated>
+        <summary type="html"><![CDATA[GoPlus - The Go+ language for engineering, STEM education, and data science
+
+The Go+ language for engineering, STEM education, and data science
+ 
+      
+ 
+Summary about Go+
+ 
+What are mainly impressions about Go+?
+ 
+ 
+ 
+A static typed language.
+ 
+ 
+Fully compatible with the Go language.
+ 
+ 
+Script-like style, and more readable code for data science than Go.
+ 
+ 
+For example, the following is legal Go+ source code:
+ 
+a := [1, 2, 3.4]
+println(a)
+
+ 
+How do we do this in the Go language?
+ 
+package main
+
+import "fmt"
+
+func main() {
+    a := []float64{1, 2, 3.4}
+    fmt.Println(a)
+}
+
+ 
+Of course, we don't only do less-typing things.
+ 
+For example, we support list comprehension, which makes data processing easier.
+ 
+a := [1, 3, 5, 7, 11]
+b := [x*x for x <- a, x > 3]
+println(b) // output: [25 49 12…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ryanmcdermott/clean-code-javascript]]></title>
+        <id>https://github.com/ryanmcdermott/clean-code-javascript</id>
+        <link href="https://github.com/ryanmcdermott/clean-code-javascript"/>
+        <updated>2021-10-03T00:58:40.036Z</updated>
+        <summary type="html"><![CDATA[🛁 Clean Code concepts adapted for JavaScript
+
+clean-code-javascript
+ 
+Table of Contents
+ 
+ 
+ 
+Introduction
+ 
+ 
+Variables
+ 
+ 
+Functions
+ 
+ 
+Objects and Data Structures
+ 
+ 
+Classes
+ 
+ 
+SOLID
+ 
+ 
+Testing
+ 
+ 
+Concurrency
+ 
+ 
+Error Handling
+ 
+ 
+Formatting
+ 
+ 
+Comments
+ 
+ 
+Translation
+ 
+ 
+Introduction
+ 
+
+ 
+Software engineering principles, from Robert C. Martin's book Clean Code, adapted for JavaScript. This is not a style guide. It's a guide to producing readable, reusable, and refactorable software in JavaScript.
+ 
+Not every principle herein has to be strictly followed, and even fewer will be universally agreed upon. These are guidelines and nothing more, but they are ones codified over many years of collective experience by the authors of Clean Code.
+ 
+Our craft of software engineering is jus…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[jina-ai/jina]]></title>
+        <id>https://github.com/jina-ai/jina</id>
+        <link href="https://github.com/jina-ai/jina"/>
+        <updated>2021-10-03T00:58:39.928Z</updated>
+        <summary type="html"><![CDATA[Cloud-native neural search framework for 𝙖𝙣𝙮 kind of data
+
+ 
+  
+  
+ 
+  
+ 
+ Cloud-Native Neural Search? Framework for Any Kind of Data 
+ 
+       
+ 
+Jina🔊 is a neural search framework that empowers anyone to build SOTA and scalable deep learning search applications in minutes.
+ 
+🌌 All data types - Scalable indexing, querying, understanding of any data: video, image, long/short text, music, source code, PDF, etc.
+ 
+⏱️ Save time - The design pattern of neural search systems, from zero to a production-ready system in minutes.
+ 
+🌩️ Fast & cloud-native - Distributed architecture from day one, scalable & cloud-native by design: enjoy containerizing, streaming, paralleling, sharding, async scheduling, HTTP/gRPC/WebSocket protocols.
+ 
+🍱 Own your stack - Keep end-to-end stack ownership of your…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[containers/youki]]></title>
+        <id>https://github.com/containers/youki</id>
+        <link href="https://github.com/containers/youki"/>
+        <updated>2021-10-03T00:58:39.838Z</updated>
+        <summary type="html"><![CDATA[A container runtime written in Rust
+
+youki: A container runtime in Rust
+ 
+    
+ 
+  
+ 
+youki is an implementation of the OCI runtime-spec in Rust, similar to runc.
+ 
+About the name
+ 
+youki is pronounced as /joʊki/ or yoh-key. youki is named after the Japanese word 'youki', which means 'a container'. In Japanese language, youki also means 'cheerful', 'merry', or 'hilarious'.
+ 
+Motivation
+ 
+Here is why we are writing a new container runtime in Rust.
+ 
+ 
+ 
+Rust is one of the best languages to implement the oci-runtime spec. Many very nice container tools are currently written in Go. However, the container runtime requires the use of system calls, which requires a bit of special handling when implemented in Go. This is too tricky (e.g. namespaces(7), fork(2)); with Rust, it's not that tricky. A…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[florinpop17/app-ideas]]></title>
+        <id>https://github.com/florinpop17/app-ideas</id>
+        <link href="https://github.com/florinpop17/app-ideas"/>
+        <updated>2021-10-03T00:58:39.711Z</updated>
+        <summary type="html"><![CDATA[A Collection of application ideas which can be used to improve your coding skills.
+
+📒 App Ideas Collection
+ 
+
+ 
+
+ 
+Have you ever wanted to build something but you had no idea what to do? Just as authors sometimes have "writers block" it's also true for developers. This list is intended to solve this issue once and for all! 👍
+ 
+These applications are:
+ 
+ 
+ 
+great for improving your coding skills 💪;
+ 
+ 
+great for experimenting with new technologies 🆕;
+ 
+ 
+great for adding to your portfolio to impress your next employer/client 📁;
+ 
+ 
+great for using as examples in tutorials (articles or videos) 📃;
+ 
+ 
+easy to complete and also easily extendable with new features 👌;
+ 
+ 
+This is not just a simple list of projects, but a collection that describes each project in enough detail so that you …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[microsoft/Data-Science-For-Beginners]]></title>
+        <id>https://github.com/microsoft/Data-Science-For-Beginners</id>
+        <link href="https://github.com/microsoft/Data-Science-For-Beginners"/>
+        <updated>2021-10-03T00:58:39.662Z</updated>
+        <summary type="html"><![CDATA[10 Weeks, 20 Lessons, Data Science for All!
+
+Data Science for Beginners - A Curriculum
+ 
+    
+ 
+  
+ 
+Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson curriculum all about Data Science. Each lesson includes pre-lesson and post-lesson quizzes, written instructions to complete the lesson, a solution, and an assignment. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.
+ 
+Hearty thanks to our authors: Jasmine Greenaway, Dmitry Soshnikov, Nitya Narasimhan, Jalen McGee, Jen Looper, Maud Levy, Tiffany Souterre, Christopher Harrison.
+ 
+🙏 Special thanks 🙏 to our Microsoft Student Ambassador authors, reviewers and content contributors, notably Raymond Wangsa Putra, Ankita Singh, Rohit Yadav, Arpita Das, Mohamma Iftekhe…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mgeeky/ShellcodeFluctuation]]></title>
+        <id>https://github.com/mgeeky/ShellcodeFluctuation</id>
+        <link href="https://github.com/mgeeky/ShellcodeFluctuation"/>
+        <updated>2021-10-03T00:58:39.569Z</updated>
+        <summary type="html"><![CDATA[An advanced in-memory evasion technique fluctuating shellcode's memory protection between RW/NoAccess & RX and then encrypting/decrypting its contents
+
+Shellcode Fluctuation PoC
+ 
+A PoC implementation for an another in-memory evasion technique that cyclically encrypts and decrypts shellcode's contents to then make it fluctuate between RW (or NoAccess) and RX memory protection. When our shellcode resides in RW or NoAccess memory pages, scanners such as Moneta or pe-sieve will be unable to track it down and dump it for further analysis.
+ 
+Intro
+ 
+After releasing ThreadStackSpoofer I've received a few questions about the following README's point:
+ 
+ 
+ 
+Change your Beacon's memory pages protection to RW (from RX/RWX) and encrypt their contents before sleeping (that could evade scanners such as…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[pytorch/data]]></title>
         <id>https://github.com/pytorch/data</id>
