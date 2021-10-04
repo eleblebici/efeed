@@ -67,6 +67,15 @@
           "title": "Cloud Native Computing Foundation Announces Agenda for KubeCon + CloudNativeCon + Open Source Summit China Virtual 2021"
         },
         {
+          "id": "https://www.cncf.io/?p=64822",
+          "author": "Jessie",
+          "description": "Guest post originally published on Magalix‘ blog by Andrew Zola If you think GitOps sounds a bit like DevOps, you would be right. GitOps is essentially an operational framework that uses DevOps best practices. In...",
+          "link": "https://www.cncf.io/blog/2021/09/28/gitops-101-whats-it-all-about/",
+          "publishedOn": "2021-09-28T15:00:00.000Z",
+          "wordCount": 1755,
+          "title": "GitOps 101: What’s it all about?"
+        },
+        {
           "id": "https://www.cncf.io/?p=64796",
           "author": "Jessie",
           "description": "Guest post originally published on SUSE’s blog by Robert Sirchia These days, open source has become pervasive across every aspect of our lives. From your refrigerator to your TV to your phone,...",
@@ -274,6 +283,132 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/electron/electron",
+          "author": null,
+          "description": "Build cross-platform desktop apps with JavaScript, HTML, and CSS\n\n\n \n  \n \n📝 Available Translations: 🇨🇳 🇧🇷 🇪🇸 🇯🇵 🇷🇺 🇫🇷 🇺🇸 🇩🇪. View these docs in other languages at electron/i18n.\n \nThe Electron framework lets you write cross-platform desktop applications using JavaScript, HTML and CSS. It is based on Node.js and Chromium and is used by the Atom editor and many other apps.\n \nFollow @ElectronJS on Twitter for important announcements.\n \nThis project adheres to the Contributor Covenant code of conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to coc@electronjs.org.\n \nInstallation\n \nTo install prebuilt Electron binaries, use npm. The preferred method is to install Electron as a development dependency in your app:\n \nnpm install e…",
+          "link": "https://github.com/electron/electron",
+          "publishedOn": "2021-10-04T00:58:17.028Z",
+          "wordCount": 1424,
+          "title": "electron/electron"
+        },
+        {
+          "id": "https://github.com/SerenityOS/serenity",
+          "author": null,
+          "description": "The Serenity Operating System 🐞\n\nSerenityOS\n \nGraphical Unix-like operating system for x86 computers.\n \n    \n \nAbout\n \nSerenityOS is a love letter to '90s user interfaces with a custom Unix-like core. It flatters with sincerity by stealing beautiful ideas from various other systems.\n \nRoughly speaking, the goal is a marriage between the aesthetic of late-1990s productivity software and the power-user accessibility of late-2000s *nix. This is a system by us, for us, based on the things we like.\n \nI (Andreas) regularly post raw hacking sessions and demos on my YouTube channel.\n \nSometimes I write about the system on my github.io blog.\n \nI'm also on Patreon and GitHub Sponsors if you would like to show some support that way.\n \nScreenshot\n \n\n \nKernel features\n \n \n \nx86 (32-bit) and x86_64 (64…",
+          "link": "https://github.com/SerenityOS/serenity",
+          "publishedOn": "2021-10-04T00:58:16.969Z",
+          "wordCount": 1237,
+          "title": "SerenityOS/serenity"
+        },
+        {
+          "id": "https://github.com/ovotech/gitoops",
+          "author": null,
+          "description": "all paths lead to clouds\n \n \n \n  \n \n  \n  \n \nall paths lead to clouds\n \n \n \n \nGitOops is a tool to help attackers and defenders identify lateral movement and privilege escalation paths in GitHub organizations by abusing CI/CD pipelines and GitHub access controls.\n \nIt works by mapping relationships between a GitHub organization and its CI/CD jobs and environment variables. It'll use any Bolt-compatible graph database as backend, so you can query your attack paths with openCypher:\n \nMATCH p=(:User{login:\"alice\"})-[*..5]->(v:EnvironmentVariable)\nWHERE v.name =~ \".*SECRET.*\"\nRETURN p\n\n \n \n \n  \n \n \nGitOops takes inspiration from tools like Bloodhound and Cartography.\n \nCheck out the docs and more example queries.",
+          "link": "https://github.com/ovotech/gitoops",
+          "publishedOn": "2021-10-04T00:58:16.928Z",
+          "wordCount": 636,
+          "title": "ovotech/gitoops"
+        },
+        {
+          "id": "https://github.com/ossu/computer-science",
+          "author": null,
+          "description": "🎓 Path to a free self-taught education in Computer Science!\n\n\n \nOpen Source Society University\n \n Path to a free self-taught education in Computer Science! \n \n       \n \nContents\n \n \n \nSummary\n \n \nCommunity\n \n \nCurriculum\n \n \nCode of conduct\n \n \nTeam\n \n \nSummary\n \nThe OSSU curriculum is a complete education in computer science using online materials. It's not merely for career training or professional development. It's for those who want a proper, well-rounded grounding in concepts fundamental to all computing disciplines, and for those who have the discipline, will, and (most importantly!) good habits to obtain this education largely on their own, but with support from a worldwide community of fellow learners.\n \nIt is designed according to the degree requirements of undergraduate computer…",
+          "link": "https://github.com/ossu/computer-science",
+          "publishedOn": "2021-10-04T00:58:16.894Z",
+          "wordCount": 3561,
+          "title": "ossu/computer-science"
+        },
+        {
+          "id": "https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra",
+          "author": null,
+          "description": "Graphic notes on Gilbert Strang's \"Linear Algebra for Everyone\"\n\nThe-Art-of-Linear-Algebra\n \nGraphic notes on Gilbert Strang's \"Linear Algebra for Everyone\"\n \nThe output file is \"The-Art-of-Linear-Algebra.pdf\"\n \nAbstract\n \nI tried intuitive visualizations of important concepts introduced in \"Linear Algebra for Everyone\".\n \nThis is aimed at promoting understanding of vector/matrix calculations and algorithms from the perspectives of matrix factorizations. They include Column-Row (CR), Gaussian Elimination (LU), Gram-Schmidt Orthogonalization (QR), Eigenvalues and Diagonalization (Q Lambda Q^T), and Singular Value Decomposition (U Sigma V^T).",
+          "link": "https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra",
+          "publishedOn": "2021-10-04T00:58:16.840Z",
+          "wordCount": 676,
+          "title": "kenjihiranabe/The-Art-of-Linear-Algebra"
+        },
+        {
+          "id": "https://github.com/RocketChat/Rocket.Chat",
+          "author": null,
+          "description": "The communications platform that puts data protection first.\n \nRocket.Chat is an open-source fully customizable communications platform developed in JavaScript for organizations with high standards of data protection.\n \nWe are a MERN based application enabling real-time conversations between colleagues, with other companies or with your customers, regardless of how they connect with you. The result is an increase in productivity and customer satisfaction rates.\n \nEvery day, tens of millions of users in over 150 countries and in organizations such as Deutsche Bahn, The US Navy, and Credit Suisse trust Rocket.Chat to keep their communications completely private and secure.\n \n \n \nReview product documentation\n \n \nReview developer documentation\n \n \nUsing our self-managed offerings you can deplo…",
+          "link": "https://github.com/RocketChat/Rocket.Chat",
+          "publishedOn": "2021-10-04T00:58:16.808Z",
+          "wordCount": 1364,
+          "title": "RocketChat/Rocket.Chat"
+        },
+        {
+          "id": "https://github.com/tharsis/evmos",
+          "author": null,
+          "description": "Evmos chain\n\n \n \n Evmos \n \n \n \n \n \n    \n    \n    \n    \n    \n \n \n    \n    \n    \n    \n  \n \n    \n   --> \n \nEvmos is a scalable, high-throughput Proof-of-Stake blockchain that is fully compatible and interoperable with Ethereum. It's build using the the Cosmos SDK which runs on top of Tendermint Core consensus engine.\n \nNote: Requires Go 1.17+\n \nInstallation\n \nFor prerequisites and detailed build instructions please read the Installation instructions. Once the dependencies are installed, run:\n \nmake install\n\n \nOr check out the latest release.\n \nQuick Start\n \nTo learn how the Evmos works from a high-level perspective, go to the Introduction section from the documentation. You can also check the instructions to Run a Node.\n \nCommunity\n \nThe following chat channels and forums are a great spot to ask questions about Evmos:\n \n \n \nEvmos Twitter\n \n \nEvmos Discord\n \n \nEvmos Forum\n \n \nTharsis Twitter\n \n \nContributing\n \nLooking for a good place to start contributing? Check out some good first issues.\n \nFor additional instructions, standards and style guides, please refer to the Contributing document.\n \nCareers\n \nSee our open positions on Cosmos Jobs, Notion, or feel free to reach out via email.",
+          "link": "https://github.com/tharsis/evmos",
+          "publishedOn": "2021-10-04T00:58:16.746Z",
+          "wordCount": 751,
+          "title": "tharsis/evmos"
+        },
+        {
+          "id": "https://github.com/tharsis/ethermint",
+          "author": null,
+          "description": "Ethermint is a scalable and interoperable Ethereum library, built on Proof-of-Stake with fast-finality using the Cosmos SDK.\n\n \n \n Ethermint \n \n \n\n \n \n    \n    \n    \n    \n    \n \n \n    \n \n    \n   --> \n    \n    \n    \n \nEthermint is a scalable and interoperable Ethereum library, built on Proof-of-Stake with fast-finality using the Cosmos SDK which runs on top of Tendermint Core consensus engine.\n \nNote: Requires Go 1.17+\n \nInstallation\n \nFor prerequisites and detailed build instructions please read the Evmos Installation instructions. Once the dependencies are installed, run:\n \nmake install\n\n \nOr check out the latest release.\n \nQuick Start\n \nTo learn how the Ethermint works from a high-level perspective, go to the Introduction section from the documentation. You can also check the instructions to Run a Node.\n \nFor an example on how Ethermint can be used on any Cosmos-SDK chain, please refer to Evmos.\n \nCommunity\n \nThe following chat channels and forums are a great spot to ask questions about Ethermint:\n \n \n \nTharsis Twitter\n \n \nEvmos Twitter\n \n \nEthermint Twitter\n \n \nEthermint Discord\n \n \nEthermint Forum\n \n \nContributing\n \nLooking for a good place to start contributing? Check out some good first issues.\n \nFor additional instructions, standards and style guides, please refer to the Contributing document.\n \nCareers\n \nSee our open positions on Cosmos Jobs, Notion, or feel free to reach out via email.",
+          "link": "https://github.com/tharsis/ethermint",
+          "publishedOn": "2021-10-04T00:58:16.698Z",
+          "wordCount": 1054,
+          "title": "tharsis/ethermint"
+        },
+        {
+          "id": "https://github.com/github/docs",
+          "author": null,
+          "description": "The open-source repo for docs.github.com\n\nGitHub Docs \n \n \nThis repository contains the documentation website code and Markdown source files for docs.github.com.\n \nGitHub's Docs team works on pre-production content in a private repo that regularly syncs with this public repo.\n \nUse the table of contents icon  on the top left corner of the this document to get to a specific section of this guide quickly.\n \nContributing\n \nSee the contributing guide for detailed instructions of how to get started with our project.\n \nWe accept different types of contributions, including some that don't require you to write a single line of code.\n \nOn the GitHub Docs site, you can click the make a contribution button to open a PR for quick fixes like typos, updates, or link fixes.\n \n \nFor more complex contribut…",
+          "link": "https://github.com/github/docs",
+          "publishedOn": "2021-10-04T00:58:16.616Z",
+          "wordCount": 1237,
+          "title": "github/docs"
+        },
+        {
+          "id": "https://github.com/yangshun/tech-interview-handbook",
+          "author": null,
+          "description": "💯 Curated interview preparation materials for busy engineers\n\nTech Interview Handbook\n \n \n    \n \n \n    \n \n \n \n Credits: Illustration by @leftaligned \n \n \n Read on the website | Follow us on Facebook \n \n \n \n \n \nGet paid more. Moonchaser has negotiated hundreds of tech offers. Get 1-1 guidance from their experienced team of ex-FAANG PMs, SWEs, and Recruiters. Find out more\n \n \n \nWhat is this?\n \nNo one has time to do a few hundred LeetCode questions. Here's free and curated technical interview preparation materials for busy engineers, brought to you by the author of the Blind 75 List.\n \nBesides the usual algorithm questions, other awesome stuff includes:\n \n \n \nHow to prepare for coding interviews\n \n \nInterview Cheatsheet - Straight-to-the-point Do's and Don'ts\n \n \nAlgorithm tips and the best…",
+          "link": "https://github.com/yangshun/tech-interview-handbook",
+          "publishedOn": "2021-10-04T00:58:16.567Z",
+          "wordCount": 1341,
+          "title": "yangshun/tech-interview-handbook"
+        },
+        {
+          "id": "https://github.com/vinitshahdeo/Hacktoberfest2021",
+          "author": null,
+          "description": "A community-led mentorship initiative to help beginners kickstarting their open-source journey by completing Hacktoberfest'21 challenge | Curated list of beginner-friendly issues for Hacktoberfest 2021 | Raise PR to add your issues\n\n\n \nHacktoberfest 2021\n \n    \n \n \n \nA community-led mentorship initiative to help beginners kickstarting their open-source journey by completing Hacktoberfest'21 challenge.\n \n \n👉 How can you get on board as a mentor. ✨\n \n👉 Kindly submit your details if you're beginner who's looking for a mentor. 🌈\n \nQuick Links\n \n \n  \n  \n \n   EXPLORE \n   CONNECT \n   BLOG POSTS \n   MEDIA ASSETS \n  \n \n  \n  \n  \n \n   ISSUES.md \n   Mentors \n   A curated list of beginner-friendly issues for Hacktoberfest 2021 \n   Posters \n  \n \n  \n \n   PROJECTS.md \n   Mentees \n   Muddle through Hack…",
+          "link": "https://github.com/vinitshahdeo/Hacktoberfest2021",
+          "publishedOn": "2021-10-04T00:58:16.443Z",
+          "wordCount": 1692,
+          "title": "vinitshahdeo/Hacktoberfest2021"
+        },
+        {
+          "id": "https://github.com/twowaits/make-pull-request",
+          "author": null,
+          "description": "Use this as learning repo on how to create successful pull requests. Very basic tasks on Python, HTML, CSS, JavaScript, JAVA.\n\n   \n \nmake-pull-request This repo is excluded from Hacktoberfest. Kindly use it for learning purposes only!\n \nIt's an initiative by Twowaits Technologies to help create more awareness about Open Source and help introduce many more students to the benefits of FOSS. We will organize lots of events that will prove to be very profitable for the students and encourage them to contribute in open source, this is our humble step.\n \nLots of students struggle in creating their first PR. They try somewhat and leave when couldn't. We created this as learning repo on how to create successful pull requests on languages like JAVA, Python, C++, HTML/CSS.\n \nYou can look at the issu…",
+          "link": "https://github.com/twowaits/make-pull-request",
+          "publishedOn": "2021-10-04T00:58:16.383Z",
+          "wordCount": 845,
+          "title": "twowaits/make-pull-request"
+        },
+        {
+          "id": "https://github.com/authzed/spicedb",
+          "author": null,
+          "description": "A Zanzibar-inspired database that stores, computes, and validates application permissions\n\nSpiceDB\n \n      \n \nSpiceDB is a Zanzibar-inspired database that stores, computes, and validates application permissions.\n \nDevelopers create a schema that models their permissions requirements and use a client library to apply the schema to the database, insert data into the database, and query the data to efficiently check permissions in their applications.\n \nFeatures that distinguish SpiceDB from other systems include:\n \n \n \nExpressive APIs for checking permissions, listing access, and powering devtools\n \n \nAn architecture faithful to the Google Zanzibar paper, including resistance to the New Enemy Problem\n \n \nAn intuitive and expressive schema language complete with a playground dev environment\n \n…",
+          "link": "https://github.com/authzed/spicedb",
+          "publishedOn": "2021-10-04T00:58:16.295Z",
+          "wordCount": 1084,
+          "title": "authzed/spicedb"
+        },
+        {
+          "id": "https://github.com/Ganapati/RsaCtfTool",
+          "author": null,
+          "description": "RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data\n\nRsaCtfTool\n \n       \n \nRSA multi attacks tool : uncipher data from weak public key and try to recover private key Automatic selection of best attack for the given public key\n \nAttacks :\n \n \n \n Weak public key factorization\n  \n \n Wiener's attack\n  \n \n Hastad's attack (Small public exponent attack)\n  \n \n Small q (q < 100,000)\n  \n \n Common factor between ciphertext and modulus attack\n  \n \n Fermat's factorisation for close p and q\n  \n \n Gimmicky Primes method\n  \n \n Past CTF Primes method\n  \n \n Self-Initializing Quadratic Sieve (SIQS) using Yafu (https://github.com/DarkenCode/yafu.git)\n  \n \n Common factor attacks across multiple keys\n  \n \n Small fractions method when p/q is close to a small fracti…",
+          "link": "https://github.com/Ganapati/RsaCtfTool",
+          "publishedOn": "2021-10-04T00:58:16.116Z",
+          "wordCount": 1244,
+          "title": "Ganapati/RsaCtfTool"
+        },
         {
           "id": "https://github.com/TheAlgorithms/Javascript",
           "author": null,

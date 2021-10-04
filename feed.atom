@@ -2,10 +2,605 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-03T00:58:40.681Z</updated>
+    <updated>2021-10-04T00:58:17.062Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[electron/electron]]></title>
+        <id>https://github.com/electron/electron</id>
+        <link href="https://github.com/electron/electron"/>
+        <updated>2021-10-04T00:58:17.028Z</updated>
+        <summary type="html"><![CDATA[Build cross-platform desktop apps with JavaScript, HTML, and CSS
+
+
+ 
+  
+ 
+📝 Available Translations: 🇨🇳 🇧🇷 🇪🇸 🇯🇵 🇷🇺 🇫🇷 🇺🇸 🇩🇪. View these docs in other languages at electron/i18n.
+ 
+The Electron framework lets you write cross-platform desktop applications using JavaScript, HTML and CSS. It is based on Node.js and Chromium and is used by the Atom editor and many other apps.
+ 
+Follow @ElectronJS on Twitter for important announcements.
+ 
+This project adheres to the Contributor Covenant code of conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to coc@electronjs.org.
+ 
+Installation
+ 
+To install prebuilt Electron binaries, use npm. The preferred method is to install Electron as a development dependency in your app:
+ 
+npm install e…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SerenityOS/serenity]]></title>
+        <id>https://github.com/SerenityOS/serenity</id>
+        <link href="https://github.com/SerenityOS/serenity"/>
+        <updated>2021-10-04T00:58:16.969Z</updated>
+        <summary type="html"><![CDATA[The Serenity Operating System 🐞
+
+SerenityOS
+ 
+Graphical Unix-like operating system for x86 computers.
+ 
+    
+ 
+About
+ 
+SerenityOS is a love letter to '90s user interfaces with a custom Unix-like core. It flatters with sincerity by stealing beautiful ideas from various other systems.
+ 
+Roughly speaking, the goal is a marriage between the aesthetic of late-1990s productivity software and the power-user accessibility of late-2000s *nix. This is a system by us, for us, based on the things we like.
+ 
+I (Andreas) regularly post raw hacking sessions and demos on my YouTube channel.
+ 
+Sometimes I write about the system on my github.io blog.
+ 
+I'm also on Patreon and GitHub Sponsors if you would like to show some support that way.
+ 
+Screenshot
+ 
+
+ 
+Kernel features
+ 
+ 
+ 
+x86 (32-bit) and x86_64 (64…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ovotech/gitoops]]></title>
+        <id>https://github.com/ovotech/gitoops</id>
+        <link href="https://github.com/ovotech/gitoops"/>
+        <updated>2021-10-04T00:58:16.928Z</updated>
+        <summary type="html"><![CDATA[all paths lead to clouds
+ 
+ 
+ 
+  
+ 
+  
+  
+ 
+all paths lead to clouds
+ 
+ 
+ 
+ 
+GitOops is a tool to help attackers and defenders identify lateral movement and privilege escalation paths in GitHub organizations by abusing CI/CD pipelines and GitHub access controls.
+ 
+It works by mapping relationships between a GitHub organization and its CI/CD jobs and environment variables. It'll use any Bolt-compatible graph database as backend, so you can query your attack paths with openCypher:
+ 
+MATCH p=(:User{login:"alice"})-[*..5]->(v:EnvironmentVariable)
+WHERE v.name =~ ".*SECRET.*"
+RETURN p
+
+ 
+ 
+ 
+  
+ 
+ 
+GitOops takes inspiration from tools like Bloodhound and Cartography.
+ 
+Check out the docs and more example queries.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ossu/computer-science]]></title>
+        <id>https://github.com/ossu/computer-science</id>
+        <link href="https://github.com/ossu/computer-science"/>
+        <updated>2021-10-04T00:58:16.894Z</updated>
+        <summary type="html"><![CDATA[🎓 Path to a free self-taught education in Computer Science!
+
+
+ 
+Open Source Society University
+ 
+ Path to a free self-taught education in Computer Science! 
+ 
+       
+ 
+Contents
+ 
+ 
+ 
+Summary
+ 
+ 
+Community
+ 
+ 
+Curriculum
+ 
+ 
+Code of conduct
+ 
+ 
+Team
+ 
+ 
+Summary
+ 
+The OSSU curriculum is a complete education in computer science using online materials. It's not merely for career training or professional development. It's for those who want a proper, well-rounded grounding in concepts fundamental to all computing disciplines, and for those who have the discipline, will, and (most importantly!) good habits to obtain this education largely on their own, but with support from a worldwide community of fellow learners.
+ 
+It is designed according to the degree requirements of undergraduate computer…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[kenjihiranabe/The-Art-of-Linear-Algebra]]></title>
+        <id>https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra</id>
+        <link href="https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra"/>
+        <updated>2021-10-04T00:58:16.840Z</updated>
+        <summary type="html"><![CDATA[Graphic notes on Gilbert Strang's "Linear Algebra for Everyone"
+
+The-Art-of-Linear-Algebra
+ 
+Graphic notes on Gilbert Strang's "Linear Algebra for Everyone"
+ 
+The output file is "The-Art-of-Linear-Algebra.pdf"
+ 
+Abstract
+ 
+I tried intuitive visualizations of important concepts introduced in "Linear Algebra for Everyone".
+ 
+This is aimed at promoting understanding of vector/matrix calculations and algorithms from the perspectives of matrix factorizations. They include Column-Row (CR), Gaussian Elimination (LU), Gram-Schmidt Orthogonalization (QR), Eigenvalues and Diagonalization (Q Lambda Q^T), and Singular Value Decomposition (U Sigma V^T).]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RocketChat/Rocket.Chat]]></title>
+        <id>https://github.com/RocketChat/Rocket.Chat</id>
+        <link href="https://github.com/RocketChat/Rocket.Chat"/>
+        <updated>2021-10-04T00:58:16.808Z</updated>
+        <summary type="html"><![CDATA[The communications platform that puts data protection first.
+ 
+Rocket.Chat is an open-source fully customizable communications platform developed in JavaScript for organizations with high standards of data protection.
+ 
+We are a MERN based application enabling real-time conversations between colleagues, with other companies or with your customers, regardless of how they connect with you. The result is an increase in productivity and customer satisfaction rates.
+ 
+Every day, tens of millions of users in over 150 countries and in organizations such as Deutsche Bahn, The US Navy, and Credit Suisse trust Rocket.Chat to keep their communications completely private and secure.
+ 
+ 
+ 
+Review product documentation
+ 
+ 
+Review developer documentation
+ 
+ 
+Using our self-managed offerings you can deplo…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[tharsis/evmos]]></title>
+        <id>https://github.com/tharsis/evmos</id>
+        <link href="https://github.com/tharsis/evmos"/>
+        <updated>2021-10-04T00:58:16.746Z</updated>
+        <summary type="html"><![CDATA[Evmos chain
+
+ 
+ 
+ Evmos 
+ 
+ 
+ 
+ 
+ 
+    
+    
+    
+    
+    
+ 
+ 
+    
+    
+    
+    
+  
+ 
+    
+   --> 
+ 
+Evmos is a scalable, high-throughput Proof-of-Stake blockchain that is fully compatible and interoperable with Ethereum. It's build using the the Cosmos SDK which runs on top of Tendermint Core consensus engine.
+ 
+Note: Requires Go 1.17+
+ 
+Installation
+ 
+For prerequisites and detailed build instructions please read the Installation instructions. Once the dependencies are installed, run:
+ 
+make install
+
+ 
+Or check out the latest release.
+ 
+Quick Start
+ 
+To learn how the Evmos works from a high-level perspective, go to the Introduction section from the documentation. You can also check the instructions to Run a Node.
+ 
+Community
+ 
+The following chat channels and forums are a great spot to ask questions about Evmos:
+ 
+ 
+ 
+Evmos Twitter
+ 
+ 
+Evmos Discord
+ 
+ 
+Evmos Forum
+ 
+ 
+Tharsis Twitter
+ 
+ 
+Contributing
+ 
+Looking for a good place to start contributing? Check out some good first issues.
+ 
+For additional instructions, standards and style guides, please refer to the Contributing document.
+ 
+Careers
+ 
+See our open positions on Cosmos Jobs, Notion, or feel free to reach out via email.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[tharsis/ethermint]]></title>
+        <id>https://github.com/tharsis/ethermint</id>
+        <link href="https://github.com/tharsis/ethermint"/>
+        <updated>2021-10-04T00:58:16.698Z</updated>
+        <summary type="html"><![CDATA[Ethermint is a scalable and interoperable Ethereum library, built on Proof-of-Stake with fast-finality using the Cosmos SDK.
+
+ 
+ 
+ Ethermint 
+ 
+ 
+
+ 
+ 
+    
+    
+    
+    
+    
+ 
+ 
+    
+ 
+    
+   --> 
+    
+    
+    
+ 
+Ethermint is a scalable and interoperable Ethereum library, built on Proof-of-Stake with fast-finality using the Cosmos SDK which runs on top of Tendermint Core consensus engine.
+ 
+Note: Requires Go 1.17+
+ 
+Installation
+ 
+For prerequisites and detailed build instructions please read the Evmos Installation instructions. Once the dependencies are installed, run:
+ 
+make install
+
+ 
+Or check out the latest release.
+ 
+Quick Start
+ 
+To learn how the Ethermint works from a high-level perspective, go to the Introduction section from the documentation. You can also check the instructions to Run a Node.
+ 
+For an example on how Ethermint can be used on any Cosmos-SDK chain, please refer to Evmos.
+ 
+Community
+ 
+The following chat channels and forums are a great spot to ask questions about Ethermint:
+ 
+ 
+ 
+Tharsis Twitter
+ 
+ 
+Evmos Twitter
+ 
+ 
+Ethermint Twitter
+ 
+ 
+Ethermint Discord
+ 
+ 
+Ethermint Forum
+ 
+ 
+Contributing
+ 
+Looking for a good place to start contributing? Check out some good first issues.
+ 
+For additional instructions, standards and style guides, please refer to the Contributing document.
+ 
+Careers
+ 
+See our open positions on Cosmos Jobs, Notion, or feel free to reach out via email.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[github/docs]]></title>
+        <id>https://github.com/github/docs</id>
+        <link href="https://github.com/github/docs"/>
+        <updated>2021-10-04T00:58:16.616Z</updated>
+        <summary type="html"><![CDATA[The open-source repo for docs.github.com
+
+GitHub Docs 
+ 
+ 
+This repository contains the documentation website code and Markdown source files for docs.github.com.
+ 
+GitHub's Docs team works on pre-production content in a private repo that regularly syncs with this public repo.
+ 
+Use the table of contents icon  on the top left corner of the this document to get to a specific section of this guide quickly.
+ 
+Contributing
+ 
+See the contributing guide for detailed instructions of how to get started with our project.
+ 
+We accept different types of contributions, including some that don't require you to write a single line of code.
+ 
+On the GitHub Docs site, you can click the make a contribution button to open a PR for quick fixes like typos, updates, or link fixes.
+ 
+ 
+For more complex contribut…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[yangshun/tech-interview-handbook]]></title>
+        <id>https://github.com/yangshun/tech-interview-handbook</id>
+        <link href="https://github.com/yangshun/tech-interview-handbook"/>
+        <updated>2021-10-04T00:58:16.567Z</updated>
+        <summary type="html"><![CDATA[💯 Curated interview preparation materials for busy engineers
+
+Tech Interview Handbook
+ 
+ 
+    
+ 
+ 
+    
+ 
+ 
+ 
+ Credits: Illustration by @leftaligned 
+ 
+ 
+ Read on the website | Follow us on Facebook 
+ 
+ 
+ 
+ 
+ 
+Get paid more. Moonchaser has negotiated hundreds of tech offers. Get 1-1 guidance from their experienced team of ex-FAANG PMs, SWEs, and Recruiters. Find out more
+ 
+ 
+ 
+What is this?
+ 
+No one has time to do a few hundred LeetCode questions. Here's free and curated technical interview preparation materials for busy engineers, brought to you by the author of the Blind 75 List.
+ 
+Besides the usual algorithm questions, other awesome stuff includes:
+ 
+ 
+ 
+How to prepare for coding interviews
+ 
+ 
+Interview Cheatsheet - Straight-to-the-point Do's and Don'ts
+ 
+ 
+Algorithm tips and the best…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vinitshahdeo/Hacktoberfest2021]]></title>
+        <id>https://github.com/vinitshahdeo/Hacktoberfest2021</id>
+        <link href="https://github.com/vinitshahdeo/Hacktoberfest2021"/>
+        <updated>2021-10-04T00:58:16.443Z</updated>
+        <summary type="html"><![CDATA[A community-led mentorship initiative to help beginners kickstarting their open-source journey by completing Hacktoberfest'21 challenge | Curated list of beginner-friendly issues for Hacktoberfest 2021 | Raise PR to add your issues
+
+
+ 
+Hacktoberfest 2021
+ 
+    
+ 
+ 
+ 
+A community-led mentorship initiative to help beginners kickstarting their open-source journey by completing Hacktoberfest'21 challenge.
+ 
+ 
+👉 How can you get on board as a mentor. ✨
+ 
+👉 Kindly submit your details if you're beginner who's looking for a mentor. 🌈
+ 
+Quick Links
+ 
+ 
+  
+  
+ 
+   EXPLORE 
+   CONNECT 
+   BLOG POSTS 
+   MEDIA ASSETS 
+  
+ 
+  
+  
+  
+ 
+   ISSUES.md 
+   Mentors 
+   A curated list of beginner-friendly issues for Hacktoberfest 2021 
+   Posters 
+  
+ 
+  
+ 
+   PROJECTS.md 
+   Mentees 
+   Muddle through Hack…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[twowaits/make-pull-request]]></title>
+        <id>https://github.com/twowaits/make-pull-request</id>
+        <link href="https://github.com/twowaits/make-pull-request"/>
+        <updated>2021-10-04T00:58:16.383Z</updated>
+        <summary type="html"><![CDATA[Use this as learning repo on how to create successful pull requests. Very basic tasks on Python, HTML, CSS, JavaScript, JAVA.
+
+   
+ 
+make-pull-request This repo is excluded from Hacktoberfest. Kindly use it for learning purposes only!
+ 
+It's an initiative by Twowaits Technologies to help create more awareness about Open Source and help introduce many more students to the benefits of FOSS. We will organize lots of events that will prove to be very profitable for the students and encourage them to contribute in open source, this is our humble step.
+ 
+Lots of students struggle in creating their first PR. They try somewhat and leave when couldn't. We created this as learning repo on how to create successful pull requests on languages like JAVA, Python, C++, HTML/CSS.
+ 
+You can look at the issu…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[authzed/spicedb]]></title>
+        <id>https://github.com/authzed/spicedb</id>
+        <link href="https://github.com/authzed/spicedb"/>
+        <updated>2021-10-04T00:58:16.295Z</updated>
+        <summary type="html"><![CDATA[A Zanzibar-inspired database that stores, computes, and validates application permissions
+
+SpiceDB
+ 
+      
+ 
+SpiceDB is a Zanzibar-inspired database that stores, computes, and validates application permissions.
+ 
+Developers create a schema that models their permissions requirements and use a client library to apply the schema to the database, insert data into the database, and query the data to efficiently check permissions in their applications.
+ 
+Features that distinguish SpiceDB from other systems include:
+ 
+ 
+ 
+Expressive APIs for checking permissions, listing access, and powering devtools
+ 
+ 
+An architecture faithful to the Google Zanzibar paper, including resistance to the New Enemy Problem
+ 
+ 
+An intuitive and expressive schema language complete with a playground dev environment
+ 
+…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ganapati/RsaCtfTool]]></title>
+        <id>https://github.com/Ganapati/RsaCtfTool</id>
+        <link href="https://github.com/Ganapati/RsaCtfTool"/>
+        <updated>2021-10-04T00:58:16.116Z</updated>
+        <summary type="html"><![CDATA[RSA attack tool (mainly for ctf) - retreive private key from weak public key and/or uncipher data
+
+RsaCtfTool
+ 
+       
+ 
+RSA multi attacks tool : uncipher data from weak public key and try to recover private key Automatic selection of best attack for the given public key
+ 
+Attacks :
+ 
+ 
+ 
+ Weak public key factorization
+  
+ 
+ Wiener's attack
+  
+ 
+ Hastad's attack (Small public exponent attack)
+  
+ 
+ Small q (q < 100,000)
+  
+ 
+ Common factor between ciphertext and modulus attack
+  
+ 
+ Fermat's factorisation for close p and q
+  
+ 
+ Gimmicky Primes method
+  
+ 
+ Past CTF Primes method
+  
+ 
+ Self-Initializing Quadratic Sieve (SIQS) using Yafu (https://github.com/DarkenCode/yafu.git)
+  
+ 
+ Common factor attacks across multiple keys
+  
+ 
+ Small fractions method when p/q is close to a small fracti…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TheAlgorithms/Javascript]]></title>
         <id>https://github.com/TheAlgorithms/Javascript</id>
@@ -3512,6 +4107,16 @@ License]]></summary>
         <link href="https://www.cncf.io/announcements/2021/09/28/cloud-native-computing-foundation-announces-agenda-for-kubecon-cloudnativecon-open-source-summit-china-virtual-2021/"/>
         <updated>2021-09-28T16:30:00.000Z</updated>
         <summary type="html"><![CDATA[Back after a year break, the biggest open source event in China will offer an up-close look at exciting innovations and provide attendees with valuable insights into the cloud native ecosystem  SAN...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitOps 101: What’s it all about?]]></title>
+        <id>https://www.cncf.io/?p=64822</id>
+        <link href="https://www.cncf.io/blog/2021/09/28/gitops-101-whats-it-all-about/"/>
+        <updated>2021-09-28T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on Magalix‘ blog by Andrew Zola If you think GitOps sounds a bit like DevOps, you would be right. GitOps is essentially an operational framework that uses DevOps best practices. In...]]></summary>
         <author>
             <name>Jessie</name>
         </author>
