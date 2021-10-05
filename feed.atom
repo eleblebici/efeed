@@ -2,10 +2,310 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-04T00:58:17.062Z</updated>
+    <updated>2021-10-05T00:53:28.157Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TheAlgorithms/Python]]></title>
+        <id>https://github.com/TheAlgorithms/Python</id>
+        <link href="https://github.com/TheAlgorithms/Python"/>
+        <updated>2021-10-05T00:53:28.016Z</updated>
+        <summary type="html"><![CDATA[All Algorithms implemented in Python
+
+ 
+  
+    
+ 
+The Algorithms - Python
+ 
+  
+  
+    
+    
+    
+  
+    
+    
+  
+ 
+ 
+    
+    
+    
+    
+  
+ 
+All algorithms implemented in Python - for education
+ 
+ 
+Implementations are for learning purposes only. As they may be less efficient than the implementations in the Python standard library, use them at your discretion.
+ 
+Getting Started
+ 
+Read through our Contribution Guidelines before you contribute.
+ 
+Community Channels
+ 
+We're on Discord and Gitter! Community channels are great for you to ask questions and get help. Please join us!
+ 
+List of Algorithms
+ 
+See our directory for easier navigation and better overview of the project.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[home-assistant/core]]></title>
+        <id>https://github.com/home-assistant/core</id>
+        <link href="https://github.com/home-assistant/core"/>
+        <updated>2021-10-05T00:53:27.942Z</updated>
+        <summary type="html"><![CDATA[🏡 Open source home automation that puts local control and privacy first.
+
+Home Assistant |Chat Status|
+ 
+Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+ 
+Check out home-assistant.io <https://home-assistant.io>__ for a demo <https://home-assistant.io/demo/>, installation instructions <https://home-assistant.io/getting-started/>, tutorials <https://home-assistant.io/getting-started/automation/>__ and documentation <https://home-assistant.io/docs/>__.
+ 
+|screenshot-states|
+ 
+Featured integrations
+ 
+|screenshot-components|
+ 
+The system is built using a modular approach so support for other devices or actions can be implemented easily. See also the section on architecture <https://developers.home-assistant.io/docs/architecture_index/>__ and the section on creating your own components <https://developers.home-assistant.io/docs/creating_component_index/>__.
+ 
+If you run into issues while using Home Assistant or during development of a component, check the Home Assistant help section <https://home-assistant.io/help/>__ of our website for further help and information.
+ 
+.. |Chat Status| image:: https://img.shields.io/discord/330944238910963714.svg :target: https://discord.gg/c5DvZ4e .. |screenshot-states| image:: https://raw.github.com/home-assistant/home-assistant/master/docs/screenshots.png :target: https://home-assistant.io/demo/ .. |screenshot-components| image:: https://raw.github.com/home-assistant/home-assistant/dev/docs/screenshot-components.png :target: https://home-assistant.io/integrations/]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[tldr-pages/tldr]]></title>
+        <id>https://github.com/tldr-pages/tldr</id>
+        <link href="https://github.com/tldr-pages/tldr"/>
+        <updated>2021-10-05T00:53:27.736Z</updated>
+        <summary type="html"><![CDATA[📚 Collaborative cheatsheets for console commands
+
+ 
+ 
+
+ 
+ 
+    
+ 
+ 
+What is tldr-pages?
+ 
+The tldr-pages project is a collection of community-maintained help pages for command-line tools, that aims to be a simpler, more approachable complement to traditional man pages.
+ 
+Maybe you are new to the command-line world? Or just a little rusty? Or perhaps you can't always remember the arguments to lsof, or tar?
+ 
+It certainly doesn't help that the first option explained in man tar is:
+ 
+-b blocksize
+   Specify the block size, in 512-byte records, for tape drive I/O.
+   As a rule, this argument is only needed when reading from or writing to tape drives,
+   and usually not even then as the default block size of 20 records (10240 bytes) is very common.
+
+ 
+There seems to be room for simpler help pa…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[alan2207/bulletproof-react]]></title>
+        <id>https://github.com/alan2207/bulletproof-react</id>
+        <link href="https://github.com/alan2207/bulletproof-react"/>
+        <updated>2021-10-05T00:53:27.598Z</updated>
+        <summary type="html"><![CDATA[🛡️ ⚛️ A simple, scalable, and powerful architecture for building production ready React applications.
+
+Bulletproof React 🛡️ ⚛️
+ 
+ 
+ 
+A simple, scalable, and powerful architecture for building production ready React applications.
+ 
+Introduction
+ 
+React is a great tool for building frontend applications. It has a very diverse ecosystem with hundreds of great libraries for literally anything you might need. However, it can be overwhelming to be forced to make so many choices. It is also very flexible, you can write React applications in any way you like but that flexibility comes with a cost. Since there is no pre-defined architecture developers can follow, it often leads to messy, inconsistent, or over-complicated codebases.
+ 
+This is an attempt to present a way of creating React applicati…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Slurmio/school-dev-k8s]]></title>
+        <id>https://github.com/Slurmio/school-dev-k8s</id>
+        <link href="https://github.com/Slurmio/school-dev-k8s"/>
+        <updated>2021-10-05T00:53:27.555Z</updated>
+        <summary type="html"><![CDATA[school-dev-k8s]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sundowndev/phoneinfoga]]></title>
+        <id>https://github.com/sundowndev/phoneinfoga</id>
+        <link href="https://github.com/sundowndev/phoneinfoga"/>
+        <updated>2021-10-05T00:53:27.525Z</updated>
+        <summary type="html"><![CDATA[Information gathering & OSINT framework for phone numbers
+
+  
+ 
+ 
+    
+    
+    
+    
+    
+ 
+Advanced information gathering & OSINT framework for phone numbers
+ 
+ Documentation • API documentation • Demo instance • Related blog post 
+ 
+
+ 
+About
+ 
+PhoneInfoga is one of the most advanced tools to scan international phone numbers using only free resources. It allows you to first gather standard information such as country, area, carrier and line type on any international phone number. Then search for footprints on search engines to try to find the VoIP provider or identify the owner.
+ 
+Unofficial video tutorials
+ 
+
+ 
+Current status
+ 
+This project is stable and production-ready. Roadmap is here.
+ 
+About demo instance: This is a test service. Kittens will die if you abuse it. Numverify scan is …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[googleprojectzero/weggli]]></title>
+        <id>https://github.com/googleprojectzero/weggli</id>
+        <link href="https://github.com/googleprojectzero/weggli"/>
+        <updated>2021-10-05T00:53:27.479Z</updated>
+        <summary type="html"><![CDATA[weggli is a fast and robust semantic search tool for C and C++ codebases. It is designed to help security researchers identify interesting functionality in large codebases.
+
+weggli
+ 
+
+ 
+Introduction
+ 
+weggli is a fast and robust semantic search tool for C and C++ codebases. It is designed to help security researchers identify interesting functionality in large codebases.
+ 
+weggli performs pattern matching on Abstract Syntax Trees based on user provided queries. Its query language resembles C and C++ code, making it easy to turn interesting code patterns into queries.
+ 
+weggli is inspired by great tools like Semgrep, Coccinelle, joern and CodeQL, but makes some different design decisions:
+ 
+ 
+ 
+ C++ support: weggli has first class support for modern C++ constructs, such as lambda expression…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[trickster0/OffensiveRust]]></title>
+        <id>https://github.com/trickster0/OffensiveRust</id>
+        <link href="https://github.com/trickster0/OffensiveRust"/>
+        <updated>2021-10-05T00:53:27.429Z</updated>
+        <summary type="html"><![CDATA[Rust Weaponization for Red Team Engagements.
+
+  
+ 
+OffensiveRust
+ 
+My experiments in weaponizing Rust for implant development and general offensive operations.
+ 
+Table of Contents
+ 
+ 
+ 
+OffensiveRust 
+  
+ 
+   
+Why Rust?
+ 
+   
+Examples in this repo
+ 
+   
+Compiling the examples
+ 
+   
+Compiling the examples in this repo
+ 
+   
+Cross Compiling
+ 
+   
+Optimizing executables for size
+ 
+   
+Pitfalls I found myself falling into
+ 
+   
+Interesting Rust Libraries
+ 
+   
+Opsec
+ 
+   
+Other projects I have have made in Rust
+ 
+  
+  
+ 
+Why Rust?
+ 
+ 
+ 
+It is faster than languages like C/C++
+ 
+ 
+It is multi-purpose language, bearing excellent communities
+ 
+ 
+It has an amazing inbuilt dependency build management called Cargo
+ 
+ 
+It is LLVM based which makes it a very good candidate for bypassing static AV detec…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How was a pizza chosen as the KCD Italy 2021 logo?]]></title>
+        <id>https://www.cncf.io/?p=64862</id>
+        <link href="https://www.cncf.io/blog/2021/10/04/how-was-a-pizza-chosen-as-the-kcd-italy-2021-logo/"/>
+        <updated>2021-10-04T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Community guest post by Kubernetes Day Italy Recognized and supported by the CNCF, the first Kubernetes Community Days will be held on 17 and 18 November 2021. It was a great moment-event...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cartografos working group launches cloud native maturity model]]></title>
+        <id>https://www.cncf.io/?p=64855</id>
+        <link href="https://www.cncf.io/blog/2021/10/04/cartografos-working-group-launches-cloud-native-maturity-model/"/>
+        <updated>2021-10-04T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Community guest post by Danielle Cook, Simon Forster, John Forman, and Robbie Glenn of the Cartografos Working Group You’ve heard the benefits of containers, microservices and this thing called Kubernetes. You’ve investigated,...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[electron/electron]]></title>
         <id>https://github.com/electron/electron</id>
