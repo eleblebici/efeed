@@ -2,10 +2,233 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-05T00:53:28.157Z</updated>
+    <updated>2021-10-06T00:55:11.140Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ocornut/imgui]]></title>
+        <id>https://github.com/ocornut/imgui</id>
+        <link href="https://github.com/ocornut/imgui"/>
+        <updated>2021-10-06T00:55:11.117Z</updated>
+        <summary type="html"><![CDATA[Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies
+
+Dear ImGui
+ 
+ 
+ 
+(This library is available under a free and permissive license, but needs financial support to sustain its continued improvements. In addition to maintenance and stability there are many desirable features yet to be added. If your company is using Dear ImGui, please consider reaching out.)
+ 
+Businesses: support continued development and maintenance via invoiced technical support, maintenance, sponsoring contracts: 
+  E-mail: contact @ dearimgui dot com
+ 
+Individuals: support continued development and maintenance here.
+ 
+Also see Sponsors page.
+ 
+ 
+Dear ImGui is a bloat-free graphical user interface library for C++. It outputs optimized vertex buffers that you can render anytime in your 3D-pi…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Siterizer/new-world-fishing-bot]]></title>
+        <id>https://github.com/Siterizer/new-world-fishing-bot</id>
+        <link href="https://github.com/Siterizer/new-world-fishing-bot"/>
+        <updated>2021-10-06T00:55:11.008Z</updated>
+        <summary type="html"><![CDATA[user friendly python script who is able to catch fish in the game New World
+
+new-world-fishing-bot release 1.1.1
+ 
+ click img for demonstration
+ 
+Download guide
+ 
+ 
+ 
+Click at latest release:
+ 
+ 
+ 
+Download and extract bot.zip:
+ 
+ 
+ 
+When you run file bot.exe following user interface should appear:
+ 
+ 
+ 
+Game settings
+ 
+ 
+ 
+ Resolution 1920x1080 low details:
+ 
+  
+ 
+ Standard key bindings, except of 'CAMERA' -> 'FREE LOOK' key binding, it must be 'B'!
+ 
+  
+ 
+ Visuals as follow:
+ 
+  
+ 
+ Remember to set you windows Scale to 100%:
+ 
+  
+ 
+Usage guide
+ 
+ 
+ 
+Before you start fishing you need to indicate correct fishing positions
+ The left ('Fishing') panel inputs are the pointing area where fishing icons are going to appear
+ The best way to configure it is to open the game, stand over the fishing…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ShameCom/ShameCom]]></title>
+        <id>https://github.com/ShameCom/ShameCom</id>
+        <link href="https://github.com/ShameCom/ShameCom"/>
+        <updated>2021-10-06T00:55:10.956Z</updated>
+        <summary type="html"><![CDATA[收集校招污点公司或组织，帮助学弟学妹避雷。互联网不曾遗忘！
+
+校招污点公司记录
+ 
+本账号及仓库专用于记录在校园招聘中的具有污点行为的公司。
+ 
+污点行为包括但不限于：毁意向书、毁两方协定、毁三方协定、试用期裁员、大量裁应届生。
+ 
+污点行为不包括：毁OC（除非大量）、试用期结束未通过（除非大批量蓄意）。
+ 
+本人是2021届应届毕业生，参加了2021届的秋招，看到了好多往年公司毁约却在第二年依旧简历爆满的情况。本仓库的设立旨在帮助正在进行校招或者即将参加校招的同学们提供一个参考以避雷，并不是说这些公司就再也不能投了，但是具有污点的公司仍然要被钉在校招的耻辱柱上，让他们知道所谓的弱势群体也不是一盘散沙。
+ 
+本仓库的主要信息来自于牛客等公开论坛（很多帖子都会被当场公关，但是互联网不会忘记，对于被删除的帖子，我会尽量提供快照），欢迎大家积极补充参与。
+ 
+ 
+  
+  
+ 
+   公司 
+   时间 
+   事件 
+   外链 
+   长截图 
+  
+ 
+  
+  
+  
+ 
+   竞技世界 
+   2021/03/25 
+   提前实习毁校招正式offer 
+   拿到校招正式offer，提前实习后却不给转正，怎么回事？ 
+   拿到校招正式offer，提前实习后却不给转正，怎么回事？.png 
+  
+ 
+  
+ 
+   虎牙 
+   2021/03/02 
+   毁意向书 
+   虎牙毁意向书，给各位找实习的师弟师妹提个醒 
+   虎牙毁意向书，给各位找实习的师弟师妹提个醒.png 
+  
+ 
+  
+ 
+   高顿教育 
+   2021/01/26 
+   毁约 
+   高顿教育，最让我担心的事情还是让我摊上了 
+   高顿教育，最让我担心的事情还是让我摊上了 
+  
+ 
+  
+ 
+   多益网络 
+   2020/12/02 
+   寄三方或体检后被毁约 
+   本人寄…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mmazzarolo/react-native-universal-monorepo]]></title>
+        <id>https://github.com/mmazzarolo/react-native-universal-monorepo</id>
+        <link href="https://github.com/mmazzarolo/react-native-universal-monorepo"/>
+        <updated>2021-10-06T00:55:10.900Z</updated>
+        <summary type="html"><![CDATA[React Native boilerplate supporting multiple platforms: Android, iOS, macOS, Windows, web, browser extensions, Electron.
+
+React Native Universal Monorepo
+ 
+An opinonated approach to supporting multiple platforms with React Native using a Yarn Workspaces monorepo.
+ 
+Check out Running React Native everywhere for an in-depth guide on how and why I recommend trying out this approach if you're planning to support multiple platforms in your app.
+ 
+ 
+ 
+Overview
+ 
+ 
+Yarn Workspaces monorepo setup
+ 
+ 
+Android & iOS
+ 
+ 
+Windows & macOS
+ 
+ 
+The Web
+ 
+ 
+Browser Extensions & Electron
+ 
+ 
+ 
+ 
+  
+ 
+Overview
+ 
+This monorepo uses Yarn workspaces and TypeScript to support a modular React Native project.
+ 
+The core idea is to isolate the JavaScript app code from the platform configurations (native code + the…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sebastianstarke/AI4Animation]]></title>
+        <id>https://github.com/sebastianstarke/AI4Animation</id>
+        <link href="https://github.com/sebastianstarke/AI4Animation"/>
+        <updated>2021-10-06T00:55:10.862Z</updated>
+        <summary type="html"><![CDATA[Bringing Characters to Life with Computer Brains in Unity
+
+AI4Animation: Deep Learning for Character Control
+ 
+This project explores the opportunities of deep learning for character animation and control as part of my Ph.D. research at the University of Edinburgh in the School of Informatics, supervised by Taku Komura. Over the last couple years, this project has become a comprehensive framework for data-driven character animation, including data processing, network training and runtime control, developed in Unity3D / Tensorflow / PyTorch. This repository demonstrates using neural networks for animating biped locomotion, quadruped locomotion, and character-scene interactions with objects and the environment, plus sports and fighting games. Further advances on this research will continue be…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Distributed tracing in Grafana with Tempo and Jaeger]]></title>
+        <id>https://www.cncf.io/?p=64857</id>
+        <link href="https://www.cncf.io/blog/2021/10/05/distributed-tracing-in-grafana-with-tempo-and-jaeger/"/>
+        <updated>2021-10-05T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on InfraCloud’s blog by Ruturaj Kadikar, Software Engineer at InfraCloud  Why do I need tracing if I have a good logging and monitoring framework?  Application logs are beneficial...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TheAlgorithms/Python]]></title>
         <id>https://github.com/TheAlgorithms/Python</id>
