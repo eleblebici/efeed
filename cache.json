@@ -31,6 +31,24 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=64958",
+          "author": "Jessie",
+          "description": "Today, we announce Cluster API v1.0 is production-ready and officially moving to v1beta1 APIs. To move from the maturity level of an alpha project Cluster API has demonstrated growing adoption, feature maturity,...",
+          "link": "https://www.cncf.io/blog/2021/10/06/kubernetes-cluster-api-reaches-production-readiness-with-version-1-0/",
+          "publishedOn": "2021-10-06T19:00:00.000Z",
+          "wordCount": 3433,
+          "title": "Kubernetes Cluster API reaches production readiness with version 1.0"
+        },
+        {
+          "id": "https://www.cncf.io/?p=64859",
+          "author": "Jessie",
+          "description": "Guest post originally published on Mia-Platform‘s blog by Mia-Platform Team What is micro frontend orchestration? And, what are the bene5fits of micro-lc? Read the article below to discover everything you need to...",
+          "link": "https://www.cncf.io/blog/2021/10/06/micro-lc-the-new-open-source-project-for-micro-frontend-orchestration/",
+          "publishedOn": "2021-10-06T15:00:00.000Z",
+          "wordCount": 1025,
+          "title": "micro-lc: a new open-source project for micro frontend orchestration"
+        },
+        {
           "id": "https://www.cncf.io/?p=64857",
           "author": "Jessie",
           "description": "Guest post originally published on InfraCloud’s blog by Ruturaj Kadikar, Software Engineer at InfraCloud  Why do I need tracing if I have a good logging and monitoring framework?  Application logs are beneficial...",
@@ -310,6 +328,114 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/aws/aws-cdk",
+          "author": null,
+          "description": "The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code\n\nAWS Cloud Development Kit (AWS CDK)\n \n       \n \nThe AWS Cloud Development Kit (AWS CDK) is an open-source software development framework to define cloud infrastructure in code and provision it through AWS CloudFormation.\n \nIt offers a high-level object-oriented abstraction to define AWS resources imperatively using the power of modern programming languages. Using the CDK’s library of infrastructure constructs, you can easily encapsulate AWS best practices in your infrastructure definition and share it without worrying about boilerplate logic.\n \nThe CDK is available in the following languages:\n \n \n \nJavaScript, TypeScript (Node.js ≥ 10.13.0) \n  \n \n   \nWe recommend using a version in Active LTS\n \n   \n⚠️ v…",
+          "link": "https://github.com/aws/aws-cdk",
+          "publishedOn": "2021-10-07T00:55:18.984Z",
+          "wordCount": 1729,
+          "title": "aws/aws-cdk"
+        },
+        {
+          "id": "https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes",
+          "author": null,
+          "description": "Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, css, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test\n\nLinkedin Quiz Answers, Skill Assessments Test\n \n \n\n \n \n \n \nThis repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use online grammar checker when you contribute!\n \n \nPLEASE\n \nadd explanation (or reference link) to your answers. That will help anyone to better learn co…",
+          "link": "https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes",
+          "publishedOn": "2021-10-07T00:55:18.935Z",
+          "wordCount": 3373,
+          "title": "Ebazhanov/linkedin-skill-assessments-quizzes"
+        },
+        {
+          "id": "https://github.com/Harsha200105/DesktopAssitant",
+          "author": null,
+          "description": "A Virtual Desktop Assistant Written in Python\n\nDesktopAssitant\n \nA Virtual Desktop Assistant Written in Python. \n It's generally a basic virtual assistant  \n The basic purpose of this is to make work easier as it re-directs you to various main sites and performs various important functions for your PC as well just install it for your system and run it in your code editor or IDE. I will be soon updating it as an application for MacOS, Linux and Windows. Until then you can follow the Contributing Guidelines and Contribute into this Desktop Assistant.\n \nContributing Guidelines :\n \n \n \nWe are Open for Pull Requests\n \n \nPlease contribute and add value to the code\n \n \nIf you have some ideas for new features and you don't have time to implement them please open an issue with the tag new_feature.\n \n \nPlease don't forget to comment (document) your code!\n \n \nAlso If you feel like developing or working out on the Documentation section of this repository make sure to raise an issue regarding and i'll assign you that!\n \n \nBefore creating a Pull Request please go through the above guidelines and the code!",
+          "link": "https://github.com/Harsha200105/DesktopAssitant",
+          "publishedOn": "2021-10-07T00:55:18.796Z",
+          "wordCount": 609,
+          "title": "Harsha200105/DesktopAssitant"
+        },
+        {
+          "id": "https://github.com/fchollet/deep-learning-with-python-notebooks",
+          "author": null,
+          "description": "Jupyter notebooks for the code samples of the book \"Deep Learning with Python\"\n\nCompanion Jupyter notebooks for the book \"Deep Learning with Python\"\n \nThis repository contains Jupyter notebooks implementing the code samples found in the book Deep Learning with Python, 2nd Edition (Manning Publications).\n \nFor readability, these notebooks only contain runnable code blocks and section titles, and omit everything else in the book: text paragraphs, figures, and pseudocode. If you want to be able to follow what's going on, I recommend reading the notebooks side by side with your copy of the book.\n \nThese notebooks use TensorFlow 2.6.\n \nTable of contents\n \n \n \nChapter 2: The mathematical building blocks of neural networks\n \n \nChapter 3: Introduction to Keras and TensorFlow\n \n \nChapter 4: Getting started with neural networks: classification and regression\n \n \nChapter 5: Fundamentals of machine learning\n \n \nChapter 7: Working with Keras: a deep dive\n \n \nChapter 8: Introduction to deep learning for computer vision\n \n \nChapter 9: Advanced deep learning for computer vision \n  \n \n   \nPart 1: Image segmentation\n \n   \nPart 2: Modern convnet architecture patterns\n \n   \nPart 3: Interpreting what convnets learn\n \n  \n  \n \nChapter 10: Deep learning for timeseries\n \n \nChapter 11: Deep learning for text \n  \n \n   \nPart 1: Introduction\n \n   \nPart 2: Sequence models\n \n   \nPart 3: Transformer\n \n   \nPart 4: Sequence-to-sequence learning\n \n  \n  \n \nChapter 12: Generative deep learning \n  \n \n   \nPart 1: Text generation\n \n   \nPart 2: Deep Dream\n \n   \nPart 3: Neural style transfer\n \n   \nPart 4: Variational autoencoders\n \n   \nPart 5: Generative adversarial networks\n \n  \n  \n \nChapter 13: Best practices for the real world\n \n \nChapter 14: Conclusions",
+          "link": "https://github.com/fchollet/deep-learning-with-python-notebooks",
+          "publishedOn": "2021-10-07T00:55:18.736Z",
+          "wordCount": 784,
+          "title": "fchollet/deep-learning-with-python-notebooks"
+        },
+        {
+          "id": "https://github.com/mentebinaria/retoolkit",
+          "author": null,
+          "description": "Reverse Engineer's Toolkit\n\nEnglish | 中文简体 | Français\n \nReverse Engineer's Toolkit\n \nWhat?\n \nThis is a collection of tools you may like if you are interested on reverse engineering and/or malware analysis on x86 and x64 Windows systems. After installing this program, you'll have to ways to access the tools:\n \n \n \nDouble-click the retoolkit icon in the Desktop.\n \n \nRight-click on a file, choose Send to -> retoolkit. This way the selected file is passed as argument to the desired program.\n \n \n\n \nWhy do I need it?\n \nYou don't. Obviously, you can download such tools from their own website and install them by yourself in a new VM. But if you download retoolkit, it can probably save you some time. Additionally, the tools come pre-configured so you'll find things like x64dbg with a few plugins, c…",
+          "link": "https://github.com/mentebinaria/retoolkit",
+          "publishedOn": "2021-10-07T00:55:18.699Z",
+          "wordCount": 854,
+          "title": "mentebinaria/retoolkit"
+        },
+        {
+          "id": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+          "author": null,
+          "description": "A list of Free Software network services and web applications which can be hosted on your own servers\n\nAwesome-Selfhosted\n \n \n \nSelf-hosting is the practice of locally hosting and managing applications instead of renting from SaaSS providers.\n \nThis is a list of Free Software network services and web applications which can be hosted locally. Non-Free software is listed on the Non-Free page.\n \nSee Contributing.\n \n \nTable of contents\n \nClick on the menu icon next to README.md for a list of sections\n \n \nSoftware\n \n \nAnalytics\n \n^ back to top ^\n \nPlease visit Awesome Analytics\n \nRelated: Personal Dashboards\n \nArchiving and Digital Preservation (DP)\n \n^ back to top ^\n \nRelated: Content Management Systems (CMS)\n \n \n \nAccess to Memory (AtoM) - Web-based, open source application for standards-base…",
+          "link": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+          "publishedOn": "2021-10-07T00:55:18.666Z",
+          "wordCount": 24396,
+          "title": "awesome-selfhosted/awesome-selfhosted"
+        },
+        {
+          "id": "https://github.com/microsoft/Git-Credential-Manager-Core",
+          "author": null,
+          "description": "Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.\n\nGit Credential Manager Core\n \n\n \n \nGit Credential Manager Core (GCM Core) is a secure Git credential helper built on .NET that runs on Windows, macOS, and Linux.\n \nCompared to Git's built-in credential helpers (Windows: wincred, macOS: osxkeychain, Linux: gnome-keyring/libsecret) which provides single-factor authentication support working on any HTTP-enabled Git repository, GCM Core provides multi-factor authentication support for Azure DevOps, Azure DevOps Server (formerly Team Foundation Server), GitHub, and Bitbucket.\n \nGit Credential Manager Core (GCM Core) replaces the .NET Framework-based Git Credential Manager for Windows (GCM), and the Java-based Git Cr…",
+          "link": "https://github.com/microsoft/Git-Credential-Manager-Core",
+          "publishedOn": "2021-10-07T00:55:18.485Z",
+          "wordCount": 1549,
+          "title": "microsoft/Git-Credential-Manager-Core"
+        },
+        {
+          "id": "https://github.com/ohmyzsh/ohmyzsh",
+          "author": null,
+          "description": "🙃 A delightful community-driven (with 1900+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, OSX, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.\n\n\n \nOh My Zsh is an open source, community-driven framework for managing your zsh configuration.\n \nSounds boring. Let's try again.\n \nOh My Zsh will not make you a 10x developer...but you may feel like one.\n \nOnce installed, your terminal shell will become the talk of the town or your money back! With each keystroke in your command prompt, you'll take advantage of the hundreds of powerful plugins and beautiful themes. Strangers will come up to you in café…",
+          "link": "https://github.com/ohmyzsh/ohmyzsh",
+          "publishedOn": "2021-10-07T00:55:18.415Z",
+          "wordCount": 2478,
+          "title": "ohmyzsh/ohmyzsh"
+        },
+        {
+          "id": "https://github.com/trufflesuite/truffle",
+          "author": null,
+          "description": "A tool for developing smart contracts. Crafted with the finest cacaos.\n \n   \n \n \nTruffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier. With Truffle, you get:\n \n \n \nBuilt-in smart contract compilation, linking, deployment and binary management.\n \n \nAutomated contract testing with Mocha and Chai.\n \n \nConfigurable build pipeline with support for custom build processes.\n \n \nScriptable deployment & migrations framework.\n \n \nNetwork management for deploying to many public & private networks.\n \n \nInteractive console for direct contract communication.\n \n \nInstant rebuilding of assets during development.\n \n \nExternal script runner that executes scripts within a Truffle environment.\n \n \n \n  \n  \n \n   ℹ️ Contributo…",
+          "link": "https://github.com/trufflesuite/truffle",
+          "publishedOn": "2021-10-07T00:55:18.356Z",
+          "wordCount": 926,
+          "title": "trufflesuite/truffle"
+        },
+        {
+          "id": "https://github.com/abhpd/hacktoberfest2021",
+          "author": null,
+          "description": "🌱 Contribute your favorite 📚 Data Structure implementation, 🕸 Algorithms, and 🎲 Projects. 😊 | Very Active Repository, Star and Share with your friends |\n\n✨ hacktoberfest2021 💫\n \n\n \n🌱 Contributing to hacktoberfest 2021\n \nWelcome to hacktoberfest 2021 Public Repository. 👨🏻‍💻\n \nA month-long celebration from October 1st - 31st sponsored by Digital Ocean and GitHub to get people involved in Open Source. Create your very first pull request to any public repository on GitHub and contribute to the open source developer community. \nhttps://hacktoberfest.digitalocean.com/\n \n \nWhat can You contribute ⚠️\n \n \n \nThere are language Specific folders in the repository choose any you're comfortable with if not, make one.\n \n \nInside the language folder there will be multiple topic folders like Data Structures, Algorithms, Problems and projects.\n \n \nContribute any algorithm, data-structure implementation or your favourite problmes or projects.\n \n \nMake sure your follow the below steps.\n \n \n \nProcess are as follows :-\n \n \n \nLogin using github @ Hacktoberfest\n \n \nCreate four valid pull requests (PRs) between 1st - 31st October\n \n \n \nHow to Contribute to this repository\n \n \n \nFork the repository (Click the Fork button in the top right of this page, click your Profile Image)\n \n \nClone the forked repository to your local machine.\n \n \ngit clone https://github.com/your-username/HacktoberFest2021.git\n\n \n \n \nchange the present working directory\n \n \ncd HacktoberFest2021\n\n \n \n \nAdd/Create your project to the specific folder as described in what you can contribute section.\n \n \nMake a new branch\n \n \ngit checkout -b branch-name\n\n \n \n \nMake change in the repository with the new branch.\n \n \npush the changes.\n \n \ngit add .\ngit commit -m \"Your commit Message\"\ngit push origin branch-name\n\n \n \n \nMake a pull request.\n \n \nStar the repository.\n \n \nNOTE\n \n \n \nMake Sure you commit your changes in a new branch.\n \n \nMake Sure you Give proper name to your files describing the addition.\n \n \nAlso Make Sure you comment your code whereever necessary.",
+          "link": "https://github.com/abhpd/hacktoberfest2021",
+          "publishedOn": "2021-10-07T00:55:18.277Z",
+          "wordCount": 821,
+          "title": "abhpd/hacktoberfest2021"
+        },
+        {
+          "id": "https://github.com/kh4sh3i/ICS-Pentesting-Tools",
+          "author": null,
+          "description": "A curated list of tools related to Industrial Control System (ICS) security and Penetration Testing\n\nICS Pentesting Tools\n \nA curated list of tools related to Industrial Control System (ICS) security and Penetration Testing\n \nFirmware\n \n \n \nOWASP General Firmware Pointers - General pointers that will get you started in understanding embedded systems firmware images.\n \n \nFirmwalker - Script for extracting some useful things from embedded firmware images\n \n \nFirmware Mod Kit - Basic framework for doing firmware modifications\n \n \nFirmadyne - System for emulation and dynamic analysis of Linux-based firmware\n \n \nICSREF - ICSREF is a modular framework that automates the reverse engineering process of CODESYS binaries compiled with the CODESYS v2 compiler.\n \n \nThomas Roth - Embedded Serial Gatewa…",
+          "link": "https://github.com/kh4sh3i/ICS-Pentesting-Tools",
+          "publishedOn": "2021-10-07T00:55:18.215Z",
+          "wordCount": 1260,
+          "title": "kh4sh3i/ICS-Pentesting-Tools"
+        },
+        {
+          "id": "https://github.com/PlummersSoftwareLLC/NightDriverStrip",
+          "author": null,
+          "description": "NightDriver client for ESP32\n\nNightDriverStrip\n \n\n \n \nDavepl, 9/19/2021\n \n \n \nSee Discussions for questions and comments.\n \n \nSee source code and COPYING.txt for detailed technical and licensing information including versions.\n \n \nWhat NightDriverStrip is\n \nNightDriverStrip is a source code package for building a flash program that you upload to the ESP32 microcontroller. It can drive up to 8 channels of WS2812B style LEDs connected to the chip pins and display fancy colors and patterns and designs on them. There are numerous effects built in that can be configured to be shown on the LED strip, including audio/music/beat-reactive effects for modules equipped with a microphone. It can also optionally receive color data for the LEDs in a simple LZ-compressed (or noncompressed) format over a …",
+          "link": "https://github.com/PlummersSoftwareLLC/NightDriverStrip",
+          "publishedOn": "2021-10-07T00:55:18.177Z",
+          "wordCount": 1917,
+          "title": "PlummersSoftwareLLC/NightDriverStrip"
+        },
         {
           "id": "https://github.com/ocornut/imgui",
           "author": null,
