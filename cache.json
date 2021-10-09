@@ -31,6 +31,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=64963",
+          "author": "Jessie",
+          "description": "Originally published on the Msys Technologies blog If you’re a SaaS entrepreneur or you’re looking to build a SaaS application, in that case, you may already be aware of the fact that...",
+          "link": "https://www.cncf.io/blog/2021/10/08/7-ways-to-mitigate-your-saas-application-security-risks/",
+          "publishedOn": "2021-10-08T15:00:00.000Z",
+          "wordCount": 1348,
+          "title": "7 Ways to mitigate your SaaS application security risks"
+        },
+        {
           "id": "https://www.cncf.io/?p=64926",
           "author": "Jessie",
           "description": "Guest post originally published on CloudWeGo’s blog by ByteDance Architecture Team Background ByteDance is proud to announce the launch of open source software CloudWeGo. Focusing on microservice communication and governance, it offers high...",
@@ -299,29 +308,6 @@
           "publishedOn": "2021-09-09T15:00:00.000Z",
           "wordCount": 1512,
           "title": "How to detect runtime threats in Kubernetes"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64499",
-          "author": "Katie Meinders",
-          "description": "With global data creation predicted to hit 180 zettabytes by 2025, leading data storage provider Seagate needed to introduce greater automation at immense scale to its operations, to ensure it could keep...",
-          "link": "https://www.cncf.io/blog/2021/09/08/how-seagate-runs-real-time-analytics-at-the-edge/",
-          "publishedOn": "2021-09-08T15:01:00.000Z",
-          "wordCount": 797,
-          "title": "How Seagate runs real-time analytics at the Edge"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64496",
-          "author": "Jessie",
-          "description": "Guest post from SUSE originally published on the SUSE community page In Episode 1 of the OCTOpod, Alan Clark talks with Thierry Carrez about open source communities: what they are, how they...",
-          "link": "https://www.cncf.io/blog/2021/09/08/octopod-episode-1-what-is-an-open-source-community/",
-          "publishedOn": "2021-09-08T15:00:00.000Z",
-          "wordCount": 4454,
-          "title": "Octopod Episode 1: What is an open source community?",
-          "enclosure": {
-            "url": "https://episodes.buzzsprout.com/x3fb1kpqf50yl06v52ww8x2543dp",
-            "length": "16680266",
-            "type": ""
-          }
         }
       ]
     },
@@ -346,6 +332,105 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/psf/black",
+          "author": null,
+          "description": "The uncompromising Python code formatter\n\n\n \nThe Uncompromising Code Formatter\n \n          \n \n \n \n“Any color you like.”\n \n \nBlack is the uncompromising Python code formatter. By using it, you agree to cede control over minutiae of hand-formatting. In return, Black gives you speed, determinism, and freedom from pycodestyle nagging about formatting. You will save time and mental energy for more important matters.\n \nBlackened code looks the same regardless of the project you're reading. Formatting becomes transparent after a while and you can focus on the content instead.\n \nBlack makes code review faster by producing the smallest diffs possible.\n \nTry it out now using the Black Playground. Watch the PyCon 2019 talk to learn more.\n \n \nRead the documentation on ReadTheDocs!\n \n \nInstallation and…",
+          "link": "https://github.com/psf/black",
+          "publishedOn": "2021-10-09T00:51:29.037Z",
+          "wordCount": 1809,
+          "title": "psf/black"
+        },
+        {
+          "id": "https://github.com/projectdiscovery/nuclei-templates",
+          "author": null,
+          "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.\n\n Nuclei Templates \n \nCommunity curated list of templates for the nuclei engine to find security vulnerabilities in applications.\n \n     \n \n Documentation • Contributions • Discussion • Community • FAQs • Join Discord \n \n \nTemplates are the core of the nuclei scanner which powers the actual scanning engine. This repository stores and houses various templates for the scanner provided by our team, as well as contributed by the community. We hope that you also contribute by sending templates via pull requests or Github issues to grow the list.\n \nNuclei Templates overview\n \nAn overview of the nuclei template project, including statistics on unique tags, author, directory, severity, and type of templates…",
+          "link": "https://github.com/projectdiscovery/nuclei-templates",
+          "publishedOn": "2021-10-09T00:51:28.971Z",
+          "wordCount": 1052,
+          "title": "projectdiscovery/nuclei-templates"
+        },
+        {
+          "id": "https://github.com/SAP-samples/devtoberfest-2021",
+          "author": null,
+          "description": "The home of Devtoberfest 2021 - an open celebration of what us developers do - coding and collaboration!\n\nDevtoberfest 2021 from SAP\n \n \n \n\n \n \nDescription\n \nDevtoberfest is a 6-week event, leading up to SAP TechEd. This event is to be seen as a celebration of and for Developers. Every developer is welcome to join 6 weeks of tech talks, guest speakers, community contribution through a gamified learning journey with prizes, and celebratory events.\n \nRead more about the event in the kick-off blog post\n \nRegistration: Devtoberfest Eventbite Registration Page\n \nDiscord: Devtoberfest Gaming Night Server\n \nRegister for the event on Eventbrite to recieve all the latest notifications about Devtoberfest. Registration is also required to be entered in the Contest aspects of Devtoberfest.\n \nKey Dates…",
+          "link": "https://github.com/SAP-samples/devtoberfest-2021",
+          "publishedOn": "2021-10-09T00:51:28.854Z",
+          "wordCount": 1008,
+          "title": "SAP-samples/devtoberfest-2021"
+        },
+        {
+          "id": "https://github.com/ansible/ansible",
+          "author": null,
+          "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.\n\n|PyPI version| |Docs badge| |Chat badge| |Build Status| |Code Of Conduct| |Mailing Lists| |License| |CII Best Practices|\n \n \nAnsible\n \n \nAnsible is a radically simple IT automation system. It handles configuration management, application deployment, cloud provisioning, ad-hoc task execution, network automation, and multi-node orchestration. Ansible makes complex changes like zero-downtime rolling updates with load balancers easy. More information on the An…",
+          "link": "https://github.com/ansible/ansible",
+          "publishedOn": "2021-10-09T00:51:28.771Z",
+          "wordCount": 1191,
+          "title": "ansible/ansible"
+        },
+        {
+          "id": "https://github.com/poteto/hiring-without-whiteboards",
+          "author": null,
+          "description": "⭐️ Companies that don't have a broken hiring process\n\nHiring Without Whiteboards\n \nA list of companies (or teams) that don't do \"whiteboard\" interviews. \"Whiteboards\" is used as a metaphor, and is a symbol for the kinds of CS trivia questions that are associated with bad interview practices. Whiteboards are not bad – CS trivia questions are. Using sites like HackerRank/LeetCode probably fall into a similar category.\n \nThe companies and teams listed here use interview techniques and questions that resemble day-to-day work. For example, pairing on a real world problem or a paid/unpaid take home exercise. Read (and contribute to) our recommendations for ways to conduct better interviews.\n \ntl;dr\n \n \n \nDiscussing a real world problem (with or without whiteboard) is 👍\n \n \nSolving CS trivia, te…",
+          "link": "https://github.com/poteto/hiring-without-whiteboards",
+          "publishedOn": "2021-10-09T00:51:28.721Z",
+          "wordCount": 19186,
+          "title": "poteto/hiring-without-whiteboards"
+        },
+        {
+          "id": "https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation",
+          "author": null,
+          "description": "This repository contains all the DSA (Data-Structures, Algorithms, 450 DSA by Love Babbar Bhaiya, FAANG Questions), Technical Subjects (OS + DBMS + SQL + CN + OOPs) Theory+Questions, FAANG Interview questions, and Miscellaneous Stuff (Programming MCQs, Puzzles, Aptitude, Reasoning). The Programming languages used for demonstration are C++, Pytho…\n\n  \n \n  --> \n\n \n   Full Repository Status   \n \n  \n \n  \n \n[![Discussion Tab](https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation/blob/master/images/Discussion%20Tab.PNG)](https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation/discussions) --> \n \n                            \n             \n \n \n🏆 The Complete FAANG Preparation 🏆\n \nThis repository contains all the DSA (Data-Structures, Algorithms, 450 DSA by Love Babbar Bhaiya,…",
+          "link": "https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation",
+          "publishedOn": "2021-10-09T00:51:28.618Z",
+          "wordCount": 3295,
+          "title": "AkashSingh3031/The-Complete-FAANG-Preparation"
+        },
+        {
+          "id": "https://github.com/odoo/odoo",
+          "author": null,
+          "description": "Odoo. Open Source Apps To Grow Your Business.\n\n   \n \nOdoo\n \nOdoo is a suite of web based open source business apps.\n \nThe main Odoo Apps include an Open Source CRM, Website Builder, eCommerce, Warehouse Management, Project Management, Billing & Accounting, Point of Sale, Human Resources, Marketing, Manufacturing, ...\n \nOdoo Apps can be used as stand-alone applications, but they also integrate seamlessly so you get a full-featured Open Source ERP when you install several Apps.\n \nGetting started with Odoo\n \nFor a standard installation please follow the Setup instructions from the documentation.\n \nTo learn the software, we recommend the Odoo eLearning, or Scale-up, the business game. Developers can start with the developer tutorials",
+          "link": "https://github.com/odoo/odoo",
+          "publishedOn": "2021-10-09T00:51:28.388Z",
+          "wordCount": 696,
+          "title": "odoo/odoo"
+        },
+        {
+          "id": "https://github.com/unlock-music/unlock-music",
+          "author": null,
+          "description": "Unlock encrypted music file in browser. 在浏览器中解锁加密的音乐文件。\n\nUnlock Music 音乐解锁\n \n \n \n在浏览器中解锁加密的音乐文件。 Unlock encrypted music file in the browser.\n \n \nunlock-music项目是以学习和技术研究的初衷创建的，修改、再分发时请遵循License\n \n \nUnlock Music的CLI版本正在开发中。\n \n \n我们新建了Telegram群组，欢迎加入！https://t.me/unlock_music_chat\n \n \nCLI版本 Alpha 大批量转换建议使用CLI版本\n \n \n相关的其他项目\n \n \n  \n \n特性\n \n支持的格式\n \n \n \n QQ音乐 (.qmc0/.qmc2/.qmc3/.qmcflac/.qmcogg/.tkm) \n  \n \n   \n 写入封面图片\n \n  \n  \n \n Moo音乐格式 (.bkcmp3/.bkcflac)\n \n \n QQ音乐Tm格式 (.tm0/.tm2/.tm3/.tm6)\n \n \n QQ音乐新格式 (实验性支持) \n  \n \n   \n .mflac\n \n   \n .mgg\n \n  \n  \n \n 虾米音乐格式 (.xm) (测试阶段)\n \n \n 酷我音乐格式 (.kwm) (测试阶段)\n \n \n 酷狗音乐格式 ( .kgm) (CLI版本)\n \n \n其他特性\n \n \n \n 在浏览器中解锁\n \n \n 拖放文件\n \n \n 在线播放\n \n \n 批量解锁\n \n \n 渐进式Web应用\n \n \n 多线程\n \n \n使用方法\n \n安装浏览器扩展\n \n  \n \n使用已构建版本\n \n \n \n从GitHub Release下载已构建的版本 \n  \n \n   \n本地使用请下载legacy版本（modern版本只能通过http/https协议访问）\n \n  \n  \n \n解压缩后即可部署或本地使用（请勿直接运行源代码）\n \n \n使用Docker镜像\n \ndocker run --name unlock-music -d -p 8080:80 ix64/unlock-music\n\n \n自行构建\n \n \n \n环境要求 \n  \n \n   \nnodejs\n \n   \nnpm\n \n  \n  \n \n \n \n获取项目源代码后执行 npm install 安装相关依赖\n \n \n执行 npm run build 即可进行构建，构建输出为 dist 目录\n \n \n \n \nnpm run serve 可用于开发\n \n \n \n \n如需构建浏览器扩展，build完成后还需要执行npm run make-extension",
+          "link": "https://github.com/unlock-music/unlock-music",
+          "publishedOn": "2021-10-09T00:51:28.236Z",
+          "wordCount": 598,
+          "title": "unlock-music/unlock-music"
+        },
+        {
+          "id": "https://github.com/vercel/next.js",
+          "author": null,
+          "description": "The React Framework\n\n   \nNext.js\n  \n\n \n             \n \nGetting Started\n \nVisit https://nextjs.org/learn to get started with Next.js.\n \nDocumentation\n \nVisit https://nextjs.org/docs to view the full documentation.\n \nWho is using Next.js?\n \nNext.js is used by the world's leading companies. Check out the Next.js Showcase to learn more.\n \nCommunity\n \nThe Next.js community can be found on GitHub Discussions, where you can ask questions, voice ideas, and share your projects.\n \nTo chat with other community members you can join the Next.js Discord.\n \nOur Code of Conduct applies to all Next.js community channels.\n \nContributing\n \nPlease see our contributing.md.\n \nGood First Issues\n \nWe have a list of good first issues that contain bugs which have a relatively limited scope. This is a great place to get started, gain experience, and get familiar with our contribution process.\n \nAuthors\n \n \n \nTim Neutkens (@timneutkens) – Vercel\n \n \nNaoyuki Kanezawa (@nkzawa) – Vercel\n \n \nGuillermo Rauch (@rauchg) – Vercel\n \n \nArunoda Susiripala (@arunoda)\n \n \nTony Kovanen (@tonykovanen)\n \n \nDan Zajdband (@impronunciable)",
+          "link": "https://github.com/vercel/next.js",
+          "publishedOn": "2021-10-09T00:51:28.196Z",
+          "wordCount": 1016,
+          "title": "vercel/next.js"
+        },
+        {
+          "id": "https://github.com/leerob/leerob.io",
+          "author": null,
+          "description": "✨ My portfolio built with Next.js, Tailwind, Prisma, and Vercel.\n\n\n \nleerob.io\n \n \n \nFramework: Next.js\n \n \nDatabase: PlanetScale\n \n \nORM: Prisma\n \n \nAuthentication: NextAuth.js\n \n \nDeployment: Vercel\n \n \nContent: MDX\n \n \nStyling: Tailwind CSS\n \n \nOverview\n \n \n \npages/api/* - API routes powering /dashboard, newsletter subscription, and post views.\n \n \npages/blog/* - Static pre-rendered blog pages using MDX.\n \n \npages/dashboard - Personal dashboard containing metrics like sales, views, and subscribers.\n \n \npages/* - All other static pages.\n \n \nRunning Locally\n \n$ git clone https://github.com/leerob/leerob.io.git\n$ cd leerob.io\n$ yarn\n$ yarn dev\n\n \nCreate a .env file similar to .env.example.",
+          "link": "https://github.com/leerob/leerob.io",
+          "publishedOn": "2021-10-09T00:51:27.998Z",
+          "wordCount": 684,
+          "title": "leerob/leerob.io"
+        },
+        {
+          "id": "https://github.com/mvpsbr/livrocsharp",
+          "author": null,
+          "description": "Códigos Demos do Livro C# para Iniciantes\n \n\n \nRepositório responsável pelos códigos desenvolvidos no livro C# para Iniciantes - DOWNLOAD AQUI\n \nO livro é totalmente grátis e foi desenvolvido pela Comunidade para a Comunidade!\n \n🏃 Colaboradores\n \nEsse projeto foi desenvolvido pela Comunidade para a Comunidade Técnica Brasileira. Abaixo segue as pessoas que contribuíram para o projeto:\n \n \n \n✅ André Carlucci - RD & Global Director of Application Engineering\n \n \n✅ Carlos dos Santos - MVP & P&D - Software Developer and Architect\n \n \n✅ Claudenir Andrade - RD MVP & Tech Director\n \n \n✅ Rafael Almeida - MVP & Principal Software Engineer\n \n \n✅ Ray Carneiro - Sr. Partner Technical Consultant – Azure na Microsoft\n \n \n✅ Renato Haddad - MVP & .NET Developer e Especialista em Power BI\n \n \n🚀 Recursos Utilizados\n \n \n \nVisual Studio - Download\n \n \nVisual Studio Code - Segunda Opção\n \n \n.NET (Windows, Linux ou macOS)\n \n \nExtensão Visual Studio Code - C#\n \n \nCaso sintam dificuldades para executar suas primeiras linhas de código em C# no Visual Studio Code, deixaremos abaixo dois recursos que possam te auxiliar a preparar o ambiente de desenvolvimento para seguir os códigos de exemplos do livro:\n \n \n \n .NET Tutorial - Hello World in 5 minutes\n  \n \n Get started with VS Code using C# and .NET Core on Windows - Video\n  \n \n❗️ Links & Recursos Importantes\n \n \n \n✅ Documentação Oficial do C#\n \n \n✅ Página Oficial do C#\n \n \n✅ Site Oficial DotNET - Learn .NET\n \n \n✅ C# no Visual Studio Code\n \n \n✅ Cursos Grátis C# - Microsoft Learn\n \n \n❓ Tenho Dúvidas... O que Faço?!\n \nCaso tenham dúvidas aos códigos desenvolvidos durante a série de vídeos, sintam-se à vontade em abrir uma ISSUE AQUI. Assim que possível, estaremos respondendo a todas as dúvidas que tiverem!",
+          "link": "https://github.com/mvpsbr/livrocsharp",
+          "publishedOn": "2021-10-09T00:51:27.773Z",
+          "wordCount": 741,
+          "title": "mvpsbr/livrocsharp"
+        },
         {
           "id": "https://github.com/rwightman/pytorch-image-models",
           "author": null,
