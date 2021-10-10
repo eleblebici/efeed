@@ -2,10 +2,729 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-09T00:51:29.613Z</updated>
+    <updated>2021-10-10T00:55:23.773Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[angular/angular]]></title>
+        <id>https://github.com/angular/angular</id>
+        <link href="https://github.com/angular/angular"/>
+        <updated>2021-10-10T00:55:23.748Z</updated>
+        <summary type="html"><![CDATA[The modern web developer’s platform
+
+Angular - The modern web developer's platform.
+ 
+  
+ Angular is a development platform for building mobile and desktop web applications 
+ using Typescript/JavaScript and other languages. 
+  
+ www.angular.io 
+  
+ Contributing Guidelines · Submit an Issue · Blog 
+  
+ 
+            
+ 
+ 
+Documentation
+ 
+Get started with Angular, learn the fundamentals and explore advanced topics on our documentation website.
+ 
+ 
+ 
+Getting Started
+ 
+ 
+Architecture
+ 
+ 
+Components and Templates
+ 
+ 
+Forms
+ 
+ 
+API
+ 
+ 
+Advanced
+ 
+ 
+ 
+Angular Elements
+ 
+ 
+Server Side Rendering
+ 
+ 
+Schematics
+ 
+ 
+Lazy Loading
+ 
+ 
+Development Setup
+ 
+Prerequisites
+ 
+ 
+ 
+Install Node.js which includes Node Package Manager
+ 
+ 
+Setting Up a Project
+ 
+Install the Angular CLI globally:
+ 
+npm install -g @angular/cli
+
+ 
+Create workspace:
+ 
+ng new [PROJECT NAME]
+
+ 
+Run the application:
+ 
+cd [PROJECT NAME]
+ng serve
+
+ 
+Angular is cross-platform, fast, scalable, has incredible tooling, and is loved by millions.
+ 
+Quickstart
+ 
+Get started in 5 minutes.
+ 
+Ecosystem
+ 
+  
+ 
+ 
+ 
+Angular Command Line (CLI)
+ 
+ 
+Angular Material
+ 
+ 
+Changelog
+ 
+Learn about the latest improvements.
+ 
+Upgrading
+ 
+Check out our upgrade guide to find out the best way to upgrade your project.
+ 
+Contributing
+ 
+Contributing Guidelines
+ 
+Read through our contributing guidelines to learn about our submission process, coding rules and more.
+ 
+Want to Help?
+ 
+Want to file a bug, contribute some code, or improve documentation? Excellent! Read up on our guidelines for contributing and then check out one of our issues labeled as help wanted or good first issue.
+ 
+Code of Conduct
+ 
+Help us keep Angular open and inclusive. Please read and follow our Code of Conduct.
+ 
+Community
+ 
+Join the conversation and help the community.
+ 
+ 
+ 
+Twitter
+ 
+ 
+Discord
+ 
+ 
+Gitter
+ 
+ 
+YouTube
+ 
+ 
+StackOverflow
+ 
+ 
+Find a Local Meetup
+ 
+ 
+
+ 
+Love Angular? Give our repo a star ⭐ ⬆.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[trailofbits/algo]]></title>
+        <id>https://github.com/trailofbits/algo</id>
+        <link href="https://github.com/trailofbits/algo"/>
+        <updated>2021-10-10T00:55:23.578Z</updated>
+        <summary type="html"><![CDATA[Set up a personal VPN in the cloud
+
+Algo VPN
+ 
+ 
+ 
+Algo VPN is a set of Ansible scripts that simplify the setup of a personal WireGuard and IPsec VPN. It uses the most secure defaults available and works with common cloud providers. See our release announcement for more information.
+ 
+Features
+ 
+ 
+ 
+Supports only IKEv2 with strong crypto (AES-GCM, SHA2, and P-256) for iOS, macOS, and Linux
+ 
+ 
+Supports WireGuard for all of the above, in addition to Android and Windows 10
+ 
+ 
+Generates .conf files and QR codes for iOS, macOS, Android, and Windows WireGuard clients
+ 
+ 
+Generates Apple profiles to auto-configure iOS and macOS devices for IPsec - no client software required
+ 
+ 
+Includes a helper script to add and remove users
+ 
+ 
+Blocks ads with a local DNS resolver (optional)
+ 
+ 
+Sets up limi…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[arkenfox/user.js]]></title>
+        <id>https://github.com/arkenfox/user.js</id>
+        <link href="https://github.com/arkenfox/user.js"/>
+        <updated>2021-10-10T00:55:23.258Z</updated>
+        <summary type="html"><![CDATA[Firefox privacy, security and anti-fingerprinting: a comprehensive user.js template for configuration and hardening
+
+🟪 user.js
+ 
+A user.js is a configuration file that can control hundreds of Firefox settings. For a more technical breakdown and explanation, you can read more on the overview wiki page.
+ 
+🟩 the arkenfox user.js
+ 
+
+ 
+The arkenfox user.js is a template which aims to provide as much privacy and enhanced security as possible, and to reduce tracking and fingerprinting as much as possible - while minimizing any loss of functionality and breakage (but it will happen).
+ 
+Everyone, experts included, should at least read the implementation wiki page, as it contains important information regarding a few user.js settings.
+ 
+Note that we do not recommend connecting over Tor on Firefox. Use the Tor Browser if your threat model calls for it, or for accessing hidden services.
+ 
+Also be aware that the arkenfox user.js is made specifically for desktop Firefox. Using it as-is in other Gecko-based browsers can be counterproductive, especially in the Tor Browser.
+ 
+🟧 sitemap
+ 
+ 
+ 
+releases
+ 
+ 
+changelogs
+ 
+ 
+wiki
+ 
+ 
+stickies
+ 
+ 
+diffs
+ 
+ 
+🟥 acknowledgments
+ 
+Literally thousands of sources, references and suggestions. Many thanks, and much appreciated.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WordPress/twentytwentytwo]]></title>
+        <id>https://github.com/WordPress/twentytwentytwo</id>
+        <link href="https://github.com/WordPress/twentytwentytwo"/>
+        <updated>2021-10-10T00:55:23.225Z</updated>
+        <summary type="html"><![CDATA[Twenty Twenty-Two, the default WordPress theme that will launch with WordPress 5.9.
+
+Twenty Twenty-Two
+ 
+Welcome to the development repository for the default theme that will launch with WordPress 5.9.
+ 
+ 
+About
+ 
+Twenty Twenty-Two is designed to be the most flexible default theme ever created for WordPress. It's built for full site editing first as a block theme. The theme aims to ship with as little CSS as possible: our goal is for all theme styles to be configured through theme.json and editable through Global Styles. The theme development team will work closely with Gutenberg contributors to build design tools in the block editor that enable this goal.
+ 
+Contributing
+ 
+If you would like to contribute code, the list of open issues is a great place to start looking for tasks. Pull reques…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[aws/jsii]]></title>
+        <id>https://github.com/aws/jsii</id>
+        <link href="https://github.com/aws/jsii"/>
+        <updated>2021-10-10T00:55:23.011Z</updated>
+        <summary type="html"><![CDATA[jsii allows code in any language to naturally interact with JavaScript classes. It is the technology that enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase!
+
+
+ 
+    
+ 
+Overview
+ 
+jsii allows code in any language to naturally interact with JavaScript classes. It is the technology that enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase!
+ 
+A class library written in TypeScript can be used in projects authored in TypeScript or Javascript (as usual), but also in Python, Java, C# (and other languages from the .NET family), ...
+ 
+❓ Documentation
+ 
+Head over to our documentation website!
+ 
+📖 Blog Posts
+ 
+Here's a collection of blog posts (in chronological order) related to jsii:
+ 
+ 
+ 
+2020-01-11:  How to Create CDK C…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[argoproj/argo-cd]]></title>
+        <id>https://github.com/argoproj/argo-cd</id>
+        <link href="https://github.com/argoproj/argo-cd"/>
+        <updated>2021-10-10T00:55:22.916Z</updated>
+        <summary type="html"><![CDATA[Declarative continuous deployment for Kubernetes.
+
+    
+ 
+Argo CD - Declarative Continuous Delivery for Kubernetes
+ 
+What is Argo CD?
+ 
+Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.
+ 
+
+ 
+
+ 
+Why Argo CD?
+ 
+ 
+ 
+Application definitions, configurations, and environments should be declarative and version controlled.
+ 
+ 
+Application deployment and lifecycle management should be automated, auditable, and easy to understand.
+ 
+ 
+Who uses Argo CD?
+ 
+Official Argo CD user list
+ 
+Documentation
+ 
+To learn more about Argo CD go to the complete documentation. Check live demo at https://cd.apps.argoproj.io/.
+ 
+Community
+ 
+Contribution, Discussion and Support
+ 
+You can reach the Argo CD community and developers via the following channels:
+ 
+ 
+ 
+Q & A : Github Discussions
+ 
+ 
+Ch…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[tristanhimmelman/ObjectMapper]]></title>
+        <id>https://github.com/tristanhimmelman/ObjectMapper</id>
+        <link href="https://github.com/tristanhimmelman/ObjectMapper"/>
+        <updated>2021-10-10T00:55:22.865Z</updated>
+        <summary type="html"><![CDATA[Simple JSON Object mapping written in Swift
+
+ObjectMapper
+ 
+   
+ 
+ObjectMapper is a framework written in Swift that makes it easy for you to convert your model objects (classes and structs) to and from JSON.
+ 
+ 
+ 
+Features
+ 
+ 
+The Basics
+ 
+ 
+Mapping Nested Objects
+ 
+ 
+Custom Transformations
+ 
+ 
+Subclassing
+ 
+ 
+Generic Objects
+ 
+ 
+Mapping Context
+ 
+ 
+ObjectMapper + Alamofire
+ 
+ 
+ObjectMapper + Realm
+ 
+ 
+Projects using ObjectMapper
+ 
+ 
+To Do
+ 
+ 
+Contributing
+ 
+ 
+Installation
+ 
+ 
+Features:
+ 
+ 
+ 
+Mapping JSON to objects
+ 
+ 
+Mapping objects to JSON
+ 
+ 
+Nested Objects (stand alone, in arrays or in dictionaries)
+ 
+ 
+Custom transformations during mapping
+ 
+ 
+Struct support
+ 
+ 
+Immutable support
+ 
+ 
+The Basics
+ 
+To support mapping, a class or struct just needs to implement the Mappable protocol whi…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[lvgl/lvgl]]></title>
+        <id>https://github.com/lvgl/lvgl</id>
+        <link href="https://github.com/lvgl/lvgl"/>
+        <updated>2021-10-10T00:55:22.821Z</updated>
+        <summary type="html"><![CDATA[Powerful and easy-to-use embedded GUI library with many widgets, advanced visual effects (opacity, antialiasing, animations) and low memory requirements (16K RAM, 64K Flash).
+
+ LVGL - Light and Versatile Graphics Library
+ 
+  
+ 
+ LVGL provides everything you need to create an embedded GUI with easy-to-use graphical elements, beautiful visual effects and a low memory footprint. 
+ 
+ Website  · Docs · Forum · Services · Interactive examples 
+ 
+ 
+Table of content
+ 
+ 
+ 
+Overview
+ 
+ 
+Get started
+ 
+ 
+Examples
+ 
+ 
+Services
+ 
+ 
+Contributing
+ 
+ 
+Overview
+ 
+Features
+ 
+ 
+ 
+Powerful building blocks: buttons, charts, lists, sliders, images, etc.
+ 
+ 
+Advanced graphics engine: animations, anti-aliasing, opacity, smooth scrolling, blending modes, etc
+ 
+ 
+Supports various input devices: touchscreen, mouse, k…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[wireshark/wireshark]]></title>
+        <id>https://github.com/wireshark/wireshark</id>
+        <link href="https://github.com/wireshark/wireshark"/>
+        <updated>2021-10-10T00:55:22.764Z</updated>
+        <summary type="html"><![CDATA[Read-only mirror of Wireshark's Git repository at https://gitlab.com/wireshark/wireshark. GitHub won't let us disable pull requests. ☞ THEY WILL BE IGNORED HERE ☜ Please upload them at GitLab.
+
+General Information
+ 
+Wireshark is a network traffic analyzer, or "sniffer", for Linux, macOS, *BSD and other Unix and Unix-like operating systems and for Windows. It uses Qt, a graphical user interface library, and libpcap and npcap as packet capture and filtering libraries.
+ 
+The Wireshark distribution also comes with TShark, which is a line-oriented sniffer (similar to Sun's snoop or tcpdump) that uses the same dissection, capture-file reading and writing, and packet filtering code as Wireshark, and with editcap, which is a program to read capture files and write the packets from that capture fil…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vapor/vapor]]></title>
+        <id>https://github.com/vapor/vapor</id>
+        <link href="https://github.com/vapor/vapor"/>
+        <updated>2021-10-10T00:55:22.661Z</updated>
+        <summary type="html"><![CDATA[💧 A server-side Swift HTTP web framework.
+ 
+ 
+ 
+                   
+ 
+ 
+Vapor is an HTTP web framework for Swift. It provides a beautifully expressive and easy-to-use foundation for your next website, API, or cloud project.
+ 
+Take a look at some of the awesome stuff created with Vapor.
+ 
+💧 Community
+ 
+Join the welcoming community of fellow Vapor developers on Discord.
+ 
+🚀 Contributing
+ 
+To contribute a feature or idea to Vapor, create an issue explaining your idea or bring it up on Discord.
+ 
+If you find a bug, please create an issue.
+ 
+If you find a security vulnerability, please contact security@vapor.codes as soon as possible.
+ 
+💛 Sponsors
+ 
+Support Vapor's development by becoming a sponsor.
+ 
+   
+   
+   
+   
+   
+   
+   
+   
+💚 Backers
+ 
+Support Vapor's development by becoming a backer.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[hashicorp/boundary]]></title>
+        <id>https://github.com/hashicorp/boundary</id>
+        <link href="https://github.com/hashicorp/boundary"/>
+        <updated>2021-10-10T00:55:22.582Z</updated>
+        <summary type="html"><![CDATA[Boundary enables identity-based access management for dynamic infrastructure.
+
+Boundary
+ 
+ 
+ 
+Please note: We take Boundary's security and our users' trust very seriously. If you believe you have found a security issue in Boundary, please responsibly disclose by contacting us at security@hashicorp.com.
+ 
+ 
+Boundary provides simple and secure access to hosts and services.
+ 
+Traditional approaches like SSH bastion hosts or VPNs require distributing and managing credentials, configuring network controls like firewalls, and exposing the private network. Boundary provides a secure way to access hosts and critical systems without having to manage credentials or expose your network, and is entirely open source.
+ 
+Boundary is designed to be straightforward to understand, highly scalable, and resil…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[raywenderlich/flta-materials]]></title>
+        <id>https://github.com/raywenderlich/flta-materials</id>
+        <link href="https://github.com/raywenderlich/flta-materials"/>
+        <updated>2021-10-10T00:55:22.535Z</updated>
+        <summary type="html"><![CDATA[The projects and the materials that accompany the Flutter Apprentice book
+
+Flutter Apprentice: Materials
+ 
+This repo contains all the downloadable materials and projects associated with the Flutter Apprentice from raywenderlich.com.
+ 
+Each edition has its own branch, named editions/[EDITION]. The default branch for this repo is for the most recent edition.
+ 
+Forum
+ 
+We’ve set up an official forum for the book at https://forums.raywenderlich.com/c/books/flutter-apprentice. This is a great place to ask questions about the book or to submit any errors you may find.
+ 
+Release History
+ 
+ 
+  
+  
+ 
+   Branch 
+   Edition 
+   Release Date 
+  
+ 
+  
+  
+  
+ 
+   editions/1.0 
+   1.0 
+   2021-06-02 
+  
+ 
+  
+ 
+   editions/2.0 
+   2.0 
+   2021-10-06]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[gnuradio/gnuradio]]></title>
+        <id>https://github.com/gnuradio/gnuradio</id>
+        <link href="https://github.com/gnuradio/gnuradio"/>
+        <updated>2021-10-10T00:55:22.492Z</updated>
+        <summary type="html"><![CDATA[GNU Radio – the Free and Open Software Radio Ecosystem
+
+  
+ 
+    
+ 
+GNU Radio is a free & open-source software development toolkit that provides signal processing blocks to implement software radios. It can be used with readily-available, low-cost external RF hardware to create software-defined radios, or without hardware in a simulation-like environment. It is widely used in hobbyist, academic, and commercial environments to support both wireless communications research and real-world radio systems.
+ 
+Please visit the GNU Radio website at https://www.gnuradio.org/ and the wiki at https://wiki.gnuradio.org/. Bugs and feature requests are tracked on GitHub's Issue Tracker. If you have questions about GNU Radio, please search the discuss-gnuradio mailing list archive, as many questions have …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[isometimes/rpi4-osdev]]></title>
+        <id>https://github.com/isometimes/rpi4-osdev</id>
+        <link href="https://github.com/isometimes/rpi4-osdev"/>
+        <updated>2021-10-10T00:55:22.439Z</updated>
+        <summary type="html"><![CDATA[Tutorial: Writing a "bare metal" operating system for Raspberry Pi 4
+
+Writing a "bare metal" operating system for Raspberry Pi 4
+ 
+Introduction
+ 
+As a tech CEO @RealVNC, I don't write code any more. And I've recently realised just how much I miss it.
+ 
+Currently in the throes of a nationwide "lockdown" due to Covid-19 (and having been spared my usual commute), I've found myself with more hours in the day. I have taken this time for myself and used it to fulfil a childhood ambition - to write a bare metal operating system that runs on commercial hardware.
+ 
+What does bare metal mean?
+ 
+When we buy a computer or a tablet/smartphone it typically comes with some basic software pre-installed. You'll likely be familiar with watching Microsoft Windows, Mac OS, iOS, Android or maybe even Linux sta…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hack-with-Github/Awesome-Hacking]]></title>
+        <id>https://github.com/Hack-with-Github/Awesome-Hacking</id>
+        <link href="https://github.com/Hack-with-Github/Awesome-Hacking"/>
+        <updated>2021-10-10T00:55:22.341Z</updated>
+        <summary type="html"><![CDATA[A collection of various awesome lists for hackers, pentesters and security researchers
+
+
+ 
+Awesome Hacking 
+ 
+A collection of awesome lists for hackers, pentesters & security researchers.
+ 
+Your contributions are always welcome !
+ 
+Awesome Repositories
+ 
+ 
+  
+  
+ 
+   Repository 
+   Description 
+  
+ 
+  
+  
+  
+ 
+   Android Security 
+   Collection of Android security related resources 
+  
+ 
+  
+ 
+   AppSec 
+   Resources for learning about application security 
+  
+ 
+  
+ 
+   Asset Discovery 
+   List of resources which help during asset discovery phase of a security assessment engagement 
+  
+ 
+  
+ 
+   Bug Bounty 
+   List of Bug Bounty Programs and write-ups from the Bug Bounty hunters 
+  
+ 
+  
+ 
+   Capsulecorp Pentest 
+   Vagrant+Ansible virtual network penetration testing lab. Companion to "The …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[psf/black]]></title>
         <id>https://github.com/psf/black</id>
@@ -15168,16 +15887,6 @@ Thank you @ad-m]]></summary>
         <link href="https://www.cncf.io/blog/2021/09/10/prometheus-ha-with-thanos-sidecar-or-receiver/"/>
         <updated>2021-09-10T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[Guest post originally published on InfraCloud’s blog by Tayyab Jamadar Prometheus has been the flag bearer for monitoring the systems for a long time now. It has proved itself as a go-to...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to detect runtime threats in Kubernetes]]></title>
-        <id>https://www.cncf.io/?p=64488</id>
-        <link href="https://www.cncf.io/blog/2021/09/09/how-to-detect-runtime-threats-in-kubernetes/"/>
-        <updated>2021-09-09T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post originally published on Logiq’s blog by Ajit Chelat, Citrix Kubernetes is one of the leaders in the container orchestration market. A recent survey by Cloud Native Computing Foundation (CNCF) suggests that 84%...]]></summary>
         <author>
             <name>Jessie</name>
         </author>

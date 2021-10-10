@@ -299,15 +299,6 @@
           "publishedOn": "2021-09-10T15:00:00.000Z",
           "wordCount": 1902,
           "title": "Prometheus HA with Thanos sidecar or receiver?"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64488",
-          "author": "Jessie",
-          "description": "Guest post originally published on Logiq’s blog by Ajit Chelat, Citrix Kubernetes is one of the leaders in the container orchestration market. A recent survey by Cloud Native Computing Foundation (CNCF) suggests that 84%...",
-          "link": "https://www.cncf.io/blog/2021/09/09/how-to-detect-runtime-threats-in-kubernetes/",
-          "publishedOn": "2021-09-09T15:00:00.000Z",
-          "wordCount": 1512,
-          "title": "How to detect runtime threats in Kubernetes"
         }
       ]
     },
@@ -332,6 +323,141 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/angular/angular",
+          "author": null,
+          "description": "The modern web developer’s platform\n\nAngular - The modern web developer's platform.\n \n  \n Angular is a development platform for building mobile and desktop web applications \n using Typescript/JavaScript and other languages. \n  \n www.angular.io \n  \n Contributing Guidelines · Submit an Issue · Blog \n  \n \n            \n \n \nDocumentation\n \nGet started with Angular, learn the fundamentals and explore advanced topics on our documentation website.\n \n \n \nGetting Started\n \n \nArchitecture\n \n \nComponents and Templates\n \n \nForms\n \n \nAPI\n \n \nAdvanced\n \n \n \nAngular Elements\n \n \nServer Side Rendering\n \n \nSchematics\n \n \nLazy Loading\n \n \nDevelopment Setup\n \nPrerequisites\n \n \n \nInstall Node.js which includes Node Package Manager\n \n \nSetting Up a Project\n \nInstall the Angular CLI globally:\n \nnpm install -g @angular/cli\n\n \nCreate workspace:\n \nng new [PROJECT NAME]\n\n \nRun the application:\n \ncd [PROJECT NAME]\nng serve\n\n \nAngular is cross-platform, fast, scalable, has incredible tooling, and is loved by millions.\n \nQuickstart\n \nGet started in 5 minutes.\n \nEcosystem\n \n  \n \n \n \nAngular Command Line (CLI)\n \n \nAngular Material\n \n \nChangelog\n \nLearn about the latest improvements.\n \nUpgrading\n \nCheck out our upgrade guide to find out the best way to upgrade your project.\n \nContributing\n \nContributing Guidelines\n \nRead through our contributing guidelines to learn about our submission process, coding rules and more.\n \nWant to Help?\n \nWant to file a bug, contribute some code, or improve documentation? Excellent! Read up on our guidelines for contributing and then check out one of our issues labeled as help wanted or good first issue.\n \nCode of Conduct\n \nHelp us keep Angular open and inclusive. Please read and follow our Code of Conduct.\n \nCommunity\n \nJoin the conversation and help the community.\n \n \n \nTwitter\n \n \nDiscord\n \n \nGitter\n \n \nYouTube\n \n \nStackOverflow\n \n \nFind a Local Meetup\n \n \n\n \nLove Angular? Give our repo a star ⭐ ⬆.",
+          "link": "https://github.com/angular/angular",
+          "publishedOn": "2021-10-10T00:55:23.748Z",
+          "wordCount": 1240,
+          "title": "angular/angular"
+        },
+        {
+          "id": "https://github.com/trailofbits/algo",
+          "author": null,
+          "description": "Set up a personal VPN in the cloud\n\nAlgo VPN\n \n \n \nAlgo VPN is a set of Ansible scripts that simplify the setup of a personal WireGuard and IPsec VPN. It uses the most secure defaults available and works with common cloud providers. See our release announcement for more information.\n \nFeatures\n \n \n \nSupports only IKEv2 with strong crypto (AES-GCM, SHA2, and P-256) for iOS, macOS, and Linux\n \n \nSupports WireGuard for all of the above, in addition to Android and Windows 10\n \n \nGenerates .conf files and QR codes for iOS, macOS, Android, and Windows WireGuard clients\n \n \nGenerates Apple profiles to auto-configure iOS and macOS devices for IPsec - no client software required\n \n \nIncludes a helper script to add and remove users\n \n \nBlocks ads with a local DNS resolver (optional)\n \n \nSets up limi…",
+          "link": "https://github.com/trailofbits/algo",
+          "publishedOn": "2021-10-10T00:55:23.578Z",
+          "wordCount": 2798,
+          "title": "trailofbits/algo"
+        },
+        {
+          "id": "https://github.com/arkenfox/user.js",
+          "author": null,
+          "description": "Firefox privacy, security and anti-fingerprinting: a comprehensive user.js template for configuration and hardening\n\n🟪 user.js\n \nA user.js is a configuration file that can control hundreds of Firefox settings. For a more technical breakdown and explanation, you can read more on the overview wiki page.\n \n🟩 the arkenfox user.js\n \n\n \nThe arkenfox user.js is a template which aims to provide as much privacy and enhanced security as possible, and to reduce tracking and fingerprinting as much as possible - while minimizing any loss of functionality and breakage (but it will happen).\n \nEveryone, experts included, should at least read the implementation wiki page, as it contains important information regarding a few user.js settings.\n \nNote that we do not recommend connecting over Tor on Firefox. Use the Tor Browser if your threat model calls for it, or for accessing hidden services.\n \nAlso be aware that the arkenfox user.js is made specifically for desktop Firefox. Using it as-is in other Gecko-based browsers can be counterproductive, especially in the Tor Browser.\n \n🟧 sitemap\n \n \n \nreleases\n \n \nchangelogs\n \n \nwiki\n \n \nstickies\n \n \ndiffs\n \n \n🟥 acknowledgments\n \nLiterally thousands of sources, references and suggestions. Many thanks, and much appreciated.",
+          "link": "https://github.com/arkenfox/user.js",
+          "publishedOn": "2021-10-10T00:55:23.258Z",
+          "wordCount": 669,
+          "title": "arkenfox/user.js"
+        },
+        {
+          "id": "https://github.com/WordPress/twentytwentytwo",
+          "author": null,
+          "description": "Twenty Twenty-Two, the default WordPress theme that will launch with WordPress 5.9.\n\nTwenty Twenty-Two\n \nWelcome to the development repository for the default theme that will launch with WordPress 5.9.\n \n \nAbout\n \nTwenty Twenty-Two is designed to be the most flexible default theme ever created for WordPress. It's built for full site editing first as a block theme. The theme aims to ship with as little CSS as possible: our goal is for all theme styles to be configured through theme.json and editable through Global Styles. The theme development team will work closely with Gutenberg contributors to build design tools in the block editor that enable this goal.\n \nContributing\n \nIf you would like to contribute code, the list of open issues is a great place to start looking for tasks. Pull reques…",
+          "link": "https://github.com/WordPress/twentytwentytwo",
+          "publishedOn": "2021-10-10T00:55:23.225Z",
+          "wordCount": 951,
+          "title": "WordPress/twentytwentytwo"
+        },
+        {
+          "id": "https://github.com/aws/jsii",
+          "author": null,
+          "description": "jsii allows code in any language to naturally interact with JavaScript classes. It is the technology that enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase!\n\n\n \n    \n \nOverview\n \njsii allows code in any language to naturally interact with JavaScript classes. It is the technology that enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase!\n \nA class library written in TypeScript can be used in projects authored in TypeScript or Javascript (as usual), but also in Python, Java, C# (and other languages from the .NET family), ...\n \n❓ Documentation\n \nHead over to our documentation website!\n \n📖 Blog Posts\n \nHere's a collection of blog posts (in chronological order) related to jsii:\n \n \n \n2020-01-11:  How to Create CDK C…",
+          "link": "https://github.com/aws/jsii",
+          "publishedOn": "2021-10-10T00:55:23.011Z",
+          "wordCount": 1376,
+          "title": "aws/jsii"
+        },
+        {
+          "id": "https://github.com/argoproj/argo-cd",
+          "author": null,
+          "description": "Declarative continuous deployment for Kubernetes.\n\n    \n \nArgo CD - Declarative Continuous Delivery for Kubernetes\n \nWhat is Argo CD?\n \nArgo CD is a declarative, GitOps continuous delivery tool for Kubernetes.\n \n\n \n\n \nWhy Argo CD?\n \n \n \nApplication definitions, configurations, and environments should be declarative and version controlled.\n \n \nApplication deployment and lifecycle management should be automated, auditable, and easy to understand.\n \n \nWho uses Argo CD?\n \nOfficial Argo CD user list\n \nDocumentation\n \nTo learn more about Argo CD go to the complete documentation. Check live demo at https://cd.apps.argoproj.io/.\n \nCommunity\n \nContribution, Discussion and Support\n \nYou can reach the Argo CD community and developers via the following channels:\n \n \n \nQ & A : Github Discussions\n \n \nCh…",
+          "link": "https://github.com/argoproj/argo-cd",
+          "publishedOn": "2021-10-10T00:55:22.916Z",
+          "wordCount": 1329,
+          "title": "argoproj/argo-cd"
+        },
+        {
+          "id": "https://github.com/tristanhimmelman/ObjectMapper",
+          "author": null,
+          "description": "Simple JSON Object mapping written in Swift\n\nObjectMapper\n \n   \n \nObjectMapper is a framework written in Swift that makes it easy for you to convert your model objects (classes and structs) to and from JSON.\n \n \n \nFeatures\n \n \nThe Basics\n \n \nMapping Nested Objects\n \n \nCustom Transformations\n \n \nSubclassing\n \n \nGeneric Objects\n \n \nMapping Context\n \n \nObjectMapper + Alamofire\n \n \nObjectMapper + Realm\n \n \nProjects using ObjectMapper\n \n \nTo Do\n \n \nContributing\n \n \nInstallation\n \n \nFeatures:\n \n \n \nMapping JSON to objects\n \n \nMapping objects to JSON\n \n \nNested Objects (stand alone, in arrays or in dictionaries)\n \n \nCustom transformations during mapping\n \n \nStruct support\n \n \nImmutable support\n \n \nThe Basics\n \nTo support mapping, a class or struct just needs to implement the Mappable protocol whi…",
+          "link": "https://github.com/tristanhimmelman/ObjectMapper",
+          "publishedOn": "2021-10-10T00:55:22.865Z",
+          "wordCount": 2670,
+          "title": "tristanhimmelman/ObjectMapper"
+        },
+        {
+          "id": "https://github.com/lvgl/lvgl",
+          "author": null,
+          "description": "Powerful and easy-to-use embedded GUI library with many widgets, advanced visual effects (opacity, antialiasing, animations) and low memory requirements (16K RAM, 64K Flash).\n\n LVGL - Light and Versatile Graphics Library\n \n  \n \n LVGL provides everything you need to create an embedded GUI with easy-to-use graphical elements, beautiful visual effects and a low memory footprint. \n \n Website  · Docs · Forum · Services · Interactive examples \n \n \nTable of content\n \n \n \nOverview\n \n \nGet started\n \n \nExamples\n \n \nServices\n \n \nContributing\n \n \nOverview\n \nFeatures\n \n \n \nPowerful building blocks: buttons, charts, lists, sliders, images, etc.\n \n \nAdvanced graphics engine: animations, anti-aliasing, opacity, smooth scrolling, blending modes, etc\n \n \nSupports various input devices: touchscreen, mouse, k…",
+          "link": "https://github.com/lvgl/lvgl",
+          "publishedOn": "2021-10-10T00:55:22.821Z",
+          "wordCount": 1359,
+          "title": "lvgl/lvgl"
+        },
+        {
+          "id": "https://github.com/wireshark/wireshark",
+          "author": null,
+          "description": "Read-only mirror of Wireshark's Git repository at https://gitlab.com/wireshark/wireshark. GitHub won't let us disable pull requests. ☞ THEY WILL BE IGNORED HERE ☜ Please upload them at GitLab.\n\nGeneral Information\n \nWireshark is a network traffic analyzer, or \"sniffer\", for Linux, macOS, *BSD and other Unix and Unix-like operating systems and for Windows. It uses Qt, a graphical user interface library, and libpcap and npcap as packet capture and filtering libraries.\n \nThe Wireshark distribution also comes with TShark, which is a line-oriented sniffer (similar to Sun's snoop or tcpdump) that uses the same dissection, capture-file reading and writing, and packet filtering code as Wireshark, and with editcap, which is a program to read capture files and write the packets from that capture fil…",
+          "link": "https://github.com/wireshark/wireshark",
+          "publishedOn": "2021-10-10T00:55:22.764Z",
+          "wordCount": 1933,
+          "title": "wireshark/wireshark"
+        },
+        {
+          "id": "https://github.com/vapor/vapor",
+          "author": null,
+          "description": "💧 A server-side Swift HTTP web framework.\n \n \n \n                   \n \n \nVapor is an HTTP web framework for Swift. It provides a beautifully expressive and easy-to-use foundation for your next website, API, or cloud project.\n \nTake a look at some of the awesome stuff created with Vapor.\n \n💧 Community\n \nJoin the welcoming community of fellow Vapor developers on Discord.\n \n🚀 Contributing\n \nTo contribute a feature or idea to Vapor, create an issue explaining your idea or bring it up on Discord.\n \nIf you find a bug, please create an issue.\n \nIf you find a security vulnerability, please contact security@vapor.codes as soon as possible.\n \n💛 Sponsors\n \nSupport Vapor's development by becoming a sponsor.\n \n   \n   \n   \n   \n   \n   \n   \n   \n💚 Backers\n \nSupport Vapor's development by becoming a backer.",
+          "link": "https://github.com/vapor/vapor",
+          "publishedOn": "2021-10-10T00:55:22.661Z",
+          "wordCount": 588,
+          "title": "vapor/vapor"
+        },
+        {
+          "id": "https://github.com/hashicorp/boundary",
+          "author": null,
+          "description": "Boundary enables identity-based access management for dynamic infrastructure.\n\nBoundary\n \n \n \nPlease note: We take Boundary's security and our users' trust very seriously. If you believe you have found a security issue in Boundary, please responsibly disclose by contacting us at security@hashicorp.com.\n \n \nBoundary provides simple and secure access to hosts and services.\n \nTraditional approaches like SSH bastion hosts or VPNs require distributing and managing credentials, configuring network controls like firewalls, and exposing the private network. Boundary provides a secure way to access hosts and critical systems without having to manage credentials or expose your network, and is entirely open source.\n \nBoundary is designed to be straightforward to understand, highly scalable, and resil…",
+          "link": "https://github.com/hashicorp/boundary",
+          "publishedOn": "2021-10-10T00:55:22.582Z",
+          "wordCount": 1863,
+          "title": "hashicorp/boundary"
+        },
+        {
+          "id": "https://github.com/raywenderlich/flta-materials",
+          "author": null,
+          "description": "The projects and the materials that accompany the Flutter Apprentice book\n\nFlutter Apprentice: Materials\n \nThis repo contains all the downloadable materials and projects associated with the Flutter Apprentice from raywenderlich.com.\n \nEach edition has its own branch, named editions/[EDITION]. The default branch for this repo is for the most recent edition.\n \nForum\n \nWe’ve set up an official forum for the book at https://forums.raywenderlich.com/c/books/flutter-apprentice. This is a great place to ask questions about the book or to submit any errors you may find.\n \nRelease History\n \n \n  \n  \n \n   Branch \n   Edition \n   Release Date \n  \n \n  \n  \n  \n \n   editions/1.0 \n   1.0 \n   2021-06-02 \n  \n \n  \n \n   editions/2.0 \n   2.0 \n   2021-10-06",
+          "link": "https://github.com/raywenderlich/flta-materials",
+          "publishedOn": "2021-10-10T00:55:22.535Z",
+          "wordCount": 632,
+          "title": "raywenderlich/flta-materials"
+        },
+        {
+          "id": "https://github.com/gnuradio/gnuradio",
+          "author": null,
+          "description": "GNU Radio – the Free and Open Software Radio Ecosystem\n\n  \n \n    \n \nGNU Radio is a free & open-source software development toolkit that provides signal processing blocks to implement software radios. It can be used with readily-available, low-cost external RF hardware to create software-defined radios, or without hardware in a simulation-like environment. It is widely used in hobbyist, academic, and commercial environments to support both wireless communications research and real-world radio systems.\n \nPlease visit the GNU Radio website at https://www.gnuradio.org/ and the wiki at https://wiki.gnuradio.org/. Bugs and feature requests are tracked on GitHub's Issue Tracker. If you have questions about GNU Radio, please search the discuss-gnuradio mailing list archive, as many questions have …",
+          "link": "https://github.com/gnuradio/gnuradio",
+          "publishedOn": "2021-10-10T00:55:22.492Z",
+          "wordCount": 1299,
+          "title": "gnuradio/gnuradio"
+        },
+        {
+          "id": "https://github.com/isometimes/rpi4-osdev",
+          "author": null,
+          "description": "Tutorial: Writing a \"bare metal\" operating system for Raspberry Pi 4\n\nWriting a \"bare metal\" operating system for Raspberry Pi 4\n \nIntroduction\n \nAs a tech CEO @RealVNC, I don't write code any more. And I've recently realised just how much I miss it.\n \nCurrently in the throes of a nationwide \"lockdown\" due to Covid-19 (and having been spared my usual commute), I've found myself with more hours in the day. I have taken this time for myself and used it to fulfil a childhood ambition - to write a bare metal operating system that runs on commercial hardware.\n \nWhat does bare metal mean?\n \nWhen we buy a computer or a tablet/smartphone it typically comes with some basic software pre-installed. You'll likely be familiar with watching Microsoft Windows, Mac OS, iOS, Android or maybe even Linux sta…",
+          "link": "https://github.com/isometimes/rpi4-osdev",
+          "publishedOn": "2021-10-10T00:55:22.439Z",
+          "wordCount": 1756,
+          "title": "isometimes/rpi4-osdev"
+        },
+        {
+          "id": "https://github.com/Hack-with-Github/Awesome-Hacking",
+          "author": null,
+          "description": "A collection of various awesome lists for hackers, pentesters and security researchers\n\n\n \nAwesome Hacking \n \nA collection of awesome lists for hackers, pentesters & security researchers.\n \nYour contributions are always welcome !\n \nAwesome Repositories\n \n \n  \n  \n \n   Repository \n   Description \n  \n \n  \n  \n  \n \n   Android Security \n   Collection of Android security related resources \n  \n \n  \n \n   AppSec \n   Resources for learning about application security \n  \n \n  \n \n   Asset Discovery \n   List of resources which help during asset discovery phase of a security assessment engagement \n  \n \n  \n \n   Bug Bounty \n   List of Bug Bounty Programs and write-ups from the Bug Bounty hunters \n  \n \n  \n \n   Capsulecorp Pentest \n   Vagrant+Ansible virtual network penetration testing lab. Companion to \"The …",
+          "link": "https://github.com/Hack-with-Github/Awesome-Hacking",
+          "publishedOn": "2021-10-10T00:55:22.341Z",
+          "wordCount": 1338,
+          "title": "Hack-with-Github/Awesome-Hacking"
+        },
         {
           "id": "https://github.com/psf/black",
           "author": null,
