@@ -31,6 +31,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=64998",
+          "author": "Jessie",
+          "description": "Guest post from Nutanix Organizations worldwide are adopting Kubernetes and cloud native technologies at breakneck pace. Containers have become the new norm of packaging applications and Kubernetes is at the forefront, orchestrating...",
+          "link": "https://www.cncf.io/blog/2021/10/11/how-to-run-containers-and-vms-side-by-side-on-nutanix-karbon/",
+          "publishedOn": "2021-10-11T20:49:14.000Z",
+          "wordCount": 2528,
+          "title": "How to run containers and VMs side-by-side on Nutanix Karbon"
+        },
+        {
           "id": "https://www.cncf.io/?p=64963",
           "author": "Jessie",
           "description": "Originally published on the Msys Technologies blog If you’re a SaaS entrepreneur or you’re looking to build a SaaS application, in that case, you may already be aware of the fact that...",
@@ -314,6 +323,141 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/anncwb/vue-vben-admin",
+          "author": null,
+          "description": "A modern vue admin. It is based on Vue3, vite and TypeScript. It's fast！\n\n \n    \n \n \n \n \n \n\n \n \nVue vben admin\n \n \nEnglish | 中文\n \nIntroduction\n \nVue Vben Admin is a free and open source middle and back-end template. Using the latest vue3, vite2, TypeScript and other mainstream technology development, the out-of-the-box middle and back-end front-end solutions can also be used for learning reference.\n \nFeature\n \n \n \nState of The Art Development：Use front-end front-end technology development such as Vue3/vite2\n \n \nTypeScript: Application-level JavaScript language\n \n \nTheming: Configurable themes\n \n \nInternational：Built-in complete internationalization program\n \n \nMock Server Built-in mock data scheme\n \n \nAuthority Built-in complete dynamic routing permission generation scheme.\n \n \nComponent M…",
+          "link": "https://github.com/anncwb/vue-vben-admin",
+          "publishedOn": "2021-10-12T00:57:47.049Z",
+          "wordCount": 1243,
+          "title": "anncwb/vue-vben-admin"
+        },
+        {
+          "id": "https://github.com/yt-dlp/yt-dlp",
+          "author": null,
+          "description": "A youtube-dl fork with additional features and fixes\n\n \n \n\n \n \n          \n \n \nyt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project\n \n \n \nNEW FEATURES \n  \n \n   \nDifferences in default behavior\n \n  \n  \n \nINSTALLATION \n  \n \n   \nUpdate\n \n   \nDependencies\n \n   \nCompile\n \n  \n  \n \nUSAGE AND OPTIONS \n  \n \n   \nGeneral Options\n \n   \nNetwork Options\n \n   \nGeo-restriction\n \n   \nVideo Selection\n \n   \nDownload Options\n \n   \nFilesystem Options\n \n   \nThumbnail Options\n \n   \nInternet Shortcut Options\n \n   \nVerbosity and Simulation Options\n \n   \nWorkarounds\n \n   \nVideo Format Options\n \n   \nSubtitle Options\n \n   \nAuthentication Options\n \n   \nPost-processing Options\n \n   \nSpo…",
+          "link": "https://github.com/yt-dlp/yt-dlp",
+          "publishedOn": "2021-10-12T00:57:46.961Z",
+          "wordCount": 13049,
+          "title": "yt-dlp/yt-dlp"
+        },
+        {
+          "id": "https://github.com/vuejs/vue",
+          "author": null,
+          "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.\n\n\n \n       \n  \n \nSupporting Vue.js\n \nVue.js is an MIT-licensed open source project with its ongoing development made possible entirely by the support of these awesome backers. If you'd like to join them, please consider:\n \n \n \nBecome a backer or sponsor on Patreon.\n \n \nBecome a backer or sponsor on Open Collective.\n \n \nOne-time donation via PayPal or crypto-currencies.\n \n \nWhat's the difference between Patreon and OpenCollective?\n \nFunds donated via Patreon go directly to support Evan You's full-time work on Vue.js. Funds donated via OpenCollective are managed with transparent expenses and will be used for compensating work and expenses for core team members or sponsoring community events. …",
+          "link": "https://github.com/vuejs/vue",
+          "publishedOn": "2021-10-12T00:57:46.855Z",
+          "wordCount": 1026,
+          "title": "vuejs/vue"
+        },
+        {
+          "id": "https://github.com/wimpysworld/quickemu",
+          "author": null,
+          "description": "Quickly create and run optimised Windows, macOS and Linux desktop virtual machines.\n\n  \n Quickemu \n \nQuickly create and run optimised Windows, macOS and Linux desktop virtual machines.\n \n\n \n \nMade with 💝 for \n \nIntroduction\n \nQuickly create and run highly optimised desktop virtual machines for Linux, macOS and Windows; with just two commands. You decide what operating system you want to run and Quickemu will figure out the best way to do it for you. For example:\n \nquickget ubuntu-mate hirsute\nquickemu --vm ubuntu-mate-hirsute.conf\n\n \nThe original objective of the project was to enable quick testing of Linux distributions where the virtual machine configurations can be stored anywhere, such as external USB storage or your home directory, and no elevated permissions are required to run the …",
+          "link": "https://github.com/wimpysworld/quickemu",
+          "publishedOn": "2021-10-12T00:57:46.811Z",
+          "wordCount": 2655,
+          "title": "wimpysworld/quickemu"
+        },
+        {
+          "id": "https://github.com/vinta/awesome-python",
+          "author": null,
+          "description": "A curated list of awesome Python frameworks, libraries, software and resources\n\nAwesome Python \n \nA curated list of awesome Python frameworks, libraries, software and resources.\n \nInspired by awesome-php.\n \n \n \nAwesome Python \n  \n \n   \nAdmin Panels\n \n   \nAlgorithms and Design Patterns\n \n   \nASGI Servers\n \n   \nAsynchronous Programming\n \n   \nAudio\n \n   \nAuthentication\n \n   \nBuild Tools\n \n   \nBuilt-in Classes Enhancement\n \n   \nCaching\n \n   \nChatOps Tools\n \n   \nCMS\n \n   \nCode Analysis\n \n   \nCommand-line Interface Development\n \n   \nCommand-line Tools\n \n   \nCompatibility\n \n   \nComputer Vision\n \n   \nConcurrency and Parallelism\n \n   \nConfiguration\n \n   \nCryptography\n \n   \nData Analysis\n \n   \nData Validation\n \n   \nData Visualization\n \n   \nDatabase Drivers\n \n   \nDatabase\n \n   \nDate and Time\n \n   \nDe…",
+          "link": "https://github.com/vinta/awesome-python",
+          "publishedOn": "2021-10-12T00:57:46.773Z",
+          "wordCount": 8613,
+          "title": "vinta/awesome-python"
+        },
+        {
+          "id": "https://github.com/alibaba/Sentinel",
+          "author": null,
+          "description": "A powerful flow control component enabling reliability, resilience and monitoring for microservices. (面向云原生微服务的高可用流控防护组件)\n \nSentinel: The Sentinel of Your Microservices\n \n     \n \nIntroduction\n \nAs distributed systems become increasingly popular, the reliability between services is becoming more important than ever before. Sentinel takes \"flow\" as breakthrough point, and works on multiple fields including flow control, traffic shaping, circuit breaking and system adaptive protection, to guarantee reliability and resilience for microservices.\n \nSentinel has the following features:\n \n \n \nRich applicable scenarios: Sentinel has been wildly used in Alibaba, and has covered almost all the core-scenarios in Double-11 (11.11) Shopping Festivals in the past 10 years, such as “Second Kill” which nee…",
+          "link": "https://github.com/alibaba/Sentinel",
+          "publishedOn": "2021-10-12T00:57:46.687Z",
+          "wordCount": 1496,
+          "title": "alibaba/Sentinel"
+        },
+        {
+          "id": "https://github.com/apache/rocketmq",
+          "author": null,
+          "description": "Mirror of Apache RocketMQ\n\nApache RocketMQ\n \n        \n \nApache RocketMQ is a distributed messaging and streaming platform with low latency, high performance and reliability, trillion-level capacity and flexible scalability.\n \nIt offers a variety of features:\n \n \n \nMessaging patterns including publish/subscribe, request/reply and streaming\n \n \nFinancial grade transactional message\n \n \nBuilt-in fault tolerance and high availability configuration options base on DLedger\n \n \nA variety of cross language clients, such as Java, C/C++, Python, Go\n \n \nPluggable transport protocols, such as TCP, SSL, AIO\n \n \nBuilt-in message tracing capability, also support opentracing\n \n \nVersatile big-data and streaming ecosytem integration\n \n \nMessage retroactivity by time or offset\n \n \nReliable FIFO and strict o…",
+          "link": "https://github.com/apache/rocketmq",
+          "publishedOn": "2021-10-12T00:57:46.636Z",
+          "wordCount": 1045,
+          "title": "apache/rocketmq"
+        },
+        {
+          "id": "https://github.com/sdras/awesome-actions",
+          "author": null,
+          "description": "A curated list of awesome actions to use on GitHub\n\n   \n  \nAwesome Actions  \n  \n \n \n \nA curated list of awesome things related to GitHub Actions.\n \n \nActions are triggered by GitHub platform events directly in a repo and run on-demand workflows either on Linux, Windows or macOS virtual machines or inside a container in response. With GitHub Actions you can automate your workflow from idea to production.\n \nContents\n \n \n \nOfficial Resources \n  \n \n   \nWorkflow Examples\n \n   \nOfficial Actions\n \n   \nCreate your Actions\n \n  \n  \n \nCommunity Resources \n  \n \n   \nGitHub Tools and Management\n \n   \nCollection of Actions\n \n   \nUtility\n \n   \nStatic Analysis\n \n   \nDynamic Analysis\n \n   \nMonitoring\n \n   \nPull Requests\n \n   \nGitHub Pages\n \n   \nNotifications and Messages\n \n   \nDeployment\n \n   \nExternal Serv…",
+          "link": "https://github.com/sdras/awesome-actions",
+          "publishedOn": "2021-10-12T00:57:46.601Z",
+          "wordCount": 3883,
+          "title": "sdras/awesome-actions"
+        },
+        {
+          "id": "https://github.com/fatedier/frp",
+          "author": null,
+          "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.\n\nfrp\n \n \n \nREADME | 中文文档\n \nWhat is frp?\n \nfrp is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the Internet. As of now, it supports TCP and UDP, as well as HTTP and HTTPS protocols, where requests can be forwarded to internal services by domain name.\n \nfrp also has a P2P connect mode.\n \nTable of Contents\n \n \n \n \nDevelopment Status\n \n \nArchitecture\n \n \nExample Usage \n  \n \n   \nAccess your computer in LAN by SSH\n \n   \nVisit your web service in LAN by custom domains\n \n   \nForward DNS query request\n \n   \nForward Unix domain socket\n \n   \nExpose a simple HTTP file server\n \n   \nEnable HTTPS for local HTTP(S) service\n \n   \nExpose your service privately\n \n   \nP2P Mode…",
+          "link": "https://github.com/fatedier/frp",
+          "publishedOn": "2021-10-12T00:57:46.538Z",
+          "wordCount": 4747,
+          "title": "fatedier/frp"
+        },
+        {
+          "id": "https://github.com/herosi/CTO",
+          "author": null,
+          "description": "Call Tree Overviewer\n\nCTO (Call Tree Overviewer)\n \nCTO (Call Tree Overviewer) is an IDA plugin for creating a simple and efficiant function call tree graph. It can also summarize function information such as internal function calls, API calls, static linked library function calls, unresolved function calls, string references, structure member accesses, specific comments.\n \nCTO has another helper plugin named \"CTO Function Lister\", although it can work as a standalone tool. You can think this is an enhanced version of functions window. It lists functions with summarized important information, which is the same as the CTO's one. You can use a regex filter to find nodes with a specific pattern as well.\n \n \n \nAn introduction video is here.\n https://youtu.be/zVCpb82UfFs\n \nYou can also check the…",
+          "link": "https://github.com/herosi/CTO",
+          "publishedOn": "2021-10-12T00:57:46.468Z",
+          "wordCount": 933,
+          "title": "herosi/CTO"
+        },
+        {
+          "id": "https://github.com/ossrs/srs",
+          "author": null,
+          "description": "SRS is a simple, high efficiency and realtime video server, supports RTMP/WebRTC/HLS/HTTP-FLV/SRT/GB28181.\n\nSRS(Simple Realtime Server)\n \n      \n \nSRS/4.0，Leo，是一个简单高效的实时视频服务器，支持RTMP/WebRTC/HLS/HTTP-FLV/SRT。\n \nSRS is a simple, high efficiency and realtime video server, supports RTMP/WebRTC/HLS/HTTP-FLV/SRT.\n \nSRS is licenced under MIT, but some depended libraries are distributed using their own licenses.\n \n \n \nUsage\n \nBuild SRS from source or docker(CN / EN), please read Wiki: Gettting Started(CN / EN):\n \ngit clone -b 4.0release https://gitee.com/ossrs/srs.git &&\ncd srs/trunk && ./configure && make && ./objs/srs -c conf/srs.conf\n\n \nOpen http://localhost:8080/ to check it, then publish by FFmpeg or OBS as:\n \nffmpeg -re -i ./doc/source.flv -c copy -f flv -y rtmp://localhost/live/livestream\n\n …",
+          "link": "https://github.com/ossrs/srs",
+          "publishedOn": "2021-10-12T00:57:46.448Z",
+          "wordCount": 1019,
+          "title": "ossrs/srs"
+        },
+        {
+          "id": "https://github.com/donet5/WebFirst",
+          "author": null,
+          "description": ".NET CORE 代码生成器 ，Web中使用CodeFirst模式， 实体生成器，UI代码生成器，在线建表，导出文档，模版配置， WEB代码生成器 ，API代码生成器\n\nWebFirst 代码生成器\n \n \n \n在线生成entity、xml、dao、service、html、js、sql代码，减少70%以上的开发任务\n \n \n可以在线创建数据库和导出文档\n \n \n可在线建类并且生成表\n \n \n支持方案保存，模版管理\n \n \n超级流畅的性能\n \n \n \n如何交流、反馈、参与贡献？\n \n \n \nGithub： https://github.com/donet5/WebFirst\n \n \nOSC Gitee：https://gitee.com/sunkaixuan/web-first\n \n \n[果糖官网] https://www.donet5.com/\n \n \n[使用文档] https://www.donet5.com/Doc/11\n \n \n官方QQ群：958343000\n \n \n技术讨论、二次开发等咨询、问题和建议，请移步到人人开源社区，我会在第一时间进行解答和回复\n \n \n如需关注项目最新动态，请Watch、Star项目，同时也是对项目最好的支持\n \n \n微信扫码加好友【果糖网】，与作者互动\n \n \n \n本地部署代码生成器\n \n \n \n通过git下载源码\n \n \nF5直接运行项目\n \n \n安装VS2019 c#，则可启动项目\n \n \n项目访问路径：默认\n \n \n代码生成器演示效果图：",
+          "link": "https://github.com/donet5/WebFirst",
+          "publishedOn": "2021-10-12T00:57:46.400Z",
+          "wordCount": 395,
+          "title": "donet5/WebFirst"
+        },
+        {
+          "id": "https://github.com/Python-World/Python_and_the_Web",
+          "author": null,
+          "description": "Build Bots, Scrape a website or use an API to solve a problem.\n\nPython🐍and_the_Web\n \n   \n \n \n\n \n \n    \n \nScripts/Programs in python that scrape the web, create a bot or use an API to solve a problem. We now have a section for miscellaneous scripts/programs as well.\n \nNote: 100 Ideas implemented using python🐍: python-mini-projects\n \nHow to Contribute?\n \n \n \nTake a look at the Existing Issues or create your own Issues!\n \n \nWait for the Issue to be assigned to you after which you can start working on it.\n \n \nFork the Repo and create a branch for any Issue that you are working upon.\n \n \nRead the Code of Conduct\n \n \nCreate a Pull Request which will be promptly reviewed and suggestions would be added to improve it.\n \n \nAdd Screenshots to help us know what this Script is all about.\n \n \nHaving d…",
+          "link": "https://github.com/Python-World/Python_and_the_Web",
+          "publishedOn": "2021-10-12T00:57:46.373Z",
+          "wordCount": 826,
+          "title": "Python-World/Python_and_the_Web"
+        },
+        {
+          "id": "https://github.com/mattiasgustavsson/dos-like",
+          "author": null,
+          "description": "Engine for making things with a MS-DOS feel, but for modern platforms\n\n\n \ndos-like\n \n\n \ndos-like is a programming library/framework, kind of like a tiny game engine, for writing games and programs with a similar feel to MS-DOS productions from the early 90s. But rather than writing code that would run on a real DOS machine, dos-like is about making programs which runs on modern platforms like Windows, Mac and Linux, but which attempts to recreate the look, feel, and sound of old DOS programs.\n \nIt includes a bunch of examples of classic DOS techniques and effects, a few of which can be seen above.\n \nFor more information and screenshots, please see the project home at https://mattiasgustavsson.itch.io/dos-like\n \nOperating\n \nWhile running, you can use F11 to toggle between fullscreen and win…",
+          "link": "https://github.com/mattiasgustavsson/dos-like",
+          "publishedOn": "2021-10-12T00:57:46.279Z",
+          "wordCount": 829,
+          "title": "mattiasgustavsson/dos-like"
+        },
+        {
+          "id": "https://github.com/alibaba/spring-cloud-alibaba",
+          "author": null,
+          "description": "Spring Cloud Alibaba provides a one-stop solution for application development for the distributed solutions of Alibaba middleware.\n\nSpring Cloud Alibaba\n \n   \n \nA project maintained by Alibaba.\n \nSee the 中文文档 for Chinese readme.\n \nSpring Cloud Alibaba provides a one-stop solution for distributed application development. It contains all the components required to develop distributed applications, making it easy for you to develop your applications using Spring Cloud.\n \nWith Spring Cloud Alibaba, you only need to add some annotations and a small amount of configurations to connect Spring Cloud applications to the distributed solutions of Alibaba, and build a distributed application system with Alibaba middleware.\n \nFeatures\n \n \n \nFlow control and service degradation：Flow control for HTTP ser…",
+          "link": "https://github.com/alibaba/spring-cloud-alibaba",
+          "publishedOn": "2021-10-12T00:57:46.236Z",
+          "wordCount": 1682,
+          "title": "alibaba/spring-cloud-alibaba"
+        },
         {
           "id": "https://github.com/webpack/webpack",
           "author": null,
