@@ -2,10 +2,844 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-13T00:54:06.982Z</updated>
+    <updated>2021-10-14T00:52:52.536Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[milvus-io/milvus]]></title>
+        <id>https://github.com/milvus-io/milvus</id>
+        <link href="https://github.com/milvus-io/milvus"/>
+        <updated>2021-10-14T00:52:52.501Z</updated>
+        <summary type="html"><![CDATA[An open-source vector database for embedding similarity search and AI applications.
+   
+ 
+    
+  
+  
+ 
+ 
+    
+    
+ 
+What is Milvus?
+ 
+Milvus is an open-source vector database built to power embedding similarity search and AI applications. Milvus makes unstructured data search more accessible, and provides a consistent user experience regardless of the deployment environment.
+ 
+Milvus 2.0 is a cloud-native vector database with storage and computation separated by design. All components in this refactored version of Milvus are stateless to enhance elasticity and flexibility. For more architecture details, see Milvus Architecture Overview.
+ 
+Milvus was released under the open-source Apache License 2.0 in October 2019. It is currently a graduate project under LF AI & Data Foundation.
+ 
+Key fe…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AveYo/MediaCreationTool.bat]]></title>
+        <id>https://github.com/AveYo/MediaCreationTool.bat</id>
+        <link href="https://github.com/AveYo/MediaCreationTool.bat"/>
+        <updated>2021-10-14T00:52:52.463Z</updated>
+        <summary type="html"><![CDATA[Universal MCT wrapper script for all Windows 10/11 versions from 1507 to 21H2!
+
+Not just an Universal MediaCreationTool wrapper script with ingenious support for business editions,
+  A powerful yet simple windows 10 / 11 deployment automation tool as well!
+ 
+ 
+ 
+configure via set vars, commandline parameters or rename script like iso 21H2 Pro MediaCreationTool.bat
+ recommended windows setup options with the least amount of issues on upgrades set via auto.cmd
+ awesome dialogs with keyboard focus to pick target version and preset action
+ 
+ 
+ 
+ 
+Auto Setup with detected media without confirmation
+ - can troubleshoot upgrade failing by adding no_update to script name
+ Create ISO with detected media in C:\ESD folder without confirmation
+ - can override detected media by adding edition name / la…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[smartcontractkit/full-blockchain-solidity-course-py]]></title>
+        <id>https://github.com/smartcontractkit/full-blockchain-solidity-course-py</id>
+        <link href="https://github.com/smartcontractkit/full-blockchain-solidity-course-py"/>
+        <updated>2021-10-14T00:52:52.404Z</updated>
+        <summary type="html"><![CDATA[Ultimate Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course | Python Edition
+
+YouTube Video
+ 
+ 
+    
+ 
+ 
+Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course | Python Edition FreeCodeCamp course!
+ 
+Table of Contents
+ 
+ 
+ 
+Table of Contents
+ 
+ 
+Resources For This Course 
+  
+ 
+   
+Questions
+ 
+  
+  
+ 
+Lesson 0: Welcome To Blockchain 
+  
+ 
+   
+What is a Blockchain?
+ 
+   
+Making Your First Transaction
+ 
+   
+How Do Blockchains Work? 
+    
+ 
+     
+Consensus
+ 
+    
+  
+   
+The Future
+ 
+   
+Miscellaneous
+ 
+  
+  
+ 
+Lesson 1: Welcome to Remix! Simple Storage 
+  
+ 
+   
+Everything in this section can be read about in the Solidity Documentation
+ 
+   
+Remix
+ 
+   
+Basic Solidity
+ 
+   
+Deploying to a "Live" network
+ 
+  
+ …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[peng-zhihui/Peak]]></title>
+        <id>https://github.com/peng-zhihui/Peak</id>
+        <link href="https://github.com/peng-zhihui/Peak"/>
+        <updated>2021-10-14T00:52:52.354Z</updated>
+        <summary type="html"><![CDATA[Tiny Mobile Terminal Device Kit.
+
+说明
+ 
+
+ 
+ 
+ 
+本项目是一个超迷你的智能小终端，集成LVGL图像框架、MVC框架、消息框架、WiFi蓝牙能力，未来会加入触摸屏支持。可以作为智能控制器用于实现很多应用。
+ 
+ 
+另外我正在上面实现一个非常小型的3D引擎，可以用于动态显示一些3D模型（就像Dummy示教器中展示的那样）。
+ 
+ 
+非常感谢 https://github.com/FASTSHIFT 开源的X-Track项目，本文是对于X-Track硬件和固件往ESP32平台移植的记录说明。
+ 
+1. 硬件移植
+ 
+关于芯片选型
+ 
+主要考虑MCU的Flash、SRAM、SPI速度，需要满足以下要求：
+ 
+ 
+ 
+主频 > 150MHz
+ 
+ 
+RAM >= 200KB
+ 
+ 
+FLASH >= 512KB
+ 
+ 
+SPI速度 >= 50Mbps（60fps刷新率的要求）
+ 
+ 
+ 
+ 
+lvgl中需要设置LCD buffer，一般设置为屏幕分辨率大小，在本项目中为240x240x2（因为是16bit色深所以每个像素2字节），算下来至少需要112KB的SRAM。
+ 
+ 
+SPI的CLK速度计算如下：240x240x2x8x60=55.296MHz，因此最好是达到50MHz以上的频率才能保证刷新流畅（实际上不使用DMA传输数据的话帧率会更低）。
+ 
+ 
+经过筛选满足以上要求的MCU，综合考虑成本和购买渠道问题，除了官方项目使用的雅特力AT32F403ACGU7主控外，还有两款是比较合适的：STM32F405RGT6、ESP32。
+ 
+对比优缺点如下：
+ 
+ 
+ 
+STM32F405的主频不如ESP32高且后者为双核；
+ 
+ 
+外设方面STM32F405更丰富，也支持使用DMA+SPI驱动屏幕；
+ 
+ 
+ESP32带WiFi能力，STM32不…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ArduPilot/ardupilot]]></title>
+        <id>https://github.com/ArduPilot/ardupilot</id>
+        <link href="https://github.com/ArduPilot/ardupilot"/>
+        <updated>2021-10-14T00:52:52.323Z</updated>
+        <summary type="html"><![CDATA[ArduPlane, ArduCopter, ArduRover, ArduSub source
+
+ArduPilot Project
+ 
+
+ 
+    
+ 
+   
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ArduPilot is the most advanced, full-featured and reliable open source autopilot software available. It has been under development since 2010 by a diverse team of professional engineers, computer scientists and community contributors. Our autopilot software is capable of controlling almost any vehicle system imaginable, from conventional airplanes, quad planes, multi-rotors, and helicopters to rovers, boats, balance bots and even submarines. It is continually being expanded to provide support for new emerging vehicle types.
+ 
+The ArduPilot project is made up of:
+ 
+ 
+ 
+ ArduCopter: code, wiki
+  
+ 
+ ArduPlane: code, wiki
+  
+ 
+ Rover: code, wiki
+  
+ 
+ ArduSub : code, wiki
+  
+ 
+ Antenna Tr…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[localstack/localstack]]></title>
+        <id>https://github.com/localstack/localstack</id>
+        <link href="https://github.com/localstack/localstack"/>
+        <updated>2021-10-14T00:52:52.283Z</updated>
+        <summary type="html"><![CDATA[💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!
+
+  
+ 
+         
+ --> 
+ 
+ LocalStack provides an easy-to-use test/mocking framework for developing Cloud applications. 
+ 
+ Overview • Install • Run • Configure • Play 
+– 📖 Docs • 💻 Pro version • ☑️ Feature coverage • 📢 Announcements 
+ 
+ 
+Overview
+ 
+LocalStack 💻 is a cloud service emulator that runs in a single container on your laptop or in your CI environment. With LocalStack, you can run your AWS applications or Lambdas entirely on your local machine without connecting to a remote cloud provider! Whether you are testing complex CDK applications or Terraform configurations, or just beginning to learn about AWS services, LocalStack helps speed up and simplify your testing and development …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[apache/apisix]]></title>
+        <id>https://github.com/apache/apisix</id>
+        <link href="https://github.com/apache/apisix"/>
+        <updated>2021-10-14T00:52:52.210Z</updated>
+        <summary type="html"><![CDATA[The Cloud-Native API Gateway
+
+Apache APISIX
+ 
+ 
+    
+ 
+Apache APISIX is a dynamic, real-time, high-performance API gateway.
+ 
+APISIX provides rich traffic management features such as load balancing, dynamic upstream, canary release, circuit breaking, authentication, observability, and more.
+ 
+You can use Apache APISIX to handle traditional north-south traffic, as well as east-west traffic between services. It can also be used as a k8s ingress controller.
+ 
+The technical architecture of Apache APISIX:
+ 
+
+ 
+Community
+ 
+ 
+ 
+Mailing List: Mail to dev-subscribe@apisix.apache.org, follow the reply to subscribe to the mailing list.
+ 
+ 
+QQ Group - 578997126
+ 
+ 
+Slack Workspace - Please subscribe the mailing list then ask for invitation link
+ 
+ 
+ - follow and interact with us using hashtag #ApacheA…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[microsoft/playwright]]></title>
+        <id>https://github.com/microsoft/playwright</id>
+        <link href="https://github.com/microsoft/playwright"/>
+        <updated>2021-10-14T00:52:52.164Z</updated>
+        <summary type="html"><![CDATA[Node.js library to automate Chromium, Firefox and WebKit with a single API
+
+🎭 Playwright
+ 
+  
+ 
+  
+ 
+  
+ 
+ 
+ 
+Documentation | API reference
+ 
+Playwright is a Node.js library to automate Chromium, Firefox and WebKit with a single API. Playwright is built to enable cross-browser web automation that is ever-green, capable, reliable and fast.
+ 
+ 
+  
+  
+ 
+    
+   Linux 
+   macOS 
+   Windows 
+  
+ 
+  
+  
+  
+ 
+   Chromium 
+    97.0.4666.0
+     
+   ✅ 
+   ✅ 
+   ✅ 
+  
+ 
+  
+ 
+   WebKit 
+    15.4
+     
+   ✅ 
+   ✅ 
+   ✅ 
+  
+ 
+  
+ 
+   Firefox 
+    92.0
+     
+   ✅ 
+   ✅ 
+   ✅ 
+  
+ 
+  
+ 
+Headless execution is supported for all the browsers on all platforms. Check out system requirements for details.
+ 
+Usage
+ 
+npm i -D playwright
+
+ 
+This installs Playwright and browser binaries for Chromium, Firefox and We…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[taichi-dev/taichi]]></title>
+        <id>https://github.com/taichi-dev/taichi</id>
+        <link href="https://github.com/taichi-dev/taichi"/>
+        <updated>2021-10-14T00:52:52.112Z</updated>
+        <summary type="html"><![CDATA[Parallel programming for everyone.
+
+ 
+  
+ 
+  Tutorial  |  Examples  |  Forum 
+   Playground  -->
+ 
+ 
+  Documentation  |  简体中文文档  |  Contributor Guidelines  
+ 
+ 
+   
+ 
+Overview
+ 
+Taichi (太极) is a parallel programming language for high-performance numerical computations. It is embedded in Python, and its just-in-time compiler offloads compute-intensive tasks to multi-core CPUs and massively parallel GPUs.
+ 
+  
+ 
+Advanced features of Taichi include spatially sparse computing, differentiable programming [examples], and quantized computation.
+ 
+Please check out our SIGGRAPH 2020 course on Taichi basics: YouTube, Bilibili, slides (pdf).
+ 
+中文视频教程: [哔哩哔哩], [幻灯片]
+ 
+Examples (More...)
+ 
+    
+ 
+ 
+ 
+Installation 
+ 
+python3 -m pip install taichi
+
+ 
+Supported OS: Windows, Linux, Mac OS X; Python: 3.6-3.…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chakazul/Lenia]]></title>
+        <id>https://github.com/Chakazul/Lenia</id>
+        <link href="https://github.com/Chakazul/Lenia"/>
+        <updated>2021-10-14T00:52:52.001Z</updated>
+        <summary type="html"><![CDATA[Lenia - Mathematical Life Forms
+
+
+ 
+For full version list, see Timeline in Lenia portal
+ 
+ 
+ 
+[2020-10-13] Update Python version with multi-kernel and multi-channel extensions (v3.4 LeniaNDK.py, v3.5 LeniaNDKC.py). To see the most advanced Lenia patterns, run "python LeniaNDKC.py -c3 -k3", and press "B"
+ 
+ 
+[2020-07-22] Companion video "Lenia: Expanded Universe" available at https://youtu.be/HT49wpyux-k
+ 
+ 
+[2020-07-14] Paper published in ALIFE 2020 Proceedings at https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00297
+ 
+ 
+[2020-05-07] Preprint paper "Lenia and Expanded Universe" for ALIFE2020 available at https://arxiv.org/abs/2005.03742
+ 
+ 
+[2020-01-13] Major update in Python version: n-Dimensional Lenia. List of changes see LeniaND changes.txt
+ 
+ 
+[2019-12-14] Lifeforms found in 3…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[practical-tutorials/project-based-learning]]></title>
+        <id>https://github.com/practical-tutorials/project-based-learning</id>
+        <link href="https://github.com/practical-tutorials/project-based-learning"/>
+        <updated>2021-10-14T00:52:51.939Z</updated>
+        <summary type="html"><![CDATA[Curated list of project-based tutorials
+
+Project Based Learning
+ 
+
+ 
+A list of programming tutorials in which aspiring software developers learn how to build an application from scratch. These tutorials are divided into different primary programming languages. Tutorials may involve multiple technologies and languages.
+ 
+To get started, simply fork this repo. Please refer to CONTRIBUTING.md for contribution guidelines.
+ 
+Table of Contents:
+ 
+ 
+ 
+C#
+ 
+ 
+C/C++
+ 
+ 
+Clojure
+ 
+ 
+Elixir
+ 
+ 
+Erlang
+ 
+ 
+F#
+ 
+ 
+Go
+ 
+ 
+Haskell
+ 
+ 
+HTML/CSS
+ 
+ 
+Java
+ 
+ 
+JavaScript
+ 
+ 
+Kotlin
+ 
+ 
+Lua
+ 
+ 
+OCaml
+ 
+ 
+PHP
+ 
+ 
+Python
+ 
+ 
+R
+ 
+ 
+Ruby
+ 
+ 
+Rust
+ 
+ 
+Scala
+ 
+ 
+Swift
+ 
+ 
+Additional resources
+ 
+ 
+C/C++:
+ 
+ 
+ 
+Build an Interpreter (Chapter 14 on is written in C)
+ 
+ 
+Memory Allocators 101 - Write a simple memory allo…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PaddlePaddle/PaddleOCR]]></title>
+        <id>https://github.com/PaddlePaddle/PaddleOCR</id>
+        <link href="https://github.com/PaddlePaddle/PaddleOCR"/>
+        <updated>2021-10-14T00:52:51.856Z</updated>
+        <summary type="html"><![CDATA[Awesome multilingual OCR toolkits based on PaddlePaddle （practical ultra lightweight OCR system, support 80+ languages recognition, provide data annotation and synthesis tools, support training and deployment among server, mobile, embedded and IoT devices）
+
+English | 简体中文
+ 
+  
+ 
+ 
+         
+ 
+Introduction
+ 
+PaddleOCR aims to create multilingual, awesome, leading, and practical OCR tools that help users train better models and apply them into practice.
+ 
+Recent updates
+ 
+ 
+ 
+ PaddleOCR R&D team would like to share the key points of PP-OCRv2, at 20:15 pm on September 8th, Live Address.
+  
+ 
+ 2021.9.7 release PaddleOCR v2.3, PP-OCRv2 is proposed. The inference speed of PP-OCRv2 is 220% higher than that of PP-OCR server in CPU device. The F-score of PP-OCRv2 is 7% higher than that of PP-OCR mo…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[tihanyin/PSSW100AVB]]></title>
+        <id>https://github.com/tihanyin/PSSW100AVB</id>
+        <link href="https://github.com/tihanyin/PSSW100AVB"/>
+        <updated>2021-10-14T00:52:51.804Z</updated>
+        <summary type="html"><![CDATA[A list of useful Powershell scripts with 100% AV bypass (At the time of publication).
+
+PSSW100AVB
+ 
+This is the Powershell Scripts with 100% AV Bypass Repository (PSSW100AVB). A list of useful Powershell scripts with 100% AV bypass (At the time of publication).]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QianMo/Real-Time-Rendering-4th-Bibliography-Collection]]></title>
+        <id>https://github.com/QianMo/Real-Time-Rendering-4th-Bibliography-Collection</id>
+        <link href="https://github.com/QianMo/Real-Time-Rendering-4th-Bibliography-Collection"/>
+        <updated>2021-10-14T00:52:51.782Z</updated>
+        <summary type="html"><![CDATA[Real-Time Rendering 4th (RTR4) 参考文献合集典藏 | Collection of  Bibliography
+
+<Real Time Rendering 4th> Bibliography Collection
+ 
+《Real-Time Rendering 4th》 (RTR4) 参考文献合集典藏。目前已收录超过2000份的 《Real-Time Rendering 4th》 (RTR4)参考文献。
+ 
+Collection of Real-Time Rendering 4th (RTR4) Bibliography.Currently,more than 2000 bibliography of Real-Time Rendering 4th (RTR4) have been included.
+ 
+
+ 
+Preview
+ 
+
+ 
+Content
+ 
+ 
+ 
+ Chapter 1-24 : 1956+ Files
+ 
+  
+ 
+   
+Chapter 1 Introduction
+ 
+   
+Chapter 2 The Graphics Rendering Pipeline
+ 
+   
+Chapter 3 The Graphics Processing Unit
+ 
+   
+Chapter 4 Transforms
+ 
+   
+Chapter 5 Shading Basics
+ 
+   
+Chapter 6 Texturing
+ 
+   
+Chapter 7 Shadows
+ 
+   
+Chapter 8 Light and Color
+ 
+   
+Chapter 9 Physically Based Shading
+ 
+   
+Chapter 10 Local Illumination
+ 
+   
+Chapter 11 Global Illumination
+ 
+   
+Chapter 12 Image-Space Effects
+ 
+   
+Chapter 13 Beyond Polygons
+ 
+   
+Chapter 14 Volumetric and Translucency Rendering
+ 
+   
+Chapter 15 Non-Photorealistic Rendering
+ 
+   
+Chapter 16 Polygonal Techniques
+ 
+   
+Chapter 17 Curves and Curved Surfaces
+ 
+   
+Chapter 18 Pipeline Optimization
+ 
+   
+Chapter 19 Acceleration Algorithms
+ 
+   
+Chapter 20 Efficient Shading
+ 
+   
+Chapter 21 Virtual and Augmented Reality
+ 
+   
+Chapter 22 Intersection Test Methods
+ 
+   
+Chapter 23 Graphics Hardware
+ 
+   
+Chapter 24 The Future
+ 
+  
+  
+ 
+ Chapter 25 Collision Detection 
+ 
+  
+ 
+   
+105+ Files
+ 
+  
+  
+ 
+ Chapter 26 Real-Time Ray Tracing
+ 
+  
+ 
+   
+106+ Files
+ 
+  
+  
+ 
+ Appendices - Linear Algebra and Trigonometry
+ 
+  
+ 
+   
+14+ Files
+ 
+  
+  
+ 
+ 
+References
+ 
+[1] http://www.realtimerendering.com/refs.html]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cilium joins CNCF as an incubating project]]></title>
+        <id>https://www.cncf.io/?p=65051</id>
+        <link href="https://www.cncf.io/blog/2021/10/13/cilium-joins-cncf-as-an-incubating-project/"/>
+        <updated>2021-10-13T16:50:00.000Z</updated>
+        <summary type="html"><![CDATA[The CNCF Technical Oversight Committee (TOC) has voted to accept Cilium as a CNCF incubating project.  Cilium provides networking, security, and observability for cloud native environments by acting as a CNI and...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing the Cloud Native Credits program]]></title>
+        <id>https://www.cncf.io/?p=65139</id>
+        <link href="https://www.cncf.io/blog/2021/10/13/announcing-the-cloud-native-credits-program/"/>
+        <updated>2021-10-13T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CNCF is home to some of the most critical open source software infrastructure technologies in the world. It is our goal to ensure the stability, dependability, and credibility of our projects for...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inclusive Naming Initiative Announces New Community Resources for A More Inclusive Future]]></title>
+        <id>https://www.cncf.io/?p=65093</id>
+        <link href="https://www.cncf.io/announcements/2021/10/13/inclusive-naming-initiative-announces-new-community-resources-for-a-more-inclusive-future/"/>
+        <updated>2021-10-13T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New Language Recommendations and Training Courses Propel Organizations Forward in Mission to Replace Harmful Language in Code  LOS ANGELES, Calif. – KubeCon + CloudNativeCon North America 2021 – October 13, 2021 –...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloud Native Computing Foundation Welcomes Record Number of New Silver Members]]></title>
+        <id>https://www.cncf.io/?p=65087</id>
+        <link href="https://www.cncf.io/announcements/2021/10/13/cloud-native-computing-foundation-welcomes-record-number-of-new-silver-members/"/>
+        <updated>2021-10-13T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[98 new members joined CNCF this quarter, driving an increasingly diverse ecosystem that continues to provide leading-edge technology innovations across the globe  LOS ANGELES, Calif. – KubeCon + CloudNativeCon North America –...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flux celebrates major milestone]]></title>
+        <id>https://www.cncf.io/?p=65059</id>
+        <link href="https://www.cncf.io/blog/2021/10/13/flux-celebrates-major-milestone/"/>
+        <updated>2021-10-13T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[At KubeCon + CloudNativeCon NA 2021, the Flux team is celebrating a major milestone! Top Cloud and GitOps vendors – Microsoft, Amazon, VMware, D2iQ, and Weaveworks – all trust CNCF Flux to...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Entry Level Kubernetes Certification to Help Advance Cloud Careers]]></title>
+        <id>https://www.cncf.io/?p=65048</id>
+        <link href="https://www.cncf.io/announcements/2021/10/13/entry-level-kubernetes-certification-to-help-advance-cloud-careers/"/>
+        <updated>2021-10-13T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New certification exam from CNCF and The Linux Foundation will test basic knowledge of Kubernetes and cloud native architectures LOS ANGELES – KubeCon + CloudNativeCon North America – October 13, 2021 –...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloud Native Computing Foundation Welcomes American Express as Gold Member]]></title>
+        <id>https://www.cncf.io/?p=64955</id>
+        <link href="https://www.cncf.io/announcements/2021/10/13/cloud-native-computing-foundation-welcomes-american-express-as-gold-member/"/>
+        <updated>2021-10-13T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Leading financial institution joins forces with the cloud native community to advance the future of infrastructure     SAN FRANCISCO, Calif. – October 13, 2021 – The Cloud Native Computing Foundation® (CNCF®), which builds...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CNCF’s KubeCon + CloudNativeCon diversity scholarship will now be named the Dan Kohn Diversity Scholarship]]></title>
+        <id>https://www.cncf.io/?p=64951</id>
+        <link href="https://www.cncf.io/blog/2021/10/13/cncfs-kubecon-cloudnativecon-diversity-scholarship-will-now-be-named-the-dan-kohn-diversity-scholarship/"/>
+        <updated>2021-10-13T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are honored to announce that Cloud Native Computing Foundation’s KubeCon + CloudNativeCon scholarship program will now officially be named the Dan Kohn Diversity Scholarship.  Dan was a titan of the open...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[raimohanska/ourboard]]></title>
         <id>https://github.com/raimohanska/ourboard</id>
@@ -18432,16 +19266,6 @@ Thank you @ad-m]]></summary>
         <summary type="html"><![CDATA[The CNCF Technical Oversight Committee (TOC) has voted to accept Crossplane as a CNCF incubating project. Crossplane is an open source Kubernetes add-on that enables modern organizations to consume infrastructure through an...]]></summary>
         <author>
             <name>Katie Meinders</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Goldilocks? (Or how to set your Kubernetes resource requests)]]></title>
-        <id>https://www.cncf.io/?p=64514</id>
-        <link href="https://www.cncf.io/blog/2021/09/13/what-is-goldilocks-or-how-to-set-your-kubernetes-resource-requests/"/>
-        <updated>2021-09-13T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post originally published on Fairwinds’s blog by Andrew Suderman, Lead R&D Engineer at Fairwinds When we open sourced Goldilocks in October 2019, our goal was to provide a dashboard utility that helps you...]]></summary>
-        <author>
-            <name>Jessie</name>
         </author>
     </entry>
 </feed>
