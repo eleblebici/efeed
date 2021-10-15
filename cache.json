@@ -362,24 +362,6 @@
           "publishedOn": "2021-09-15T15:00:00.000Z",
           "wordCount": 1679,
           "title": "Is serverless the ‘right’ way to cloud?"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64540",
-          "author": "Jessie",
-          "description": "Guest post originally published on InfraCloud’s blog by Jeswin Ninan, Senior SRE at InfraCloud Container technology and the term “container images’’ are not new for many developers, SREs and DevOps engineers. But...",
-          "link": "https://www.cncf.io/blog/2021/09/14/how-to-secure-containers-with-cosign-and-distroless-images/",
-          "publishedOn": "2021-09-14T15:00:00.000Z",
-          "wordCount": 1469,
-          "title": "How to secure containers with Cosign and Distroless images"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64533",
-          "author": "Katie Meinders",
-          "description": "The CNCF Technical Oversight Committee (TOC) has voted to accept Crossplane as a CNCF incubating project. Crossplane is an open source Kubernetes add-on that enables modern organizations to consume infrastructure through an...",
-          "link": "https://www.cncf.io/blog/2021/09/14/crossplane-moves-from-sandbox-to-cncf-incubator/",
-          "publishedOn": "2021-09-14T15:00:00.000Z",
-          "wordCount": 1286,
-          "title": "Crossplane moves from Sandbox to CNCF Incubator"
         }
       ]
     },
@@ -404,6 +386,96 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/KieSun/all-of-frontend",
+          "author": null,
+          "description": "你想知道的前端内容都在这\n\n       \n \n  \n \n\n 重要资料已经整合在公众号「前端真好玩」，另外还附赠了前端 10 万字的面试攻略，已经帮助上千人拿到 offer。扫码发送关键字「资料」，你会发现相见恨晚！\n \n\n  \n \n🔥 这是什么？\n \n笔者在学会 JS 以及框架的应用后，有一段时间不知道该如何深入下去，活能干，就是不知道该学啥。相信这个问题也会有很多读者朋友遇到。\n \n当然笔者目前已经突破了这个瓶颈，也成为了知名公司基础架构组的成员。因此想通过自己成长的经历及积累的资料整理出一系列的学习路线及资料推荐，帮助各位读者朋友解决这个问题。\n \n \n \n笔者会列出所有前端必学及热门领域的学习路径及推荐资料，比如浏览器、性能优化、框架、工程化、算法等等，工程浩大，大家可以持续关注该项目！\n \n \n此资料适用于小白入门、初中级进阶、高级查漏补缺。\n \n内容每天都在更新，大家可以持续关注。\n \n💻 如何使用\n \n如果你是初中级工程师来说，笔者也推荐先行学习「前端核心学习路径」，主要是巩固基础，之后再挑选感兴趣的主题。\n \n如果你是高级工程师，笔者推荐跳过「前端核心学习路径」，直接挑选感兴趣的主题学习即可。\n \n以下所有知识点笔者都会帮助读者朋友们将知识连贯起来，从而建立自己的知识体系而不是单独记忆松散的知识点。\n \n推荐大家 Star 并 Fork 本项目（点击仓库顶部右上角按钮），然后 git clone 到本地后从上至下逐步完成学习计划。\n \nComming soon!\n \n \n \n构建器相关内容\n \n \n前端核心学习路径思维导图\n \n \n另外各位读者有任何想了解的主题都可以告诉我。\n \n如何获取本仓库资料\n \n笔者已经将仓库内容里的重要资料整理好了，还附赠了前端 10 万字的面试攻略，已经帮助上千人拿到 offer。大家可以关注公众号发送「资料」获取。\n \n\n…",
+          "link": "https://github.com/KieSun/all-of-frontend",
+          "publishedOn": "2021-10-15T00:57:14.615Z",
+          "wordCount": 1959,
+          "title": "KieSun/all-of-frontend"
+        },
+        {
+          "id": "https://github.com/tensorflow/tensorflow",
+          "author": null,
+          "description": "An Open Source Machine Learning Framework for Everyone\n\n \n  \n \n  \n \n \n  \n  \n \n   Documentation \n  \n \n  \n  \n  \n \n    \n  \n \n  \n \nTensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML-powered applications.\n \nTensorFlow was originally developed by researchers and engineers working on the Google Brain team within Google's Machine Intelligence Research organization to conduct machine learning and deep neural networks research. The system is general enough to be applicable in a wide variety of other domains, as well.\n \nTensorFlow provides stable Python and C++ APIs, as well as non-guaranteed backwar…",
+          "link": "https://github.com/tensorflow/tensorflow",
+          "publishedOn": "2021-10-15T00:57:13.553Z",
+          "wordCount": 1210,
+          "title": "tensorflow/tensorflow"
+        },
+        {
+          "id": "https://github.com/umijs/umi",
+          "author": null,
+          "description": "🌋 Pluggable enterprise-level react application framework.\n\nEnglish | 简体中文\n \numi\n \n      \n \n🍙 Extensible enterprise-level front-end application framework.\n \n \n \nPlease consider following this project's author, sorrycc, and consider starring the project to show your ❤️ and support.\n \n \n \nFeatures\n \n \n \n🎉 Extensible, Umi implements the complete lifecycle and makes it extensible, and Umi's internal functions are all plugins. Umi also support plugins and presets.\n \n \n📦 Out of the Box, Umi has built-in routing, building, deployment, testing, and so on. It only requires one dependency to get started. Umi also provides an integrated preset for React with rich functionaries.\n \n \n🐠 Enterprise, It has been verified by 3000+ projects in Ant Financial and projects of Alibaba, Youku, Netease, Fligg…",
+          "link": "https://github.com/umijs/umi",
+          "publishedOn": "2021-10-15T00:57:13.508Z",
+          "wordCount": 969,
+          "title": "umijs/umi"
+        },
+        {
+          "id": "https://github.com/fosscord/fosscord-server",
+          "author": null,
+          "description": "Fosscord Server (selfhostable open source discord server) (contains api + cdn + gateway + dashboard + voice)\n\n  \n \nFosscord Server\n \n         \n \nAbout\n \nThis repository contains:\n \n \n \nFosscord HTTP API Server\n \n \nWebSocket Gateway Server\n \n \nHTTP CDN Server\n \n \nUtility and Database Models\n \n \nRTC Server\n \n \nWebRTC Server\n \n \nAdmin Dashboard\n \n \nResources\n \n \n \nContributing\n \n \nDownload\n \n \n \nWork in progress",
+          "link": "https://github.com/fosscord/fosscord-server",
+          "publishedOn": "2021-10-15T00:57:13.460Z",
+          "wordCount": 591,
+          "title": "fosscord/fosscord-server"
+        },
+        {
+          "id": "https://github.com/hoppscotch/hoppscotch",
+          "author": null,
+          "description": "👽 Open source API development ecosystem https://hoppscotch.io\n\n \n    \n \n \n \n \n \n  Hoppscotch  \n \n \n \n \n  Open source API development ecosystem  \n \n \n \n \n   \n \n \n \n \n  Built with ❤︎ by  contributors   \n \n \n \n \n    \n \n \nSupport\n \n \n \n \n Table of contents \n \n \n \n \n  \nFeatures\n \n  \nDemo\n \n  \nUsage\n \n  \nBuilt with\n \n  \nDeveloping\n \n  \nDocker\n \n  \nReleasing\n \n  \nContributing\n \n  \nContinuous Integration\n \n  \nChangelog\n \n  \nAuthors\n \n  \nLicense\n \n \n \n \n \n \nFeatures\n \n❤️ Lightweight: Crafted with minimalistic UI design.\n \n⚡️ Fast: Send requests and get/copy responses in real-time.\n \nHTTP Methods\n \n \n \nGET - Requests retrieve resource information\n \n \nPOST - The server creates a new entry in a database\n \n \nPUT - Updates an existing resource\n \n \nPATCH - Very similar to PUT but makes a partial update …",
+          "link": "https://github.com/hoppscotch/hoppscotch",
+          "publishedOn": "2021-10-15T00:57:13.408Z",
+          "wordCount": 1882,
+          "title": "hoppscotch/hoppscotch"
+        },
+        {
+          "id": "https://github.com/thunlp/OpenPrompt",
+          "author": null,
+          "description": "An Open-Source Toolkit for Prompt-Learning.\n\n \n  \n \nAn Open-Source Framework for Prompt-learning.\n \n \n \n \n Overview • Installation • How To Use • Docs • \n \n \n\n \nOverview\n \nPrompt-learning is the latest paradigm to adapt pre-trained language models (PLMs) to downstream NLP tasks, which modifies the input text with a textual template and directly uses PLMs to conduct pre-trained tasks. This library provides a standard, flexible and extensible framework to deploy the prompt-learning pipeline. OpenPrompt supports loading PLMs directly from huggingface transformers. In the future, we will also support PLMs implemented by other libraries.\n \n \n  \n \nWhat Can You Do via OpenPrompt?\n \n\n \n \n \nUse the implementations of current prompt-learning approaches.* We have implemented various of prompting meth…",
+          "link": "https://github.com/thunlp/OpenPrompt",
+          "publishedOn": "2021-10-15T00:57:13.362Z",
+          "wordCount": 1212,
+          "title": "thunlp/OpenPrompt"
+        },
+        {
+          "id": "https://github.com/ZhangNanBei/WokerLifeMatters",
+          "author": null,
+          "description": "各大公司作息统计\n\nWorkerLivesMatter\n \n请转到 https://github.com/WorkerLivesMatter/WorkingTime\n \n感谢 @SwJay 提醒，本项目名打错了，最新地址如上\n \n重要链接\n \n \n \n填写问卷匿名发布自己部门的作息时间 https://docs.qq.com/form/page/DUUdPbWhnWVF3ekh6\n \n \n实时查看数据的收集表 https://docs.qq.com/sheet/DUXVoa3BsRG1HYlZE?tab=BB08J2\n \n \n每日凌晨整理数据的总表 https://docs.qq.com/sheet/DVmhnRG15TG1Tb2Js\n \n \nGitHub 每日备份 https://github.com/WorkerLivesMatter/WorkerLivesMatter\n \n \n项目介绍\n \nWorker lives matter！ 由于众所周知的原因，包含互联网在内的各行业企业加班盛行且无监管。这导致劳动者入职前无法确定公司的具体工作时间。本项目依托于同学们的奉献，致力于统计各大公司的作息时间，为劳动者们提供准确的参考。\n \n交流群\n \n官方 QQ 二群 965192435，一群 186964319 已满。 有问题请咨询群管理员。\n \n致谢\n \n感谢 一学习就犯困 Tibbers Ale 秃头才能变强 和所有贡献了数据的兄弟们。 感谢 richar 提供方法解决了恶意编辑的问题。",
+          "link": "https://github.com/ZhangNanBei/WokerLifeMatters",
+          "publishedOn": "2021-10-15T00:57:13.287Z",
+          "wordCount": 381,
+          "title": "ZhangNanBei/WokerLifeMatters"
+        },
+        {
+          "id": "https://github.com/NVlabs/stylegan3",
+          "author": null,
+          "description": "Official PyTorch implementation of StyleGAN3\n\nAlias-Free Generative Adversarial Networks (StyleGAN3)\nOfficial PyTorch implementation of the NeurIPS 2021 paper\n \n\n \nAlias-Free Generative Adversarial Networks\n Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne Hellsten, Jaakko Lehtinen, Timo Aila\n https://nvlabs.github.io/stylegan3\n \nAbstract: We observe that despite their hierarchical convolutional nature, the synthesis process of typical generative adversarial networks depends on absolute pixel coordinates in an unhealthy manner. This manifests itself as, e.g., detail appearing to be glued to image coordinates instead of the surfaces of depicted objects. We trace the root cause to careless signal processing that causes aliasing in the generator network. Interpreting all signals…",
+          "link": "https://github.com/NVlabs/stylegan3",
+          "publishedOn": "2021-10-15T00:57:13.248Z",
+          "wordCount": 2784,
+          "title": "NVlabs/stylegan3"
+        },
+        {
+          "id": "https://github.com/fosscord/fosscord",
+          "author": null,
+          "description": "Fosscord is a free open source selfhostable discord compatible chat, voice and video platform\n\n  \n \nFosscord\n \n         \n \nAbout\n \nFosscord is a free open source selfhostable discord compatible chat, voice and video platform\n \n \n \nDiscord-compatible (Communicate with all friends who are \"still\" using discord.com)\n \n \nSelfhostable (Download Server)\n \n \nOpen Source (GitHub Organization)\n \n \nConfigurable (Configure every aspect and limits to your needs)\n \n \nDecentralized (no abuse of power and doesn't have a single point of failure)\n \n \nExtendable (secure and cross-platform plugin system)\n \n \nThemeable (cross-platform theme system with design editor)\n \n \nEncrypted (End to end encryption for secure and private conversation)\n \n \nSecure (publicly audited and hosted FOSS software for transparent …",
+          "link": "https://github.com/fosscord/fosscord",
+          "publishedOn": "2021-10-15T00:57:13.193Z",
+          "wordCount": 729,
+          "title": "fosscord/fosscord"
+        },
+        {
+          "id": "https://github.com/marcelja/facebook-delete",
+          "author": null,
+          "description": "Fast facebook activity deletion\n\nFast Facebook Activity Deletion\n \nThis program can be used to clean up a facebook account without deleting the entire account.\n \nNote: Facebook has a very strange login process. Please open a GitHub issue if the program is not able to login.\n \n\n \nRun program\n \nBinaries for Linux, macOS and Windows are attached to a release.\n \nDownload binary\n \nDownload the binary file for your platform of the latest release.\n \nLinux/macOS: Make the binary executable and run it. Example:\n \n$ chmod +x deleter-linux\n$ ./deleter-linux\n\n \nWindows: Run the .exe file and select \"More information\" and \"Run anyway\".\n \nFrom source\n \nA recent Go version needs to be installed. This can be done via your package manager or the golang website.\n \nClone this repository\n \n$ git clone https://github.com/marcelja/facebook-delete.git\n$ cd facebook-delete\n$ go install\n$ go run deleter.go\n\n \nCookies\n \nCookies are saved to $HOME/.go-cookies if the $GOCOOKIES variable is not set (see https://github.com/juju/persistent-cookiejar).\n \nOptions\n \nRate-limiting\n \nFacebook will temp-block you if you make too many requests too quickly. Run the command with the -rateLimit <time in ms> to introduce a delay before each request. If you're getting hung up on just searches or deletes, you can disable rate-limiting for one or the other with -limitSearch=0 or -limitDelete=0.\n \nE.g. one of:\n \n$ ./deleter-linux -rateLimit 500\n$ ./deleter-linux -rateLimit 500 -limitSearch=0\n$ ./deleter-linux -rateLimit 500 -limitDelete=0",
+          "link": "https://github.com/marcelja/facebook-delete",
+          "publishedOn": "2021-10-15T00:57:13.145Z",
+          "wordCount": 675,
+          "title": "marcelja/facebook-delete"
+        },
         {
           "id": "https://github.com/milvus-io/milvus",
           "author": null,
