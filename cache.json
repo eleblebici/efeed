@@ -6,6 +6,15 @@
       "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
       "articles": [
         {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.3",
+          "author": null,
+          "description": "Fixed: broken links in documentation\nChore: Dependency updates\nThank you: @hirdot",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.3",
+          "publishedOn": "2021-10-16T00:01:47.000Z",
+          "wordCount": 299,
+          "title": "v1.11.3"
+        },
+        {
           "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2",
           "author": null,
           "description": "Fixed: unicode characters in URL caused download error\nFixed: project root npm install error\nAdded: unit test library\nChore: Dependency updates\nThank you: @CaptNo1",
@@ -13,15 +22,6 @@
           "publishedOn": "2021-09-26T18:45:39.000Z",
           "wordCount": 354,
           "title": "v1.11.2"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.1",
-          "author": null,
-          "description": "Fixed: Unexpected nested element in author field crashes the parser\nThank you @ad-m",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.1",
-          "publishedOn": "2021-09-16T06:39:32.000Z",
-          "wordCount": 343,
-          "title": "v1.11.1"
         }
       ]
     },
@@ -30,6 +30,15 @@
       "feedUrl": "https://www.cncf.io/feed/",
       "siteUrl": "https://www.cncf.io",
       "articles": [
+        {
+          "id": "https://www.cncf.io/?p=65162",
+          "author": "Katie Meinders",
+          "description": "Annual awards recognize outstanding community members for advocacy, contributions, and documentation in cloud native technology SAN FRANCISCO, Calif. – October 15, 2021 – KubeCon + CloudNativeCon North America 2021 – The Cloud...",
+          "link": "https://www.cncf.io/announcements/2021/10/15/cloud-native-computing-foundation-announces-2021-community-awards-winners/",
+          "publishedOn": "2021-10-15T17:15:00.000Z",
+          "wordCount": 1183,
+          "title": "Cloud Native Computing Foundation Announces 2021 Community Awards Winners"
+        },
         {
           "id": "https://www.cncf.io/?p=65051",
           "author": "Jessie",
@@ -353,15 +362,6 @@
           "publishedOn": "2021-09-16T15:00:00.000Z",
           "wordCount": 1728,
           "title": "Redundancy across data centers with Kubernetes, WireGuard and Rook"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64542",
-          "author": "Jessie",
-          "description": "Guest post originally published on CloudOps’ blog by Marc Boudreau, Cloud Architect at CloudOps Serverless computing is taking off. Despite having been around since the announcement of Lambda by AWS in 2014...",
-          "link": "https://www.cncf.io/blog/2021/09/15/is-serverless-the-right-way-to-cloud/",
-          "publishedOn": "2021-09-15T15:00:00.000Z",
-          "wordCount": 1679,
-          "title": "Is serverless the ‘right’ way to cloud?"
         }
       ]
     },
@@ -386,6 +386,105 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/electron-userland/electron-builder",
+          "author": null,
+          "description": "A complete solution to package and build a ready for distribution Electron app with “auto update” support out of the box\n\nelectron-builder    \n \nA complete solution to package and build a ready for distribution Electron, Proton Native app for macOS, Windows and Linux with “auto update” support out of the box.\n \nSee documentation on electron.build.\n \n \n \nNPM packages management: \n  \n \n   \nNative application dependencies compilation (including Yarn support).\n \n   \nDevelopment dependencies are never included. You don't need to ignore them explicitly.\n \n   \nTwo package.json structure is supported, but you are not forced to use it even if you have native production dependencies.\n \n  \n  \n \nCode Signing on a CI server or development machine.\n \n \nAuto Update ready application packaging.\n \n \nNumero…",
+          "link": "https://github.com/electron-userland/electron-builder",
+          "publishedOn": "2021-10-16T00:58:24.323Z",
+          "wordCount": 1334,
+          "title": "electron-userland/electron-builder"
+        },
+        {
+          "id": "https://github.com/PanJiaChen/vue-element-admin",
+          "author": null,
+          "description": "🎉 A magical vue admin https://panjiachen.github.io/vue-element-admin\n\n  \n \n                      \n \nEnglish | 简体中文 | 日本語 | Spanish\n \n SPONSORED BY \n \n \n  \n  \n \n      \n活动服务销售平台\n   \n      \n客户消息直达工作群\n   \n  \n \n  \n \nIntroduction\n \nvue-element-admin is a production-ready front-end solution for admin interfaces. It is based on vue and uses the UI Toolkit element-ui.\n \nvue-element-admin is based on the newest development stack of vue and it has a built-in i18n solution, typical templates for enterprise applications, and lots of awesome features. It helps you build large and complex Single-Page Applications. I believe whatever your needs are, this project will help you.\n \n \n \n Preview\n  \n \n Documentation\n  \n \n Gitter\n  \n \n Donate\n  \n \n Wiki\n  \n \n Gitee 国内用户可访问该地址在线预览\n  \n \n Base template recommends…",
+          "link": "https://github.com/PanJiaChen/vue-element-admin",
+          "publishedOn": "2021-10-16T00:58:24.209Z",
+          "wordCount": 1239,
+          "title": "PanJiaChen/vue-element-admin"
+        },
+        {
+          "id": "https://github.com/thingsboard/thingsboard",
+          "author": null,
+          "description": "Open-source IoT Platform - Device management, data collection, processing and visualization.\n\nThingsBoard\n \n \n \nThingsBoard is an open-source IoT platform for data collection, processing, visualization, and device management.\n \n \nDocumentation\n \nThingsBoard documentation is hosted on thingsboard.io.\n \nIoT use cases\n \nSmart metering \n \nIoT Rule Engine \n \nSmart energy \n \nSmart farming \n \nFleet tracking \n \nGetting Started\n \nCollect and Visualize your IoT data in minutes by following this guide.\n \nSupport\n \n \n \nCommunity chat\n \n \nQ&A forum\n \n \nStackoverflow\n \n \nLicenses\n \nThis project is released under Apache 2.0 License.",
+          "link": "https://github.com/thingsboard/thingsboard",
+          "publishedOn": "2021-10-16T00:58:24.124Z",
+          "wordCount": 696,
+          "title": "thingsboard/thingsboard"
+        },
+        {
+          "id": "https://github.com/ddosify/ddosify",
+          "author": null,
+          "description": "High-performance load testing tool, written in Golang.\n\n \n Ddosify - High-performance load testing tool \n \n            \n \n  \n \nFeatures\n \n✔ Protocol Agnostic - Currently supporting HTTP, HTTPS, HTTP/2. Other protocols are on the way.\n \n✔ Scenario-Based - Create your flow in a JSON file. Without a line of code!\n \n✔ Different Load Types - Test your system's limits across different load types.\n \nInstallation\n \nddosify is available via Docker, Homebrew Tap, and downloadable pre-compiled binaries from the releases page for macOS, Linux and Windows.\n \nDocker\n \ndocker run -it --rm ddosify/ddosify\n\n \nHomebrew Tap (macOS and Linux)\n \nbrew install ddosify/tap/ddosify\n\n \napk, deb, rpm packages\n \n# For Redhat based (Fedora, CentOS, RHEL, etc.)\nrpm -i https://github.com/ddosify/ddosify/releases/downloa…",
+          "link": "https://github.com/ddosify/ddosify",
+          "publishedOn": "2021-10-16T00:58:24.081Z",
+          "wordCount": 1627,
+          "title": "ddosify/ddosify"
+        },
+        {
+          "id": "https://github.com/qiurunze123/miaosha",
+          "author": null,
+          "description": "⭐⭐⭐⭐秒杀系统设计与实现.互联网工程师进阶与分析🙋🐓\n\n\n \n \n \n邮箱 : QiuRunZe_key@163.com\n \n \n \n \nGithub : https://github.com/qiurunze123\n \n \n \n \n微信(阿里推荐-可帮忙推荐 与 修改简历 )：微信名称：qiurunzeaixiaoju 群人数较多 备注 年限-姓名 加我后我来拉你进群\n \n \n \n \n为大家举办这个活动 团队的人都有经验可以帮着大家修改简历 日期持续到6-18号 过后可能需要再约时间 大家看到后可加我 免费的哈！也是一个和专家沟通的机会\n \n \n \n \nQQ : 3341386488\n \n \n \n \nQQ群1(秒杀架构一群) :\n \n \n\n \n \n \nQQ群2(秒杀架构二群) :\n \n \n\n \n \n \nQQ群3(多线程交流群 三高系统 -- 并发框架) :\n \n \n\n \n 高并发大流量如何进行秒杀架构，我对这部分知识做了一个系统的整理，写了一套系统。本GitHub还有许多其他的知识，随时欢迎探讨与骚扰！本文还在更新如果文章出现瑕疵请及时与我联系！\n \n文章还有许多不足，我仍在不断改进！如果你本地没有这些环境,可以先找我要我的阿里云地址,看效果！ ps: 本文章基础思路来自于若鱼1919老师！大家可以关注老师的课和博客很不错,老师很nice！ 谢谢大家 ！课程地址：https://coding.imooc.com/class/168.html\n \n一点小建议：学习本系列知识之前，如果你完全没接触过 MQ、SpringBoot、Redis、Dubbo、ZK 、Maven,lua等，那么我建议你可以先在网上搜一下每一块知识的快速入门， 也可以下载本项目边做边学习，我的项目完全是实战加讲解不想写一堆的文章，浪费我们的生命，你还不懂内层含义，想要明白就边实际操作边学习，效果会…",
+          "link": "https://github.com/qiurunze123/miaosha",
+          "publishedOn": "2021-10-16T00:58:24.030Z",
+          "wordCount": 721,
+          "title": "qiurunze123/miaosha"
+        },
+        {
+          "id": "https://github.com/nuxt/framework",
+          "author": null,
+          "description": "The Hybrid Vue(3) Framework.\n\n  \n \n      \n \nWelcome to Nuxt 3 repository ✨\n \n \n  \n  \n \n    \n📖 Documentation\n  Read Online Docs. \n  \n    \n🐞 Reporting bugs\n  Check out Reporting Bugs page.\n  \n  \n \n  \n \n    \n💡 Suggestions \n  Check out Contribution page. \n  \n    \n❔ Questions\n  Check out Getting Help page. \n  \n  \n \n  \n \n💻 Development\n \n \n \nClone repository\n \n \nEnsure you have the latest LTS version of Node.js installed\n \n \nInstall dependencies with npx yarn install\n \n \nRun npx yarn stub to activate passive development\n \n \nOpen playground with npx yarn play\n \n \nLearn more about in our documentation on how to contribute to Nuxt.\n \n📖 Documentation\n \nWe are using Docus for documentation (It is planned to be open sourced it in the following weeks).\n \nWe recommend to install the Docus extension for VS Code.\n \n \n \nGo into the docs directory: cd docs\n \n \nInstall docs dependencies with npx yarn install\n \n \nRun npx yarn dev to start Docus in development mode\n \n \nThe pages are generated from docs/content/, you can start editing them to start helping us on documenting Nuxt 3 💚\n \nLicense\n \nMIT",
+          "link": "https://github.com/nuxt/framework",
+          "publishedOn": "2021-10-16T00:58:23.978Z",
+          "wordCount": 702,
+          "title": "nuxt/framework"
+        },
+        {
+          "id": "https://github.com/zhanwen/MathModel",
+          "author": null,
+          "description": "研究生数学建模，本科生数学建模、数学建模竞赛优秀论文，数学建模算法，LaTeX论文模板，算法思维导图，参考书籍，Matlab软件教程，PPT\n\n数学建模资源\n \n更新模块\n \n2021.10.13 明天早八点开始，祝大家比赛开心 （^_^）\n \n \n \n更新 2021年研究生数学建模竞赛试题\n \n \n更新 2021年论文模版（包括 word 版本、Latex 版本）\n \n \n更新 数学建模网论坛上提问（比赛期间，论坛解答）\n \n \n更新 2020 年优秀论文（2021年8月21日）⏬下载链接，key:odt5\n \n \n--------以下是历史更新版本--------\n \n \n更新 2020年论文模版（包括 word 版本、Latex 版本）\n \n \n更新 2019 年优秀论文（2020年7月21日）⏬下载链接，key:2uyl\n \n \n2019年“华为杯”第十六届中国研究生数学建模竞赛——选题、命题介绍分析： 选题、命题介绍分析\n \n \n所有文件下载地址更新到微盘：微盘下载，key：uzw9mf\n \n \n同步所有文件到百度云网盘，key:bxdy（2020年6月24日）\n \n \n百度云备用链接1: 点击下载，key:0rm9\n \n \n百度云备用链接2: 点击下载，key:5s6y\n \n \n百度云备用链接3: 点击下载，key:29vl\n \n \n2021 年研究生数模\n \nMD5文件校验和使用说明： 论文提交（MD5使用方法）\n \nLaTex 论文模版使用方式： 如何编译 Latex 文件\n \n主题： “华为杯”第十八届中国研究生数学建模竞赛（只允许2021级跨校组队，大家注意一下。）\n 引用官网原文：由于今年的新冠疫情形势导致部分高校的工作安排较往年同期有一定变化，教学科研进度也相应作出调整。为让意向参赛的师生有更加充裕的时间报名、备赛，经研究决定，现对原定的各时间节点予…",
+          "link": "https://github.com/zhanwen/MathModel",
+          "publishedOn": "2021-10-16T00:58:23.932Z",
+          "wordCount": 844,
+          "title": "zhanwen/MathModel"
+        },
+        {
+          "id": "https://github.com/microsoft/Swin-Transformer",
+          "author": null,
+          "description": "This is an official implementation for \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\".\n\nSwin Transformer\n \n        \n \nBy Ze Liu*, Yutong Lin*, Yue Cao*, Han Hu*, Yixuan Wei, Zheng Zhang, Stephen Lin and Baining Guo.\n \nThis repo is the official implementation of \"Swin Transformer: Hierarchical Vision Transformer using Shifted Windows\". It currently includes code and models for the following tasks:\n \n \n \nImage Classification: Included in this repo. See get_started.md for a quick start.\n \n \n \n \nObject Detection and Instance Segmentation: See Swin Transformer for Object Detection.\n \n \n \n \nSemantic Segmentation: See Swin Transformer for Semantic Segmentation.\n \n \n \n \nSelf-Supervised Learning: See Transformer-SSL.\n \n \n \n \nVideo Action Recognition: See Video Swin Transf…",
+          "link": "https://github.com/microsoft/Swin-Transformer",
+          "publishedOn": "2021-10-16T00:58:23.865Z",
+          "wordCount": 1730,
+          "title": "microsoft/Swin-Transformer"
+        },
+        {
+          "id": "https://github.com/twbs/icons",
+          "author": null,
+          "description": "Official open source SVG icon library for Bootstrap.\n\n    \n \nBootstrap Icons\n \n Official open source SVG icon library for Bootstrap with over 1,400 icons. \n Explore Bootstrap Icons » \n  Bootstrap · Themes · Blog \n  \n\n \nInstall\n \nBootstrap Icons are packaged up and published to npm. We only include the processed SVGs in this package—it's up to you and your team to implement. Read our docs for usage instructions.\n \nnpm i bootstrap-icons\n\n \nFor those using Packagist, you can also install Bootstrap Icons via Composer:\n \ncomposer require twbs/bootstrap-icons\n\n \nAlso available in Figma.\n \nUsage\n \nDepending on your setup, you can include Bootstrap Icons in a handful of ways.\n \n \n \nCopy-paste SVGs as embedded HTML\n \n \nReference via <img> element\n \n \nUse the SVG sprite\n \n \nInclude via CSS\n \n \nSee t…",
+          "link": "https://github.com/twbs/icons",
+          "publishedOn": "2021-10-16T00:58:23.791Z",
+          "wordCount": 903,
+          "title": "twbs/icons"
+        },
+        {
+          "id": "https://github.com/3b1b/videos",
+          "author": null,
+          "description": "Code for the manim-generated scenes used in 3blue1brown videos\n\nThis project contains the code used to generate the explanatory math videos found on 3Blue1Brown.\n \nThis almost entirely consists of scenes generated using the library Manim. See also the community maintained version at ManimCommunity.\n \nNote, while the library Manim itself is open source and under the MIT license, the contents of this project are intended only to be used for 3Blue1Brown videos themselves.\n \nCopyright © 2021 3Blue1Brown",
+          "link": "https://github.com/3b1b/videos",
+          "publishedOn": "2021-10-16T00:58:23.698Z",
+          "wordCount": 538,
+          "title": "3b1b/videos"
+        },
+        {
+          "id": "https://github.com/WorkerLivesMatter/WorkingTime",
+          "author": null,
+          "description": "WorkingTime\n \n\n \nWorker Lives Matter！打工人也需要生活！\n \n关于下载\n \n目前还在规范整个流程，权限，合法性，也有在联系律师同学的帮助，在规范完之后会开放下载。请各位放心！\n \n项目介绍\n \nWorker Lives Matter！ WorkingTime 是由中国民间程序员发起的一个项目，针对目前包括互联网企业在内的各个企业加班盛行且无监管的现状，上线了一个在线作息编辑表格。上线仅两天就收获了上千条各个企业精确到部门的作息情况和工作氛围等信息，几十万的浏览次数，上百人同时在线查看。随着文档的扩散，打工人们分享的信息中不仅局限于互联网企业，还包含了金融行业，事业单位，建筑行业等各行各业企业部门的作息情况，我们打工人也需要生活！！！！\n \n此项目依托于各位打工人们的无私奉献，旨在为在各行各业的打工人提供各个公司的作息时间，为打工人们在做职业选择的时候提供尽量准确的参考。\n \n大家分享的信息我们也会定时在此仓库进行更新，造福打工人！\n \n如何奉献自己的一份力\n \n我们在维护此项目期间收到了很多仁人志士的帮助和建议，在此先感谢所有为此项目提供数据和为此项目建言献策的各位同胞！\n \n然后，如果您愿意分享自己部门的作息情况，请点击 https://docs.qq.com/form/page/DUUdPbWhnWVF3ekh6 此问卷，发布自己公司部门的作息时间以及其他信息。（本来之前是直接在表格编辑，但是遭到了不怀好意者的恶意增删，所以我们只能以填问卷的形式自动增加内容，望同胞们理解！）\n \n重要链接\n \n \n \n实时查看数据的收集表 https://docs.qq.com/sheet/DUXVoa3BsRG1HYlZE?tab=BB08J2\n \n \n每日凌晨整理数据的总表 https://docs.qq.com/sheet/DVmhnRG15TG1Tb2Js\n \n \nGitHub 每日备份 https://github.com/WorkerLivesMatter/WorkerLivesMatter\n \n \n扩大影响\n \n希望大家去问题下面链接点赞转发，扩大此项目的影响力。\n \n \n \n知乎：https://www.zhihu.com/question/491803439\n \n \n交流群\n \n官方QQ四群 548630620，一二三群已满。 有问题请咨询群管理员。\n \n致谢\n \n感谢 一学习就犯困 Tibbers Ale 秃头才能变强 和所有贡献了数据的兄弟们。 感谢 richar 提供方法解决了恶意编辑的问题。",
+          "link": "https://github.com/WorkerLivesMatter/WorkingTime",
+          "publishedOn": "2021-10-16T00:58:23.332Z",
+          "wordCount": 396,
+          "title": "WorkerLivesMatter/WorkingTime"
+        },
         {
           "id": "https://github.com/KieSun/all-of-frontend",
           "author": null,
@@ -3755,5 +3854,5 @@
       ]
     }
   ],
-  "cliVersion": "1.11.2"
+  "cliVersion": "1.11.3"
 }
