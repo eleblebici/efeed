@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-17T00:54:48.400Z</updated>
+    <updated>2021-10-18T00:56:30.716Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[trekhleb/javascript-algorithms]]></title>
+        <id>https://github.com/trekhleb/javascript-algorithms</id>
+        <link href="https://github.com/trekhleb/javascript-algorithms"/>
+        <updated>2021-10-18T00:56:29.630Z</updated>
+        <summary type="html"><![CDATA[📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+
+JavaScript Algorithms and Data Structures
+ 
+ 
+ 
+This repository contains JavaScript based examples of many popular algorithms and data structures.
+ 
+Each algorithm and data structure has its own separate README with related explanations and links for further reading (including ones to YouTube videos).
+ 
+Read this in other languages: 简体中文, 繁體中文, 한국어, 日本語, Polski, Français, Español, Português, Русский, Türk, Italiana, Bahasa Indonesia, Українська, Arabic, Deutsch
+ 
+☝ Note that this project is meant to be used for learning and researching purposes only, and it is not meant to be used for production.
+ 
+Data Structures
+ 
+A data structure is a particular way of organizing and storing data…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[electron-userland/electron-builder]]></title>
         <id>https://github.com/electron-userland/electron-builder</id>
@@ -19011,16 +19037,6 @@ Purpose of these Roadmaps
 The purpose of these roadmaps is to give you an idea about the landscape and to guide you if you are confused about what to learn next and not to encourage y…]]></summary>
         <author>
             <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managing Docker apps with Kubernetes Ingress Controller]]></title>
-        <id>https://www.cncf.io/?p=64558</id>
-        <link href="https://www.cncf.io/blog/2021/09/17/managing-docker-apps-with-kubernetes-ingress-controller/"/>
-        <updated>2021-09-17T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post originally published on Kong’s blog by Alvin Lee Think back to when your development team made the switch to Dockerized containers. What was once an application requiring multiple services on...]]></summary>
-        <author>
-            <name>Jessie</name>
         </author>
     </entry>
 </feed>
