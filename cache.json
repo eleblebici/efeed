@@ -31,6 +31,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=65210",
+          "author": "Jessie",
+          "description": "Guest post originally published on the NGINX blog by Jenn Gile, Manager, Product Marketing at F5 This is the first blog post in our series on how to choose a Kubernetes Ingress...",
+          "link": "https://www.cncf.io/blog/2021/10/20/a-guide-to-choosing-an-ingress-controller-part-1-identify-your-requirements/",
+          "publishedOn": "2021-10-20T15:00:00.000Z",
+          "wordCount": 2404,
+          "title": "A guide to choosing an Ingress Controller, part 1: identify your requirements"
+        },
+        {
           "id": "https://www.cncf.io/?p=65246",
           "author": "Jessie",
           "description": "Project post by Tamao Nakahara, Head of Developer Experience, Weaveworks and Flux community manager On October 20, 6 major vendors are joining to demonstrate their backing of a major CNCF project –...",
@@ -353,24 +362,6 @@
           "publishedOn": "2021-09-21T15:00:00.000Z",
           "wordCount": 1714,
           "title": "Why choose a multi-cloud strategy?"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64719",
-          "author": "Jessie",
-          "description": "Community guest post by Raul Flamenco, founder of Acopula Networks and co-organizer of Cloud Native San Salvador “A man may not achieve everything he has dreamed, but he will never achieve anything...",
-          "link": "https://www.cncf.io/blog/2021/09/20/first-is-the-dream/",
-          "publishedOn": "2021-09-20T15:00:00.000Z",
-          "wordCount": 1254,
-          "title": "First is the dream"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64564",
-          "author": "Jessie",
-          "description": "Guest post originally published on PingCAP‘s blog by Shuyang Wu Apache APISIX is a cloud-native, high-performance, scaling microservices API gateway. It is one of the Apache Software Foundation’s top-level projects and serves hundreds...",
-          "link": "https://www.cncf.io/blog/2021/09/20/how-chaos-mesh-helps-apache-apisix-improve-system-stability/",
-          "publishedOn": "2021-09-20T15:00:00.000Z",
-          "wordCount": 1422,
-          "title": "How Chaos Mesh helps Apache APISIX improve system stability"
         }
       ]
     },
@@ -3318,69 +3309,6 @@
           "publishedOn": "2021-09-22T00:54:55.097Z",
           "wordCount": 637,
           "title": "input-output-hk/essential-cardano"
-        },
-        {
-          "id": "https://github.com/laoshenkaopu/kkndme_tianya",
-          "author": null,
-          "description": "天涯 kkndme 神贴聊房价\n\nkkndme_tianya（持续更新中...）\n \n \n \n天涯神贴「2010年的房地产调控，我们收获了什么？写在房价暴涨前」脱水版，内容时间顺序和原贴一致，原贴中的优质非楼主写的内容，添加了引用格式便于区分。\n \n \n除标题外，所有内容均来自原贴，标题是我简单加的，目的是为了做目录，便于查看。\n \n \nkkndme神贴的内容还没有整理完，待全部整理完：\n \n \n \n  \n对kkndme的思想有了完整的认识后，我应该会在公众号沈正方上写写我对这个帖子内容的思考。\n \n  \n其次，我会把本仓库的内容做成PDF，通过公众号沈正方发出去，欢迎关注一起讨论！\n \n \n \n \n \n \n希望调控可以降房价，希望终有一天房价下跌是人们的一厢情愿 \n  \n \n   \n1、人人都有居住权。房子是用来住的，不是用来炒的。\n \n   \n2、房子太贵了，租售比严重不合理，空置率太高，人均收入太低，早晚要崩盘。\n \n   \n3、房价上涨造成物价上涨，人民生活变得困难\n \n  \n  \n \n房地产调控的真正目的：防范金融风险 & 通过垄断实现gj利益最大化\n \n \n官方公布的统计数据，只要关系到某个群体的利益，就一定会被修饰导致失真\n \n \n税收从来都是向下游转嫁的 & 房产税迟迟不出台的真正原因\n \n \n房地产的现状\n \n \n房价持续上涨的本质是稀缺性让好房子成为资金最好的去处\n \n \n关于垄断 \n  \n \n   \n1、垄断的好处是没有风险\n \n   \n2、垄断可以解决社会稳定\n \n   \n3、房屋垄断只会愈演愈烈，底层人民想要拥有一套房子的难度只会越来越难\n \n  \n  \n \n为什么政府没有那么在意民生问题？\n \n \n房产税的制定原则\n \n \n维稳的本质是人民能吃饱饭\n \n \n公租房是为体制内服务的\n \n \n房产税一定会转嫁给租房人\n \n \n巨大的税收消耗也决定了G…",
-          "link": "https://github.com/laoshenkaopu/kkndme_tianya",
-          "publishedOn": "2021-09-21T00:53:28.520Z",
-          "wordCount": 4360,
-          "title": "laoshenkaopu/kkndme_tianya"
-        },
-        {
-          "id": "https://github.com/jumpserver/jumpserver",
-          "author": null,
-          "description": "JumpServer 是全球首款开源的堡垒机，是符合 4A 的专业运维安全审计系统。\n\n\n \n多云环境下更好用的堡垒机\n \n     \n \n \n \n \nENGLISH\n \n \nJumpServer 是全球首款开源的堡垒机，使用 GNU GPL v2.0 开源协议，是符合 4A 规范的运维安全审计系统。\n \nJumpServer 使用 Python 开发，遵循 Web 2.0 规范，配备了业界领先的 Web Terminal 方案，交互界面美观、用户体验好。\n \nJumpServer 采纳分布式架构，支持多机房跨区域部署，支持横向扩展，无资产数量及并发限制。\n \n改变世界，从一点点开始 ...\n \n \n \n如需进一步了解 JumpServer 开源项目，推荐阅读 JumpServer 的初心和使命\n \n \n特色优势\n \n \n \n开源: 零门槛，线上快速获取和安装；\n \n \n分布式: 轻松支持大规模并发访问；\n \n \n无插件: 仅需浏览器，极致的 Web Terminal 使用体验；\n \n \n多云支持: 一套系统，同时管理不同云上面的资产；\n \n \n云端存储: 审计录像云端存储，永不丢失；\n \n \n多租户: 一套系统，多个子公司和部门同时使用；\n \n \n多应用支持: 数据库，Windows远程应用，Kubernetes。\n \n \nUI 展示\n \n\n \n在线体验\n \n \n \n环境地址：https://demo.jumpserver.org/\n \n \n \n  \n  \n \n   ⚠ 注意 \n  \n \n  \n  \n  \n \n   该环境仅作体验目的使用，我们会定时清理、重置数据！ \n  \n \n  \n \n   请勿修改体验环境用户的密码！ \n  \n \n  \n \n   请勿在环境中添加业务生产环境地址、用户名密码等敏感信息！ \n  \n \n  \n \n快速开始\n \n \n \n极速安装\n \n \n完…",
-          "link": "https://github.com/jumpserver/jumpserver",
-          "publishedOn": "2021-09-21T00:53:28.167Z",
-          "wordCount": 772,
-          "title": "jumpserver/jumpserver"
-        },
-        {
-          "id": "https://github.com/OpenIMSDK/Open-IM-Server",
-          "author": null,
-          "description": "Open-IM-Server is open source instant messaging Server.Backend in Go.\n\nOpen-IM-Server\n \n\n \n \n \nOpen-IM-Server: Open source Instant Messaging Server\n \nInstant messaging server. Backend in pure Golang, wire transport protocol is JSON over websocket.\n \nEverything is a message in Open-IM-Server, so you can extend custom messages easily, there is no need to modify the server code.\n \nUsing microservice architectures, Open-IM-Server can be deployed using clusters.\n \nBy deployment of the Open-IM-Server on the customer's server, developers can integrate instant messaging and real-time network capabilities into their own applications free of charge and quickly, and ensure the security and privacy of business data.\n \nFeatures\n \n \n \nEverything in Free\n \n \nScalable architecture\n \n \nEasy integration\n \n …",
-          "link": "https://github.com/OpenIMSDK/Open-IM-Server",
-          "publishedOn": "2021-09-21T00:53:28.128Z",
-          "wordCount": 1949,
-          "title": "OpenIMSDK/Open-IM-Server"
-        },
-        {
-          "id": "https://github.com/eugeneyan/applied-ml",
-          "author": null,
-          "description": "📚 Papers & tech blogs by companies sharing their work on data science & machine learning in production.\n\napplied-ml\n \nCurated papers, articles, and blogs on data science & machine learning in production. ⚙️\n \n  \n \nFiguring out how to implement your ML project? Learn how other organizations did it:\n \n \n \nHow the problem is framed 🔎(e.g., personalization as recsys vs. search vs. sequences)\n \n \nWhat machine learning techniques worked ✅ (and sometimes, what didn't ❌)\n \n \nWhy it works, the science behind it with research, literature, and references 📂\n \n \nWhat real-world results were achieved (so you can better assess ROI ⏰💰📈)\n \n \nP.S., Want a summary of ML advancements? 👉ml-surveys\n \nP.P.S, Looking for guides and interviews on applying ML? 👉applyingML\n \nTable of Contents\n \n \n \nData Quali…",
-          "link": "https://github.com/eugeneyan/applied-ml",
-          "publishedOn": "2021-09-21T00:53:28.090Z",
-          "wordCount": 4608,
-          "title": "eugeneyan/applied-ml"
-        },
-        {
-          "id": "https://github.com/seaswalker/spring-analysis",
-          "author": null,
-          "description": "Spring源码阅读\n\nSpring\n \nSpring相关组件阅读笔记.\n \n传送门\n \n \n \nspring-core\n \n \nspring-aop\n \n \nspring-context\n \n \nspring-task\n \n \nspring-transaction\n \n \nspring-mvc\n \n \nguava-cache",
-          "link": "https://github.com/seaswalker/spring-analysis",
-          "publishedOn": "2021-09-21T00:53:27.962Z",
-          "wordCount": 377,
-          "title": "seaswalker/spring-analysis"
-        },
-        {
-          "id": "https://github.com/TheAlgorithms/Java",
-          "author": null,
-          "description": "All Algorithms implemented in Java\n\n\n \nThe Algorithms - Java\n \n      \n \nYou can run and edit the algorithms or contribute to them using Gitpod.io, a free online development environment, with a single click.\n \n\n \nAll algorithms are implemented in Java (for educational purposes)\n \nThese implementations are for learning purposes. The implementations may be less efficient than the Java standard library.\n \nContribution Guidelines\n \nRead our Contribution Guidelines before you contribute.\n \nCommunity Channel\n \nWe're on Gitter! Please join us.\n \nAlgorithms\n \nSee our directory.",
-          "link": "https://github.com/TheAlgorithms/Java",
-          "publishedOn": "2021-09-21T00:53:27.933Z",
-          "wordCount": 684,
-          "title": "TheAlgorithms/Java"
-        },
-        {
-          "id": "https://github.com/PeterL1n/RobustVideoMatting",
-          "author": null,
-          "description": "Robust Video Matting in PyTorch, TensorFlow, TensorFlow.js, ONNX, CoreML!\n\nRobust Video Matting (RVM)\n \n\n \nEnglish | 中文\n \nOfficial repository for the paper Robust High-Resolution Video Matting with Temporal Guidance. RVM is specifically designed for robust human video matting. Unlike existing neural models that process frames as independent images, RVM uses a recurrent neural network to process videos with temporal memory. RVM can perform matting in real-time on any videos without additional inputs. It achieves 4K 76FPS and HD 104FPS on an Nvidia GTX 1080 Ti GPU. The project was developed at ByteDance Inc.\n \n \nNews\n \n \n \n[Sep 16 2021] Code is re-released under GPL-3.0 license.\n \n \n[Aug 25 2021] Source code and pretrained models are published.\n \n \n[Jul 27 2021] Paper is accepted by WACV 202…",
-          "link": "https://github.com/PeterL1n/RobustVideoMatting",
-          "publishedOn": "2021-09-21T00:53:27.904Z",
-          "wordCount": 1216,
-          "title": "PeterL1n/RobustVideoMatting"
         }
       ]
     }
