@@ -31,6 +31,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=65308",
+          "author": "Jessie",
+          "description": "Guest post originally published on Snapt’s blog by Iwan Price-Evans, Sr Cloud Marketing Director at Snapt We talk a lot about the importance of cloud computing and moving infrastructure into the cloud...",
+          "link": "https://www.cncf.io/blog/2021/10/21/the-role-of-ict-and-the-tech-sector-in-sustainability/",
+          "publishedOn": "2021-10-21T15:00:00.000Z",
+          "wordCount": 2017,
+          "title": "The role of ICT and the tech sector in sustainability"
+        },
+        {
           "id": "https://www.cncf.io/?p=65210",
           "author": "Jessie",
           "description": "Guest post originally published on the NGINX blog by Jenn Gile, Manager, Product Marketing at F5 This is the first blog post in our series on how to choose a Kubernetes Ingress...",
@@ -353,15 +362,6 @@
           "publishedOn": "2021-09-22T15:00:00.000Z",
           "wordCount": 1529,
           "title": "Understand OpenTelemetry part 4: Instrument a Java app with OpenTelemetry"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64751",
-          "author": "Jessie",
-          "description": "Guest post originally published on the Snapt blog by Craig Risi To cloud or not to cloud? This question has been around for a while now, as the cloud has opened the...",
-          "link": "https://www.cncf.io/blog/2021/09/21/why-choose-a-multi-cloud-strategy/",
-          "publishedOn": "2021-09-21T15:00:00.000Z",
-          "wordCount": 1714,
-          "title": "Why choose a multi-cloud strategy?"
         }
       ]
     },
@@ -376,6 +376,213 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/Yin-Hongwei/music-website",
+          "author": null,
+          "description": "🎧 Vue + SpringBoot + MyBatis 音乐网站\n\nmusic-website\n \n \n  \n \n项目说明\n \n本音乐网站的客户端和管理端使用 VUE 框架来实现，服务端使用 Spring Boot + MyBatis 来实现，数据库使用了 MySQL。实现思路可以看这里；项目启动方法看文章末尾。\n \n \n项目预览\n \n \n \n前台截图预览\n \n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n \n \n后台截图预览\n \n \n\n \n\n \n\n \n\n \n\n \n\n \n项目功能\n \n \n \n音乐播放\n \n \n用户登录注册\n \n \n用户信息编辑、头像修改\n \n \n歌曲、歌单搜索\n \n \n歌单打分\n \n \n歌单、歌曲评论\n \n \n歌单列表、歌手列表分页显示\n \n \n歌词同步显示\n \n \n音乐收藏、下载、拖动控制、音量控制\n \n \n后台对用户、歌曲、歌手、歌单信息的管理\n \n \n \n技术栈\n \n后端\n \nSpringBoot + MyBatis\n \n前端\n \nVue + Vue-Router + Vuex + Axios + ElementUI\n \n \n开发环境\n \nJDK： jdk-8u141\n \nmysql：mysql-5.7.21-1-macos10.13-x86_64\n \nnode：v12.4.0\n \nIDE：IntelliJ IDEA 2018、VSCode\n \n \n下载运行\n \n1、下载项目到本地\n \ngit clone https://github.com/Yin-Hongwei/music-website.git\n\n \n2、下载数据库中记录的资源\n \n去【链接: https://pan.baidu.com/s/1Qv0ohAIPeTthPK_CDwpfWg 提取码: gwa4 】下载网站依赖的歌曲及图片，将 data 夹里的文件放到 music-server 文件夹下。\n \n \n \n注意：资源整理了一下，按照下面的截图存放。\n \n \n \n3、修改配置文件\n \n1）创建数据库 将 music-website/music-server/sql 文件夹中的 tp_music.sql 文件导入数据库。\n \n2）修改用户名密码 修改 music-website/music-server/src/main/resources/application.properties 文件里的 spring.datasource.username 和 spring.datasource.password；\n \n3）修改资源路径\n \n修改 music-server/src/main/java/com/example/yin/constant/Constants.java 文件中的 RESOURCE_PATH，否则资源加载不了。\n \n\n \n4、启动项目\n \n \n \n启动管理端：进入 music-server 文件夹，运行下面命令启动服务器\n \n \n// 方法一\n./mvnw spring-boot:run\n\n// 方法二\nmvn spring-boot:run // 前提装了 maven\n\n \n \n \n启动客户端：进入 music-client 目录，运行下面命令\n \n \nnpm install // 安装依赖\n\nnpm run dev // 启动前台项目\n\n \n \n \n启动管理端：进入 music-manage 目录，运行下面命令\n \n \nnpm install // 安装依赖\n\nnpm run dev // 启动后台管理项目\n\n \n \n赞助\n \n如果此项目对你确实有帮助，欢迎给我打赏一杯咖啡～😄\n \n\n \nLicense\n \nCopyright (c) 2018 Yin-Hongwei",
+          "link": "https://github.com/Yin-Hongwei/music-website",
+          "publishedOn": "2021-10-22T01:00:39.035Z",
+          "wordCount": 537,
+          "title": "Yin-Hongwei/music-website"
+        },
+        {
+          "id": "https://github.com/paritytech/substrate",
+          "author": null,
+          "description": "Substrate: The platform for blockchain innovators\n\nSubstrate ·    \n \n  \n \nSubstrate is a next-generation framework for blockchain innovation 🚀.\n \nTrying it out\n \nSimply go to docs.substrate.io and follow the installation instructions. You can also try out one of the tutorials.\n \nContributions & Code of Conduct\n \nPlease follow the contributions guidelines as outlined in docs/CONTRIBUTING.adoc. In all communications and contributions, this project follows the Contributor Covenant Code of Conduct.\n \nSecurity\n \nThe security policy and procedures can be found in docs/SECURITY.md.\n \nLicense\n \n \n \nSubstrate Primitives (sp-*), Frame (frame-*) and the pallets (pallets-*), binaries (/bin) and all other utilities are licensed under Apache 2.0.\n \n \nSubstrate Client (/client/* / sc-*) is licensed under GPL v3.0 with a classpath linking exception.\n \n \nThe reason for the split-licensing is to ensure that for the vast majority of teams using Substrate to create feature-chains, then all changes can be made entirely in Apache2-licensed code, allowing teams full freedom over what and how they release and giving licensing clarity to commercial teams.\n \nIn the interests of the community, we require any deeper improvements made to Substrate's core logic (e.g. Substrate's internal consensus, crypto or database code) to be contributed back so everyone can benefit.",
+          "link": "https://github.com/paritytech/substrate",
+          "publishedOn": "2021-10-22T01:00:38.990Z",
+          "wordCount": 963,
+          "title": "paritytech/substrate"
+        },
+        {
+          "id": "https://github.com/vuetifyjs/vuetify",
+          "author": null,
+          "description": "🐉 Material Component Framework for Vue\n\n    \n \n             \n          \n       \n \nSupporting Vuetify\n \nVuetify is a MIT licensed project that is developed and maintained full-time by John Leider and Heather Leider; with support from the entire Core Team. Sponsor Vuetify and receive some awesome perks and support Open Source Software at the same time! 🎉\n \n \n \n Become a backer or sponsor on GitHub or Patreon (supports John and Heather) \n \n \n Become a backer or sponsor on Open Collective (supports the Dev team) \n \n \n Become a subscriber on Tidelift \n \n \n Make a one-time payment with Paypal \n \n \n Book time with the Team \n \n \nWhat's the difference between GitHub Sponsors, Patreon, and OpenCollective\n \nFunds donated through GitHub Sponsors and Patreon go directly to support John and Heather's …",
+          "link": "https://github.com/vuetifyjs/vuetify",
+          "publishedOn": "2021-10-22T01:00:38.927Z",
+          "wordCount": 1347,
+          "title": "vuetifyjs/vuetify"
+        },
+        {
+          "id": "https://github.com/airbnb/lottie-ios",
+          "author": null,
+          "description": "An iOS library to natively render After Effects vector animations\n\nLottie for iOS, macOS (and Android and React Native)\n \n\n \nView documentation, FAQ, help, examples, and more at airbnb.io/lottie\n \nLottie is a mobile library for Android and iOS that natively renders vector based animations and art in realtime with minimal code.\n \nLottie loads and renders animations and vectors exported in the bodymovin JSON format. Bodymovin JSON can be created and exported from After Effects with bodymovin, Sketch with Lottie Sketch Export, and from Haiku.\n \nFor the first time, designers can create and ship beautiful animations without an engineer painstakingly recreating it by hand. Since the animation is backed by JSON they are extremely small in size but can be large in complexity! Animations can be pla…",
+          "link": "https://github.com/airbnb/lottie-ios",
+          "publishedOn": "2021-10-22T01:00:38.883Z",
+          "wordCount": 1054,
+          "title": "airbnb/lottie-ios"
+        },
+        {
+          "id": "https://github.com/deepfakes/faceswap",
+          "author": null,
+          "description": "Deepfakes Software For All\n\ndeepfakes_faceswap\n \n  \nFaceSwap is a tool that utilizes deep learning to recognize and swap faces in pictures and videos. \n \n  \n \n      \n \n  \nJennifer Lawrence/Steve Buscemi FaceSwap using the Villain model \n \n \n \nMake sure you check out INSTALL.md before getting started.\n \n \n \ndeepfakes_faceswap\n \n \nManifesto \n  \n \n   \nFaceSwap has ethical uses.\n \n  \n  \n \nHow To setup and run the project\n \n \nOverview \n  \n \n   \nExtract\n \n   \nTrain\n \n   \nConvert\n \n   \nGUI\n \n  \n  \n \nGeneral notes:\n \n \nHelp I need support! \n  \n \n   \nDiscord Server\n \n   \nFaceSwap Forum\n \n  \n  \n \nDonate \n  \n \n   \nPatreon\n \n   \nOne time Donations \n    \n \n     \n@torzdf\n \n     \n@andenixa\n \n     \n@kvrooman\n \n    \n  \n  \n  \n \nHow to contribute \n  \n \n   \nFor people interested in the generative models\n \n   …",
+          "link": "https://github.com/deepfakes/faceswap",
+          "publishedOn": "2021-10-22T01:00:38.847Z",
+          "wordCount": 2317,
+          "title": "deepfakes/faceswap"
+        },
+        {
+          "id": "https://github.com/python/mypy",
+          "author": null,
+          "description": "Optional static typing for Python 3 and 2 (PEP 484)\n \nMypy: Optional Static Typing for Python\n \n   \n \nGot a question? Join us on Gitter!\n \nWe don't have a mailing list; but we are always happy to answer questions on gitter chat. If you are sure you've found a bug please search our issue trackers for a duplicate before filing a new issue:\n \n \n \nmypy tracker for mypy issues\n \n \ntypeshed tracker for issues with specific modules\n \n \ntyping tracker for discussion of new type system features (PEP 484 changes) and runtime bugs in the typing module\n \n \nWhat is mypy?\n \nMypy is an optional static type checker for Python. You can add type hints (PEP 484) to your Python programs, and use mypy to type check them statically. Find bugs in your programs without even running them!\n \nYou can mix dynamic and…",
+          "link": "https://github.com/python/mypy",
+          "publishedOn": "2021-10-22T01:00:38.787Z",
+          "wordCount": 1837,
+          "title": "python/mypy"
+        },
+        {
+          "id": "https://github.com/TechXueXi/TechXueXi",
+          "author": null,
+          "description": "强国通 科技强国 学习强国 xuexiqiangguo 全网最好用开源网页学习强国助手：TechXueXi （懒人刷分工具 自动学习）技术强国，支持答题，支持 docker 45分/天\n\n前言\n \n官方网站： https://techxuexi.js.org/\n \n交流群地址及说明（点击查看）\n \n重要公告： 公告栏（国内打不开） || 公告栏（国内可以打开）\n \n我们随时删库跑路，请加交流群防失联。\n \n \n \n本项目基于某已终止的项目，请自行搜索后前往star。我们由衷地敬佩这个领域的先锋们。\n 这是全网较好的成熟产品，但已停止，我们于心不忍。本仓库现由“科技强国”组织进行维护。\n \n \n \n \n所有问题请到本项目这里提，不要打扰原作者。\n \n \n许多IT人员本终日埋头写代码，确实有需求，与其各人重复修改编写浪费生产力不如团队合作维护， 因此我们还是希望继续维护此生态。具体请详细阅读下文\n \n \n  \n  \n \nTechXueXi\n \nTechXueXi 是一款使用python语言编写的学 xi 工具。可达 45 分/天\n \n\n \n     \n 请点击页面顶部靠右star与fork \n        \n \n       \n      \n    \n \n   \n \n \n[TOC]\n \n📃免责声明\n \nTechXueXi为python学 xi 交流的开源非营利项目，仅作为程序员之间相互学 xi 交流之用，使用需严格遵守开源许可协议。严禁用于商业用途，禁止使用TechXueXi进行任何盈利活动。对一切非法使用所产生的后果，我们概不负责。\n \n \n有疑问？\n \n遇到问题，请试着按如下步骤解决：\n \n \n \n仔细阅读过 README.md ， 使用方法-更新方法-下载方式.md ， DOCKER.md 这些说明\n \n \n查看/搜索所有已有 issue，无论是open还是close…",
+          "link": "https://github.com/TechXueXi/TechXueXi",
+          "publishedOn": "2021-10-22T01:00:38.745Z",
+          "wordCount": 651,
+          "title": "TechXueXi/TechXueXi"
+        },
+        {
+          "id": "https://github.com/toniblyx/prowler",
+          "author": null,
+          "description": "Prowler is a security tool to perform AWS security best practices assessments, audits, incident response, continuous monitoring, hardening and forensics readiness. It contains all CIS controls and many more additional checks that help on GDPR, HIPAA and other security frameworks.\n\n  \n \nProwler - AWS Security Tool\n \nTable of Contents\n \n \n \nDescription\n \n \nFeatures\n \n \nHigh level architecture\n \n \nRequirements and Installation\n \n \nUsage\n \n \nScreenshots\n \n \nAdvanced Usage\n \n \nSecurity Hub integration\n \n \nCodeBuild deployment\n \n \nWhitelist/allowlist or remove FAIL from resources\n \n \nFix\n \n \nTroubleshooting\n \n \nExtras\n \n \nForensics Ready Checks\n \n \nGDPR Checks\n \n \nHIPAA Checks\n \n \nTrust Boundaries Checks\n \n \nMulti Account and Continuous Monitoring\n \n \nAdd Custom Checks\n \n \nThird Party Integratio…",
+          "link": "https://github.com/toniblyx/prowler",
+          "publishedOn": "2021-10-22T01:00:38.706Z",
+          "wordCount": 5223,
+          "title": "toniblyx/prowler"
+        },
+        {
+          "id": "https://github.com/Spikeysanju/Einsen",
+          "author": null,
+          "description": "🎯 Einsen is a prioritization app that uses Eisenhower matrix technique as workflow to prioritize a list of tasks & built to Demonstrate use of Jetpack Compose with Modern Android Architecture Components & MVVM Architecture.\n\n\n \n  \n \n    \n \n🎯 Einsen\n \nEinsen is a prioritization app that uses Eisenhower matrix technique as workflow to prioritize a list of tasks & built to Demonstrate use of Jetpack Compose with Modern Android Architecture Components & MVVM Architecture.\n \nTry latest Einsen app apk from below 👇\n \n\n \n \n🎨 UI Design\n \nClick to View Einsen app Design from below 👇\n \n \n \n \n🌞 Day Mode\n \n \n  \n  \n \n   Dashboard \n   All Tasks \n   Task Details \n  \n \n  \n  \n  \n \n    \n    \n    \n  \n \n  \n \n \n  \n  \n \n   Add Task \n   Emoji \n   Empty State \n  \n \n  \n  \n  \n \n    \n    \n    \n  \n \n  \n \n \n🌚 We…",
+          "link": "https://github.com/Spikeysanju/Einsen",
+          "publishedOn": "2021-10-22T01:00:38.657Z",
+          "wordCount": 1622,
+          "title": "Spikeysanju/Einsen"
+        },
+        {
+          "id": "https://github.com/jwasham/coding-interview-university",
+          "author": null,
+          "description": "A complete computer science study plan to become a software engineer.\n\nCoding Interview University\n \n \n \nI originally created this as a short to-do list of study topics for becoming a software engineer, but it grew to the large list you see today. After going through this study plan, I got hired as a Software Development Engineer at Amazon! You probably won't have to study as much as I did. Anyway, everything you need is here.\n \n \nI studied about 8-12 hours a day, for several months. This is my story: Why I studied full-time for 8 months for a Google interview\n \n \nPlease Note: You won't need to study as much as I did. I wasted a lot of time on things I didn't need to know. More info about that below. I'll help you get there without wasting your precious time.\n \n \nThe items listed here will…",
+          "link": "https://github.com/jwasham/coding-interview-university",
+          "publishedOn": "2021-10-22T01:00:38.619Z",
+          "wordCount": 11452,
+          "title": "jwasham/coding-interview-university"
+        },
+        {
+          "id": "https://github.com/CoinAlpha/hummingbot",
+          "author": null,
+          "description": "Hummingbot: a client for crypto market making\n\n\n \n \n  \n \nHummingbot is an open-source project that integrates cryptocurrency trading on both centralized exchanges and decentralized protocols. It allows users to run a client that executes customized, automated trading strategies for cryptocurrencies.\n \nWe created hummingbot to promote decentralized market-making: enabling members of the community to contribute to the liquidity and trading efficiency in cryptocurrency markets.\n \nConnector status\n \n GREEN - Connector is working properly and safe to use\n \n YELLOW - Connector is either new or has one or more issues\n \n RED - Connector is broken and unusable\n \n \n  \n  \n \n   logo \n   id \n   name \n   ver \n   doc \n   status \n  \n \n  \n  \n  \n \n    \n   ascend_ex \n   AscendEx \n   1 \n   API \n    \n  \n \n  \n …",
+          "link": "https://github.com/CoinAlpha/hummingbot",
+          "publishedOn": "2021-10-22T01:00:38.518Z",
+          "wordCount": 1268,
+          "title": "CoinAlpha/hummingbot"
+        },
+        {
+          "id": "https://github.com/sudheerj/javascript-interview-questions",
+          "author": null,
+          "description": "List of 1000 JavaScript Interview Questions\n\nJavaScript Interview Questions & Answers\n \n \n \nClick ⭐if you like the project. Pull Requests are highly appreciated. Follow me @SudheerJonna for technical updates.\n \n \nGo to Coding Exercise for coding specific questions\n \nDownload PDF/Epub formats\n \nYou can download the PDF and Epub version of this repository from the latest run on the actions tab.\n \n \n    \n \n \n \nTake this JavaScript Projects course to go from a JavaScript beginner to confidently building your own projects\n \n \nTake this coding interview bootcamp if you’re serious about getting hired and don’t have a CS degree\n \n \nTake this Advanced JavaScript Course to learn advanced JS concepts and become a top JS developer\n \n \n\n \n\n \n \nTable of Contents\n \n \n  \n  \n \n   No. \n   Questions \n  \n \n  …",
+          "link": "https://github.com/sudheerj/javascript-interview-questions",
+          "publishedOn": "2021-10-22T01:00:38.468Z",
+          "wordCount": 45702,
+          "title": "sudheerj/javascript-interview-questions"
+        },
+        {
+          "id": "https://github.com/arthurspk/guiadevbrasil",
+          "author": null,
+          "description": "GUIA EXTENSO DE PROGRAMAÇÃO:\n\n📚 GUIA EXTENSO DE PROGRAMAÇÃO\n \n🌟 ANTES DE TUDO, ME AJUDA AI DEU UM TRABALHÃO ORGANIZAR TODOS ESSES LINKS, ENTÃO AJUDA AI 🌟\n \n🔖 ME SEGUE NO GITHUB: https://github.com/arthurspk/ 👨🏻‍💻\n 🔖 ENTRA NO SERVIDOR DO DISCORD PARA MAIS CONTEÚDO: https://discord.gg/NbMQUPjHz7 💻\n 🔖 CONECTA LÁ NO LINKEDIN: https://www.linkedin.com/in/arthurspk/ 🌈\n \n📚 SITES PARA ESTUDAR PROGRAMAÇÃO:\n \n🔖 ROCKETSEAT: https://www.rocketseat.com.br \n 🔖 DIO: https://www.digitalinnovation.one \n 🔖 Curso em video: www.youtube.com/c/CursoemVídeo \n 🔖 Origamid: https://www.origamid.com/ \n 🔖 Udemy: https://www.udemy.com/ \n 🔖 HackerRank: https://www.hackerrank.com/ \n 🔖 Hackereath: https://www.hackerearth.com/ \n 🔖 Coderbyte: https://coderbyte.com/ \n 🔖 Coderchef: https://www.codechef.c…",
+          "link": "https://github.com/arthurspk/guiadevbrasil",
+          "publishedOn": "2021-10-22T01:00:38.023Z",
+          "wordCount": 3122,
+          "title": "arthurspk/guiadevbrasil"
+        },
+        {
+          "id": "https://github.com/deepmind/mujoco",
+          "author": null,
+          "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.\n\nMuJoCo Physics\n \nMuJoCo stands for Multi-Joint dynamics with Contact. It is a general purpose physics engine that aims to facilitate research and development in robotics, biomechanics, graphics and animation, machine learning, and other areas which demand fast and accurate simulation of articulated structures interacting with their environment.\n \nDeepMind has acquired MuJoCo, and we are currently making preparations to open source the codebase. In the meantime, MuJoCo is available for download as a free and unrestricted precompiled binary under the Apache 2.0 license from mujoco.org.\n \nMuJoCo's source code will be released through this GitHub repository once it is ready. In the meantime, the repository hosts MuJoCo's …",
+          "link": "https://github.com/deepmind/mujoco",
+          "publishedOn": "2021-10-22T01:00:37.958Z",
+          "wordCount": 975,
+          "title": "deepmind/mujoco"
+        },
+        {
+          "id": "https://github.com/GitSquared/edex-ui",
+          "author": null,
+          "description": "A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.\n\n   \n  \n    \n      \n (Project archived oct. 18th 2021) \n\n  \neDEX-UI is a fullscreen, cross-platform terminal emulator and system monitor that looks and feels like a sci-fi computer interface.\n \n \n   \nHeavily inspired from the TRON Legacy movie effects (especially the Board Room sequence), the eDEX-UI project was originally meant to be \"DEX-UI with less « art » and more « distributable software »\".\n \nWhile keeping a futuristic look and feel, it strives to maintain a certain level of functionality and to be usable in real-life scenarios, with the larger goal of bringing science-fiction UXs to the mainstream.\n \n \nIt might or might not be a joke taken too seriously.\n \n \n Jump to: \nF…",
+          "link": "https://github.com/GitSquared/edex-ui",
+          "publishedOn": "2021-10-22T01:00:37.922Z",
+          "wordCount": 1591,
+          "title": "GitSquared/edex-ui"
+        },
+        {
+          "id": "https://github.com/mperham/sidekiq",
+          "author": null,
+          "description": "Simple, efficient background processing for Ruby\n\nSidekiq\n \n \n \nSimple, efficient background processing for Ruby.\n \nSidekiq uses threads to handle many jobs at the same time in the same process. It does not require Rails but will integrate tightly with Rails to make background processing dead simple.\n \nPerformance\n \n \n  \n  \n \n   Version \n   Latency \n   Garbage created for 10k jobs \n   Time to process 100k jobs \n   Throughput \n   Ruby \n  \n \n  \n  \n  \n \n   Sidekiq 6.0.2 \n   3 ms \n   156 MB \n   14.0 sec \n   7100 jobs/sec \n   MRI 2.6.3 \n  \n \n  \n \n   Sidekiq 6.0.0 \n   3 ms \n   156 MB \n   19 sec \n   5200 jobs/sec \n   MRI 2.6.3 \n  \n \n  \n \n   Sidekiq 4.0.0 \n   10 ms \n   151 MB \n   22 sec \n   4500 jobs/sec \n    \n  \n \n  \n \n   Sidekiq 3.5.1 \n   22 ms \n   1257 MB \n   125 sec \n   800 jobs/sec \n    \n  \n …",
+          "link": "https://github.com/mperham/sidekiq",
+          "publishedOn": "2021-10-22T01:00:37.883Z",
+          "wordCount": 1049,
+          "title": "mperham/sidekiq"
+        },
+        {
+          "id": "https://github.com/datreeio/datree",
+          "author": null,
+          "description": "Prevent Kubernetes misconfigurations from reaching production (again 😤 )! Datree is a CLI tool to ensure K8s manifests and Helm charts follow best practices as well as your organization’s policies. See our docs: https://hub.datree.io\n\n\n \n    \n \nWhat is Datree?\n \nDatree is a CLI tool that supports Kubernetes admins in their roles by preventing developers from making errors in Kubernetes configurations that can cause clusters to fail in production. Our CLI tool is open source, enabling it to be supported by the Kubernetes community.\n \nIt’s far more effective than manual processes, such as sending an email to a slew of developers, begging them to set various limits, which likely falls on deaf ears because developers are already overwhelmed.\n \n⭐️ Star this repository to get updates ⭐️\n \nHow i…",
+          "link": "https://github.com/datreeio/datree",
+          "publishedOn": "2021-10-22T01:00:37.840Z",
+          "wordCount": 1130,
+          "title": "datreeio/datree"
+        },
+        {
+          "id": "https://github.com/google/jax",
+          "author": null,
+          "description": "Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more\n\n \n  \n \nJAX: Autograd and XLA\n \n \n \nQuickstart | Transformations | Install guide | Neural net libraries | Change logs | Reference docs\n \nNews: JAX tops largest-scale MLPerf Training 0.7 benchmarks!\n \nWhat is JAX?\n \nJAX is Autograd and XLA, brought together for high-performance machine learning research.\n \nWith its updated version of Autograd, JAX can automatically differentiate native Python and NumPy functions. It can differentiate through loops, branches, recursion, and closures, and it can take derivatives of derivatives of derivatives. It supports reverse-mode differentiation (a.k.a. backpropagation) via grad as well as forward-mode differentiation, and the two can be composed arbitr…",
+          "link": "https://github.com/google/jax",
+          "publishedOn": "2021-10-22T01:00:37.801Z",
+          "wordCount": 3309,
+          "title": "google/jax"
+        },
+        {
+          "id": "https://github.com/puppeteer/puppeteer",
+          "author": null,
+          "description": "Headless Chrome Node.js API\n\nPuppeteer\n \n \n \n \n \n \nAPI | FAQ | Contributing | Troubleshooting\n \n \n \nPuppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer runs headless by default, but can be configured to run full (non-headless) Chrome or Chromium.\n \n \n \nWhat can I do?\n \nMost things that you can do manually in the browser can be done using Puppeteer! Here are a few examples to get you started:\n \n \n \nGenerate screenshots and PDFs of pages.\n \n \nCrawl a SPA (Single-Page Application) and generate pre-rendered content (i.e. \"SSR\" (Server-Side Rendering)).\n \n \nAutomate form submission, UI testing, keyboard input, etc.\n \n \nCreate an up-to-date, automated testing environment. Run your tests directly in the latest version of …",
+          "link": "https://github.com/puppeteer/puppeteer",
+          "publishedOn": "2021-10-22T01:00:37.755Z",
+          "wordCount": 3553,
+          "title": "puppeteer/puppeteer"
+        },
+        {
+          "id": "https://github.com/Footsiefat/zspotify",
+          "author": null,
+          "description": "Spotify song downloader without injecting into the windows client\n\n  \n \nZSpotify\n \nA Spotify downloader needing only a python interpreter and ffmpeg.\n \n  \n \nDiscord Server\n \nRequirements:\n\nBinaries\n\n- Python 3.8 or greater\n- ffmpeg*\n\nPython packages:\n\n- pip install -r requirements.txt\n\n\n \n*ffmpeg can be installed via apt for Debian-based distros or by downloading the binaries from ffmpeg.org and placing them in your %PATH% in Windows.\n \nCommand line usage:\n  python zspotify.py                              Loads search prompt to find then download a specific track, album or playlist\n  python zspotify.py <track/album/playlist/episode url>   Downloads the track, album, playlist or podcast episode specified as a command line argument\n\nExtra command line options:\n  -p, --playlist       Download…",
+          "link": "https://github.com/Footsiefat/zspotify",
+          "publishedOn": "2021-10-22T01:00:37.685Z",
+          "wordCount": 1151,
+          "title": "Footsiefat/zspotify"
+        },
+        {
+          "id": "https://github.com/ianstormtaylor/slate",
+          "author": null,
+          "description": "A completely customizable framework for building rich text editors. (Currently in beta.)\n\n  \n \n A completely customizable framework \n for building rich text editors. \n \n \n Why? · Principles · Demo · Examples · Documentation · Contributing! \n \n \n  \n \n          \n \n \nSlate lets you build rich, intuitive editors like those in Medium, Dropbox Paper or Google Docs—which are becoming table stakes for applications on the web—without your codebase getting mired in complexity.\n \nIt can do this because all of its logic is implemented with a series of plugins, so you aren't ever constrained by what is or isn't in \"core\". You can think of it like a pluggable implementation of contenteditable built on top of React. It was inspired by libraries like Draft.js, Prosemirror and Quill.\n \n \n \n🤖 Slate is curr…",
+          "link": "https://github.com/ianstormtaylor/slate",
+          "publishedOn": "2021-10-22T01:00:37.664Z",
+          "wordCount": 2340,
+          "title": "ianstormtaylor/slate"
+        },
+        {
+          "id": "https://github.com/craftzdog/dotfiles-public",
+          "author": null,
+          "description": "My personal dotfiles\n\n\n \nTakuya's dotfiles\n \nWarning: Don’t blindly use my settings unless you know what that entails. Use at your own risk!\n \nSponsor\n \n\n \nInkdrop - A cross-platform Markdown note-taking app\n \nContents\n \n \n \nvim (NeoVim) config \n  \n \n   \nPlugins are managed with vim-plug\n \n  \n  \n \ntmux config\n \n \ngit config\n \n \nfish config\n \n \nVim setup\n \nRequires Neovim (>= 0.5)\n \n \n \nvim-plug - A minimalist Vim plugin manager\n \n \nnvim-lspconfig - A collection of configurations for Neovim's built-in LSP\n \n \nnvim-treesitter - Treesitter configurations and abstraction layer for Neovim\n \n \ncompletion-nvim - An auto completion framework based on Neovim's built-in LSP\n \n \nglepnir/lspsaga.nvim - A light-weight LSP plugin based on Neovim built-in LSP with highly a performant UI\n \n \ntelescope.nvim - A highly extendable fuzzy finder over lists\n \n \nShell setup\n \n \n \nFish shell\n \n \nFisher - Plugin manager\n \n \nTide - Shell theme\n \n \nNerd fonts - Powerline-patched fonts. I use Hack.\n \n \nz for fish - Directory jumping\n \n \nExa - ls replacement\n \n \nghq - Local Git repository organizer\n \n \npeco - Interactive filtering\n \n \nHow to use\n \nWatch my video tutorials:\n \n \n \nMy dev workflow using tmux and vim\n \n \nMy vim setup to speed up JavaScript coding for my Electron and React Native apps \n  \n \n   \nBlogpost\n \n  \n  \n \nA productive command-line Git workflow for indie app developers \n  \n \n   \nBlogpost\n \n  \n  \n \nMy Fish shell workflow for coding\n \n \nAbout me\n \n \n \nTwitter @inkdrop_app\n \n \nBlog\n \n \nMy product: Inkdrop - Markdown note-taking app",
+          "link": "https://github.com/craftzdog/dotfiles-public",
+          "publishedOn": "2021-10-22T01:00:37.607Z",
+          "wordCount": 619,
+          "title": "craftzdog/dotfiles-public"
+        },
+        {
+          "id": "https://github.com/cloudreve/Cloudreve",
+          "author": null,
+          "description": "🌩支持多家云存储的云盘系统 (Self-deployed file management and sharing system, supports multiple storage providers)\n\n   \n Cloudreve \n  \n支持多家云存储驱动的公有云文件系统.\n \n           \n \n 演示站 • 讨论社区 • 文档 • 下载 • Telegram 群组 • 许可证 \n \n\n \n✨ 特性\n \n \n \n☁ 支持本机、从机、七牛、阿里云 OSS、腾讯云 COS、又拍云、OneDrive (包括世纪互联版) 作为存储端\n \n \n📤 上传/下载 支持客户端直传，支持下载限速\n \n \n💾 可对接 Aria2 离线下载\n \n \n📚 在线 压缩/解压缩、多文件打包下载\n \n \n💻 覆盖全部存储策略的 WebDAV 协议支持\n \n \n⚡ 拖拽上传、目录上传、流式上传处理\n \n \n🗃 文件拖拽管理\n \n \n👩👧👦 多用户、用户组\n \n \n🔗 创建文件、目录的分享链接，可设定自动过期\n \n \n👁🗨 视频、图像、音频、文本、Office 文档在线预览\n \n \n🎨 自定义配色、黑暗模式、PWA 应用、全站单页应用\n \n \n🚀 All-In-One 打包，开箱即用\n \n \n🌈 ... ...\n \n \n🛠 部署\n \n下载适用于您目标机器操作系统、CPU架构的主程序，直接运行即可。\n \n# 解压程序包\ntar -zxvf cloudreve_VERSION_OS_ARCH.tar.gz\n\n# 赋予执行权限\nchmod +x ./cloudreve\n\n# 启动 Cloudreve\n./cloudreve\n\n \n以上为最简单的部署示例，您可以参考 文档 - 起步 进行更为完善的部署。\n \n⚙ 构建\n \n自行构建前需要拥有 Go >= 1.13、yarn等必要依赖。\n \n克隆代码\n \ngit clone --recurse-submodules https://github.com/cloudreve/Cloudreve.git\n\n \n构建静态资源\n \n# 进入前端子模块\ncd assets\n# 安装依赖\nyarn install\n# 开始构建\nyarn run build\n\n \n嵌入静态资源\n \n# 回到项目主目录\ncd ../\n\n# 安装 statik, 用于嵌入静态资源\ngo get github.com/rakyll/statik\n\n# 开始嵌入\nstatik -src=assets/build/  -include=*.html,*.js,*.json,*.css,*.png,*.svg,*.ico -f\n\n \n编译项目\n \n# 获得当前版本号、Commit\nexport COMMIT_SHA=$(git rev-parse --short HEAD)\nexport VERSION=$(git describe --tags)\n\n# 开始编译\ngo build -a -o cloudreve -ldflags \" -X 'github.com/cloudreve/Cloudreve/v3/pkg/conf.BackendVersion=$VERSION' -X 'github.com/cloudreve/Cloudreve/v3/pkg/conf.LastCommit=$COMMIT_SHA'\"\n\n \n你也可以使用项目根目录下的build.sh快速开始构建：\n \n./build.sh  [-a] [-c] [-b] [-r]\n\ta - 构建静态资源\n\tc - 编译二进制文件\n\tb - 构建前端 + 编译二进制文件\n\tr - 交叉编译，构建用于release的版本\n\n \n⚗ 技术栈\n \n \n \nGo  + Gin\n \n \nReact + Redux + Material-UI\n \n \n📜 许可证\n \nGPL V3\n \n \n \n \nGitHub @HFO4  ·  Twitter @abslant00",
+          "link": "https://github.com/cloudreve/Cloudreve",
+          "publishedOn": "2021-10-22T01:00:37.579Z",
+          "wordCount": 609,
+          "title": "cloudreve/Cloudreve"
+        },
         {
           "id": "https://github.com/LeCoupa/awesome-cheatsheets",
           "author": null,
@@ -3156,159 +3363,6 @@
           "publishedOn": "2021-09-23T00:56:48.700Z",
           "wordCount": 774,
           "title": "academind/react-complete-guide-code"
-        },
-        {
-          "id": "https://github.com/openkraken/kraken",
-          "author": null,
-          "description": "A high-performance, web standards-compliant rendering engine based on Flutter.\n\n\n \nKraken  \n \n💁 Have a try\n \n \n \n Install Kraken CLI (macOS only currently)\n $ npm i @openkraken/cli -g\n\n  \n \n Open with kraken\n # kraken [localfile|URL]\n$ kraken https://raw.githubusercontent.com/openkraken/kraken/master/kraken/example/assets/bundle.js\n\n  \n \n💌 Why kraken\n \n \n \n Quick development 🎉\n Compatibility with web standards means you don't have to change your stack.\n const text = document.createTextNode('Hello World!');\ndocument.body.appendChild(text);\n\n  \n \n Cross platform ⚛️\n Seamless integration with Flutter, supports web, mobile (iOS, Android) and desktop (MacOS, Linux, Windows).\n  \n \n Fast performance 🚀\n Provide native-like performance such as navigation, animation and infinite list scrolling.\n  \n \n👏 Contributing\n \nBy contributing to Kraken, you agree that your contributions will be licensed under its Apache-2.0 License.\n \n \n \n Prerequisites\n \n  \n \n   \nNode.js v12.0 or later\n \n   \nFlutter version in the kraken/pubspec.yaml\n \n   \nCMake v3.2.0 or later\n \n   \nXcode (10.12) or later (Running on macOS or iOS)\n \n   \nAndroid NDK version 21.4.7075529 (Running on Android)\n \n  \n  \n \n Install\n $ npm install\n\n  \n \n Building bridge\n Building bridge for all supported platform (macOS, iOS, Android)\n $ npm run build:bridge:all\n\n Building bridge for one platform\n macOS\n $ npm run build:bridge:macos\n\n iOS\n $ npm run build:bridge:ios\n\n Android\n \n  \n \n   \nFor Windows users, make sure that running this command under MINGW64 environment(eg. Git Bash).\n \n  \n $ npm run build:bridge:android\n\n  \n \n Start example\n $ cd kraken/example\n$ flutter run\n\n  \n \n Test (Unit Test and Integration Test)\n $ npm test",
-          "link": "https://github.com/openkraken/kraken",
-          "publishedOn": "2021-09-22T00:54:56.044Z",
-          "wordCount": 717,
-          "title": "openkraken/kraken"
-        },
-        {
-          "id": "https://github.com/typescript-cheatsheets/react",
-          "author": null,
-          "description": "Cheatsheets for experienced React developers getting started with TypeScript\n\n \n \nReact+TypeScript Cheatsheets\n \n    \n \nCheatsheets for experienced React developers getting started with TypeScript\n \n \nWeb docs | 中文翻译 | Español | Português | Contribute! | Ask!\n \n \n \n \n \n👋 This repo is maintained by @swyx, @ferdaber, @eps1lon, @jsjoeio and @arvind-one, we're so happy you want to try out TypeScript with React! If you see anything wrong or missing, please file an issue! 👍\n \n \n \n |  | \n \nAll React + TypeScript Cheatsheets\n \n \n \nThe Basic Cheatsheet (/README.md) is focused on helping React devs just start using TS in React apps \n  \n \n   \nFocus on opinionated best practices, copy+pastable examples.\n \n   \nExplains some basic TS types usage and setup along the way.\n \n   \nAnswers the most Frequent…",
-          "link": "https://github.com/typescript-cheatsheets/react",
-          "publishedOn": "2021-09-22T00:54:56.003Z",
-          "wordCount": 13091,
-          "title": "typescript-cheatsheets/react"
-        },
-        {
-          "id": "https://github.com/skyline-emu/skyline",
-          "author": null,
-          "description": "Run Nintendo Switch homebrew & games on your Android device!\n\n  \n      \n   \n \n Skyline is an experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system, licensed under Mozilla Public License 2.0 \n \n \nContact\n \nYou can contact the core developers of Skyline at our Discord. If you have any questions, feel free to ask. It's also a good place to just keep up with the emulator, as most talk regarding development goes on over there.\n \n \nSpecial Thanks\n \nA few noteworthy teams/projects who've helped us along the way are:\n \n \n \n Ryujinx: We've used Ryujinx for reference throughout the project, the amount of accuracy of their HLE kernel implementation is what makes them such an amazing reference. The team behind the project has been really helpful with any queries we've had. It should be noted that Skyline is not based on Ryujinx.\n  \n \n Switchbrew: We've extensively used Switchbrew whether that be their wiki with it's colossal amount of information on the Switch that has saved us countless hours of time or libnx which was crucial to initial development of the emulator to ensure that our HLE kernel and sysmodule implementations were accurate.\n  \n \n Atmosphère: We've used libmesosphere as another reference for our HLE kernel, it's faithfulness to the HOS kernel helps us a lot. This makes it invaluably important for us as a tool for writing code that can accurately emulate HOS behavior without missing any crucial parts.\n  \n \n \nDisclaimer\n \n \n \nNintendo Switch is a trademark of Nintendo Co., Ltd\n \n \nAndroid is a trademark of Google LLC",
-          "link": "https://github.com/skyline-emu/skyline",
-          "publishedOn": "2021-09-22T00:54:55.833Z",
-          "wordCount": 632,
-          "title": "skyline-emu/skyline"
-        },
-        {
-          "id": "https://github.com/jorisschellekens/borb",
-          "author": null,
-          "description": "borb is a library for reading, creating and manipulating PDF files in python.\n\n borb\n \n   \n \nborb is a library for creating and manipulating PDF files in python.\n \n0. About borb\n \nborb is a pure python library to read, write and manipulate PDF documents. It represents a PDF document as a JSON-like datastructure of nested lists, dictionaries and primitives (numbers, string, booleans, etc)\n \nThis is currently a one-man project, so the focus will always be to support those use-cases that are more common in favor of those that are rare.\n \n1. About the Examples\n \nThe examples can be found in a separate repository. This ensures the borb repository stays relatively small, whilst still providing a thorough knowledgebase of code-samples, screenshots and explanatory text.\n \nCheck out the examples re…",
-          "link": "https://github.com/jorisschellekens/borb",
-          "publishedOn": "2021-09-22T00:54:55.811Z",
-          "wordCount": 877,
-          "title": "jorisschellekens/borb"
-        },
-        {
-          "id": "https://github.com/termux/termux-packages",
-          "author": null,
-          "description": "A build system and primary set of packages for Termux.\n\nTermux packages\n \n     \n \n\n \nThis project contains scripts and patches to build packages for the Termux Android application.\n \nQuick how-to about Termux package management is available at Package Management. It also has info on how to fix repository is under maintenance or down errors when running apt or pkg commands.\n \nContributing\n \n@termux is looking for help with fixing issues, adding new packages and maintaining existing ones. It would be very helpful if you submit a pull request with bug fixes.\n \nRead CONTRIBUTING.md and Developer's Wiki for more details.\n \nContacts\n \nGeneral mailing list: https://groups.io/g/termux\n \nDeveloper mailing list: https://groups.io/g/termux-dev\n \nGeneral chat: https://gitter.im/termux/termux or #termux on IRC/libera.chat.\n \nDeveloper chat: https://gitter.im/termux/dev.",
-          "link": "https://github.com/termux/termux-packages",
-          "publishedOn": "2021-09-22T00:54:55.775Z",
-          "wordCount": 647,
-          "title": "termux/termux-packages"
-        },
-        {
-          "id": "https://github.com/Richasy/Bili.Uwp",
-          "author": null,
-          "description": "适用于新系统UI的哔哩\n\n  \n \n \n \n哔哩\n \n \n    \n \n \n哔哩 现在为 Windows 11 设计！\n \n \n \n哔哩 是一款 哔哩哔哩 的第三方应用，使用 UWP 框架开发，是原生的 Windows 应用，支持 Windows 10/11 系统。主打设计和易用性，广受用户好评。\n \n🙌 简单的开始\n \n如果想安装哔哩，请打开右侧的 Release 页面，找到最新版本，并选择适用于当前系统的安装包下载。\n \n然后打开 系统设置，打开 开发者模式 ，并等待系统安装一些必要的扩展项。\n \n在应用压缩包下载完成后，解压压缩包，并在管理员模式下，使用 Windows PowerShell (不是PowerShell Core) 运行解压后的 install.ps1 脚本，根据提示进行安装。\n \nWatch 项目，以获取应用的更新动态。\n \n关于如何一步步地使用侧加载 (Sideload) 方式安装 UWP 应用及订阅应用更新，请参见 下载并安装哔哩的详细说明 。\n \n📃 文档\n \n所有关于 哔哩 的文档，包括架构、使用说明等，都放在仓库的 Wiki 中，如果你发现有文档缺失或错误，请提交 Issue 说明错漏的内容。\n \n🚀 协作\n \n非常感谢有兴趣的开发者或爱好者参与 哔哩 项目，分享你的见解与思路。对于任何有兴趣想为 哔哩 做出贡献的小伙伴，请参见我们的 哔哩 Wiki 了解更多有关协作的内容和引导知识。\n \n💬 讨论\n \n借助 Github 平台提供的 Discussions 功能，对于一般讨论、提议或分享，我们都可以在 哔哩论坛 中进行，欢迎来这里进行讨论。\n \n🌏 路线图\n \n哔哩会逐步完善，请查看 哔哩里程碑 来了解哔哩下一步打算做的事情。于此同时，欢迎各位开发者加入，让我们一起打造哔哩的未来。\n \n🧩 截图",
-          "link": "https://github.com/Richasy/Bili.Uwp",
-          "publishedOn": "2021-09-22T00:54:55.740Z",
-          "wordCount": 533,
-          "title": "Richasy/Bili.Uwp"
-        },
-        {
-          "id": "https://github.com/GoTurkiye/training",
-          "author": null,
-          "description": "🇹🇷 Go Türkiye 🇹🇷\n \n \nGo Türkiye Eğitim Kampı\n \nGo programlama dilini anlatmayı ve öğretmeyi hedeflediğimiz eğitim kampının akışını, örnek kodları ve etkinlik kayıtlarını burada bulabilirsin. Bu repo eğitim boyunca güncellenecek olup sen de bu repoya katkı sağlayabilirsin.\n \nİçerik\n \n \n \n Basics (Etkinlik Kaydi)\n \n  \n \n   \nVariables\n \n   \nArray\n \n   \nSlices\n \n   \nMaps\n \n   \nStrings\n \n   \nLoops\n \n   \nStructs\n \n   \nPointers\n \n   \nFunctions\n \n   \nErrors\n \n   \nInterfaces\n \n   \nModules\n \n  \n  \n \n Concurrency (Etkinlik Kaydi)\n \n  \n \n   \nGo Routines\n \n   \nChannels\n \n   \nWaitGroups\n \n   \nMutex\n \n   \nSyncPool\n \n   \nDead Lock\n \n  \n  \n \n Http Package [21.09.2021 20:30]\n \n  \n \n   \nhttp\n \n   \nhttputil\n \n   \ngrpc\n \n   \nReverse Proxy\n \n   \nRestful Api\n \n   \nWeb Frameworks (echo, gin, fasthttp)\n \n  \n  …",
-          "link": "https://github.com/GoTurkiye/training",
-          "publishedOn": "2021-09-22T00:54:55.697Z",
-          "wordCount": 597,
-          "title": "GoTurkiye/training"
-        },
-        {
-          "id": "https://github.com/krayin/laravel-crm",
-          "author": null,
-          "description": "Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.\n\n  \n \n    \n \nTopics\n \n \n \nIntroduction\n \n \nDocumentation\n \n \nRequirements\n \n \nInstallation & Configuration\n \n \nLicense\n \n \nSecurity Vulnerabilities\n \n \nIntroduction\n \nKrayin CRM is a hand tailored CRM framework built on some of the hottest opensource technologies such as Laravel (a PHP framework) and Vue.js a progressive Javascript framework.\n \nFree & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.\n \nRead our documentation: Krayin CRM Docs\n \nWe also have a forum for any type of concerns, feature requests, or discussions. Please visit: Krayin CRM Forums\n \nVisit our live Demo\n \nIt packs in lots of features that will allow your E-Comm…",
-          "link": "https://github.com/krayin/laravel-crm",
-          "publishedOn": "2021-09-22T00:54:55.656Z",
-          "wordCount": 972,
-          "title": "krayin/laravel-crm"
-        },
-        {
-          "id": "https://github.com/joehillen/sysz",
-          "author": null,
-          "description": "An fzf terminal UI for systemctl\n\nsysz\n \nA fzf terminal UI for systemctl\n \nDemo\n \n\n \nFeatures\n \nVERSION: 1.2.3\n \n \n \nSee and filter both system and user units simultaneously\n \n \nSupports all units types\n \n \nUnits ordered by service, timer, socket, and the rest\n \n \nRuns sudo automatically and only if necessary\n \n \nHistory (Ctrl-p and Ctrl-n)\n \n \nSupport short versions of systemctl commands to reduce typing\n \n \nRuns status after other commands (start, stop, restart, etc)\n \n \nSelect multiple units and commands using TAB key\n \n \nOnly prompts commands based on current state (e.g. show \"start\" and \"restart\" only if the unit is inactive)\n \n \nCan filter units based on their state using the --state option\n \n \nRequirements\n \n \n \nfzf >= 0.22.0\n \n \nbash > 4.3 (released 2009)\n \n \nawk\n \n \nInstallation\n …",
-          "link": "https://github.com/joehillen/sysz",
-          "publishedOn": "2021-09-22T00:54:55.608Z",
-          "wordCount": 890,
-          "title": "joehillen/sysz"
-        },
-        {
-          "id": "https://github.com/sherlock-project/sherlock",
-          "author": null,
-          "description": "🔎 Hunt down social media accounts by username across social networks\n\n  \n Hunt down social media accounts by username across social networks \n        \n \n Installation    |    Usage    |    Docker Notes    |    Contributing \n \n    \n \nInstallation\n \n# clone the repo\n$ git clone https://github.com/sherlock-project/sherlock.git\n\n# change the working directory to sherlock\n$ cd sherlock\n\n# install the requirements\n$ python3 -m pip install -r requirements.txt\n\n \n \n \nUsage\n \n$ python3 sherlock --help\nusage: sherlock [-h] [--version] [--verbose] [--folderoutput FOLDEROUTPUT]\n                [--output OUTPUT] [--tor] [--unique-tor] [--csv]\n                [--site SITE_NAME] [--proxy PROXY_URL] [--json JSON_FILE]\n                [--timeout TIMEOUT] [--print-all] [--print-found] [--no-color]\n        …",
-          "link": "https://github.com/sherlock-project/sherlock",
-          "publishedOn": "2021-09-22T00:54:55.572Z",
-          "wordCount": 1353,
-          "title": "sherlock-project/sherlock"
-        },
-        {
-          "id": "https://github.com/microsoft/PythonProgrammingPuzzles",
-          "author": null,
-          "description": "A Dataset of Python Challenges for AI Research\n\nPython Programming Puzzles (P3)\n \nThis repo contains a dataset of Python programming puzzles which can be used to teach and evaluate an AI's programming proficiency. We hope this dataset will grow rapidly, and it is already diverse in terms of problem difficulty, domain, and algorithmic tools needed to solve the problems. Please propose a new puzzle or browse newly proposed puzzles or contribute through pull requests.\n \nTo learn more about how well AI systems such as GPT-3 can solve these problems, read our paper:\n \nProgramming Puzzles. Tal Schuster, Ashwin Kalyan, Oleksandr Polozov, Adam Tauman Kalai.\n \n@misc{schuster2021programming,\n      title={Programming Puzzles}, \n      author={Tal Schuster and Ashwin Kalyan and Oleksandr Polozov and Ad…",
-          "link": "https://github.com/microsoft/PythonProgrammingPuzzles",
-          "publishedOn": "2021-09-22T00:54:55.532Z",
-          "wordCount": 1620,
-          "title": "microsoft/PythonProgrammingPuzzles"
-        },
-        {
-          "id": "https://github.com/IrisShaders/Iris",
-          "author": null,
-          "description": "(WIP) A new shaders mod for Minecraft intended to be compatible with existing ShadersMod/Optifine shaders\n\n\n \nIris\n \nLinks\n \n \n \nVisit our website for downloads and pretty screenshots!\n \n \nVisit our Discord server to chat about the mod and get support! It's also a great place to get development updates right as they're happening.\n \n \nVisit my Patreon page to support the continued development of Iris!\n \n \nWhy did you make Iris?\n \nIris was created to fill a void that I saw in the Minecraft customization and graphical enhancement community: the lack of an open-source shaders mod that would let me load my favorite shader packs on modern versions of the game, while retaining performance and compatibility with modpacks. OptiFine, the current dominant mod for loading shader packs, has restrictive…",
-          "link": "https://github.com/IrisShaders/Iris",
-          "publishedOn": "2021-09-22T00:54:55.505Z",
-          "wordCount": 2200,
-          "title": "IrisShaders/Iris"
-        },
-        {
-          "id": "https://github.com/DovAmir/awesome-design-patterns",
-          "author": null,
-          "description": "A curated list of software and architecture related design patterns.\n\nAwesome Software and Architectural Design Patterns\n \n \n  \n \n \n \n \nA curated list of software and architecture related design patterns.\n \n \nSoftware design pattern - A general, reusable solution to a commonly occurring problem within a given context in software design. It is a description or template for how to solve a problem that can be used in many different situations.\n \n \nContents\n \n \n \nProgramming language design patterns\n \n \nGeneral Architecture\n \n \nCloud Architecture\n \n \nServerless Architecture\n \n \nMicro services & Distributed Systems\n \n \nInternet of things\n \n \nBig Data\n \n \nDatabases and storage\n \n \nDocker and DevOps\n \n \nMobile\n \n \nFront End Development\n \n \nSecurity\n \n \nBooks\n \n \n \nProgramming Language Design Patt…",
-          "link": "https://github.com/DovAmir/awesome-design-patterns",
-          "publishedOn": "2021-09-22T00:54:55.467Z",
-          "wordCount": 1300,
-          "title": "DovAmir/awesome-design-patterns"
-        },
-        {
-          "id": "https://github.com/mamun-sec/dfirt",
-          "author": null,
-          "description": "Collect information of Windows PC when doing incident response\n\n \n \n🔳 DFIRT (DFIR Tool)\n \nCollect information of Windows PC when doing incident response.\n \n \nℹ DFIRT is a Powershell script. It collects information of- \n \n \n \nrecently used files,\n \n \nsuspicious Event ID,\n \n \nPowershell history for all session,\n \n \nfiles opened directly from Windows Explorer,\n \n \nnetwork related running services,\n \n \nfree space of disk,\n \n \nInternet connectivity information,\n \n \nsafe DLL search mode,\n \n \nlast boot up time,\n \n \nuser accounts list from SID,\n \n \ncomputer name, current build, ID,\n \n \ncurrent user language settings,\n \n \nWindows Defender Status,\n \n \ncurrent Admin Approval Mode policy,\n \n \ndomain,\n \n \nnon default folders in Program File.\n \n \n \n🔰 How to use:\n 1. Download the dfirt.ps1 script.\n 2. Start Windows Powershell.\n 3. Go to the DFIR folder.\n 4. Write \n.\\dfirt.ps1 and press Enter.\n 5. Now, DFIRT will start collecting information and save those information in report.txt file. \n \n⚠ Remember\n When you will run the script, result will be saved in report.txt file. But, if you again run the script and there is still previously saved report.txt file in the DFIRT folder then, the file will be overwritten with new report. \n \n💬 A message to you:\n I will try to continuously add new features to DFIRT. If you wish to add functionality, feel free to contribute here.",
-          "link": "https://github.com/mamun-sec/dfirt",
-          "publishedOn": "2021-09-22T00:54:55.337Z",
-          "wordCount": 573,
-          "title": "mamun-sec/dfirt"
-        },
-        {
-          "id": "https://github.com/willmcgugan/rich",
-          "author": null,
-          "description": "Rich is a Python library for rich text and beautiful formatting in the terminal.\n\n    \n \n\n \nEnglish readme • 中文 readme • Lengua española readme • Deutsche readme • Läs på svenska • 日本語 readme • 한국어 readme • Français readme • Schwizerdütsch readme • हिन्दी readme • Português brasileiro readme\n \nRich is a Python library for rich text and beautiful formatting in the terminal.\n \nThe Rich API makes it easy to add color and style to terminal output. Rich can also render pretty tables, progress bars, markdown, syntax highlighted source code, tracebacks, and more — out of the box.\n \n\n \nFor a video introduction to Rich see calmcode.io by @fishnets88.\n \nSee what people are saying about Rich.\n \nCompatibility\n \nRich works with Linux, OSX, and Windows. True color / emoji works with new Windows Terminal…",
-          "link": "https://github.com/willmcgugan/rich",
-          "publishedOn": "2021-09-22T00:54:55.279Z",
-          "wordCount": 2501,
-          "title": "willmcgugan/rich"
-        },
-        {
-          "id": "https://github.com/geerlingguy/internet-pi",
-          "author": null,
-          "description": "Raspberry Pi config for all things Internet.\n\nInternet Pi\n \n\n \nA Raspberry Pi Configuration for Internet connectivity\n \nI have had a couple Pis doing random Internet-related duties for years. It's finally time to formalize their configs and make all the DNS/ad-blocking/monitoring stuff encapsulated into one Ansible project.\n \nSo that's what this is.\n \nFeatures\n \nInternet Monitoring: Installs Prometheus and Grafana, along with a few Docker containers to monitor your Internet connection with Speedtest.net speedtests and HTTP tests so you can see uptime, ping stats, and speedtest results over time.\n \n\n \nPi-hole: Installs the Pi-hole Docker configuration so you can use Pi-hole for network-wide ad-blocking and local DNS. Make sure to update your network router config to direct all DNS queries t…",
-          "link": "https://github.com/geerlingguy/internet-pi",
-          "publishedOn": "2021-09-22T00:54:55.157Z",
-          "wordCount": 1322,
-          "title": "geerlingguy/internet-pi"
-        },
-        {
-          "id": "https://github.com/input-output-hk/essential-cardano",
-          "author": null,
-          "description": "Repository for the Essential Cardano list\n\nessential-cardano\n \nWelcome to the Essential Cardano list, a central source for all things Cardano-related. We have outlined all the organizations, partners, and groups that are part of the Cardano ecosystem, as well as a comprehensive collection of resources to help you learn more about Cardano. Whether you want to understand what Cardano is, learn about our mission and roadmap, or get stuck in and build on Cardano, this is the place to start.\n \nEssential Cardano is a list that is designed as a central library of materials, a one stop shop where you can find various resources for Cardano. This list includes official resources and community-generated materials.\n \nThis is an open source repository that is initiated and overseen by myself Niamh Ahern, Ben O'Hanlon, and Tim Harrison, all at IO Global. We encourage you to contribute and help us evolve this list, but please do not reproduce it.\n \nWant to contribute?\n \nWe would love to hear your suggestions and ideas on what else we could include and how we can grow this list. Please get in touch with us and raise a PR with new suggestions and additions to enhance our list and we provide our feedback on the pull requests.\n \n‘One list to rule them all...’\n \n\n \n \n \n(image credit: P. Ahern)",
-          "link": "https://github.com/input-output-hk/essential-cardano",
-          "publishedOn": "2021-09-22T00:54:55.097Z",
-          "wordCount": 637,
-          "title": "input-output-hk/essential-cardano"
         }
       ]
     }

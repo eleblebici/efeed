@@ -2,10 +2,1431 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-21T00:59:28.745Z</updated>
+    <updated>2021-10-22T01:00:39.071Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Yin-Hongwei/music-website]]></title>
+        <id>https://github.com/Yin-Hongwei/music-website</id>
+        <link href="https://github.com/Yin-Hongwei/music-website"/>
+        <updated>2021-10-22T01:00:39.035Z</updated>
+        <summary type="html"><![CDATA[🎧 Vue + SpringBoot + MyBatis 音乐网站
+
+music-website
+ 
+ 
+  
+ 
+项目说明
+ 
+本音乐网站的客户端和管理端使用 VUE 框架来实现，服务端使用 Spring Boot + MyBatis 来实现，数据库使用了 MySQL。实现思路可以看这里；项目启动方法看文章末尾。
+ 
+ 
+项目预览
+ 
+ 
+ 
+前台截图预览
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+后台截图预览
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+项目功能
+ 
+ 
+ 
+音乐播放
+ 
+ 
+用户登录注册
+ 
+ 
+用户信息编辑、头像修改
+ 
+ 
+歌曲、歌单搜索
+ 
+ 
+歌单打分
+ 
+ 
+歌单、歌曲评论
+ 
+ 
+歌单列表、歌手列表分页显示
+ 
+ 
+歌词同步显示
+ 
+ 
+音乐收藏、下载、拖动控制、音量控制
+ 
+ 
+后台对用户、歌曲、歌手、歌单信息的管理
+ 
+ 
+ 
+技术栈
+ 
+后端
+ 
+SpringBoot + MyBatis
+ 
+前端
+ 
+Vue + Vue-Router + Vuex + Axios + ElementUI
+ 
+ 
+开发环境
+ 
+JDK： jdk-8u141
+ 
+mysql：mysql-5.7.21-1-macos10.13-x86_64
+ 
+node：v12.4.0
+ 
+IDE：IntelliJ IDEA 2018、VSCode
+ 
+ 
+下载运行
+ 
+1、下载项目到本地
+ 
+git clone https://github.com/Yin-Hongwei/music-website.git
+
+ 
+2、下载数据库中记录的资源
+ 
+去【链接: https://pan.baidu.com/s/1Qv0ohAIPeTthPK_CDwpfWg 提取码: gwa4 】下载网站依赖的歌曲及图片，将 data 夹里的文件放到 music-server 文件夹下。
+ 
+ 
+ 
+注意：资源整理了一下，按照下面的截图存放。
+ 
+ 
+ 
+3、修改配置文件
+ 
+1）创建数据库 将 music-website/music-server/sql 文件夹中的 tp_music.sql 文件导入数据库。
+ 
+2）修改用户名密码 修改 music-website/music-server/src/main/resources/application.properties 文件里的 spring.datasource.username 和 spring.datasource.password；
+ 
+3）修改资源路径
+ 
+修改 music-server/src/main/java/com/example/yin/constant/Constants.java 文件中的 RESOURCE_PATH，否则资源加载不了。
+ 
+
+ 
+4、启动项目
+ 
+ 
+ 
+启动管理端：进入 music-server 文件夹，运行下面命令启动服务器
+ 
+ 
+// 方法一
+./mvnw spring-boot:run
+
+// 方法二
+mvn spring-boot:run // 前提装了 maven
+
+ 
+ 
+ 
+启动客户端：进入 music-client 目录，运行下面命令
+ 
+ 
+npm install // 安装依赖
+
+npm run dev // 启动前台项目
+
+ 
+ 
+ 
+启动管理端：进入 music-manage 目录，运行下面命令
+ 
+ 
+npm install // 安装依赖
+
+npm run dev // 启动后台管理项目
+
+ 
+ 
+赞助
+ 
+如果此项目对你确实有帮助，欢迎给我打赏一杯咖啡～😄
+ 
+
+ 
+License
+ 
+Copyright (c) 2018 Yin-Hongwei]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[paritytech/substrate]]></title>
+        <id>https://github.com/paritytech/substrate</id>
+        <link href="https://github.com/paritytech/substrate"/>
+        <updated>2021-10-22T01:00:38.990Z</updated>
+        <summary type="html"><![CDATA[Substrate: The platform for blockchain innovators
+
+Substrate ·    
+ 
+  
+ 
+Substrate is a next-generation framework for blockchain innovation 🚀.
+ 
+Trying it out
+ 
+Simply go to docs.substrate.io and follow the installation instructions. You can also try out one of the tutorials.
+ 
+Contributions & Code of Conduct
+ 
+Please follow the contributions guidelines as outlined in docs/CONTRIBUTING.adoc. In all communications and contributions, this project follows the Contributor Covenant Code of Conduct.
+ 
+Security
+ 
+The security policy and procedures can be found in docs/SECURITY.md.
+ 
+License
+ 
+ 
+ 
+Substrate Primitives (sp-*), Frame (frame-*) and the pallets (pallets-*), binaries (/bin) and all other utilities are licensed under Apache 2.0.
+ 
+ 
+Substrate Client (/client/* / sc-*) is licensed under GPL v3.0 with a classpath linking exception.
+ 
+ 
+The reason for the split-licensing is to ensure that for the vast majority of teams using Substrate to create feature-chains, then all changes can be made entirely in Apache2-licensed code, allowing teams full freedom over what and how they release and giving licensing clarity to commercial teams.
+ 
+In the interests of the community, we require any deeper improvements made to Substrate's core logic (e.g. Substrate's internal consensus, crypto or database code) to be contributed back so everyone can benefit.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vuetifyjs/vuetify]]></title>
+        <id>https://github.com/vuetifyjs/vuetify</id>
+        <link href="https://github.com/vuetifyjs/vuetify"/>
+        <updated>2021-10-22T01:00:38.927Z</updated>
+        <summary type="html"><![CDATA[🐉 Material Component Framework for Vue
+
+    
+ 
+             
+          
+       
+ 
+Supporting Vuetify
+ 
+Vuetify is a MIT licensed project that is developed and maintained full-time by John Leider and Heather Leider; with support from the entire Core Team. Sponsor Vuetify and receive some awesome perks and support Open Source Software at the same time! 🎉
+ 
+ 
+ 
+ Become a backer or sponsor on GitHub or Patreon (supports John and Heather) 
+ 
+ 
+ Become a backer or sponsor on Open Collective (supports the Dev team) 
+ 
+ 
+ Become a subscriber on Tidelift 
+ 
+ 
+ Make a one-time payment with Paypal 
+ 
+ 
+ Book time with the Team 
+ 
+ 
+What's the difference between GitHub Sponsors, Patreon, and OpenCollective
+ 
+Funds donated through GitHub Sponsors and Patreon go directly to support John and Heather's …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[airbnb/lottie-ios]]></title>
+        <id>https://github.com/airbnb/lottie-ios</id>
+        <link href="https://github.com/airbnb/lottie-ios"/>
+        <updated>2021-10-22T01:00:38.883Z</updated>
+        <summary type="html"><![CDATA[An iOS library to natively render After Effects vector animations
+
+Lottie for iOS, macOS (and Android and React Native)
+ 
+
+ 
+View documentation, FAQ, help, examples, and more at airbnb.io/lottie
+ 
+Lottie is a mobile library for Android and iOS that natively renders vector based animations and art in realtime with minimal code.
+ 
+Lottie loads and renders animations and vectors exported in the bodymovin JSON format. Bodymovin JSON can be created and exported from After Effects with bodymovin, Sketch with Lottie Sketch Export, and from Haiku.
+ 
+For the first time, designers can create and ship beautiful animations without an engineer painstakingly recreating it by hand. Since the animation is backed by JSON they are extremely small in size but can be large in complexity! Animations can be pla…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[deepfakes/faceswap]]></title>
+        <id>https://github.com/deepfakes/faceswap</id>
+        <link href="https://github.com/deepfakes/faceswap"/>
+        <updated>2021-10-22T01:00:38.847Z</updated>
+        <summary type="html"><![CDATA[Deepfakes Software For All
+
+deepfakes_faceswap
+ 
+  
+FaceSwap is a tool that utilizes deep learning to recognize and swap faces in pictures and videos. 
+ 
+  
+ 
+      
+ 
+  
+Jennifer Lawrence/Steve Buscemi FaceSwap using the Villain model 
+ 
+ 
+ 
+Make sure you check out INSTALL.md before getting started.
+ 
+ 
+ 
+deepfakes_faceswap
+ 
+ 
+Manifesto 
+  
+ 
+   
+FaceSwap has ethical uses.
+ 
+  
+  
+ 
+How To setup and run the project
+ 
+ 
+Overview 
+  
+ 
+   
+Extract
+ 
+   
+Train
+ 
+   
+Convert
+ 
+   
+GUI
+ 
+  
+  
+ 
+General notes:
+ 
+ 
+Help I need support! 
+  
+ 
+   
+Discord Server
+ 
+   
+FaceSwap Forum
+ 
+  
+  
+ 
+Donate 
+  
+ 
+   
+Patreon
+ 
+   
+One time Donations 
+    
+ 
+     
+@torzdf
+ 
+     
+@andenixa
+ 
+     
+@kvrooman
+ 
+    
+  
+  
+  
+ 
+How to contribute 
+  
+ 
+   
+For people interested in the generative models
+ 
+   …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[python/mypy]]></title>
+        <id>https://github.com/python/mypy</id>
+        <link href="https://github.com/python/mypy"/>
+        <updated>2021-10-22T01:00:38.787Z</updated>
+        <summary type="html"><![CDATA[Optional static typing for Python 3 and 2 (PEP 484)
+ 
+Mypy: Optional Static Typing for Python
+ 
+   
+ 
+Got a question? Join us on Gitter!
+ 
+We don't have a mailing list; but we are always happy to answer questions on gitter chat. If you are sure you've found a bug please search our issue trackers for a duplicate before filing a new issue:
+ 
+ 
+ 
+mypy tracker for mypy issues
+ 
+ 
+typeshed tracker for issues with specific modules
+ 
+ 
+typing tracker for discussion of new type system features (PEP 484 changes) and runtime bugs in the typing module
+ 
+ 
+What is mypy?
+ 
+Mypy is an optional static type checker for Python. You can add type hints (PEP 484) to your Python programs, and use mypy to type check them statically. Find bugs in your programs without even running them!
+ 
+You can mix dynamic and…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TechXueXi/TechXueXi]]></title>
+        <id>https://github.com/TechXueXi/TechXueXi</id>
+        <link href="https://github.com/TechXueXi/TechXueXi"/>
+        <updated>2021-10-22T01:00:38.745Z</updated>
+        <summary type="html"><![CDATA[强国通 科技强国 学习强国 xuexiqiangguo 全网最好用开源网页学习强国助手：TechXueXi （懒人刷分工具 自动学习）技术强国，支持答题，支持 docker 45分/天
+
+前言
+ 
+官方网站： https://techxuexi.js.org/
+ 
+交流群地址及说明（点击查看）
+ 
+重要公告： 公告栏（国内打不开） || 公告栏（国内可以打开）
+ 
+我们随时删库跑路，请加交流群防失联。
+ 
+ 
+ 
+本项目基于某已终止的项目，请自行搜索后前往star。我们由衷地敬佩这个领域的先锋们。
+ 这是全网较好的成熟产品，但已停止，我们于心不忍。本仓库现由“科技强国”组织进行维护。
+ 
+ 
+ 
+ 
+所有问题请到本项目这里提，不要打扰原作者。
+ 
+ 
+许多IT人员本终日埋头写代码，确实有需求，与其各人重复修改编写浪费生产力不如团队合作维护， 因此我们还是希望继续维护此生态。具体请详细阅读下文
+ 
+ 
+  
+  
+ 
+TechXueXi
+ 
+TechXueXi 是一款使用python语言编写的学 xi 工具。可达 45 分/天
+ 
+
+ 
+     
+ 请点击页面顶部靠右star与fork 
+        
+ 
+       
+      
+    
+ 
+   
+ 
+ 
+[TOC]
+ 
+📃免责声明
+ 
+TechXueXi为python学 xi 交流的开源非营利项目，仅作为程序员之间相互学 xi 交流之用，使用需严格遵守开源许可协议。严禁用于商业用途，禁止使用TechXueXi进行任何盈利活动。对一切非法使用所产生的后果，我们概不负责。
+ 
+ 
+有疑问？
+ 
+遇到问题，请试着按如下步骤解决：
+ 
+ 
+ 
+仔细阅读过 README.md ， 使用方法-更新方法-下载方式.md ， DOCKER.md 这些说明
+ 
+ 
+查看/搜索所有已有 issue，无论是open还是close…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[toniblyx/prowler]]></title>
+        <id>https://github.com/toniblyx/prowler</id>
+        <link href="https://github.com/toniblyx/prowler"/>
+        <updated>2021-10-22T01:00:38.706Z</updated>
+        <summary type="html"><![CDATA[Prowler is a security tool to perform AWS security best practices assessments, audits, incident response, continuous monitoring, hardening and forensics readiness. It contains all CIS controls and many more additional checks that help on GDPR, HIPAA and other security frameworks.
+
+  
+ 
+Prowler - AWS Security Tool
+ 
+Table of Contents
+ 
+ 
+ 
+Description
+ 
+ 
+Features
+ 
+ 
+High level architecture
+ 
+ 
+Requirements and Installation
+ 
+ 
+Usage
+ 
+ 
+Screenshots
+ 
+ 
+Advanced Usage
+ 
+ 
+Security Hub integration
+ 
+ 
+CodeBuild deployment
+ 
+ 
+Whitelist/allowlist or remove FAIL from resources
+ 
+ 
+Fix
+ 
+ 
+Troubleshooting
+ 
+ 
+Extras
+ 
+ 
+Forensics Ready Checks
+ 
+ 
+GDPR Checks
+ 
+ 
+HIPAA Checks
+ 
+ 
+Trust Boundaries Checks
+ 
+ 
+Multi Account and Continuous Monitoring
+ 
+ 
+Add Custom Checks
+ 
+ 
+Third Party Integratio…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spikeysanju/Einsen]]></title>
+        <id>https://github.com/Spikeysanju/Einsen</id>
+        <link href="https://github.com/Spikeysanju/Einsen"/>
+        <updated>2021-10-22T01:00:38.657Z</updated>
+        <summary type="html"><![CDATA[🎯 Einsen is a prioritization app that uses Eisenhower matrix technique as workflow to prioritize a list of tasks & built to Demonstrate use of Jetpack Compose with Modern Android Architecture Components & MVVM Architecture.
+
+
+ 
+  
+ 
+    
+ 
+🎯 Einsen
+ 
+Einsen is a prioritization app that uses Eisenhower matrix technique as workflow to prioritize a list of tasks & built to Demonstrate use of Jetpack Compose with Modern Android Architecture Components & MVVM Architecture.
+ 
+Try latest Einsen app apk from below 👇
+ 
+
+ 
+ 
+🎨 UI Design
+ 
+Click to View Einsen app Design from below 👇
+ 
+ 
+ 
+ 
+🌞 Day Mode
+ 
+ 
+  
+  
+ 
+   Dashboard 
+   All Tasks 
+   Task Details 
+  
+ 
+  
+  
+  
+ 
+    
+    
+    
+  
+ 
+  
+ 
+ 
+  
+  
+ 
+   Add Task 
+   Emoji 
+   Empty State 
+  
+ 
+  
+  
+  
+ 
+    
+    
+    
+  
+ 
+  
+ 
+ 
+🌚 We…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[jwasham/coding-interview-university]]></title>
+        <id>https://github.com/jwasham/coding-interview-university</id>
+        <link href="https://github.com/jwasham/coding-interview-university"/>
+        <updated>2021-10-22T01:00:38.619Z</updated>
+        <summary type="html"><![CDATA[A complete computer science study plan to become a software engineer.
+
+Coding Interview University
+ 
+ 
+ 
+I originally created this as a short to-do list of study topics for becoming a software engineer, but it grew to the large list you see today. After going through this study plan, I got hired as a Software Development Engineer at Amazon! You probably won't have to study as much as I did. Anyway, everything you need is here.
+ 
+ 
+I studied about 8-12 hours a day, for several months. This is my story: Why I studied full-time for 8 months for a Google interview
+ 
+ 
+Please Note: You won't need to study as much as I did. I wasted a lot of time on things I didn't need to know. More info about that below. I'll help you get there without wasting your precious time.
+ 
+ 
+The items listed here will…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CoinAlpha/hummingbot]]></title>
+        <id>https://github.com/CoinAlpha/hummingbot</id>
+        <link href="https://github.com/CoinAlpha/hummingbot"/>
+        <updated>2021-10-22T01:00:38.518Z</updated>
+        <summary type="html"><![CDATA[Hummingbot: a client for crypto market making
+
+
+ 
+ 
+  
+ 
+Hummingbot is an open-source project that integrates cryptocurrency trading on both centralized exchanges and decentralized protocols. It allows users to run a client that executes customized, automated trading strategies for cryptocurrencies.
+ 
+We created hummingbot to promote decentralized market-making: enabling members of the community to contribute to the liquidity and trading efficiency in cryptocurrency markets.
+ 
+Connector status
+ 
+ GREEN - Connector is working properly and safe to use
+ 
+ YELLOW - Connector is either new or has one or more issues
+ 
+ RED - Connector is broken and unusable
+ 
+ 
+  
+  
+ 
+   logo 
+   id 
+   name 
+   ver 
+   doc 
+   status 
+  
+ 
+  
+  
+  
+ 
+    
+   ascend_ex 
+   AscendEx 
+   1 
+   API 
+    
+  
+ 
+  
+ …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sudheerj/javascript-interview-questions]]></title>
+        <id>https://github.com/sudheerj/javascript-interview-questions</id>
+        <link href="https://github.com/sudheerj/javascript-interview-questions"/>
+        <updated>2021-10-22T01:00:38.468Z</updated>
+        <summary type="html"><![CDATA[List of 1000 JavaScript Interview Questions
+
+JavaScript Interview Questions & Answers
+ 
+ 
+ 
+Click ⭐if you like the project. Pull Requests are highly appreciated. Follow me @SudheerJonna for technical updates.
+ 
+ 
+Go to Coding Exercise for coding specific questions
+ 
+Download PDF/Epub formats
+ 
+You can download the PDF and Epub version of this repository from the latest run on the actions tab.
+ 
+ 
+    
+ 
+ 
+ 
+Take this JavaScript Projects course to go from a JavaScript beginner to confidently building your own projects
+ 
+ 
+Take this coding interview bootcamp if you’re serious about getting hired and don’t have a CS degree
+ 
+ 
+Take this Advanced JavaScript Course to learn advanced JS concepts and become a top JS developer
+ 
+ 
+
+ 
+
+ 
+ 
+Table of Contents
+ 
+ 
+  
+  
+ 
+   No. 
+   Questions 
+  
+ 
+  …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[arthurspk/guiadevbrasil]]></title>
+        <id>https://github.com/arthurspk/guiadevbrasil</id>
+        <link href="https://github.com/arthurspk/guiadevbrasil"/>
+        <updated>2021-10-22T01:00:38.023Z</updated>
+        <summary type="html"><![CDATA[GUIA EXTENSO DE PROGRAMAÇÃO:
+
+📚 GUIA EXTENSO DE PROGRAMAÇÃO
+ 
+🌟 ANTES DE TUDO, ME AJUDA AI DEU UM TRABALHÃO ORGANIZAR TODOS ESSES LINKS, ENTÃO AJUDA AI 🌟
+ 
+🔖 ME SEGUE NO GITHUB: https://github.com/arthurspk/ 👨🏻‍💻
+ 🔖 ENTRA NO SERVIDOR DO DISCORD PARA MAIS CONTEÚDO: https://discord.gg/NbMQUPjHz7 💻
+ 🔖 CONECTA LÁ NO LINKEDIN: https://www.linkedin.com/in/arthurspk/ 🌈
+ 
+📚 SITES PARA ESTUDAR PROGRAMAÇÃO:
+ 
+🔖 ROCKETSEAT: https://www.rocketseat.com.br 
+ 🔖 DIO: https://www.digitalinnovation.one 
+ 🔖 Curso em video: www.youtube.com/c/CursoemVídeo 
+ 🔖 Origamid: https://www.origamid.com/ 
+ 🔖 Udemy: https://www.udemy.com/ 
+ 🔖 HackerRank: https://www.hackerrank.com/ 
+ 🔖 Hackereath: https://www.hackerearth.com/ 
+ 🔖 Coderbyte: https://coderbyte.com/ 
+ 🔖 Coderchef: https://www.codechef.c…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[deepmind/mujoco]]></title>
+        <id>https://github.com/deepmind/mujoco</id>
+        <link href="https://github.com/deepmind/mujoco"/>
+        <updated>2021-10-22T01:00:37.958Z</updated>
+        <summary type="html"><![CDATA[Multi-Joint dynamics with Contact. A general purpose physics simulator.
+
+MuJoCo Physics
+ 
+MuJoCo stands for Multi-Joint dynamics with Contact. It is a general purpose physics engine that aims to facilitate research and development in robotics, biomechanics, graphics and animation, machine learning, and other areas which demand fast and accurate simulation of articulated structures interacting with their environment.
+ 
+DeepMind has acquired MuJoCo, and we are currently making preparations to open source the codebase. In the meantime, MuJoCo is available for download as a free and unrestricted precompiled binary under the Apache 2.0 license from mujoco.org.
+ 
+MuJoCo's source code will be released through this GitHub repository once it is ready. In the meantime, the repository hosts MuJoCo's …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitSquared/edex-ui]]></title>
+        <id>https://github.com/GitSquared/edex-ui</id>
+        <link href="https://github.com/GitSquared/edex-ui"/>
+        <updated>2021-10-22T01:00:37.922Z</updated>
+        <summary type="html"><![CDATA[A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.
+
+   
+  
+    
+      
+ (Project archived oct. 18th 2021) 
+
+  
+eDEX-UI is a fullscreen, cross-platform terminal emulator and system monitor that looks and feels like a sci-fi computer interface.
+ 
+ 
+   
+Heavily inspired from the TRON Legacy movie effects (especially the Board Room sequence), the eDEX-UI project was originally meant to be "DEX-UI with less « art » and more « distributable software »".
+ 
+While keeping a futuristic look and feel, it strives to maintain a certain level of functionality and to be usable in real-life scenarios, with the larger goal of bringing science-fiction UXs to the mainstream.
+ 
+ 
+It might or might not be a joke taken too seriously.
+ 
+ 
+ Jump to: 
+F…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mperham/sidekiq]]></title>
+        <id>https://github.com/mperham/sidekiq</id>
+        <link href="https://github.com/mperham/sidekiq"/>
+        <updated>2021-10-22T01:00:37.883Z</updated>
+        <summary type="html"><![CDATA[Simple, efficient background processing for Ruby
+
+Sidekiq
+ 
+ 
+ 
+Simple, efficient background processing for Ruby.
+ 
+Sidekiq uses threads to handle many jobs at the same time in the same process. It does not require Rails but will integrate tightly with Rails to make background processing dead simple.
+ 
+Performance
+ 
+ 
+  
+  
+ 
+   Version 
+   Latency 
+   Garbage created for 10k jobs 
+   Time to process 100k jobs 
+   Throughput 
+   Ruby 
+  
+ 
+  
+  
+  
+ 
+   Sidekiq 6.0.2 
+   3 ms 
+   156 MB 
+   14.0 sec 
+   7100 jobs/sec 
+   MRI 2.6.3 
+  
+ 
+  
+ 
+   Sidekiq 6.0.0 
+   3 ms 
+   156 MB 
+   19 sec 
+   5200 jobs/sec 
+   MRI 2.6.3 
+  
+ 
+  
+ 
+   Sidekiq 4.0.0 
+   10 ms 
+   151 MB 
+   22 sec 
+   4500 jobs/sec 
+    
+  
+ 
+  
+ 
+   Sidekiq 3.5.1 
+   22 ms 
+   1257 MB 
+   125 sec 
+   800 jobs/sec 
+    
+  
+ …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[datreeio/datree]]></title>
+        <id>https://github.com/datreeio/datree</id>
+        <link href="https://github.com/datreeio/datree"/>
+        <updated>2021-10-22T01:00:37.840Z</updated>
+        <summary type="html"><![CDATA[Prevent Kubernetes misconfigurations from reaching production (again 😤 )! Datree is a CLI tool to ensure K8s manifests and Helm charts follow best practices as well as your organization’s policies. See our docs: https://hub.datree.io
+
+
+ 
+    
+ 
+What is Datree?
+ 
+Datree is a CLI tool that supports Kubernetes admins in their roles by preventing developers from making errors in Kubernetes configurations that can cause clusters to fail in production. Our CLI tool is open source, enabling it to be supported by the Kubernetes community.
+ 
+It’s far more effective than manual processes, such as sending an email to a slew of developers, begging them to set various limits, which likely falls on deaf ears because developers are already overwhelmed.
+ 
+⭐️ Star this repository to get updates ⭐️
+ 
+How i…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[google/jax]]></title>
+        <id>https://github.com/google/jax</id>
+        <link href="https://github.com/google/jax"/>
+        <updated>2021-10-22T01:00:37.801Z</updated>
+        <summary type="html"><![CDATA[Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more
+
+ 
+  
+ 
+JAX: Autograd and XLA
+ 
+ 
+ 
+Quickstart | Transformations | Install guide | Neural net libraries | Change logs | Reference docs
+ 
+News: JAX tops largest-scale MLPerf Training 0.7 benchmarks!
+ 
+What is JAX?
+ 
+JAX is Autograd and XLA, brought together for high-performance machine learning research.
+ 
+With its updated version of Autograd, JAX can automatically differentiate native Python and NumPy functions. It can differentiate through loops, branches, recursion, and closures, and it can take derivatives of derivatives of derivatives. It supports reverse-mode differentiation (a.k.a. backpropagation) via grad as well as forward-mode differentiation, and the two can be composed arbitr…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[puppeteer/puppeteer]]></title>
+        <id>https://github.com/puppeteer/puppeteer</id>
+        <link href="https://github.com/puppeteer/puppeteer"/>
+        <updated>2021-10-22T01:00:37.755Z</updated>
+        <summary type="html"><![CDATA[Headless Chrome Node.js API
+
+Puppeteer
+ 
+ 
+ 
+ 
+ 
+ 
+API | FAQ | Contributing | Troubleshooting
+ 
+ 
+ 
+Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer runs headless by default, but can be configured to run full (non-headless) Chrome or Chromium.
+ 
+ 
+ 
+What can I do?
+ 
+Most things that you can do manually in the browser can be done using Puppeteer! Here are a few examples to get you started:
+ 
+ 
+ 
+Generate screenshots and PDFs of pages.
+ 
+ 
+Crawl a SPA (Single-Page Application) and generate pre-rendered content (i.e. "SSR" (Server-Side Rendering)).
+ 
+ 
+Automate form submission, UI testing, keyboard input, etc.
+ 
+ 
+Create an up-to-date, automated testing environment. Run your tests directly in the latest version of …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Footsiefat/zspotify]]></title>
+        <id>https://github.com/Footsiefat/zspotify</id>
+        <link href="https://github.com/Footsiefat/zspotify"/>
+        <updated>2021-10-22T01:00:37.685Z</updated>
+        <summary type="html"><![CDATA[Spotify song downloader without injecting into the windows client
+
+  
+ 
+ZSpotify
+ 
+A Spotify downloader needing only a python interpreter and ffmpeg.
+ 
+  
+ 
+Discord Server
+ 
+Requirements:
+
+Binaries
+
+- Python 3.8 or greater
+- ffmpeg*
+
+Python packages:
+
+- pip install -r requirements.txt
+
+
+ 
+*ffmpeg can be installed via apt for Debian-based distros or by downloading the binaries from ffmpeg.org and placing them in your %PATH% in Windows.
+ 
+Command line usage:
+  python zspotify.py                              Loads search prompt to find then download a specific track, album or playlist
+  python zspotify.py <track/album/playlist/episode url>   Downloads the track, album, playlist or podcast episode specified as a command line argument
+
+Extra command line options:
+  -p, --playlist       Download…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ianstormtaylor/slate]]></title>
+        <id>https://github.com/ianstormtaylor/slate</id>
+        <link href="https://github.com/ianstormtaylor/slate"/>
+        <updated>2021-10-22T01:00:37.664Z</updated>
+        <summary type="html"><![CDATA[A completely customizable framework for building rich text editors. (Currently in beta.)
+
+  
+ 
+ A completely customizable framework 
+ for building rich text editors. 
+ 
+ 
+ Why? · Principles · Demo · Examples · Documentation · Contributing! 
+ 
+ 
+  
+ 
+          
+ 
+ 
+Slate lets you build rich, intuitive editors like those in Medium, Dropbox Paper or Google Docs—which are becoming table stakes for applications on the web—without your codebase getting mired in complexity.
+ 
+It can do this because all of its logic is implemented with a series of plugins, so you aren't ever constrained by what is or isn't in "core". You can think of it like a pluggable implementation of contenteditable built on top of React. It was inspired by libraries like Draft.js, Prosemirror and Quill.
+ 
+ 
+ 
+🤖 Slate is curr…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[craftzdog/dotfiles-public]]></title>
+        <id>https://github.com/craftzdog/dotfiles-public</id>
+        <link href="https://github.com/craftzdog/dotfiles-public"/>
+        <updated>2021-10-22T01:00:37.607Z</updated>
+        <summary type="html"><![CDATA[My personal dotfiles
+
+
+ 
+Takuya's dotfiles
+ 
+Warning: Don’t blindly use my settings unless you know what that entails. Use at your own risk!
+ 
+Sponsor
+ 
+
+ 
+Inkdrop - A cross-platform Markdown note-taking app
+ 
+Contents
+ 
+ 
+ 
+vim (NeoVim) config 
+  
+ 
+   
+Plugins are managed with vim-plug
+ 
+  
+  
+ 
+tmux config
+ 
+ 
+git config
+ 
+ 
+fish config
+ 
+ 
+Vim setup
+ 
+Requires Neovim (>= 0.5)
+ 
+ 
+ 
+vim-plug - A minimalist Vim plugin manager
+ 
+ 
+nvim-lspconfig - A collection of configurations for Neovim's built-in LSP
+ 
+ 
+nvim-treesitter - Treesitter configurations and abstraction layer for Neovim
+ 
+ 
+completion-nvim - An auto completion framework based on Neovim's built-in LSP
+ 
+ 
+glepnir/lspsaga.nvim - A light-weight LSP plugin based on Neovim built-in LSP with highly a performant UI
+ 
+ 
+telescope.nvim - A highly extendable fuzzy finder over lists
+ 
+ 
+Shell setup
+ 
+ 
+ 
+Fish shell
+ 
+ 
+Fisher - Plugin manager
+ 
+ 
+Tide - Shell theme
+ 
+ 
+Nerd fonts - Powerline-patched fonts. I use Hack.
+ 
+ 
+z for fish - Directory jumping
+ 
+ 
+Exa - ls replacement
+ 
+ 
+ghq - Local Git repository organizer
+ 
+ 
+peco - Interactive filtering
+ 
+ 
+How to use
+ 
+Watch my video tutorials:
+ 
+ 
+ 
+My dev workflow using tmux and vim
+ 
+ 
+My vim setup to speed up JavaScript coding for my Electron and React Native apps 
+  
+ 
+   
+Blogpost
+ 
+  
+  
+ 
+A productive command-line Git workflow for indie app developers 
+  
+ 
+   
+Blogpost
+ 
+  
+  
+ 
+My Fish shell workflow for coding
+ 
+ 
+About me
+ 
+ 
+ 
+Twitter @inkdrop_app
+ 
+ 
+Blog
+ 
+ 
+My product: Inkdrop - Markdown note-taking app]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cloudreve/Cloudreve]]></title>
+        <id>https://github.com/cloudreve/Cloudreve</id>
+        <link href="https://github.com/cloudreve/Cloudreve"/>
+        <updated>2021-10-22T01:00:37.579Z</updated>
+        <summary type="html"><![CDATA[🌩支持多家云存储的云盘系统 (Self-deployed file management and sharing system, supports multiple storage providers)
+
+   
+ Cloudreve 
+  
+支持多家云存储驱动的公有云文件系统.
+ 
+           
+ 
+ 演示站 • 讨论社区 • 文档 • 下载 • Telegram 群组 • 许可证 
+ 
+
+ 
+✨ 特性
+ 
+ 
+ 
+☁ 支持本机、从机、七牛、阿里云 OSS、腾讯云 COS、又拍云、OneDrive (包括世纪互联版) 作为存储端
+ 
+ 
+📤 上传/下载 支持客户端直传，支持下载限速
+ 
+ 
+💾 可对接 Aria2 离线下载
+ 
+ 
+📚 在线 压缩/解压缩、多文件打包下载
+ 
+ 
+💻 覆盖全部存储策略的 WebDAV 协议支持
+ 
+ 
+⚡ 拖拽上传、目录上传、流式上传处理
+ 
+ 
+🗃 文件拖拽管理
+ 
+ 
+👩👧👦 多用户、用户组
+ 
+ 
+🔗 创建文件、目录的分享链接，可设定自动过期
+ 
+ 
+👁🗨 视频、图像、音频、文本、Office 文档在线预览
+ 
+ 
+🎨 自定义配色、黑暗模式、PWA 应用、全站单页应用
+ 
+ 
+🚀 All-In-One 打包，开箱即用
+ 
+ 
+🌈 ... ...
+ 
+ 
+🛠 部署
+ 
+下载适用于您目标机器操作系统、CPU架构的主程序，直接运行即可。
+ 
+# 解压程序包
+tar -zxvf cloudreve_VERSION_OS_ARCH.tar.gz
+
+# 赋予执行权限
+chmod +x ./cloudreve
+
+# 启动 Cloudreve
+./cloudreve
+
+ 
+以上为最简单的部署示例，您可以参考 文档 - 起步 进行更为完善的部署。
+ 
+⚙ 构建
+ 
+自行构建前需要拥有 Go >= 1.13、yarn等必要依赖。
+ 
+克隆代码
+ 
+git clone --recurse-submodules https://github.com/cloudreve/Cloudreve.git
+
+ 
+构建静态资源
+ 
+# 进入前端子模块
+cd assets
+# 安装依赖
+yarn install
+# 开始构建
+yarn run build
+
+ 
+嵌入静态资源
+ 
+# 回到项目主目录
+cd ../
+
+# 安装 statik, 用于嵌入静态资源
+go get github.com/rakyll/statik
+
+# 开始嵌入
+statik -src=assets/build/  -include=*.html,*.js,*.json,*.css,*.png,*.svg,*.ico -f
+
+ 
+编译项目
+ 
+# 获得当前版本号、Commit
+export COMMIT_SHA=$(git rev-parse --short HEAD)
+export VERSION=$(git describe --tags)
+
+# 开始编译
+go build -a -o cloudreve -ldflags " -X 'github.com/cloudreve/Cloudreve/v3/pkg/conf.BackendVersion=$VERSION' -X 'github.com/cloudreve/Cloudreve/v3/pkg/conf.LastCommit=$COMMIT_SHA'"
+
+ 
+你也可以使用项目根目录下的build.sh快速开始构建：
+ 
+./build.sh  [-a] [-c] [-b] [-r]
+	a - 构建静态资源
+	c - 编译二进制文件
+	b - 构建前端 + 编译二进制文件
+	r - 交叉编译，构建用于release的版本
+
+ 
+⚗ 技术栈
+ 
+ 
+ 
+Go  + Gin
+ 
+ 
+React + Redux + Material-UI
+ 
+ 
+📜 许可证
+ 
+GPL V3
+ 
+ 
+ 
+ 
+GitHub @HFO4  ·  Twitter @abslant00]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The role of ICT and the tech sector in sustainability]]></title>
+        <id>https://www.cncf.io/?p=65308</id>
+        <link href="https://www.cncf.io/blog/2021/10/21/the-role-of-ict-and-the-tech-sector-in-sustainability/"/>
+        <updated>2021-10-21T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on Snapt’s blog by Iwan Price-Evans, Sr Cloud Marketing Director at Snapt We talk a lot about the importance of cloud computing and moving infrastructure into the cloud...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A guide to choosing an Ingress Controller, part 1: identify your requirements]]></title>
         <id>https://www.cncf.io/?p=65210</id>
@@ -16176,911 +17597,6 @@ You also often find /slid…]]></summary>
         <link href="https://www.cncf.io/blog/2021/09/22/understand-opentelemetry-part-4-instrument-a-java-app-with-opentelemetry/"/>
         <updated>2021-09-22T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[Guest post originally published on New Relic’s blog by Jack Berg, engineer at New Relic This blog post is part of the Understand OpenTelemetry series. Part 1 gave an overview to OpenTelemetry and discussed why it...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[openkraken/kraken]]></title>
-        <id>https://github.com/openkraken/kraken</id>
-        <link href="https://github.com/openkraken/kraken"/>
-        <updated>2021-09-22T00:54:56.044Z</updated>
-        <summary type="html"><![CDATA[A high-performance, web standards-compliant rendering engine based on Flutter.
-
-
- 
-Kraken  
- 
-💁 Have a try
- 
- 
- 
- Install Kraken CLI (macOS only currently)
- $ npm i @openkraken/cli -g
-
-  
- 
- Open with kraken
- # kraken [localfile|URL]
-$ kraken https://raw.githubusercontent.com/openkraken/kraken/master/kraken/example/assets/bundle.js
-
-  
- 
-💌 Why kraken
- 
- 
- 
- Quick development 🎉
- Compatibility with web standards means you don't have to change your stack.
- const text = document.createTextNode('Hello World!');
-document.body.appendChild(text);
-
-  
- 
- Cross platform ⚛️
- Seamless integration with Flutter, supports web, mobile (iOS, Android) and desktop (MacOS, Linux, Windows).
-  
- 
- Fast performance 🚀
- Provide native-like performance such as navigation, animation and infinite list scrolling.
-  
- 
-👏 Contributing
- 
-By contributing to Kraken, you agree that your contributions will be licensed under its Apache-2.0 License.
- 
- 
- 
- Prerequisites
- 
-  
- 
-   
-Node.js v12.0 or later
- 
-   
-Flutter version in the kraken/pubspec.yaml
- 
-   
-CMake v3.2.0 or later
- 
-   
-Xcode (10.12) or later (Running on macOS or iOS)
- 
-   
-Android NDK version 21.4.7075529 (Running on Android)
- 
-  
-  
- 
- Install
- $ npm install
-
-  
- 
- Building bridge
- Building bridge for all supported platform (macOS, iOS, Android)
- $ npm run build:bridge:all
-
- Building bridge for one platform
- macOS
- $ npm run build:bridge:macos
-
- iOS
- $ npm run build:bridge:ios
-
- Android
- 
-  
- 
-   
-For Windows users, make sure that running this command under MINGW64 environment(eg. Git Bash).
- 
-  
- $ npm run build:bridge:android
-
-  
- 
- Start example
- $ cd kraken/example
-$ flutter run
-
-  
- 
- Test (Unit Test and Integration Test)
- $ npm test]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[typescript-cheatsheets/react]]></title>
-        <id>https://github.com/typescript-cheatsheets/react</id>
-        <link href="https://github.com/typescript-cheatsheets/react"/>
-        <updated>2021-09-22T00:54:56.003Z</updated>
-        <summary type="html"><![CDATA[Cheatsheets for experienced React developers getting started with TypeScript
-
- 
- 
-React+TypeScript Cheatsheets
- 
-    
- 
-Cheatsheets for experienced React developers getting started with TypeScript
- 
- 
-Web docs | 中文翻译 | Español | Português | Contribute! | Ask!
- 
- 
- 
- 
- 
-👋 This repo is maintained by @swyx, @ferdaber, @eps1lon, @jsjoeio and @arvind-one, we're so happy you want to try out TypeScript with React! If you see anything wrong or missing, please file an issue! 👍
- 
- 
- 
- |  | 
- 
-All React + TypeScript Cheatsheets
- 
- 
- 
-The Basic Cheatsheet (/README.md) is focused on helping React devs just start using TS in React apps 
-  
- 
-   
-Focus on opinionated best practices, copy+pastable examples.
- 
-   
-Explains some basic TS types usage and setup along the way.
- 
-   
-Answers the most Frequent…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[skyline-emu/skyline]]></title>
-        <id>https://github.com/skyline-emu/skyline</id>
-        <link href="https://github.com/skyline-emu/skyline"/>
-        <updated>2021-09-22T00:54:55.833Z</updated>
-        <summary type="html"><![CDATA[Run Nintendo Switch homebrew & games on your Android device!
-
-  
-      
-   
- 
- Skyline is an experimental emulator that runs on ARMv8 Android™ devices and emulates the functionality of a Nintendo Switch™ system, licensed under Mozilla Public License 2.0 
- 
- 
-Contact
- 
-You can contact the core developers of Skyline at our Discord. If you have any questions, feel free to ask. It's also a good place to just keep up with the emulator, as most talk regarding development goes on over there.
- 
- 
-Special Thanks
- 
-A few noteworthy teams/projects who've helped us along the way are:
- 
- 
- 
- Ryujinx: We've used Ryujinx for reference throughout the project, the amount of accuracy of their HLE kernel implementation is what makes them such an amazing reference. The team behind the project has been really helpful with any queries we've had. It should be noted that Skyline is not based on Ryujinx.
-  
- 
- Switchbrew: We've extensively used Switchbrew whether that be their wiki with it's colossal amount of information on the Switch that has saved us countless hours of time or libnx which was crucial to initial development of the emulator to ensure that our HLE kernel and sysmodule implementations were accurate.
-  
- 
- Atmosphère: We've used libmesosphere as another reference for our HLE kernel, it's faithfulness to the HOS kernel helps us a lot. This makes it invaluably important for us as a tool for writing code that can accurately emulate HOS behavior without missing any crucial parts.
-  
- 
- 
-Disclaimer
- 
- 
- 
-Nintendo Switch is a trademark of Nintendo Co., Ltd
- 
- 
-Android is a trademark of Google LLC]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[jorisschellekens/borb]]></title>
-        <id>https://github.com/jorisschellekens/borb</id>
-        <link href="https://github.com/jorisschellekens/borb"/>
-        <updated>2021-09-22T00:54:55.811Z</updated>
-        <summary type="html"><![CDATA[borb is a library for reading, creating and manipulating PDF files in python.
-
- borb
- 
-   
- 
-borb is a library for creating and manipulating PDF files in python.
- 
-0. About borb
- 
-borb is a pure python library to read, write and manipulate PDF documents. It represents a PDF document as a JSON-like datastructure of nested lists, dictionaries and primitives (numbers, string, booleans, etc)
- 
-This is currently a one-man project, so the focus will always be to support those use-cases that are more common in favor of those that are rare.
- 
-1. About the Examples
- 
-The examples can be found in a separate repository. This ensures the borb repository stays relatively small, whilst still providing a thorough knowledgebase of code-samples, screenshots and explanatory text.
- 
-Check out the examples re…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[termux/termux-packages]]></title>
-        <id>https://github.com/termux/termux-packages</id>
-        <link href="https://github.com/termux/termux-packages"/>
-        <updated>2021-09-22T00:54:55.775Z</updated>
-        <summary type="html"><![CDATA[A build system and primary set of packages for Termux.
-
-Termux packages
- 
-     
- 
-
- 
-This project contains scripts and patches to build packages for the Termux Android application.
- 
-Quick how-to about Termux package management is available at Package Management. It also has info on how to fix repository is under maintenance or down errors when running apt or pkg commands.
- 
-Contributing
- 
-@termux is looking for help with fixing issues, adding new packages and maintaining existing ones. It would be very helpful if you submit a pull request with bug fixes.
- 
-Read CONTRIBUTING.md and Developer's Wiki for more details.
- 
-Contacts
- 
-General mailing list: https://groups.io/g/termux
- 
-Developer mailing list: https://groups.io/g/termux-dev
- 
-General chat: https://gitter.im/termux/termux or #termux on IRC/libera.chat.
- 
-Developer chat: https://gitter.im/termux/dev.]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Richasy/Bili.Uwp]]></title>
-        <id>https://github.com/Richasy/Bili.Uwp</id>
-        <link href="https://github.com/Richasy/Bili.Uwp"/>
-        <updated>2021-09-22T00:54:55.740Z</updated>
-        <summary type="html"><![CDATA[适用于新系统UI的哔哩
-
-  
- 
- 
- 
-哔哩
- 
- 
-    
- 
- 
-哔哩 现在为 Windows 11 设计！
- 
- 
- 
-哔哩 是一款 哔哩哔哩 的第三方应用，使用 UWP 框架开发，是原生的 Windows 应用，支持 Windows 10/11 系统。主打设计和易用性，广受用户好评。
- 
-🙌 简单的开始
- 
-如果想安装哔哩，请打开右侧的 Release 页面，找到最新版本，并选择适用于当前系统的安装包下载。
- 
-然后打开 系统设置，打开 开发者模式 ，并等待系统安装一些必要的扩展项。
- 
-在应用压缩包下载完成后，解压压缩包，并在管理员模式下，使用 Windows PowerShell (不是PowerShell Core) 运行解压后的 install.ps1 脚本，根据提示进行安装。
- 
-Watch 项目，以获取应用的更新动态。
- 
-关于如何一步步地使用侧加载 (Sideload) 方式安装 UWP 应用及订阅应用更新，请参见 下载并安装哔哩的详细说明 。
- 
-📃 文档
- 
-所有关于 哔哩 的文档，包括架构、使用说明等，都放在仓库的 Wiki 中，如果你发现有文档缺失或错误，请提交 Issue 说明错漏的内容。
- 
-🚀 协作
- 
-非常感谢有兴趣的开发者或爱好者参与 哔哩 项目，分享你的见解与思路。对于任何有兴趣想为 哔哩 做出贡献的小伙伴，请参见我们的 哔哩 Wiki 了解更多有关协作的内容和引导知识。
- 
-💬 讨论
- 
-借助 Github 平台提供的 Discussions 功能，对于一般讨论、提议或分享，我们都可以在 哔哩论坛 中进行，欢迎来这里进行讨论。
- 
-🌏 路线图
- 
-哔哩会逐步完善，请查看 哔哩里程碑 来了解哔哩下一步打算做的事情。于此同时，欢迎各位开发者加入，让我们一起打造哔哩的未来。
- 
-🧩 截图]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GoTurkiye/training]]></title>
-        <id>https://github.com/GoTurkiye/training</id>
-        <link href="https://github.com/GoTurkiye/training"/>
-        <updated>2021-09-22T00:54:55.697Z</updated>
-        <summary type="html"><![CDATA[🇹🇷 Go Türkiye 🇹🇷
- 
- 
-Go Türkiye Eğitim Kampı
- 
-Go programlama dilini anlatmayı ve öğretmeyi hedeflediğimiz eğitim kampının akışını, örnek kodları ve etkinlik kayıtlarını burada bulabilirsin. Bu repo eğitim boyunca güncellenecek olup sen de bu repoya katkı sağlayabilirsin.
- 
-İçerik
- 
- 
- 
- Basics (Etkinlik Kaydi)
- 
-  
- 
-   
-Variables
- 
-   
-Array
- 
-   
-Slices
- 
-   
-Maps
- 
-   
-Strings
- 
-   
-Loops
- 
-   
-Structs
- 
-   
-Pointers
- 
-   
-Functions
- 
-   
-Errors
- 
-   
-Interfaces
- 
-   
-Modules
- 
-  
-  
- 
- Concurrency (Etkinlik Kaydi)
- 
-  
- 
-   
-Go Routines
- 
-   
-Channels
- 
-   
-WaitGroups
- 
-   
-Mutex
- 
-   
-SyncPool
- 
-   
-Dead Lock
- 
-  
-  
- 
- Http Package [21.09.2021 20:30]
- 
-  
- 
-   
-http
- 
-   
-httputil
- 
-   
-grpc
- 
-   
-Reverse Proxy
- 
-   
-Restful Api
- 
-   
-Web Frameworks (echo, gin, fasthttp)
- 
-  
-  …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[krayin/laravel-crm]]></title>
-        <id>https://github.com/krayin/laravel-crm</id>
-        <link href="https://github.com/krayin/laravel-crm"/>
-        <updated>2021-09-22T00:54:55.656Z</updated>
-        <summary type="html"><![CDATA[Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.
-
-  
- 
-    
- 
-Topics
- 
- 
- 
-Introduction
- 
- 
-Documentation
- 
- 
-Requirements
- 
- 
-Installation & Configuration
- 
- 
-License
- 
- 
-Security Vulnerabilities
- 
- 
-Introduction
- 
-Krayin CRM is a hand tailored CRM framework built on some of the hottest opensource technologies such as Laravel (a PHP framework) and Vue.js a progressive Javascript framework.
- 
-Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.
- 
-Read our documentation: Krayin CRM Docs
- 
-We also have a forum for any type of concerns, feature requests, or discussions. Please visit: Krayin CRM Forums
- 
-Visit our live Demo
- 
-It packs in lots of features that will allow your E-Comm…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[joehillen/sysz]]></title>
-        <id>https://github.com/joehillen/sysz</id>
-        <link href="https://github.com/joehillen/sysz"/>
-        <updated>2021-09-22T00:54:55.608Z</updated>
-        <summary type="html"><![CDATA[An fzf terminal UI for systemctl
-
-sysz
- 
-A fzf terminal UI for systemctl
- 
-Demo
- 
-
- 
-Features
- 
-VERSION: 1.2.3
- 
- 
- 
-See and filter both system and user units simultaneously
- 
- 
-Supports all units types
- 
- 
-Units ordered by service, timer, socket, and the rest
- 
- 
-Runs sudo automatically and only if necessary
- 
- 
-History (Ctrl-p and Ctrl-n)
- 
- 
-Support short versions of systemctl commands to reduce typing
- 
- 
-Runs status after other commands (start, stop, restart, etc)
- 
- 
-Select multiple units and commands using TAB key
- 
- 
-Only prompts commands based on current state (e.g. show "start" and "restart" only if the unit is inactive)
- 
- 
-Can filter units based on their state using the --state option
- 
- 
-Requirements
- 
- 
- 
-fzf >= 0.22.0
- 
- 
-bash > 4.3 (released 2009)
- 
- 
-awk
- 
- 
-Installation
- …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sherlock-project/sherlock]]></title>
-        <id>https://github.com/sherlock-project/sherlock</id>
-        <link href="https://github.com/sherlock-project/sherlock"/>
-        <updated>2021-09-22T00:54:55.572Z</updated>
-        <summary type="html"><![CDATA[🔎 Hunt down social media accounts by username across social networks
-
-  
- Hunt down social media accounts by username across social networks 
-        
- 
- Installation    |    Usage    |    Docker Notes    |    Contributing 
- 
-    
- 
-Installation
- 
-# clone the repo
-$ git clone https://github.com/sherlock-project/sherlock.git
-
-# change the working directory to sherlock
-$ cd sherlock
-
-# install the requirements
-$ python3 -m pip install -r requirements.txt
-
- 
- 
- 
-Usage
- 
-$ python3 sherlock --help
-usage: sherlock [-h] [--version] [--verbose] [--folderoutput FOLDEROUTPUT]
-                [--output OUTPUT] [--tor] [--unique-tor] [--csv]
-                [--site SITE_NAME] [--proxy PROXY_URL] [--json JSON_FILE]
-                [--timeout TIMEOUT] [--print-all] [--print-found] [--no-color]
-        …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[microsoft/PythonProgrammingPuzzles]]></title>
-        <id>https://github.com/microsoft/PythonProgrammingPuzzles</id>
-        <link href="https://github.com/microsoft/PythonProgrammingPuzzles"/>
-        <updated>2021-09-22T00:54:55.532Z</updated>
-        <summary type="html"><![CDATA[A Dataset of Python Challenges for AI Research
-
-Python Programming Puzzles (P3)
- 
-This repo contains a dataset of Python programming puzzles which can be used to teach and evaluate an AI's programming proficiency. We hope this dataset will grow rapidly, and it is already diverse in terms of problem difficulty, domain, and algorithmic tools needed to solve the problems. Please propose a new puzzle or browse newly proposed puzzles or contribute through pull requests.
- 
-To learn more about how well AI systems such as GPT-3 can solve these problems, read our paper:
- 
-Programming Puzzles. Tal Schuster, Ashwin Kalyan, Oleksandr Polozov, Adam Tauman Kalai.
- 
-@misc{schuster2021programming,
-      title={Programming Puzzles}, 
-      author={Tal Schuster and Ashwin Kalyan and Oleksandr Polozov and Ad…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IrisShaders/Iris]]></title>
-        <id>https://github.com/IrisShaders/Iris</id>
-        <link href="https://github.com/IrisShaders/Iris"/>
-        <updated>2021-09-22T00:54:55.505Z</updated>
-        <summary type="html"><![CDATA[(WIP) A new shaders mod for Minecraft intended to be compatible with existing ShadersMod/Optifine shaders
-
-
- 
-Iris
- 
-Links
- 
- 
- 
-Visit our website for downloads and pretty screenshots!
- 
- 
-Visit our Discord server to chat about the mod and get support! It's also a great place to get development updates right as they're happening.
- 
- 
-Visit my Patreon page to support the continued development of Iris!
- 
- 
-Why did you make Iris?
- 
-Iris was created to fill a void that I saw in the Minecraft customization and graphical enhancement community: the lack of an open-source shaders mod that would let me load my favorite shader packs on modern versions of the game, while retaining performance and compatibility with modpacks. OptiFine, the current dominant mod for loading shader packs, has restrictive…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DovAmir/awesome-design-patterns]]></title>
-        <id>https://github.com/DovAmir/awesome-design-patterns</id>
-        <link href="https://github.com/DovAmir/awesome-design-patterns"/>
-        <updated>2021-09-22T00:54:55.467Z</updated>
-        <summary type="html"><![CDATA[A curated list of software and architecture related design patterns.
-
-Awesome Software and Architectural Design Patterns
- 
- 
-  
- 
- 
- 
- 
-A curated list of software and architecture related design patterns.
- 
- 
-Software design pattern - A general, reusable solution to a commonly occurring problem within a given context in software design. It is a description or template for how to solve a problem that can be used in many different situations.
- 
- 
-Contents
- 
- 
- 
-Programming language design patterns
- 
- 
-General Architecture
- 
- 
-Cloud Architecture
- 
- 
-Serverless Architecture
- 
- 
-Micro services & Distributed Systems
- 
- 
-Internet of things
- 
- 
-Big Data
- 
- 
-Databases and storage
- 
- 
-Docker and DevOps
- 
- 
-Mobile
- 
- 
-Front End Development
- 
- 
-Security
- 
- 
-Books
- 
- 
- 
-Programming Language Design Patt…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[mamun-sec/dfirt]]></title>
-        <id>https://github.com/mamun-sec/dfirt</id>
-        <link href="https://github.com/mamun-sec/dfirt"/>
-        <updated>2021-09-22T00:54:55.337Z</updated>
-        <summary type="html"><![CDATA[Collect information of Windows PC when doing incident response
-
- 
- 
-🔳 DFIRT (DFIR Tool)
- 
-Collect information of Windows PC when doing incident response.
- 
- 
-ℹ DFIRT is a Powershell script. It collects information of- 
- 
- 
- 
-recently used files,
- 
- 
-suspicious Event ID,
- 
- 
-Powershell history for all session,
- 
- 
-files opened directly from Windows Explorer,
- 
- 
-network related running services,
- 
- 
-free space of disk,
- 
- 
-Internet connectivity information,
- 
- 
-safe DLL search mode,
- 
- 
-last boot up time,
- 
- 
-user accounts list from SID,
- 
- 
-computer name, current build, ID,
- 
- 
-current user language settings,
- 
- 
-Windows Defender Status,
- 
- 
-current Admin Approval Mode policy,
- 
- 
-domain,
- 
- 
-non default folders in Program File.
- 
- 
- 
-🔰 How to use:
- 1. Download the dfirt.ps1 script.
- 2. Start Windows Powershell.
- 3. Go to the DFIR folder.
- 4. Write 
-.\dfirt.ps1 and press Enter.
- 5. Now, DFIRT will start collecting information and save those information in report.txt file. 
- 
-⚠ Remember
- When you will run the script, result will be saved in report.txt file. But, if you again run the script and there is still previously saved report.txt file in the DFIRT folder then, the file will be overwritten with new report. 
- 
-💬 A message to you:
- I will try to continuously add new features to DFIRT. If you wish to add functionality, feel free to contribute here.]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[willmcgugan/rich]]></title>
-        <id>https://github.com/willmcgugan/rich</id>
-        <link href="https://github.com/willmcgugan/rich"/>
-        <updated>2021-09-22T00:54:55.279Z</updated>
-        <summary type="html"><![CDATA[Rich is a Python library for rich text and beautiful formatting in the terminal.
-
-    
- 
-
- 
-English readme • 中文 readme • Lengua española readme • Deutsche readme • Läs på svenska • 日本語 readme • 한국어 readme • Français readme • Schwizerdütsch readme • हिन्दी readme • Português brasileiro readme
- 
-Rich is a Python library for rich text and beautiful formatting in the terminal.
- 
-The Rich API makes it easy to add color and style to terminal output. Rich can also render pretty tables, progress bars, markdown, syntax highlighted source code, tracebacks, and more — out of the box.
- 
-
- 
-For a video introduction to Rich see calmcode.io by @fishnets88.
- 
-See what people are saying about Rich.
- 
-Compatibility
- 
-Rich works with Linux, OSX, and Windows. True color / emoji works with new Windows Terminal…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[geerlingguy/internet-pi]]></title>
-        <id>https://github.com/geerlingguy/internet-pi</id>
-        <link href="https://github.com/geerlingguy/internet-pi"/>
-        <updated>2021-09-22T00:54:55.157Z</updated>
-        <summary type="html"><![CDATA[Raspberry Pi config for all things Internet.
-
-Internet Pi
- 
-
- 
-A Raspberry Pi Configuration for Internet connectivity
- 
-I have had a couple Pis doing random Internet-related duties for years. It's finally time to formalize their configs and make all the DNS/ad-blocking/monitoring stuff encapsulated into one Ansible project.
- 
-So that's what this is.
- 
-Features
- 
-Internet Monitoring: Installs Prometheus and Grafana, along with a few Docker containers to monitor your Internet connection with Speedtest.net speedtests and HTTP tests so you can see uptime, ping stats, and speedtest results over time.
- 
-
- 
-Pi-hole: Installs the Pi-hole Docker configuration so you can use Pi-hole for network-wide ad-blocking and local DNS. Make sure to update your network router config to direct all DNS queries t…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[input-output-hk/essential-cardano]]></title>
-        <id>https://github.com/input-output-hk/essential-cardano</id>
-        <link href="https://github.com/input-output-hk/essential-cardano"/>
-        <updated>2021-09-22T00:54:55.097Z</updated>
-        <summary type="html"><![CDATA[Repository for the Essential Cardano list
-
-essential-cardano
- 
-Welcome to the Essential Cardano list, a central source for all things Cardano-related. We have outlined all the organizations, partners, and groups that are part of the Cardano ecosystem, as well as a comprehensive collection of resources to help you learn more about Cardano. Whether you want to understand what Cardano is, learn about our mission and roadmap, or get stuck in and build on Cardano, this is the place to start.
- 
-Essential Cardano is a list that is designed as a central library of materials, a one stop shop where you can find various resources for Cardano. This list includes official resources and community-generated materials.
- 
-This is an open source repository that is initiated and overseen by myself Niamh Ahern, Ben O'Hanlon, and Tim Harrison, all at IO Global. We encourage you to contribute and help us evolve this list, but please do not reproduce it.
- 
-Want to contribute?
- 
-We would love to hear your suggestions and ideas on what else we could include and how we can grow this list. Please get in touch with us and raise a PR with new suggestions and additions to enhance our list and we provide our feedback on the pull requests.
- 
-‘One list to rule them all...’
- 
-
- 
- 
- 
-(image credit: P. Ahern)]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why choose a multi-cloud strategy?]]></title>
-        <id>https://www.cncf.io/?p=64751</id>
-        <link href="https://www.cncf.io/blog/2021/09/21/why-choose-a-multi-cloud-strategy/"/>
-        <updated>2021-09-21T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post originally published on the Snapt blog by Craig Risi To cloud or not to cloud? This question has been around for a while now, as the cloud has opened the...]]></summary>
         <author>
             <name>Jessie</name>
         </author>
