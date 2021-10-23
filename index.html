@@ -16,6 +16,922 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-10-23">2021-10-23</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="http://mshibanami.github.io/GitHubTrendingRSS">GitHub All Languages Daily Trending</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">imankgoyal/NonDeepNetworks</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/imankgoyal/NonDeepNetworks">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Official Code for &quot;Non-deep Networks&quot;
+ 
+Non-deep Networks 
+ arXiv:2110.07641 
+ Ankit Goyal, Alexey Bochkovskiy, Jia Deng, Vladlen Koltun
+ 
+ 
+ Overview: Depth is the hallmark of DNNs. But more depth means more sequential computation and higher latency. This begs the question -- is it possible to build high-performing &#x60;&#x60;non-deep&quot; neural networks? We show that it is. We show, for the first time, that a network with a depth of just 12 can achieve top-1 accuracy over 80% on ImageNet, 96% on CIFAR10, and 81% on CIFAR100. We also show that a network with a low-depth (12) backbone can achieve an AP of 48% on MS-COCO. 
+
+ 
+If you find our work useful, please consider citing it:
+ 
+@article{goyal2021nondeep,
+  title&#x3D;{Non-deep Networks},
+  author&#x3D;{Goyal, Ankit and Bochkovskiy, Alexey and Deng, Jia and Koltun, Vladlen},
+  journal&#x3D;{arXiv:2110.07641},
+  year&#x3D;{2021}
+}
+
+ 
+Code Coming Soon!</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">saic-mdal/lama</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/saic-mdal/lama">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>🦙 LaMa Image Inpainting, Resolution-robust Large Mask Inpainting with Fourier Convolutions, WACV 2022
+
+🦙 LaMa: Resolution-robust Large Mask Inpainting with Fourier Convolutions
+ 
+Official implementation by Samsung Research
+ 
+by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin, Anastasia Remizova, Arsenii Ashukha, Aleksei Silvestrov, Naejin Kong, Harshith Goka, Kiwoong Park, Victor Lempitsky.
+ 
+ 🔥🔥🔥 
+  LaMa generalizes surprisingly well to much higher resolutions (~2k❗️) than it saw during training (256x256), and achieves the excellent performance even in challenging scenarios, e.g. completion of periodic structures. 
+ 
+[Project page] [arXiv] [Supplementary] [BibTeX] [Casual GAN Papers Summary]
+ 
+    
+ Try out in Google Colab 
+ 
+  
+ 
+  
+ 
+Non-official 3rd party apps:
+ 
+(Feel free to…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Dusk-Labs/dim</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/Dusk-Labs/dim">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Dim, a media manager fueled by dark forces.
+
+Dim
+ 
+ 
+ 
+Dim is a self-hosted media manager. With minimal setup, Dim will organize and beautify your media collections, letting you access and play them anytime from anywhere.
+ 
+Running from binaries
+ 
+Dependencies
+ 
+ 
+ 
+libva2
+ 
+ 
+libva-drm2
+ 
+ 
+libharfbuzz
+ 
+ 
+libfontconfig
+ 
+ 
+libfribidi
+ 
+ 
+libtheora
+ 
+ 
+libvorbis
+ 
+ 
+libvorbisenc
+ 
+ 
+You can then obtain binaries from the release tab in github:
+ 
+ 
+ 
+Unpack with unzip ./release-linux.zip &amp;&amp; tar -xvzf ./release.tar.gz
+ 
+ 
+Run cd release &amp;&amp; ./dim
+ 
+ 
+Then you can access the Dim web UI through your browser with http://0.0.0.0:8000 (assuming it&#x27;s running locally.)
+ 
+ 
+Running with docker
+ 
+ 
+ 
+docker run -d -p 8000:8000/tcp --mount type&#x3D;bind,source&#x3D;$HOME/.config/dim,target&#x3D;/opt/dim/config --mount type&#x3D;bind,source&#x3D;/media,target&#x3D;/media vgarleanu/dim:latest
+ 
+ 
+With hardware acceleration
+ 
+ 
+ 
+docker run -d -p 8000:8000/tcp --mount type&#x3D;bind,source&#x3D;$HOME/.config/dim,target&#x3D;/opt/dim/config --mount type&#x3D;bind,source&#x3D;/media,target&#x3D;/media --device&#x3D;/dev/dri/renderD128 vgarleanu/dim:latest
+ 
+ 
+Running from source
+ 
+Dependencies
+ 
+To run from source, you&#x27;ll first need to install the following dependencies on your system:
+ 
+ 
+ 
+sqlite
+ 
+ 
+cargo
+ 
+ 
+rustc (nightly)
+ 
+ 
+yarn, npm
+ 
+ 
+libssl-dev
+ 
+ 
+libva2
+ 
+ 
+libva-dev
+ 
+ 
+libva-drm2
+ 
+ 
+ffmpeg
+ 
+ 
+You can then clone the repository and build dim with the following commands:
+ 
+ 
+ 
+git clone https://github.com/Dusk-Labs/dim
+ 
+ 
+yarn --cwd ui/ &amp;&amp; yarn --cwd ui/ build
+ 
+ 
+cargo run --release
+ 
+ 
+License
+ 
+Dim is licensed under the GPLv2 license (LICENSE.md or http://opensource.org/licenses/GPL-2.0)
+ 
+Screenshots</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ApsaraDB/galaxysql</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/ApsaraDB/galaxysql">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>PolarDB-X is a cloud native distributed SQL Database designed for high concurrency, massive storage, complex querying scenarios.
+
+ 
+ 
+中文文档
+ 
+What is PolarDB-X ？
+ 
+PolarDB-X is a cloud native distributed SQL Database designed for high concurrency, massive storage, complex querying scenarios. It has a shared-nothing architecture in which computing is decoupled from storage. It supports horizontal scaling, distributed transactions and Hybrid Transactional and Analytical Processing (HTAP) workloads, and is characterized by enterprise-class, cloud native, high availability, highly compatiable with MySQL and its ecosystem.
+ 
+PolarDB-X was originally created to solve the database&#x27;s scalability bottleneck of Alibaba Tmall&#x27;s &quot;Double Eleven&quot; core transaction system, and has grown with AliCloud along…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">liuxinyu95/unplugged</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/liuxinyu95/unplugged">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Open book about math and programming.
+
+Isomorphism -- Mathematics of Programming
+ 
+2021/07
+ 
+This book introduces the mathematics behind computer programming.
+ 
+ 
+Contents
+ 
+The book can be downloaded in both English (EN) and Chinese (中文).
+ 
+ 
+ 
+Preface
+ 
+ 
+Chapter 1, Natural numbers. Peano Axiom, list and folding;
+ 
+ 
+Chapter 2, Recursion. Euclidean algorithm, Lambda calculus, and Y-combinator;
+ 
+ 
+Chapter 3, Symmetry. Group, Ring, and Field. Galois Theory;
+ 
+ 
+Chapter 4, Category theory and type system;
+ 
+ 
+Chapter 5, Deforest. Build-fold fusion law, optimization, and algorithm deduction;
+ 
+ 
+Chapter 6, Infinity. Set theory, Infinity and stream;
+ 
+ 
+Chapter 7, Logic paradox, Gödel&#x27;s incompleteness theorems, and Turing halting problem.
+ 
+ 
+Answers to the exercise.
+ 
+ 
+Install
+ 
+To build t…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">VirgilClyne/iRingo</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/VirgilClyne/iRingo">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>解锁完整的Apple搜索功能和集成服务
+
+iRingo
+ 
+解锁完整的Apple搜索功能和集成服务
+ macOS 12.0 beta 10, iOS 15.0.2, iOS 14.7.1 测试通过
+ 需要启用MitM功能
+ 以下功能及模块互无依赖，均可单独使用
+ 
+ 
+ 
+ 
+目录
+ 
+ 
+ 
+ 
+定位服务
+ 
+ 
+Siri与搜索
+ 
+ 
+Apple Map (todo)
+ 
+ 
+Apple News (🚧施工中)
+ 
+ 
+ 
+ 定位服务 
+ 
+ 
+ 
+安装链接: 
+  
+ 
+   
+Loon: 
+    
+ 
+     
+Geo_Services.plugin (Author:@Tartarus2014)
+ 
+    
+  
+   
+Quantumult X: 
+    
+ 
+     
+Geo_Services.conf
+ 
+    
+  
+   
+Surge: 
+    
+ 
+     
+Geo_Services.sgmodule
+ 
+    
+  
+  
+  
+ 
+启用模块后打开一次地图即可切换区域至HK(香港)，无需开启飞行模式、关闭定位、更改国家地区语言等
+ 
+ 
+需触发一次定位检测(com.apple.geod进程的configuration.ls.apple.com, gspe35-ssl.ls.apple.com二连访问)
+ 
+ 
+macOS/iOS适用 
+  
+ 
+   
+作用:
+ 
+  
+ 
+  
+ 
+   
+ 更改为海外版Apple Maps
+ 
+   
+ 激活/使用Apple News时不需要保持飞行模式或关闭定位服务(IP检测不在此模块解决范围)
+ 
+   
+ 激活「来自APPLE的内容\来自APPLE的建议\Siri建议」(不需要保持Geo_Services.sgmodule一直启用)
+ 
+  
+  
+ 
+注:本模块只修改定位服务，不修改其他…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">T-head-Semi/openc906</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/T-head-Semi/openc906">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>OpenXuantie - OpenC906 Core
+
+IP Readme
+ 
+Welcome to C906! Some key directories are shown below.
+ 
+|--C906_RTL_FACRORY/
+  |--gen_rtl/     ##the source verilog code of C906 
+  |--setup/       ##set the environment variables
+|--smart_run/     ##the RTL simulation environment
+  |--impl/        ##sdc file
+  |--logical/     ##the SoC demo and test bench to run the simulation 
+  |--setup/       ##GNU tool chain setting
+  |--tests/       ##include the test suit, linker file, boot code and so on
+  |--work/        ##the working directory
+  |--Makefile     ##the simulation script
+|--doc/           ##the user and integration manual of C906
+
+ 
+Usage
+ 
+Step1: Get Started
+ 
+$ cd C906_RTL_FACTORY
+$ source setup/setup.csh
+$ cd ../smart_run
+$ make help
+To gain more information about how to use smart testben…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">OWASP/CheatSheetSeries</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/OWASP/CheatSheetSeries">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.
+
+Welcome to the OWASP Cheat Sheet Series
+ 
+ 
+ 
+Welcome to the official repository for the Open Web Application Security Project® (OWASP) Cheat Sheet Series project. The project focuses on providing good security practices for builders in order to secure their applications.
+ 
+In order to read the cheat sheets and reference them, use the project official website. The project details can be viewed on the OWASP main website without the cheat sheets.
+ 
+🚩 Markdown files are the working sources and aren&#x27;t intended to be referenced in any external documentation, books or websites.
+ 
+Cheat Sheet Series Team
+ 
+Project Leaders
+ 
+ 
+ 
+Jim Manico
+ 
+ 
+Jakub Maćkowsk…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">SheetJS/sheetjs</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/SheetJS/sheetjs">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(50 min)</span>
+                    <span>📗 SheetJS Community Edition -- Spreadsheet Data Toolkit
+
+SheetJS
+ 
+Parser and writer for various spreadsheet formats. Pure-JS cleanroom implementation from official specifications, related documents, and test files. Emphasis on parsing and writing robustness, cross-format feature compatibility with a unified JS representation, and ES3/ES5 browser compatibility back to IE6.
+ 
+This is the community version. We also offer a pro version with performance enhancements, additional features like styling, and dedicated support.
+ 
+Community Translations of this README:
+ 
+ 
+ 
+Simplified Chinese
+ 
+ 
+Pro Version
+ 
+Commercial Support
+ 
+Rendered Documentation
+ 
+In-Browser Demos
+ 
+Source Code
+ 
+Issues and Bug Reports
+ 
+     
+ 
+Browser Test and Support Matrix
+ 
+
+ 
+Supported File Formats
+ 
+
+ 
+
+ Diagram Leg…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">microsoft/WindowsAppSDK</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/microsoft/WindowsAppSDK">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>The Windows App SDK empowers all Windows Desktop apps with modern Windows UI, APIs, and platform features, including back-compat support, shipped via NuGet.
+
+Windows App SDK - Calling all Windows developers!
+ 
+Previously known as Project Reunion.
+ 
+ 
+  
+  
+ 
+   Delight users with modern UI 
+   Access new platform features 
+   Backwards compatible 
+  
+ 
+  
+  
+  
+ 
+   
+Powerful WinUI 3 UI 
+   
+Localization + power status + more
+ 
+   
+Down to Windows 10 1809 
+  
+ 
+  
+ 
+...and more, without having to rewrite your app!
+ 
+ 
+ 
+Use your current installer (no requirement to use MSIX, but there are reliability/security benefits to using MSIX!)
+ 
+ 
+100% additive (only add what you need, leave the rest of your app as-is)
+ 
+ 
+Works with Win32, WPF, WinForms, and more apps
+ 
+ 
+Plus, create beautiful, mo…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">LaravelDaily/laravel-tips</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/LaravelDaily/laravel-tips">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(46 min)</span>
+                    <span>Awesome tips for Laravel
+
+Laravel Tips
+ 
+Awesome Laravel tips and tricks for all artisans. PR and ideas are welcome!
+ An idea by PovilasKorop and MarceauKa.
+ 
+Hey, like these tips? Also check out my premium Laravel courses
+ 
+ 
+Update 17 October 2021: Currently there are 194 tips divided into 14 sections.
+ 
+Table of Contents
+ 
+ 
+ 
+DB Models and Eloquent (52 tips)
+ 
+ 
+Models Relations (29 tips)
+ 
+ 
+Migrations (12 tips)
+ 
+ 
+Views (10 tips)
+ 
+ 
+Routing (19 tips)
+ 
+ 
+Validation (12 tips)
+ 
+ 
+Collections (6 tips)
+ 
+ 
+Auth (5 tips)
+ 
+ 
+Mail (4 tips)
+ 
+ 
+Artisan (5 tips)
+ 
+ 
+Factories (4 tips)
+ 
+ 
+Log and debug (5 tips)
+ 
+ 
+API (3 tips)
+ 
+ 
+Other (30 tips)
+ 
+ 
+DB Models and Eloquent
+ 
+⬆️ Go to top ➡️ Next (Models Relations)
+ 
+ 
+ 
+Reuse or clone query
+ 
+ 
+Eloquent where date methods
+ 
+ 
+Increments …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">AndrewEllis93/Print-Tuning-Guide</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/AndrewEllis93/Print-Tuning-Guide">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(20 min)</span>
+                    <span>Introduction
+ 
+Much of this guide is specific to Voron printers running Klipper. Rather than re-hashing concepts already described in Voron/Klipper documentation, I will be frequently linking to them and adding additional information and methods that utilize those concepts.
+ 
+This is not intended to be an ultimate guide to everything, rather a guide to address common mistakes and confusion I see in the Voron Discord.
+ 
+(!) Please pay special attention to anything bolded and marked with &quot;(!)&quot;
+ 
+My SuperSlicer profiles are located here.
+ 
+I am adding new information all the time, be sure to check back.
+ If you have issues, comments, or suggestions, please let me know on Discord: Ellis#4980
+ 
+Thank you to bythorsthunder for help with testing these methods and providing some of the photos.
+ 
+S…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">microsoft/TypeScript</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/microsoft/TypeScript">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
+
+TypeScript
+ 
+   
+ 
+TypeScript is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript. Try it out at the playground, and stay up to date via our blog and Twitter account.
+ 
+Find others who are using TypeScript at our community page.
+ 
+Installing
+ 
+For the latest stable version:
+ 
+npm install -g typescript
+
+ 
+For our nightly builds:
+ 
+npm install -g typescript@next
+
+ 
+Contribute
+ 
+There are many ways to contribute to TypeScript.
+ 
+ 
+ 
+Submit bugs and help us verify fixes as they are checked in.
+ 
+ 
+Review the source…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">T-head-Semi/openc910</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/T-head-Semi/openc910">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>OpenXuantie - OpenC910 Core
+
+IP Readme
+ 
+Welcome to C910! Some key directories are shown below.
+ 
+|--C910_RTL_FACRORY/
+  |--gen_rtl/     ##the source verilog code of C910 
+  |--setup/       ##set the environment variables
+|--smart_run/     ##the RTL simulation environment
+  |--impl/        ##sdc file
+  |--logical/     ##the SoC demo and test bench to run the simulation 
+  |--setup/       ##GNU tool chain setting
+  |--tests/       ##include the test suit, linker file, boot code and so on
+  |--work/        ##the working directory
+  |--Makefile     ##the simulation script
+|--doc/           ##the user and integration manual of C910
+
+ 
+Usage
+ 
+Step1: Get Started
+ 
+$ cd C910_RTL_FACTORY
+$ source setup/setup.csh
+$ cd ../smart_run
+$ make help
+To gain more information about how to use smart testben…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">edwardcdev/apollobank</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/edwardcdev/apollobank">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>A full stack GraphQL banking application using React, Node &amp; TypeScript.
+
+apollobank 🚀
+ 
+A fullstack GraphQL banking application built using React, Node &amp; TypeScript.
+ 
+Functions
+ 
+ 
+ 
+Login/register
+ 
+ 
+Dashboard
+ 
+ 
+Accounts
+ 
+ 
+Transactions
+ 
+ 
+Credit cards
+ 
+ 
+Settings
+ 
+ 
+Spending for this month chart
+ 
+ 
+Dummy data generator using faker
+ 
+ 
+
+ 
+Specifications
+ 
+Server side
+ 
+ 
+ 
+Apollo Server
+ 
+ 
+bcryptjs
+ 
+ 
+cors
+ 
+ 
+Express
+ 
+ 
+GraphQL
+ 
+ 
+faker
+ 
+ 
+jsonwebtoken
+ 
+ 
+TypeGraphQL
+ 
+ 
+TypeORM
+ 
+ 
+TypeScript
+ 
+ 
+PostgreSQL
+ 
+ 
+Client side
+ 
+ 
+ 
+Apollo React Hooks
+ 
+ 
+FontAwesome Icons
+ 
+ 
+Material UI
+ 
+ 
+Recharts
+ 
+ 
+Formik
+ 
+ 
+Yup
+ 
+ 
+Todo
+ 
+ 
+ 
+ Don&#x27;t allow the user to destroy an account if they are in debt or their account balance &gt; 0
+ 
+ 
+ When deleting and destroying an account, alert the user with another dialog to check if they would like to proceed with this action.
+ 
+ 
+ Update the chart on the dashboard to show spending such that the y axis is the users account balance.
+ 
+ 
+ Sort transactions by date &amp; sort chart data by date.
+ 
+ 
+ Fetch exchange rates from an API.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TCM-Course-Resources/Practical-Ethical-Hacking-Resources</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/TCM-Course-Resources/Practical-Ethical-Hacking-Resources">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Compilation of Resources from TCM&#x27;s Practical Ethical Hacking Udemy Course
+
+Practical-Ethical-Hacking-Resources
+ 
+Compilation of Resources from TCM&#x27;s Udemy Course
+ 
+General Links
+ 
+Link to Website: https://www.thecybermentor.com/
+ 
+Links to course:
+ 
+ 
+ 
+https://www.udemy.com/course/practical-ethical-hacking/ (udemy)
+ 
+ 
+https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course (tcm academy)
+ 
+ 
+Link to discord server: https://discord.gg/EM6tqPZ
+ 
+FAQ: https://github.com/hmaverickadams/Practical-Ethical-Hacking-FAQ
+ 
+Note Keeping
+ 
+Trilium: https://github.com/zadam/trilium
+ 
+KeepNote: http://keepnote.org/
+ 
+CherryTree: https://www.giuspen.com/cherrytree/
+ 
+GreenShot: https://getgreenshot.org/downloads/
+ 
+FlameShot: https://github.com/lupoDharkael/flameshot
+ 
+OneNote: http…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-10-22">2021-10-22</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -1453,6 +2369,23 @@ GPL V3
  
  
 GitHub @HFO4  ·  Twitter @abslant00</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.cncf.io">Cloud Native Computing Foundation</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Service mesh 101: the role of Envoy</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.cncf.io/blog/2021/10/22/service-mesh-101-the-role-of-envoy/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Guest post originally published on Kong’s blog by Scott Lowe If you’ve done any reading about service meshes, you’ve probably come across mentions of an open source project named Envoy. And if...</span>
                   </div>
                 </a>
               </details>
@@ -17587,790 +18520,6 @@ Thanks!</span>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="http://mshibanami.github.io/GitHubTrendingRSS">GitHub All Languages Daily Trending</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">samuelcolvin/pydantic</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/samuelcolvin/pydantic">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Data parsing and validation using Python type hints
-
-pydantic
- 
-      
- 
-Data validation and settings management using Python type hinting.
- 
-Fast and extensible, pydantic plays nicely with your linters/IDE/brain. Define how data should be in pure, canonical Python 3.6+; validate it with pydantic.
- 
-Help
- 
-See documentation for more details.
- 
-Installation
- 
-Install using pip install -U pydantic or conda install pydantic -c conda-forge. For more installation options to make pydantic even faster, see the Install section in the documentation.
- 
-A Simple Example
- 
-from datetime import datetime
-from typing import List, Optional
-from pydantic import BaseModel
-
-class User(BaseModel):
-    id: int
-    name &#x3D; &#x27;John Doe&#x27;
-    signup_ts: Optional[datetime] &#x3D; None
-    friends: List[int] &#x3D; []
-
-external_data &#x3D; {&#x27;id&#x27;: &#x27;123&#x27;, &#x27;signup_ts&#x27;: &#x27;2017-06-01 12:22&#x27;, &#x27;friends&#x27;: [1, &#x27;2&#x27;, b&#x27;3&#x27;]}
-user &#x3D; User(**external_data)
-print(user)
-#&gt; User id&#x3D;123 name&#x3D;&#x27;John Doe&#x27; signup_ts&#x3D;datetime.datetime(2017, 6, 1, 12, 22) friends&#x3D;[1, 2, 3]
-print(user.id)
-#&gt; 123
-
- 
-Contributing
- 
-For guidance on setting up a development environment and how to make a contribution to pydantic, see Contributing to Pydantic.
- 
-Reporting a Security Vulnerability
- 
-See our security policy.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">juice-shop/juice-shop</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/juice-shop/juice-shop">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>OWASP Juice Shop: Probably the most modern and sophisticated insecure web application
-
- OWASP Juice Shop
- 
-   
- 
-      
- 
- 
- 
-The most trustworthy online shop out there. (@dschadow) — The best juice shop on the whole internet! (@shehackspurple) — Actually the most bug-free vulnerable application in existence! (@vanderaj) — First you 😂😂then you 😢 (@kramse) — But this doesn&#x27;t have anything to do with juice. (@coderPatros&#x27; wife)
- 
- 
-OWASP Juice Shop is probably the most modern and sophisticated insecure web application! It can be used in security trainings, awareness demos, CTFs and as a guinea pig for security tools! Juice Shop encompasses vulnerabilities from the entire OWASP Top Ten along with many other security flaws found in real-world applications!
- 
-
- 
-For a detailed introduction, …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">expo/expo</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/expo/expo">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.
-
-   
-Expo
-  
-
- 
-                
- 
- Try Expo in the Browser | Read the Documentation 📚 
- 
-       
- 
- 
- 
- 
-📚 Documentation
- 
- 
-🗺 Project Layout
- 
- 
-🏅 Badges
- 
- 
-👏 Contributing
- 
- 
-❓ FAQ
- 
- 
-💙 The Team
- 
- 
-License
- 
- 
-Expo is an open-source platform for making universal native apps that run on Android, iOS, and the web. It includes a universal runtime and libraries that let you build native apps by writing React and JavaScript. This repository is where the Expo client software is developed, and includes the client apps, modules, apps, and more. The Expo CLI repository contains the Expo development tools.
- 
-Click here to view the Expo Community Guidelines. Thank you for helping k…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">mlflow/mlflow</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/mlflow/mlflow">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Open source platform for the machine learning lifecycle
-
-&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D; MLflow: A Machine Learning Lifecycle Platform
- 
-MLflow is a platform to streamline machine learning development, including tracking experiments, packaging code into reproducible runs, and sharing and deploying models. MLflow offers a set of lightweight APIs that can be used with any existing machine learning application or library (TensorFlow, PyTorch, XGBoost, etc), wherever you currently run ML code (e.g. in notebooks, standalone applications or the cloud). MLflow&#x27;s current components are:
- 
- 
- 
-MLflow Tracking 
-_: An API to log parameters, code, and results in machine learning experiments and compare them using an interactive UI.
- 
- 
-MLflow …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">frappe/frappe</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/frappe/frappe">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Low code web framework for real world applications, in Python and Javascript
-
- 
- 
-     
- 
- 
- a web framework with &quot;batteries included&quot; 
- 
- 
- it&#x27;s pronounced - fra-pay 
- 
- 
- 
-    
-    
-    
-    
-    
- 
-Full-stack web application framework that uses Python and MariaDB on the server side and a tightly integrated client side library. Built for ERPNext
- 
-Table of Contents
- 
- 
- 
-Installation
- 
- 
-Documentation
- 
- 
-License
- 
- 
-Installation
- 
- 
- 
-Install via Docker
- 
- 
-Install via Frappe Bench
- 
- 
-Contributing
- 
- 
- 
-Contribution Guidelines
- 
- 
-Translations
- 
- 
-Website
- 
-For details and documentation, see the website https://frappeframework.com
- 
-License
- 
-This repository has been released under the MIT License.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">denysdovhan/wtfjs</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/denysdovhan/wtfjs">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(34 min)</span>
-                    <span>🤪 A list of funny and tricky JavaScript examples
-
-What the f*ck JavaScript?
- 
-   
- 
- 
- 
-A list of funny and tricky JavaScript examples
- 
- 
-JavaScript is a great language. It has a simple syntax, large ecosystem and, what is most important, a great community.
- 
-At the same time, we all know that JavaScript is quite a funny language with tricky parts. Some of them can quickly turn our everyday job into hell, and some of them can make us laugh out loud.
- 
-The original idea for WTFJS belongs to Brian Leroux. This list is highly inspired by his talk “WTFJS” at dotJS 2012:
- 
-
- 
-Node Packaged Manuscript
- 
-You can install this handbook using npm. Just run:
- 
-$ npm install -g wtfjs
-
- 
-You should be able to run wtfjs at the command line now. This will open the manual in your selected $PAGER. Otherw…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">kornia/kornia</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/kornia/kornia">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Open Source Differentiable Computer Vision Library
-
- 
- 
-  
- 
- 
- 
- 
-English | 简体中文
- 
-  
- 
-Website • Docs • Try it Now • Tutorials • Examples • Blog • Community
- 
- 
-     
- 
- 
-    
- 
- 
-
- 
- 
- 
- 
-Kornia is a differentiable computer vision library for PyTorch.
- 
-It consists of a set of routines and differentiable modules to solve generic computer vision problems. At its core, the package uses PyTorch as its main backend both for efficiency and to take advantage of the reverse-mode auto-differentiation to define and compute the gradient of complex functions.
- 
- 
-  
- 
- 
-Overview
- 
-Inspired by existing packages, this library is composed by a subset of packages containing operators that can be inserted within neural networks to train models to perform image transformations, epipolar geometry, depth …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">EddieHubCommunity/LinkFree</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/EddieHubCommunity/LinkFree">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Open source alternative to LinkTree
-
-EddieHub Members
- 
-
- 
-
- 
-Initially created on a YouTube live stream https://www.youtube.com/watch?v&#x3D;Jorl_vcp-Ew
- 
-Quickstart
- 
- 
- 
-Fork project
- 
- 
-Clone project
- 
- 
-Navigate to project directory cd LinkFree
- 
- 
-Install dependencies with npm install
- 
- 
-Run npm start
- 
- 
-To add your profile
- 
-Create a file public/data/.json with the following structure:
- 
-{
-  &quot;name&quot;: &quot;Eddie Jaoude&quot;,
-  &quot;bio&quot;: &quot;Founder of EddieHub&quot;,
-  &quot;avatar&quot;: &quot;https://github.com/eddiejaoude.png&quot;,
-  &quot;links&quot;: [
-    {
-      &quot;name&quot;: &quot;Follow me on GitHub&quot;,
-      &quot;url&quot;: &quot;https://github.com/eddiejaoude&quot;,
-      &quot;icon&quot;: &quot;github&quot;
-    },
-    {
-      &quot;name&quot;: &quot;Follow me on Twitter&quot;,
-      &quot;url&quot;: &quot;https://twitter.com/eddiejaoude&quot;,
-      &quot;icon&quot;: &quot;twitter&quot;
-    }
-  ]
-}
-
- 
-Your url will be http://linkfree.eddiehub.org/, for example http://linkfree.eddiehub.org/eddiejaoude
- 
-Your avatar URL should take the format of https://github.com/.png.
- 
-Home page profiles
- 
-Your profile will automatically appear on the home page.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">pedroslopez/whatsapp-web.js</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/pedroslopez/whatsapp-web.js">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app
-
-   
- 
-whatsapp-web.js
- 
-A WhatsApp API client that connects through the WhatsApp Web browser app
- 
-It uses Puppeteer to run a real instance of Whatsapp Web to avoid getting blocked.
- 
-NOTE: I can&#x27;t guarantee you will not be blocked by using this method, although it has worked for me. WhatsApp does not allow bots or unofficial clients on their platform, so this shouldn&#x27;t be considered totally safe.
- 
-Installation
- 
-The module is now available on npm! npm i whatsapp-web.js
- 
-Please note that Node v12+ is required.
- 
-Example usage
- 
-const { Client } &#x3D; require(&#x27;whatsapp-web.js&#x27;);
-
-const client &#x3D; new Client();
-
-client.on(&#x27;qr&#x27;, (qr) &#x3D;&gt; {
-    // Generate and scan this code with your phone
-    console.log(&#x27;QR …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">freqtrade/freqtrade</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/freqtrade/freqtrade">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>Free, open source crypto trading bot
-
-
- 
-   
- 
-Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
- 
-
- 
-Disclaimer
- 
-This software is for educational purposes only. Do not risk money which you are afraid to lose. USE THE SOFTWARE AT YOUR OWN RISK. THE AUTHORS AND ALL AFFILIATES ASSUME NO RESPONSIBILITY FOR YOUR TRADING RESULTS.
- 
-Always start by running a trading bot in Dry-run and do not engage money before you understand how it works and what profit/loss you should expect.
- 
-We strongly recommend you to have coding and Python knowledge. Do not hesitate to read the source code …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">MicrosoftDocs/azure-docs</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/MicrosoftDocs/azure-docs">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Open source documentation of Microsoft Azure
-
-Microsoft Azure Documentation
- 
-Welcome to the open-source documentation of Microsoft Azure. Please review this README file to understand how you can assist in contributing to the Microsoft Azure documentation.
- 
-Getting Started
- 
-Contributing to open source is more than just providing updates, it&#x27;s also about letting us know when there is an issue. Read our Contributing guidance to find out more.
- 
-Prerequisites
- 
-You&#x27;ve decided to contribute, that&#x27;s great! To contribute to the documentation, you need a few tools.
- 
-Contributing to the documentation requires a GitHub account. If you don&#x27;t have an account, follow the instructions for the GitHub account setup from our contributor guide.
- 
-Download
- 
-Install the following tools:
- 
- 
- 
-Git
- 
- 
-Visual Studio Code
- 
- 
-Docs Authoring Pack extension for Visual Studio Code
- 
- 
-Install
- 
-Follow the instructions provided in the Install content authoring tools from our contributor guide.
- 
-License
- 
-Please refer to LICENSE, LICENSE-CODE and ThirdPartyNotices for all Licensing information.
- 
-Code of Conduct
- 
-This project has adopted the Microsoft Open Source Code of Conduct. For more information, see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">pittcsc/Summer2022-Internships</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/pittcsc/Summer2022-Internships">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(15 min)</span>
-                    <span>Collection of Summer 2022 tech internships!
-
-Summer 2022 Tech Internships by Pitt CSC 🤿👩‍💻
- 
-Use this repo to share and keep track of software, tech, CS, PM, quant internships for Summer 2022. List maintained by the Pitt Computer Science Club!
- 
-⚠ This repository is only for internships/co-ops in the United States, Canada or for Remote positions🌎.
- 
-📈 For more tips on the internship process check out the Zero to Offer program here. 📈
- 
-🎓 Check out our New Grad repo here.
- 
-🤗 Contribute by submitting a pull request or filling out this form! 🤗
- 
-The List 👔
- 
- 
-  
-  
- 
-   Name 
-   Location 
-   Notes 
-  
- 
-  
-  
-  
- 
-   Hudson River Trading 
-   NYC, Chicago, London, Austin 
-   SWE, Algo Internship 
-  
- 
-  
- 
-   Bridgewater Associates 
-    
-   Closed 
-  
- 
-  
- 
-   Credit Suisse 
-   Ra…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">cipher387/Dorks-collections-list</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/cipher387/Dorks-collections-list">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>List of Github repositories and articles with list of dorks for different search engines
-
-Dorks collections list
- 
-Google, Bing, Ecosia, Yahoo or Yandex
- 
-https://github.com/Zarcolio/sitedorks
- 
-Google dorks
- 
-https://github.com/BullsEye0/google_dork_list
- https://github.com/sushiwushi/bug-bounty-dorks
- https://github.com/rootac355/SQL-injection-dorks-list
- https://github.com/unexpectedBy/SQLi-Dork-Repository
- https://github.com/thomasdesr/Google-dorks
- https://github.com/arimogi/Google-Dorks
- https://github.com/aleedhillon/7000-Google-Dork-List
- 
-DuckDuckGo dorks
- 
-https://github.com/d34dfr4m3/goDuck
- 
-Github dorks
- 
-https://github.com/techgaun/github-dorks
- https://github.com/jcesarstef/ghhdb-Github-Hacking-Database
- https://github.com/H4CK3RT3CH/github-dorks
- 
-Shodan dorks
- 
-https://github.com/humblelad/Shodan-Dorks
- https://github.com/AustrianEnergyCERT/ICS_IoT_Shodan_Dorks
- https://github.com/lothos612/shodan
- https://github.com/jakejarvis/awesome-shodan-queries
- https://github.com/IFLinfosec/shodan-dorks
- https://www.osintme.com/index.php/2021/01/16/ultimate-osint-with-shodan-100-great-shodan-queries/
- 
-Virus Total dorks
- 
-https://github.com/Neo23x0/vti-dorks
- 
-Binary Edge + Shodan + Google
- 
-https://github.com/iGotRootSRC/Dorkers
- 
- 
-I also recommend checking out my collection of 505 tools for OSINT:
- 
-https://cipher387.github.io/osint_stuff_tool_collection/</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">aristocratos/btop</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/aristocratos/btop">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(10 min)</span>
-                    <span>A monitor of resources
-
-
- 
-      
- 
-Index
- 
- 
- 
-News
- 
- 
-Documents
- 
- 
-Description
- 
- 
-Features
- 
- 
-Themes
- 
- 
-Support and funding
- 
- 
-Prerequisites (Read this if you are having issues!)
- 
- 
-Screenshots
- 
- 
-Keybindings
- 
- 
-Installation
- 
- 
-Manual compilation
- 
- 
-Configurability
- 
- 
-License
- 
- 
-News
- 
-Under development
- 
-18 September 2021
- 
-The Linux version of btop++ is complete. Released as version 1.0.0
- 
-I will be providing statically compiled binaries for a range of architectures in every release for those having problems compiling.
- 
-For compilation GCC 10 is required, GCC 11 preferred.
- 
-Please report any bugs to the Issues page.
- 
-The development plan right now:
- 
- 
- 
-1.1.0 Mac OsX support
- 
- 
-1.2.0 FreeBSD support
- 
- 
-1.3.0 Support for GPU monitoring
- 
- 
-1.X.0 Other platforms and f…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">frontendbr/vagas</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/frontendbr/vagas">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>🔬 Espaço para divulgação de vagas para front-enders.
-
-  
- 
-Vagas
- 
-🔬 Espaço para divulgação de vagas para front-enders.
- 
-Vagas (Somente vagas de Front-End)
- 
-Espaço para a divulgação de vagas para desenvolvedores via issues do Github.
- 
-Vagas disponíveis em https://github.com/frontendbr/vagas/issues
- 
-Cadastrando uma vaga
- 
- 
- 
-Abra uma issue e, no título desta issue, coloque o nome da cidade entre colchetes seguido do nome da vaga e nome da empresa.
- 
- 
-Exemplo: [São Paulo] Front-End Developer na [NOME DA EMPRESA]
- 
- 
- 
-Informe quais labels devemos adicionar, contendo o nível de experiência desejada e a forma de contração.
- 
- 
-⚠️ Importante
- 
-Com o objetivo de manter a qualidade das vagas postadas e respeitar todas as pessoas e empresas, NÃO ACEITAMOS:
- 
- 
- 
-Vagas sem o nome da empresa…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">academind/react-complete-guide-code</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/academind/react-complete-guide-code">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Code snapshots and materials for our &quot;React - The Complete Guide&quot; course (https://acad.link/reactjs)
-
-Course Code &amp; Materials
- 
-This repository contains the course source code and other extra materials like slides.
- 
-How to use
- 
-The code snapshots are organized in multiple branches where every branch represents a course section.
- 
-For example, the branch 01-getting-started holds all code snapshots and extra materials for section 1 of the course (&quot;Getting Started&quot;).
- 
-You can switch branches via the branch dropdown above the directory explorer.
- 
-
- 
-In most branches, you&#x27;ll find multiple folders which organize the section-specific content further:
- 
- 
- 
-Often, you&#x27;ll find a /code subfolder which contains any relevent code snapshots for the given course section
- 
- 
-You also often find /slid…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://www.cncf.io">Cloud Native Computing Foundation</a></h3>
           <section class="articles-per-source">
             <article>
@@ -18399,42 +18548,9 @@ You also often find /slid…</span>
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-09-22">2021-09-22</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.cncf.io">Cloud Native Computing Foundation</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">CNCF End User Technology Radar Provides Insights into DevSecOps</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.cncf.io/announcements/2021/09/22/cncf-end-user-technology-radar-provides-insights-into-devsecops/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>End User Community reports that there are many tools and approaches for DevSecOps, and the space is continuing to grow SAN FRANCISCO, Calif. – September 22, 2021 – The Cloud Native Computing...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Understand OpenTelemetry part 4: Instrument a Java app with OpenTelemetry</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.cncf.io/blog/2021/09/22/understand-opentelemetry-part-4-instrument-a-java-app-with-opentelemetry/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Guest post originally published on New Relic’s blog by Jack Berg, engineer at New Relic This blog post is part of the Understand OpenTelemetry series. Part 1 gave an overview to OpenTelemetry and discussed why it...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-10-22T01:00:39.036Z">2021-10-22T01:00:39.036Z</time>
+    <time id="build-timestamp" datetime="2021-10-23T00:56:31.338Z">2021-10-23T00:56:31.338Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>
