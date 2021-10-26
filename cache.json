@@ -31,6 +31,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=65325",
+          "author": "Jessie",
+          "description": "Guest post originally published on InfraCloud’s blog by Ninad Desai, InfraCloud In the previous post, we covered monitoring basics, including Prometheus, metrics, its most common use cases, and how to query Prometheus data using...",
+          "link": "https://www.cncf.io/blog/2021/10/25/prometheus-definitive-guide-part-iii-prometheus-operator/",
+          "publishedOn": "2021-10-25T15:00:00.000Z",
+          "wordCount": 2977,
+          "title": "Prometheus definitive guide part III – Prometheus operator"
+        },
+        {
           "id": "https://www.cncf.io/?p=65311",
           "author": "Jessie",
           "description": "Guest post originally published on Kong’s blog by Scott Lowe If you’ve done any reading about service meshes, you’ve probably come across mentions of an open source project named Envoy. And if...",
@@ -340,6 +349,114 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/faisalman/ua-parser-js",
+          "author": null,
+          "description": "UAParser.js - Detect Browser, Engine, OS, CPU, and Device type/model from User-Agent data. Supports browser & node.js environment.\n\n  \n \n      \n \nUAParser.js\n \nJavaScript library to detect Browser, Engine, OS, CPU, and Device type/model from User-Agent data with relatively small footprint (~17KB minified, ~6KB gzipped) that can be used either in browser (client-side) or node.js (server-side).\n \n \n \nAuthor : Faisal Salman <f@faisalman.com>\n \n \nDemo : https://faisalman.github.io/ua-parser-js\n \n \nSource : https://github.com/faisalman/ua-parser-js\n \n \nDocumentation\n \nConstructor\n \n \n \n new UAParser([uastring][,extensions])\n \n  \n \n   \nreturns new instance\n \n  \n  \n \n UAParser([uastring][,extensions])\n \n  \n \n   \nreturns result object { ua: '', browser: {}, cpu: {}, device: {}, engine: {}, os: {} …",
+          "link": "https://github.com/faisalman/ua-parser-js",
+          "publishedOn": "2021-10-26T00:52:10.378Z",
+          "wordCount": 1741,
+          "title": "faisalman/ua-parser-js"
+        },
+        {
+          "id": "https://github.com/oceanbase/oceanbase",
+          "author": null,
+          "description": "OceanBase is an enterprise distributed relational database with high availability, high performance, horizontal scalability, and compatibility with SQL standards.\n\nWhat is OceanBase database\n \nOceanBase Database is a native distributed relational database. It is developed entirely by Alibaba and Ant Group. OceanBase Database is built on a common server cluster. Based on the Paxos protocol and its distributed structure, OceanBase Database provides high availability and linear scalability. OceanBase Database is not dependent on specific hardware architectures.\n \nOceanBase Database has these features:\n \n \n \n High availability\n Single server failure recovers automatically. OceanBase Database supports cross-city disaster tolerance for multiple IDCs and zero data loss. OceanBase Database meets t…",
+          "link": "https://github.com/oceanbase/oceanbase",
+          "publishedOn": "2021-10-26T00:52:10.225Z",
+          "wordCount": 1178,
+          "title": "oceanbase/oceanbase"
+        },
+        {
+          "id": "https://github.com/craftzdog/craftzdog-homepage",
+          "author": null,
+          "description": "My homepage\n\nTakuya's Homepage\n \nhttps://www.craftz.dog/\n \nTutorial\n \nWatch how I built this website on YouTube:\n \n\n \nStack\n \n \n \nNext.js - A React framework with hybrid static & server rendering, and route pre-fetching, etc.\n \n \nChakra UI - A simple, modular and accessible component library for React\n \n \nThree.js - 3D library for JavaScript\n \n \nFramer Motion - An animation library for React\n \n \nProject structure\n \n$PROJECT_ROOT\n│   # Page files\n├── pages\n│   # React component files\n├── components\n│   # Non-react modules\n├── lib\n│   # Static files for images and 3d model file\n└── public\n\n \n \nLooking for a Markdown note-taking app? Check out my app called Inkdrop:",
+          "link": "https://github.com/craftzdog/craftzdog-homepage",
+          "publishedOn": "2021-10-26T00:52:10.175Z",
+          "wordCount": 561,
+          "title": "craftzdog/craftzdog-homepage"
+        },
+        {
+          "id": "https://github.com/jessfraz/dockerfiles",
+          "author": null,
+          "description": "Various Dockerfiles I use on the desktop and on servers.\n\ndockerfiles\n \n\n \nThis is a repo to hold various Dockerfiles for images I create.\n \nTable of Contents\n \n \n \n \nAbout\n \n \nResources \n  \n \n   \nMy dotfiles\n \n  \n  \n \nContributing \n  \n \n   \nUsing the Makefile\n \n  \n  \n \n \nAbout\n \nAlmost all of these live on dockerhub under jess. Because you cannot use notary with autobuilds on dockerhub I also build these continuously on a private registry at r.j3ss.co for public download. (You're welcome.)\n \nResources\n \nMy dotfiles\n \nYou may also want to checkout my dotfiles, specifically the aliases for all these files which are here: github.com/jessfraz/dotfiles/blob/master/.dockerfunc.\n \nContributing\n \nI try to make sure each Dockerfile has a command at the top to document running it, if a file you are looking at does not have a command, please pull request it!\n \nUsing the Makefile\n \n$ make help\nbuild                          Builds all the dockerfiles in the repository.\ndockerfiles                    Tests the changes to the Dockerfiles build.\nimage                          Build a Dockerfile (ex. DIR=telnet).\nlatest-versions                Checks all the latest versions of the Dockerfile contents.\nrun                            Run a Dockerfile from the command at the top of the file (ex. DIR=telnet).\nshellcheck                     Runs the shellcheck tests on the scripts.\ntest                           Runs the tests on the repository.",
+          "link": "https://github.com/jessfraz/dockerfiles",
+          "publishedOn": "2021-10-26T00:52:09.882Z",
+          "wordCount": 2036,
+          "title": "jessfraz/dockerfiles"
+        },
+        {
+          "id": "https://github.com/solana-labs/solana",
+          "author": null,
+          "description": "Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces.\n\n    \n \n   \n \nBuilding\n \n1. Install rustc, cargo and rustfmt.\n \n$ curl https://sh.rustup.rs -sSf | sh\n$ source $HOME/.cargo/env\n$ rustup component add rustfmt\n\n \nWhen building the master branch, please make sure you are using the latest stable rust version by running:\n \n$ rustup update\n\n \nWhen building a specific release branch, you should check the rust version in ci/rust-version.sh and if necessary, install that version by running:\n \n$ rustup install VERSION\n\n \nNote that if this is not the latest rust version on your machine, cargo commands may require an override in order to use the correct version.\n \nOn Linux systems you may need to install libssl-dev, pkg-config, zlib1g-dev, etc. On Ubuntu:\n \n$ sudo …",
+          "link": "https://github.com/solana-labs/solana",
+          "publishedOn": "2021-10-26T00:52:09.782Z",
+          "wordCount": 2183,
+          "title": "solana-labs/solana"
+        },
+        {
+          "id": "https://github.com/simdjson/simdjson",
+          "author": null,
+          "description": "Parsing gigabytes of JSON per second\n\n     \n \nsimdjson : Parsing gigabytes of JSON per second\n \n JSON is everywhere on the Internet. Servers spend a *lot* of time parsing it. We need a fresh approach. The simdjson library uses commonly available SIMD instructions and microparallel algorithms to parse JSON 4x faster than RapidJSON and 25x faster than JSON for Modern C++. \n \n \nFast: Over 4x faster than commonly used production-grade JSON parsers.\n \n \nRecord Breaking Features: Minify JSON at 6 GB/s, validate UTF-8 at 13 GB/s, NDJSON at 3.5 GB/s.\n \n \nEasy: First-class, easy to use and carefully documented APIs.\n \n \nStrict: Full JSON and UTF-8 validation, lossless parsing. Performance with no compromises.\n \n \nAutomatic: Selects a CPU-tailored parser at runtime. No configuration needed.\n \n \nReli…",
+          "link": "https://github.com/simdjson/simdjson",
+          "publishedOn": "2021-10-26T00:52:09.632Z",
+          "wordCount": 1751,
+          "title": "simdjson/simdjson"
+        },
+        {
+          "id": "https://github.com/copy/v86",
+          "author": null,
+          "description": "x86 virtualization in your browser, recompiling x86 to wasm on the fly\n\n\n \nv86 emulates an x86-compatible CPU and hardware. Machine code is translated to WebAssembly modules at runtime in order to achieve decent performance. Here's a list of emulated hardware:\n \n \n \nAn x86-compatible CPU. The instruction set is around Pentium III level, including full SSE2 support. Some features are missing, in particular: \n  \n \n   \nTask gates, far calls in protected mode\n \n   \nSome 16 bit protected mode features\n \n   \nSingle stepping (trap flag, debug registers)\n \n   \nSome exceptions, especially floating point and SSE\n \n   \nMulticore\n \n   \nPAE\n \n   \n64-bit extensions\n \n  \n  \n \nA floating point unit (FPU). Calculations are done using the Berkeley SoftFloat library and therefore should be precise (but slow)…",
+          "link": "https://github.com/copy/v86",
+          "publishedOn": "2021-10-26T00:52:09.583Z",
+          "wordCount": 1459,
+          "title": "copy/v86"
+        },
+        {
+          "id": "https://github.com/xmrig/xmrig",
+          "author": null,
+          "description": "RandomX, CryptoNight, AstroBWT and Argon2 CPU/GPU miner\n\nXMRig\n \n     \n \nXMRig is a high performance, open source, cross platform RandomX, KawPow, CryptoNight and AstroBWT unified CPU/GPU miner and RandomX benchmark. Official binaries are available for Windows, Linux, macOS and FreeBSD.\n \nMining backends\n \n \n \nCPU (x64/ARMv8)\n \n \nOpenCL for AMD GPUs.\n \n \nCUDA for NVIDIA GPUs via external CUDA plugin.\n \n \nDownload\n \n \n \nBinary releases\n \n \nBuild from source\n \n \nUsage\n \nThe preferred way to configure the miner is the JSON config file as it is more flexible and human friendly. The command line interface does not cover all features, such as mining profiles for different algorithms. Important options can be changed during runtime without miner restart by editing the config file or executing API calls.\n \n \n \nWizard helps you create initial configuration for the miner.\n \n \nWorkers helps manage your miners via HTTP API.\n \n \nDonations\n \n \n \nDefault donation 1% (1 minute in 100 minutes) can be increased via option donate-level or disabled in source code.\n \n \nXMR: 48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD\n \n \nDevelopers\n \n \n \nxmrig\n \n \nsech1\n \n \nContacts\n \n \n \nsupport@xmrig.com\n \n \nreddit\n \n \ntwitter",
+          "link": "https://github.com/xmrig/xmrig",
+          "publishedOn": "2021-10-26T00:52:09.514Z",
+          "wordCount": 630,
+          "title": "xmrig/xmrig"
+        },
+        {
+          "id": "https://github.com/misterokaygo/MapAssist",
+          "author": null,
+          "description": "MapAssist\n \nTHE 'MapAssist' TOOL AND CONTENTS THEREIN WERE INTENDED FOR INFORMATIONAL AND LEARNING PURPOSES ONLY.\n \nJoin the discussion: https://discord.gg/5b2B7QrVqa\n \nFeel free to contribute a pull request with new features or fixes, the code is under GPL so make sure to please follow the license.\n \nThe software is free and open source licensed under the GPLv3. You may download a copy of the source code and follow the instructions to build the software for yourself. In certain instances there may be direct links to precompiled versions of the software, you are free to use these as well. The best place to start looking is inside of the repository.\n \nUse at your own risk! The MapAssist team makes no expression of warranty or claim about the safety in regards to the usage of this program. We have done our best to provide an open project for learning and educational purposes only. The contents of the official source code are known to not contain any malicious or disingenuous code. If you have additional information in regards to the safety of this program please do not hesitate to raise a concern.\n \nAll software projects are subject to their own licensing, and copyrights. All other product names and any registered and unregistered trademarks mentioned are used for identification purposes only and remain the exclusive property of their respective owners.",
+          "link": "https://github.com/misterokaygo/MapAssist",
+          "publishedOn": "2021-10-26T00:52:09.488Z",
+          "wordCount": 682,
+          "title": "misterokaygo/MapAssist"
+        },
+        {
+          "id": "https://github.com/bitcoinbook/bitcoinbook",
+          "author": null,
+          "description": "Mastering Bitcoin 2nd Edition - Programming the Open Blockchain\n\nCode Examples: \n \nMastering Bitcoin\n \nMastering Bitcoin is a book for developers, although the first two chapters cover bitcoin at a level that is also approachable to non-programmers. Anyone with a basic understanding of technology can read the first two chapters to get a great understanding of bitcoin.\n \nThis repository contains the complete first edition, second print, published in December 2014, and the complete second edition, third print, published in March 2018, as published by O'Reilly Media in paperback and ebook formats.\n \nIssues, Errors, Comments, Contributions\n \nIf you know how to make a pull request to contribute a fix, please write the correction and use a pull request to submit it for consideration against the …",
+          "link": "https://github.com/bitcoinbook/bitcoinbook",
+          "publishedOn": "2021-10-26T00:52:09.458Z",
+          "wordCount": 1319,
+          "title": "bitcoinbook/bitcoinbook"
+        },
+        {
+          "id": "https://github.com/ngosang/trackerslist",
+          "author": null,
+          "description": "Updated list of public BitTorrent trackers\n\nngosang/trackerslist\n \n    \n \nUpdated list of public BitTorrent trackers\n \nLists\n \nThese lists are automatically updated every day. Last update 2021/10/25:\n \n \n \ntrackers_best (20 trackers) => link / mirror / mirror 2\n \n \ntrackers_all (100 trackers) => link / mirror / mirror 2\n \n \ntrackers_all_udp (59 trackers) => link / mirror / mirror 2\n \n \ntrackers_all_http (30 trackers) => link / mirror / mirror 2\n \n \ntrackers_all_https (11 trackers) => link / mirror / mirror 2\n \n \ntrackers_all_ws (4 trackers) => link / mirror / mirror 2\n \n \nAre you having DNS problems? These lists contains the same trackers but with IP addresses instead of domains:\n \n \n \ntrackers_best_ip (11 trackers) => link / mirror / mirror 2\n \n \ntrackers_all_ip (70 trackers) => link / mi…",
+          "link": "https://github.com/ngosang/trackerslist",
+          "publishedOn": "2021-10-26T00:52:09.411Z",
+          "wordCount": 734,
+          "title": "ngosang/trackerslist"
+        },
+        {
+          "id": "https://github.com/bedimcode/responsive-halloween-website",
+          "author": null,
+          "description": "Responsive Halloween Website Design Using HTML CSS & JavaScript\n\nResponsive Halloween Website 🎃\n \nWatch it on youtube\n \nResponsive Halloween Website 🎃\n \n \n \nResponsive Halloween Website Using HTML, CSS & JavaScript.\n \n \nContains animations when scrolling.\n \n \nIt has three color designs (green, red and black)\n \n \nSmooth scrolling in each section.\n \n \nDeveloped first with the Mobile First methodology, then for desktop.\n \n \nCompatible with all mobile devices and with a beautiful and pleasant user interface.\n \n \nJoin the channel to see more videos like this. Bedimcode",
+          "link": "https://github.com/bedimcode/responsive-halloween-website",
+          "publishedOn": "2021-10-26T00:52:09.369Z",
+          "wordCount": 480,
+          "title": "bedimcode/responsive-halloween-website"
+        },
         {
           "id": "https://github.com/PHPMailer/PHPMailer",
           "author": null,
@@ -3210,105 +3327,6 @@
           "publishedOn": "2021-09-27T00:52:29.142Z",
           "wordCount": 410,
           "title": "will/slacktyping"
-        },
-        {
-          "id": "https://github.com/Snailclimb/JavaGuide",
-          "author": null,
-          "description": "「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！\n\n👉 如果你不知道该学习什么的话，请看 Java 学习线路图是怎样的？ （原创不易，欢迎点赞），这是 2021 最新最完善的 Java 学习路线！另外，我的朋友整理了一份消息队列常见面试题，需要的小伙伴可以点击领取！\n \n👉 推荐 在线阅读 (Github 访问速度比较慢可能会导致部分图片无法刷新出来)\n \n👉 书单已经被移动到 awesome-cs 这个仓库。\n \n \n \n \n  \n介绍：关于 JavaGuide 的相关介绍请看：关于 JavaGuide 的一些说明 。\n \n  \n贡献指南 ：欢迎参与 JavaGuide的维护工作，这是一件非常有意义的事情。\n \n  \nPDF版本 ： 《JavaGuide 面试突击版》PDF 版本 。\n \n  \n图解计算机基础 ：图解计算机基础 PDF 下载 。\n \n  \n知识星球 : 简历指导/Java学习/面试指导/面试小册。欢迎加入我的知识星球 。\n \n  \n面试专版 ：准备面试的小伙伴可以考虑面试专版：《Java面试进阶指北 》 (质量很高，专为面试打造)\n \n  \n转载须知 ：以下所有文章如非文首说明皆为我（Guide哥）的原创，转载在文首注明出处，如发现恶意抄袭/搬运，会动用法律武器维护自己的权益。让我们一起维护一个良好的技术创作环境！⛽️\n \n \n \n \n    \n \n       \n \nSponsor\n \n \n  \n  \n \n       \n  \n \n  \n \nJava\n \n基础\n \n知识点/面试题 : (必看👍 )\n \n \n \nJava 基础知识\n \n \nJava 基础知识疑难点/易错点\n \n \n重要知识点详解：\n \n \n \n枚举 （很重要的一个数据结构，用好枚举真的没有那么简单！）\n…",
-          "link": "https://github.com/Snailclimb/JavaGuide",
-          "publishedOn": "2021-09-26T00:54:37.722Z",
-          "wordCount": 1082,
-          "title": "Snailclimb/JavaGuide"
-        },
-        {
-          "id": "https://github.com/salesforce/Merlion",
-          "author": null,
-          "description": "Merlion: A Machine Learning Framework for Time Series Intelligence\n\n \n  \n \n \n    \n    \n    \n    \n \nMerlion: A Machine Learning Library for Time Series\n \nTable of Contents\n \n \n \nIntroduction\n \n \nInstallation\n \n \nDocumentation\n \n \nGetting Started \n  \n \n   \nAnomaly Detection\n \n   \nForecasting\n \n  \n  \n \nEvaluation and Benchmarking\n \n \nTechnical Report and Citing Merlion\n \n \nIntroduction\n \nMerlion is a Python library for time series intelligence. It provides an end-to-end machine learning framework that includes loading and transforming data, building and training models, post-processing model outputs, and evaluating model performance. It supports various time series learning tasks, including forecasting and anomaly detection for both univariate and multivariate time series. This library aims t…",
-          "link": "https://github.com/salesforce/Merlion",
-          "publishedOn": "2021-09-26T00:54:37.668Z",
-          "wordCount": 2082,
-          "title": "salesforce/Merlion"
-        },
-        {
-          "id": "https://github.com/ascoders/weekly",
-          "author": null,
-          "description": "前端精读周刊。帮你理解最前沿、实用的技术。\n\n前端精读\n \n   \n前端界的好文精读，每周更新！\n \n最新精读：210.精读《class static block》\n \n素材来源：周刊参考池\n \n现已涵盖：\n \n \n \n结合大厂工作经验解读的 前沿技术，源码解读。\n \n \n逐渐加入一些后端技术解读。\n \n \n一些 商业思考。\n \n \n已完成 编译原理、设计模式 两大基础模块。\n \n \n前沿技术\n \n \n \n1.精读《js 模块化发展》\n \n \n2.精读《模态框的最佳实践》\n \n \n3.精读《前后端渲染之争》\n \n \n4.精读《AsyncAwait 优越之处》\n \n \n5.精读《民工叔单页数据流方案》\n \n \n6.精读《JavaScript 错误堆栈处理》\n \n \n7.精读《请停止 css-in-js 的行为》\n \n \n8.精读《入坑 React 前没有人会告诉你的事》\n \n \n9.精读《Immutable 结构共享》\n \n \n10.精读《Web Components 的困境》\n \n \n11.精读《前端调试技巧》\n \n \n12.精读《React 高阶组件》\n \n \n13.精读《This 带来的困惑》\n \n \n14.精读《架构设计之 DCI》\n \n \n15.精读《TC39 与 ECMAScript 提案》\n \n \n16.精读《CSS Animations vs Web Animations API》\n \n \n17.精读《如何安全地使用 React context》\n \n \n18.精读《设计完美的日期选择器》\n \n \n19.精读《最佳前端面试题》及面试官技巧\n \n \n20.精读《Nestjs》文档\n \n \n21.精读《Web fonts: when you need them, when you don’t》\n \n \n22.精读《V8 引擎特性带来的的 JS 性能变化》\n \n \n…",
-          "link": "https://github.com/ascoders/weekly",
-          "publishedOn": "2021-09-26T00:54:37.607Z",
-          "wordCount": 1095,
-          "title": "ascoders/weekly"
-        },
-        {
-          "id": "https://github.com/ashellunts/ffmpeg-to-webrtc",
-          "author": null,
-          "description": "Stream video from ffmpeg to web(rtc)\n\nffmpeg-to-webrtc\n \nffmpeg-to-webrtc demonstrates how to send video from ffmpeg to your browser using pion.\n \nThis example has the same structure as play-from-disk-h264 but instead of reading from a file it reads H264 stream from ffmpeg stdout pipe.\n \nInstructions\n \nOpen example page\n \njsfiddle.net you should see two text-areas and a 'Start Session' button\n \nCopy browser's SessionDescription\n \nIn the jsfiddle the top textarea is your browser's SDP, copy that and:\n \nWindows\n \n \n \nPaste the SessionDescription into a file SDP.\n \n \nMake sure ffmpeg in your PATH.\n \n \nRun go run . <ffmpeg command line options> - < SDP\n \n \nNote dash after ffmpeg options. It makes ffmpeg to write output to stdout. The app will read h264 stream from ffmpeg stdout.\n \n \nffmpeg output format should be h264. Browsers don't support all h264 profiles so it may not always work. Here is an example of format that works: -pix_fmt yuv420p -c:v libx264 -bsf:v h264_mp4toannexb -b:v 2M -max_delay 0 -bf 0 -f h264.\n \n \nInput SessionDescription from ffmpeg-to-webrtc into your browser\n \nWhen you see SDP in base64 format printed it means that SDP is already in copy buffer. So you can go to jsfiddle page and paste that into second text area\n \nHit 'Start Session' in jsfiddle\n \nA video should start playing in your browser below the input boxes.\n \nExamples (windows)\n \nShare camera stream\n \ngo run . -rtbufsize 100M -f dshow -i video=\"PUT_DEVICE_NAME\" -pix_fmt yuv420p -c:v libx264 -bsf:v h264_mp4toannexb -b:v 2M -max_delay 0 -bf 0 -f h264 - < SDP. There is a delay of several seconds. Should be possible to fix it with better ffmpeg configuration.\n \nTo check list of devices: ffmpeg -list_devices true -f dshow -i dummy.\n It is possible also to set a resolution and a format, for example -pixel_format yuyv422 -s 640x480. Possible formats: ffmpeg -list_options true -f dshow -i video=PUT_DEVICE_NAME.\n \nShare screen or window\n \nSee .bat files in src folder",
-          "link": "https://github.com/ashellunts/ffmpeg-to-webrtc",
-          "publishedOn": "2021-09-26T00:54:37.547Z",
-          "wordCount": 705,
-          "title": "ashellunts/ffmpeg-to-webrtc"
-        },
-        {
-          "id": "https://github.com/protocolbuffers/protobuf",
-          "author": null,
-          "description": "Protocol Buffers - Google's data interchange format\n\nProtocol Buffers - Google's data interchange format\n \nCopyright 2008 Google Inc.\n \nhttps://developers.google.com/protocol-buffers/\n \nOverview\n \nProtocol Buffers (a.k.a., protobuf) are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data. You can find protobuf's documentation on the Google Developers site.\n \nThis README file contains protobuf installation instructions. To install protobuf, you need to install the protocol compiler (used to compile .proto files) and the protobuf runtime for your chosen programming language.\n \nProtocol Compiler Installation\n \nThe protocol compiler is written in C++. If you are using C++, please follow the C++ Installation Instructions to install protoc along with…",
-          "link": "https://github.com/protocolbuffers/protobuf",
-          "publishedOn": "2021-09-26T00:54:37.517Z",
-          "wordCount": 1369,
-          "title": "protocolbuffers/protobuf"
-        },
-        {
-          "id": "https://github.com/waydroid/waydroid",
-          "author": null,
-          "description": "Waydroid\n \nWaydroid is a container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu.\n \nOverview\n \nWaydroid uses Linux namespaces (user, pid, uts, net, mount, ipc) to run a full Android system in a container and provide Android applications on any GNU/Linux-based platform.\n \nThe Android inside the container has direct access to needed hardwares.\n \nThe Android runtime environment ships with a minimal customized Android system image based on the LineageOS. The used image is currently based on Android 10\n \nDocumentation\n \nOur documentation site can be found at docs.waydro.id\n \nReporting bugs\n \nIf you have found an issue with Waydroid, please file a bug.\n \nGet in Touch\n \nIf you want to get in contact with the developers please feel free to join the WayDroid groups in Matrix or Telegram.",
-          "link": "https://github.com/waydroid/waydroid",
-          "publishedOn": "2021-09-26T00:54:37.464Z",
-          "wordCount": 548,
-          "title": "waydroid/waydroid"
-        },
-        {
-          "id": "https://github.com/TryGhost/Ghost",
-          "author": null,
-          "description": "Turn your audience into a business. Publishing, memberships, subscriptions and newsletters.\n\n    \n \n Ghost.org | Features | Showcase | Forum | Docs | Contributing | Twitter \n             \n \nLove open source? We're hiring Node.js Engineers to work on Ghost full-time\n \n \n \n\n \n\n \nThe easiest way to get a production instance deployed is with our official Ghost(Pro) managed service. It takes about 2 minutes to launch a new site with worldwide CDN, backups, security and maintenance all done for you.\n \nFor most people this ends up being the best value option cause of how much time it saves — and 100% of revenue goes to the Ghost Foundation; funding the maintenance and further development of the project itself. So you’ll be supporting open source software and getting a great service!\n \nIf you pref…",
-          "link": "https://github.com/TryGhost/Ghost",
-          "publishedOn": "2021-09-26T00:54:37.429Z",
-          "wordCount": 1092,
-          "title": "TryGhost/Ghost"
-        },
-        {
-          "id": "https://github.com/babysor/MockingBird",
-          "author": null,
-          "description": "🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time\n\n\n \n\n \n \n \nEnglish | 中文\n \n \nFeatures\n \n🌍 Chinese supported mandarin and tested with multiple datasets: aidatatang_200zh, magicdata, aishell3, and etc.\n \n🤩 PyTorch worked for pytorch, tested in version of 1.9.0(latest in August 2021), with GPU Tesla T4 and GTX 2060\n \n🌍 Windows + Linux run in both Windows OS and linux OS (even in M1 MACOS)\n \n🤩 Easy & Awesome effect with only newly-trained synthesizer, by reusing the pretrained encoder/vocoder\n \n🌍 Webserver Ready to serve your result with remote calling\n \nDEMO VIDEO\n \nQuick Start\n \n1. Install Requirements\n \n \n \nFollow the original repo to test if you got all environment ready. **Python 3.7 or higher ** is needed to run the toolbox.\n \n \n \n \nIns…",
-          "link": "https://github.com/babysor/MockingBird",
-          "publishedOn": "2021-09-26T00:54:37.379Z",
-          "wordCount": 1644,
-          "title": "babysor/MockingBird"
-        },
-        {
-          "id": "https://github.com/ultralytics/yolov5",
-          "author": null,
-          "description": "YOLOv5 🚀 in PyTorch > ONNX > CoreML > TFLite\n\n \n \n   \n \n \n \n \n \n   \n   \n  \n \n   \n   \n   \n \n \n \n \n \n \n     \n   \n     \n   \n     \n   \n     \n   \n     \n   \n     \n \n \n \n \n \n YOLOv5 🚀 is a family of object detection architectures and models pretrained on the COCO dataset, and represents Ultralytics open-source research into future vision AI methods, incorporating lessons learned and best practices evolved over thousands of hours of research and development. \n \n \n\n--> \n \n\n \n \nSee the YOLOv5 Docs for full documentation on training, testing and deployment.\n \n\n \n \n \n Install \n \nPython>=3.6.0 is required with all requirements.txt installed including PyTorch>=1.7:\n \n  \n \n$ git clone https://github.com/ultralytics/yolov5\n$ cd yolov5\n$ pip install -r requirements.txt\n\n \n \n \n Inference \n \nInference with…",
-          "link": "https://github.com/ultralytics/yolov5",
-          "publishedOn": "2021-09-26T00:54:37.314Z",
-          "wordCount": 1252,
-          "title": "ultralytics/yolov5"
-        },
-        {
-          "id": "https://github.com/microsoft/unilm",
-          "author": null,
-          "description": "UniLM AI - Large-scale Self-supervised Pre-training across Tasks, Languages, and Modalities\n\nUniLM AI\n \n \nPre-trained (foundation) models across tasks (understanding, generation and translation), languages (100+ languages), and modalities (language, image, audio, vision + language, audio + language, etc.)\n \nThe family of UniLM AI:\n \n \n \nUniLM (v1@NeurIPS'19 | v2@ICML'20 | v3@ACL'21): unified pre-training for language understanding and generation\n \n \n \n \nInfoXLM (v1@NAACL'21 | v2@ACL'21): multilingual/cross-lingual pre-trained models for 100+ languages\n \n \n \n \nDeltaLM (NEW): encoder-decoder pre-training for language generation and translation for 100+ languages\n \n \n \n \nMiniLM (v1@NeurIPS'20 | v2@ACL'21): small and fast pre-trained models for language understanding and generation\n \n \n \n \nAda…",
-          "link": "https://github.com/microsoft/unilm",
-          "publishedOn": "2021-09-26T00:54:37.270Z",
-          "wordCount": 1751,
-          "title": "microsoft/unilm"
-        },
-        {
-          "id": "https://github.com/phoenixframework/phoenix_live_view",
-          "author": null,
-          "description": "Rich, real-time user experiences with server-rendered HTML\n\nPhoenix LiveView\n \n\n \nPhoenix LiveView enables rich, real-time user experiences with server-rendered HTML.\n \nAfter you install Elixir in your machine, you can create your first LiveView app in two steps:\n \n$ mix archive.install hex phx_new\n$ mix phx.new demo --live\n\n \nFeatures\n \n \n \n Use a declarative model to render HTML on the server over WebSockets with optional LongPolling fallback\n  \n \n Smart templating and change tracking - after connected, LiveView sends only what changed to the client, skipping the template markup and reducing the payload\n  \n \n Live form validation with file upload support\n  \n \n A rich integration API with the client with phx-click, phx-focus, phx-blur, phx-submit, etc. phx-hook is included for the cases w…",
-          "link": "https://github.com/phoenixframework/phoenix_live_view",
-          "publishedOn": "2021-09-26T00:54:37.225Z",
-          "wordCount": 1345,
-          "title": "phoenixframework/phoenix_live_view"
         }
       ]
     }
