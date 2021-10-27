@@ -2,10 +2,626 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-26T00:52:10.413Z</updated>
+    <updated>2021-10-27T00:51:51.063Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[shengcaishizhan/kkndme_tianya]]></title>
+        <id>https://github.com/shengcaishizhan/kkndme_tianya</id>
+        <link href="https://github.com/shengcaishizhan/kkndme_tianya"/>
+        <updated>2021-10-27T00:51:51.014Z</updated>
+        <summary type="html"><![CDATA[天涯 kkndme 神贴聊房价
+
+kkndme_tianya（持续更新中...）
+ 
+ 
+ 
+天涯神贴「2010年的房地产调控，我们收获了什么？写在房价暴涨前」脱水版，内容时间顺序和原贴一致，原贴中的优质非楼主写的内容，添加了引用格式便于区分。
+ 
+ 
+除标题外，所有内容均来自原贴，标题是我简单加的，目的是为了做目录，便于查看。
+ 
+ 
+帖子里的内容还没有整理完，待全部整理完：
+ 
+ 
+ 
+  
+对 kkndme 的观点有了完整的认识后，我会在公众号沈正方上写写我对这个帖子内容的思考
+ 
+  
+其次，我会把本仓库的内容做成PDF，通过公众号沈正方发出去，欢迎关注一起讨论！
+ 
+ 
+ 
+ 
+微信交流群：
+ 
+ 
+ 
+  
+鉴于很多人关注公众号后，咨询有没有微信讨论群可以加，之前没有，现在有了
+ 
+  
+加微信（微信搜索shenshuyolo或 扫下方二维码），免费拉你进 kkndme 交流群 
+ 
+ 
+ 
+ 
+ 
+ 
+调控降房价是刚需的一厢情愿 
+  
+ 
+   
+1、人人都有居住权。房子是用来住的，不是用来炒的。
+ 
+   
+2、房子太贵了，租售比严重不合理，空置率太高，人均收入太低，早晚要崩盘。
+ 
+   
+3、房价上涨造成物价上涨，人民生活变得困难
+ 
+  
+  
+ 
+调控的真正目的：防范金融风险 & 通过垄断实现gj利益最大化
+ 
+ 
+官方公布的统计数据，只要关系到某个群体的利益，就一定会被修饰导致失真
+ 
+ 
+税收从来都是向下游转嫁的 & 房产税迟迟不出台的真正原因
+ 
+ 
+房地产的现状
+ 
+ 
+房价持续上涨的本质是稀缺性让好房子成为资金最好的去处
+ 
+ 
+关于垄断 
+  
+ 
+   
+1、垄断的好处是没有风险
+ 
+   
+2、垄断可以解决社会稳定
+ 
+   
+3、房屋垄断只会愈演愈烈，底层人民想要拥有一套房子的难度只会越来越难
+ 
+  
+  
+ 
+民生问题
+ 
+ …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[darkrenaissance/darkfi]]></title>
+        <id>https://github.com/darkrenaissance/darkfi</id>
+        <link href="https://github.com/darkrenaissance/darkfi"/>
+        <updated>2021-10-27T00:51:50.751Z</updated>
+        <summary type="html"><![CDATA[Anonymous. Uncensored. Sovereign.
+
+DarkFi
+ 
+  
+ 
+Build
+ 
+To build the necessary binaries, we can just clone the repo, and use the provided Makefile to build the project. This will download the trusted setup params, and compile the source code.
+ 
+$ git clone https://github.com/darkrenaissance/darkfi
+$ make
+
+ 
+Install
+ 
+This will install the binaries and configurations in the configured namespace (/usr/local by default). The configurations are installed as TOML files in /usr/local/share/doc/darkfi. They have to be copied in your user's $HOME/.config/darkfi directory. You can review the installed config files, but the defaults should be good for using the testnet if you're following this document.
+ 
+$ sudo make install
+$ mkdir -p ~/.config/darkfi
+$ cp -f /usr/local/share/doc/darkfi/*.toml ~/.…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EbookFoundation/free-programming-books]]></title>
+        <id>https://github.com/EbookFoundation/free-programming-books</id>
+        <link href="https://github.com/EbookFoundation/free-programming-books"/>
+        <updated>2021-10-27T00:51:50.695Z</updated>
+        <summary type="html"><![CDATA[📚 Freely available programming books
+
+This page is available as an easy-to-read website at https://ebookfoundation.github.io/.
+ 
+List of Free Learning Resources In Many Languages 
+ 
+Intro
+ 
+This list was originally a clone of StackOverflow - List of Freely Available Programming Books with contributions from Karan Bhangui and George Stocker.
+ 
+The list was moved to GitHub by Victor Felder for collaborative updating and maintenance. It has grown to become one of GitHub's most popular repositories, with 200,000+ stars, 6100+ commits, 1600+ contributors, and 43,000+ forks.
+ 
+The Free Ebook Foundation now administers the repo, a not-for-profit organization devoted to promoting the creation, distribution, archiving, and sustainability of free ebooks. Donations to the Free Ebook Foundation are t…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[docker/docker-bench-security]]></title>
+        <id>https://github.com/docker/docker-bench-security</id>
+        <link href="https://github.com/docker/docker-bench-security"/>
+        <updated>2021-10-27T00:51:50.600Z</updated>
+        <summary type="html"><![CDATA[The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production.
+
+Docker Bench for Security
+ 
+
+ 
+The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production. The tests are all automated, and are based on the CIS Docker Benchmark v1.3.1.
+ 
+We are making this available as an open-source utility so the Docker community can have an easy way to self-assess their hosts and docker containers against this benchmark.
+ 
+Running Docker Bench for Security
+ 
+Run from your base host
+ 
+You can simply run this script from your base host by running:
+ 
+git clone https://github.com/docker/docker-bench-security.git
+cd docker-bench-security
+sudo sh docker-ben…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChrisTitusTech/ArchTitus]]></title>
+        <id>https://github.com/ChrisTitusTech/ArchTitus</id>
+        <link href="https://github.com/ChrisTitusTech/ArchTitus"/>
+        <updated>2021-10-27T00:51:50.547Z</updated>
+        <summary type="html"><![CDATA[Automated Arch Linux Install
+
+ArchTitus Installer Script
+ 
+ 
+This README contains the steps I do to install and configure a fully-functional Arch Linux installation containing a desktop environment, all the support packages (network, bluetooth, audio, printers, etc.), along with all my preferred applications and utilities. The shell scripts in this repo allow the entire process to be automated.)
+ 
+ 
+Create Arch ISO or Use Image
+ 
+Download ArchISO from https://archlinux.org/download/ and put on a USB drive with Ventoy or Etcher
+ 
+If you don't want to build using this script I did create an image @ https://www.christitus.com/arch-titus
+ 
+Boot Arch ISO
+ 
+From initial Prompt type the following commands:
+ 
+pacman -Sy git
+git clone https://github.com/ChrisTitusTech/ArchTitus
+cd ArchTitus
+./archtitus.sh
+
+ 
+System Description
+ 
+This is completely automated arch install of the KDE desktop environment on arch using all the packages I use on a daily basis.
+ 
+Troubleshooting
+ 
+Arch Linux Installation Guide
+ 
+No Wifi
+ 
+sudo wifi-menu
+
+ 
+Credits
+ 
+ 
+ 
+Original packages script was a post install cleanup script called ArchMatic located here: https://github.com/rickellis/ArchMatic
+ 
+ 
+Thank you to all the folks that helped during the creation from YouTube Chat! Here are all those Livestreams showing the creation: https://www.youtube.com/watch?v=IkMCtkDIhe8&list=PLc7fktTRMBowNaBTsDHlL6X3P3ViX3tYg]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[D3VL/L3MON]]></title>
+        <id>https://github.com/D3VL/L3MON</id>
+        <link href="https://github.com/D3VL/L3MON"/>
+        <updated>2021-10-27T00:51:50.500Z</updated>
+        <summary type="html"><![CDATA[L3MON - Remote Android Managment Suite
+
+ 
+ A cloud based remote android managment suite, powered by NodeJS 
+ 
+Features
+ 
+ 
+ 
+GPS Logging
+ 
+ 
+Microphone Recording
+ 
+ 
+View Contacts
+ 
+ 
+SMS Logs
+ 
+ 
+Send SMS
+ 
+ 
+Call Logs
+ 
+ 
+View Installed Apps
+ 
+ 
+View Stub Permissions
+ 
+ 
+Live Clipboard Logging
+ 
+ 
+Live Notification Logging
+ 
+ 
+View WiFi Networks (logs previously seen)
+ 
+ 
+File Explorer & Downloader
+ 
+ 
+Command Queuing
+ 
+ 
+Built In APK Builder
+ 
+ 
+Prerequisites
+ 
+ 
+ 
+Java Runtime Environment 8 
+  
+ 
+   
+See installation for OS specifics
+ 
+  
+  
+ 
+NodeJs
+ 
+ 
+A Server
+ 
+ 
+Installation
+ 
+ 
+ 
+ Install JRE 8 (We cannot stress this enough USE java 1.8.0 ANY issues that dont use this will be closed WITHOUT a response)
+ 
+  
+ 
+   
+Debian, Ubuntu, Etc 
+    
+ 
+     
+sudo apt-get install openjdk-8-jr…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iluwatar/java-design-patterns]]></title>
+        <id>https://github.com/iluwatar/java-design-patterns</id>
+        <link href="https://github.com/iluwatar/java-design-patterns"/>
+        <updated>2021-10-27T00:51:50.469Z</updated>
+        <summary type="html"><![CDATA[Design patterns implemented in Java
+
+Design patterns implemented in Java
+ 
+    
+ 
+ 
+
+ 
+ 
+ 
+Read in different language : zh, ko, fr, tr, ar, es, pt, id, ru, de, ja
+ 
+ 
+Introduction
+ 
+Design patterns are the best formalized practices a programmer can use to solve common problems when designing an application or system.
+ 
+Design patterns can speed up the development process by providing tested, proven development paradigms.
+ 
+Reusing design patterns help prevent subtle issues that cause major problems, and it also improves code readability for coders and architects who are familiar with the patterns.
+ 
+Getting started
+ 
+This site showcases Java Design Patterns. The solutions have been developed by experienced programmers and architects from the open source community. The patterns can be brows…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[dortania/OpenCore-Legacy-Patcher]]></title>
+        <id>https://github.com/dortania/OpenCore-Legacy-Patcher</id>
+        <link href="https://github.com/dortania/OpenCore-Legacy-Patcher"/>
+        <updated>2021-10-27T00:51:50.317Z</updated>
+        <summary type="html"><![CDATA[Experience macOS just like before
+
+ 
+  
+ 
+OpenCore Legacy Patcher
+ 
+ 
+A python program with an Objective-C GUI for building and booting OpenCore on both legacy and modern Macs, see our in-depth Guide for more information.
+ 
+Supported features:
+ 
+ 
+ 
+System Integrity Protection, FileVault 2, .im4m Secure Boot and Vaulting
+ 
+ 
+WPA Wifi and Personal Hotspot support
+ 
+ 
+Native OTA OS DELTA updates on all Macs
+ 
+ 
+Recovery OS, Safe Mode and Single-user Mode booting
+ 
+ 
+Zero firmware patching required (ie. APFS ROM patching)
+ 
+ 
+GPU Switching on MacBook Pro models (2012 and newer)
+ 
+ 
+Note: Only clean-installs and upgrades are supported, macOS Big Sur installs already patched with other patchers, such as Patched Sur or bigmac, cannot be used due to broken file integrity with APFS snapshots and S…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[czj2369/jd_tb_auto]]></title>
+        <id>https://github.com/czj2369/jd_tb_auto</id>
+        <link href="https://github.com/czj2369/jd_tb_auto"/>
+        <updated>2021-10-27T00:51:50.257Z</updated>
+        <summary type="html"><![CDATA[基于AutoJs编写的618||双十一||淘宝||京东||赚喵币||赚汪汪币任务自动完成脚本
+
+618||双十一||淘宝||京东||赚喵糖||赚汪汪币任务自动完成脚本
+ 
+基于AutoJs编写的618||双十一||淘宝||京东||赚喵糖||赚汪汪币任务自动完成脚本
+ 
+重要说明
+ 
+ 
+ 
+ JD部分较少任务无法判断是等待还是即刻返回，故有些任务需要等待30S自动返回，后续看能不能解决
+  
+ 
+ JD的活动界面没办法获得它控件属性那些，这次版本使用的是坐标点击的，可能会有一些问题
+  
+ 
+ JDTB如果没办法自动进入做任务界面，请手动进入
+  
+ 
+ JD有个别活动是跳过的，比如需要开会员的，比如分享的，还有下单的
+  
+ 
+ JD目前有个任务没时间去做，参与城城领钱的，建议手动完成
+  
+ 
+ TB要先做好新手教程
+  
+ 
+ TB个别活动是跳过的，比如施肥，比如喂鸡，具体看代码的这里忽略的任务
+ var IGNORE_LIST = ['农场', '芭芭农场', '下单', '蚂蚁森林', '淘特', '点淘', '充话费', '参与合伙', '喂小鸡', '斗地主', '续卡', '88VIP'];
+
+  
+ 
+更新
+ 
+2021年10月25日
+ 
+1.[21:53:25]【JDTB】添加音量上键停止脚本，优化部分逻辑；添加apk到release中（发现小服务器顶不住下载的数量。。没想到这么多人）
+ 
+ 
+2021年10月24日
+ 
+1.[18:01:49]【TB】添加定时纠错功能；添加完成互动游戏；添加掷骰子功能；优化进入任务界面逻辑
+ 
+2.[21:30:45]【JDTB】提供apk下载地址
+ 
+ 
+2021年10月23日
+ 
+1.[00:39:47]【JD】去除坐标点击法，发现没办法通用，改了逻辑，互动种草城还有领红包可能需要自己手动，剩下BUG再改了。。测试…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[htr-tech/zphisher]]></title>
+        <id>https://github.com/htr-tech/zphisher</id>
+        <link href="https://github.com/htr-tech/zphisher"/>
+        <updated>2021-10-27T00:51:50.216Z</updated>
+        <summary type="html"><![CDATA[An automated phishing tool with 30+ templates. This Tool is made for educational purpose only ! Author will not be responsible for any misuse of this toolkit !
+
+  
+ 
+      
+ 
+    
+ 
+A beginners friendly, Automated phishing tool with 30+ templates.
+ 
+
+ 
+
+Disclaimer
+ 
+Any actions and or activities related to Zphisher is solely your responsibility. The misuse of this toolkit can result in criminal charges brought against the persons in question. The contributors will not be held responsible in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
+ This toolkit contains materials that can be potentially damaging or dangerous for social media. Refer to the laws in your province/country before accessing, using,or in any other way utilizing this…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ADeltaX/WSAGAScript]]></title>
+        <id>https://github.com/ADeltaX/WSAGAScript</id>
+        <link href="https://github.com/ADeltaX/WSAGAScript"/>
+        <updated>2021-10-27T00:51:50.108Z</updated>
+        <summary type="html"><![CDATA[Scripts to install Google Apps into a WSA image. Plus optional ADB root
+
+IT'S WIP
+ 
+This readme is being updated frequently. As I am aware that it might not be completely clear right now, I am going to resolve it ASAP
+ 
+As a temporary measure, I have also made a tutorial and hosted that video on YouTube
+ 
+ 
+
+ 
+
+ 
+THIS IS FOR TESTING
+ 
+Download msixbundle (~1.2GB)
+ 
+Use this link to download the msixbundle with the settings ProductId: 9P3395VX91NR, Ring: SLOW
+ 
+Install WSL2
+ 
+Ubuntu is used in this guide, but any other distro will work for this just fine.
+ 
+(We are assuming that you are using the exact terminal, and you are also continuing this from where the last command has been left off)
+ 
+Install unzip lzip
+ 
+For Ubuntu
+ 
+sudo apt-get update
+sudo apt-get install unzip lzip
+
+ 
+Download g…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[github/copilot-docs]]></title>
+        <id>https://github.com/github/copilot-docs</id>
+        <link href="https://github.com/github/copilot-docs"/>
+        <updated>2021-10-27T00:51:50.039Z</updated>
+        <summary type="html"><![CDATA[Documentation for GitHub Copilot
+
+ 
+NOTE: GitHub Copilot discussions have moved to the Copilot Feedback forum.
+ 
+ 
+GitHub Copilot 
+ 
+ 
+Welcome to the GitHub Copilot user community! In this repository, you can find documentation, walkthroughs, examples, and the latest resources you need to use GitHub Copilot.
+ 
+Getting Started
+ 
+For a tour of GitHub Copilot, visit the homepage at copilot.github.com.
+ 
+If this is your first time using GitHub Copilot, check out the Getting Started guides:
+ 
+ 
+ 
+Visual Studio Code
+ 
+ 
+JetBrains
+ 
+ 
+How to get help
+ 
+Have a question, or want to provide feedback? Visit the Feedback forum to ask questions, share bugs or feedback, or chat with other users in the Preview. The GitHub Copilot team will respond as often as possible, but we also welcome you to share your experiences and help others in the community.
+ 
+Safety
+ 
+We take safety seriously and are constantly working to improve GitHub Copilot. If you discover dangerous, biased, or offensive output from GitHub Copilot, please report it privately to copilot-safety@github.com.
+ 
+Useful links
+ 
+ 
+ 
+GitHub Copilot homepage
+ 
+ 
+Getting started guide
+ 
+ 
+Gallery
+ 
+ 
+Documentation
+ 
+ 
+Feedback forum
+ 
+ 
+Code of conduct
+ 
+All users of GitHub Copilot are expected to comply with our Code of Conduct. By participating in this repository, you are also agreeing to the same Terms of Service that you agree to when using GitHub.com.
+ 
+License
+ 
+Content in this repository is released under CC-BY-4.0. When using the GitHub logos, be sure to follow the GitHub logo guidelines.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome to Pluto, the place to start with open source development]]></title>
+        <id>https://www.cncf.io/?p=65342</id>
+        <link href="https://www.cncf.io/blog/2021/10/26/welcome-to-pluto-the-place-to-start-with-open-source-development/"/>
+        <updated>2021-10-26T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on Fairwind’s blog by Robert Brennan, Fairwinds Hello from Pluto, the little planet with big open source value. Once considered a full-size sphere in the cosmos, Pluto was...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing Vitess 12]]></title>
+        <id>https://www.cncf.io/?p=65338</id>
+        <link href="https://www.cncf.io/blog/2021/10/26/announcing-vitess-12/"/>
+        <updated>2021-10-26T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Project post originally published on the Vitess Blog by Alkin Tezuysal, Sr. Technical Manager at PlanetScale On behalf of the Vitess maintainers, I am pleased to announce the general availability of Vitess...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[faisalman/ua-parser-js]]></title>
         <id>https://github.com/faisalman/ua-parser-js</id>
@@ -17017,623 +17633,6 @@ For theory lectures: Follow along, take…]]></summary>
         <summary type="html"><![CDATA[Guest post originally published on SUSE’s blog by Robert Sirchia These days, open source has become pervasive across every aspect of our lives. From your refrigerator to your TV to your phone,...]]></summary>
         <author>
             <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[trimstray/the-book-of-secret-knowledge]]></title>
-        <id>https://github.com/trimstray/the-book-of-secret-knowledge</id>
-        <link href="https://github.com/trimstray/the-book-of-secret-knowledge"/>
-        <updated>2021-09-27T00:52:29.755Z</updated>
-        <summary type="html"><![CDATA[A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
-
-    
- 
-"Knowledge is powerful, be careful how you use it!"
- 
-A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools, and more.
- 
- 
-       
- 
-    
- 
- 
- Created by trimstray and contributors 
- 
- 
- 
-📔  What is it?
- 
-This repository is a collection of various materials and tools that I use every day in my work. It contains a lot of useful information gathered in one piece. It is an invaluable source of knowledge for me that I often look back on.
- 
-🚻  For whom?
- 
-For everyone, really. Here everyone can find their favourite tastes. But to be perfectly honest, it is aimed towards System and Network administrators, DevOps, Pentesters, and Security Rese…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[nocodb/nocodb]]></title>
-        <id>https://github.com/nocodb/nocodb</id>
-        <link href="https://github.com/nocodb/nocodb"/>
-        <updated>2021-09-27T00:52:29.485Z</updated>
-        <summary type="html"><![CDATA[🔥 🔥 The Open Source Airtable alternative - Powered by Vue.js 🚀 🚀
-
-  NocoDB 
-  ✨ The Open Source Airtable Alternative ✨ 
-  
- Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet. 
- 
- 
- 
-  
- 
- 
- Website • Discord • Twitter 
- 
-
- 
- 
-
- 
-Quick try
- 
-1-Click Deploy
- 
-Heroku
- 
-   
- 
-Using Docker
- 
-docker run -d --name nocodb -p 8080:8080 nocodb/nocodb:latest
-
- 
- 
- 
-To persist data you can mount volume at /usr/app/data/.
- 
- 
-Using Npm
- 
-npx create-nocodb-app
-
- 
-Using Git
- 
-git clone https://github.com/nocodb/nocodb-seed
-cd nocodb-seed
-npm install
-npm start
-
- 
-GUI
- 
-Access Dashboard using : http://localhost:8080/dashboard
- 
-Join Our Community
- 
-   
- 
-Screenshots
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
-Features
- 
-Rich Spreadsheet Interface
- 
- 
- 
-⚡  Search, sort,…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[getify/You-Dont-Know-JS]]></title>
-        <id>https://github.com/getify/You-Dont-Know-JS</id>
-        <link href="https://github.com/getify/You-Dont-Know-JS"/>
-        <updated>2021-09-27T00:52:29.429Z</updated>
-        <summary type="html"><![CDATA[A book series on JavaScript. @YDKJS on twitter.
-
-You Don't Know JS Yet (book series) - 2nd Edition
- 
- 
- 
-
- 
-LOOK! Please support the Kickstarter to finish the remaining four books in the 2nd edition series.
- 
-
- 
- 
- 
-This is a series of books diving deep into the core mechanisms of the JavaScript language. This is the second edition of the book series:
- 
-     ...
- 
-To read more about the motivations and perspective behind this book series, check out the Preface.
- 
-If you're looking for the previous first edition books, they can be found here.
- 
-Premier Sponsor
- 
-This edition of the YDKJS book series is exclusively sponsored by Frontend Masters.
- 
-Frontend Masters is the gold standard for top-of-the-line expert training material in frontend-oriented software development. With over 150 course…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[apache/echarts]]></title>
-        <id>https://github.com/apache/echarts</id>
-        <link href="https://github.com/apache/echarts"/>
-        <updated>2021-09-27T00:52:29.399Z</updated>
-        <summary type="html"><![CDATA[Apache ECharts is a powerful, interactive charting and data visualization library for browser
-
-Apache ECharts
- 
-   
-Apache ECharts is a free, powerful charting and visualization library offering an easy way of adding intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.
- 
-中文官网 | ENGLISH HOMEPAGE
- 
-  
- 
-Get Apache ECharts
- 
-You may choose one of the following methods:
- 
- 
- 
-Download from the official website in 中文下载页
- 
- 
-Download from the official website in English
- 
- 
-npm install echarts --save
- 
- 
-CDN: jsDelivr CDN
- 
- 
-Docs
- 
- 
- 
- Tutorial
- 
-  
- 
-   
-中文
- 
-   
-English
- 
-  
-  
- 
- API
- 
-  
- 
-   
-中文
- 
-   
-English
- 
-  
-  
- 
- Option Manual
- 
-  
- 
-   
-中文
- 
-   
-En…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[alex000kim/nsfw_data_scraper]]></title>
-        <id>https://github.com/alex000kim/nsfw_data_scraper</id>
-        <link href="https://github.com/alex000kim/nsfw_data_scraper"/>
-        <updated>2021-09-27T00:52:29.344Z</updated>
-        <summary type="html"><![CDATA[Collection of scripts to aggregate image data for the purposes of training an NSFW Image Classifier
-
-NSFW Data Scraper
- 
-Note: use with caution - the dataset is noisy
- 
-Description
- 
-This is a set of scripts that allows for an automatic collection of tens of thousands of images for the following (loosely defined) categories to be later used for training an image classifier:
- 
- 
- 
-porn - pornography images
- 
- 
-hentai - hentai images, but also includes pornographic drawings
- 
- 
-sexy - sexually explicit images, but not pornography. Think nude photos, playboy, bikini, etc.
- 
- 
-neutral - safe for work neutral images of everyday things and people
- 
- 
-drawings - safe for work drawings (including anime)
- 
- 
-Here is what each script (located under scripts directory) does:
- 
- 
- 
-1_get_urls_.sh - ite…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sdmg15/Best-websites-a-programmer-should-visit]]></title>
-        <id>https://github.com/sdmg15/Best-websites-a-programmer-should-visit</id>
-        <link href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit"/>
-        <updated>2021-09-27T00:52:29.301Z</updated>
-        <summary type="html"><![CDATA[🔗 Some useful websites for programmers.
-
-   
-  
-
- 
-Best-websites-a-programmer-should-visit
- 
-Some useful websites for programmers.
- 
-When learning CS, there are some useful sites you must know to get always informed to do your technologies even better and learn new things. Here is a non-exhaustive list of some sites you should visit. This list will get updated as soon as I can get another link, but you can also contribute by adding those you know 😉
- 
-Note : Chinese Version
- 
-Index
- 
- 
- 
-When you get stuck
- 
- 
-News
- 
- 
-Magazines
- 
- 
-Coding practice for beginners
- 
- 
-Cryptocurrency
- 
- 
-For those who want to start a small project but can't find the ideas
- 
- 
-General Coding advice
- 
- 
-Coding Style
- 
- 
-General Tools
- 
- 
-Interview Preparation
- 
- 
-Documentaries
- 
- 
-MOOCs for learning something …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[gmpetrov/ultimate-saas-ts]]></title>
-        <id>https://github.com/gmpetrov/ultimate-saas-ts</id>
-        <link href="https://github.com/gmpetrov/ultimate-saas-ts"/>
-        <updated>2021-09-27T00:52:29.211Z</updated>
-        <summary type="html"><![CDATA[Template to quickstart a SAAS business
-
-🚀⚡️🧑‍💻 Ultimate SAAS template Typescript/Next.js/NextAuth.js/Prisma/Stripe/Tailwindcss/Postgresql
- 
-My template to quickstart a SAAS project
- 
- 
- 
-Stop losing time implementing authentication and payment over and over again.
- Focus on what brings value to your customers
- 
- 
-Demo
- 
-https://utlimate-saas-js.vercel.app
- 
-Features
- 
- 
- 
-Authentication with NextAuth.js (Own Your Data ✅) 
-  
- 
-   
-Email with magic link
- 
-   
-Github
- 
-   
-Many other oauth providers available check their docs
- 
-  
-  
- 
-Payment with Stripe 
-  
- 
-   
-Stripe checkout
- 
-   
-Stripe billing portal
- 
-   
-Stripe webhooks (products / prices are synced)
- 
-  
-  
- 
-Hosted on vercel for free
- 
- 
-Stripe
- 
-Check the stripe section of this repo as the steps are very similar
- 
-Postgresql
- 
-A postgresql db is needed to deploy the app.
- You can have a very small instance for free on heroku
- 
- 
-Made with
- 
- 
- 
-Typescript
- 
- 
-Next.js
- 
- 
-NextAuth.js
- 
- 
-Prisma
- 
- 
-Postgresql
- 
- 
-Stripe
- 
- 
-Tailwindcss
- 
- 
-Develop
- 
-# create .env 
-cp .env.example .env
-
-# install dependencies
-yarn
-
-# Launch pgsql and maildev
-yarn docker:start
-
-# migrate and seed the database
-yarn prisma:migrate:dev
-
-yarn prisma:seed
-
-# install stripe cli 
-https://stripe.com/docs/webhooks/test
-
-stripe login
-
-stripe listen --forward-to  http://localhost:3000/api/stripe-webhooks
-
-# start server
-yarn dev
-
-
- 
-Inspirations
- 
- 
- 
-https://github.com/vercel/nextjs-subscription-payments
- 
- 
-https://github.com/hexrcs/prisma-next-auth]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[unknwon/the-way-to-go_ZH_CN]]></title>
-        <id>https://github.com/unknwon/the-way-to-go_ZH_CN</id>
-        <link href="https://github.com/unknwon/the-way-to-go_ZH_CN"/>
-        <updated>2021-09-27T00:52:29.186Z</updated>
-        <summary type="html"><![CDATA[《The Way to Go》中文译本，中文正式名《Go 入门指南》
-
-《Go入门指南》
- 
-在接触 Go 语言之后，对这门编程语言非常着迷，期间也陆陆续续开始一些帮助国内编程爱好者了解和发展 Go 语言的工作，比如开始录制视频教程《Go编程基础》。但由于目前国内并没有比较好的 Go 语言书籍，而国外的优秀书籍因为英文的缘故在一定程度上也为不少 Go 语言爱好者带来了一些学习上的困扰，不仅为了加快扩散 Go 爱好者的国内群体，本人在完成阅读这本名叫 《The Way to Go》 之后，决定每天抽出一点时间来进行翻译的工作，并且以开源的形式免费分享给有需要的 Go 语言爱好者。
- 
-尽管该书对目前 Go 语言版本来说有小部分内容相对过时，但是为当下不可多得的好书，相关内容已获得作者同意根据当前 Go 语言版本进行修改而不作出特别声明。
- 
-该翻译版本已获得原作者（Ivo Balbaert）本人授权，并表示支持开源事业的发展！
- 
-翻译进度
- 
-19.10 总结和增强
- 
-支持本书
- 
-如果你喜欢本书 《Go入门指南》，你可以参与到本书的翻译或纠正工作中来，具体请联系【无闻 E-mail：u#gogs.io】，一同完善本书并帮助壮大 Go 语言在国内的学习群体，给大家提供更好的学习资源。
- 
-交流社区
- 
-参见 Go 语言学习资料与社区索引。
- 
-关注 Go 语言中文网公众号学习 Go
- 
-
- 
-新人守则
- 
- 
- 
-2012 年 3 月 28 日以前的博文中的内容基本过时，不要再看
- 
- 
-符合等式 百度+思考+失败+翻墙+谷歌+尝试=解决 的问题最好不要发问
- 
- 
-致谢
- 
- 
- 
-本书原作者：Ivo Balbaert
- 
- 
-参与翻译人员： 
-  
- 
-   
-@zhanming
- 
-   
-themorecolor
- 
-   
-@everyx
- 
-   
-@chidouhu
- 
-   
-@spawnris
- 
-   
-@domainname
- 
-   
-@leisore
- 
-   
-@dake
- 
-   
-@glight2000
- 
-   
-@songleo
- 
-   
-@marjune163
- 
-  
-  
- 
-授权许可
- 
-除特别声明外，本书中的内容使用 CC BY-SA 3.0 License（创作共用 署名-相同方式共享3.0 许可协议）授权，代码遵循 BSD 3-Clause License（3 项条款的 BSD 许可协议）。
- 
-开始阅读
- 
- 
- 
-您可以选择以下方式阅读本书： 
-  
- 
-   
-GitHub在线
- 
-  
-  
- 
-想读书的人，不会找不到 目录 :)]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[will/slacktyping]]></title>
-        <id>https://github.com/will/slacktyping</id>
-        <link href="https://github.com/will/slacktyping"/>
-        <updated>2021-09-27T00:52:29.142Z</updated>
-        <summary type="html"><![CDATA[i'm typing when you're typing
-
-A very good program that makes it so it says i'm typing when anyone else is typing
- 
-https://twitter.com/leinweber/status/989267343002951680]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.11.2]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2"/>
-        <updated>2021-09-26T18:45:39.000Z</updated>
-        <summary type="html"><![CDATA[Fixed: unicode characters in URL caused download error
-Fixed: project root npm install error
-Added: unit test library
-Chore: Dependency updates
-Thank you: @CaptNo1]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
         </author>
     </entry>
 </feed>

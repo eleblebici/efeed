@@ -13,15 +13,6 @@
           "publishedOn": "2021-10-16T00:01:47.000Z",
           "wordCount": 299,
           "title": "v1.11.3"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2",
-          "author": null,
-          "description": "Fixed: unicode characters in URL caused download error\nFixed: project root npm install error\nAdded: unit test library\nChore: Dependency updates\nThank you: @CaptNo1",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.11.2",
-          "publishedOn": "2021-09-26T18:45:39.000Z",
-          "wordCount": 354,
-          "title": "v1.11.2"
         }
       ]
     },
@@ -30,6 +21,24 @@
       "feedUrl": "https://www.cncf.io/feed/",
       "siteUrl": "https://www.cncf.io",
       "articles": [
+        {
+          "id": "https://www.cncf.io/?p=65342",
+          "author": "Jessie",
+          "description": "Guest post originally published on Fairwind’s blog by Robert Brennan, Fairwinds Hello from Pluto, the little planet with big open source value. Once considered a full-size sphere in the cosmos, Pluto was...",
+          "link": "https://www.cncf.io/blog/2021/10/26/welcome-to-pluto-the-place-to-start-with-open-source-development/",
+          "publishedOn": "2021-10-26T15:00:00.000Z",
+          "wordCount": 1208,
+          "title": "Welcome to Pluto, the place to start with open source development"
+        },
+        {
+          "id": "https://www.cncf.io/?p=65338",
+          "author": "Jessie",
+          "description": "Project post originally published on the Vitess Blog by Alkin Tezuysal, Sr. Technical Manager at PlanetScale On behalf of the Vitess maintainers, I am pleased to announce the general availability of Vitess...",
+          "link": "https://www.cncf.io/blog/2021/10/26/announcing-vitess-12/",
+          "publishedOn": "2021-10-26T15:00:00.000Z",
+          "wordCount": 778,
+          "title": "Announcing Vitess 12"
+        },
         {
           "id": "https://www.cncf.io/?p=65325",
           "author": "Jessie",
@@ -349,6 +358,114 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/shengcaishizhan/kkndme_tianya",
+          "author": null,
+          "description": "天涯 kkndme 神贴聊房价\n\nkkndme_tianya（持续更新中...）\n \n \n \n天涯神贴「2010年的房地产调控，我们收获了什么？写在房价暴涨前」脱水版，内容时间顺序和原贴一致，原贴中的优质非楼主写的内容，添加了引用格式便于区分。\n \n \n除标题外，所有内容均来自原贴，标题是我简单加的，目的是为了做目录，便于查看。\n \n \n帖子里的内容还没有整理完，待全部整理完：\n \n \n \n  \n对 kkndme 的观点有了完整的认识后，我会在公众号沈正方上写写我对这个帖子内容的思考\n \n  \n其次，我会把本仓库的内容做成PDF，通过公众号沈正方发出去，欢迎关注一起讨论！\n \n \n \n \n微信交流群：\n \n \n \n  \n鉴于很多人关注公众号后，咨询有没有微信讨论群可以加，之前没有，现在有了\n \n  \n加微信（微信搜索shenshuyolo或 扫下方二维码），免费拉你进 kkndme 交流群 \n \n \n \n \n \n \n调控降房价是刚需的一厢情愿 \n  \n \n   \n1、人人都有居住权。房子是用来住的，不是用来炒的。\n \n   \n2、房子太贵了，租售比严重不合理，空置率太高，人均收入太低，早晚要崩盘。\n \n   \n3、房价上涨造成物价上涨，人民生活变得困难\n \n  \n  \n \n调控的真正目的：防范金融风险 & 通过垄断实现gj利益最大化\n \n \n官方公布的统计数据，只要关系到某个群体的利益，就一定会被修饰导致失真\n \n \n税收从来都是向下游转嫁的 & 房产税迟迟不出台的真正原因\n \n \n房地产的现状\n \n \n房价持续上涨的本质是稀缺性让好房子成为资金最好的去处\n \n \n关于垄断 \n  \n \n   \n1、垄断的好处是没有风险\n \n   \n2、垄断可以解决社会稳定\n \n   \n3、房屋垄断只会愈演愈烈，底层人民想要拥有一套房子的难度只会越来越难\n \n  \n  \n \n民生问题\n \n …",
+          "link": "https://github.com/shengcaishizhan/kkndme_tianya",
+          "publishedOn": "2021-10-27T00:51:51.014Z",
+          "wordCount": 4512,
+          "title": "shengcaishizhan/kkndme_tianya"
+        },
+        {
+          "id": "https://github.com/darkrenaissance/darkfi",
+          "author": null,
+          "description": "Anonymous. Uncensored. Sovereign.\n\nDarkFi\n \n  \n \nBuild\n \nTo build the necessary binaries, we can just clone the repo, and use the provided Makefile to build the project. This will download the trusted setup params, and compile the source code.\n \n$ git clone https://github.com/darkrenaissance/darkfi\n$ make\n\n \nInstall\n \nThis will install the binaries and configurations in the configured namespace (/usr/local by default). The configurations are installed as TOML files in /usr/local/share/doc/darkfi. They have to be copied in your user's $HOME/.config/darkfi directory. You can review the installed config files, but the defaults should be good for using the testnet if you're following this document.\n \n$ sudo make install\n$ mkdir -p ~/.config/darkfi\n$ cp -f /usr/local/share/doc/darkfi/*.toml ~/.…",
+          "link": "https://github.com/darkrenaissance/darkfi",
+          "publishedOn": "2021-10-27T00:51:50.751Z",
+          "wordCount": 908,
+          "title": "darkrenaissance/darkfi"
+        },
+        {
+          "id": "https://github.com/EbookFoundation/free-programming-books",
+          "author": null,
+          "description": "📚 Freely available programming books\n\nThis page is available as an easy-to-read website at https://ebookfoundation.github.io/.\n \nList of Free Learning Resources In Many Languages \n \nIntro\n \nThis list was originally a clone of StackOverflow - List of Freely Available Programming Books with contributions from Karan Bhangui and George Stocker.\n \nThe list was moved to GitHub by Victor Felder for collaborative updating and maintenance. It has grown to become one of GitHub's most popular repositories, with 200,000+ stars, 6100+ commits, 1600+ contributors, and 43,000+ forks.\n \nThe Free Ebook Foundation now administers the repo, a not-for-profit organization devoted to promoting the creation, distribution, archiving, and sustainability of free ebooks. Donations to the Free Ebook Foundation are t…",
+          "link": "https://github.com/EbookFoundation/free-programming-books",
+          "publishedOn": "2021-10-27T00:51:50.695Z",
+          "wordCount": 1404,
+          "title": "EbookFoundation/free-programming-books"
+        },
+        {
+          "id": "https://github.com/docker/docker-bench-security",
+          "author": null,
+          "description": "The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production.\n\nDocker Bench for Security\n \n\n \nThe Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production. The tests are all automated, and are based on the CIS Docker Benchmark v1.3.1.\n \nWe are making this available as an open-source utility so the Docker community can have an easy way to self-assess their hosts and docker containers against this benchmark.\n \nRunning Docker Bench for Security\n \nRun from your base host\n \nYou can simply run this script from your base host by running:\n \ngit clone https://github.com/docker/docker-bench-security.git\ncd docker-bench-security\nsudo sh docker-ben…",
+          "link": "https://github.com/docker/docker-bench-security",
+          "publishedOn": "2021-10-27T00:51:50.600Z",
+          "wordCount": 1312,
+          "title": "docker/docker-bench-security"
+        },
+        {
+          "id": "https://github.com/ChrisTitusTech/ArchTitus",
+          "author": null,
+          "description": "Automated Arch Linux Install\n\nArchTitus Installer Script\n \n \nThis README contains the steps I do to install and configure a fully-functional Arch Linux installation containing a desktop environment, all the support packages (network, bluetooth, audio, printers, etc.), along with all my preferred applications and utilities. The shell scripts in this repo allow the entire process to be automated.)\n \n \nCreate Arch ISO or Use Image\n \nDownload ArchISO from https://archlinux.org/download/ and put on a USB drive with Ventoy or Etcher\n \nIf you don't want to build using this script I did create an image @ https://www.christitus.com/arch-titus\n \nBoot Arch ISO\n \nFrom initial Prompt type the following commands:\n \npacman -Sy git\ngit clone https://github.com/ChrisTitusTech/ArchTitus\ncd ArchTitus\n./archtitus.sh\n\n \nSystem Description\n \nThis is completely automated arch install of the KDE desktop environment on arch using all the packages I use on a daily basis.\n \nTroubleshooting\n \nArch Linux Installation Guide\n \nNo Wifi\n \nsudo wifi-menu\n\n \nCredits\n \n \n \nOriginal packages script was a post install cleanup script called ArchMatic located here: https://github.com/rickellis/ArchMatic\n \n \nThank you to all the folks that helped during the creation from YouTube Chat! Here are all those Livestreams showing the creation: https://www.youtube.com/watch?v=IkMCtkDIhe8&list=PLc7fktTRMBowNaBTsDHlL6X3P3ViX3tYg",
+          "link": "https://github.com/ChrisTitusTech/ArchTitus",
+          "publishedOn": "2021-10-27T00:51:50.547Z",
+          "wordCount": 644,
+          "title": "ChrisTitusTech/ArchTitus"
+        },
+        {
+          "id": "https://github.com/D3VL/L3MON",
+          "author": null,
+          "description": "L3MON - Remote Android Managment Suite\n\n \n A cloud based remote android managment suite, powered by NodeJS \n \nFeatures\n \n \n \nGPS Logging\n \n \nMicrophone Recording\n \n \nView Contacts\n \n \nSMS Logs\n \n \nSend SMS\n \n \nCall Logs\n \n \nView Installed Apps\n \n \nView Stub Permissions\n \n \nLive Clipboard Logging\n \n \nLive Notification Logging\n \n \nView WiFi Networks (logs previously seen)\n \n \nFile Explorer & Downloader\n \n \nCommand Queuing\n \n \nBuilt In APK Builder\n \n \nPrerequisites\n \n \n \nJava Runtime Environment 8 \n  \n \n   \nSee installation for OS specifics\n \n  \n  \n \nNodeJs\n \n \nA Server\n \n \nInstallation\n \n \n \n Install JRE 8 (We cannot stress this enough USE java 1.8.0 ANY issues that dont use this will be closed WITHOUT a response)\n \n  \n \n   \nDebian, Ubuntu, Etc \n    \n \n     \nsudo apt-get install openjdk-8-jr…",
+          "link": "https://github.com/D3VL/L3MON",
+          "publishedOn": "2021-10-27T00:51:50.500Z",
+          "wordCount": 822,
+          "title": "D3VL/L3MON"
+        },
+        {
+          "id": "https://github.com/iluwatar/java-design-patterns",
+          "author": null,
+          "description": "Design patterns implemented in Java\n\nDesign patterns implemented in Java\n \n    \n \n \n\n \n \n \nRead in different language : zh, ko, fr, tr, ar, es, pt, id, ru, de, ja\n \n \nIntroduction\n \nDesign patterns are the best formalized practices a programmer can use to solve common problems when designing an application or system.\n \nDesign patterns can speed up the development process by providing tested, proven development paradigms.\n \nReusing design patterns help prevent subtle issues that cause major problems, and it also improves code readability for coders and architects who are familiar with the patterns.\n \nGetting started\n \nThis site showcases Java Design Patterns. The solutions have been developed by experienced programmers and architects from the open source community. The patterns can be brows…",
+          "link": "https://github.com/iluwatar/java-design-patterns",
+          "publishedOn": "2021-10-27T00:51:50.469Z",
+          "wordCount": 1222,
+          "title": "iluwatar/java-design-patterns"
+        },
+        {
+          "id": "https://github.com/dortania/OpenCore-Legacy-Patcher",
+          "author": null,
+          "description": "Experience macOS just like before\n\n \n  \n \nOpenCore Legacy Patcher\n \n \nA python program with an Objective-C GUI for building and booting OpenCore on both legacy and modern Macs, see our in-depth Guide for more information.\n \nSupported features:\n \n \n \nSystem Integrity Protection, FileVault 2, .im4m Secure Boot and Vaulting\n \n \nWPA Wifi and Personal Hotspot support\n \n \nNative OTA OS DELTA updates on all Macs\n \n \nRecovery OS, Safe Mode and Single-user Mode booting\n \n \nZero firmware patching required (ie. APFS ROM patching)\n \n \nGPU Switching on MacBook Pro models (2012 and newer)\n \n \nNote: Only clean-installs and upgrades are supported, macOS Big Sur installs already patched with other patchers, such as Patched Sur or bigmac, cannot be used due to broken file integrity with APFS snapshots and S…",
+          "link": "https://github.com/dortania/OpenCore-Legacy-Patcher",
+          "publishedOn": "2021-10-27T00:51:50.317Z",
+          "wordCount": 931,
+          "title": "dortania/OpenCore-Legacy-Patcher"
+        },
+        {
+          "id": "https://github.com/czj2369/jd_tb_auto",
+          "author": null,
+          "description": "基于AutoJs编写的618||双十一||淘宝||京东||赚喵币||赚汪汪币任务自动完成脚本\n\n618||双十一||淘宝||京东||赚喵糖||赚汪汪币任务自动完成脚本\n \n基于AutoJs编写的618||双十一||淘宝||京东||赚喵糖||赚汪汪币任务自动完成脚本\n \n重要说明\n \n \n \n JD部分较少任务无法判断是等待还是即刻返回，故有些任务需要等待30S自动返回，后续看能不能解决\n  \n \n JD的活动界面没办法获得它控件属性那些，这次版本使用的是坐标点击的，可能会有一些问题\n  \n \n JDTB如果没办法自动进入做任务界面，请手动进入\n  \n \n JD有个别活动是跳过的，比如需要开会员的，比如分享的，还有下单的\n  \n \n JD目前有个任务没时间去做，参与城城领钱的，建议手动完成\n  \n \n TB要先做好新手教程\n  \n \n TB个别活动是跳过的，比如施肥，比如喂鸡，具体看代码的这里忽略的任务\n var IGNORE_LIST = ['农场', '芭芭农场', '下单', '蚂蚁森林', '淘特', '点淘', '充话费', '参与合伙', '喂小鸡', '斗地主', '续卡', '88VIP'];\n\n  \n \n更新\n \n2021年10月25日\n \n1.[21:53:25]【JDTB】添加音量上键停止脚本，优化部分逻辑；添加apk到release中（发现小服务器顶不住下载的数量。。没想到这么多人）\n \n \n2021年10月24日\n \n1.[18:01:49]【TB】添加定时纠错功能；添加完成互动游戏；添加掷骰子功能；优化进入任务界面逻辑\n \n2.[21:30:45]【JDTB】提供apk下载地址\n \n \n2021年10月23日\n \n1.[00:39:47]【JD】去除坐标点击法，发现没办法通用，改了逻辑，互动种草城还有领红包可能需要自己手动，剩下BUG再改了。。测试…",
+          "link": "https://github.com/czj2369/jd_tb_auto",
+          "publishedOn": "2021-10-27T00:51:50.257Z",
+          "wordCount": 500,
+          "title": "czj2369/jd_tb_auto"
+        },
+        {
+          "id": "https://github.com/htr-tech/zphisher",
+          "author": null,
+          "description": "An automated phishing tool with 30+ templates. This Tool is made for educational purpose only ! Author will not be responsible for any misuse of this toolkit !\n\n  \n \n      \n \n    \n \nA beginners friendly, Automated phishing tool with 30+ templates.\n \n\n \n\nDisclaimer\n \nAny actions and or activities related to Zphisher is solely your responsibility. The misuse of this toolkit can result in criminal charges brought against the persons in question. The contributors will not be held responsible in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.\n This toolkit contains materials that can be potentially damaging or dangerous for social media. Refer to the laws in your province/country before accessing, using,or in any other way utilizing this…",
+          "link": "https://github.com/htr-tech/zphisher",
+          "publishedOn": "2021-10-27T00:51:50.216Z",
+          "wordCount": 773,
+          "title": "htr-tech/zphisher"
+        },
+        {
+          "id": "https://github.com/ADeltaX/WSAGAScript",
+          "author": null,
+          "description": "Scripts to install Google Apps into a WSA image. Plus optional ADB root\n\nIT'S WIP\n \nThis readme is being updated frequently. As I am aware that it might not be completely clear right now, I am going to resolve it ASAP\n \nAs a temporary measure, I have also made a tutorial and hosted that video on YouTube\n \n \n\n \n\n \nTHIS IS FOR TESTING\n \nDownload msixbundle (~1.2GB)\n \nUse this link to download the msixbundle with the settings ProductId: 9P3395VX91NR, Ring: SLOW\n \nInstall WSL2\n \nUbuntu is used in this guide, but any other distro will work for this just fine.\n \n(We are assuming that you are using the exact terminal, and you are also continuing this from where the last command has been left off)\n \nInstall unzip lzip\n \nFor Ubuntu\n \nsudo apt-get update\nsudo apt-get install unzip lzip\n\n \nDownload g…",
+          "link": "https://github.com/ADeltaX/WSAGAScript",
+          "publishedOn": "2021-10-27T00:51:50.108Z",
+          "wordCount": 977,
+          "title": "ADeltaX/WSAGAScript"
+        },
+        {
+          "id": "https://github.com/github/copilot-docs",
+          "author": null,
+          "description": "Documentation for GitHub Copilot\n\n \nNOTE: GitHub Copilot discussions have moved to the Copilot Feedback forum.\n \n \nGitHub Copilot \n \n \nWelcome to the GitHub Copilot user community! In this repository, you can find documentation, walkthroughs, examples, and the latest resources you need to use GitHub Copilot.\n \nGetting Started\n \nFor a tour of GitHub Copilot, visit the homepage at copilot.github.com.\n \nIf this is your first time using GitHub Copilot, check out the Getting Started guides:\n \n \n \nVisual Studio Code\n \n \nJetBrains\n \n \nHow to get help\n \nHave a question, or want to provide feedback? Visit the Feedback forum to ask questions, share bugs or feedback, or chat with other users in the Preview. The GitHub Copilot team will respond as often as possible, but we also welcome you to share your experiences and help others in the community.\n \nSafety\n \nWe take safety seriously and are constantly working to improve GitHub Copilot. If you discover dangerous, biased, or offensive output from GitHub Copilot, please report it privately to copilot-safety@github.com.\n \nUseful links\n \n \n \nGitHub Copilot homepage\n \n \nGetting started guide\n \n \nGallery\n \n \nDocumentation\n \n \nFeedback forum\n \n \nCode of conduct\n \nAll users of GitHub Copilot are expected to comply with our Code of Conduct. By participating in this repository, you are also agreeing to the same Terms of Service that you agree to when using GitHub.com.\n \nLicense\n \nContent in this repository is released under CC-BY-4.0. When using the GitHub logos, be sure to follow the GitHub logo guidelines.",
+          "link": "https://github.com/github/copilot-docs",
+          "publishedOn": "2021-10-27T00:51:50.039Z",
+          "wordCount": 624,
+          "title": "github/copilot-docs"
+        },
         {
           "id": "https://github.com/faisalman/ua-parser-js",
           "author": null,
@@ -3246,87 +3363,6 @@
           "publishedOn": "2021-09-28T00:53:53.234Z",
           "wordCount": 1042,
           "title": "python-engineer/ml-study-plan"
-        },
-        {
-          "id": "https://github.com/trimstray/the-book-of-secret-knowledge",
-          "author": null,
-          "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.\n\n    \n \n\"Knowledge is powerful, be careful how you use it!\"\n \nA collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools, and more.\n \n \n       \n \n    \n \n \n Created by trimstray and contributors \n \n \n \n📔  What is it?\n \nThis repository is a collection of various materials and tools that I use every day in my work. It contains a lot of useful information gathered in one piece. It is an invaluable source of knowledge for me that I often look back on.\n \n🚻  For whom?\n \nFor everyone, really. Here everyone can find their favourite tastes. But to be perfectly honest, it is aimed towards System and Network administrators, DevOps, Pentesters, and Security Rese…",
-          "link": "https://github.com/trimstray/the-book-of-secret-knowledge",
-          "publishedOn": "2021-09-27T00:52:29.755Z",
-          "wordCount": 22151,
-          "title": "trimstray/the-book-of-secret-knowledge"
-        },
-        {
-          "id": "https://github.com/nocodb/nocodb",
-          "author": null,
-          "description": "🔥 🔥 The Open Source Airtable alternative - Powered by Vue.js 🚀 🚀\n\n  NocoDB \n  ✨ The Open Source Airtable Alternative ✨ \n  \n Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet. \n \n \n \n  \n \n \n Website • Discord • Twitter \n \n\n \n \n\n \nQuick try\n \n1-Click Deploy\n \nHeroku\n \n   \n \nUsing Docker\n \ndocker run -d --name nocodb -p 8080:8080 nocodb/nocodb:latest\n\n \n \n \nTo persist data you can mount volume at /usr/app/data/.\n \n \nUsing Npm\n \nnpx create-nocodb-app\n\n \nUsing Git\n \ngit clone https://github.com/nocodb/nocodb-seed\ncd nocodb-seed\nnpm install\nnpm start\n\n \nGUI\n \nAccess Dashboard using : http://localhost:8080/dashboard\n \nJoin Our Community\n \n   \n \nScreenshots\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n \nFeatures\n \nRich Spreadsheet Interface\n \n \n \n⚡  Search, sort,…",
-          "link": "https://github.com/nocodb/nocodb",
-          "publishedOn": "2021-09-27T00:52:29.485Z",
-          "wordCount": 1458,
-          "title": "nocodb/nocodb"
-        },
-        {
-          "id": "https://github.com/getify/You-Dont-Know-JS",
-          "author": null,
-          "description": "A book series on JavaScript. @YDKJS on twitter.\n\nYou Don't Know JS Yet (book series) - 2nd Edition\n \n \n \n\n \nLOOK! Please support the Kickstarter to finish the remaining four books in the 2nd edition series.\n \n\n \n \n \nThis is a series of books diving deep into the core mechanisms of the JavaScript language. This is the second edition of the book series:\n \n     ...\n \nTo read more about the motivations and perspective behind this book series, check out the Preface.\n \nIf you're looking for the previous first edition books, they can be found here.\n \nPremier Sponsor\n \nThis edition of the YDKJS book series is exclusively sponsored by Frontend Masters.\n \nFrontend Masters is the gold standard for top-of-the-line expert training material in frontend-oriented software development. With over 150 course…",
-          "link": "https://github.com/getify/You-Dont-Know-JS",
-          "publishedOn": "2021-09-27T00:52:29.429Z",
-          "wordCount": 954,
-          "title": "getify/You-Dont-Know-JS"
-        },
-        {
-          "id": "https://github.com/apache/echarts",
-          "author": null,
-          "description": "Apache ECharts is a powerful, interactive charting and data visualization library for browser\n\nApache ECharts\n \n   \nApache ECharts is a free, powerful charting and visualization library offering an easy way of adding intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.\n \n中文官网 | ENGLISH HOMEPAGE\n \n  \n \nGet Apache ECharts\n \nYou may choose one of the following methods:\n \n \n \nDownload from the official website in 中文下载页\n \n \nDownload from the official website in English\n \n \nnpm install echarts --save\n \n \nCDN: jsDelivr CDN\n \n \nDocs\n \n \n \n Tutorial\n \n  \n \n   \n中文\n \n   \nEnglish\n \n  \n  \n \n API\n \n  \n \n   \n中文\n \n   \nEnglish\n \n  \n  \n \n Option Manual\n \n  \n \n   \n中文\n \n   \nEn…",
-          "link": "https://github.com/apache/echarts",
-          "publishedOn": "2021-09-27T00:52:29.399Z",
-          "wordCount": 1042,
-          "title": "apache/echarts"
-        },
-        {
-          "id": "https://github.com/alex000kim/nsfw_data_scraper",
-          "author": null,
-          "description": "Collection of scripts to aggregate image data for the purposes of training an NSFW Image Classifier\n\nNSFW Data Scraper\n \nNote: use with caution - the dataset is noisy\n \nDescription\n \nThis is a set of scripts that allows for an automatic collection of tens of thousands of images for the following (loosely defined) categories to be later used for training an image classifier:\n \n \n \nporn - pornography images\n \n \nhentai - hentai images, but also includes pornographic drawings\n \n \nsexy - sexually explicit images, but not pornography. Think nude photos, playboy, bikini, etc.\n \n \nneutral - safe for work neutral images of everyday things and people\n \n \ndrawings - safe for work drawings (including anime)\n \n \nHere is what each script (located under scripts directory) does:\n \n \n \n1_get_urls_.sh - ite…",
-          "link": "https://github.com/alex000kim/nsfw_data_scraper",
-          "publishedOn": "2021-09-27T00:52:29.344Z",
-          "wordCount": 939,
-          "title": "alex000kim/nsfw_data_scraper"
-        },
-        {
-          "id": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
-          "author": null,
-          "description": "🔗 Some useful websites for programmers.\n\n   \n  \n\n \nBest-websites-a-programmer-should-visit\n \nSome useful websites for programmers.\n \nWhen learning CS, there are some useful sites you must know to get always informed to do your technologies even better and learn new things. Here is a non-exhaustive list of some sites you should visit. This list will get updated as soon as I can get another link, but you can also contribute by adding those you know 😉\n \nNote : Chinese Version\n \nIndex\n \n \n \nWhen you get stuck\n \n \nNews\n \n \nMagazines\n \n \nCoding practice for beginners\n \n \nCryptocurrency\n \n \nFor those who want to start a small project but can't find the ideas\n \n \nGeneral Coding advice\n \n \nCoding Style\n \n \nGeneral Tools\n \n \nInterview Preparation\n \n \nDocumentaries\n \n \nMOOCs for learning something …",
-          "link": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
-          "publishedOn": "2021-09-27T00:52:29.301Z",
-          "wordCount": 8711,
-          "title": "sdmg15/Best-websites-a-programmer-should-visit"
-        },
-        {
-          "id": "https://github.com/gmpetrov/ultimate-saas-ts",
-          "author": null,
-          "description": "Template to quickstart a SAAS business\n\n🚀⚡️🧑‍💻 Ultimate SAAS template Typescript/Next.js/NextAuth.js/Prisma/Stripe/Tailwindcss/Postgresql\n \nMy template to quickstart a SAAS project\n \n \n \nStop losing time implementing authentication and payment over and over again.\n Focus on what brings value to your customers\n \n \nDemo\n \nhttps://utlimate-saas-js.vercel.app\n \nFeatures\n \n \n \nAuthentication with NextAuth.js (Own Your Data ✅) \n  \n \n   \nEmail with magic link\n \n   \nGithub\n \n   \nMany other oauth providers available check their docs\n \n  \n  \n \nPayment with Stripe \n  \n \n   \nStripe checkout\n \n   \nStripe billing portal\n \n   \nStripe webhooks (products / prices are synced)\n \n  \n  \n \nHosted on vercel for free\n \n \nStripe\n \nCheck the stripe section of this repo as the steps are very similar\n \nPostgresql\n \nA postgresql db is needed to deploy the app.\n You can have a very small instance for free on heroku\n \n \nMade with\n \n \n \nTypescript\n \n \nNext.js\n \n \nNextAuth.js\n \n \nPrisma\n \n \nPostgresql\n \n \nStripe\n \n \nTailwindcss\n \n \nDevelop\n \n# create .env \ncp .env.example .env\n\n# install dependencies\nyarn\n\n# Launch pgsql and maildev\nyarn docker:start\n\n# migrate and seed the database\nyarn prisma:migrate:dev\n\nyarn prisma:seed\n\n# install stripe cli \nhttps://stripe.com/docs/webhooks/test\n\nstripe login\n\nstripe listen --forward-to  http://localhost:3000/api/stripe-webhooks\n\n# start server\nyarn dev\n\n\n \nInspirations\n \n \n \nhttps://github.com/vercel/nextjs-subscription-payments\n \n \nhttps://github.com/hexrcs/prisma-next-auth",
-          "link": "https://github.com/gmpetrov/ultimate-saas-ts",
-          "publishedOn": "2021-09-27T00:52:29.211Z",
-          "wordCount": 706,
-          "title": "gmpetrov/ultimate-saas-ts"
-        },
-        {
-          "id": "https://github.com/unknwon/the-way-to-go_ZH_CN",
-          "author": null,
-          "description": "《The Way to Go》中文译本，中文正式名《Go 入门指南》\n\n《Go入门指南》\n \n在接触 Go 语言之后，对这门编程语言非常着迷，期间也陆陆续续开始一些帮助国内编程爱好者了解和发展 Go 语言的工作，比如开始录制视频教程《Go编程基础》。但由于目前国内并没有比较好的 Go 语言书籍，而国外的优秀书籍因为英文的缘故在一定程度上也为不少 Go 语言爱好者带来了一些学习上的困扰，不仅为了加快扩散 Go 爱好者的国内群体，本人在完成阅读这本名叫 《The Way to Go》 之后，决定每天抽出一点时间来进行翻译的工作，并且以开源的形式免费分享给有需要的 Go 语言爱好者。\n \n尽管该书对目前 Go 语言版本来说有小部分内容相对过时，但是为当下不可多得的好书，相关内容已获得作者同意根据当前 Go 语言版本进行修改而不作出特别声明。\n \n该翻译版本已获得原作者（Ivo Balbaert）本人授权，并表示支持开源事业的发展！\n \n翻译进度\n \n19.10 总结和增强\n \n支持本书\n \n如果你喜欢本书 《Go入门指南》，你可以参与到本书的翻译或纠正工作中来，具体请联系【无闻 E-mail：u#gogs.io】，一同完善本书并帮助壮大 Go 语言在国内的学习群体，给大家提供更好的学习资源。\n \n交流社区\n \n参见 Go 语言学习资料与社区索引。\n \n关注 Go 语言中文网公众号学习 Go\n \n\n \n新人守则\n \n \n \n2012 年 3 月 28 日以前的博文中的内容基本过时，不要再看\n \n \n符合等式 百度+思考+失败+翻墙+谷歌+尝试=解决 的问题最好不要发问\n \n \n致谢\n \n \n \n本书原作者：Ivo Balbaert\n \n \n参与翻译人员： \n  \n \n   \n@zhanming\n \n   \nthemorecolor\n \n   \n@everyx\n \n   \n@chidouhu\n \n   \n@spawnris\n \n   \n@domainname\n \n   \n@leisore\n \n   \n@dake\n \n   \n@glight2000\n \n   \n@songleo\n \n   \n@marjune163\n \n  \n  \n \n授权许可\n \n除特别声明外，本书中的内容使用 CC BY-SA 3.0 License（创作共用 署名-相同方式共享3.0 许可协议）授权，代码遵循 BSD 3-Clause License（3 项条款的 BSD 许可协议）。\n \n开始阅读\n \n \n \n您可以选择以下方式阅读本书： \n  \n \n   \nGitHub在线\n \n  \n  \n \n想读书的人，不会找不到 目录 :)",
-          "link": "https://github.com/unknwon/the-way-to-go_ZH_CN",
-          "publishedOn": "2021-09-27T00:52:29.186Z",
-          "wordCount": 509,
-          "title": "unknwon/the-way-to-go_ZH_CN"
-        },
-        {
-          "id": "https://github.com/will/slacktyping",
-          "author": null,
-          "description": "i'm typing when you're typing\n\nA very good program that makes it so it says i'm typing when anyone else is typing\n \nhttps://twitter.com/leinweber/status/989267343002951680",
-          "link": "https://github.com/will/slacktyping",
-          "publishedOn": "2021-09-27T00:52:29.142Z",
-          "wordCount": 410,
-          "title": "will/slacktyping"
         }
       ]
     }
