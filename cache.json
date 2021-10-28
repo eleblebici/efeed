@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=65346",
+          "author": "Jessie",
+          "description": "Guest post originally published on Contino Engineering‘s blog by Dan Chernoff Supply chain attacks rose by 42% in the first quarter of 2021 [1] and are becoming even more prevalent [2]. In...",
+          "link": "https://www.cncf.io/blog/2021/10/27/secure-software-supply-chains-good-practices-at-scale/",
+          "publishedOn": "2021-10-27T15:00:00.000Z",
+          "wordCount": 2597,
+          "title": "Secure software supply chains: good practices, at scale"
+        },
+        {
           "id": "https://www.cncf.io/?p=65342",
           "author": "Jessie",
           "description": "Guest post originally published on Fairwind’s blog by Robert Brennan, Fairwinds Hello from Pluto, the little planet with big open source value. Once considered a full-size sphere in the cosmos, Pluto was...",
@@ -335,15 +344,6 @@
           "publishedOn": "2021-09-28T15:00:00.000Z",
           "wordCount": 1755,
           "title": "GitOps 101: What’s it all about?"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64796",
-          "author": "Jessie",
-          "description": "Guest post originally published on SUSE’s blog by Robert Sirchia These days, open source has become pervasive across every aspect of our lives. From your refrigerator to your TV to your phone,...",
-          "link": "https://www.cncf.io/blog/2021/09/27/octopod-episode-2-open-source-its-everywhere-with-chris-aniszczyk/",
-          "publishedOn": "2021-09-27T15:00:00.000Z",
-          "wordCount": 565,
-          "title": "Octopod Episode 2–Open Source: It’s Everywhere, with Chris Aniszczyk"
         }
       ]
     },
@@ -358,6 +358,141 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/apache/superset",
+          "author": null,
+          "description": "Apache Superset is a Data Visualization and Data Exploration Platform\n\nSuperset\n \n        \n \n\n \nA modern, enterprise-ready business intelligence web application.\n \nWhy Superset? | Supported Databases | Installation and Configuration | Release Notes | Get Involved | Contributor Guide | Resources | Organizations Using Superset\n \nScreenshots & Gifs\n \nGallery\n \n\n \nView Dashboards\n \n\n \nSlice & dice your data\n \n\n \nQuery and visualize your data with SQL Lab\n \n\n \nVisualize geospatial data with deck.gl\n \n\n \nChoose from a wide array of visualizations\n \n\n \nWhy Superset?\n \nSuperset provides:\n \n \n \nAn intuitive interface for visualizing datasets and crafting interactive dashboards\n \n \nA wide array of beautiful visualizations to showcase your data\n \n \nCode-free visualization builder to extract and prese…",
+          "link": "https://github.com/apache/superset",
+          "publishedOn": "2021-10-28T00:52:38.111Z",
+          "wordCount": 1366,
+          "title": "apache/superset"
+        },
+        {
+          "id": "https://github.com/spmallick/learnopencv",
+          "author": null,
+          "description": "Learn OpenCV : C++ and Python Examples\n\nLearnOpenCV\n \nThis repo contains code for Computer Vision, Deep learning, and AI articles shared on our blog LearnOpenCV.com.\n \nWant to become an expert in AI? AI Courses by OpenCV is a great place to start.\n \n \n  \n  \nList of Blog Posts\n \n \n  \n  \n \n   Blog Post \n    \n  \n \n  \n  \n  \n \n   Model Selection and Benchmarking with Modelplace.AI \n   Model Zoo \n  \n \n  \n \n   Real-time style transfer in a zoom meeting \n   Code \n  \n \n  \n \n   Introduction to OpenVino Deep Learning Workbench \n   Code \n  \n \n  \n \n   Running OpenVino Models on Intel Integrated GPU \n   Code \n  \n \n  \n \n   Post Training Quantization with OpenVino Toolkit \n   Code \n  \n \n  \n \n   Introduction to Intel OpenVINO Toolkit \n    \n  \n \n  \n \n   Human Action Recognition using Detectron2 and LSTM \n  …",
+          "link": "https://github.com/spmallick/learnopencv",
+          "publishedOn": "2021-10-28T00:52:38.063Z",
+          "wordCount": 3330,
+          "title": "spmallick/learnopencv"
+        },
+        {
+          "id": "https://github.com/zero205/JD_tencent_scf",
+          "author": null,
+          "description": "自用京东JS脚本，已加入助力池；支持【青龙】、【腾讯云函数】、【elecV2P】；低调使用，请勿fork！！！\n\n禁止Star/Fork!!\n \n请勿使用Action运行脚本!\n \n有条（科学）件（上网）的可以 点此加入组织\n \n本仓库部分脚本已加入JDHelloWorld大佬助力池，默认加入助力池互助\n \n由于限制TG群内成员提交助力码，请需要互助的 加入组织，回复助力池，获取使用教程\n \n不需要助力池请添加环境变量，变量名：JD_JOIN_ZLC，变量值：false\n \n请勿直接fork！！云函数用户先按照下方教程建立私库！！！\n \n已经创建公开仓库的请点击仓库右上角Setting，拉到页面最下方，点击Change visibility，选择Make private，填入黑体仓库名称进行确认!\n \n方式一(如果有一定github基础，十分建议直接方式二)\n \n建议阅读@hshx123大佬的教程\n \n方式二\n \n \n \n有能力用户可以进行尝试,通过任何方法都可以,在空仓库内(保证分支名称为main),按需运行一次 https://github.com/Ca11back/doge-template 的action即可\n \n \n第二种:直接clone一个scf2分支(名字需要为main,clone哪个取决于你要用的部署方式)\n \n \n自动同步本仓库脚本教程：点此查看\n \n使用教程\n \n \n \n \n  \n \n   \n【青龙】拉取仓库命令：ql repo https://github.com/zero205/JD_tencent_scf.git \"jd_|jx_|getJDCookie\" \"backUp|icon\" \"^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR|JDSign\" \"main\"\n \n  \n \n  \n \n   …",
+          "link": "https://github.com/zero205/JD_tencent_scf",
+          "publishedOn": "2021-10-28T00:52:37.959Z",
+          "wordCount": 1095,
+          "title": "zero205/JD_tencent_scf"
+        },
+        {
+          "id": "https://github.com/fffaraz/awesome-cpp",
+          "author": null,
+          "description": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.\n\nAwesome C++  \n \nA curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.\n \n \n \nAwesome C++ \n  \n \n   \nStandard Libraries\n \n   \nFrameworks\n \n   \nArtificial Intelligence\n \n   \nAsynchronous Event Loop\n \n   \nAudio\n \n   \nBiology\n \n   \nBitTorrent\n \n   \nChemistry\n \n   \nCLI\n \n   \nCompression\n \n   \nConcurrency\n \n   \nConfiguration\n \n   \nContainers\n \n   \nCryptography\n \n   \nCSV\n \n   \nDatabase\n \n   \nData visualization\n \n   \nDebug\n \n   \nFont\n \n   \nGame Engine\n \n   \nGUI\n \n   \nGraphics\n \n   \nImage Processing\n \n   \nInternationalization\n \n   \nInter-process communication\n \n   \nJSON\n \n   \nLogging\n \n   \nMachine Learning\n \n   \nMath…",
+          "link": "https://github.com/fffaraz/awesome-cpp",
+          "publishedOn": "2021-10-28T00:52:37.896Z",
+          "wordCount": 13452,
+          "title": "fffaraz/awesome-cpp"
+        },
+        {
+          "id": "https://github.com/matrixorigin/matrixone",
+          "author": null,
+          "description": "Planet scale, cloud-edge native big data engine crafted for heterogeneous workloads\n\n  \n \nWhat is MatrixOne?\n \nMatrixOne is a planet scale, cloud-edge native big data engine crafted for heterogeneous workloads. It provides an end-to-end data processing platform that is highly autonomous and easy to use, to empower users to store, manipulate, and analyze data across devices, edges, and clouds, with minimal operational overheads.\n \nFeatures\n \nPlanet Scalability\n \nMatrixOne cluster can easily expand capacity during SQL processing, computation, and storage, by adding nodes to the cluster on the fly.\n \nCloud-Edge Native\n \nNot limited to public clouds, hybrid clouds, on-premise servers, or smart devices, MatrixOne accommodates itself to myriads of infrastructure while still providing top service…",
+          "link": "https://github.com/matrixorigin/matrixone",
+          "publishedOn": "2021-10-28T00:52:37.814Z",
+          "wordCount": 1325,
+          "title": "matrixorigin/matrixone"
+        },
+        {
+          "id": "https://github.com/jojo2234/GreenPass-Experiments",
+          "author": null,
+          "description": "It's possible to create a valid and fake green pass? The scope of this project is try to create one.\n\nGreenPass-Experiments\n \nThis project was started with the intention of violating the Italian GreenPass which should serve in theory to prevent the spread of COVID-19 but which in my opinion is not very effective. This is because vaccinated people can contract the virus and can be contagious. In addition, the GreenPass limits personal freedom even more with senseless measures that even prevent you from working, for example in schools where all the students, who are used to moving in crowded public transport do not have to show any GreenPass while the teachers who are mostly at a distance behind the desk and they use their private cars must have the GreenPass to work. Moreover, to access man…",
+          "link": "https://github.com/jojo2234/GreenPass-Experiments",
+          "publishedOn": "2021-10-28T00:52:37.770Z",
+          "wordCount": 3056,
+          "title": "jojo2234/GreenPass-Experiments"
+        },
+        {
+          "id": "https://github.com/rigtorp/awesome-modern-cpp",
+          "author": null,
+          "description": "A collection of resources on modern C++\n\n \n \nAwesome Modern C++\n \nA collection of resources on modern C++.\n \nThe goal is to collect a list of resources to help people learn about and leverage modern C++11 and beyond.\n \nContributing\n \nTo add, remove or change things on the list: please submit a pull request to the GitHub repository.\n \nBooks\n \n \n \nA Tour of C++ (Bjarne Stroustrup) [C++11/17/20]\n \n \nThe C++ Programming Language (Bjarne Stroustrup) [C++11]\n \n \nEffective Modern C++ (Scott Meyers) [C++11/14]\n \n \nOverview of the New C++ (Scott Meyers) [C++11/14]\n \n \nC++ Core Guidelines (Bjarne Stroustrup, Herb Sutter) [C++11/14/17] - Guidelines for using modern C++.\n \n \nC++ Concurrency in Action (Anthony Williams) [C++11/14/17] - Reference and guide to writing multi-threaded code with standard C+…",
+          "link": "https://github.com/rigtorp/awesome-modern-cpp",
+          "publishedOn": "2021-10-28T00:52:37.715Z",
+          "wordCount": 3055,
+          "title": "rigtorp/awesome-modern-cpp"
+        },
+        {
+          "id": "https://github.com/oversecured/ovia",
+          "author": null,
+          "description": "Oversecured Vulnerable iOS App\n\nDescription\n \nOVIA (Oversecured Vulnerable iOS App) is an iOS app that aggregates all the platform's known and popular security vulnerabilities.\n \nList of vulnerabilities\n \nThis section only includes the list of vulnerabilities, without a detailed description or proof of concept. Examples from OVIA will receive detailed examination and analysis on our blog.\n \n \n \nEnabled iTunes file sharing allowing to browse and access files from Documents directory in file Info.plist.\n \n \nSession theft via ovia://deeplink/webview?url=... deeplink.\n \n \nOverwriting of arbitrary files via ovia://deeplink/save?data=...&name=... deeplink.\n \n \nMemory corruption via ovia://deeplink/save?data=...&name=...&offset=... deeplink.\n \n \nHTML injection via ovia://deeplink/alert?message=... deeplink.\n \n \nHardcoded AES encryption key and IV in file Crypto.swift.\n \n \nEnabled (not disabled) caching in NetworkCalls.swift that saved credentials onto the device.\n \n \nInsecure ATS configuration allowing insecure connections in file Info.plist.\n \n \nDumping the cache file to a public storage in file MainViewController.swift.\n \n \n \nLicensed under the Simplified BSD License\n \nCopyright (c) 2021, Oversecured Inc\n \nhttps://oversecured.com/",
+          "link": "https://github.com/oversecured/ovia",
+          "publishedOn": "2021-10-28T00:52:37.672Z",
+          "wordCount": 541,
+          "title": "oversecured/ovia"
+        },
+        {
+          "id": "https://github.com/0x727/SpringBootExploit",
+          "author": null,
+          "description": "项目是根据LandGrey/SpringBootVulExploit清单编写，目的hvv期间快速利用漏洞、降低漏洞利用门槛。\n\nSpringBootExploit\n \n一款针对SpringBootEnv页面进行快速漏洞利用\n \n        \n   \n   \n \n📝 TODO\n \n \n \n支持Eureka XStream deserialization RCE\n \n \n支持Fastjson 内存马注入\n \n \n支持更多可以使用JNDI内存马注入反序列化漏洞\n \n \n支持内存马路径和密码修改\n \n \n........\n \n \n🐉来龙去脉\n \n项目是根据Spring Boot Vulnerability Exploit Check List清单编写，目的hvv期间快速利用漏洞、降低漏洞利用门槛。\n \n \n⚡ 下载安装\n \n \n \n从releases下载最新版Spring Boot Exploit压缩包，配合JNDIExploit使用。（⭐推荐）\n \n \n \n  \n \n   \ngit clone https://github.com/0x727/SpringBootExploit\n \n   \ngit clone https://github.com/0x727/JNDIExploit\n \n   \nmvn clean package -DskipTests 分别打SpringBootExploit包和JNDIExploit\n \n  \n  \n \n \n🎬使用方法\n \n \n \n首先在服务器上上传打包好的JNDIExploit工具，解压。使用命令启动java -jar JNDIExploit-1.2-SNAPSHOT.jar\n \n \n输入目标地址和配置服务器地址，点击连接。出现如下图所示代表连接成功。\n \n \n\n \n \n \n 漏洞利用\n 建议首先点击检测环境，会自动判断是否存在漏洞。漏洞验证方法是Check list的方法，如果有更好的方法可以提交工单会考虑添加。\n \n \n  \n \n   \n漏洞利用，目前只支持内存马注入\n \n  \n \n  \n \n\n \n \n🅱免责声明\n \n该工具仅用于安全自查检测\n \n由于传播、利用此工具所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，作者不为此承担任何责任。\n \n本人拥有对此工具的修改和解释权。未经网络安全部门及相关部门允许，不得善自使用本工具进行任何攻击活动，不得以任何方式将其用于商业目的。\n \n \n📖 参考项目\n \nhttps://github.com/woodpecker-appstore/springboot-vuldb",
+          "link": "https://github.com/0x727/SpringBootExploit",
+          "publishedOn": "2021-10-28T00:52:37.645Z",
+          "wordCount": 422,
+          "title": "0x727/SpringBootExploit"
+        },
+        {
+          "id": "https://github.com/ilyas-it83/CloudComparer",
+          "author": null,
+          "description": "Compare the various managed cloud services offered by the major public cloud providers in the market.\n   \nCloud Comparer\n \nThis is the second version of my Cloud Comparison slide deck which I prepared a year back (can be downloaded here: http://www.slideshare.net/ilyas_it83/microsoft-azure-vs-amazon-web-services-aws-services-feature-mapping). The version 1 recieved more than 22K views and 400+ download at the time of working on this project. This gave me the idea of creating a robust and dependable comparison/mapping between the various services offered by the major cloud providers in a lively and updatable format.\n \nThe project is open sourced to let fellow Cloud Architects, IT Pros, Developers to feel free to edit and update the comparison upto date.\n \nContributing\n \nPlease read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.\n \nAuthors\n \n \n \nIlyas_IT83 - Initial work - CloudComparer\n \n \nSee also the list of contributors who participated in this project.\n \nLicense\n \nThis project is licensed under the MIT License - see the LICENSE.md file for details\n \nAcknowledgments",
+          "link": "https://github.com/ilyas-it83/CloudComparer",
+          "publishedOn": "2021-10-28T00:52:37.583Z",
+          "wordCount": 685,
+          "title": "ilyas-it83/CloudComparer"
+        },
+        {
+          "id": "https://github.com/KubeOperator/KubePi",
+          "author": null,
+          "description": "KubePi 是一款简单易用的开源 Kubernetes 可视化管理面板\n\n\n \n简单易用的开源 Kubernetes 可视化管理面板\n \n     \n \n \nKubePi 是一款简单易用的开源 Kubernetes 可视化管理面板。\n \nKubePi 允许管理员导入多个 Kubernetes 集群，并且通过权限控制，将不同 cluster、namespace 的权限分配给指定用户。它允许开发人员管理 Kubernetes 集群中运行的应用程序并对其进行故障排查，供开发人员更好地处理 Kubernetes 集群中的复杂性。\n \nUI 展示\n \n\n \n快速开始\n \nsudo docker run --privileged -d --restart=unless-stopped -p 80:80 kubeoperator/kubepi-server\n\n \n打开浏览器访问http://localhost\n \n微信交流群\n \n\n \n致谢\n \n \n \nVue 前端框架\n \n \nFIT2CLOUD UI FIT2CLOUD UI组件库\n \n \nVue-element-admin 项目脚手架\n \n \nLicense & Copyright\n \nCopyright (c) 2014-2021 FIT2CLOUD 飞致云\n \nhttps://www.fit2cloud.com\n \nKubePi is licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n \nhttp://www.apache.org/licenses/LICENSE-2.0\n \nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.",
+          "link": "https://github.com/KubeOperator/KubePi",
+          "publishedOn": "2021-10-28T00:52:37.557Z",
+          "wordCount": 625,
+          "title": "KubeOperator/KubePi"
+        },
+        {
+          "id": "https://github.com/ifzhang/ByteTrack",
+          "author": null,
+          "description": "ByteTrack: Multi-Object Tracking by Associating Every Detection Box\n\nByteTrack\n \n\n \n\n \nByteTrack is a simple, fast and strong multi-object tracker.\n \n\n \n \n \nByteTrack: Multi-Object Tracking by Associating Every Detection Box\n \n \nYifu Zhang, Peize Sun, Yi Jiang, Dongdong Yu, Zehuan Yuan, Ping Luo, Wenyu Liu, Xinggang Wang\n \n \narXiv 2110.06864\n \n \nAbstract\n \nMulti-object tracking (MOT) aims at estimating bounding boxes and identities of objects in videos. Most methods obtain identities by associating detection boxes whose scores are higher than a threshold. The objects with low detection scores, e.g. occluded objects, are simply thrown away, which brings non-negligible true object missing and fragmented trajectories. To solve this problem, we present a simple, effective and generic associati…",
+          "link": "https://github.com/ifzhang/ByteTrack",
+          "publishedOn": "2021-10-28T00:52:37.509Z",
+          "wordCount": 1668,
+          "title": "ifzhang/ByteTrack"
+        },
+        {
+          "id": "https://github.com/mli/paper-reading",
+          "author": null,
+          "description": "深度学习论文精读\n\n深度学习论文精读\n \n \n  \n  \n \n   日期 \n   标题 \n   封面 \n   时长 \n   视频（4K） \n  \n \n  \n  \n  \n \n   录制中 \n   图神经网络 的可视化介绍 \n    \n    \n    \n  \n \n  \n \n   录制中 \n   Transformer：新的大一统架构？ \n    \n    \n    \n  \n \n  \n \n   10/22/21 \n   ResNet 论文逐段精读 \n    \n   53:46 \n   B站, 知乎, YouTube \n  \n \n  \n \n   10/21/21 \n   撑起计算机视觉半边天的 ResNet \n    \n   11:50 \n   B站, 知乎, YouTube \n  \n \n  \n \n   10/15/21 \n   AlexNet 论文逐段精读 \n    \n   55:21 \n   B站, 知乎, YouTube \n  \n \n  \n \n   10/14/21 \n   9年后重读深度学习奠基作之一：AlexNet \n    \n   19:59 \n   B站, 知乎, YouTube \n  \n \n  \n \n   10/06/21 \n   如何读论文 \n    \n   06:39 \n   B站, 知乎, YouTube \n  \n \n  \n \n候选论文\n \n考虑在之后视频中将要介绍的论文。选取的原则是10年内深度学习里有影响力文章（必读文章），或者近期比较有意思的文章。当然这十年里重要的工作太多了，不可能一一过一遍。在选取的时候我会偏向一些之前 直播课 中没讲到过的。 欢迎大家在 讨论区 里提供（点）建议（歌）。\n \n录一篇文章的时间大概是5个小时（录制、剪辑、上传），这里不算上读文章的时间。我一般是每天深夜找半个小时或者一个小时做一点。如果没有其他更紧要的事情的话，10天左右可以出一篇。如果大家热情 加⭐  话，可以多赶一赶🤣\n \n下面列表将会持续更新（数字不代表讲的顺序）。\n \n \n \nAdam。深度学习里最常用的优化算法之一。\n \n \nEfficientNet。通过架构搜索得到的CNN，现在常被使用。\n \n \nBERT。让深度学习在NLP上热度超过了CV。\n \n \nGPT3。朝着zero-shot learning迈了一大步。当然也得讲一讲GPT/GPT-2\n \n \nGAN。生成类模型中的开创性工作。\n \n \nCLIP。图片分类从此不用标数据。\n \n \nNon-deep networks。21年10月的新工作，让不深的网络也能在ImageNet刷到SOTA。\n \n \n为什么超大的模型泛化性不错\n \n \nGNN介绍。Distill上最近一篇写得很好的介绍性文章。\n \n \nAlphaGo。让强化学习出圈的一系列工作。",
+          "link": "https://github.com/mli/paper-reading",
+          "publishedOn": "2021-10-28T00:52:37.479Z",
+          "wordCount": 402,
+          "title": "mli/paper-reading"
+        },
+        {
+          "id": "https://github.com/processhacker/processhacker",
+          "author": null,
+          "description": "A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.\n\n    \n \n \nProcess Hacker\n \nA free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.\n \nProject Website - Project Downloads\n \nSystem requirements\n \nWindows 7 or higher, 32-bit or 64-bit.\n \nFeatures\n \n \n \nA detailed overview of system activity with highlighting.\n \n \nGraphs and statistics allow you quickly to track down resource hogs and runaway processes.\n \n \nCan't edit or delete a file? Discover which processes are using that file.\n \n \nSee what programs have active network connections, and close them if necessary.\n \n \nGet real-time information on disk access.\n \n \nView detailed stack traces with kernel-mode, WOW64 and .NET sup…",
+          "link": "https://github.com/processhacker/processhacker",
+          "publishedOn": "2021-10-28T00:52:37.428Z",
+          "wordCount": 1017,
+          "title": "processhacker/processhacker"
+        },
+        {
+          "id": "https://github.com/cheatsheet1999/FrontEndCollection",
+          "author": null,
+          "description": "Notes for Front-end Software Engineers. Covers common data structure and algorithms, basic web concepts, HTML & CSS & Javascript.\n\nFrontEndCollection (Keep updating, hopefully...)\n \nWeb Development Basics\n \nHTML\n \n1. What happens when you type in a URL\n 2. GET vs POST\n 3. What can we do to improve a website's performance?\n 4. HTML5 offline storage mechanism\n 5. Common time and space-complexity\n 6. What has been deprecated, and what is new on HTML5?\n 7. How the DOM really works?\n 8. Inline elements, Block elements, and what are the differences?\n 9. Several ways to call a function\n 10. A brief introduction of the differences between \"src\" and \"href\"\n 11. A brief introduction of Call, Apply, Bind\n 12. Time and space complexity for common sorting algorithm\n \nCSS\n \n1. What is the difference bet…",
+          "link": "https://github.com/cheatsheet1999/FrontEndCollection",
+          "publishedOn": "2021-10-28T00:52:37.206Z",
+          "wordCount": 918,
+          "title": "cheatsheet1999/FrontEndCollection"
+        },
         {
           "id": "https://github.com/shengcaishizhan/kkndme_tianya",
           "author": null,
@@ -3237,132 +3372,6 @@
           "publishedOn": "2021-09-29T00:51:11.095Z",
           "wordCount": 412,
           "title": "RandomThings23/donut"
-        },
-        {
-          "id": "https://github.com/BuilderIO/partytown",
-          "author": null,
-          "description": "Relocate resource intensive third-party scripts off of the main thread and into a web worker. 🎉\n\nPartytown 🎉\n \n \nIntroducing Partytown: Run Third-Party Scripts From a Web Worker\n \n \n \nA fun location for your third-party scripts to hang out\n \n \n⚠️ Warning! This is experimental! ⚠️\n \nPartytown is a lazy-loaded 6kb library to help relocate resource intensive scripts into a web worker, and off of the main thread. Its goal is to help speed up sites by dedicating the main thread to your code, and offloading third-party scripts to a web worker.\n \n \n \nInformation \n  \n \n   \nNegative Impacts From Third-Party Scripts\n \n   \nGoals\n \n   \nWeb Workers\n \n   \nBrowser Window And DOM Access\n \n   \nSandboxing\n \n   \nTrade-Offs\n \n   \nUse-Cases\n \n   \nHow Does It Work?\n \n   \nBrowser Features And Fallback\n \n  \n  \n…",
-          "link": "https://github.com/BuilderIO/partytown",
-          "publishedOn": "2021-09-28T00:53:54.105Z",
-          "wordCount": 2884,
-          "title": "BuilderIO/partytown"
-        },
-        {
-          "id": "https://github.com/tiimgreen/github-cheat-sheet",
-          "author": null,
-          "description": "A list of cool features of Git and GitHub.\n\nGitHub Cheat Sheet \n \nA collection of cool hidden and not so hidden features of Git and GitHub. This cheat sheet was inspired by Zach Holman's Git and GitHub Secrets talk at Aloha Ruby Conference 2012 (slides) and his More Git and GitHub Secrets talk at WDCNZ 2013 (slides).\n \nShortlink: http://git.io/sheet\n \nRead this in other languages: English, 한국어, 日本語, 简体中文, 正體中文.\n \nTable of Contents\n \n \n \nGitHub \n  \n \n   \nIgnore Whitespace\n \n   \nAdjust Tab Space\n \n   \nCommit History by Author\n \n   \nCloning a Repository\n \n   \nBranch \n    \n \n     \nCompare all Branches to Another Branch\n \n     \nComparing Branches\n \n     \nCompare Branches across Forked Repositories\n \n    \n  \n   \nGists\n \n   \nGit.io\n \n   \nKeyboard Shortcuts\n \n   \nLine Highlighting in Repositories\n…",
-          "link": "https://github.com/tiimgreen/github-cheat-sheet",
-          "publishedOn": "2021-09-28T00:53:54.037Z",
-          "wordCount": 4800,
-          "title": "tiimgreen/github-cheat-sheet"
-        },
-        {
-          "id": "https://github.com/cesanta/elk",
-          "author": null,
-          "description": "A low footprint JavaScript engine for embedded systems\n\nElk: a tiny JS engine for embedded systems\n \n  \n \nElk is a tiny embeddable JavaScript engine that implements a small but usable subset of ES6. It is designed for microcontroller development. Instead of writing firmware code in C/C++, Elk allows to develop in JavaScript. Another use case is providing customers with a secure, protected scripting environment for product customisation.\n \nElk features include:\n \n \n \nCross platform. Works anywhere from 8-bit microcontrollers to 64-bit servers\n \n \nZero dependencies. Builds cleanly by ISO C or ISO C++ compilers\n \n \nEasy to embed: just copy elk.c and elk.h to your source tree\n \n \nVery small and simple embedding API\n \n \nCan call native C/C++ functions from JavaScript and vice versa\n \n \nDoes not…",
-          "link": "https://github.com/cesanta/elk",
-          "publishedOn": "2021-09-28T00:53:53.958Z",
-          "wordCount": 2127,
-          "title": "cesanta/elk"
-        },
-        {
-          "id": "https://github.com/qier222/YesPlayMusic",
-          "author": null,
-          "description": "高颜值的第三方网易云播放器，支持 Windows / macOS / Linux\n\n \n    \nYesPlayMusic\n \n 高颜值的第三方网易云播放器 \n 🌎 访问DEMO  |   📦️ 下载安装包 \n  \n \n\n \n\n \n✨ 特性\n \n \n \n✅ 使用 Vue.js 全家桶开发\n \n \n🔴 网易云账号登录（扫码/手机/邮箱登录）\n \n \n📺 支持 MV 播放\n \n \n📃 支持歌词显示\n \n \n📻 支持私人 FM / 每日推荐歌曲\n \n \n🚫🤝 无任何社交功能\n \n \n🌎️ 海外用户可直接播放（需要登录网易云账号）\n \n \n🔐 支持 UnblockNeteaseMusic（使用 revincx 修复的 npm 包），自动使用 QQ/酷狗/酷我音源替换变灰歌曲链接 （网页版不支持）\n \n \n✔️ 每日自动签到（手机端和电脑端同时签到）\n \n \n🌚 Light/Dark Mode 自动切换\n \n \n👆 支持 Touch Bar\n \n \n🖥️ 支持 PWA，可在 Chrome/Edge 里点击地址栏右边的 ➕ 安装到电脑\n \n \n🟥 支持 Last.fm Scrobble\n \n \n☁️ 支持音乐云盘\n \n \n⌨️ 自定义快捷键和全局快捷键\n \n \n🛠 更多特性开发中\n \n \n📦️ 安装\n \nElectron 版本由 @hawtim 和 @qier222 适配并维护，支持 macOS、Windows、Linux。\n \n访问本项目的 Releases 页面下载安装包。\n \nmacOS 用户也可以通过 brew install --cask yesplaymusic 来安装。\n \n⚙️ 部署至 Vercel\n \n除了下载安装包使用，你还可以将本项目部署到 Vercel 或你的服务器上。下面是部署到 Vercel 的方法。\n \n \n \n 部署网易云…",
-          "link": "https://github.com/qier222/YesPlayMusic",
-          "publishedOn": "2021-09-28T00:53:53.912Z",
-          "wordCount": 909,
-          "title": "qier222/YesPlayMusic"
-        },
-        {
-          "id": "https://github.com/Kristories/awesome-guidelines",
-          "author": null,
-          "description": "A curated list of high quality coding style conventions and standards.\n\n  \n \nAwesome Guidelines \n \nA set of guidelines for a specific programming language that recommend programming style, practices, and methods for each aspect of a program written in that language.\n \nContributions welcome. Please read the contribution guidelines before contributing. Add links through pull requests or create an issue to start a discussion.\n \n \n \nMake a small donation to help us fight Covid19\n \n \nVisit kitabisa.com and dompetdhuafa.org. Your small help goes a long way. ❤️\n \n \nContents\n \n \n \nProgramming Languages\n \n \nDevelopment Environment\n \n \nPlatforms\n \n \nFrameworks\n \n \nContent Management System\n \n \nTools\n \n \nContributors\n \n \nProgramming Languages\n \nBrainfuck\n \n \n \nBF Style Guide\n \n \nC\n \n \n \nNASA C++ Codi…",
-          "link": "https://github.com/Kristories/awesome-guidelines",
-          "publishedOn": "2021-09-28T00:53:53.860Z",
-          "wordCount": 1732,
-          "title": "Kristories/awesome-guidelines"
-        },
-        {
-          "id": "https://github.com/shadowsocks/shadowsocks-windows",
-          "author": null,
-          "description": "A C# port of shadowsocks\n\n Shadowsocks for Windows\n \n \n \nFeatures\n \n \n \nConnect to Shadowsocks servers.\n \n \nAutomatically set system proxy.\n \n \nSIP002 URL scheme.\n \n \nSIP003 plugins.\n \n \nSIP008 online configuration delivery.\n \n \nDownloads\n \nDownload from releases.\n \nUsage\n \n \n \n🚀\n \n \nPAC\n \n \n \nThe PAC rules are generated from the geosite database in v2fly/domain-list-community.\n \n \nGeneration modes: whitelist mode and blacklist mode.\n \n \nDomain groups: geositeDirectGroups and geositeProxiedGroups. \n  \n \n   \ngeositeDirectGroups is initialized with cn and geolocation-!cn@cn.\n \n   \ngeositeProxiedGroups is initialized with geolocation-!cn.\n \n  \n  \n \nTo switch between different modes, modify the geositePreferDirect property in gui-config.json \n  \n \n   \nWhen geositePreferDirect is false (defaul…",
-          "link": "https://github.com/shadowsocks/shadowsocks-windows",
-          "publishedOn": "2021-09-28T00:53:53.810Z",
-          "wordCount": 902,
-          "title": "shadowsocks/shadowsocks-windows"
-        },
-        {
-          "id": "https://github.com/landley/toybox",
-          "author": null,
-          "description": "toybox\n\nToybox: all-in-one Linux command line.\n \n--- Getting started\n \nYou can download static binaries for various targets from:\n \nhttp://landley.net/toybox/bin\n \nThe special name \".\" indicates the current directory (just like \"..\" means the parent directory), and you can run a program that isn't in the $PATH by specifying a path to it, so this should work:\n \nwget http://landley.net/toybox/bin/toybox-x86_64 chmod +x toybox-x86_64 ./toybox-x86_64 echo hello world\n \n--- Building toybox\n \nType \"make help\" for build instructions.\n \nToybox uses the \"make menuconfig; make; make install\" idiom same as the Linux kernel. Usually you want something like:\n \nmake defconfig make make install\n \nOr maybe:\n \nLDFLAGS=\"--static\" CROSS_COMPILE=armv5l- make defconfig toybox PREFIX=/path/to/root/filesystem/bi…",
-          "link": "https://github.com/landley/toybox",
-          "publishedOn": "2021-09-28T00:53:53.770Z",
-          "wordCount": 1331,
-          "title": "landley/toybox"
-        },
-        {
-          "id": "https://github.com/viraptor/reverse-interview",
-          "author": null,
-          "description": "Questions to ask the company during your interview\n\nReverse interview\n \nThis is a list of questions which may be interesting to a tech job applicant. The points are not ordered and many may not apply to a given position, or work type. It was started as my personal list of questions, which grew over time to include both things I'd like to see more of and red flags which I'd like to avoid. I've also noticed how few questions were asked by people I interviewed and I think those were missed opportunities.\n \nIf you asked something not listed here, send in a PR.\n \nTranslations:\n \n \n \nArabic\n \n \nCatalan\n \n \nChinese Simplified / Traditional\n \n \nEnglish\n \n \nFrench\n \n \nGerman\n \n \nHindi\n \n \nIndonesian\n \n \nItalian\n \n \nKorean\n \n \nPortuguese (Brazilian)\n \n \nRussian\n \n \nSpanish\n \n \nTurkish\n \n \nVietnamese…",
-          "link": "https://github.com/viraptor/reverse-interview",
-          "publishedOn": "2021-09-28T00:53:53.744Z",
-          "wordCount": 1886,
-          "title": "viraptor/reverse-interview"
-        },
-        {
-          "id": "https://github.com/microsoft/muzic",
-          "author": null,
-          "description": "Muzic: Music Understanding and Generation with Artificial Intelligence\n\n \n  \n \n \nMuzic is a research project on AI music that empowers music understanding and generation with deep learning and artificial intelligence. Muzic is pronounced as [ˈmjuːzeik] and '谬贼客' (in Chinese). Besides the logo in image version (see above), Muzic also has a logo in video version (you can click here to watch ). Muzic was started by some researchers from Microsoft Research Asia.\n \n \n We summarize the scope of our Muzic project in the following figure: \n\n \n    \n \n \nThe current work in Muzic include:\n \n \n \nMusic Understanding \n  \n \n   \nSymbolic Music Understanding: MusicBERT\n \n   \nAutomatic Lyrics Transcription: PDAugment\n \n  \n  \n \nMusic Generation \n  \n \n   \nSong Writing: SongMASS\n \n   \nLyric Generation: DeepRap…",
-          "link": "https://github.com/microsoft/muzic",
-          "publishedOn": "2021-09-28T00:53:53.615Z",
-          "wordCount": 942,
-          "title": "microsoft/muzic"
-        },
-        {
-          "id": "https://github.com/davidfowl/AspNetCoreDiagnosticScenarios",
-          "author": null,
-          "description": "This repository has examples of broken patterns in ASP.NET Core applications\n\nASP.NET Core Diagnostic Scenarios\n \nThe goal of this repository is to show problematic application patterns for ASP.NET Core applications and a walk through on how to solve those issues. It shall serve as a collection of knowledge from real life application issues our customers have encountered.\n \nCommon Pitfalls writing scalable services in ASP.NET Core\n \nNext you can find some guides for writing scalable services in ASP.NET Core. Some of the guidance is general purpose but will be explained through the lens of writing web services.\n \n \n \nGeneral ASP.NET Core\n \n \nAsynchronous Programming\n \n \nNOTE: The examples shown here are based on experiences with customer applications and issues found on Github and Stack Overflow.",
-          "link": "https://github.com/davidfowl/AspNetCoreDiagnosticScenarios",
-          "publishedOn": "2021-09-28T00:53:53.491Z",
-          "wordCount": 573,
-          "title": "davidfowl/AspNetCoreDiagnosticScenarios"
-        },
-        {
-          "id": "https://github.com/illusionofchaos/ios-analyticsd-pre14.7-exploit",
-          "author": null,
-          "description": "Analyticsd pre-14.7 exploit\n \nThis vulnerability allows any user-installed app to access analytics logs (such as the ones that you can see in Settings -> Privacy -> Analytics & Improvements -> Analytics Data -> Analytics-90Day... and Analytics-Daily...). These logs contain the following information (including, but not limited to):\n \n \n \nmedical information (heart rate, count of detected atrial fibrillation and irregular heart rythm events)\n \n \nmenstrual cycle length, biological sex and age, whether user is logging sexual activity, cervical mucus quality, etc.\n \n \ndevice usage information (device pickups in different contexts, push notifications count and user's action, etc.)\n \n \nscreen time information and session count for all applications with their respective bundle IDs\n \n \ninformation …",
-          "link": "https://github.com/illusionofchaos/ios-analyticsd-pre14.7-exploit",
-          "publishedOn": "2021-09-28T00:53:53.395Z",
-          "wordCount": 892,
-          "title": "illusionofchaos/ios-analyticsd-pre14.7-exploit"
-        },
-        {
-          "id": "https://github.com/freefq/free",
-          "author": null,
-          "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子\n\n更新时间 2021-09-27 08:00\n 所有免费节点都爬取自网络，请勿用于非法用途\n \n \n  \n  \n \n   工具 \n   Android \n   Windows \n   iOS \n  \n \n  \n  \n  \n \n   v2ray \n   v2rayNG \n   v2rayN \n   OneClick \n  \n \n  \n \nv2rayN使用教程：点击查看\n \n节点导入方法\n \nCTRL+A网页全选，CTRL+C复制，右键点击任务栏v2rayN客户端图标，左键点击从剪贴板批量导入URL，即可一键导入所有v2ray节点\n \n节点更新订阅\n \n \n \nhttps://raw.fastgit.org/freefq/free/master/v2\n \n \n自建节点订阅\n \nbulink.xyz注册（要翻墙）除可订阅本页免费节点，还有每月5G自建节点免费流量，不用打卡签到长期有效，欢迎体验\n \nv2ray\n \nvmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTk5OTlcdTZlMmZNaWNyb3NvZnRcdTUxNmNcdTUzZjggMSIsICJhZGQiOiAiNjUuNTIuMTcwLjEyMCIsICJwb3J0IjogIjgwIiwgImlkIjogImYzNzFmMDYyLWUxYTMtNDM2Ni1iOWQyLTk0OGFjZDJhNjQ3ZiIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiL2hnMiIsICJ0bHMiOiAibm9uZSJ9…",
-          "link": "https://github.com/freefq/free",
-          "publishedOn": "2021-09-28T00:53:53.354Z",
-          "wordCount": 401,
-          "title": "freefq/free"
-        },
-        {
-          "id": "https://github.com/illusionofchaos/ios-gamed-0day",
-          "author": null,
-          "description": "Gamed 0-day (iOS 15.0)\n \nAny app installed from the App Store may access the following data without any prompt from the user:\n \n \n \nApple ID email and full name associated with it\n \n \nApple ID authentication token which allows to access at least one of the endpoints on *.apple.com on behalf of the user\n \n \nComplete file system read access to the Core Duet database (contains a list of contacts from Mail, SMS, iMessage, 3rd-party messaging apps and metadata about all user's interaction with these contacts (including timestamps and statistics), also some attachments (like URLs and texts))\n \n \nComplete file system read access to the Speed Dial database and the Address Book database including contact pictures and other metadata like creaton and modification dates (I've just checked on iOS 15 an…",
-          "link": "https://github.com/illusionofchaos/ios-gamed-0day",
-          "publishedOn": "2021-09-28T00:53:53.281Z",
-          "wordCount": 870,
-          "title": "illusionofchaos/ios-gamed-0day"
-        },
-        {
-          "id": "https://github.com/python-engineer/ml-study-plan",
-          "author": null,
-          "description": "The Ultimate FREE Machine Learning Study Plan\n\nThe Ultimate FREE Machine Learning Study Plan\n \nA complete study plan to become a Machine Learning Engineer with links to all FREE resources. If you finish the list you will be equipped with enough theoretical and practical experience to get started in the industry! I tried to limit the resources to a minimum, but some courses are extensive.\n \nWatch the video on YouTube for instructions:\n \n \nIMPORTANT:\n \n \n \nThis list is not sponsored by any of the mentioned links! I did a lot of the courses myself and can highly recommend them!\n \n \nThis list takes a lot of time and effort to finish if you want to do it properly! The list does not look that long, but don't underestimate it.\n \n \nHow to use the Plan:\n \n \n \nFor theory lectures: Follow along, take…",
-          "link": "https://github.com/python-engineer/ml-study-plan",
-          "publishedOn": "2021-09-28T00:53:53.234Z",
-          "wordCount": 1042,
-          "title": "python-engineer/ml-study-plan"
         }
       ]
     }
