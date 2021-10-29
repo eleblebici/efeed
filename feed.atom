@@ -2,10 +2,841 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-28T00:52:38.137Z</updated>
+    <updated>2021-10-29T00:50:59.039Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[momo0853/kkndme]]></title>
+        <id>https://github.com/momo0853/kkndme</id>
+        <link href="https://github.com/momo0853/kkndme"/>
+        <updated>2021-10-29T00:50:59.008Z</updated>
+        <summary type="html"><![CDATA[kkndme聊房，数据整理自天涯。提供HTML、PDF和Markdown三种形式。
+
+说明
+ 
+由于Github的限制(大约51万字)，Markdown版本会渲染不完整(总共85万字)，建议直接阅读HTML版本，HTML的排版和天涯是一样的，或者阅读PDF文档，也可以直接下载PDF
+ 
+ 
+ 
+整理：StoneLiu
+ 
+ 
+天涯：https://bbs.tianya.cn/m/post-house-252774-1.shtml
+ 
+ 
+GitHub：https://github.com/momo0853/kkndme
+ 
+ 
+字数：750617
+ 
+ 
+起止：2010-08-10 19:03 / 2011-07-10 09:21 
+  
+ 
+   
+2010年作者发表和回复共851次
+ 
+   
+2011年作者发表和回复共142次
+ 
+  
+  
+ 
+帖子是否被封禁过，这个情况我没有办法知道，但是我可以统计出历年来帖子的回复情况(数据统计日期是2021-08-17)，所有回帖用户以及回帖时间，点击下载回帖用户信息-users.pdf 
+  
+ 
+   
+2010年：6464次
+ 
+   
+2011年：1936次
+ 
+   
+2012年：109次
+ 
+   
+2013年：78次
+ 
+   
+2014年：39次
+ 
+   
+2015年：3次
+ 
+   
+2016年：19次
+ 
+   
+2017年：4次
+ 
+   
+2018年：2715次
+ 
+   
+2019年：975次
+ 
+   
+2020年：461次
+ 
+   
+2021年：386次
+ 
+  
+  
+ 
+是否存在删贴行为，从楼层的不连续性可以看出存在这样的情况，所有回帖用户以及回帖时间、楼层信息，点击下载回帖用户信息-users.pdf
+ 
+ 
+离线阅读(下载)
+ 
+下载之后直接用浏览器打开index.html或者kknd…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[kon9chunkit/GitHub-Chinese-Top-Charts]]></title>
+        <id>https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts</id>
+        <link href="https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts"/>
+        <updated>2021-10-29T00:50:58.551Z</updated>
+        <summary type="html"><![CDATA[🇨🇳 GitHub中文排行榜，帮助你发现高分优秀中文项目、更高效地吸收国人的优秀经验成果；榜单每周更新一次，敬请关注！
+
+
+ 
+榜单设立目的
+ 
+ 
+ 
+🇨🇳 GitHub中文排行榜，帮助你发现高分优秀中文项目；
+ 
+ 
+各位开发者伙伴可以更高效地吸收国人的优秀经验、成果；
+ 
+ 
+中文项目只能满足阶段性的需求，想要有进一步提升，还请多花时间学习高分神级英文项目；
+ 
+ 
+榜单设立范围
+ 
+ 
+ 
+设立1个总榜（所有语言项目汇总排名）、18个分榜（单个语言项目排名）；
+ 
+ 
+榜单入选规则
+ 
+ 
+ 
+一个小小的要求：项目的 Description 和 README.md 都要包含中文说明；
+ 
+ 
+更新越持续越好：最近半年内有更新过的项目才有机会入选（拥抱活跃，远离僵尸）；
+ 
+ 
+Stars 越多越好：在满足持续更新的前提条件下，各榜根据 Stars 对项目进行排序；
+ 
+ 
+榜单更新频率
+ 
+ 
+ 
+每周更新一次，最近更新时间为2021年10月25日；
+ 
+ 
+License
+ 
+ 
+ 
+本仓库内容的定义、创建、更新维护均由本人发起与推进，在您引用本仓库内容、转载文章时，请在开头明显处标明作者及页面地址，谢谢；
+ 
+ 
+ 
+目录
+ 
+ 
+ 
+ 总榜
+ 
+  
+ 
+   
+All Language
+ 
+  
+  
+ 
+ 分榜
+ 
+  
+ 
+   
+Java
+ 
+   
+Python
+ 
+   
+Go
+ 
+   
+PHP
+ 
+   
+JavaScript
+ 
+   
+Vue
+ 
+   
+CSS
+ 
+   
+HTML
+ 
+   
+Objective-C
+ 
+   
+Swift
+ 
+   
+Jupyter Notebook
+ 
+   
+Shell
+ 
+   
+C
+ 
+   
+C++
+ 
+   
+C#
+ 
+   
+Dart
+ 
+   
+TeX
+ 
+   
+Vim scr…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[axios/axios]]></title>
+        <id>https://github.com/axios/axios</id>
+        <link href="https://github.com/axios/axios"/>
+        <updated>2021-10-29T00:50:58.299Z</updated>
+        <summary type="html"><![CDATA[Promise based HTTP client for the browser and node.js
+
+axios
+ 
+        
+ 
+Promise based HTTP client for the browser and node.js
+ 
+ 
+ 
+New axios docs website: click here
+ 
+ 
+Table of Contents
+ 
+ 
+ 
+Features
+ 
+ 
+Browser Support
+ 
+ 
+Installing
+ 
+ 
+Example
+ 
+ 
+Axios API
+ 
+ 
+Request method aliases
+ 
+ 
+Concurrency (Deprecated)
+ 
+ 
+Creating an instance
+ 
+ 
+Instance methods
+ 
+ 
+Request Config
+ 
+ 
+Response Schema
+ 
+ 
+Config Defaults 
+  
+ 
+   
+Global axios defaults
+ 
+   
+Custom instance defaults
+ 
+   
+Config order of precedence
+ 
+  
+  
+ 
+Interceptors
+ 
+ 
+Handling Errors
+ 
+ 
+Cancellation
+ 
+ 
+Using application/x-www-form-urlencoded format 
+  
+ 
+   
+Browser
+ 
+   
+Node.js 
+    
+ 
+     
+Query string
+ 
+     
+Form data
+ 
+    
+  
+  
+  
+ 
+Semver
+ 
+ 
+Promises
+ 
+ 
+TypeScript
+ 
+ 
+Resources
+ 
+ 
+Credits
+ 
+ 
+Licen…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[dgiot/dgiot]]></title>
+        <id>https://github.com/dgiot/dgiot</id>
+        <link href="https://github.com/dgiot/dgiot"/>
+        <updated>2021-10-29T00:50:58.211Z</updated>
+        <summary type="html"><![CDATA[DG-IoT，Open-source IoT Platform - Connect management,Device management,Data collection, Processing and Visualization.High concurrency, light weight, low code, fast access, free platform. Industry SaaS for IoT Platform.物联网开源平台，物联网平台开发，连接管理、设备管理、多工业协议兼容、数据采集、可视化开发、高并发、轻量级、低代码、快接入、平台免费。
+
+DGIOT
+ 
+   
+ 
+English | 简体中文 | 日本語 | русский
+ 
+DGIOT is the first lightweight open source industrial IoT continuous integration platform in China
+ 
+Before 2016, the Shuwa team had been crawling on the Internet and the mobile Internet for many years. In 2016, it began to enter the Internet of Things crawling. It hopes to share many years of crawling experience through this open source platform and make multidisciplinary industrial Internet projects easier.
+ 
+ 
+ 
+Let rich engineers to complete industrial Intern…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sveltejs/svelte]]></title>
+        <id>https://github.com/sveltejs/svelte</id>
+        <link href="https://github.com/sveltejs/svelte"/>
+        <updated>2021-10-29T00:50:58.165Z</updated>
+        <summary type="html"><![CDATA[Cybernetically enhanced web apps
+
+
+ 
+  
+ 
+What is Svelte?
+ 
+Svelte is a new way to build web applications. It's a compiler that takes your declarative components and converts them into efficient JavaScript that surgically updates the DOM.
+ 
+Learn more at the Svelte website, or stop by the Discord chatroom.
+ 
+Supporting Svelte
+ 
+Svelte is an MIT-licensed open source project with its ongoing development made possible entirely by fantastic volunteers. If you'd like to support their efforts, please consider:
+ 
+ 
+ 
+Becoming a backer on Open Collective.
+ 
+ 
+Funds donated via Open Collective will be used for compensating expenses related to Svelte's development such as hosting costs. If sufficient donations are received, funds may also be used to support Svelte's development more directly.
+ 
+Deve…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vandadnp/flutter-tips-and-tricks]]></title>
+        <id>https://github.com/vandadnp/flutter-tips-and-tricks</id>
+        <link href="https://github.com/vandadnp/flutter-tips-and-tricks"/>
+        <updated>2021-10-29T00:50:58.116Z</updated>
+        <summary type="html"><![CDATA[A Collection of Flutter and Dart Tips and Tricks
+
+Table of Contents
+ 
+ 
+ 
+Circular Progress with Percentage in Flutter
+ 
+ 
+Opening URLs in Flutter
+ 
+ 
+Commodore 64 Screen in Flutter
+ 
+ 
+Animated Lists in Flutter
+ 
+ 
+CheckboxListTile in Flutter
+ 
+ 
+- Operator on String in Dart
+ 
+ 
+Dart Progress for Future<T>
+ 
+ 
+Move Widget Shadows with Animation
+ 
+ 
+Gallery with Blurred Backgrounds in Flutter
+ 
+ 
+Custom Path Clippers in Flutter
+ 
+ 
+Frost Effect on Images in Flutter
+ 
+ 
+Custom Clippers in Flutter
+ 
+ 
+Check if Website is Up or Down in Dart
+ 
+ 
+Section Titles on ListView in Flutter
+ 
+ 
+Circular Progress in Flutter
+ 
+ 
+Displaying Scroll Wheels in Flutter
+ 
+ 
+Post Messages to Slack with Dart
+ 
+ 
+Unwrap List<T?>? in Dart
+ 
+ 
+Avoiding UI Jitters When Switching Widgets in Flutter
+ 
+ 
+Detect Redire…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[liuhuigmail/GrowingBugRepository]]></title>
+        <id>https://github.com/liuhuigmail/GrowingBugRepository</id>
+        <link href="https://github.com/liuhuigmail/GrowingBugRepository"/>
+        <updated>2021-10-29T00:50:58.037Z</updated>
+        <summary type="html"><![CDATA[A bug repository that keeps growing
+
+A bug repository that keeps growing, called growingBugs
+ 
+Notably, each bug is composed of a buggy version, a fixed version, a concise patch (bug-fixing changes only), and one or more triggering test cases.
+ 
+Contents of growingBugs
+ 
+To date, growingBugs contains 1379 bugs from open-source Java projects.
+ 
+ 
+  
+  
+ 
+    
+   Project ID 
+   Project name 
+   SubProject name 
+   Number of bugs 
+   Bug IDs 
+  
+ 
+  
+  
+  
+ 
+   1 
+   Chart 
+   jfreechart 
+    
+   26 
+   1-26 
+  
+ 
+  
+ 
+   2 
+   Cli 
+   commons-cli 
+    
+   41 
+   1-5,7-42 
+  
+ 
+  
+ 
+   3 
+   Closure 
+   closure-compiler 
+    
+   174 
+   1-62,64-92,94-176 
+  
+ 
+  
+ 
+   4 
+   Codec 
+   commons-codec 
+    
+   18 
+   1-18 
+  
+ 
+  
+ 
+   5 
+   Collections 
+   commons-collections 
+    
+   8 
+   25-3…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LinusHenze/Fugu14]]></title>
+        <id>https://github.com/LinusHenze/Fugu14</id>
+        <link href="https://github.com/LinusHenze/Fugu14"/>
+        <updated>2021-10-29T00:50:57.992Z</updated>
+        <summary type="html"><![CDATA[Fugu14 is an untethered iOS 14.3-14.5.1 jailbreak
+
+Fugu14 - Untethered iOS 14 Jailbreak
+ 
+Fugu14 is an (incomplete) iOS 14 Jailbreak, including an untether (persistence), kernel exploit, kernel PAC bypass and PPL bypass. The CVE numbers of the vulnerabilities are: CVE-2021-30740, CVE-2021-30768, CVE-2021-30769, CVE-2021-30770 and CVE-2021-30773.
+ 
+Supported Devices/iOS Versions
+ 
+Fugu14 should support all arm64e devices (iPhone XS and newer) on iOS 14.3 - 14.5.1.
+ Support for lower versions (down to 14.2) can be added by editing arm/shared/ClosurePwn/Sources/ClosurePwn/PwnClosure.swift and arm/shared/KernelExploit/Sources/KernelExploit/offsets.swift.
+ 
+arm64 devices are not supported because the exploit to install the Fugu14 App does not work on these devices.
+ However, it is in theory pos…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mattleong/CosmicNvim]]></title>
+        <id>https://github.com/mattleong/CosmicNvim</id>
+        <link href="https://github.com/mattleong/CosmicNvim"/>
+        <updated>2021-10-29T00:50:57.958Z</updated>
+        <summary type="html"><![CDATA[CosmicNvim is a lightweight and opinionated Neovim config for web development, specifically designed to provide a 💫 COSMIC programming experience!
+
+💫 CosmicNvim
+ 
+     
+ 
+CosmicNvim is a lightweight and opinionated Neovim config for web development, specifically designed to provide a 💫 COSMIC programming experience!
+ 
+🚀 Stellar Features
+ 
+Native LSP
+ 
+Full featured native LSP functionality!
+ 
+ 
+ 
+📘 Go-to definition
+ 
+ 
+🔍 Find references/type def/declaration
+ 
+ 
+💡 Code actions
+ 
+ 
+🚨 Statusline diagnostics
+ 
+ 
+⚠️ Linting thanks to eslint
+ 
+ 
+🔧 Formatting thanks to efm
+ 
+ 
+Additional features
+ 
+ 
+ 
+Amazing colors thanks to tokyonight.nvim
+ 
+ 
+Enhanced syntax highlighting with nvim-treesitter
+ 
+ 
+Hand-built statusline with galaxyline
+ 
+ 
+Explore files with nvim-tree
+ 
+ 
+Fuzzy finder a…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[slidoooor/computer_book_list]]></title>
+        <id>https://github.com/slidoooor/computer_book_list</id>
+        <link href="https://github.com/slidoooor/computer_book_list"/>
+        <updated>2021-10-29T00:50:57.920Z</updated>
+        <summary type="html"><![CDATA[一个综合了豆瓣，goodreads综合评分的计算机书籍书单
+
+computer_book_list
+ 
+一个综合了豆瓣，goodreads综合评分的计算机书籍书单
+ 
+介绍
+ 
+整理了豆瓣和goodreads的和计算机，互联网有关的几乎所有书籍，根据不同版本，两个平台的总评价人数和评分求出平均分，按从高到低排列，希望能对寻找经典计算机书籍的朋友提供帮助，排序仅供参考，评分的高低不一定代表书籍的真正质量
+ 
+评分计算
+ 
+ 
+ 
+豆瓣的评分为10分制，goodreads评分为5分制，所以在统计的时候会将goodreads的分数乘2来统计，下述表格的分数为10分制
+ 
+ 
+目前入选的书籍是各版本在两个平台总评价人数>500，后续会再列出>100的一个列表，会有更多新出版/小众的书籍
+ 
+ 
+书名转向的链接为对应书籍在豆瓣的有评分且比较相对新版本的链接，不一定是最新版，有可能最新版本还没有出评分，或最新版为英文版等，后续会进一步整理
+ 
+ 
+后续待补充内容
+ 
+数据目前还在简单检查，后续定义好格式后会将下述内容添加到表格：
+ 
+ 
+ 
+提供英文版本（正在）
+ 
+ 
+表格中的每本书可以点击展开折叠，提供每本书不同版本的详细信息，豆瓣和googreads链接，每本的评分等
+ 
+ 
+提供每本书的相关tag，方便筛选（正在）
+ 
+ 
+因某些书籍可能由于某一版本的翻译/质量问题会拉低平均分，提供单本书的排行列表
+ 
+ 
+提供人数大于100的排行
+ 
+ 
+提供单本(不考虑同一本书的所有其他版次)的排行
+ 
+ 
+图书列表
+ 
+ 
+  
+  
+ 
+   书名 
+   评分 
+   总人数 
+   作者 / 译者 
+  
+ 
+  
+  
+  
+ 
+   深入理解计算机系统 
+   9.58 
+   9484人 
+   [美] Randal E.Bryant / [美] David O' Halla…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mltframework/shotcut]]></title>
+        <id>https://github.com/mltframework/shotcut</id>
+        <link href="https://github.com/mltframework/shotcut"/>
+        <updated>2021-10-29T00:50:57.809Z</updated>
+        <summary type="html"><![CDATA[cross-platform (Qt), open-source (GPLv3) video editor
+
+  
+ 
+Shotcut - a free, open source, cross-platform video editor
+ 
+ 
+  
+ 
+ 
+ 
+Features: https://www.shotcut.org/features/
+ 
+ 
+Roadmap: https://www.shotcut.org/roadmap/
+ 
+ 
+Install
+ 
+Binaries are regularly built and are available at https://www.shotcut.org, on the Download page.
+ 
+Contributors
+ 
+ 
+ 
+Dan Dennedy <http://www.dennedy.org> : main author
+ 
+ 
+Brian Matherly <code@brianmatherly.com> : contributor
+ 
+ 
+Dependencies
+ 
+Shotcut's direct (linked or hard runtime) dependencies are:
+ 
+ 
+ 
+MLT: multimedia authoring framework
+ 
+ 
+Qt 5: application and UI framework
+ 
+ 
+FFmpeg: multimedia format and codec libraries
+ 
+ 
+Frei0r: video plugins
+ 
+ 
+SDL: cross-platform audio playback
+ 
+ 
+See https://shotcut.org/credits/ for a more complete list …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[nuta/kerla]]></title>
+        <id>https://github.com/nuta/kerla</id>
+        <link href="https://github.com/nuta/kerla"/>
+        <updated>2021-10-29T00:50:57.730Z</updated>
+        <summary type="html"><![CDATA[A new operating system kernel with Linux binary compatibility written in Rust.
+
+Kerla
+ 
+
+ 
+
+ 
+Kerla is a monolithic operating system kernel from scratch in Rust which aims to be compatible with the Linux ABI, that is, runs Linux binaries without any modifications.
+ 
+ 
+ 
+Implements *NIX process concepts: context switching, signals, fork(2), execve(2), wait4(2), etc.
+ 
+ 
+Supports commonly used system calls like write(2), stat(2), mmap(2), pipe(2), poll(2), ...
+ 
+ 
+No disk support for now: initramfs is mounted as the root file system.
+ 
+ 
+Pseudo file systems: tmpfs and devfs.
+ 
+ 
+smoltcp-based TCP/IP support.
+ 
+ 
+Implements tty and pseudo terminal (pty).
+ 
+ 
+Supports QEMU and Firecracker (with virtio-net device driver).
+ 
+ 
+Supports x86_64.
+ 
+ 
+Docker-based initramfs build system.
+ 
+ 
+Check o…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Feel the fear and do it anyway!]]></title>
+        <id>https://www.cncf.io/?p=65351</id>
+        <link href="https://www.cncf.io/blog/2021/10/28/feel-the-fear-and-do-it-anyway/"/>
+        <updated>2021-10-28T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Community Guest post By Paula Kennedy, Chief Operating Officer at Syntasso It’s a strange feeling when you realise that even though you’ve worked in a space for more than 4 years, you’ve...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[apache/superset]]></title>
         <id>https://github.com/apache/superset</id>
@@ -17007,802 +17838,6 @@ Screenshots]]></summary>
         <link href="https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/"/>
         <updated>2021-09-29T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[Guest post by Laurent Gil, Co-Founder, Chief Product Officer at CAST.AI Managing cloud costs is a balancing act. Scaling cloud resources is so easy that it often leads companies to lose control...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[apache/incubator-shenyu]]></title>
-        <id>https://github.com/apache/incubator-shenyu</id>
-        <link href="https://github.com/apache/incubator-shenyu"/>
-        <updated>2021-09-29T00:51:11.712Z</updated>
-        <summary type="html"><![CDATA[ShenYu is High-Performance Java API Gateway.
-
-  
- 
- Scalable, High Performance, Responsive API Gateway Solution for all MicroServices 
- 
- https://shenyu.apache.org/ 
- 
- English | 简体中文 
- 
-                         
- 
- 
- 
-Architecture
- 
-
- 
- 
-Features
- 
- 
- 
- ShenYu provides ability such as current limiting, fusing, forwarding, routing monitoring and so on by its plugins.
-  
- 
- Support HTTP, RESTFul, WebSocket, Dubbo, GRPC, Tars and Spring Cloud Proxy.
-  
- 
- Plug-in hot plug, users can customize the development.
-  
- 
- Selectors and rules are dynamically configured for flexible matching.
-  
- 
- Support for cluster deployment.
-  
- 
- Support A/B test and grayscale publishing.
-  
- 
- 
-Plugin
- 
-Whenever a request comes in, ShenYu will execute it by all enabled plugins through the chain of responsibili…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[apolloconfig/apollo]]></title>
-        <id>https://github.com/apolloconfig/apollo</id>
-        <link href="https://github.com/apolloconfig/apollo"/>
-        <updated>2021-09-29T00:51:11.668Z</updated>
-        <summary type="html"><![CDATA[Apollo is a reliable configuration management system suitable for microservice configuration management scenarios.
- 
-Apollo - A reliable configuration management system
- 
-    
- 
-Apollo is a reliable configuration management system. It can centrally manage the configurations of different applications and different clusters. It is suitable for microservice configuration management scenarios.
- 
-The server side is developed based on Spring Boot and Spring Cloud, which can simply run without the need to install additional application containers such as Tomcat.
- 
-The Java SDK does not rely on any framework and can run in all Java runtime environments. It also has good support for Spring/Spring Boot environments.
- 
-The .Net SDK does not rely on any framework and can run in all .Net runtime enviro…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[YunaiV/ruoyi-vue-pro]]></title>
-        <id>https://github.com/YunaiV/ruoyi-vue-pro</id>
-        <link href="https://github.com/YunaiV/ruoyi-vue-pro"/>
-        <updated>2021-09-29T00:51:11.563Z</updated>
-        <summary type="html"><![CDATA[基于SpringBoot，Spring Security，JWT，Vue & Element 的前后端分离权限管理系统
-
-平台简介
- 
-芋道，一套全部开源的企业级的快速开发平台，毫无保留给个人及企业免费使用。
- 
- 
- 
-有任何问题，或者想要的功能，可以在 Issues 中提给艿艿。
- 
- 
- 
- 
-前端采用 vue-element-admin。
- 
- 
-后端采用 Spring Boot、MySQL、Redis。
- 
- 
-权限认证使用 Spring Security & Token，支持多终端认证系统。
- 
- 
-支持加载动态权限菜单，多方式轻松权限控制。
- 
- 
-高效率开发，使用代码生成器可以一键生成前后端代码。
- 
- 
-内置功能
- 
-分成三种内置功能：
- 
- 
- 
-系统功能
- 
- 
-基础设施
- 
- 
-研发工具
- 
- 
- 
- 
-友情提示：本项目基于 RuoYi-Vue 修改，重构优化后端的代码，美化前端的界面。
- 
- 
-额外新增的功能，我们使用 🚀 标记。
- 
- 
-🙂 所有功能，都通过 单元测试 保证高质量。
- 
-系统功能
- 
- 
-  
-  
- 
-    
-   功能 
-   描述 
-  
- 
-  
-  
-  
- 
-    
-   用户管理 
-   用户是系统操作者，该功能主要完成系统用户配置 
-  
- 
-  
- 
-    
-   在线用户 
-   当前系统中活跃用户状态监控，支持手动踢下线 
-  
- 
-  
- 
-    
-   角色管理 
-   角色菜单权限分配、设置角色按机构进行数据范围权限划分 
-  
- 
-  
- 
-    
-   菜单管理 
-   配置系统菜单，操作权限，按钮权限标识等 
-  
- 
-  
- 
-    
-   部门管理 
-   配置系统组织机构（公司、部门、小组），树结构展现支持数据权限 
-  
- 
-  
- 
-    
-   岗位管理 
-   配置…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[chithakumar13/FUT-Auto-Buyer]]></title>
-        <id>https://github.com/chithakumar13/FUT-Auto-Buyer</id>
-        <link href="https://github.com/chithakumar13/FUT-Auto-Buyer"/>
-        <updated>2021-09-29T00:51:11.511Z</updated>
-        <summary type="html"><![CDATA[Fifa 21 AutoBuyer / Snipping Bot for fifa 21 ultimate team web app with captcha solver
-
-Fifa21-AutoBuyer
- 
-    
- 
- 
-Fifa21 AutoBuyer
- 
- FIFA 21 Auto Buyer For Web App! 
-  Report Bug · Request Feature . Subscribe 
-Must Read 🚫
- 
-These tool is developed to demonstrate how someone can develop script to break our web application by automating stuffs and only for learning purpose.
- 
-EA might (soft) ban from using transfer market in web app for using this tool. Continuously soft ban might lead to permanent ban as well. Also use of tools like this to gain advantage over other players is not ethically right.
- 
-Use this tool at your own risk, any developers contributing to this repo won’t held responsibility if your account gets banned.
- 
-
- 
-
- 
- 
-Table of Contents
- 
- 
- 
-Installation
- 
- 
-AutoSolve C…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Developer-Y/cs-video-courses]]></title>
-        <id>https://github.com/Developer-Y/cs-video-courses</id>
-        <link href="https://github.com/Developer-Y/cs-video-courses"/>
-        <updated>2021-09-29T00:51:11.471Z</updated>
-        <summary type="html"><![CDATA[List of Computer Science courses with video lectures.
-
-Computer Science courses with video lectures
- 
-Introduction
- 
- 
- 
-Please check NOTES for general information about this list.
- 
- 
-Please refer CONTRIBUTING.md for contribution guidelines.
- 
- 
- 
-Table of Contents
- 
- 
- 
-Introduction to Computer Science
- 
- 
-Data Structures and Algorithms
- 
- 
-Systems Programming
- 
- 
-Database Systems
- 
- 
-Software Engineering
- 
- 
-Artificial Intelligence
- 
- 
-Machine Learning
- 
- 
-Web Programming and Internet Technologies
- 
- 
-Computer Networks
- 
- 
-Math for Computer Scientist
- 
- 
-Theoretical CS and Programming Languages
- 
- 
-Embedded Systems
- 
- 
-Computer Organization and Architecture
- 
- 
-Security
- 
- 
-Computer Graphics
- 
- 
-Image Processing and Computer Vision
- 
- 
-Computational Biology
- 
- 
-Quantum Computing
- 
- 
-Rob…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lux-AI-Challenge/Lux-Design-2021]]></title>
-        <id>https://github.com/Lux-AI-Challenge/Lux-Design-2021</id>
-        <link href="https://github.com/Lux-AI-Challenge/Lux-Design-2021"/>
-        <updated>2021-09-29T00:51:11.410Z</updated>
-        <summary type="html"><![CDATA[Home to the design and engine of the @Lux-AI-Challenge Season 1, hosted on @Kaggle
-
-Lux AI Challenge: Season 1
- 
-The night is dark and full of terrors. Two teams must fight off the darkness, collect resources, and advance through the ages. Daytime finds a desperate rush to gather and build the resources that can carry you through the impending night. Plan and expand carefully -- any city that fails to produce enough light will be consumed by darkness.
- 
-Welcome to the Lux AI Challenge Season 1!
- 
- 
-The Lux AI Challenge is a competition where competitors design agents to tackle a multi-variable optimization, resource gathering, and allocation problem in a 1v1 scenario against other competitors. In addition to optimization, successful agents must be capable of analyzing their opponents and d…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sairyss/domain-driven-hexagon]]></title>
-        <id>https://github.com/Sairyss/domain-driven-hexagon</id>
-        <link href="https://github.com/Sairyss/domain-driven-hexagon"/>
-        <updated>2021-09-29T00:51:11.358Z</updated>
-        <summary type="html"><![CDATA[Guide on Domain-Driven Design, Hexagonal architecture, best practices etc.
-
-September update:
- 
-There are a lot of updates to this repo lately:
- 
-Added more code examples:
- 
- 
- 
-Added UnitOfWork
- 
- 
-All Domain Events can now be executed in a single database transaction using a UnitOfWork
- 
- 
-Added Wallet module to show an example of using a UnitOfWork together with Domain Events
- 
- 
-Added BDD tests example
- 
- 
-Added GraphQL examples
- 
- 
-Added Domain Events
- 
- 
-Refactoring:
- 
- 
- 
-Refactored Domain Events and Domain Events Handlers
- 
- 
-Commands are now plain objects
- 
- 
-Moved generic files to /libs directory
- 
- 
-Refactored Entity/Aggregate creation
- 
- 
-Using a command bus instead of importing a service directly
- 
- 
-And more
- 
- 
-Updates in readme and code:
- 
- 
- 
-My opinion on some topics evol…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[flipped-aurora/gin-vue-admin]]></title>
-        <id>https://github.com/flipped-aurora/gin-vue-admin</id>
-        <link href="https://github.com/flipped-aurora/gin-vue-admin"/>
-        <updated>2021-09-29T00:51:11.231Z</updated>
-        <summary type="html"><![CDATA[基于vite+vue3+gin搭建的开发基础平台，集成jwt鉴权，权限管理，动态路由，分页封装，多点登录拦截，资源权限，上传下载，代码生成器，表单生成器等开发必备功能，五分钟一套CURD前后端代码，欢迎issue和pr~
-
- 
-  
- 
- 
-  
-  
-  
-  
-  
- 
-English | 简体中文
- 
-gitee地址: https://gitee.com/pixelmax/gin-vue-admin
- 
-github地址: https://github.com/flipped-aurora/gin-vue-admin
- 
-插件仓库以及开发规范:https://github.com/flipped-aurora/gva-plugins
- 
-审批流分支: https://github.com/flipped-aurora/gin-vue-admin/tree/gva_workflow
- 
-项目文档
- 
-在线文档 : https://www.gin-vue-admin.com
- 
-初始化
- 
-从环境到部署教学视频
- 
-开发教学 (贡献者: LLemonGreen And Fann)
- 
-重要提示
- 
-1.本项目从起步到开发到部署均有文档和详细视频教程
- 
-2.本项目需要您有一定的golang和vue基础
- 
-3.您完全可以通过我们的教程和文档完成一切操作，因此我们不再提供免费的技术服务，如需服务请进行付费支持
- 
-1. 基本介绍
- 
-1.1 项目介绍
- 
- 
- 
-Gin-vue-admin是一个基于 vue 和 gin 开发的全栈前后端分离的开发基础平台，集成jwt鉴权，动态路由，动态菜单，casbin鉴权，表单生成器，代码生成器等功能，提供多种示例文件，让您把更多时间专注在业务开发上。
- 
- 
-在线预览: http://demo.gin-vue-admin.com
- 
-测…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CyC2018/CS-Notes]]></title>
-        <id>https://github.com/CyC2018/CS-Notes</id>
-        <link href="https://github.com/CyC2018/CS-Notes"/>
-        <updated>2021-09-29T00:51:11.187Z</updated>
-        <summary type="html"><![CDATA[📚 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计
-
- 
-   
-   
-   
-   
-   --> 
-   --> 
- 
- 
- 
-  
-  
- 
-   算法  
-   操作系统 
-   网络  
-   面向对象 
-    数据库   
-    Java   
-   系统设计 
-     工具   
-   编码实践 
-     后记   
-  
- 
-  
-  
-  
- 
-   ✏ 
-   💻 
-   ☁ 
-   🎨 
-   💾 
-   ☕ 
-   💡 
-   🔧 
-   🍉 
-   📝 
-  
- 
-  
- 
- 
- 
-  
- 
- 
-✏ 算法
- 
- 
- 
-剑指 Offer 题解
- 
- 
-Leetcode 题解
- 
- 
-算法
- 
- 
-字节跳动内推
- 
- 
-💻 操作系统
- 
- 
- 
-计算机操作系统
- 
- 
-Linux
- 
- 
-☁ 网络
- 
- 
- 
-计算机网络
- 
- 
-HTTP
- 
- 
-Socket
- 
- 
-💾 数据库
- 
- 
- 
-数据库系统原理
- 
- 
-SQL 语法
- 
- 
-SQL 练习
- 
- 
-MySQL
- 
- 
-Redis
- 
- 
-☕ Java
- 
- 
- 
-Java 基础
- 
- 
-Java 容器
- 
- 
-Java 并发
- 
- 
-Java 虚拟机
- 
- 
-Java I/O
- 
- 
-💡 系统设计
- 
- 
- 
-系统设计基础
- 
- 
-分布式
- 
- 
-集群
- 
- 
-攻击技术
- 
- 
-缓存
- 
- 
-消息队列
- 
- 
-🎨 面向对象
- 
- 
- 
-面向对象思想
- 
- 
-设计模式
- 
- 
-🔧 工具
- 
- 
- 
-Git
- 
- 
-Docker
- 
- 
-构建工具
- 
- 
-正则表达式
- 
- 
-🍉 编码实践
- 
- 
- 
-代码可读性
- 
- 
-代码风格规范
- 
- 
-📝 后记
- 
-排版
- 
-笔记内容按照 中文文案排版指北 进行排版，以保证内容的可读性。
- 
-不使用 ![]() 这种方式来引用图片，而是用 <img> 标签。一方面是为了能够控制图片以合适的大小显示，另一方面是因为 GFM 不支持 <center> ![]() </center> 这种方法让图片居中显示，只能使用 <div align="center"> <img src=""/> </div> 达到居中的效果。
- 
-在线排版工具：Text-Typesetting。
- 
-License
- 
-本仓库的内容不是将网上的资料随意拼凑而来，除了少部分引用书上和技术文档的原文（这部分内容都在末尾的参考链接中加了出处），其余都是我的原创。在您引用本仓库内容或者对内容进行修改演绎时，请署名并以相同方式共享，谢谢。
- 
-转载文章请在开头明显处标明该页面地址，公众号等其它转载请联系 zhengyc101@163.com。
- 
-Logo：logomakr
- 
-
- 
-致谢
- 
-感谢以下人员对本仓库做出的贡献，当然不仅仅只有这些贡献者，这里就不一一列举了。如果你希望被添加到这个名单中，并且提交过 Issue 或者 PR，请与我联系。]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[lyrric/seckill]]></title>
-        <id>https://github.com/lyrric/seckill</id>
-        <link href="https://github.com/lyrric/seckill"/>
-        <updated>2021-09-29T00:51:11.151Z</updated>
-        <summary type="html"><![CDATA[苗苗 约苗 九价 秒杀 脚本
-
-约苗秒杀
- 
-共享资源，仅能用于学习，请勿用于商业。
- Sharing of resources, can only be used for learning, not for business！！！
- 
-更新日志
- 
- 
- 
-2021.09.06 v1.5根据小程序的逻辑，修改了单线程版本的逻辑，使的单线程版本更加符合人为操作。
- 也修改了接口返回的cookie不会覆盖手工录入的cookie bug
- 在单线程版本未能成功抢到之前，不会再更新多线程版本
- 关于ecc-hs参数的猜想，ecc-hs参数的加密源来源于checkstock2接口返回的st时间，而该接口返回时会设置一个cookie，类似于b0612=afedbfbcd，其中b0612很明显是跟疫苗的id有关系的，疫苗id不同，key也不同
- 
- 
-2021.05.25 v1.4长时间未抢到，目测是加密参数ecc-hs起作用了，之前忙一直用的是假的ecc-hs，所以完善了加密参数，增加了单线程版本在single-thread分支
- 
- 
-2020.09.25 v1.3增加了加密参数ecc-hs（目前无用），秒杀时间提前至两秒，加大了并发数量
- 
- 
-2020.09.17 v1.2增加了地区选择功能
- 
- 
-2020.08.14 V1.1增加了控制台模式，通过java -jar sec-kill.jar -c 进入
- 优化了交互，减少了并发的数量避免操作频繁
- 
- 
-2020.08.11 优化了req-header的解析，目测可以万能解析；优化了交互
- 
- 
-2020.08.10 最终版，经测试已经成功抢到，不会添加新的功能了，不过后期还是会维护
- 
- 
-2020.08.07 小程序版秒杀V1.0，基本测试99.99%（如果有BUG，那就是那0.01%）
- 
- 
-2020.08.07 …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RandomThings23/donut]]></title>
-        <id>https://github.com/RandomThings23/donut</id>
-        <link href="https://github.com/RandomThings23/donut"/>
-        <updated>2021-09-29T00:51:11.095Z</updated>
-        <summary type="html"><![CDATA[DONUTS DONUTS DONUTS 🍩
-
-Donuts! 🍩
- 
-
- 
-Donuts for all your donut needs! See the YouTube video: youtu.be/D26bLJ9ut88
- 
-
- 
-Based on spinning ASCII Donut: a1k0n.net/2011/07/20/donut-math
- 
-Flavors
- 
- 
- 
-C 
- 
-Python
- 
- 
-Reference
- 
- 
- 
-https://gist.github.com/gcr/1075131
- 
- 
-https://github.com/hadal1337/ASCII-Doughnut/blob/master/ASCII%20Doughnut.cpp
- 
- 
-License]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inside the Numbers: The KubeCon + CloudNativeCon selection process for China 2021 – Virtual]]></title>
-        <id>https://www.cncf.io/?p=64840</id>
-        <link href="https://www.cncf.io/blog/2021/09/28/inside-the-numbers-the-kubecon-cloudnativecon-selection-process-for-china-2021-virtual/"/>
-        <updated>2021-09-28T16:30:00.000Z</updated>
-        <summary type="html"><![CDATA[As part of our commitment to transparency within the cloud native community, we are providing an inside look into the work that goes on behind the scenes to bring the KubeCon +...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Native Computing Foundation Announces Agenda for KubeCon + CloudNativeCon + Open Source Summit China Virtual 2021]]></title>
-        <id>https://www.cncf.io/?p=64836</id>
-        <link href="https://www.cncf.io/announcements/2021/09/28/cloud-native-computing-foundation-announces-agenda-for-kubecon-cloudnativecon-open-source-summit-china-virtual-2021/"/>
-        <updated>2021-09-28T16:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Back after a year break, the biggest open source event in China will offer an up-close look at exciting innovations and provide attendees with valuable insights into the cloud native ecosystem  SAN...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitOps 101: What’s it all about?]]></title>
-        <id>https://www.cncf.io/?p=64822</id>
-        <link href="https://www.cncf.io/blog/2021/09/28/gitops-101-whats-it-all-about/"/>
-        <updated>2021-09-28T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post originally published on Magalix‘ blog by Andrew Zola If you think GitOps sounds a bit like DevOps, you would be right. GitOps is essentially an operational framework that uses DevOps best practices. In...]]></summary>
         <author>
             <name>Jessie</name>
         </author>
