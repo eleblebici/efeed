@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=65353",
+          "author": "Jessie",
+          "description": "Guest post originally published on Snapt’s blog by Mark Trent Upgrading an organization’s tech infrastructure can be a tricky affair. On the one hand, there are technical people who are eager to...",
+          "link": "https://www.cncf.io/blog/2021/10/29/how-to-justify-infrastructure-replacement-to-your-manager/",
+          "publishedOn": "2021-10-29T15:00:00.000Z",
+          "wordCount": 1909,
+          "title": "How to justify infrastructure replacement to your manager"
+        },
+        {
           "id": "https://www.cncf.io/?p=65351",
           "author": "Jessie",
           "description": "Community Guest post By Paula Kennedy, Chief Operating Officer at Syntasso It’s a strange feeling when you realise that even though you’ve worked in a space for more than 4 years, you’ve...",
@@ -317,15 +326,6 @@
           "publishedOn": "2021-09-30T15:00:00.000Z",
           "wordCount": 1733,
           "title": "How to get robust GitOps? The U.S. Department of Defense uses Flux and Helm"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64827",
-          "author": "Jessie",
-          "description": "Guest post by Laurent Gil, Co-Founder, Chief Product Officer at CAST.AI Managing cloud costs is a balancing act. Scaling cloud resources is so easy that it often leads companies to lose control...",
-          "link": "https://www.cncf.io/blog/2021/09/29/automation-is-the-future-of-cloud-cost-optimization/",
-          "publishedOn": "2021-09-29T15:00:00.000Z",
-          "wordCount": 2427,
-          "title": "Automation is the future of cloud cost optimization"
         }
       ]
     },
@@ -340,6 +340,114 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/mitchellh/nixos-config",
+          "author": null,
+          "description": "My NixOS configurations.\n\nNixOS System Configurations\n \nThis repository contains my NixOS system configurations. This repository isn't meant to be a turnkey solution to copying my setup or learning Nix, so I want to apologize to anyone trying to look for something \"easy\". I've tried to use very simple Nix practices wherever possible, but if you wish to copy from this, you'll have to learn the basics of Nix, NixOS, etc.\n \nI don't claim to be an expert at Nix or NixOS, so there are certainly improvements that could be made! Feel free to suggest them, but please don't be offended if I don't integrate them, I value having my config work over having it be optimal.\n \nHow I Work\n \nI like to use macOS as the host OS and NixOS within a VM as my primary development environment. I use the graphical a…",
+          "link": "https://github.com/mitchellh/nixos-config",
+          "publishedOn": "2021-10-30T00:51:07.859Z",
+          "wordCount": 1385,
+          "title": "mitchellh/nixos-config"
+        },
+        {
+          "id": "https://github.com/haoziqaq/varlet",
+          "author": null,
+          "description": "基于Vue3的Material design风格移动端组件库 Material design mobile component library for Vue3\n\n \n    \n \nVARLET\n \n \n基于Vue3的Material design风格移动端组件库\n \n \n 开发文档 | English \n \n \n        \n \n \n \n介绍\n \nVarlet是一个基于Vue3开发的Material风格移动端组件库，全面拥抱Vue3生态，由社区建立起来的组件库团队进行维护。\n \n特性\n \n \n \n提供40多个高质量通用组件\n \n \n组件十分轻量\n \n \n由国人开发，完善的中英文文档和后勤保障\n \n \n支持按需引入\n \n \n支持主题定制\n \n \n支持国际化\n \n \n支持webstorm，vscode组件属性高亮\n \n \n支持SSR\n \n \n支持Typescript\n \n \n90%以上单元测试覆盖率，提供稳定性保证\n \n \n安装\n \nCDN\n \nvarlet.js包含组件库的所有样式和逻辑，引入即可。\n \n<div id=\"app\"></div>\n<script src=\"https://cdn.jsdelivr.net/npm/vue@next\"></script>\n<script src=\"https://cdn.jsdelivr.net/npm/@varlet/ui/umd/varlet.js\"></script>\n<script>\n  const app = Vue.createApp({\n    template: '<var-button>按钮</var-button>'\n  })\n  app.use(Varlet).mount('#app')\n</script>\n\n \nWebpack / Vite\n \n# 通过npm或yarn安装\n\n# npm\nnpm i @varlet/ui -S\n\n# yarn\nyarn add @varlet/ui\n\n \nimport App from './App.vue'\nimport Varlet from '@varlet/ui'\nimport { createApp } from 'vue'\nimport '@varlet/ui/es/style.js'\n\ncreateApp(App).use(Varlet).mount('#app')",
+          "link": "https://github.com/haoziqaq/varlet",
+          "publishedOn": "2021-10-30T00:51:07.813Z",
+          "wordCount": 608,
+          "title": "haoziqaq/varlet"
+        },
+        {
+          "id": "https://github.com/arco-design/arco-design",
+          "author": null,
+          "description": "A comprehensive React UI components library\n\n \n    \n \n \n \nArco Design\n \n \n \n \nA comprehensive React UI components library based on the Arco Design system.\n \n \n\n \n \n \n \nEnglish | 简体中文\n \n \nFeatures\n \nComprehensive\n \nWith more than 60 crafted components that you can use out of the box.\n \nCustomizable theme\n \nExtensive design tokens can be customized to build your own theme. Two ways of customization are supported:\n \n \n \nWith less-loader\n \n \nDesign Lab - Recommended!\n \n \nReusable custom materials\n \nMaterial market provides a one-stop solution for materials management. Reuse customized modules to make a breakthrough in efficiency.\n \nTypeScript friendly\n \nAll components are written in TypeScript so it's type friendly.\n \nInstallation\n \nAvailable as an npm package\n \n// with npm\nnpm install @arco-d…",
+          "link": "https://github.com/arco-design/arco-design",
+          "publishedOn": "2021-10-30T00:51:07.759Z",
+          "wordCount": 872,
+          "title": "arco-design/arco-design"
+        },
+        {
+          "id": "https://github.com/stong/how-to-exploit-a-double-free",
+          "author": null,
+          "description": "How to exploit a double free vulnerability in 2021. 'Use-After-Free for Dummies'\n\nThis bug doesn’t exist on x86: Exploiting an ARM-only race condition\n \nHow to exploit a double free and get a shell. \"Use-After-Free for dummies\"\n \nIn this article, I'll teach you about real-world, modern binary exploitation, and a little about processor microarchitecture as well :D You will learn how to exploit a double free vulnerability or Use-After-Free vulnerability.\n \nMy CTF team, perfect blue, just concluded hosting our annual CTF, pbctf. One challenge I contributed was centered around a race condition vulnerability that only existed on ARM. In this article I'll explain the bug, why it doesn't happen on x86 processors, and finally how it can be exploited to land a shell.\n \nThis article is quite long, s…",
+          "link": "https://github.com/stong/how-to-exploit-a-double-free",
+          "publishedOn": "2021-10-30T00:51:07.704Z",
+          "wordCount": 7285,
+          "title": "stong/how-to-exploit-a-double-free"
+        },
+        {
+          "id": "https://github.com/acidanthera/OpenCorePkg",
+          "author": null,
+          "description": "OpenCore bootloader\n \n \n \nOpenCore bootloader with development SDK.\n \nDiscussion\n \n \n \nAppleLife.ru in Russian\n \n \nHackintosh-Forum.de in German\n \n \nInsanelyMac.com in English\n \n \nMacRumors.com in English, legacy Apple hardware\n \n \nKVM-OpenCore in English, KVM configuration\n \n \nmacOS86.it in Italian\n \n \nLibraries\n \nThis repository also contains additional UEFI support common libraries shared by other projects in Acidanthera. The primary purpose of the library set is to provide supplemental functionality for Apple-specific UEFI drivers. Key features:\n \n \n \nApple disk image loading support\n \n \nApple keyboard input aggregation\n \n \nApple PE image signature verification\n \n \nApple UEFI secure boot supplemental code\n \n \nAudio management with screen reading support\n \n \nBasic ACPI and SMBIOS manipu…",
+          "link": "https://github.com/acidanthera/OpenCorePkg",
+          "publishedOn": "2021-10-30T00:51:07.613Z",
+          "wordCount": 928,
+          "title": "acidanthera/OpenCorePkg"
+        },
+        {
+          "id": "https://github.com/vpncn/vpncn.github.io",
+          "author": null,
+          "description": "2021中国翻墙软件VPN推荐以及科学上网避坑，稳定好用。对比SSR机场、蓝灯、V2ray、老王VPN、VPS搭建梯子等科学上网与翻墙软件，中国最新科学上网翻墙梯子VPN下载推荐。\n\n翻墙软件VPN推荐，中国仅2款好用(2021年10月最新)\n \n最近更新：2021年10月23日\n \n \n \n目前在国内能长期稳定、好用的翻墙VPN很少了，包括不少VPN评论网站也是东抄抄西抄抄，很多过期的内容，部分推荐的在国内并不好用，注意查看下文提醒避免入坑。本文根据实际的使用体验介绍各款翻墙软件VPN近期使用情况，供大家参考和避坑。本文是中国安全翻墙攻略的详细版，讨论翻墙软件、科学上网和网络安全的相关问题，如果只想快速选个科学上网软件来翻墙，直接看下方本文目录导航。\n \n \n翻墙（科学上网）重不重要？我想大家都知道，不然也不会看到这篇文章了，翻不了墙就不能Google找程序代码，不能回Gmail邮件，不翻墙就不能看YouTube视频，Udemy买的课程能不能看的舒服？HBO、Netflix能不能追剧？由于工作出差和生活学习需要我经常在国内不同地区翻墙上网，就自己的使用感受和对翻墙软件这个行业的了解，为读者推荐在国内最好用、稳定和安全的科学上网方法和工具，并长期关注VPN、SSR、WireGuard、V2Ray、蓝灯等翻墙和信息安全技术。\n \n\n \n本文作者常年出差，由于生活和工作需要，也为了自己查找资料更加便利，我手机和PC上安装了一共7-8个付费翻墙APP作为常年的备用，担心出差途中不能翻墙和公共网络的安全性，所有我比较关注这类翻墙软件在不同网络环境下的连接稳定性和隐私数据的安全性。根据自己过去2年的测试和使用体验，对几种国内流行的翻墙软件和技术方法做出对比，读者可根据自己的实际情况选择合适的翻墙工具。\n \n重要提示：在选择或者使用某款VPN之前，一定要把本文中与对应的这款VPN相关的…",
+          "link": "https://github.com/vpncn/vpncn.github.io",
+          "publishedOn": "2021-10-30T00:51:07.506Z",
+          "wordCount": 1306,
+          "title": "vpncn/vpncn.github.io"
+        },
+        {
+          "id": "https://github.com/vercel/next-rsc-demo",
+          "author": null,
+          "description": "Demo repository for Next.js + React server components\n\nNext.js 12 React Server Components Demo\n \nThis is the demo of Hacker News built with Next.js and React Server Components. Read our announcement here: Next.js 12.\n \nTry the demo: https://next-news-rsc.vercel.sh\n \nDevelopment\n \nTo get started, run the following commands:\n \nyarn\nyarn dev\n\n \nAnd visit localhost:3000.\n \nNote\n \nReact Server Components are still experimental. To learn more about React Server Components, read our blog post: Everything About React Server Components.\n \nReact Server Components support is a built-in feature of Next.js 12. Full documentation is available here: React 18 — Next.js.",
+          "link": "https://github.com/vercel/next-rsc-demo",
+          "publishedOn": "2021-10-30T00:51:07.211Z",
+          "wordCount": 498,
+          "title": "vercel/next-rsc-demo"
+        },
+        {
+          "id": "https://github.com/devMEremenko/XcodeBenchmark",
+          "author": null,
+          "description": "XcodeBenchmark measures the compilation time of a large codebase on iMac, MacBook, and Mac Pro\n\nXcodeBenchmark contains a large codebase to measure the compilation time in Xcode.\n \nYou are probably familiar with the following question:\n \n \n \n\"Should I buy an i5, i7, or even i9 processor for iOS/macOS development?\".\n \n \nXcodeBenchmark is initially created for Max Tech YouTube channel to compare the performance of new iMacs 2020.\n \nI believe the results will help developers to make the right cost/performance trade-off decision when choosing their next Mac.\n \nNote\n \nPR merging will be performed on a best-effort basis.\n If a device you are looking for is not on the list below, check out open issues and PRs.\n \nXcode 13.0 or above\n \n \n  \n  \n \n   Device \n   CPU \n   RAM \n   SSD \n   HDD \n   Xcode \n…",
+          "link": "https://github.com/devMEremenko/XcodeBenchmark",
+          "publishedOn": "2021-10-30T00:51:07.185Z",
+          "wordCount": 2092,
+          "title": "devMEremenko/XcodeBenchmark"
+        },
+        {
+          "id": "https://github.com/DouyinFE/semi-design",
+          "author": null,
+          "description": "A modern, comprehensive, flexible design system and React UI library\n\n \n  \n  \n\n \n  \nSemi-UI\n \n  \n A modern, comprehensive, flexible design system and UI library. Quickly build beautiful React apps. \n \n  \n \n \n  \n  \n \n \n \n \n  \n \n \nEnglish | 简体中文\n \n \n🎉 Features\n \n \n \n💪 Up to 58 high-quality Components.\n \n \n💅 Thousands Design Tokens. Powerful Themes Customizing.\n \n \n🌍 Internationalization Support for Dozens of Languages.\n \n \n👏 Written in Typescript, Friendly Static Type Support.\n \n \n🥳 SSR (Server Side Rendering) Compatible.\n \n \n🔥 Install\n \n# with npm\nnpm install @douyinfe/semi-ui\n\n# with yarn\nyarn add @douyinfe/semi-ui\n\n\n \n👍 Usage\n \nHere is a quick example to get you started, it's all you need:\n \nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport { Button, Switch } from '@douyinfe/semi-ui';\n\nconst App = () => (\n  <>\n    <Button type='primary'>primary button</Button>\n    <Switch size='large' />\n  </>\n);\n\nReactDOM.render(<App />, document.querySelector('#app'));\n\n \nAnd Semi UI Doc Site has hundreds of editable examples and live preview, welcome to play with those examples.\n \n📌 Documentation\n \n \n \nQuick Start\n \n \nComponents Overview\n \n \nCustomizing Themes\n \n \nDesign Tokens\n \n \nDark Mode\n \n \nSemi Icons\n \n \nGlobal Config\n \n \nInternationalization\n \n \nFAQ\n \n \nCHANGELOG\n \n \n👌 Platform Support\n \nSemi UI supports all major modern browsers.\n \n \n  \n  \n \n   \nchrome \n   \nfirefox \n   \nsafari \n   \n IE/Edge \n   \nElectron \n  \n \n  \n  \n  \n \n   latest 2 versions \n   latest 2 versions \n   latest 2 versions \n   Edge \n   latest 2 versions \n  \n \n  \n \n👐 Contributing\n \nRead the contributing guide to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to Semi UI.\n \nSee CONTRIBUTING documentation.\n \n👨‍👨‍👧‍👦 User Group\n \nJoin User Group.\n \n🎈 License\n \nSemi UI is MIT Licensed",
+          "link": "https://github.com/DouyinFE/semi-design",
+          "publishedOn": "2021-10-30T00:51:06.977Z",
+          "wordCount": 847,
+          "title": "DouyinFE/semi-design"
+        },
+        {
+          "id": "https://github.com/modern-js-dev/modern.js",
+          "author": null,
+          "description": "The meta-framework suite designed from scratch for frontend-focused modern web development.\n\n  \n \n 现代 Web 工程体系 \n  modernjs.dev  \n \n The meta-framework suite designed from scratch for frontend-focused modern web development \n \nIntroduction\n \n \n \nThe doc site (modernjs.dev) and articles are only available in Chinese for now, we are planning to add English versions soon.\n \n \n \n \n介绍 Modern.js (即将上线)\n \n \n迈入现代 Web 开发\n \n \n现代 Web 开发者问卷调查报告\n \n \n字节跳动是如何落地微前端的\n \n \nGetting Started\n \n \n \nQuick Start\n \n \nGuides\n \n \nAPI References\n \n \nContributing\n \n \n \nContributing Guide",
+          "link": "https://github.com/modern-js-dev/modern.js",
+          "publishedOn": "2021-10-30T00:51:06.913Z",
+          "wordCount": 575,
+          "title": "modern-js-dev/modern.js"
+        },
+        {
+          "id": "https://github.com/smknstd/modern-php-cheatsheet",
+          "author": null,
+          "description": "Cheatsheet for some PHP knowledge you will frequently encounter in modern projects.\n\nModern PHP Cheatsheet\n \n\n \n \n \nIf you like this content, you can ping me or follow me on Twitter 👍\n \n \n\n \nIntroduction\n \nMotivation\n \nThis document is a cheatsheet for PHP you will frequently encounter in modern projects and most contemporary sample code.\n \nThis guide is not intended to teach you PHP from the ground up, but to help developers with basic knowledge who may struggle to get familiar with modern codebases (or let's say to learn Laravel or Symfony for instance) because of the new PHP concepts and features introduced over the years.\n \n \n \nNote: Concepts introduced here are based on the most recent version of PHP available (PHP 8.0 at the time of the last update)\n \n \nComplementary Resources\n \nWhe…",
+          "link": "https://github.com/smknstd/modern-php-cheatsheet",
+          "publishedOn": "2021-10-30T00:51:06.809Z",
+          "wordCount": 3762,
+          "title": "smknstd/modern-php-cheatsheet"
+        },
+        {
+          "id": "https://github.com/LSPosed/MagiskOnWSA",
+          "author": null,
+          "description": "Integrate Magisk root and OpenGApps into WSA (Windows Subsystem for Android)\n\nMagisk on WSA\n \nFeatures\n \n \n \nIntegrate Magisk and OpenGApps in a few clicks within minutes\n \n \nNo Linux environment required for integration\n \n \nKeep each build up to date\n \n \nSupport both ARM64 and x64\n \n \nUsage\n \n \n \nFork this repo\n \n \nGo to Action tab and select workflow Magisk, click the run button and enter the needed infomation (magisk apk download link)\n \n \nWait the action complete and download the artifact\n \n \nUninstall WSA\n \n \nUnzip the artifact\n \n \nEnable developer mode on Windows\n \n \nOpen powershell with admin privileges and run Add-AppxPackage -Register .\\AppxManifest.xml under the unzipped artifact directory\n \n \nLaunch WSA and enable developer mode, launch the file manager, and wait until the file manager popup\n \n \nRun adb connect localhost:58526 to connect to WSA and install Magisk app (the one you use to build) and launch it\n \n \nFix the environment as Magisk app will prompt and reboot\n \n \nEnjoy by installing Riru and LSPosed\n \n \nPrebuilt Magisk\n \nThere's still a bug from Magisk that prevents it from running on WSA. So please don't use the official build yet. The download link of the prebuilt Magisk is: https://raw.githubusercontent.com/LSPosed/MagiskOnWSA/main/magisk.apk and its source codes are on the magisk branch.\n \nCredits\n \n \n \nMagisk: The most famous root solution on Android\n \n \nThe Open GApps Project: One of the most famous Google Apps packages solution\n \n \nWSA-Kernel-SU and kernel-assisted-superuser: The kernel su for debugging Magisk Integration\n \n \nWSAGAScript: The first GApps integration script for WSA",
+          "link": "https://github.com/LSPosed/MagiskOnWSA",
+          "publishedOn": "2021-10-30T00:51:06.668Z",
+          "wordCount": 612,
+          "title": "LSPosed/MagiskOnWSA"
+        },
         {
           "id": "https://github.com/momo0853/kkndme",
           "author": null,
@@ -3264,105 +3372,6 @@
           "publishedOn": "2021-10-01T00:56:55.104Z",
           "wordCount": 1465,
           "title": "github/india"
-        },
-        {
-          "id": "https://github.com/tauri-apps/tauri",
-          "author": null,
-          "description": "Build smaller, faster, and more secure desktop applications with a web frontend.\n \n   \n \n    \n \nCurrent Releases\n \n \n  \n  \n \n   Component \n   Description \n   Version \n   Lin \n   Win \n   Mac \n  \n \n  \n  \n  \n \n   cli.rs \n   create, develop and build apps \n    \n   ✅ \n   ✅ \n   ✅ \n  \n \n  \n \n   cli.js \n   Node.js CLI wrapper for cli.rs \n    \n   ✅ \n   ✅ \n   ✅ \n  \n \n  \n \n   api.js \n   JS API for interaction with Rust backend \n    \n   ✅ \n   ✅ \n   ✅ \n  \n \n  \n \n   create-tauri-app \n   Get started with your first Tauri app \n    \n   ✅ \n   ✅ \n   ✅ \n  \n \n  \n \n   vue-cli-plugin-tauri \n   Vue CLI plugin for Tauri \n    \n   ✅ \n   ✅ \n   ✅ \n  \n \n  \n \n   core \n   runtime core \n    \n   ✅ \n   ✅ \n   ✅ \n  \n \n  \n \n   bundler \n   manufacture the final binaries \n    \n   ✅ \n   ✅ \n   ✅ \n  \n \n  \n \nIntroduction\n \nTauri is …",
-          "link": "https://github.com/tauri-apps/tauri",
-          "publishedOn": "2021-09-30T00:57:41.204Z",
-          "wordCount": 1589,
-          "title": "tauri-apps/tauri"
-        },
-        {
-          "id": "https://github.com/sentsin/layui",
-          "author": null,
-          "description": "采用自身模块规范编写的前端 UI 框架，遵循原生 HTML/CSS/JS 的书写形式，极低门槛，拿来即用。\n\n    \n \n Classic modular front-end UI framework \n \n     \n --> \n \n\n  \n\n--> \n \nlayui 是一款采用自身模块规范编写的前端 UI 框架，遵循原生 HTML/CSS/JS 的开发方式，极易上手，拿来即用。其风格简约轻盈，而组件优雅丰盈，从源代码到使用方法的每一处细节都经过精心雕琢，非常适合网页界面的快速开发。layui 区别于那些基于 MVVM 底层的前端框架，却并非逆道而行，而是信奉返璞归真之道。准确地说，它更多是面向后端开发者，你无需涉足前端各种工具，只需面对浏览器本身，让一切你所需要的元素与交互，从这里信手拈来。\n \n返璞归真\n \nlayui 定义为“经典模块化”，并非是自吹她自身有多优秀，而是有意避开当下 JS 社区的主流方案，试图以最简单的方式去诠释高效！她的所谓经典，是在于对返璞归真的执念，她以当前浏览器普通认可的方式去组织模块！我们认为，这恰是符合当下国内绝大多数程序员从旧时代过渡到未来新标准的最佳指引。所以 layui 本身也并不是完全遵循于 AMD 时代，准确地说，她试图建立自己的模式，所以你会看到：\n \n//layui模块的定义\nlayui.define([mods], function(exports){\n  \n  //……\n  \n  exports('mod', api);\n});  \n \n//layui模块的使用\nlayui.use(['mod1', 'mod2'], function(args){\n  var mod = layui.mod1;\n  \n  //……\n  \n});    \n\n \n没错，她具备 AMD 的影子，又并非受限于 CommonJS 的那些条条框框，layui 认为这种轻量的组织方式，比 WebPack 更符合绝大多数场景。所以她坚持采用经典模块化，也正是能让人避开工具的复杂配置，回归简单，安静高效地撸一会原生态的HTML、CSS、JavaScript。\n \n但是 layui 又并非是 Requirejs 那样的模块加载器，而是一款 UI 解决方案，她与 Bootstrap 最大的不同恰恰在于她糅合了自身对经典模块化的理解。\n \n快速上手\n \n获得 layui 后，将其完整地部署到你的静态资源项目目录，你只需要引入下述两个文件：\n \n./layui/css/layui.css\n./layui/layui.js\n\n \n这是一个基本的入门页面：\n \n<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">\n  <title>开始使用 layui</title>\n  <link rel=\"stylesheet\" href=\"../layui/css/layui.css\">\n</head>\n<body>\n \n<!-- 你的HTML代码 -->\n \n<script src=\"../layui/layui.js\"></script>\n<script>\n//一般直接写在一个js文件中\nlayui.use(['layer', 'form'], function(){\n  var layer = layui.layer\n  ,form = layui.form;\n  \n  layer.msg('Hello World');\n});\n</script> \n</body>\n</html>\n\n \n阅读文档\n \n从现在开始，尽情地拥抱 layui 吧！但愿她能成为你长远的开发伴侣，化作你方寸屏幕前的亿万字节！\n \n贡献者\n \n \n \n大概是因为 layui 让开发者变得更懒，所以贡献者才这么少？\n 好的，姑且就这样认为吧。\n \n \n\n \n相关\n \n官网、更新日志",
-          "link": "https://github.com/sentsin/layui",
-          "publishedOn": "2021-09-30T00:57:41.159Z",
-          "wordCount": 577,
-          "title": "sentsin/layui"
-        },
-        {
-          "id": "https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials",
-          "author": null,
-          "description": "📚 Learn to write an embedded OS in Rust 🦀\n\nOperating System development tutorials in Rust on the Raspberry Pi\n \n    \n \n \n \n \nℹ️ Introduction\n \nThis is a tutorial series for hobby OS developers who are new to ARM's 64 bit ARMv8-A architecture. The tutorials will give a guided, step-by-step tour of how to write a monolithic Operating System kernel for an embedded system from scratch. They cover implementation of common Operating Systems tasks, like writing to the serial console, setting up virtual memory and handling HW exceptions. All while leveraging Rust's unique features to provide for safety and speed.\n \nHave fun!\n \nBest regards,\nAndre (@andre-richter)\n \nP.S.: Chinese 🇨🇳 versions of the tutorials were started by @colachg and @readlnh. You can find them as README.CN.md in the respect…",
-          "link": "https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials",
-          "publishedOn": "2021-09-30T00:57:41.105Z",
-          "wordCount": 1702,
-          "title": "rust-embedded/rust-raspberrypi-OS-tutorials"
-        },
-        {
-          "id": "https://github.com/jackfrued/Python-100-Days",
-          "author": null,
-          "description": "Python - 100天从新手到大师\n\nPython - 100天从新手到大师\n \n \n \n作者：骆昊\n \n \n说明：从项目上线到获得8w+星标以来，一直收到反馈说基础部分（前15天的内容）对新手来说是比较困难的，建议有配套视频进行讲解。最近把基础部分的内容重新创建了一个名为“Python-Core-50-Courses”的项目，用更为简单通俗的方式重写了这部分内容并附带了视频讲解，初学者可以关注下这个新项目。国内用户如果访问GitHub比较慢的话，也可以关注我的知乎号Python-Jack上的“从零开始学Python”专栏，专栏会持续更新，还有大家比较期待的“数据分析”的内容也即将上线，欢迎大家关注我在知乎的专栏、文章和回答。\n \n \n创作不易，感谢大家的打赏支持，这些钱基本不会用于购买咖啡，而是通过腾讯公益、美团公益、水滴筹等平台捐赠给需要帮助的人（点击了解捐赠情况）。需要加入QQ交流群的可以扫描下面的二维码，交流群会为大家提供学习资源和问题解答，还会持续为大家带来免费的线上Python体验课和行业公开课，敬请关注。\n \n \n\n \nPython应用领域和职业发展分析\n \n简单的说，Python是一个“优雅”、“明确”、“简单”的编程语言。\n \n \n \n学习曲线低，非专业人士也能上手\n \n \n开源系统，拥有强大的生态圈\n \n \n解释型语言，完美的平台可移植性\n \n \n动态类型语言，支持面向对象和函数式编程\n \n \n代码规范程度高，可读性强\n \n \nPython在以下领域都有用武之地。\n \n \n \n后端开发 - Python / Java / Go / PHP\n \n \nDevOps - Python / Shell / Ruby\n \n \n数据采集 - Python / C++ / Java\n \n \n量化交易 - Python / C++ / R\n \n \n数据科学 - Py…",
-          "link": "https://github.com/jackfrued/Python-100-Days",
-          "publishedOn": "2021-09-30T00:57:41.028Z",
-          "wordCount": 2061,
-          "title": "jackfrued/Python-100-Days"
-        },
-        {
-          "id": "https://github.com/speedyg0nz/MagInkCal",
-          "author": null,
-          "description": "E-Ink Magic Calendar that automatically syncs to Google Calendar and runs off a battery powered Raspberry Pi Zero\n\nMagInkCal\n \nThis repo contains the code needed to drive an E-Ink Magic Calendar that uses a battery powered (PiSugar2) Raspberry Pi Zero WH to retrieve events from a Google Calendar, format it into the desired layout, before pushing it to a Waveshare 12.48\" tri-color E-Ink display. Note that the code has only been tested on the specific hardware mentioned, and customization of the code is necessary for it to work with other E-Ink displays or Battery/RTC add-ons. That said, enjoy working on your project and hopefully this helps to jump-start your magic calendar journey.\n \n\n \nBackground\n \nBack in 2019, I started a thread in Reddit to bounce an idea I had with the community: to r…",
-          "link": "https://github.com/speedyg0nz/MagInkCal",
-          "publishedOn": "2021-09-30T00:57:40.984Z",
-          "wordCount": 1667,
-          "title": "speedyg0nz/MagInkCal"
-        },
-        {
-          "id": "https://github.com/im2nguyen/rover",
-          "author": null,
-          "description": "Interactive Terraform visualization. State and configuration explorer.\n\nRover - Terraform Visualizer\n \nRover is a Terraform visualizer.\n \nIn order to do this, Rover:\n \n \n \ngenerates a plan file and parses the configuration in the root directory or uses a provided plan.\n \n \nparses the plan and configuration files to generate three items: the resource overview (rso), the resource map (map), and the resource graph (graph).\n \n \nconsumes the rso, map, and graph to generate an interactive configuration and state visualization hosts on 0.0.0.0:9000.\n \n \nFeedback (via issues) and pull requests are appreciated!\n \n\n \nQuickstart\n \nThe fastest way to get up and running with Rover is through Docker.\n \nRun the following command in any Terraform workspace to generate a visualization. This command copies …",
-          "link": "https://github.com/im2nguyen/rover",
-          "publishedOn": "2021-09-30T00:57:40.916Z",
-          "wordCount": 1169,
-          "title": "im2nguyen/rover"
-        },
-        {
-          "id": "https://github.com/kimlimjustin/xplorer",
-          "author": null,
-          "description": "Xplorer, a customizable, modern file manager\n\n \n  \n \nXplorer, a customizable, modern and cross-platform file explorer.\n \nSupports • Discussion • Documentation\n \n \nWhat is Xplorer?\n \n\n \n \n  More Screenshots  \n \n \n \n \nXplorer is a file explorer built from ground-up to be fully customizable. And even without customization, it also looks modern! It is cross-platform, built using Electron Technology that allowed our File Explorer to be run not only in Windows, but also Linux and MacOS alike. It also allowed file preview directly inside it, not only pictures or documents, but also videos!\n \nTo summarize, Xplorer's features contain:\n \n \n \nLooks modern\n \n \nEasy to use\n \n \nCross-platform\n \n \nFile Preview, even videos!\n \n \nMost importantly, FOSS, Free and Open Source, which mean you can change components inside if you see fit\n \n \nXplorer is currently in development. Suggest improvements in Xplorer Discussions or contribute to it!\n \nInstallation\n \nYou can access the insider version here. Please note that it is not stable yet. Use it on your own risk.\n \nCommon Problems\n \nNB: For installation common problems, please open here\n \n \n  Opening folder like `Documents`, `Desktop`, `Downloads` make Xplorer crashes  \n \nDisable the Extract exe file icon and make it as preview setting\n \n \n \n  Xplorer is unstable after installing it.  Simply restart it will fix it, if it doesn't, please address an issue. \n \nLICENSE\n \nApache-2.0",
-          "link": "https://github.com/kimlimjustin/xplorer",
-          "publishedOn": "2021-09-30T00:57:40.878Z",
-          "wordCount": 1089,
-          "title": "kimlimjustin/xplorer"
-        },
-        {
-          "id": "https://github.com/tsoding/porth",
-          "author": null,
-          "description": "It's like Forth but in Python\n\nPorth\n \nWARNING! This language is a work in progress!\n \nIt's like Forth but written in Python. But I don't actually know for sure since I never programmed in Forth, I only heard that it's some sort of stack-based programming language. Porth is also stack-based programming language. Which makes it just like Forth am I rite?\n \nPorth is planned to be\n \n \n \n Compiled\n \n \n Native\n \n \n Stack-based (just like Forth)\n \n \n Turing-complete\n \n \n Self-hosted (Python is used only as an initial bootstrap, once the language is mature enough we gonna rewrite it in itself)\n \n \n Statically typed (the type checking is probably gonna be similar to the WASM validation)\n \n \n(these are not the selling points, but rather milestones of the development)\n \nExamples\n \nHello, World:\n \nin…",
-          "link": "https://github.com/tsoding/porth",
-          "publishedOn": "2021-09-30T00:57:40.838Z",
-          "wordCount": 1873,
-          "title": "tsoding/porth"
-        },
-        {
-          "id": "https://github.com/Nyandwi/machine_learning_complete",
-          "author": null,
-          "description": "A comprehensive repository containing 30+ notebooks on learning machine learning!\n\nA Complete Machine Learning Package\n \n \nTechniques, tools, best practices and everything you need to to learn machine learning!\n \n\n \nThis is a comprehensive repository containing 30+ notebooks on Python programming, data manipulation, data analysis, data visualization, data cleaning, classical machine learning, Computer Vision and Natural Language Processing(NLP).\n \nAll notebooks were created with the readers in mind. Every notebook starts with a high-level overview of any specific algorithm/concepts being covered. Wherever possible, visuals are used to make things clear.\n \nViewing and Running the Notebooks\n \nThe easiest way to view all the notebooks is to use Nbviewer.\n \n \n \n\n \n \nIf you want to play with th…",
-          "link": "https://github.com/Nyandwi/machine_learning_complete",
-          "publishedOn": "2021-09-30T00:57:40.796Z",
-          "wordCount": 2387,
-          "title": "Nyandwi/machine_learning_complete"
-        },
-        {
-          "id": "https://github.com/wangdoc/clang-tutorial",
-          "author": null,
-          "description": "C 语言教程\n\nC 语言入门教程。",
-          "link": "https://github.com/wangdoc/clang-tutorial",
-          "publishedOn": "2021-09-30T00:57:40.703Z",
-          "wordCount": 374,
-          "title": "wangdoc/clang-tutorial"
-        },
-        {
-          "id": "https://github.com/stackgl/shader-school",
-          "author": null,
-          "description": "🎓 A workshopper for GLSL shaders and graphics programming\n\nShader School\n \n \n \nAn introduction to GLSL shaders and graphics programming that runs in your web browser.\n \n\n \nRunning this thing\n \nFirst, you need to get a browser with WebGL, as well as a copy of node.js and git. Once you have all of that set up, you can install the workshop using npm, which is included with node:\n \nnpm install -g shader-school\n\n \nAfter that completes, you should be able to run the workshopper with the command:\n \nshader-school\n\n \nThe script will ask you if you want to create an answer directory, press y to accept. This will populate your current directory with shader files for you to edit for each lesson – hopefully, it should also automatically open your web browser but if it doesn't you can find the workshop menu on http://localhost:12492/.\n \nStuck?\n \nFeedback and criticism is welcome, please log your troubles in issues. The workshop is still being worked on but is very close to being complete!\n \nFull curriculum reviews like this one are very helpful. More feedback like this please!\n \nContributors\n \n\n  \n  \nMikola Lysenko\n   GitHub/mikolalysenko\n   Twitter/@mikolalysenko\n  \n \n  \nHugh Kennedy\n   GitHub/hughsk\n   Twitter/@hughskennedy\n  \n \n  \nChris Dickinson\n   GitHub/chrisdickinson\n   Twitter/@isntitvacant\n  \n \n \n \nColor Scheme\n \n\n \nFrom left to right:\n \n \n \n#34363B vec3(0.2039, 0.2117, 0.2313) (black)\n \n \n#A9B0C3 vec3(0.5372, 0.6901, 0.7647) (dark grey)\n \n \n#DEE7FF vec3(0.8705, 0.9058, 1.0) (light grey)\n \n \n#FFFFFF vec3(1.0, 1.0, 1.0) (white)\n \n \n#58FF8B vec3(0.3451, 1.0, 0.5450) (green)\n \n \n#FF6E57 vec3(1.0, 0.4313, 0.3411) (red)\n \n \n#FFE25F vec3(1.0, 0.8862, 0.3725) (yellow)\n \n \n#61C3FF vec3(0.3804, 0.7647, 1.0) (blue)\n \n \nScreenshots",
-          "link": "https://github.com/stackgl/shader-school",
-          "publishedOn": "2021-09-30T00:57:40.655Z",
-          "wordCount": 723,
-          "title": "stackgl/shader-school"
         }
       ]
     }
