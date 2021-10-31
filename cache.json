@@ -317,15 +317,6 @@
           "publishedOn": "2021-10-04T15:00:00.000Z",
           "wordCount": 1584,
           "title": "Cartografos working group launches cloud native maturity model"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64801",
-          "author": "Jessie",
-          "description": "Project post cross-posted from the Weaveworks blog by Tamao Nakahara, Head of Developer Experience, Weaveworks and Flux community manager Challenge The DoD knew that it needed GitOps. Nicolas M. Chaillan, Chief Software...",
-          "link": "https://www.cncf.io/blog/2021/09/30/how-to-get-robust-gitops-the-u-s-department-of-defense-uses-flux-and-helm/",
-          "publishedOn": "2021-09-30T15:00:00.000Z",
-          "wordCount": 1733,
-          "title": "How to get robust GitOps? The U.S. Department of Defense uses Flux and Helm"
         }
       ]
     },
@@ -340,6 +331,123 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/waldo-vision/optical-flow-demo",
+          "author": null,
+          "description": "A project that uses optical flow and machine learning to detect aimhacking in video clips.\n\nwaldo-anticheat\n \nA project that aims to use optical flow and machine learning to visually detect cheating or hacking in video clips from fps games. Check out this video discussing the purpose and vision of WALDO.\n \nNotes\n \n \n \nThis project is still under development.\n \n \nThe What\n \nA new market for cheats that are visually indistinguishable to the human eye have lead to a rise in \"closet hacking\" among streamers and professionals. This form of cheating is extremely hard to detect. In some cases it is impossible to detect, even with today's most advanced anti-cheat software.\n \nWe will combat this new kind of cheating by creating our own deep learning program to detect this behavior in video clips.\n \nThe How\n \nBecause of the advanced technology used, the only reliable way to detect this form of cheating is by observing the cheating behavior directly from the end result- gameplay. Our goal is to analyze the video directly using deep learning to detect if a user is receiving machine assistance.\n \nPhase 1 focuses primarily on humanized aim-assist. Upon completion of phase 1, WALDO's main function will be vindication and clarity to many recent \"hackusations.\"\n \nSkills needed:\n \n \n \nMachine learning / neural networks / AI\n \n \nVisualizations and graphics\n \n \nData analysis\n \n \nGeneral python\n \n \nWebsite design / programming\n \n \nGame graphics / video analysis\n \n \nGamers\n \n \nCurrent closet hackers you can help ( ͡° ͜ʖ ͡°)",
+          "link": "https://github.com/waldo-vision/optical-flow-demo",
+          "publishedOn": "2021-10-31T00:54:56.203Z",
+          "wordCount": 638,
+          "title": "waldo-vision/optical-flow-demo"
+        },
+        {
+          "id": "https://github.com/schollz/croc",
+          "author": null,
+          "description": "Easily and securely send things from one computer to another 🐊 📦\n\n  \n    \nThis project is supported by:\n \n    \n \n\n \ncroc is a tool that allows any two computers to simply and securely transfer files and folders. AFAIK, croc is the only CLI file-transfer tool that does all of the following:\n \n \n \nallows any two computers to transfer data (using a relay)\n \n \nprovides end-to-end encryption (using PAKE)\n \n \nenables easy cross-platform transfers (Windows, Linux, Mac)\n \n \nallows multiple file transfers\n \n \nallows resuming transfers that are interrupted\n \n \nlocal server or port-forwarding not needed\n \n \nipv6-first with ipv4 fallback\n \n \ncan use proxy, like tor\n \n \nFor more information about croc, see my blog post.\n \n\n \nInstall\n \nDownload the latest release for your system, or install a release …",
+          "link": "https://github.com/schollz/croc",
+          "publishedOn": "2021-10-31T00:54:56.141Z",
+          "wordCount": 1459,
+          "title": "schollz/croc"
+        },
+        {
+          "id": "https://github.com/onevcat/Kingfisher",
+          "author": null,
+          "description": "A lightweight, pure-Swift library for downloading and caching images from the web.\n\n  \n \n      \n   \n \nKingfisher is a powerful, pure-Swift library for downloading and caching images from the web. It provides you a chance to use a pure-Swift way to work with remote images in your next app.\n \nFeatures\n \n \n \n Asynchronous image downloading and caching.\n \n \n Loading image from either URLSession-based networking or local provided data.\n \n \n Useful image processors and filters provided.\n \n \n Multiple-layer hybrid cache for both memory and disk.\n \n \n Fine control on cache behavior. Customizable expiration date and size limit.\n \n \n Cancelable downloading and auto-reusing previous downloaded content to improve performance.\n \n \n Independent components. Use the downloader, caching system, and image p…",
+          "link": "https://github.com/onevcat/Kingfisher",
+          "publishedOn": "2021-10-31T00:54:56.097Z",
+          "wordCount": 1941,
+          "title": "onevcat/Kingfisher"
+        },
+        {
+          "id": "https://github.com/arco-design/arco-design-vue",
+          "author": null,
+          "description": "A Vue.js 3 UI Library\n\n \n    \n \n \n \nArco Design\n \n \n \n \nA comprehensive Vue UI components library based on the Arco Design system.\n \n \n\n \n \n \n \nEnglish | 简体中文\n \n \nFeatures\n \nComprehensive\n \nWith more than 60 crafted components that you can use out of the box.\n \nCustomizable theme\n \nExtensive theme tokens can be customized to build your own theme. Two ways of customization are supported:\n \n \n \nWith less-loader\n \n \nDesign Lab - Recommended!\n \n \nTypeScript friendly\n \nAll components are written in TypeScript so it's type friendly.\n \nInstallation\n \nAvailable as an npm package\n \n// with npm\nnpm install @arco-design/web-vue\n\n// with yarn\nyarn add @arco-design/web-vue\n\n \nExamples\n \nimport { createApp } from 'vue'\nimport ArcoVue from '@arco-design/web-vue';\nimport App from './App.vue';\nimport '@arco-design/web-vue/dist/arco.css';\n\nconst app = createApp(App);\napp.use(ArcoVue);\napp.mount('#app');\n\n \nDevelopment\n \n \n \n Use npm install to install basic packages such as lerna and yarn\n  \n \n Use yarn install to install the dependencies of each package in workspaces\n  \n \n Use npm run init to initialize the project\n  \n \nUseful Links\n \n \n \nDocumentation website\n \n \nDark mode\n \n \nTheme customization\n \n \nFigma component library\n \n \nEcosystems\n \n \n  \n  \n \n   Project \n   Description \n  \n \n  \n  \n  \n \n   React Component Library \n   A comprehensive React UI components library based on the Arco Design system \n  \n \n  \n \n   Design Lab \n   A platform to create and manage your themes with ease. \n  \n \n  \n \n   Material Market \n   A platform that provides massive high-quality customized materials to greatly boost development efficiency. \n  \n \n  \n \n   Icon Box \n   One-stop platform to manage your icons. \n  \n \n  \n \n   Arco Pro \n   A solution to quickly building applications from scratch. \n  \n \n  \n \nContributing\n \nDevelopers interested in contributing should read the Code of Conduct and the Contributing Guide.\n \nLicense\n \nThs project is MIT licensed.",
+          "link": "https://github.com/arco-design/arco-design-vue",
+          "publishedOn": "2021-10-31T00:54:56.048Z",
+          "wordCount": 810,
+          "title": "arco-design/arco-design-vue"
+        },
+        {
+          "id": "https://github.com/angular/components",
+          "author": null,
+          "description": "Component infrastructure and Material Design components for Angular\n\nOfficial components for Angular\n \n  \n \nThe Angular team builds and maintains both common UI components and tools to help you build your own custom components. The team maintains several npm packages.\n \n \n  \n  \n \n   Package \n   Description \n   Docs \n  \n \n  \n  \n  \n \n   @angular/cdk \n   Library that helps you author custom UI components with common interaction patterns \n   Docs \n  \n \n  \n \n   @angular/material \n   Material Design UI components for Angular applications \n   Docs \n  \n \n  \n \n   @angular/google-maps \n   Angular components built on top of the Google Maps JavaScript API \n   Docs \n  \n \n  \n \n   @angular/youtube-player \n   Angular component built on top of the YouTube Player API \n   Docs \n  \n \n  \n \nQuick links\n \nDocume…",
+          "link": "https://github.com/angular/components",
+          "publishedOn": "2021-10-31T00:54:56.005Z",
+          "wordCount": 948,
+          "title": "angular/components"
+        },
+        {
+          "id": "https://github.com/Leaflet/Leaflet",
+          "author": null,
+          "description": "🍃 JavaScript library for mobile-friendly interactive maps\n \nLeaflet is the leading open-source JavaScript library for mobile-friendly interactive maps. Weighing just about 39 KB of gzipped JS plus 4 KB of gzipped CSS code, it has all the mapping features most developers ever need.\n \nLeaflet is designed with simplicity, performance and usability in mind. It works efficiently across all major desktop and mobile platforms out of the box, taking advantage of HTML5 and CSS3 on modern browsers while being accessible on older ones too. It can be extended with a huge amount of plugins, has a beautiful, easy to use and well-documented API and a simple, readable source code that is a joy to contribute to.\n \nFor more info, docs and tutorials, check out the official website.\n For Leaflet downloads (including the built master version), check out the download page.\n \nWe're happy to meet new contributors. If you want to get involved with Leaflet development, check out the contribution guide. Let's make the best mapping library that will ever exist, and push the limits of what's possible with online maps!",
+          "link": "https://github.com/Leaflet/Leaflet",
+          "publishedOn": "2021-10-31T00:54:55.956Z",
+          "wordCount": 560,
+          "title": "Leaflet/Leaflet"
+        },
+        {
+          "id": "https://github.com/tailwindlabs/headlessui",
+          "author": null,
+          "description": "Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.\n\n Headless UI \n \n A set of completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS. \n \n \nDocumentation\n \nFor full documentation, visit headlessui.dev.\n \nPackages\n \n \n  \n  \n \n   Name \n   Version \n   Downloads \n  \n \n  \n  \n  \n \n   @headlessui/react \n    \n    \n  \n \n  \n \n   @headlessui/vue \n    \n    \n  \n \n  \n \nCommunity\n \nFor help, discussion about best practices, or any other conversation that would benefit from being searchable:\n \nDiscuss Headless UI on GitHub\n \nFor casual chit-chat with others using the library:\n \nJoin the Tailwind CSS Discord Server",
+          "link": "https://github.com/tailwindlabs/headlessui",
+          "publishedOn": "2021-10-31T00:54:55.931Z",
+          "wordCount": 553,
+          "title": "tailwindlabs/headlessui"
+        },
+        {
+          "id": "https://github.com/jumpserver/jumpserver",
+          "author": null,
+          "description": "JumpServer 是全球首款开源的堡垒机，是符合 4A 的专业运维安全审计系统。\n\n\n \n多云环境下更好用的堡垒机\n \n     \n \n \n \n \nENGLISH\n \n \nJumpServer 是全球首款开源的堡垒机，使用 GNU GPL v2.0 开源协议，是符合 4A 规范的运维安全审计系统。\n \nJumpServer 使用 Python 开发，遵循 Web 2.0 规范，配备了业界领先的 Web Terminal 方案，交互界面美观、用户体验好。\n \nJumpServer 采纳分布式架构，支持多机房跨区域部署，支持横向扩展，无资产数量及并发限制。\n \n改变世界，从一点点开始 ...\n \n \n \n如需进一步了解 JumpServer 开源项目，推荐阅读 JumpServer 的初心和使命\n \n \n特色优势\n \n \n \n开源: 零门槛，线上快速获取和安装；\n \n \n分布式: 轻松支持大规模并发访问；\n \n \n无插件: 仅需浏览器，极致的 Web Terminal 使用体验；\n \n \n多云支持: 一套系统，同时管理不同云上面的资产；\n \n \n云端存储: 审计录像云端存储，永不丢失；\n \n \n多租户: 一套系统，多个子公司和部门同时使用；\n \n \n多应用支持: 数据库，Windows远程应用，Kubernetes。\n \n \nUI 展示\n \n\n \n在线体验\n \n \n \n环境地址：https://demo.jumpserver.org/\n \n \n \n  \n  \n \n   ⚠ 注意 \n  \n \n  \n  \n  \n \n   该环境仅作体验目的使用，我们会定时清理、重置数据！ \n  \n \n  \n \n   请勿修改体验环境用户的密码！ \n  \n \n  \n \n   请勿在环境中添加业务生产环境地址、用户名密码等敏感信息！ \n  \n \n  \n \n快速开始\n \n \n \n极速安装\n \n \n完…",
+          "link": "https://github.com/jumpserver/jumpserver",
+          "publishedOn": "2021-10-31T00:54:55.874Z",
+          "wordCount": 647,
+          "title": "jumpserver/jumpserver"
+        },
+        {
+          "id": "https://github.com/iterativv/NostalgiaForInfinity",
+          "author": null,
+          "description": "Trading strategy for the Freqtrade crypto bot\n\nNostalgiaForInfinity\n \nTrading strategy for the Freqtrade crypto bot\n \nClone The Repository\n \nIf you plan to only clone the repository to use the strategy, a regular git clone will do.\n \nHowever, if you plan on running additional strategies or run the test suite, you need to clone the repository and it's submodules.\n \nNewer versions of Git\n \ngit clone --recurse-submodules https://github.com/iterativv/NostalgiaForInfinity.git checkout-path\n\n \nOlder versions of Git\n \ngit clone --recursive https://github.com/iterativv/NostalgiaForInfinity.git checkout-path\n\n \nExisting Checkouts\n \ngit submodule update --remote --checkout\n\n \nChange strategy\n \nAdd strategies to the user_data/strategies folder and also in the docker-compose.yml file at strategy-list …",
+          "link": "https://github.com/iterativv/NostalgiaForInfinity",
+          "publishedOn": "2021-10-31T00:54:55.840Z",
+          "wordCount": 636,
+          "title": "iterativv/NostalgiaForInfinity"
+        },
+        {
+          "id": "https://github.com/2point21/lba1-classic",
+          "author": null,
+          "description": "Little Big Adventure 1 - Engine source code\n \nLittle Big Adventure (aka Relentless: Twinsen's Adventure) is an action-adventure game, developed by Adeline Software International in 1994.\n \nWe are releasing this code with preservation in mind, as this piece of work was exceptional for the time and we believe it can be a valuable source of education.\n \nThe engine uses Assembly code and was originally compiled with non-open source libraries which have been excluded from the project.\n \nLicence\n \nThis source code is licensed under the GNU General Public License.\n \nPlease note this license only applies to Little Big Adventure 1 engine source code. Little Big Adventure 1 game assets (art, models, textures, audio, etc.) are not open-source and therefore aren't redistributable.\n \nHow can I contribu…",
+          "link": "https://github.com/2point21/lba1-classic",
+          "publishedOn": "2021-10-31T00:54:55.689Z",
+          "wordCount": 672,
+          "title": "2point21/lba1-classic"
+        },
+        {
+          "id": "https://github.com/2point21/lba2-classic",
+          "author": null,
+          "description": "Little Big Adventure 2 - Engine source code\n \nLittle Big Adventure 2 (aka Twinsen's Odyssey) is the sequel of Little Big Adventure (aka Relentless : Twinsen's Adventure) in 1997.\n \nWe are releasing this code with preservation in mind, as this piece of work was exceptional for the time and we believe it can be a valuable source of education.\n \nThe engine uses Assembly code and was originally compiled with non-open source libraries which have been excluded from the project.\n \nLicence\n \nThis source code is licensed under the GNU General Public License.\n \nPlease note this license only applies to Little Big Adventure 2 engine source code. Little Big Adventure 2 game assets (art, models, textures, audio, etc.) are not open-source and therefore aren't redistributable.\n \nHow can I contirubute ?\n \n…",
+          "link": "https://github.com/2point21/lba2-classic",
+          "publishedOn": "2021-10-31T00:54:55.650Z",
+          "wordCount": 685,
+          "title": "2point21/lba2-classic"
+        },
+        {
+          "id": "https://github.com/ehn-dcc-development/hcert-spec",
+          "author": null,
+          "description": "Electronic Health Certificates Specification\n\n\n \nElectronic Health Certificates\n \nThis repository contains a proposal for encoding and signing the Electronic Health Certificate (HCERT), as a candidate to be adapted and adopted by eHealth authorities and other stakeholders as they see fit.\n \nSpecification\n \nThe current authoritative version is tagged as releases in this repository.\n \nOverview\n \n\n \nRequirements and Design Principles\n \nThe following requirements and principles have been used when designing the Electronic Health Certificate (HCERT):\n \n \n \n Electronic Health Certificates shall be carried by the holder and must have the ability to be securely validated off-line (using strong and proven cryptographic primitives).\n Example: Signed data with machine readable content.\n  \n \n Use an e…",
+          "link": "https://github.com/ehn-dcc-development/hcert-spec",
+          "publishedOn": "2021-10-31T00:54:55.454Z",
+          "wordCount": 897,
+          "title": "ehn-dcc-development/hcert-spec"
+        },
+        {
+          "id": "https://github.com/github/copilot.vim",
+          "author": null,
+          "description": "Neovim plugin for GitHub Copilot\n\nCopilot.vim\n \nGitHub Copilot is an AI pair programmer which suggests line completions and entire function bodies as you type. GitHub Copilot is powered by the OpenAI Codex AI system, trained on public Internet text and billions of lines of code.\n \nCopilot.vim is a Vim plugin for GitHub Copilot. For now, it requires a Neovim 0.6 prerelease and a Node.js installation.\n \nTo learn more about GitHub Copilot, visit https://copilot.github.com.\n \nTechnical Preview\n \nAccess to GitHub Copilot is limited to a small group of testers during the technical preview of GitHub Copilot. If you don’t have access to the technical preview, you will see an error when you try to use this extension.\n \nDon’t have access yet? Sign up for the waitlist for your chance to try it out. GitHub will notify you once you have access.\n \nThis technical preview is a Beta Preview under the GitHub Terms of Service.\n \nGetting started\n \n \n \n Install Node.js v12 or newer.\n  \n \n Install a Neovim prerelease build. (Note: On macOS, extra steps are required to due to lack of notarization. Alternatively, Homebrew users can run brew install neovim --HEAD).\n  \n \n Install github/copilot.vim using vim-plug, packer.nvim, or any other plugin manager. Or to install directly:\n git clone https://github.com/github/copilot.vim.git \\\n  ~/.config/nvim/pack/github/start/copilot.vim\n\n  \n \n Start Neovim and invoke :Copilot setup.\n  \n \nSuggestions are displayed inline and can be accepted by pressing the tab key. See :help copilot for more information.",
+          "link": "https://github.com/github/copilot.vim",
+          "publishedOn": "2021-10-31T00:54:55.371Z",
+          "wordCount": 612,
+          "title": "github/copilot.vim"
+        },
         {
           "id": "https://github.com/mitchellh/nixos-config",
           "author": null,
@@ -3264,114 +3372,6 @@
           "publishedOn": "2021-10-02T00:52:43.103Z",
           "wordCount": 1397,
           "title": "appsmithorg/appsmith"
-        },
-        {
-          "id": "https://github.com/spring-projects/spring-boot",
-          "author": null,
-          "description": "Spring Boot\n\nSpring Boot   \n \n \n \n \n  \n \n   \nSpring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss. It takes an opinionated view of the Spring platform so that new and existing users can quickly get to the bits they need.\n \n  \n \n  \n \n   \nYou can use Spring Boot to create stand-alone Java applications that can be started using java -jar or more traditional WAR deployments. We also provide a command line tool that runs Spring scripts.\n \n  \n \n  \n \n   \nOur primary goals are:\n \n  \n \n  \n \n   \n \n    \n Provide a radically faster and widely accessible getting started experience for all Spring development.\n  \n    \n Be opinionated, but get out of the way quickly as requirements start to diverge from the defaults.\n  \n    \n Provide a range…",
-          "link": "https://github.com/spring-projects/spring-boot",
-          "publishedOn": "2021-10-01T00:56:56.610Z",
-          "wordCount": 1733,
-          "title": "spring-projects/spring-boot"
-        },
-        {
-          "id": "https://github.com/SteamTools-Team/SteamTools",
-          "author": null,
-          "description": "🛠「Steam++」是一个包含多种Steam工具功能的工具箱。\n\nSteam++ 工具箱 🧰\n \n \n \n「Steam++」是一个包含多种Steam工具功能的工具箱，此工具的大部分功能都是需要您下载安装Steam才能使用。\n \n \n        \n \n \n   \n \n \n   \n \n \n\n \n \nEnglish | 简体中文\n \n🚀 下载渠道\n \n \n \nGitHub Releases\n \n \nGitee Releases\n \n \nOfficial WebSite\n \n \nMicrosoft Store\n \n \n✨ 功能\n \n \n \n反代 Steam 的社区网页使其能正常访问 \n  \n \n   \n功能类似羽翼城大佬的 steamcommunity_302\n \n   \n使用 Titanium-Web-Proxy 开源项目进行本地反代，使国内用户可以正常访问 Steam 社区页\n \n   \n相比 302工具 具有更快的启动速度，以及支持简单的脚本注入（还顺便支持了Pixiv、Discord、Twitch等网站的反代支持）\n \n  \n  \n \n快速切换当前设备已记住登陆的 Steam 账号 \n  \n \n   \n该功能是读取 Steam 路径下存储的本地用户登录记录直接展示操作，可以多账号切换无需重新输入密码和令牌\n \n  \n  \n \nSteam游戏的成就统计管理功能 \n  \n \n   \n功能参考 SteamAchievementManager 进行二次开发，修改了游戏列表的加载和操作易用性\n \n  \n  \n \nSteam本地两步身份验证器 \n  \n \n   \n功能参考 WinAuth 开发，可以使您不用启动移动版 Steam App 也能查看您的令牌\n \n   \n本地令牌交易市场报价确认\n \n   \n功能类似的软件例如： \n    \n \n     \nWinAuth\n \n …",
-          "link": "https://github.com/SteamTools-Team/SteamTools",
-          "publishedOn": "2021-10-01T00:56:55.710Z",
-          "wordCount": 973,
-          "title": "SteamTools-Team/SteamTools"
-        },
-        {
-          "id": "https://github.com/Moya/Moya",
-          "author": null,
-          "description": "Network abstraction layer written in Swift.\n\n  \n \nMoya 15.0.0\n \n     \n \nA Chinese version of this document can be found here.\n \nYou're a smart developer. You probably use Alamofire to abstract away access to URLSession and all those nasty details you don't really care about. But then, like lots of smart developers, you write ad hoc network abstraction layers. They are probably called \"APIManager\" or \"NetworkModel\", and they always end in tears.\n \n\n \nAd hoc network layers are common in iOS apps. They're bad for a few reasons:\n \n \n \nMakes it hard to write new apps (\"where do I begin?\")\n \n \nMakes it hard to maintain existing apps (\"oh my god, this mess...\")\n \n \nMakes it hard to write unit tests (\"how do I do this again?\")\n \n \nSo the basic idea of Moya is that we want some network abstraction …",
-          "link": "https://github.com/Moya/Moya",
-          "publishedOn": "2021-10-01T00:56:55.649Z",
-          "wordCount": 2656,
-          "title": "Moya/Moya"
-        },
-        {
-          "id": "https://github.com/tanc7/EXOCET-AV-Evasion",
-          "author": null,
-          "description": "EXOCET - AV-evading, undetectable, payload delivery tool\n\nEXOCET - AV-evading, undetectable, payload delivery tool\n \nChang Tan \n AWS Certified Cloud Practitioner and Solutions Architect Associate \n changtan@listerunlimited.com \n \n \n EXOCET is superior to Metasploit's \"Evasive Payloads\" modules as EXOCET uses AES-256 in GCM Mode (Galois/Counter Mode). Metasploit's Evasion Payloads uses a easy to detect RC4 encryption. While RC4 can decrypt faster, AES-256 is much more difficult to ascertain the intent of the malware. \n \nHowever, it is possible to use Metasploit to build a Evasive Payload, and then chain that with EXOCET. So EXOCET will decrypt via AES-256, and then the Metasploit Evasive Payload then decrypts itself from RC4.\n \nMuch like my previous project, DarkLordObama, this toolkit is d…",
-          "link": "https://github.com/tanc7/EXOCET-AV-Evasion",
-          "publishedOn": "2021-10-01T00:56:55.585Z",
-          "wordCount": 1845,
-          "title": "tanc7/EXOCET-AV-Evasion"
-        },
-        {
-          "id": "https://github.com/Kaustubh-Natuskar/companies-to-apply",
-          "author": null,
-          "description": "this repository contains opportunities for you to apply to more than 150 product base companies(NOT JUST FAANG ) & good start-up's\n\nGood Product Base Companies & start-up's\n \nThis Repository contains contains the list of companies(more than FAANG) which you can join!\n \nfind companies Alphabetically\n \n \n  \n  \n \n    \n    \n    \n    \n  \n \n  \n  \n  \n \n   A \n   B \n   C \n   D \n  \n \n  \n \n   E \n   F \n   G \n   H \n  \n \n  \n \n   I \n   J \n   K \n   L \n  \n \n  \n \n   M \n   N \n   O \n   P \n  \n \n  \n \n   Q \n   R \n   S \n   T \n  \n \n  \n \n   U \n   V \n   W \n    \n  \n \n  \n \n   X \n   Y \n   Z \n    \n  \n \n  \n \n \n  \n  \n \n   Total companies added \n  \n \n  \n  \n  \n \n   160 \n  \n \n  \n \nA\n \n \n \n1 mg\n \n \nAdobe\n \n \nAgnikul Cosmos\n \n \nAgile Solutions\n \n \nAirbus\n \n \nAirtel x labs\n \n \nAjio\n \n \nakamai\n \n \nAmadeus labs\n \n \nAmazon\n \n \nAme…",
-          "link": "https://github.com/Kaustubh-Natuskar/companies-to-apply",
-          "publishedOn": "2021-10-01T00:56:55.498Z",
-          "wordCount": 837,
-          "title": "Kaustubh-Natuskar/companies-to-apply"
-        },
-        {
-          "id": "https://github.com/hashicorp/consul",
-          "author": null,
-          "description": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.\n\nConsul  \n \n \n \nWebsite: https://www.consul.io\n \n \nTutorials: HashiCorp Learn\n \n \nForum: Discuss\n \n \nConsul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.\n \nConsul provides several key features:\n \n \n \n Multi-Datacenter - Consul is built to be datacenter aware, and can support any number of regions without complex configuration.\n  \n \n Service Mesh/Service Segmentation - Consul Connect enables secure service-to-service communication with automatic TLS encryption and identity-based authorization. Applications can use sidecar proxies in a s…",
-          "link": "https://github.com/hashicorp/consul",
-          "publishedOn": "2021-10-01T00:56:55.448Z",
-          "wordCount": 1270,
-          "title": "hashicorp/consul"
-        },
-        {
-          "id": "https://github.com/robertdavidgraham/masscan",
-          "author": null,
-          "description": "TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.\n\n\n \nMASSCAN: Mass IP port scanner\n \nThis is an Internet-scale port scanner. It can scan the entire Internet in under 5 minutes, transmitting 10 million packets per second, from a single machine.\n \nIts usage (parameters, output) is similar to nmap, the most famous port scanner. When in doubt, try one of those features -- features that support widespread scanning of many machines are supported, while in-depth scanning of single machines aren't.\n \nInternally, it uses asynchronous transmission, similar to port scanners like scanrand, unicornscan, and ZMap. It's more flexible, allowing arbitrary port and address ranges.\n \nNOTE: masscan uses its own ad hoc TCP/IP stack. Anything other than simple por…",
-          "link": "https://github.com/robertdavidgraham/masscan",
-          "publishedOn": "2021-10-01T00:56:55.394Z",
-          "wordCount": 4268,
-          "title": "robertdavidgraham/masscan"
-        },
-        {
-          "id": "https://github.com/mgeeky/ThreadStackSpoofer",
-          "author": null,
-          "description": "Thread Stack Spoofing - PoC for an advanced In-Memory evasion technique allowing to better hide injected shellcode's memory allocation from scanners and analysts.\n\nThread Stack Spoofing / Call Stack Spoofing PoC\n \nA PoC implementation for an advanced in-memory evasion technique that spoofs Thread Call Stack. This technique allows to bypass thread-based memory examination rules and better hide shellcodes while in-process memory.\n \nIntro\n \nThis is an example implementation for Thread Stack Spoofing technique aiming to evade Malware Analysts, AVs and EDRs looking for references to shellcode's frames in an examined thread's call stack. The idea is to walk back thread's call stack and overwrite return addresses in subsequent function frames thus masquerading allocations containing malware's cod…",
-          "link": "https://github.com/mgeeky/ThreadStackSpoofer",
-          "publishedOn": "2021-10-01T00:56:55.338Z",
-          "wordCount": 2364,
-          "title": "mgeeky/ThreadStackSpoofer"
-        },
-        {
-          "id": "https://github.com/laravel/laravel",
-          "author": null,
-          "description": "A PHP framework for web artisans.\n\n\n \n     \n \nAbout Laravel\n \nLaravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:\n \n \n \nSimple, fast routing engine.\n \n \nPowerful dependency injection container.\n \n \nMultiple back-ends for session and cache storage.\n \n \nExpressive, intuitive database ORM.\n \n \nDatabase agnostic schema migrations.\n \n \nRobust background job processing.\n \n \nReal-time event broadcasting.\n \n \nLaravel is accessible, powerful, and provides tools required for large, robust applications.\n \nLearning Laravel\n \nLaravel has the most extensive and thorough documentation and video …",
-          "link": "https://github.com/laravel/laravel",
-          "publishedOn": "2021-10-01T00:56:55.265Z",
-          "wordCount": 876,
-          "title": "laravel/laravel"
-        },
-        {
-          "id": "https://github.com/KilledByAPixel/LittleJS",
-          "author": null,
-          "description": "The Tiny JavaScript Game Engine That Can! 🚂\n\n LittleJS - The Tiny JavaScript Game Engine That Can\n \nAll aboard!\n \nLittleJS is a lightweight 2D JavaScript game engine with a super fast WebGL rendering system. The goal of this project is to be small, simple, and easy to use for a variety of applications from size coding game jams to commercial releases. This engine has everything necessary for most games including super fast rendering, physics, particles, sound effects, music, keyboard/mouse/gamepad input handling, update/render loop, and debug tools. 🚂\n \n\n \nFeatures\n \n \n \nVery small footprint with no dependencies\n \n \nCan render 10,000+ objects at 60fps, several times more on a powerful machine\n \n \nObject oriented system with base class engine object\n \n \n2D physics and collision handling f…",
-          "link": "https://github.com/KilledByAPixel/LittleJS",
-          "publishedOn": "2021-10-01T00:56:55.208Z",
-          "wordCount": 1231,
-          "title": "KilledByAPixel/LittleJS"
-        },
-        {
-          "id": "https://github.com/withfig/autocomplete",
-          "author": null,
-          "description": "Fig adds autocomplete to your terminal.\n\n  \n \n \n     \n \nFig adds autocomplete to your terminal.\n \nAs you type, Fig pops up subcommands, options, and contextually relevant arguments in your existing terminal on macOS.\n \n\n \n \n👋 Add a completion spec for a CLI tool\n \nWant to add autocomplete to a CLI tool (or make changes to an existing autocomplete spec)? We welcome contributions!\n \nCompletion specs are defined in a declarative schema that specifies subcommands, options and arguments. Suggestions are generated from information in the spec or can be generated dynamically by running shell commands or reading local files.\n \nFor documentation and tutorials, visit fig.io/docs\n \nTo request autocomplete for a CLI tool, open an issue.\n \n \n😎 Get Started\n \nBuild your first spec in 3 min or less: fig…",
-          "link": "https://github.com/withfig/autocomplete",
-          "publishedOn": "2021-10-01T00:56:55.160Z",
-          "wordCount": 1028,
-          "title": "withfig/autocomplete"
-        },
-        {
-          "id": "https://github.com/github/india",
-          "author": null,
-          "description": "GitHub resources and information for the developer community in India\n\n  \n \n \nWelcome to GitHub India 🇮🇳\n \nIn this repo, you can find resources and information for the developer community in India.\n \n \n \nOpen Source \n  \n \n   \nGitHub Grants for Open Source\n \n   \nProjects from India\n \n   \nResources\n \n  \n  \n \nDevelopers \n  \n \n   \nMeetups\n \n   \nGitHub Stars\n \n   \nThe ReadME Project\n \n  \n  \n \nStudents \n  \n \n   \nExternships\n \n   \nCampus Program\n \n   \nStudent Developer Pack\n \n   \nCampus Experts\n \n  \n  \n \nStartups \n  \n \n   \nGitHub Accelerate\n \n  \n  \n \nEvents \n  \n \n   \nGitHub Universe 2021\n \n   \nGitHub India Workshops\n \n  \n  \n \nCareers\n \n \nLet's connect\n \n \nContributing\n \n \nLicense\n \n \n \n🧑‍💻 Open Source\n \nThe open-source ecosystem in India is thriving with many contributors & maintainers from I…",
-          "link": "https://github.com/github/india",
-          "publishedOn": "2021-10-01T00:56:55.104Z",
-          "wordCount": 1465,
-          "title": "github/india"
         }
       ]
     }
