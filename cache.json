@@ -332,6 +332,132 @@
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
         {
+          "id": "https://github.com/swc-project/swc",
+          "author": null,
+          "description": "swc is a super-fast compiler written in rust; producing widely-supported javascript from modern standards and typescript.\n\n    \n \n Make the web (development) faster. \n \n       \n \n    \n \nswc is a super-fast typescript / javascript compiler written in rust. It's a library for rust and javascript at the same time. If you are using swc from rust, see rustdoc and for most users, your entrypoint for using library will be parser.\n \nIf you are using swc from javascript, please refer to docs on the website.\n \nDocumentation\n \nCheck out the documentation in the website.\n \nFeatures\n \nPlease see comparison with babel.\n \nPerformance\n \nPlease see benchmark results on the website.\n \nSupporting swc\n \n             \n \nswc is a community-driven project, and is maintained by a group of volunteers. If you'd like to help support the future of the project, please consider:\n \n \n \nGiving developer time on the project. (Message us on Discord (preferred) or Github discussions for guidance!)\n \n \nGiving funds by becoming a sponsor (see https://opencollective.com/swc)!\n \n \nContributing\n \nSee CONTRIBUTING.md. You may also find the architecture documentation useful (ARCHITECTURE.md).\n \nLicense\n \nswc is primarily distributed under the terms of both the MIT license and the Apache License (Version 2.0).\n \nSee LICENSE-APACHE and LICENSE-MIT for details.",
+          "link": "https://github.com/swc-project/swc",
+          "publishedOn": "2021-11-01T00:55:13.855Z",
+          "wordCount": 951,
+          "title": "swc-project/swc"
+        },
+        {
+          "id": "https://github.com/diem/diem",
+          "author": null,
+          "description": "Diem’s mission is to build a trusted and innovative financial network that empowers people and businesses around the world.\n\n \n \nNote to readers: On December 1, 2020, the Libra Association was renamed to Diem Association. The project repos are in the process of being migrated. All projects will remain available for use here until the migration to a new GitHub Organization is complete.\n \n \n   \n \n    \n \nDiem Core implements a decentralized, programmable database which provides a financial infrastructure that can empower billions of people.\n \nNote to Developers\n \n \n \nDiem Core is a prototype.\n \n \nThe APIs are constantly evolving and designed to demonstrate types of functionality. Expect substantial changes before the release.\n \n \nWe’ve launched a testnet that is a live demonstration of an early prototype of the Diem Blockchain software.\n \n \nContributing\n \nTo begin contributing, sign the CLA. You can learn more about contributing to the Diem project by reading our Contribution Guide and by viewing our Code of Conduct.\n \nGetting Started\n \nLearn About Diem\n \n \n \nWelcome\n \n \nDiem Protocol: Key Concepts\n \n \nLife of a Transaction\n \n \nJSON-RPC SPEC\n \n \nTry Diem Core\n \n \n \nMy First Transaction\n \n \nGetting Started With Move\n \n \nTechnical Papers\n \n \n \nThe Diem Blockchain\n \n \nMove: A Language With Programmable Resources\n \n \nState Machine Replication in the Diem Blockchain\n \n \nBlog\n \n \n \nDiem: The Path Forward\n \n \nCommunity\n \n \n \nJoin us on the Diem Discourse.\n \n \nAsk a question on Stack Overflow.\n \n \nGet the latest updates to our project by signing up for our newsletter.\n \n \nLicense\n \nDiem Core is licensed as Apache 2.0.",
+          "link": "https://github.com/diem/diem",
+          "publishedOn": "2021-11-01T00:55:13.773Z",
+          "wordCount": 1136,
+          "title": "diem/diem"
+        },
+        {
+          "id": "https://github.com/acidanthera/BrcmPatchRAM",
+          "author": null,
+          "description": "BrcmPatchRAM\n \n \n \nTranslate Language\n \n \n \n简体中文\n \n \nEnglish\n \n \nMost Broadcom USB Bluetooth devices make use of a system called RAMUSB. RAMUSB allows the firmware for the device to be updated on-the-fly, however any updates previously applied are lost when shutting down the machine.\n \nThe Broadcom Windows driver will upload firmware into the Broadcom Bluetooth device on every startup, however for macOS this functionality is not supported out of the box. BrcmPatchRAM kext is a macOS driver which applies PatchRAM updates for Broadcom RAMUSB based devices. It will apply the firmware update to your Broadcom Bluetooth device on every startup / wakeup, identical to the Windows drivers. The firmware applied is extracted from the Windows drivers and the functionality should be equal to Windows.\n …",
+          "link": "https://github.com/acidanthera/BrcmPatchRAM",
+          "publishedOn": "2021-11-01T00:55:13.721Z",
+          "wordCount": 2925,
+          "title": "acidanthera/BrcmPatchRAM"
+        },
+        {
+          "id": "https://github.com/kubesphere/kubesphere",
+          "author": null,
+          "description": "The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️\n\n  \n \n The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management \n \n       \n \n \nWhat is KubeSphere\n \n \n \nEnglish | 中文\n \n \nKubeSphere is a distributed operating system for cloud-native application management, using Kubernetes as its kernel. It provides a plug-and-play architecture, allowing third-party applications to be seamlessly integrated into its ecosystem. KubeSphere is also a multi-tenant container platform with full-stack automated IT operation and streamlined DevOps workflows. It provides developer-friendly wizard web UI, helping enterprises to build out a more robust and feature-rich platform, which includes most common functionalities needed for en…",
+          "link": "https://github.com/kubesphere/kubesphere",
+          "publishedOn": "2021-11-01T00:55:13.679Z",
+          "wordCount": 1456,
+          "title": "kubesphere/kubesphere"
+        },
+        {
+          "id": "https://github.com/waydabber/BetterDummy",
+          "author": null,
+          "description": "Software Dummy Display Adapter for Apple Silicon Macs to Have Custom HiDPI Resolutions.\n\nBetterDummy\n \nDummy Display for Apple Silicon Macs to achieve custom resolutions.\n \nAbout\n \nM1 macs tend to have issues with custom resolutions. Notoriously they don't allow sub 4K resolution displays to have HiDPI (\"Retina\") resolutions even though for example a 24\" QHD display would greatly benefit from having an 1920x1080 HiDPI \"Retina\" mode.\n \nTo fix this issue, many resort to buying a 4K HDMI dummy dongle to fool macOS into thinking that a 4K display is connected and then mirror the contents of this dummy display to the physical display in order to have HiDPI resolution. Others use the built in screens of their MacBooks to mirror to the external display. These approaches have obvious drawbacks and…",
+          "link": "https://github.com/waydabber/BetterDummy",
+          "publishedOn": "2021-11-01T00:55:13.642Z",
+          "wordCount": 1087,
+          "title": "waydabber/BetterDummy"
+        },
+        {
+          "id": "https://github.com/OpenIMSDK/Open-IM-Server",
+          "author": null,
+          "description": "OpenIM：由前微信技术专家打造的基于 Go 实现的即时通讯（IM）项目，从服务端到客户端SDK开源即时通讯（IM）整体解决方案，可以轻松替代第三方IM云服务，打造具备聊天、社交功能的app。\n\nOpen-IM-Server\n \n\n \n \n \nOpen-IM-Server: Open source Instant Messaging Server\n \nInstant messaging server. Backend in pure Golang, wire transport protocol is JSON over websocket.\n \nEverything is a message in Open-IM-Server, so you can extend custom messages easily, there is no need to modify the server code.\n \nUsing microservice architectures, Open-IM-Server can be deployed using clusters.\n \nBy deployment of the Open-IM-Server on the customer's server, developers can integrate instant messaging and real-time network capabilities into their own applications free of charge and quickly, and ensure the security and privacy of business data.\n \nFeatures\n \n \n \nEverything in Free\n \n \nScalable architect…",
+          "link": "https://github.com/OpenIMSDK/Open-IM-Server",
+          "publishedOn": "2021-11-01T00:55:13.621Z",
+          "wordCount": 1379,
+          "title": "OpenIMSDK/Open-IM-Server"
+        },
+        {
+          "id": "https://github.com/github/india",
+          "author": null,
+          "description": "GitHub resources and information for the developer community in India\n\n  \n \n \nWelcome to GitHub India 🇮🇳\n \nIn this repo, you can find resources and information for the developer community in India.\n \n \n \nOpen Source \n  \n \n   \nGitHub Grants for Open Source\n \n   \nProjects from India\n \n   \nResources\n \n  \n  \n \nDevelopers \n  \n \n   \nMeetups\n \n   \nGitHub Stars\n \n   \nThe ReadME Project\n \n  \n  \n \nStudents \n  \n \n   \nExternships\n \n   \nCampus Program\n \n   \nStudent Developer Pack\n \n   \nCampus Experts\n \n  \n  \n \nStartups \n  \n \n   \nGitHub Accelerate\n \n  \n  \n \nEvents \n  \n \n   \nGitHub Universe 2021\n \n   \nGitHub India Workshops\n \n  \n  \n \nCareers\n \n \nLet's connect\n \n \nContributing\n \n \nLicense\n \n \n \n🧑‍💻 Open Source\n \nThe open-source ecosystem in India is thriving with many contributors & maintainers from I…",
+          "link": "https://github.com/github/india",
+          "publishedOn": "2021-11-01T00:55:13.569Z",
+          "wordCount": 1445,
+          "title": "github/india"
+        },
+        {
+          "id": "https://github.com/juicedata/juicefs",
+          "author": null,
+          "description": "JuiceFS is a distributed POSIX file system built on top of Redis and S3.\n\n\n \n     \n \nJuiceFS is a high-performance POSIX file system released under GNU Affero General Public License v3.0. It is specially optimized for the cloud-native environment. Using the JuiceFS to store data, the data itself will be persisted in object storage (e.g. Amazon S3), and the metadata corresponding to the data can be persisted in various database engines such as Redis, MySQL, and SQLite according to the needs of the scene.\n \nJuiceFS can simply and conveniently connect massive cloud storage directly to big data, machine learning, artificial intelligence, and various application platforms that have been put into production environment, without modifying the code, you can use massive cloud storage as efficiently…",
+          "link": "https://github.com/juicedata/juicefs",
+          "publishedOn": "2021-11-01T00:55:13.541Z",
+          "wordCount": 2186,
+          "title": "juicedata/juicefs"
+        },
+        {
+          "id": "https://github.com/notifirehq/notifire",
+          "author": null,
+          "description": "🚀 The open-source notification infrastructure for products.\n\n    \n \nNotification management simplified.\n \n\n  The ultimate library for managing multi-channel notifications with a single API. \n \n \n Explore the docs » \n  Report Bug · Request Feature · Read our blog \n \n⭐️ Why\n \nBuilding a notification system is hard, at first it seems like just sending an email but in reality it's just the beginning. In today's world users expect multi channel communication experience over email, sms, push, direct and more... An ever growing list of providers are popping up each day, and notifications are spread around the code. Notifire's goal is to simplify notifications and provide developers the tools to create meaningful communication between the system and it's users.\n \n✨ Features\n \n \n \n🌈 Single API fo…",
+          "link": "https://github.com/notifirehq/notifire",
+          "publishedOn": "2021-11-01T00:55:13.456Z",
+          "wordCount": 874,
+          "title": "notifirehq/notifire"
+        },
+        {
+          "id": "https://github.com/Tencent/cherry-markdown",
+          "author": null,
+          "description": "✨ A Markdown Editor\n\n\n \nCherry Markdown Editor\n \nEnglish | 简体中文\n \nIntroduction\n \nCherry Markdown Editor is a Javascript Markdown editor. It has the advantages such as out-of-the-box, lightweight and easy to extend. It can run in browser or server(with NodeJs).\n \nOut-of-the-box\n \nDeveloper can call and instantiate Cherry Markdown Editor in a very simple way. The instantiated Cherry Markdown Editor supports most commonly used markdown syntax (such as title, TOC, flowchart, formula, etc.) by default.\n \nEasy to extend\n \nWhen the syntax that Cherry Markdown editor support can not meet your needs, secondary development or function extention can be carried out quickly. At the same time, Cherry Markdown editor should be implemented by pure JavaScript, and should not rely on framework technology su…",
+          "link": "https://github.com/Tencent/cherry-markdown",
+          "publishedOn": "2021-11-01T00:55:13.226Z",
+          "wordCount": 1615,
+          "title": "Tencent/cherry-markdown"
+        },
+        {
+          "id": "https://github.com/denysvitali/covid-cert-analysis",
+          "author": null,
+          "description": "covid-cert-analysis\n \nThis repository contains the analysis performed on the leaked forged COVID-19 Certificates. The certificates, contained in string format in the samples/ directory, have been collected from the 4Chan and Raid Forums posts.\n \nThe results are in the RESULTS.md file and can be generated using ./verify.sh.\n \nPlease - stay safe and get vaccinated!\n \nThe situation\n \nOn 2021-10-27 @emanuelelaface created an issue on ehn-dcc-development/hcert-spec to report a possible private key leakage of French and Polish governments.\n \nThe issue reports that (online and on Telegram) some forged COVID-19 Certificates are circulating and are still marked as valid.\n \nThe two certificates mentioned in the post are associated with \"Adolf Hitler\" with two different dates of birth.\n \nMy Opinion\n …",
+          "link": "https://github.com/denysvitali/covid-cert-analysis",
+          "publishedOn": "2021-11-01T00:55:13.161Z",
+          "wordCount": 875,
+          "title": "denysvitali/covid-cert-analysis"
+        },
+        {
+          "id": "https://github.com/lihaoyun6/PD-Runner",
+          "author": null,
+          "description": "A VM launcher for Parallels Desktop\n\n \n  \n \nPD Runner\n \n适用于Parallels Desktop的启动器, 可无视试用期限强制启动客户机 (支持 PD17.1.0)\n \n 本项目仅用于学习研究使用, 请支持正版!\n English Version \n \n运行截图\n \n \n使用\n \nPD Runner是一个菜单栏APP, 启动后会在菜单栏显示程序图标. 点击菜单栏图标可列出当前Mac上安装的所有客户机, 然后点击客户机名称即可启动对应的客户机.\n \n常见问题\n \n1. 什么首次启动会需要输入密码?\n \n \n \n因为针对PD 17.1.0新引入的鉴权措施, 需要通过快速切换系统时间来绕过. 所以需要向系统中安装一个特权助理, 方便进行修改时间的操作. 如果不这样做, 那么每次启动虚拟机的时候就都需要输入一次密码.\n \n \n2. 为什么PD Runner启动后没有任何窗口?\n \n \n \n因为PD Runner是一款菜单栏APP, 启动后只会在菜单栏显示一个图标以供使用, 并没有主窗口.\n \n \n3. 虚拟机需要修改为指定的名称才能使用吗?\n \n \n \n不需要, PD Runner可以全自动识别当前系统中的客户机, 并自动列出. 不要用户干预.\n \n \n4. 安装帮助程序时弹出错误提示怎么办?\n \n \n \n如果您看到的错误代码为\"Domain=CFError DomainLaunchd Code=9\", 请尝试在系统的\"终端\"APP中执行 sudo launchctl enable system/com.lihaoyun6.PD-Runner-Helper\n 并输入密码, 然后再次启动PD Runner既可正常使用 (输入密码的过程是不显示密码的, 并不是没有输入进去, 正常输入并回车既可)",
+          "link": "https://github.com/lihaoyun6/PD-Runner",
+          "publishedOn": "2021-11-01T00:55:13.137Z",
+          "wordCount": 449,
+          "title": "lihaoyun6/PD-Runner"
+        },
+        {
+          "id": "https://github.com/priyankavergadia/GCPSketchnote",
+          "author": null,
+          "description": "If you are looking to become a Google Cloud Engineer , then you are at the right place. GCPSketchnote is series where I share Google Cloud concepts in quick and easy to learn format.\n\nGCPSketchnote\n \nThe Google Cloud Developer's Visual Notes\n \nEvery product in the Google Cloud family described in the visual sketchnote format to grasp the capability of the tools quickly and easily.\n \nPull requests are welcome on README.md (this file).\n \n\n \nFeedback and suggestions? @pvergadia. You can also check my blog - https://thecloudgirl.dev and my Youtube Channel\n \nNote: This project is a work in progress and this list only includes products that are publicly available. There are several products in pre-release/private-alpha that will not be included until they go public beta or GA.\n \nMany of these pr…",
+          "link": "https://github.com/priyankavergadia/GCPSketchnote",
+          "publishedOn": "2021-11-01T00:55:13.096Z",
+          "wordCount": 1033,
+          "title": "priyankavergadia/GCPSketchnote"
+        },
+        {
+          "id": "https://github.com/edeng23/binance-trade-bot",
+          "author": null,
+          "description": "Automated cryptocurrency trading bot\n\nbinance-trade-bot\n \n \n \n \n \nAutomated cryptocurrency trading bot\n \n \nWhy?\n \nThis project was inspired by the observation that all cryptocurrencies pretty much behave in the same way. When one spikes, they all spike, and when one takes a dive, they all do. Pretty much. Moreover, all coins follow Bitcoin's lead; the difference is their phase offset.\n \nSo, if coins are basically oscillating with respect to each other, it seems smart to trade the rising coin for the falling coin, and then trade back when the ratio is reversed.\n \nHow?\n \nThe trading is done in the Binance market platform, which of course, does not have markets for every altcoin pair. The workaround for this is to use a bridge currency that will complement missing pairs. The default bridge cu…",
+          "link": "https://github.com/edeng23/binance-trade-bot",
+          "publishedOn": "2021-11-01T00:55:13.027Z",
+          "wordCount": 1721,
+          "title": "edeng23/binance-trade-bot"
+        },
+        {
           "id": "https://github.com/waldo-vision/optical-flow-demo",
           "author": null,
           "description": "A project that uses optical flow and machine learning to detect aimhacking in video clips.\n\nwaldo-anticheat\n \nA project that aims to use optical flow and machine learning to visually detect cheating or hacking in video clips from fps games. Check out this video discussing the purpose and vision of WALDO.\n \nNotes\n \n \n \nThis project is still under development.\n \n \nThe What\n \nA new market for cheats that are visually indistinguishable to the human eye have lead to a rise in \"closet hacking\" among streamers and professionals. This form of cheating is extremely hard to detect. In some cases it is impossible to detect, even with today's most advanced anti-cheat software.\n \nWe will combat this new kind of cheating by creating our own deep learning program to detect this behavior in video clips.\n \nThe How\n \nBecause of the advanced technology used, the only reliable way to detect this form of cheating is by observing the cheating behavior directly from the end result- gameplay. Our goal is to analyze the video directly using deep learning to detect if a user is receiving machine assistance.\n \nPhase 1 focuses primarily on humanized aim-assist. Upon completion of phase 1, WALDO's main function will be vindication and clarity to many recent \"hackusations.\"\n \nSkills needed:\n \n \n \nMachine learning / neural networks / AI\n \n \nVisualizations and graphics\n \n \nData analysis\n \n \nGeneral python\n \n \nWebsite design / programming\n \n \nGame graphics / video analysis\n \n \nGamers\n \n \nCurrent closet hackers you can help ( ͡° ͜ʖ ͡°)",
@@ -3228,150 +3354,6 @@
           "publishedOn": "2021-10-03T00:58:39.569Z",
           "wordCount": 3625,
           "title": "mgeeky/ShellcodeFluctuation"
-        },
-        {
-          "id": "https://github.com/pytorch/data",
-          "author": null,
-          "description": "A PyTorch repo for data loading and utilities to be shared by the PyTorch domain libraries.\n\nTorchData (🚨 Warning: Unstable Prototype 🚨)\n \nWhy torchdata? | Install guide | What are DataPipes? | Prototype Usage and Feedback | Contributing | Future Plans\n \nThis is a prototype library currently under heavy development. It does not currently have stable releases, and as such will likely be modified significantly in BC-breaking ways until beta release (targeting early 2022), and can only be used with the PyTorch nightly binaries. If you have suggestions on the API or use cases you'd like to be covered, please open a github issue. We'd love to hear thoughts and feedback.\n \ntorchdata is a prototype library of common modular data loading primitives for easily constructing flexible and performant…",
-          "link": "https://github.com/pytorch/data",
-          "publishedOn": "2021-10-02T00:52:44.147Z",
-          "wordCount": 1931,
-          "title": "pytorch/data"
-        },
-        {
-          "id": "https://github.com/great-expectations/great_expectations",
-          "author": null,
-          "description": "Always know what to expect from your data.\n\n  \n \n>> --> \n \nGreat Expectations\n \nAlways know what to expect from your data.\n \nIntroduction\n \nGreat Expectations helps data teams eliminate pipeline debt, through data testing, documentation, and profiling.\n \nSoftware developers have long known that testing and documentation are essential for managing complex codebases. Great Expectations brings the same confidence, integrity, and acceleration to data science and data engineering teams.\n \nSee Down with Pipeline Debt! for an introduction to the philosophy of pipeline testing.\n \n>>\n\n--------------------------------------------------\n--> \nKey features\n \nExpectations\n \nExpectations are assertions for data. They are the workhorse abstraction in Great Expectations, covering all kinds of common data i…",
-          "link": "https://github.com/great-expectations/great_expectations",
-          "publishedOn": "2021-10-02T00:52:43.779Z",
-          "wordCount": 1980,
-          "title": "great-expectations/great_expectations"
-        },
-        {
-          "id": "https://github.com/jonataslaw/getx",
-          "author": null,
-          "description": "Open screens/snackbars/dialogs/bottomSheets without context, manage states and inject dependencies easily with Get.\n\n\n \n           \n \n\n \n \n \nLanguages:\n \n \n          \n \n \n \n \nAbout Get\n \n \nInstalling\n \n \nCounter App with GetX\n \n \nThe Three pillars \n  \n \n   \nState management \n    \n \n     \nReactive State Manager\n \n     \nMore details about state management\n \n    \n  \n   \nRoute management \n    \n \n     \nMore details about route management\n \n    \n  \n   \nDependency management \n    \n \n     \nMore details about dependency management\n \n    \n  \n  \n  \n \nUtils \n  \n \n   \nInternationalization \n    \n \n     \nTranslations \n      \n \n       \nUsing translations\n \n      \n  \n     \nLocales \n      \n \n       \nChange locale\n \n       \nSystem locale\n \n      \n  \n    \n  \n   \nChange Theme\n \n   \nGetConnect \n    \n \n     \nDef…",
-          "link": "https://github.com/jonataslaw/getx",
-          "publishedOn": "2021-10-02T00:52:43.718Z",
-          "wordCount": 6912,
-          "title": "jonataslaw/getx"
-        },
-        {
-          "id": "https://github.com/marcel-dempers/docker-development-youtube-series",
-          "author": null,
-          "description": "The Ultimate Engineer Toolbox  🔨🔧\n \nA Collection of tools, hands-on walkthroughs with source code. \n The Ultimate Swiss Army knife for DevOps, Developers and Platform Engineers\n \n \n \n  \n  \n \n   Steps \n   Playlist 📺 \n   Source ) \n  \n \n  \n  \n  \n \n   Learn Kubernetes ❄ \n    \n   source \n  \n \n  \n \n   Learn about CI/CD tools 🐳 \n    \n    \n  \n \n  \n \n   Deploy Kubernetes to the cloud ⛅ \n    \n   source \n  \n \n  \n \n   Monitoring Kubernetes 🔍 \n    \n   source \n  \n \n  \n \n   Guide to Logging 📃 \n    \n   source \n  \n \n  \n \n   Guide to ServiceMesh 🌐 \n    \n   source \n  \n \n  \n \nDocker Development Basics\n \n \n  \n  \n \n   Step ✔ \n   Video 🎥 \n   Source Code ) \n  \n \n  \n  \n  \n \n   Working with Dockerfiles \n(.NET, Golang, Python, NodeJS) \n    \n   source \n  \n \n  \n \n   Working with code \n(.NET, Golang, Python, NodeJS) \n    \n   source \n  \n \n  \n \n   Docker Multistage explained \n    \n   source \n  \n \n  \n \n   Debugging Go in Docker \n    \n   source \n  \n \n  \n \n   Debugging .NET in Docker \n    \n   source \n  \n \n  \n \n   Debugging Python in Docker \n    \n   source \n  \n \n  \n \n   Debugging NodeJS in Docker \n    \n   source \n  \n \n  \n \nEngineering Toolbox 🔨🔧\n \nCheckout the toolbox website",
-          "link": "https://github.com/marcel-dempers/docker-development-youtube-series",
-          "publishedOn": "2021-10-02T00:52:43.649Z",
-          "wordCount": 663,
-          "title": "marcel-dempers/docker-development-youtube-series"
-        },
-        {
-          "id": "https://github.com/knative/serving",
-          "author": null,
-          "description": "Kubernetes-based, scale-to-zero, request-driven compute\n\nKnative Serving\n \n     \n \nKnative Serving builds on Kubernetes to support deploying and serving of applications and functions as serverless containers. Serving is easy to get started with and scales to support advanced scenarios.\n \nThe Knative Serving project provides middleware primitives that enable:\n \n \n \nRapid deployment of serverless containers\n \n \nAutomatic scaling up and down to zero\n \n \nRouting and network programming\n \n \nPoint-in-time snapshots of deployed code and configurations\n \n \nFor documentation on using Knative Serving, see the serving section of the Knative documentation site.\n \nFor documentation on the Knative Serving specification, see the docs folder of this repository.\n \nIf you are interested in contributing, see CONTRIBUTING.md and DEVELOPMENT.md.",
-          "link": "https://github.com/knative/serving",
-          "publishedOn": "2021-10-02T00:52:43.611Z",
-          "wordCount": 743,
-          "title": "knative/serving"
-        },
-        {
-          "id": "https://github.com/docker/compose",
-          "author": null,
-          "description": "Define and run multi-container applications with Docker\n\nDocker Compose v2\n \n\n \n\n \nDocker Compose is a tool for running multi-container applications on Docker defined using the Compose file format. A Compose file is used to define how the one or more containers that make up your application are configured. Once you have a Compose file, you can create and start your application with a single command: docker compose up.\n \nAbout update and backward compatibility\n \nDocker Compose V2 is a major version bump release of Docker compose. It has been completely rewriten from scratch in Golang (V1 was in Python). The installation instructions for Compose V2 differ from V1. V2 is not a standalone binary anymore and installation scripts will have to be adjusted. Some commands are different.\n \nFor a smo…",
-          "link": "https://github.com/docker/compose",
-          "publishedOn": "2021-10-02T00:52:43.570Z",
-          "wordCount": 925,
-          "title": "docker/compose"
-        },
-        {
-          "id": "https://github.com/monicahq/monica",
-          "author": null,
-          "description": "Personal CRM. Remember everything about your friends, family and business relationships.\n\n \n\n \n \nPersonal Relationship Manager\n \n \n \n    \n \n \nMonica is a great open source personal relationship management system.\n \n \n \nIntroduction \n  \n \n   \nPurpose\n \n   \nFeatures\n \n   \nWho is it for?\n \n   \nWhat Monica isn’t\n \n   \nWhere does this tool come from?\n \n  \n  \n \nGet started \n  \n \n   \nRequirements\n \n   \nUpdate your instance\n \n  \n  \n \nContribute \n  \n \n   \nContribute as a community\n \n   \nContribute as a developer\n \n  \n  \n \nPrinciples, vision, goals and strategy \n  \n \n   \nPrinciples\n \n   \nVision\n \n   \nGoals\n \n   \nStrategy\n \n   \nMonetization\n \n   \nWhy Open Source?\n \n   \nPatreon\n \n  \n  \n \nContact\n \n \nTeam\n \n \nThank you, open source\n \n \nLicense\n \n \nIntroduction\n \nMonica is an open-source web application…",
-          "link": "https://github.com/monicahq/monica",
-          "publishedOn": "2021-10-02T00:52:43.534Z",
-          "wordCount": 3310,
-          "title": "monicahq/monica"
-        },
-        {
-          "id": "https://github.com/mithi/react-philosophies",
-          "author": null,
-          "description": "🧘 Things I think about when I write React code 🧘\n\nreact-philosophies\n \n   \n \nIf react-philosophies helped you in some way, consider buying me a few cups of coffee ☕☕☕. This motivates me to create more React \"stuff\"! 🙂\n \nTable of Contents\n \n \n \nIntroduction\n \n \nThe Bare Minimum\n \n \nDesign for happiness\n \n \nPerformance tips\n \n \nTesting principles\n \n \n \n The way this document is organized \n \nWhile writing, I realized that it was actually difficult for me to separate my thoughts into the design, performance, and testing. A lot of designs intended for maintainability also make your application faster and easier to test. Apologies if the discussion appears to be cluttered at times.\n \n \n \n Thanks for all the PRs 🚜, coffee ☕, recommended readings 📚, and sharing of ideas 💡 (View contributors)…",
-          "link": "https://github.com/mithi/react-philosophies",
-          "publishedOn": "2021-10-02T00:52:43.477Z",
-          "wordCount": 5005,
-          "title": "mithi/react-philosophies"
-        },
-        {
-          "id": "https://github.com/obsproject/obs-studio",
-          "author": null,
-          "description": "OBS Studio - Free and open source software for live streaming and screen recording\n\nOBS Studio https://obsproject.com\n \n.. image:: https://github.com/obsproject/obs-studio/actions/workflows/main.yml/badge.svg?branch=master&event=push :alt: OBS Studio Build Status - GitHub Actions :target: https://github.com/obsproject/obs-studio/actions/workflows/main.yml?query=event%3Apush+branch%3Amaster\n \n.. image:: https://d322cqt584bo4o.cloudfront.net/obs-studio/localized.svg :alt: OBS Studio Translation Project Progress :target: https://crowdin.com/project/obs-studio\n \n.. image:: https://img.shields.io/discord/348973006581923840.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2 :alt: OBS Studio Discord Server :target: https://obsproject.com/discord\n \nWhat is OBS Studio?\n \nOBS St…",
-          "link": "https://github.com/obsproject/obs-studio",
-          "publishedOn": "2021-10-02T00:52:43.421Z",
-          "wordCount": 930,
-          "title": "obsproject/obs-studio"
-        },
-        {
-          "id": "https://github.com/MunGell/awesome-for-beginners",
-          "author": null,
-          "description": "A list of awesome beginners-friendly projects.\n\nAwesome First PR Opportunities \n \nA list of awesome beginner-friendly projects.\n \nInspired by First Timers Only blog post.\n \nIf you are a maintainer of open-source projects, add the label first-timers-only (or similar) to your project and list it here so that people can find it.\n \nIf you are looking to contribute, then explore this list, look at first-timers-only labelled open issues on Github, and follow @first_tmrs_only on Twitter to be notified when a new first-timers-only issue is created.\n \nIf you are not a programmer but would like to contribute, check out the Awesome for non-programmers list.\n \nTable of Contents:\n \n \n \n.NET\n \n \nC\n \n \nC#\n \n \nC++\n \n \nClojure\n \n \nClojureScript\n \n \nCSS\n \n \nDart\n \n \nElixir\n \n \nGo\n \n \nJava\n \n \nJavaScript\n \n …",
-          "link": "https://github.com/MunGell/awesome-for-beginners",
-          "publishedOn": "2021-10-02T00:52:43.383Z",
-          "wordCount": 4293,
-          "title": "MunGell/awesome-for-beginners"
-        },
-        {
-          "id": "https://github.com/knadh/listmonk",
-          "author": null,
-          "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.\n\n\n \n\n \nlistmonk is a standalone, self-hosted, newsletter and mailing list manager. It is fast, feature-rich, and packed into a single binary. It uses a PostgreSQL database as its data store.\n \n\n \nVisit listmonk.app for more info. Check out the live demo.\n \nInstallation\n \nDocker\n \nThe latest image is available on DockerHub at listmonk/listmonk:latest. Use the sample docker-compose.yml to run manually or use the helper script.\n \nDemo\n \nmkdir listmonk-demo && cd listmonk-demo\nsh -c \"$(curl -fsSL https://raw.githubusercontent.com/knadh/listmonk/master/install-demo.sh)\"\n\n \nDO NOT use this demo setup in production.\n \nProduction\n \nmkdir listmonk && cd listmonk\nsh -c \"$(curl -fsSL https://raw.githubusercontent.com/knadh/listmonk/master/install-prod.sh)\"\n\n \nVisit http://localhost:9000.\n \nNOTE: Always examine the contents of shell scripts before executing them.\n \nSee installation docs.\n \n \nBinary\n \n \n \nDownload the latest release and extract the listmonk binary.\n \n \n./listmonk --new-config to generate config.toml. Then, edit the file.\n \n \n./listmonk --install to setup the Postgres DB (or --upgrade to upgrade an existing DB. Upgrades are idempotent and running them multiple times have no side effects).\n \n \nRun ./listmonk and visit http://localhost:9000.\n \n \nSee installation docs.\n \n \nHeroku\n \n\n \nDevelopers\n \nlistmonk is a free and open source software licensed under AGPLv3. If you are interested in contributing, refer to the developer setup. The backend is written in Go and the frontend is Vue with Buefy for UI.\n \nLicense\n \nlistmonk is licensed under the AGPL v3 license.",
-          "link": "https://github.com/knadh/listmonk",
-          "publishedOn": "2021-10-02T00:52:43.319Z",
-          "wordCount": 935,
-          "title": "knadh/listmonk"
-        },
-        {
-          "id": "https://github.com/strapi/strapi",
-          "author": null,
-          "description": "🚀 Open source Node.js Headless CMS to easily build customisable APIs\n\n    \n \nAPI creation made simple, secure and fast.\n \nThe most advanced open-source headless CMS to build powerful APIs with no effort.\n \nTry live demo\n \n \n          \n \n \n    \n \n \nStrapi is a free and open-source headless CMS delivering your content anywhere you need.\n \n \n \nKeep control over your data. With Strapi, you know where your data is stored, and you keep full control at all times.\n \n \nSelf-hosted. You can host and scale Strapi projects the way you want. You can choose any hosting platform you want: AWS, Render, Heroku, a VPS, or a dedicated server. You can scale as you grow, 100% independent.\n \n \nDatabase agnostic. You can choose the database you prefer. Strapi works with SQL & NoSQL databases: MongoDB, PostgreSQ…",
-          "link": "https://github.com/strapi/strapi",
-          "publishedOn": "2021-10-02T00:52:43.276Z",
-          "wordCount": 1353,
-          "title": "strapi/strapi"
-        },
-        {
-          "id": "https://github.com/livewire/livewire",
-          "author": null,
-          "description": "A full-stack framework for Laravel that takes the pain out of building dynamic UIs.\n\n\n \n \nLaravel Livewire\n \nSee the docs for everything: https://laravel-livewire.com/docs/quickstart\n \nAwesome Livewire stuff here: https://github.com/imliam/awesome-livewire\n \nAll contributions are welcomed! (but please start a discussion to make sure the PR is warranted first)\n \nIdeas, questions and bugs belong in Discussions or Discord server.\n \nContribute to the docs here: https://github.com/livewire/docs\n \nRoadmap\n \n \n \nAdd wire:append for appending DOM changes rather than replacing them\n \n \nRefine the \"asset_url\" config. Potentially change to \"app_url\" (https://github.com/livewire/livewire/pull/1693)\n \n \nSupport multiple pagination (https://github.com/livewire/livewire/pull/1997)\n \n \nA CSP-safe mode for Livewire (https://github.com/livewire/livewire/pull/2485#issuecomment-784355989)\n \n \nAdd $wire.errors() type deal\n \n \nLicense\n \nCopyright © Caleb Porzio\n \nLaravel Livewire is open-sourced software licensed under the MIT license.",
-          "link": "https://github.com/livewire/livewire",
-          "publishedOn": "2021-10-02T00:52:43.226Z",
-          "wordCount": 690,
-          "title": "livewire/livewire"
-        },
-        {
-          "id": "https://github.com/abdumostafa/awesome-in-arabic",
-          "author": null,
-          "description": "A collection of awesome developer accounts (Twitter, Facebook,...) 👨‍💻 that enrich Arabic content, podcasts, articles, Youtube channels and Some advises and guidelines.\n\n \n \nبالعربي أفضل \n \n \nEnglish Version\n \n \nلماذا بالعربي ؟ لان إيصال المعلومة و استيعابها بكون أسرع بكثير باللغة الأم و اﻷسئلة تكون أكثر دقة و تصل للمراد مباشرة، لهذا كان لابد أن يكون هناك مصدر يحوي المحتوي العربي و يفهرسه بحيث يكون سهل لأي مطور جديد أو محترف انه يصل لكل المحتوي الموجود بسهوله.\n \n \nأتمنى المشاركة لتحقيق هذا الهدف.\n \n \nيمكنكم التواصل معي على \n \n \nالمحتوى\n \n \n \n  \nمطورون و معماريون \n \n  \nبودكاست\n \n  \nيوتيوب\n \n  \nامن المعلومات\n \n  \nتعلم الآلة\n \n  \nمدونات\n \n  \nالتجمعات \n   \n \n    \nالمملكة العربية السعودية\n \n    \nمصر\n \n    \nالكويت\n \n   \n  \n  \nمواقع إلكترونية\n \n  \nكيف اشارك\n \n \n \n \nمطورين\n \n \n \n  \nمحمد حماد (FB…",
-          "link": "https://github.com/abdumostafa/awesome-in-arabic",
-          "publishedOn": "2021-10-02T00:52:43.198Z",
-          "wordCount": 1617,
-          "title": "abdumostafa/awesome-in-arabic"
-        },
-        {
-          "id": "https://github.com/appwrite/appwrite",
-          "author": null,
-          "description": "Appwrite is a secure end-to-end backend server for Web, Mobile, and Flutter developers that is packaged as a set of Docker containers for easy deployment 🚀\n\n \n  \n  A complete backend solution for your [Flutter / Vue / Angular / React / iOS / Android / *ANY OTHER*] app \n  \n \n     \n \n \nAppwrite 0.10 has been released! Learn what's new!\n \nAppwrite is an end-to-end backend server for Web, Mobile, Native, or Backend apps packaged as a set of Docker\n \n   microservices. Appwrite abstracts the complexity and repetitiveness required to build a modern backend API from scratch and allows you to build secure apps faster.\n \n \n \nUsing Appwrite, you can easily integrate your app with user authentication & multiple sign-in methods, a database for storing and querying users and team data, storage and file…",
-          "link": "https://github.com/appwrite/appwrite",
-          "publishedOn": "2021-10-02T00:52:43.161Z",
-          "wordCount": 1573,
-          "title": "appwrite/appwrite"
-        },
-        {
-          "id": "https://github.com/appsmithorg/appsmith",
-          "author": null,
-          "description": "Build completely custom admin panels and internal tools. Use 30+ react components to build pages without HTML/CSS.\n\n\n \n Get Started • Docs • Community • Tutorials • Events • Youtube • Discord • Templates \n \n Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source. \n   \n   \n \nQuick Start\n \nThe fastest way to start with Appsmith is the cloud-hosted version. When you're ready, you can also host it yourself.\n \n \n \nStart building apps immediately with Appsmith Cloud\n \n \nInstall locally or on a private instance with Docker (Recommended)\n \n \nDeploy on a Kubernetes cluster\n \n \nDeploy to AWS with an AMI on the marketplace\n \n \nOne-click deploy to Heroku\n…",
-          "link": "https://github.com/appsmithorg/appsmith",
-          "publishedOn": "2021-10-02T00:52:43.103Z",
-          "wordCount": 1397,
-          "title": "appsmithorg/appsmith"
         }
       ]
     }
