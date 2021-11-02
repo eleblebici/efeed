@@ -22,6 +22,24 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=65487",
+          "author": "Jessie",
+          "description": "In its fifth year participating in Google Summer of Code (GSoC), CNCF is excited to announce 16 interns have graduated from the program after working with the Foundation’s projects. Interns this year...",
+          "link": "https://www.cncf.io/blog/2021/11/01/16-cncf-interns-graduated-from-google-summer-of-code-gsoc-2021/",
+          "publishedOn": "2021-11-01T17:48:06.000Z",
+          "wordCount": 2256,
+          "title": "16 CNCF interns graduated from Google Summer of Code (GSoC) 2021!"
+        },
+        {
+          "id": "https://www.cncf.io/?p=65455",
+          "author": "Jessie",
+          "description": "Guest post by Zerto In a previous blog post, we talked about container state, and how the read-only, stateless nature of containers forces application architects to rethink what data is stored where...",
+          "link": "https://www.cncf.io/blog/2021/11/01/continuous-everything-why-you-need-better-backup-and-dr-for-kubernetes/",
+          "publishedOn": "2021-11-01T15:00:00.000Z",
+          "wordCount": 972,
+          "title": "Continuous everything: why you need better backup and DR for Kubernetes"
+        },
+        {
           "id": "https://www.cncf.io/?p=65353",
           "author": "Jessie",
           "description": "Guest post originally published on Snapt’s blog by Mark Trent Upgrading an organization’s tech infrastructure can be a tricky affair. On the one hand, there are technical people who are eager to...",
@@ -331,6 +349,114 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/LunarVim/LunarVim",
+          "author": null,
+          "description": "An IDE layer for Neovim with sane defaults. Completely free and community driven.\n\n\n \n\n \n               \n \n \nDocumentation\n \nYou can find all the documentation for LunarVim at lunarvim.org\n \nInstall In One Command!\n \nMake sure you have the release version of Neovim (0.5).\n \nbash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)\n\n \nInstall Language support\n \n \n \n Enter :LspInstall followed by <TAB> to see your options for LSP\n  \n \n Enter :TSInstall followed by <TAB> to see your options for syntax highlighting\n  \n \nNOTE I recommend installing lua for autocomplete in config.lua\n \n  \n \nConfiguration file\n \nTo install plugins configure LunarVim use the config.lua located here: ~/.config/lvim/config.lua\n \nExample:\n \n-- general\nlvim.format_on_save = …",
+          "link": "https://github.com/LunarVim/LunarVim",
+          "publishedOn": "2021-11-02T00:56:30.950Z",
+          "wordCount": 1003,
+          "title": "LunarVim/LunarVim"
+        },
+        {
+          "id": "https://github.com/SpectralOps/keyscope",
+          "author": null,
+          "description": "Keyscope is a key and secret workflow (validation, invalidation, etc.) tool built in Rust\n\n  \n   \n  \n \n ✅ Automate your key and secret validation workflows \n 🤠 Over 30 different providers \n 🤖 Export to JSON, audit via CSV \n \n \n\n \n  \n \n🔑 Keyscope \n \nKeyscope is a key and secret workflow (validation, invalidation, etc.) tool built in Rust, powered by service_policy_kit.\n \nCurrent workflows supported:\n \n \n \nValidation\n \n \n🦀 Why Rust?\n \n \n \nWith Rust, \"If it compiles, it works.\" and also, it compiles to many platforms.\n \n \nRust is fast, has no VM, or unnecessary cruft (typically 5-8mb binaries with LOTS of code and libraries).\n \n \nMulti purpose, safe, and generalistic - makes for healthy and expressive mission critical code. Adding code or abstraction doesn't increase bloat, doesn't hurt p…",
+          "link": "https://github.com/SpectralOps/keyscope",
+          "publishedOn": "2021-11-02T00:56:30.875Z",
+          "wordCount": 2546,
+          "title": "SpectralOps/keyscope"
+        },
+        {
+          "id": "https://github.com/NebuTech/NBMiner",
+          "author": null,
+          "description": "NVIDIA & AMD GPU Miner for ETH, RVN, GRIN, BEAM, CFX, ZIL, AE, SERO, ERGO\n\n\n \nNBMiner\n \nGPU Miner for ETH, RVN, BEAM, CFX, ZIL, ERGO, AE\n \nDisclaimer\n \nnbminer.com & NBMiner_github are the only 2 officially maintained site for publishing information and new releases of NBMiner.\n \nBe aware when you download NBMiner binaries from other sources.\n \n中文说明\n \n查看中文说明\n \nContact Us\n \n \n \nEmail: nebutech@hotmail.com\n \n \nDiscord: https://discord.gg/ZMejVXj\n \n \nBitcoinTalk: https://bitcointalk.org/index.php?topic=5099379\n \n \nDownload\n \nDownload here\n \nPerformance (stock settings)\n \n \n  \n  \n \n   Algorithm \n   COIN \n   P106-100 \n   P104-8G \n   1070ti \n   1080ti \n   2080 \n   RX580 2048sp \n  \n \n  \n  \n  \n \n   ethash \n   ETH \n   21.2M \n   34.5M \n   26.9M \n   46M \n   35.5M \n   24M \n  \n \n  \n \n   cuckoo_ae \n   A…",
+          "link": "https://github.com/NebuTech/NBMiner",
+          "publishedOn": "2021-11-02T00:56:30.811Z",
+          "wordCount": 4788,
+          "title": "NebuTech/NBMiner"
+        },
+        {
+          "id": "https://github.com/neovim/neovim",
+          "author": null,
+          "description": "Vim-fork focused on extensibility and usability\n\n\n \nDocumentation | Chat | Twitter\n \n    \n \n   \n \nNeovim is a project that seeks to aggressively refactor Vim in order to:\n \n \n \nSimplify maintenance and encourage contributions\n \n \nSplit the work between multiple developers\n \n \nEnable advanced UIs without modifications to the core\n \n \nMaximize extensibility\n \n \nSee the Introduction wiki page and Roadmap for more information.\n \nFeatures\n \n \n \nModern GUIs\n \n \nAPI access from any language including C/C++, C#, Clojure, D, Elixir, Go, Haskell, Java, JavaScript/Node.js, Julia, Lisp, Lua, Perl, Python, Racket, Ruby, Rust\n \n \nEmbedded, scriptable terminal emulator\n \n \nAsynchronous job control\n \n \nShared data (shada) among multiple editor instances\n \n \nXDG base directories support\n \n \nCompatible with…",
+          "link": "https://github.com/neovim/neovim",
+          "publishedOn": "2021-11-02T00:56:30.734Z",
+          "wordCount": 1162,
+          "title": "neovim/neovim"
+        },
+        {
+          "id": "https://github.com/codebasics/py",
+          "author": null,
+          "description": "Repository to store sample python programs for python learning\n\npy\n \nRepository to store sample Python programs.\n \nThis repository is meant for beginners to assist them in their learning of Python. The repository covers a wide range of algorithms and other programs, and would prove immensely helpful for everybody interested in Python programming.\n \nIf this is your first time coding in Python, I would love to suggest you begin from the Basics. They are simple to understand and hopefully will prove fun to you.\n \nYou can also pay a visit to my very own Youtube channel.\n \nContributions to the repository are welcome.\n \n.\n \nHappy coding!",
+          "link": "https://github.com/codebasics/py",
+          "publishedOn": "2021-11-02T00:56:30.679Z",
+          "wordCount": 582,
+          "title": "codebasics/py"
+        },
+        {
+          "id": "https://github.com/rockerBOO/awesome-neovim",
+          "author": null,
+          "description": "Collections of awesome neovim plugins.\n\n \n  \n \nAwesome Neovim\n \n  \n \nCollections of awesome Neovim plugins. Mostly targeting Neovim specific features.\n \n \nContents\n \n \n \nWishlist\n \n \nUI\n \n \nPlugin \n  \n \n   \nPlugin Manager\n \n   \nLSP\n \n   \nCompletion\n \n   \nMarkdown\n \n   \nSyntax\n \n   \nTerminal integration\n \n   \nSnippet\n \n   \nRegister\n \n   \nMarks\n \n   \nFuzzy Finder\n \n   \nNote Taking\n \n   \nColor\n \n   \nColorscheme Creation\n \n   \nColorscheme\n \n   \nUtility\n \n   \nIcon\n \n   \nDebugging\n \n   \nSpellcheck\n \n   \nNeovim Lua Development\n \n   \nFennel\n \n   \nTabline\n \n   \nStatusline\n \n   \nStatusline component\n \n   \nCursorline\n \n   \nStartup\n \n   \nIndent\n \n   \nGame\n \n   \nFile explorer\n \n   \nDependency management\n \n   \nGit\n \n   \nProgramming languages support\n \n   \nComment\n \n   \nCollaborative Editing\n \n   \nQuickf…",
+          "link": "https://github.com/rockerBOO/awesome-neovim",
+          "publishedOn": "2021-11-02T00:56:30.639Z",
+          "wordCount": 5162,
+          "title": "rockerBOO/awesome-neovim"
+        },
+        {
+          "id": "https://github.com/kunal-kushwaha/DSA-Bootcamp-Java",
+          "author": null,
+          "description": "This repository consists of the code samples, assignments, and the curriculum for the Community Classroom complete Data Structures & Algorithms Java bootcamp.\n\n🔥DSA-Bootcamp-Java\n \n\n \n \n \n ▶ Subscribe to our channel \n  \n \n 📂 Complete Playlist\n  \n \n 📚 Syllabus\n  \n \n ✍️ Assignments\n  \n \n 🏆 Competitive Programming Resources\n  \n \nConnect with me\n \n    \n    \n   \nJoin Community Classroom Groups\n \n    \n     \n    \n    \n  \nThanks to all the contributors ❤️",
+          "link": "https://github.com/kunal-kushwaha/DSA-Bootcamp-Java",
+          "publishedOn": "2021-11-02T00:56:30.579Z",
+          "wordCount": 513,
+          "title": "kunal-kushwaha/DSA-Bootcamp-Java"
+        },
+        {
+          "id": "https://github.com/mpv-player/mpv",
+          "author": null,
+          "description": "🎥 Command line video player\n\n\n \nmpv\n \n \n \nExternal links\n \n \nOverview\n \n \nSystem requirements\n \n \nDownloads\n \n \nChangelog\n \n \nCompilation\n \n \nRelease cycle\n \n \nBug reports\n \n \nContributing\n \n \nLicense\n \n \nContact\n \n \nExternal links\n \n \n \nWiki\n \n \nFAQ\n \n \nManual\n \n \nOverview\n \nmpv is a free (as in freedom) media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types.\n \nThere is a FAQ.\n \nReleases can be found on the release list.\n \nSystem requirements\n \n \n \nA not too ancient Linux, Windows 7 or later, or OSX 10.8 or later.\n \n \nA somewhat capable CPU. Hardware decoding might help if the CPU is too slow to decode video in realtime, but must be explicitly enabled with the --hwdec option.\n \n \nA not too crappy GPU. mpv's focus is…",
+          "link": "https://github.com/mpv-player/mpv",
+          "publishedOn": "2021-11-02T00:56:30.477Z",
+          "wordCount": 1716,
+          "title": "mpv-player/mpv"
+        },
+        {
+          "id": "https://github.com/ZackFreedman/MiRage",
+          "author": null,
+          "description": "The most hackable keyboard in all the land\n\nMiRage Modular Keyboard\n \n© 2021 Zack Freedman of Voidstar Lab\n \nLicensed Creative Commons 4.0 Attribution Noncommercial Share-Alike\n \nThe MiRage is a 60% ortholinear keyboard with three clickable OLED displays, intended for Kailh Choc switches and running custom CircuitPython firmware on a Seeedstudio Xiao RP2040.\n \nTHIS PROJECT IS INCOMPLETE. DO NOT MAKE IT.\n \nThe PCB can be populated as-is for a \"plank\" keyboard or broken in half for a split board. The right half can be used independently as the Rage Pad numberpad/macro pad/stream deck.\n \nThis was designed for a YouTube video on my channel: https://youtu.be/Fg0V5M0llaE It will be improved and sold as a kit, and will form part of a larger project called the Fata Morgana cyberdeck.\n \nFusion 360 …",
+          "link": "https://github.com/ZackFreedman/MiRage",
+          "publishedOn": "2021-11-02T00:56:30.370Z",
+          "wordCount": 2172,
+          "title": "ZackFreedman/MiRage"
+        },
+        {
+          "id": "https://github.com/trexminer/T-Rex",
+          "author": null,
+          "description": "T-Rex NVIDIA GPU miner with web control monitoring page\n\nT-Rex NVIDIA GPU miner (Ethash / Autolykos2 / Kawpow / Octopus / Firopow / MTP)\n \nOverview\n \nT-Rex is a versatile cryptocurrency mining software. It supports a variety of algorithms and we, as developers, are trying to do our best to make it as fast and as convenient to use as possible.\n \nDeveloper fee is 1% (2% for Octopus, Autolykos2, and their dual mining modes).\n \nFAQ\n \nSee https://github.com/trexminer/T-Rex/wiki/FAQ\n \nUsage\n \nFull list of command line options:\n \n    -a, --algo                     Specify the hash algorithm to use.\n                                   autolykos2\n                                   etchash\n                                   ethash\n                                   firopow\n                           …",
+          "link": "https://github.com/trexminer/T-Rex",
+          "publishedOn": "2021-11-02T00:56:30.327Z",
+          "wordCount": 3067,
+          "title": "trexminer/T-Rex"
+        },
+        {
+          "id": "https://github.com/kamranahmedse/developer-roadmap",
+          "author": null,
+          "description": "Roadmap to becoming a web developer in 2021\n\n\n \n \n \nRoadmap to becoming a web developer in 2021\n \n \n   \n \nBelow you find a set of charts demonstrating the paths that you can take and the technologies that you would want to adopt in order to become a frontend, backend or a devops. I made these charts for an old professor of mine who wanted something to share with his college students to give them a perspective; sharing them here to help the community.\n \n \n Special Announcement: \n    \n We now have a YouTube Channel \n I plan on covering the roadmaps and put more content there\nSubscribe to the channel. \n \n \nPurpose of these Roadmaps\n \n \n \nThe purpose of these roadmaps is to give you an idea about the landscape and to guide you if you are confused about what to learn next and not to encourage y…",
+          "link": "https://github.com/kamranahmedse/developer-roadmap",
+          "publishedOn": "2021-11-02T00:56:30.154Z",
+          "wordCount": 844,
+          "title": "kamranahmedse/developer-roadmap"
+        },
+        {
+          "id": "https://github.com/HerMajestyDrMona/Windows11DragAndDropToTaskbarFix",
+          "author": null,
+          "description": "\"Windows 11 Drag & Drop to the Taskbar (Fix)\" fixes the missing \"Drag & Drop to the Taskbar\" support in Windows 11. It works with the new Windows 11 taskbar and does not require nasty changes like UndockingDisabled or restoration of the classic taskbar.\n\nWindows 11 Drag & Drop to the Taskbar (Fix)\n \nThis program fixes the missing \"Drag & Drop to the Taskbar\" support in Windows 11. In the best case, such a simple and basic functionality will return to Windows 11 in October 2022 (or never). For now, we have to use workarounds in the OS that was supposed to \"empower our productivity\".\n \nWindows11DragAndDropToTaskbarFix works with the new Windows 11 taskbar and does not require nasty changes like UndockingDisabled or restoration of the classic taskbar. It doesn't change any system registry key…",
+          "link": "https://github.com/HerMajestyDrMona/Windows11DragAndDropToTaskbarFix",
+          "publishedOn": "2021-11-02T00:56:30.055Z",
+          "wordCount": 1173,
+          "title": "HerMajestyDrMona/Windows11DragAndDropToTaskbarFix"
+        },
         {
           "id": "https://github.com/swc-project/swc",
           "author": null,
@@ -3228,132 +3354,6 @@
           "publishedOn": "2021-10-04T00:58:16.116Z",
           "wordCount": 1244,
           "title": "Ganapati/RsaCtfTool"
-        },
-        {
-          "id": "https://github.com/TheAlgorithms/Javascript",
-          "author": null,
-          "description": "A repository for All algorithms implemented in Javascript (for educational purposes only)\n\nThe Algorithms - JavaScript\n \n        \n \nAll algorithms implemented in JavaScript (for educational purposes only)\n \n \n \nThese are for demonstration purposes only. There are many implementations of sorts in the JavaScript standard library that are much better for performance reasons.\n \nContribution Guidelines\n \nRead our Contribution Guidelines before you contribute.\n \nList of Algorithms\n \nSee our directory.\n \nAlgorithm Explanation\n \nsee our wiki",
-          "link": "https://github.com/TheAlgorithms/Javascript",
-          "publishedOn": "2021-10-03T00:58:40.619Z",
-          "wordCount": 762,
-          "title": "TheAlgorithms/Javascript"
-        },
-        {
-          "id": "https://github.com/willmcgugan/textual",
-          "author": null,
-          "description": "Textual is a TUI (Text User Interface) framework for Python inspired by modern web development.\n\nTextual\n \n\n \nTextual is a TUI (Text User Interface) framework for Python inspired by modern web development.\n \nNOTE: This project is currently a work in progress, but usable by brave souls who don't mind some API instability between updates.\n \nFollow @willmcgugan for progress updates, or post in Discussions if you have any requests / suggestions.\n \n\n \nCompatibility\n \nTextual currently runs on MacOS / Linux only. Windows support is in the pipeline.\n \nHow it works\n \nTextual uses Rich to render rich text, so anything that Rich can render may be used in Textual.\n \nEvent handling in Textual is asynchronous (using async and await keywords). Widgets (UI components) can independently update and communi…",
-          "link": "https://github.com/willmcgugan/textual",
-          "publishedOn": "2021-10-03T00:58:40.538Z",
-          "wordCount": 2618,
-          "title": "willmcgugan/textual"
-        },
-        {
-          "id": "https://github.com/swagger-api/swagger-ui",
-          "author": null,
-          "description": "Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.\n\n\n \n   \n \n   \n \nIntroduction\n \nSwagger UI allows anyone — be it your development team or your end consumers — to visualize and interact with the API’s resources without having any of the implementation logic in place. It’s automatically generated from your OpenAPI (formerly known as Swagger) Specification, with the visual documentation making it easy for back end implementation and client side consumption.\n \nGeneral\n \n👉🏼 Want to score an easy open-source contribution? Check out our Good first issue label.\n \n🕰️ Looking for the older version of Swagger UI? Refer to the 2.x branch.\n \nThis repository publishes three different NPM modules:\n \n \n \nswagg…",
-          "link": "https://github.com/swagger-api/swagger-ui",
-          "publishedOn": "2021-10-03T00:58:40.497Z",
-          "wordCount": 1288,
-          "title": "swagger-api/swagger-ui"
-        },
-        {
-          "id": "https://github.com/microsoft/PowerToys",
-          "author": null,
-          "description": "Windows system utilities to maximize productivity\n\nMicrosoft PowerToys\n \n \nHow to use PowerToys | Downloads & Release notes | Contributing to PowerToys | What's Happening | Roadmap\n \nBuild status\n \n \n  \n  \n \n   Architecture \n   Master \n   Stable \n   Installer \n  \n \n  \n  \n  \n \n   x64 \n    \n    \n    \n  \n \n  \n \nAbout\n \nMicrosoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity. For more info on PowerToys overviews and how to use the utilities, or any other tools and resources for Windows development environments, head over to docs.microsoft.com!\n \n \n  \n  \n \n    \n   Current utilities: \n    \n  \n \n  \n  \n  \n \n   Awake \n   Color Picker \n   FancyZones \n  \n \n  \n \n   File Explorer Add-ons \n   Image Resizer \n   Keyboard Manager \n …",
-          "link": "https://github.com/microsoft/PowerToys",
-          "publishedOn": "2021-10-03T00:58:40.384Z",
-          "wordCount": 1925,
-          "title": "microsoft/PowerToys"
-        },
-        {
-          "id": "https://github.com/hashicorp/terraform",
-          "author": null,
-          "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is an open source tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.\n\nTerraform\n \n \n \nWebsite: https://www.terraform.io\n \n \nForums: HashiCorp Discuss\n \n \nDocumentation: https://www.terraform.io/docs/\n \n \nTutorials: HashiCorp's Learn Platform\n \n \nCertification Exam: HashiCorp Certified: Terraform Associate\n \n \n \nTerraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.\n \nThe key features of Terraform are:\n \n \n \n Infrastructure as Code: Infrastructure is described…",
-          "link": "https://github.com/hashicorp/terraform",
-          "publishedOn": "2021-10-03T00:58:40.317Z",
-          "wordCount": 1124,
-          "title": "hashicorp/terraform"
-        },
-        {
-          "id": "https://github.com/eclipse/mosquitto",
-          "author": null,
-          "description": "Eclipse Mosquitto - An open source MQTT broker\n\nEclipse Mosquitto\n \nMosquitto is an open source implementation of a server for version 5.0, 3.1.1, and 3.1 of the MQTT protocol. It also includes a C and C++ client library, and the mosquitto_pub and mosquitto_sub utilities for publishing and subscribing.\n \nLinks\n \nSee the following links for more information on MQTT:\n \n \n \nCommunity page: http://mqtt.org/\n \n \nMQTT v3.1.1 standard: https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/mqtt-v3.1.1.html\n \n \nMQTT v5.0 standard: https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html\n \n \nMosquitto project information is available at the following locations:\n \n \n \nMain homepage: https://mosquitto.org/\n \n \nFind existing bugs or submit a new bug: https://github.com/eclipse/mosquitto/issues\n \n \nSource code …",
-          "link": "https://github.com/eclipse/mosquitto",
-          "publishedOn": "2021-10-03T00:58:40.266Z",
-          "wordCount": 1282,
-          "title": "eclipse/mosquitto"
-        },
-        {
-          "id": "https://github.com/ripienaar/free-for-dev",
-          "author": null,
-          "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev\n\nfree-for.dev\n \nDevelopers and Open Source authors now have a massive amount of services offering free tiers, but it can be hard to find them all to make informed decisions.\n \nThis is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers.\n \nThe scope of this particular list is limited to things that infrastructure developers (System Administrator, DevOps Practitioners, etc.) are likely to find useful. We love all the free services out there, but it would be good to keep it on topic. It's a bit of a grey line at times so this is a bit opinionated; do not be offended if I do not accept your contribution.\n \nThis list is the result of Pull Requests, revi…",
-          "link": "https://github.com/ripienaar/free-for-dev",
-          "publishedOn": "2021-10-03T00:58:40.222Z",
-          "wordCount": 22873,
-          "title": "ripienaar/free-for-dev"
-        },
-        {
-          "id": "https://github.com/goplus/gop",
-          "author": null,
-          "description": "GoPlus - The Go+ language for engineering, STEM education, and data science\n\nThe Go+ language for engineering, STEM education, and data science\n \n      \n \nSummary about Go+\n \nWhat are mainly impressions about Go+?\n \n \n \nA static typed language.\n \n \nFully compatible with the Go language.\n \n \nScript-like style, and more readable code for data science than Go.\n \n \nFor example, the following is legal Go+ source code:\n \na := [1, 2, 3.4]\nprintln(a)\n\n \nHow do we do this in the Go language?\n \npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    a := []float64{1, 2, 3.4}\n    fmt.Println(a)\n}\n\n \nOf course, we don't only do less-typing things.\n \nFor example, we support list comprehension, which makes data processing easier.\n \na := [1, 3, 5, 7, 11]\nb := [x*x for x <- a, x > 3]\nprintln(b) // output: [25 49 12…",
-          "link": "https://github.com/goplus/gop",
-          "publishedOn": "2021-10-03T00:58:40.107Z",
-          "wordCount": 2337,
-          "title": "goplus/gop"
-        },
-        {
-          "id": "https://github.com/ryanmcdermott/clean-code-javascript",
-          "author": null,
-          "description": "🛁 Clean Code concepts adapted for JavaScript\n\nclean-code-javascript\n \nTable of Contents\n \n \n \nIntroduction\n \n \nVariables\n \n \nFunctions\n \n \nObjects and Data Structures\n \n \nClasses\n \n \nSOLID\n \n \nTesting\n \n \nConcurrency\n \n \nError Handling\n \n \nFormatting\n \n \nComments\n \n \nTranslation\n \n \nIntroduction\n \n\n \nSoftware engineering principles, from Robert C. Martin's book Clean Code, adapted for JavaScript. This is not a style guide. It's a guide to producing readable, reusable, and refactorable software in JavaScript.\n \nNot every principle herein has to be strictly followed, and even fewer will be universally agreed upon. These are guidelines and nothing more, but they are ones codified over many years of collective experience by the authors of Clean Code.\n \nOur craft of software engineering is jus…",
-          "link": "https://github.com/ryanmcdermott/clean-code-javascript",
-          "publishedOn": "2021-10-03T00:58:40.036Z",
-          "wordCount": 7664,
-          "title": "ryanmcdermott/clean-code-javascript"
-        },
-        {
-          "id": "https://github.com/jina-ai/jina",
-          "author": null,
-          "description": "Cloud-native neural search framework for 𝙖𝙣𝙮 kind of data\n\n \n  \n  \n \n  \n \n Cloud-Native Neural Search? Framework for Any Kind of Data \n \n       \n \nJina🔊 is a neural search framework that empowers anyone to build SOTA and scalable deep learning search applications in minutes.\n \n🌌 All data types - Scalable indexing, querying, understanding of any data: video, image, long/short text, music, source code, PDF, etc.\n \n⏱️ Save time - The design pattern of neural search systems, from zero to a production-ready system in minutes.\n \n🌩️ Fast & cloud-native - Distributed architecture from day one, scalable & cloud-native by design: enjoy containerizing, streaming, paralleling, sharding, async scheduling, HTTP/gRPC/WebSocket protocols.\n \n🍱 Own your stack - Keep end-to-end stack ownership of your…",
-          "link": "https://github.com/jina-ai/jina",
-          "publishedOn": "2021-10-03T00:58:39.928Z",
-          "wordCount": 1321,
-          "title": "jina-ai/jina"
-        },
-        {
-          "id": "https://github.com/containers/youki",
-          "author": null,
-          "description": "A container runtime written in Rust\n\nyouki: A container runtime in Rust\n \n    \n \n  \n \nyouki is an implementation of the OCI runtime-spec in Rust, similar to runc.\n \nAbout the name\n \nyouki is pronounced as /joʊki/ or yoh-key. youki is named after the Japanese word 'youki', which means 'a container'. In Japanese language, youki also means 'cheerful', 'merry', or 'hilarious'.\n \nMotivation\n \nHere is why we are writing a new container runtime in Rust.\n \n \n \nRust is one of the best languages to implement the oci-runtime spec. Many very nice container tools are currently written in Go. However, the container runtime requires the use of system calls, which requires a bit of special handling when implemented in Go. This is too tricky (e.g. namespaces(7), fork(2)); with Rust, it's not that tricky. A…",
-          "link": "https://github.com/containers/youki",
-          "publishedOn": "2021-10-03T00:58:39.838Z",
-          "wordCount": 1674,
-          "title": "containers/youki"
-        },
-        {
-          "id": "https://github.com/florinpop17/app-ideas",
-          "author": null,
-          "description": "A Collection of application ideas which can be used to improve your coding skills.\n\n📒 App Ideas Collection\n \n\n \n\n \nHave you ever wanted to build something but you had no idea what to do? Just as authors sometimes have \"writers block\" it's also true for developers. This list is intended to solve this issue once and for all! 👍\n \nThese applications are:\n \n \n \ngreat for improving your coding skills 💪;\n \n \ngreat for experimenting with new technologies 🆕;\n \n \ngreat for adding to your portfolio to impress your next employer/client 📁;\n \n \ngreat for using as examples in tutorials (articles or videos) 📃;\n \n \neasy to complete and also easily extendable with new features 👌;\n \n \nThis is not just a simple list of projects, but a collection that describes each project in enough detail so that you …",
-          "link": "https://github.com/florinpop17/app-ideas",
-          "publishedOn": "2021-10-03T00:58:39.711Z",
-          "wordCount": 1824,
-          "title": "florinpop17/app-ideas"
-        },
-        {
-          "id": "https://github.com/microsoft/Data-Science-For-Beginners",
-          "author": null,
-          "description": "10 Weeks, 20 Lessons, Data Science for All!\n\nData Science for Beginners - A Curriculum\n \n    \n \n  \n \nAzure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson curriculum all about Data Science. Each lesson includes pre-lesson and post-lesson quizzes, written instructions to complete the lesson, a solution, and an assignment. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.\n \nHearty thanks to our authors: Jasmine Greenaway, Dmitry Soshnikov, Nitya Narasimhan, Jalen McGee, Jen Looper, Maud Levy, Tiffany Souterre, Christopher Harrison.\n \n🙏 Special thanks 🙏 to our Microsoft Student Ambassador authors, reviewers and content contributors, notably Raymond Wangsa Putra, Ankita Singh, Rohit Yadav, Arpita Das, Mohamma Iftekhe…",
-          "link": "https://github.com/microsoft/Data-Science-For-Beginners",
-          "publishedOn": "2021-10-03T00:58:39.662Z",
-          "wordCount": 1637,
-          "title": "microsoft/Data-Science-For-Beginners"
-        },
-        {
-          "id": "https://github.com/mgeeky/ShellcodeFluctuation",
-          "author": null,
-          "description": "An advanced in-memory evasion technique fluctuating shellcode's memory protection between RW/NoAccess & RX and then encrypting/decrypting its contents\n\nShellcode Fluctuation PoC\n \nA PoC implementation for an another in-memory evasion technique that cyclically encrypts and decrypts shellcode's contents to then make it fluctuate between RW (or NoAccess) and RX memory protection. When our shellcode resides in RW or NoAccess memory pages, scanners such as Moneta or pe-sieve will be unable to track it down and dump it for further analysis.\n \nIntro\n \nAfter releasing ThreadStackSpoofer I've received a few questions about the following README's point:\n \n \n \nChange your Beacon's memory pages protection to RW (from RX/RWX) and encrypt their contents before sleeping (that could evade scanners such as…",
-          "link": "https://github.com/mgeeky/ShellcodeFluctuation",
-          "publishedOn": "2021-10-03T00:58:39.569Z",
-          "wordCount": 3625,
-          "title": "mgeeky/ShellcodeFluctuation"
         }
       ]
     }
