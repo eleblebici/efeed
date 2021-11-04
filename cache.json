@@ -22,6 +22,24 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=65514",
+          "author": "Jessie",
+          "description": "The CNCF Technical Oversight Committee (TOC) has voted to accept Dapr as a CNCF incubating project.  Dapr is a set of APIs that makes it easy for developers to write distributed applications....",
+          "link": "https://www.cncf.io/blog/2021/11/03/dapr-distributed-application-runtime-joins-cncf-incubator/",
+          "publishedOn": "2021-11-03T15:00:00.000Z",
+          "wordCount": 1112,
+          "title": "Dapr (Distributed Application Runtime) joins CNCF Incubator"
+        },
+        {
+          "id": "https://www.cncf.io/?p=65466",
+          "author": "Jessie",
+          "description": "Guest post originally published on Chronosphere‘s blog by Amanda Mitchell, Senior Content Marketing Manager at Chronosphere Hello sunny LA and happy KubeCon + CloudNativeCon North America 2021-eve! Team Chronosphere has set up...",
+          "link": "https://www.cncf.io/blog/2021/11/03/liveblog-kubecon-cloudnativecon-north-america-2021/",
+          "publishedOn": "2021-11-03T15:00:00.000Z",
+          "wordCount": 2451,
+          "title": "Liveblog: KubeCon + CloudNativeCon North America 2021"
+        },
+        {
           "id": "https://www.cncf.io/?p=65457",
           "author": "Jessie",
           "description": "Guest post originally published on NGINX’s blog by Libby Meren, Principal Technical Program Manager at F5 Developers, architects, and DevOps engineers are no longer satisfied with the status quo when it comes...",
@@ -326,24 +344,6 @@
           "publishedOn": "2021-10-05T15:00:00.000Z",
           "wordCount": 2471,
           "title": "Distributed tracing in Grafana with Tempo and Jaeger"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64862",
-          "author": "Jessie",
-          "description": "Community guest post by Kubernetes Day Italy Recognized and supported by the CNCF, the first Kubernetes Community Days will be held on 17 and 18 November 2021. It was a great moment-event...",
-          "link": "https://www.cncf.io/blog/2021/10/04/how-was-a-pizza-chosen-as-the-kcd-italy-2021-logo/",
-          "publishedOn": "2021-10-04T15:00:00.000Z",
-          "wordCount": 912,
-          "title": "How was a pizza chosen as the KCD Italy 2021 logo?"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64855",
-          "author": "Jessie",
-          "description": "Community guest post by Danielle Cook, Simon Forster, John Forman, and Robbie Glenn of the Cartografos Working Group You’ve heard the benefits of containers, microservices and this thing called Kubernetes. You’ve investigated,...",
-          "link": "https://www.cncf.io/blog/2021/10/04/cartografos-working-group-launches-cloud-native-maturity-model/",
-          "publishedOn": "2021-10-04T15:00:00.000Z",
-          "wordCount": 1584,
-          "title": "Cartografos working group launches cloud native maturity model"
         }
       ]
     },
@@ -358,6 +358,69 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/d2l-ai/d2l-zh",
+          "author": null,
+          "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被全球200所大学采用教学。\n\n动手学深度学习（Dive into Deep Learning，D2L.ai）\n \n\n \n第一版：zh.D2L.ai | 第二版预览版：zh-v2.D2L.ai | 安装和使用书中源代码：第一版 第二版 | 当前版本: v2.0.0-alpha1\n \n理解深度学习的最佳方法是学以致用。\n \n     \n \n本开源项目代表了我们的一种尝试：我们将教给读者概念、背景知识和代码；我们将在同一个地方阐述剖析问题所需的批判性思维、解决问题所需的数学知识，以及实现解决方案所需的工程技能。\n \n我们的目标是创建一个为实现以下目标的统一资源：\n \n \n \n所有人均可在网上免费获取；\n \n \n提供足够的技术深度，从而帮助读者实际成为深度学习应用科学家：既理解数学原理，又能够实现并不断改进方法；\n \n \n包含可运行的代码，为读者展示如何在实际中解决问题。这样不仅直接将数学公式对应成实际代码，而且可以修改代码、观察结果并及时获取经验；\n \n \n允许我们和整个社区不断快速迭代内容，从而紧跟仍在高速发展的深度学习领域；\n \n \n由包含有关技术细节问答的论坛作为补充，使大家可以相互答疑并交换经验。\n \n \n将本书（中英文版）用作教材或参考书的大学\n \n  \n \n如果本书对你有帮助，请Star (★) 本仓库或引用本书的英文版：\n \n@article{zhang2021dive,\n    title={Dive into Deep Learning},\n    author={Zhang, Aston and Lipton, Zachary C. and Li, Mu and Smola, Alexander J.},\n    journal={arXiv preprint arXiv:2106.11342},\n    year={2021}\n}\n\n \n本书的第二版\n \n虽然纸质书第一版已经出版，但深度学习领域依然在迅速发展。为了得到来自更广泛的英文开源社区的帮助，从而提升本书质量，本书的第二版正在用英文写。英文版正不断被搬回中文版中。\n \n目前，英文版已超过160节（中文版共96节），例如增加了理论背景（如优化收敛分析）、硬件设计（如参数服务器）、全新篇章（如注意力机制、推荐系统、深度学习的数学、生成对抗网络）、应用种类（如自然语言推断）、模型种类（如Transformer、BERT）等，并优化重组了大量章节（如将自然语言处理篇章按从预训练表征、到模型设计、再到下游应用重构）。\n \n欢迎关注本书第二版的英文开源项目。\n \n中英文教学资源\n \n加州大学伯克利分校 2019 年春学期 Introduction to Deep Learning 课程教材（同时提供含教学视频地址的中文版课件）。\n \n学术界推荐\n \n \n \n\"Dive into this book if you want to dive into deep learning!\"\n \n — 韩家炜，ACM 院士、IEEE 院士，美国伊利诺伊大学香槟分校计算机系 Michael Aiken Chair 教授 \n \n \n \n\"This is a highly welcome addition to the machine learning literature.\"\n \n — Bernhard Schölkopf，ACM 院士、德国国家科学院院士，德国马克斯•普朗克研究所智能系统院院长 \n \n \n \n\"书中代码可谓‘所学即所用’。\"\n \n — 周志华，ACM 院士、IEEE 院士、AAAS 院士，南京大学计算机科学与技术系主任 \n \n \n \n\"这本书可以帮助深度学习实践者快速提升自己的能力。\"\n \n — 张潼，ASA 院士、IMS 院士，香港科技大学计算机系和数学系教授 \n \n工业界推荐\n \n \n \n\"一本优秀的深度学习教材，值得任何想了解深度学习何以引爆人工智能革命的人关注。\"\n \n — 黄仁勋，NVIDIA创始人 & CEO \n \n \n \n\"《动手学深度学习》是最适合工业界研发工程师学习的。我毫无保留地向广大的读者们强烈推荐。\"\n \n — 余凯，地平线公司创始人 & CEO \n \n \n \n\"强烈推荐这本书！我特别赞赏这种手脑一体的学习方式。\"\n \n — 漆远，蚂蚁金服副总裁、首席AI科学家 \n \n \n \n\"《动手学深度学习》是一本很容易让学习者上瘾的书。\"\n \n — 沈强，将门创投创始合伙人 \n \n贡献\n \n感谢社区贡献者们为每一位读者改进这本开源书。\n \n如何贡献 | 致谢 | 讨论或报告问题 | 其他",
+          "link": "https://github.com/d2l-ai/d2l-zh",
+          "publishedOn": "2021-11-04T00:53:11.121Z",
+          "wordCount": 801,
+          "title": "d2l-ai/d2l-zh"
+        },
+        {
+          "id": "https://github.com/ethereum-boilerplate/ethereum-boilerplate",
+          "author": null,
+          "description": "The ultimate full-stack Ethereum Dapp Boilerplate which gives you maximum flexibility and speed. Feel free to fork and contribute. Although this repo is called \"Ethereum Boilerplate\" it works with any EVM system and even Solana support is coming soon! Happy BUIDL!👷‍♂️\n\nethereum-boilerplate\n \n \n \nReact components and hooks for fast building dApps without running own backend\n \n \nThis boilerplate is built on react-moralis and Moralis. Also has its own context provider for quick access to chainId or ethAddress\n \nThere are many components in this boilerplate that do not require an active web3 provider, they use Moralis Web3 API. Moralis supports the most popular blockchains and their test networks. You can find a list of all available networks in Moralis Supported Chains\n \nPlease check the off…",
+          "link": "https://github.com/ethereum-boilerplate/ethereum-boilerplate",
+          "publishedOn": "2021-11-04T00:53:11.068Z",
+          "wordCount": 2141,
+          "title": "ethereum-boilerplate/ethereum-boilerplate"
+        },
+        {
+          "id": "https://github.com/brave/brave-browser",
+          "author": null,
+          "description": "Next generation Brave browser for Android, Linux, macOS, Windows.\n\nBrave Browser\n \nOverview\n \nThis repository holds the build tools needed to build the Brave desktop browser for macOS, Windows, and Linux. In particular, it fetches and syncs code from the projects we define in package.json and src/brave/DEPS:\n \n \n \nChromium \n  \n \n   \nFetches code via depot_tools.\n \n   \nsets the branch for Chromium (ex: 65.0.3325.181).\n \n  \n  \n \nbrave-core \n  \n \n   \nMounted at src/brave.\n \n   \nMaintains patches for 3rd party Chromium code.\n \n  \n  \n \nadblock-rust \n  \n \n   \nImplements Brave's ad-block engine.\n \n   \nLinked through brave/adblock-rust-ffi.\n \n  \n  \n \nDownloads\n \nYou can visit our website to get the latest stable release.\n \nOther repositories\n \nFor other versions of our browser, please see:\n \n \n \ni…",
+          "link": "https://github.com/brave/brave-browser",
+          "publishedOn": "2021-11-04T00:53:10.981Z",
+          "wordCount": 1406,
+          "title": "brave/brave-browser"
+        },
+        {
+          "id": "https://github.com/justjavac/free-programming-books-zh_CN",
+          "author": null,
+          "description": "📚 免费的计算机编程类中文书籍，欢迎投稿\n\n免费的编程中文书籍索引\n \n    \n \n免费的编程中文书籍索引，欢迎投稿。\n \n \n \n国外程序员在 stackoverflow 推荐的程序员必读书籍，中文版。\n \n \nstackoverflow 上的程序员应该阅读的非编程类书籍有哪些？ 中文版\n \n \ngithub 上的一个流行的编程书籍索引 中文版\n \n \n如果这个仓库对你有帮助，欢迎 star。如果这个仓库帮你提升了技能找到了工作，可以请我喝杯咖啡：\n \n\n \n参与交流\n \n欢迎大家将珍藏已久的经典免费书籍共享出来，您可以：\n \n \n \n使用 Pull Request 提交\n \n \n如果你发现了不能访问的链接，也可以提 PR，在无法访问链接的后面增加 😟。\n \n贡献者名单: https://github.com/justjavac/free-programming-books-zh_CN/graphs/contributors\n \n目录\n \n \n \n 语言无关类\n \n  \n \n   \n操作系统\n \n   \n智能系统\n \n   \n分布式系统\n \n   \n编译原理\n \n   \n函数式概念\n \n   \n计算机图形学\n \n   \nWEB服务器\n \n   \n版本控制\n \n   \n编辑器\n \n   \nNoSQL\n \n   \nPostgreSQL\n \n   \nMySQL\n \n   \n管理和监控\n \n   \n项目相关\n \n   \n设计模式\n \n   \nWeb\n \n   \n大数据\n \n   \n编程艺术\n \n   \n其它\n \n  \n  \n \n 语言相关类\n \n  \n \n   \nAndroid\n \n   \nAPP\n \n   \nAWK\n \n   \nC/C++\n \n   \nC#\n \n   \nClojure\n \n   \nCSS/HTML\n \n   \nDart\n \n   \nElixir\n \n   …",
+          "link": "https://github.com/justjavac/free-programming-books-zh_CN",
+          "publishedOn": "2021-11-04T00:53:10.936Z",
+          "wordCount": 1797,
+          "title": "justjavac/free-programming-books-zh_CN"
+        },
+        {
+          "id": "https://github.com/hpcaitech/ColossalAI",
+          "author": null,
+          "description": "Colossal-AI: A Unified Deep Learning System for Large-Scale Parallel Training\n\nColossalAI\n \nAn integrated large-scale model training system with efficient parallelization techniques.\n \narXiv: Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training\n \nInstallation\n \nPyPI\n \npip install colossalai\n\n \nInstall From Source\n \ngit clone git@github.com:hpcaitech/ColossalAI.git\ncd ColossalAI\n# install dependency\npip install -r requirements/requirements.txt\n\n# install colossalai\npip install .\n\n \nInstall and enable CUDA kernel fusion (compulsory installation when using fused optimizer)\n \npip install -v --no-cache-dir --global-option=\"--cuda_ext\" .\n\n \nDocumentation\n \n \n \nDocumentation\n \n \nQuick View\n \nStart Distributed Training in Lines\n \nimport colossalai\nfrom colossalai.engine im…",
+          "link": "https://github.com/hpcaitech/ColossalAI",
+          "publishedOn": "2021-11-04T00:53:10.853Z",
+          "wordCount": 789,
+          "title": "hpcaitech/ColossalAI"
+        },
+        {
+          "id": "https://github.com/klange/toaruos",
+          "author": null,
+          "description": "A completely-from-scratch hobby operating system: bootloader, kernel, drivers, C library, and userspace including a composited graphical UI, dynamic linker, syntax-highlighting text editor, network stack, etc.\n\nToaruOS\n \nToaruOS is a \"complete\" operating system for x86-64 PCs with plans for ports to other platforms.\n \nWhile many independent, hobby, and research OSes aim to experiment with new designs, ToaruOS is intended as an educational resource, providing a representative microcosm of functionality found in major desktop operating systems.\n \nThe OS includes a kernel, bootloader, dynamic shared object linker, C standard library, its own composited windowing system, a dynamic bytecode-compiled programming language, advanced code editor, and dozens of other utilities and example applicatio…",
+          "link": "https://github.com/klange/toaruos",
+          "publishedOn": "2021-11-04T00:53:10.781Z",
+          "wordCount": 2246,
+          "title": "klange/toaruos"
+        },
+        {
+          "id": "https://github.com/visenger/awesome-mlops",
+          "author": null,
+          "description": "A curated list of references for MLOps\n\nAwesome MLOps  \n \n\n \nAn awesome list of references for MLOps - Machine Learning Operations 👉 ml-ops.org\n \nTable of Content\n \n \n  \n  \n \n   \n     \n   \n     \n  \n \n  \n  \n  \n \n   MLOps Core \n   MLOps Communities \n  \n \n  \n \n   MLOps Books \n   MLOps Articles \n  \n \n  \n \n   MLOps Workflow Management \n   MLOps: Feature Stores \n  \n \n  \n \n   MLOps: Data Engineering (DataOps) \n   MLOps: Model Deployment and Serving \n  \n \n  \n \n   MLOps: Testing, Monitoring and Maintenance \n   MLOps: Infrastructure \n  \n \n  \n \n   MLOps Papers \n   Talks About MLOps \n  \n \n  \n \n   Existing ML Systems \n   Machine Learning \n  \n \n  \n \n   Software Engineering \n   Product Management for ML/AI \n  \n \n  \n \n   The Economics of ML/AI \n   Model Governance, Ethics, Responsible AI \n  \n \n  \n \n   ML…",
+          "link": "https://github.com/visenger/awesome-mlops",
+          "publishedOn": "2021-11-04T00:53:10.721Z",
+          "wordCount": 4749,
+          "title": "visenger/awesome-mlops"
+        },
         {
           "id": "https://github.com/microsoft/ML-For-Beginners",
           "author": null,
@@ -3309,78 +3372,6 @@
           "publishedOn": "2021-10-06T00:55:10.862Z",
           "wordCount": 1462,
           "title": "sebastianstarke/AI4Animation"
-        },
-        {
-          "id": "https://github.com/TheAlgorithms/Python",
-          "author": null,
-          "description": "All Algorithms implemented in Python\n\n \n  \n    \n \nThe Algorithms - Python\n \n  \n  \n    \n    \n    \n  \n    \n    \n  \n \n \n    \n    \n    \n    \n  \n \nAll algorithms implemented in Python - for education\n \n \nImplementations are for learning purposes only. As they may be less efficient than the implementations in the Python standard library, use them at your discretion.\n \nGetting Started\n \nRead through our Contribution Guidelines before you contribute.\n \nCommunity Channels\n \nWe're on Discord and Gitter! Community channels are great for you to ask questions and get help. Please join us!\n \nList of Algorithms\n \nSee our directory for easier navigation and better overview of the project.",
-          "link": "https://github.com/TheAlgorithms/Python",
-          "publishedOn": "2021-10-05T00:53:28.016Z",
-          "wordCount": 1008,
-          "title": "TheAlgorithms/Python"
-        },
-        {
-          "id": "https://github.com/home-assistant/core",
-          "author": null,
-          "description": "🏡 Open source home automation that puts local control and privacy first.\n\nHome Assistant |Chat Status|\n \nOpen source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.\n \nCheck out home-assistant.io <https://home-assistant.io>__ for a demo <https://home-assistant.io/demo/>, installation instructions <https://home-assistant.io/getting-started/>, tutorials <https://home-assistant.io/getting-started/automation/>__ and documentation <https://home-assistant.io/docs/>__.\n \n|screenshot-states|\n \nFeatured integrations\n \n|screenshot-components|\n \nThe system is built using a modular approach so support for other devices or actions can be implemented easily. See also the section on architecture <https://developers.home-assistant.io/docs/architecture_index/>__ and the section on creating your own components <https://developers.home-assistant.io/docs/creating_component_index/>__.\n \nIf you run into issues while using Home Assistant or during development of a component, check the Home Assistant help section <https://home-assistant.io/help/>__ of our website for further help and information.\n \n.. |Chat Status| image:: https://img.shields.io/discord/330944238910963714.svg :target: https://discord.gg/c5DvZ4e .. |screenshot-states| image:: https://raw.github.com/home-assistant/home-assistant/master/docs/screenshots.png :target: https://home-assistant.io/demo/ .. |screenshot-components| image:: https://raw.github.com/home-assistant/home-assistant/dev/docs/screenshot-components.png :target: https://home-assistant.io/integrations/",
-          "link": "https://github.com/home-assistant/core",
-          "publishedOn": "2021-10-05T00:53:27.942Z",
-          "wordCount": 929,
-          "title": "home-assistant/core"
-        },
-        {
-          "id": "https://github.com/tldr-pages/tldr",
-          "author": null,
-          "description": "📚 Collaborative cheatsheets for console commands\n\n \n \n\n \n \n    \n \n \nWhat is tldr-pages?\n \nThe tldr-pages project is a collection of community-maintained help pages for command-line tools, that aims to be a simpler, more approachable complement to traditional man pages.\n \nMaybe you are new to the command-line world? Or just a little rusty? Or perhaps you can't always remember the arguments to lsof, or tar?\n \nIt certainly doesn't help that the first option explained in man tar is:\n \n-b blocksize\n   Specify the block size, in 512-byte records, for tape drive I/O.\n   As a rule, this argument is only needed when reading from or writing to tape drives,\n   and usually not even then as the default block size of 20 records (10240 bytes) is very common.\n\n \nThere seems to be room for simpler help pa…",
-          "link": "https://github.com/tldr-pages/tldr",
-          "publishedOn": "2021-10-05T00:53:27.736Z",
-          "wordCount": 1773,
-          "title": "tldr-pages/tldr"
-        },
-        {
-          "id": "https://github.com/alan2207/bulletproof-react",
-          "author": null,
-          "description": "🛡️ ⚛️ A simple, scalable, and powerful architecture for building production ready React applications.\n\nBulletproof React 🛡️ ⚛️\n \n \n \nA simple, scalable, and powerful architecture for building production ready React applications.\n \nIntroduction\n \nReact is a great tool for building frontend applications. It has a very diverse ecosystem with hundreds of great libraries for literally anything you might need. However, it can be overwhelming to be forced to make so many choices. It is also very flexible, you can write React applications in any way you like but that flexibility comes with a cost. Since there is no pre-defined architecture developers can follow, it often leads to messy, inconsistent, or over-complicated codebases.\n \nThis is an attempt to present a way of creating React applicati…",
-          "link": "https://github.com/alan2207/bulletproof-react",
-          "publishedOn": "2021-10-05T00:53:27.598Z",
-          "wordCount": 933,
-          "title": "alan2207/bulletproof-react"
-        },
-        {
-          "id": "https://github.com/Slurmio/school-dev-k8s",
-          "author": null,
-          "description": "school-dev-k8s",
-          "link": "https://github.com/Slurmio/school-dev-k8s",
-          "publishedOn": "2021-10-05T00:53:27.555Z",
-          "wordCount": 376,
-          "title": "Slurmio/school-dev-k8s"
-        },
-        {
-          "id": "https://github.com/sundowndev/phoneinfoga",
-          "author": null,
-          "description": "Information gathering & OSINT framework for phone numbers\n\n  \n \n \n    \n    \n    \n    \n    \n \nAdvanced information gathering & OSINT framework for phone numbers\n \n Documentation • API documentation • Demo instance • Related blog post \n \n\n \nAbout\n \nPhoneInfoga is one of the most advanced tools to scan international phone numbers using only free resources. It allows you to first gather standard information such as country, area, carrier and line type on any international phone number. Then search for footprints on search engines to try to find the VoIP provider or identify the owner.\n \nUnofficial video tutorials\n \n\n \nCurrent status\n \nThis project is stable and production-ready. Roadmap is here.\n \nAbout demo instance: This is a test service. Kittens will die if you abuse it. Numverify scan is …",
-          "link": "https://github.com/sundowndev/phoneinfoga",
-          "publishedOn": "2021-10-05T00:53:27.525Z",
-          "wordCount": 987,
-          "title": "sundowndev/phoneinfoga"
-        },
-        {
-          "id": "https://github.com/googleprojectzero/weggli",
-          "author": null,
-          "description": "weggli is a fast and robust semantic search tool for C and C++ codebases. It is designed to help security researchers identify interesting functionality in large codebases.\n\nweggli\n \n\n \nIntroduction\n \nweggli is a fast and robust semantic search tool for C and C++ codebases. It is designed to help security researchers identify interesting functionality in large codebases.\n \nweggli performs pattern matching on Abstract Syntax Trees based on user provided queries. Its query language resembles C and C++ code, making it easy to turn interesting code patterns into queries.\n \nweggli is inspired by great tools like Semgrep, Coccinelle, joern and CodeQL, but makes some different design decisions:\n \n \n \n C++ support: weggli has first class support for modern C++ constructs, such as lambda expression…",
-          "link": "https://github.com/googleprojectzero/weggli",
-          "publishedOn": "2021-10-05T00:53:27.479Z",
-          "wordCount": 1588,
-          "title": "googleprojectzero/weggli"
-        },
-        {
-          "id": "https://github.com/trickster0/OffensiveRust",
-          "author": null,
-          "description": "Rust Weaponization for Red Team Engagements.\n\n  \n \nOffensiveRust\n \nMy experiments in weaponizing Rust for implant development and general offensive operations.\n \nTable of Contents\n \n \n \nOffensiveRust \n  \n \n   \nWhy Rust?\n \n   \nExamples in this repo\n \n   \nCompiling the examples\n \n   \nCompiling the examples in this repo\n \n   \nCross Compiling\n \n   \nOptimizing executables for size\n \n   \nPitfalls I found myself falling into\n \n   \nInteresting Rust Libraries\n \n   \nOpsec\n \n   \nOther projects I have have made in Rust\n \n  \n  \n \nWhy Rust?\n \n \n \nIt is faster than languages like C/C++\n \n \nIt is multi-purpose language, bearing excellent communities\n \n \nIt has an amazing inbuilt dependency build management called Cargo\n \n \nIt is LLVM based which makes it a very good candidate for bypassing static AV detec…",
-          "link": "https://github.com/trickster0/OffensiveRust",
-          "publishedOn": "2021-10-05T00:53:27.429Z",
-          "wordCount": 1410,
-          "title": "trickster0/OffensiveRust"
         }
       ]
     }

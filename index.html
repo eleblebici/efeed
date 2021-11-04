@@ -16,6 +16,542 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-11-04">2021-11-04</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="http://mshibanami.github.io/GitHubTrendingRSS">GitHub All Languages Daily Trending</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">d2l-ai/d2l-zh</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/d2l-ai/d2l-zh">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被全球200所大学采用教学。
+
+动手学深度学习（Dive into Deep Learning，D2L.ai）
+ 
+
+ 
+第一版：zh.D2L.ai | 第二版预览版：zh-v2.D2L.ai | 安装和使用书中源代码：第一版 第二版 | 当前版本: v2.0.0-alpha1
+ 
+理解深度学习的最佳方法是学以致用。
+ 
+     
+ 
+本开源项目代表了我们的一种尝试：我们将教给读者概念、背景知识和代码；我们将在同一个地方阐述剖析问题所需的批判性思维、解决问题所需的数学知识，以及实现解决方案所需的工程技能。
+ 
+我们的目标是创建一个为实现以下目标的统一资源：
+ 
+ 
+ 
+所有人均可在网上免费获取；
+ 
+ 
+提供足够的技术深度，从而帮助读者实际成为深度学习应用科学家：既理解数学原理，又能够实现并不断改进方法；
+ 
+ 
+包含可运行的代码，为读者展示如何在实际中解决问题。这样不仅直接将数学公式对应成实际代码，而且可以修改代码、观察结果并及时获取经验；
+ 
+ 
+允许我们和整个社区不断快速迭代内容，从而紧跟仍在高速发展的深度学习领域；
+ 
+ 
+由包含有关技术细节问答的论坛作为补充，使大家可以相互答疑并交换经验。
+ 
+ 
+将本书（中英文版）用作教材或参考书的大学
+ 
+  
+ 
+如果本书对你有帮助，请Star (★) 本仓库或引用本书的英文版：
+ 
+@article{zhang2021dive,
+    title&#x3D;{Dive into Deep Learning},
+    author&#x3D;{Zhang, Aston and Lipton, Zachary C. and Li, Mu and Smola, Alexander J.},
+    journal&#x3D;{arXiv preprint arXiv:2106.11342},
+    year&#x3D;{2021}
+}
+
+ 
+本书的第二版
+ 
+虽然纸质书第一版已经出版，但深度学习领域依然在迅速发展。为了得到来自更广泛的英文开源社区的帮助，从而提升本书质量，本书的第二版正在用英文写。英文版正不断被搬回中文版中。
+ 
+目前，英文版已超过160节（中文版共96节），例如增加了理论背景（如优化收敛分析）、硬件设计（如参数服务器）、全新篇章（如注意力机制、推荐系统、深度学习的数学、生成对抗网络）、应用种类（如自然语言推断）、模型种类（如Transformer、BERT）等，并优化重组了大量章节（如将自然语言处理篇章按从预训练表征、到模型设计、再到下游应用重构）。
+ 
+欢迎关注本书第二版的英文开源项目。
+ 
+中英文教学资源
+ 
+加州大学伯克利分校 2019 年春学期 Introduction to Deep Learning 课程教材（同时提供含教学视频地址的中文版课件）。
+ 
+学术界推荐
+ 
+ 
+ 
+&quot;Dive into this book if you want to dive into deep learning!&quot;
+ 
+ — 韩家炜，ACM 院士、IEEE 院士，美国伊利诺伊大学香槟分校计算机系 Michael Aiken Chair 教授 
+ 
+ 
+ 
+&quot;This is a highly welcome addition to the machine learning literature.&quot;
+ 
+ — Bernhard Schölkopf，ACM 院士、德国国家科学院院士，德国马克斯•普朗克研究所智能系统院院长 
+ 
+ 
+ 
+&quot;书中代码可谓‘所学即所用’。&quot;
+ 
+ — 周志华，ACM 院士、IEEE 院士、AAAS 院士，南京大学计算机科学与技术系主任 
+ 
+ 
+ 
+&quot;这本书可以帮助深度学习实践者快速提升自己的能力。&quot;
+ 
+ — 张潼，ASA 院士、IMS 院士，香港科技大学计算机系和数学系教授 
+ 
+工业界推荐
+ 
+ 
+ 
+&quot;一本优秀的深度学习教材，值得任何想了解深度学习何以引爆人工智能革命的人关注。&quot;
+ 
+ — 黄仁勋，NVIDIA创始人 &amp; CEO 
+ 
+ 
+ 
+&quot;《动手学深度学习》是最适合工业界研发工程师学习的。我毫无保留地向广大的读者们强烈推荐。&quot;
+ 
+ — 余凯，地平线公司创始人 &amp; CEO 
+ 
+ 
+ 
+&quot;强烈推荐这本书！我特别赞赏这种手脑一体的学习方式。&quot;
+ 
+ — 漆远，蚂蚁金服副总裁、首席AI科学家 
+ 
+ 
+ 
+&quot;《动手学深度学习》是一本很容易让学习者上瘾的书。&quot;
+ 
+ — 沈强，将门创投创始合伙人 
+ 
+贡献
+ 
+感谢社区贡献者们为每一位读者改进这本开源书。
+ 
+如何贡献 | 致谢 | 讨论或报告问题 | 其他</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ethereum-boilerplate/ethereum-boilerplate</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/ethereum-boilerplate/ethereum-boilerplate">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>The ultimate full-stack Ethereum Dapp Boilerplate which gives you maximum flexibility and speed. Feel free to fork and contribute. Although this repo is called &quot;Ethereum Boilerplate&quot; it works with any EVM system and even Solana support is coming soon! Happy BUIDL!👷‍♂️
+
+ethereum-boilerplate
+ 
+ 
+ 
+React components and hooks for fast building dApps without running own backend
+ 
+ 
+This boilerplate is built on react-moralis and Moralis. Also has its own context provider for quick access to chainId or ethAddress
+ 
+There are many components in this boilerplate that do not require an active web3 provider, they use Moralis Web3 API. Moralis supports the most popular blockchains and their test networks. You can find a list of all available networks in Moralis Supported Chains
+ 
+Please check the off…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">brave/brave-browser</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/brave/brave-browser">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Next generation Brave browser for Android, Linux, macOS, Windows.
+
+Brave Browser
+ 
+Overview
+ 
+This repository holds the build tools needed to build the Brave desktop browser for macOS, Windows, and Linux. In particular, it fetches and syncs code from the projects we define in package.json and src/brave/DEPS:
+ 
+ 
+ 
+Chromium 
+  
+ 
+   
+Fetches code via depot_tools.
+ 
+   
+sets the branch for Chromium (ex: 65.0.3325.181).
+ 
+  
+  
+ 
+brave-core 
+  
+ 
+   
+Mounted at src/brave.
+ 
+   
+Maintains patches for 3rd party Chromium code.
+ 
+  
+  
+ 
+adblock-rust 
+  
+ 
+   
+Implements Brave&#x27;s ad-block engine.
+ 
+   
+Linked through brave/adblock-rust-ffi.
+ 
+  
+  
+ 
+Downloads
+ 
+You can visit our website to get the latest stable release.
+ 
+Other repositories
+ 
+For other versions of our browser, please see:
+ 
+ 
+ 
+i…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">justjavac/free-programming-books-zh_CN</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/justjavac/free-programming-books-zh_CN">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>📚 免费的计算机编程类中文书籍，欢迎投稿
+
+免费的编程中文书籍索引
+ 
+    
+ 
+免费的编程中文书籍索引，欢迎投稿。
+ 
+ 
+ 
+国外程序员在 stackoverflow 推荐的程序员必读书籍，中文版。
+ 
+ 
+stackoverflow 上的程序员应该阅读的非编程类书籍有哪些？ 中文版
+ 
+ 
+github 上的一个流行的编程书籍索引 中文版
+ 
+ 
+如果这个仓库对你有帮助，欢迎 star。如果这个仓库帮你提升了技能找到了工作，可以请我喝杯咖啡：
+ 
+
+ 
+参与交流
+ 
+欢迎大家将珍藏已久的经典免费书籍共享出来，您可以：
+ 
+ 
+ 
+使用 Pull Request 提交
+ 
+ 
+如果你发现了不能访问的链接，也可以提 PR，在无法访问链接的后面增加 😟。
+ 
+贡献者名单: https://github.com/justjavac/free-programming-books-zh_CN/graphs/contributors
+ 
+目录
+ 
+ 
+ 
+ 语言无关类
+ 
+  
+ 
+   
+操作系统
+ 
+   
+智能系统
+ 
+   
+分布式系统
+ 
+   
+编译原理
+ 
+   
+函数式概念
+ 
+   
+计算机图形学
+ 
+   
+WEB服务器
+ 
+   
+版本控制
+ 
+   
+编辑器
+ 
+   
+NoSQL
+ 
+   
+PostgreSQL
+ 
+   
+MySQL
+ 
+   
+管理和监控
+ 
+   
+项目相关
+ 
+   
+设计模式
+ 
+   
+Web
+ 
+   
+大数据
+ 
+   
+编程艺术
+ 
+   
+其它
+ 
+  
+  
+ 
+ 语言相关类
+ 
+  
+ 
+   
+Android
+ 
+   
+APP
+ 
+   
+AWK
+ 
+   
+C/C++
+ 
+   
+C#
+ 
+   
+Clojure
+ 
+   
+CSS/HTML
+ 
+   
+Dart
+ 
+   
+Elixir
+ 
+   …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">hpcaitech/ColossalAI</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/hpcaitech/ColossalAI">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Colossal-AI: A Unified Deep Learning System for Large-Scale Parallel Training
+
+ColossalAI
+ 
+An integrated large-scale model training system with efficient parallelization techniques.
+ 
+arXiv: Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training
+ 
+Installation
+ 
+PyPI
+ 
+pip install colossalai
+
+ 
+Install From Source
+ 
+git clone git@github.com:hpcaitech/ColossalAI.git
+cd ColossalAI
+# install dependency
+pip install -r requirements/requirements.txt
+
+# install colossalai
+pip install .
+
+ 
+Install and enable CUDA kernel fusion (compulsory installation when using fused optimizer)
+ 
+pip install -v --no-cache-dir --global-option&#x3D;&quot;--cuda_ext&quot; .
+
+ 
+Documentation
+ 
+ 
+ 
+Documentation
+ 
+ 
+Quick View
+ 
+Start Distributed Training in Lines
+ 
+import colossalai
+from colossalai.engine im…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">klange/toaruos</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/klange/toaruos">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>A completely-from-scratch hobby operating system: bootloader, kernel, drivers, C library, and userspace including a composited graphical UI, dynamic linker, syntax-highlighting text editor, network stack, etc.
+
+ToaruOS
+ 
+ToaruOS is a &quot;complete&quot; operating system for x86-64 PCs with plans for ports to other platforms.
+ 
+While many independent, hobby, and research OSes aim to experiment with new designs, ToaruOS is intended as an educational resource, providing a representative microcosm of functionality found in major desktop operating systems.
+ 
+The OS includes a kernel, bootloader, dynamic shared object linker, C standard library, its own composited windowing system, a dynamic bytecode-compiled programming language, advanced code editor, and dozens of other utilities and example applicatio…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">visenger/awesome-mlops</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/visenger/awesome-mlops">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(16 min)</span>
+                    <span>A curated list of references for MLOps
+
+Awesome MLOps  
+ 
+
+ 
+An awesome list of references for MLOps - Machine Learning Operations 👉 ml-ops.org
+ 
+Table of Content
+ 
+ 
+  
+  
+ 
+   
+     
+   
+     
+  
+ 
+  
+  
+  
+ 
+   MLOps Core 
+   MLOps Communities 
+  
+ 
+  
+ 
+   MLOps Books 
+   MLOps Articles 
+  
+ 
+  
+ 
+   MLOps Workflow Management 
+   MLOps: Feature Stores 
+  
+ 
+  
+ 
+   MLOps: Data Engineering (DataOps) 
+   MLOps: Model Deployment and Serving 
+  
+ 
+  
+ 
+   MLOps: Testing, Monitoring and Maintenance 
+   MLOps: Infrastructure 
+  
+ 
+  
+ 
+   MLOps Papers 
+   Talks About MLOps 
+  
+ 
+  
+ 
+   Existing ML Systems 
+   Machine Learning 
+  
+ 
+  
+ 
+   Software Engineering 
+   Product Management for ML/AI 
+  
+ 
+  
+ 
+   The Economics of ML/AI 
+   Model Governance, Ethics, Responsible AI 
+  
+ 
+  
+ 
+   ML…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-11-03">2021-11-03</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -961,6 +1497,34 @@ MacVM
 macOS Monterey added support for virtualizing macOS with Apple silicon host.
  
 This project provides an example project for the setup.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.cncf.io">Cloud Native Computing Foundation</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Dapr (Distributed Application Runtime) joins CNCF Incubator</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.cncf.io/blog/2021/11/03/dapr-distributed-application-runtime-joins-cncf-incubator/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>The CNCF Technical Oversight Committee (TOC) has voted to accept Dapr as a CNCF incubating project.  Dapr is a set of APIs that makes it easy for developers to write distributed applications....</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Liveblog: KubeCon + CloudNativeCon North America 2021</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.cncf.io/blog/2021/11/03/liveblog-kubecon-cloudnativecon-north-america-2021/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(8 min)</span>
+                    <span>Guest post originally published on Chronosphere‘s blog by Amanda Mitchell, Senior Content Marketing Manager at Chronosphere Hello sunny LA and happy KubeCon + CloudNativeCon North America 2021-eve! Team Chronosphere has set up...</span>
                   </div>
                 </a>
               </details>
@@ -18625,308 +19189,6 @@ This project explores the opportunities of deep learning for character animation
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="http://mshibanami.github.io/GitHubTrendingRSS">GitHub All Languages Daily Trending</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">TheAlgorithms/Python</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/TheAlgorithms/Python">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>All Algorithms implemented in Python
-
- 
-  
-    
- 
-The Algorithms - Python
- 
-  
-  
-    
-    
-    
-  
-    
-    
-  
- 
- 
-    
-    
-    
-    
-  
- 
-All algorithms implemented in Python - for education
- 
- 
-Implementations are for learning purposes only. As they may be less efficient than the implementations in the Python standard library, use them at your discretion.
- 
-Getting Started
- 
-Read through our Contribution Guidelines before you contribute.
- 
-Community Channels
- 
-We&#x27;re on Discord and Gitter! Community channels are great for you to ask questions and get help. Please join us!
- 
-List of Algorithms
- 
-See our directory for easier navigation and better overview of the project.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">home-assistant/core</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/home-assistant/core">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>🏡 Open source home automation that puts local control and privacy first.
-
-Home Assistant |Chat Status|
- 
-Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
- 
-Check out home-assistant.io 
-__ for a demo 
-, installation instructions 
-, tutorials 
-__ and documentation 
-__.
- 
-|screenshot-states|
- 
-Featured integrations
- 
-|screenshot-components|
- 
-The system is built using a modular approach so support for other devices or actions can be implemented easily. See also the section on architecture 
-__ and the section on creating your own components 
-__.
- 
-If you run into issues while using Home Assistant or during development of a component, check the Home Assistant help section 
-__ of our website for further help and information.
- 
-.. |Chat Status| image:: https://img.shields.io/discord/330944238910963714.svg :target: https://discord.gg/c5DvZ4e .. |screenshot-states| image:: https://raw.github.com/home-assistant/home-assistant/master/docs/screenshots.png :target: https://home-assistant.io/demo/ .. |screenshot-components| image:: https://raw.github.com/home-assistant/home-assistant/dev/docs/screenshot-components.png :target: https://home-assistant.io/integrations/</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">tldr-pages/tldr</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/tldr-pages/tldr">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>📚 Collaborative cheatsheets for console commands
-
- 
- 
-
- 
- 
-    
- 
- 
-What is tldr-pages?
- 
-The tldr-pages project is a collection of community-maintained help pages for command-line tools, that aims to be a simpler, more approachable complement to traditional man pages.
- 
-Maybe you are new to the command-line world? Or just a little rusty? Or perhaps you can&#x27;t always remember the arguments to lsof, or tar?
- 
-It certainly doesn&#x27;t help that the first option explained in man tar is:
- 
--b blocksize
-   Specify the block size, in 512-byte records, for tape drive I/O.
-   As a rule, this argument is only needed when reading from or writing to tape drives,
-   and usually not even then as the default block size of 20 records (10240 bytes) is very common.
-
- 
-There seems to be room for simpler help pa…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">alan2207/bulletproof-react</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/alan2207/bulletproof-react">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>🛡️ ⚛️ A simple, scalable, and powerful architecture for building production ready React applications.
-
-Bulletproof React 🛡️ ⚛️
- 
- 
- 
-A simple, scalable, and powerful architecture for building production ready React applications.
- 
-Introduction
- 
-React is a great tool for building frontend applications. It has a very diverse ecosystem with hundreds of great libraries for literally anything you might need. However, it can be overwhelming to be forced to make so many choices. It is also very flexible, you can write React applications in any way you like but that flexibility comes with a cost. Since there is no pre-defined architecture developers can follow, it often leads to messy, inconsistent, or over-complicated codebases.
- 
-This is an attempt to present a way of creating React applicati…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Slurmio/school-dev-k8s</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/Slurmio/school-dev-k8s">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>school-dev-k8s</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">sundowndev/phoneinfoga</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/sundowndev/phoneinfoga">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Information gathering &amp; OSINT framework for phone numbers
-
-  
- 
- 
-    
-    
-    
-    
-    
- 
-Advanced information gathering &amp; OSINT framework for phone numbers
- 
- Documentation • API documentation • Demo instance • Related blog post 
- 
-
- 
-About
- 
-PhoneInfoga is one of the most advanced tools to scan international phone numbers using only free resources. It allows you to first gather standard information such as country, area, carrier and line type on any international phone number. Then search for footprints on search engines to try to find the VoIP provider or identify the owner.
- 
-Unofficial video tutorials
- 
-
- 
-Current status
- 
-This project is stable and production-ready. Roadmap is here.
- 
-About demo instance: This is a test service. Kittens will die if you abuse it. Numverify scan is …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">googleprojectzero/weggli</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/googleprojectzero/weggli">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>weggli is a fast and robust semantic search tool for C and C++ codebases. It is designed to help security researchers identify interesting functionality in large codebases.
-
-weggli
- 
-
- 
-Introduction
- 
-weggli is a fast and robust semantic search tool for C and C++ codebases. It is designed to help security researchers identify interesting functionality in large codebases.
- 
-weggli performs pattern matching on Abstract Syntax Trees based on user provided queries. Its query language resembles C and C++ code, making it easy to turn interesting code patterns into queries.
- 
-weggli is inspired by great tools like Semgrep, Coccinelle, joern and CodeQL, but makes some different design decisions:
- 
- 
- 
- C++ support: weggli has first class support for modern C++ constructs, such as lambda expression…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">trickster0/OffensiveRust</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/trickster0/OffensiveRust">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Rust Weaponization for Red Team Engagements.
-
-  
- 
-OffensiveRust
- 
-My experiments in weaponizing Rust for implant development and general offensive operations.
- 
-Table of Contents
- 
- 
- 
-OffensiveRust 
-  
- 
-   
-Why Rust?
- 
-   
-Examples in this repo
- 
-   
-Compiling the examples
- 
-   
-Compiling the examples in this repo
- 
-   
-Cross Compiling
- 
-   
-Optimizing executables for size
- 
-   
-Pitfalls I found myself falling into
- 
-   
-Interesting Rust Libraries
- 
-   
-Opsec
- 
-   
-Other projects I have have made in Rust
- 
-  
-  
- 
-Why Rust?
- 
- 
- 
-It is faster than languages like C/C++
- 
- 
-It is multi-purpose language, bearing excellent communities
- 
- 
-It has an amazing inbuilt dependency build management called Cargo
- 
- 
-It is LLVM based which makes it a very good candidate for bypassing static AV detec…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://www.cncf.io">Cloud Native Computing Foundation</a></h3>
           <section class="articles-per-source">
             <article>
@@ -18944,42 +19206,9 @@ It is LLVM based which makes it a very good candidate for bypassing static AV de
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-10-04">2021-10-04</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.cncf.io">Cloud Native Computing Foundation</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How was a pizza chosen as the KCD Italy 2021 logo?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.cncf.io/blog/2021/10/04/how-was-a-pizza-chosen-as-the-kcd-italy-2021-logo/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Community guest post by Kubernetes Day Italy Recognized and supported by the CNCF, the first Kubernetes Community Days will be held on 17 and 18 November 2021. It was a great moment-event...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Cartografos working group launches cloud native maturity model</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.cncf.io/blog/2021/10/04/cartografos-working-group-launches-cloud-native-maturity-model/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Community guest post by Danielle Cook, Simon Forster, John Forman, and Robbie Glenn of the Cartografos Working Group You’ve heard the benefits of containers, microservices and this thing called Kubernetes. You’ve investigated,...</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-11-03T00:52:26.773Z">2021-11-03T00:52:26.773Z</time>
+    <time id="build-timestamp" datetime="2021-11-04T00:53:12.028Z">2021-11-04T00:53:12.028Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>
