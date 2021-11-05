@@ -22,6 +22,33 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=65554",
+          "author": "Jessie",
+          "description": "Project guest post by the Emissary-ingress project maintainers Cloud Native Computing Foundation (CNCF) incubating project Emissary-ingress, an open source ingress controller and API gateway for Kubernetes, announces official support by major service...",
+          "link": "https://www.cncf.io/blog/2021/11/04/emissary-ingress-now-officially-supported-by-top-service-mesh-projects-linkerd-and-istio/",
+          "publishedOn": "2021-11-04T15:00:00.000Z",
+          "wordCount": 1096,
+          "title": "Emissary-ingress now officially supported by top service mesh projects Linkerd and Istio"
+        },
+        {
+          "id": "https://www.cncf.io/?p=65517",
+          "author": "Jessie",
+          "description": "The CNCF Technical Oversight Committee (TOC) has voted to accept Longhorn as a CNCF incubating project. Longhorn is a distributed block storage system for Kubernetes, designed to run on top of different...",
+          "link": "https://www.cncf.io/blog/2021/11/04/longhorn-brings-cloud-native-distributed-storage-to-the-cncf-incubator/",
+          "publishedOn": "2021-11-04T15:00:00.000Z",
+          "wordCount": 1141,
+          "title": "Longhorn brings cloud native distributed storage to the CNCF Incubator"
+        },
+        {
+          "id": "https://www.cncf.io/?p=65469",
+          "author": "Jessie",
+          "description": "Guest post originally published on Elastisys’ blog by Lars Larsson, Senior Cloud Architect, and DevOps Expert Engineer at Elastisys The cloud computing service model has shown us that infrastructure as a service...",
+          "link": "https://www.cncf.io/blog/2021/11/04/managed-container-services-kaas-kpaas-caas-explained-and-compared/",
+          "publishedOn": "2021-11-04T15:00:00.000Z",
+          "wordCount": 1928,
+          "title": "Managed container services: KaaS, KPaaS & CaaS explained and compared"
+        },
+        {
           "id": "https://www.cncf.io/?p=65514",
           "author": "Jessie",
           "description": "The CNCF Technical Oversight Committee (TOC) has voted to accept Dapr as a CNCF incubating project.  Dapr is a set of APIs that makes it easy for developers to write distributed applications....",
@@ -335,15 +362,6 @@
           "publishedOn": "2021-10-06T15:00:00.000Z",
           "wordCount": 1025,
           "title": "micro-lc: a new open-source project for micro frontend orchestration"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64857",
-          "author": "Jessie",
-          "description": "Guest post originally published on InfraCloud’s blog by Ruturaj Kadikar, Software Engineer at InfraCloud  Why do I need tracing if I have a good logging and monitoring framework?  Application logs are beneficial...",
-          "link": "https://www.cncf.io/blog/2021/10/05/distributed-tracing-in-grafana-with-tempo-and-jaeger/",
-          "publishedOn": "2021-10-05T15:00:00.000Z",
-          "wordCount": 2471,
-          "title": "Distributed tracing in Grafana with Tempo and Jaeger"
         }
       ]
     },
@@ -358,6 +376,123 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/home-assistant/core",
+          "author": null,
+          "description": "🏡 Open source home automation that puts local control and privacy first.\n\nHome Assistant |Chat Status|\n \nOpen source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.\n \nCheck out home-assistant.io <https://home-assistant.io>__ for a demo <https://home-assistant.io/demo/>, installation instructions <https://home-assistant.io/getting-started/>, tutorials <https://home-assistant.io/getting-started/automation/>__ and documentation <https://home-assistant.io/docs/>__.\n \n|screenshot-states|\n \nFeatured integrations\n \n|screenshot-components|\n \nThe system is built using a modular approach so support for other devices or actions can be implemented easily. See also the section on architecture <https://developers.home-assistant.io/docs/architecture_index/>__ and the section on creating your own components <https://developers.home-assistant.io/docs/creating_component_index/>__.\n \nIf you run into issues while using Home Assistant or during development of a component, check the Home Assistant help section <https://home-assistant.io/help/>__ of our website for further help and information.\n \n.. |Chat Status| image:: https://img.shields.io/discord/330944238910963714.svg :target: https://discord.gg/c5DvZ4e .. |screenshot-states| image:: https://raw.github.com/home-assistant/home-assistant/master/docs/screenshots.png :target: https://home-assistant.io/demo/ .. |screenshot-components| image:: https://raw.github.com/home-assistant/home-assistant/dev/docs/screenshot-components.png :target: https://home-assistant.io/integrations/",
+          "link": "https://github.com/home-assistant/core",
+          "publishedOn": "2021-11-05T00:52:30.251Z",
+          "wordCount": 946,
+          "title": "home-assistant/core"
+        },
+        {
+          "id": "https://github.com/questdb/questdb",
+          "author": null,
+          "description": "An open source SQL database designed to process time series data, faster\n\n \n  \n \n \n \n          \n \nEnglish | 简体中文 | العربية\n \nQuestDB\n \nQuestDB is a high-performance, open-source SQL database for applications in financial services, IoT, machine learning, DevOps and observability. It includes endpoints for PostgreSQL wire protocol, high-throughput schema-agnostic ingestion using InfluxDB Line Protocol, and a REST API for queries, bulk imports, and exports.\n \nQuestDB implements ANSI SQL with native extensions for time-oriented language features. These extensions make it simple to correlate data from multiple sources using relational and time series joins. QuestDB achieves high performance from a column-oriented storage model, massively-parallelized vector execution, SIMD instructions, and var…",
+          "link": "https://github.com/questdb/questdb",
+          "publishedOn": "2021-11-05T00:52:30.206Z",
+          "wordCount": 1291,
+          "title": "questdb/questdb"
+        },
+        {
+          "id": "https://github.com/NixOS/nix",
+          "author": null,
+          "description": "Nix, the purely functional package manager\n\nNix\n \n \n \nNix is a powerful package manager for Linux and other Unix systems that makes package management reliable and reproducible. Please refer to the Nix manual for more details.\n \nInstallation\n \nOn Linux and macOS the easiest way to install Nix is to run the following shell command (as a user other than root):\n \n$ curl -L https://nixos.org/nix/install | sh\n\n \nInformation on additional installation methods is available on the Nix download page.\n \nBuilding And Developing\n \nSee our Hacking guide in our manual for instruction on how to build nix from source with nix-build or how to get a development environment.\n \nAdditional Resources\n \n \n \nNix manual\n \n \nNix jobsets on hydra.nixos.org\n \n \nNixOS Discourse\n \n \nMatrix - #nix:nixos.org\n \n \nIRC - #nixos on libera.chat\n \n \nLicense\n \nNix is released under the LGPL v2.1.",
+          "link": "https://github.com/NixOS/nix",
+          "publishedOn": "2021-11-05T00:52:30.142Z",
+          "wordCount": 794,
+          "title": "NixOS/nix"
+        },
+        {
+          "id": "https://github.com/apple/swift-markdown",
+          "author": null,
+          "description": "A Swift package for parsing, building, editing, and analyzing Markdown documents.\n\nSwift Markdown\n \nSwift Markdown is a Swift package for parsing, building, editing, and analyzing Markdown documents.\n \nThe parser is powered by GitHub-flavored Markdown's cmark-gfm implementation, so it follows the spec closely. As the needs of the community change, the effective dialect implemented by this library may change.\n \nThe markup tree provided by this package is comprised of immutable/persistent, thread-safe, copy-on-write value types that only copy substructure that has changed. Other examples of the main strategy behind this library can be seen in Swift's lib/Syntax and its Swift bindings, SwiftSyntax.\n \nGetting Started Using Markup\n \nIn your Package.swift Swift Package Manager manifest, add the …",
+          "link": "https://github.com/apple/swift-markdown",
+          "publishedOn": "2021-11-05T00:52:30.097Z",
+          "wordCount": 1372,
+          "title": "apple/swift-markdown"
+        },
+        {
+          "id": "https://github.com/adiwajshing/Baileys",
+          "author": null,
+          "description": "Lightweight full-featured typescript/javascript WhatsApp Web API\n\nBaileys - Typescript/Javascript WhatsApp Web API\n \nBaileys does not require Selenium or any other browser to be interface with WhatsApp Web, it does so directly using a WebSocket. Not running Selenium or Chromimum saves you like half a gig of ram :/\n \nThank you to @Sigalor for writing his observations on the workings of WhatsApp Web and thanks to @Rhymen for the go implementation.\n \nBaileys is type-safe, extensible and simple to use. If you require more functionality than provided, it'll super easy for you to write an extension. More on this here.\n \nIf you're interested in building a WhatsApp bot, you may wanna check out WhatsAppInfoBot and an actual bot built with it, Messcat.\n \nRead the docs here Join the Discord here\n \nMu…",
+          "link": "https://github.com/adiwajshing/Baileys",
+          "publishedOn": "2021-11-05T00:52:30.057Z",
+          "wordCount": 4264,
+          "title": "adiwajshing/Baileys"
+        },
+        {
+          "id": "https://github.com/Tencent/PatrickStar",
+          "author": null,
+          "description": "PatrickStar enables Larger, Faster, Greener Pretrained Models for NLP. Democratize AI for everyone.\n\nPatrickStar: Parallel Training of Large Language Models via a Chunk-based Memory Management\n \n\n \nMeeting PatrickStar\n \nPre-Trained Models (PTM) are becoming the hotspot of both NLP research and industry application. They are models that are trained with massive data and have learned generic features of the language. In pactice, they are fine-tuned for downstream tasks with task-specific datasets. In this way, PTMs have achieved great performances in almost every tasks. However, the training of PTMs requires enormous hardware resources, which makes it only accessible to small portion of people in the AI community. Now, PatrickStar will make PTM training available to everyone!\n \nOut of memory…",
+          "link": "https://github.com/Tencent/PatrickStar",
+          "publishedOn": "2021-11-05T00:52:29.989Z",
+          "wordCount": 1149,
+          "title": "Tencent/PatrickStar"
+        },
+        {
+          "id": "https://github.com/darglein/ADOP",
+          "author": null,
+          "description": "ADOP: Approximate Differentiable One-Pixel Point Rendering\n \n\n Darius Rückert, Linus Franke, Marc Stamminger\n \n\n \nAbstract: We present a novel point-based, differentiable neural rendering pipeline for scene refinement and novel view synthesis. The input are an initial estimate of the point cloud and the camera parameters. The output are synthesized images from arbitrary camera poses. The point cloud rendering is performed by a differentiable renderer using multi-resolution one-pixel point rasterization. Spatial gradients of the discrete rasterization are approximated by the novel concept of ghost geometry. After rendering, the neural image pyramid is passed through a deep neural network for shading calculations and hole-filling. A differentiable, physically-based tonemapper then converts t…",
+          "link": "https://github.com/darglein/ADOP",
+          "publishedOn": "2021-11-05T00:52:29.952Z",
+          "wordCount": 1745,
+          "title": "darglein/ADOP"
+        },
+        {
+          "id": "https://github.com/github/docs",
+          "author": null,
+          "description": "The open-source repo for docs.github.com\n\nGitHub Docs \n \n \nThis repository contains the documentation website code and Markdown source files for docs.github.com.\n \nGitHub's Docs team works on pre-production content in a private repo that regularly syncs with this public repo.\n \nUse the table of contents icon  on the top left corner of this document to get to a specific section of this guide quickly.\n \nContributing\n \nSee the contributing guide for detailed instructions on how to get started with our project.\n \nWe accept different types of contributions, including some that don't require you to write a single line of code.\n \nOn the GitHub Docs site, you can click the make a contribution button to open a PR for quick fixes like typos, updates, or link fixes.\n \n \nFor more complex contributions…",
+          "link": "https://github.com/github/docs",
+          "publishedOn": "2021-11-05T00:52:29.912Z",
+          "wordCount": 1294,
+          "title": "github/docs"
+        },
+        {
+          "id": "https://github.com/tokio-rs/axum",
+          "author": null,
+          "description": "Ergonomic and modular web framework built with Tokio, Tower, and Hyper\n\naxum\n \naxum is a web application framework that focuses on ergonomics and modularity.\n \n  \n \nMore information about this crate can be found in the crate documentation.\n \nHigh level features\n \n \n \nRoute requests to handlers with a macro free API.\n \n \nDeclaratively parse requests using extractors.\n \n \nSimple and predictable error handling model.\n \n \nGenerate responses with minimal boilerplate.\n \n \nTake full advantage of the tower and tower-http ecosystem of middleware, services, and utilities.\n \n \nIn particular the last point is what sets axum apart from other frameworks. axum doesn't have its own middleware system but instead uses tower::Service. This means axum gets timeouts, tracing, compression, authorization, and mo…",
+          "link": "https://github.com/tokio-rs/axum",
+          "publishedOn": "2021-11-05T00:52:29.868Z",
+          "wordCount": 1006,
+          "title": "tokio-rs/axum"
+        },
+        {
+          "id": "https://github.com/nunomaduro/larastan",
+          "author": null,
+          "description": "⚗️ Adds static analysis to Laravel improving developer productivity and code quality.\n\n  \n  \n \n     \n \n \n⚗️ About Larastan\n \nLarastan was created by Can Vural and Nuno Maduro, got artwork designed by @Caneco, is maintained by Can Vural, Nuno Maduro, and Viktor Szépe, and is a PHPStan wrapper for Laravel. Larastan focuses on finding errors in your code without actually running it. It catches whole classes of bugs even before you write tests for the code.\n \n \n \nAdds static typing to Laravel to improve developer productivity and code quality\n \n \nSupports most of Laravel's beautiful magic\n \n \nDiscovers bugs in your code without running it\n \n \n✨ Getting Started In 3 Steps\n \n \n \nRequires:\n \n \n \n \nPHP 7.2+\n \n \nLaravel 6.0+\n \n \n1: First, you may use Composer to install Larastan as a development de…",
+          "link": "https://github.com/nunomaduro/larastan",
+          "publishedOn": "2021-11-05T00:52:29.831Z",
+          "wordCount": 1147,
+          "title": "nunomaduro/larastan"
+        },
+        {
+          "id": "https://github.com/smiek2121/scripts",
+          "author": null,
+          "description": "jd_scripts\n \n​\n \n频道\n \n点击直达频道\n \n​\n \n预留\n \n说点啥呢",
+          "link": "https://github.com/smiek2121/scripts",
+          "publishedOn": "2021-11-05T00:52:29.791Z",
+          "wordCount": 376,
+          "title": "smiek2121/scripts"
+        },
+        {
+          "id": "https://github.com/nickboucher/trojan-source",
+          "author": null,
+          "description": "Trojan Source: Invisible Vulnerabilities\n\nTrojan Source\n \nTrojan Source: Invisible Vulnerabilities\n \nOverview\n \nWe present a new type of attack in which source code is maliciously encoded so that it appears different to a compiler and to the human eye. This attack exploits subtleties in text-encoding standards such as Unicode to produce source code whose tokens are logically encoded in a different order from the one in which they are displayed, leading to vulnerabilities that cannot be perceived directly by human code reviewers.\n \n'Trojan Source' attacks, as we call them, pose an immediate threat both to first-party software and supply-chain compromise across the industry. We present working examples of Trojan-Source attacks in C, C++, C#, JavaScript, Java, Rust, Go, and Python. We propose definitive compiler-level defenses, and describe other mitigating controls that can be deployed in editors, repositories, and build pipelines while compilers are upgraded to block this attack.\n \nAdditional details can be found in our related paper and at trojansource.codes.\n \nProofs-of-Concept\n \nThis repository is divided into per-language subdirectories. Each subdirectory contains a series of proofs-of-concept implementing various Trojan-Source attacks as well as a README describing the compilers/interpreters with which these attacks were verified.\n \nAttack Detection\n \nInterested in analyzing source code files for the presence of Trojan Source attacks? Check out this repo, which visualizes bidirectional overrides.",
+          "link": "https://github.com/nickboucher/trojan-source",
+          "publishedOn": "2021-11-05T00:52:29.754Z",
+          "wordCount": 729,
+          "title": "nickboucher/trojan-source"
+        },
+        {
+          "id": "https://github.com/fireship-io/node-crypto-examples",
+          "author": null,
+          "description": "7 Useful Examples of Cryptography in Node.js\n\nNode Crypto Examples\n \n7 useful examples of the node crypto module.\n \n \n \nWatch 7 Cryptography Concepts on YouTube\n \n \nFull Node Crypto Tutorial on Fireship\n \n \nConcepts\n \n \n \nHash\n \n \nSalt\n \n \nHMAC\n \n \nSymmetric Encryption\n \n \nKeypairs\n \n \nAsymmetric Encryption\n \n \nSigning\n \n \nChallenge\n \nCheck out the src/hack.js file for a challenge. First person to send a pull request with the correct answer wins a T-shirt!",
+          "link": "https://github.com/fireship-io/node-crypto-examples",
+          "publishedOn": "2021-11-05T00:52:29.681Z",
+          "wordCount": 427,
+          "title": "fireship-io/node-crypto-examples"
+        },
         {
           "id": "https://github.com/d2l-ai/d2l-zh",
           "author": null,
@@ -3327,51 +3462,6 @@
           "publishedOn": "2021-10-07T00:55:18.177Z",
           "wordCount": 1917,
           "title": "PlummersSoftwareLLC/NightDriverStrip"
-        },
-        {
-          "id": "https://github.com/ocornut/imgui",
-          "author": null,
-          "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies\n\nDear ImGui\n \n \n \n(This library is available under a free and permissive license, but needs financial support to sustain its continued improvements. In addition to maintenance and stability there are many desirable features yet to be added. If your company is using Dear ImGui, please consider reaching out.)\n \nBusinesses: support continued development and maintenance via invoiced technical support, maintenance, sponsoring contracts: \n  E-mail: contact @ dearimgui dot com\n \nIndividuals: support continued development and maintenance here.\n \nAlso see Sponsors page.\n \n \nDear ImGui is a bloat-free graphical user interface library for C++. It outputs optimized vertex buffers that you can render anytime in your 3D-pi…",
-          "link": "https://github.com/ocornut/imgui",
-          "publishedOn": "2021-10-06T00:55:11.117Z",
-          "wordCount": 2779,
-          "title": "ocornut/imgui"
-        },
-        {
-          "id": "https://github.com/Siterizer/new-world-fishing-bot",
-          "author": null,
-          "description": "user friendly python script who is able to catch fish in the game New World\n\nnew-world-fishing-bot release 1.1.1\n \n click img for demonstration\n \nDownload guide\n \n \n \nClick at latest release:\n \n \n \nDownload and extract bot.zip:\n \n \n \nWhen you run file bot.exe following user interface should appear:\n \n \n \nGame settings\n \n \n \n Resolution 1920x1080 low details:\n \n  \n \n Standard key bindings, except of 'CAMERA' -> 'FREE LOOK' key binding, it must be 'B'!\n \n  \n \n Visuals as follow:\n \n  \n \n Remember to set you windows Scale to 100%:\n \n  \n \nUsage guide\n \n \n \nBefore you start fishing you need to indicate correct fishing positions\n The left ('Fishing') panel inputs are the pointing area where fishing icons are going to appear\n The best way to configure it is to open the game, stand over the fishing…",
-          "link": "https://github.com/Siterizer/new-world-fishing-bot",
-          "publishedOn": "2021-10-06T00:55:11.008Z",
-          "wordCount": 984,
-          "title": "Siterizer/new-world-fishing-bot"
-        },
-        {
-          "id": "https://github.com/ShameCom/ShameCom",
-          "author": null,
-          "description": "收集校招污点公司或组织，帮助学弟学妹避雷。互联网不曾遗忘！\n\n校招污点公司记录\n \n本账号及仓库专用于记录在校园招聘中的具有污点行为的公司。\n \n污点行为包括但不限于：毁意向书、毁两方协定、毁三方协定、试用期裁员、大量裁应届生。\n \n污点行为不包括：毁OC（除非大量）、试用期结束未通过（除非大批量蓄意）。\n \n本人是2021届应届毕业生，参加了2021届的秋招，看到了好多往年公司毁约却在第二年依旧简历爆满的情况。本仓库的设立旨在帮助正在进行校招或者即将参加校招的同学们提供一个参考以避雷，并不是说这些公司就再也不能投了，但是具有污点的公司仍然要被钉在校招的耻辱柱上，让他们知道所谓的弱势群体也不是一盘散沙。\n \n本仓库的主要信息来自于牛客等公开论坛（很多帖子都会被当场公关，但是互联网不会忘记，对于被删除的帖子，我会尽量提供快照），欢迎大家积极补充参与。\n \n \n  \n  \n \n   公司 \n   时间 \n   事件 \n   外链 \n   长截图 \n  \n \n  \n  \n  \n \n   竞技世界 \n   2021/03/25 \n   提前实习毁校招正式offer \n   拿到校招正式offer，提前实习后却不给转正，怎么回事？ \n   拿到校招正式offer，提前实习后却不给转正，怎么回事？.png \n  \n \n  \n \n   虎牙 \n   2021/03/02 \n   毁意向书 \n   虎牙毁意向书，给各位找实习的师弟师妹提个醒 \n   虎牙毁意向书，给各位找实习的师弟师妹提个醒.png \n  \n \n  \n \n   高顿教育 \n   2021/01/26 \n   毁约 \n   高顿教育，最让我担心的事情还是让我摊上了 \n   高顿教育，最让我担心的事情还是让我摊上了 \n  \n \n  \n \n   多益网络 \n   2020/12/02 \n   寄三方或体检后被毁约 \n   本人寄…",
-          "link": "https://github.com/ShameCom/ShameCom",
-          "publishedOn": "2021-10-06T00:55:10.956Z",
-          "wordCount": 689,
-          "title": "ShameCom/ShameCom"
-        },
-        {
-          "id": "https://github.com/mmazzarolo/react-native-universal-monorepo",
-          "author": null,
-          "description": "React Native boilerplate supporting multiple platforms: Android, iOS, macOS, Windows, web, browser extensions, Electron.\n\nReact Native Universal Monorepo\n \nAn opinonated approach to supporting multiple platforms with React Native using a Yarn Workspaces monorepo.\n \nCheck out Running React Native everywhere for an in-depth guide on how and why I recommend trying out this approach if you're planning to support multiple platforms in your app.\n \n \n \nOverview\n \n \nYarn Workspaces monorepo setup\n \n \nAndroid & iOS\n \n \nWindows & macOS\n \n \nThe Web\n \n \nBrowser Extensions & Electron\n \n \n \n \n  \n \nOverview\n \nThis monorepo uses Yarn workspaces and TypeScript to support a modular React Native project.\n \nThe core idea is to isolate the JavaScript app code from the platform configurations (native code + the…",
-          "link": "https://github.com/mmazzarolo/react-native-universal-monorepo",
-          "publishedOn": "2021-10-06T00:55:10.900Z",
-          "wordCount": 1392,
-          "title": "mmazzarolo/react-native-universal-monorepo"
-        },
-        {
-          "id": "https://github.com/sebastianstarke/AI4Animation",
-          "author": null,
-          "description": "Bringing Characters to Life with Computer Brains in Unity\n\nAI4Animation: Deep Learning for Character Control\n \nThis project explores the opportunities of deep learning for character animation and control as part of my Ph.D. research at the University of Edinburgh in the School of Informatics, supervised by Taku Komura. Over the last couple years, this project has become a comprehensive framework for data-driven character animation, including data processing, network training and runtime control, developed in Unity3D / Tensorflow / PyTorch. This repository demonstrates using neural networks for animating biped locomotion, quadruped locomotion, and character-scene interactions with objects and the environment, plus sports and fighting games. Further advances on this research will continue be…",
-          "link": "https://github.com/sebastianstarke/AI4Animation",
-          "publishedOn": "2021-10-06T00:55:10.862Z",
-          "wordCount": 1462,
-          "title": "sebastianstarke/AI4Animation"
         }
       ]
     }
