@@ -2,10 +2,565 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-11-05T00:52:30.282Z</updated>
+    <updated>2021-11-06T00:51:09.868Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Azure-Samples/container-apps-store-api-microservice]]></title>
+        <id>https://github.com/Azure-Samples/container-apps-store-api-microservice</id>
+        <link href="https://github.com/Azure-Samples/container-apps-store-api-microservice"/>
+        <updated>2021-11-06T00:51:09.834Z</updated>
+        <summary type="html"><![CDATA[Sample microservices solution using Azure Container Apps, Dapr, Cosmos DB, and Azure API Management
+
+Container App Store Microservice Sample
+ 
+This is a sample microservice solution for Azure Container Apps. It will create a store microservice which will need to call into an order service and an inventory service. Dapr is used to secure communication and calls between services, and Azure API Management and Azure Cosmos DB are created alongside the microservices.
+ 
+The entire solution is configured with GitHub Actions and Bicep for CI/CD.
+ 
+IMPORTANT: In general, each microservice should have an independent release and deployment. For the sake of this sample we are building and deploying as part of a single repo.
+ 
+ 
+ 
+Deploy
+ 
+ 
+Solution Overview
+ 
+ 
+Build and run
+ 
+ 
+ 
+Demo
+ 
+
+ 
+ 
+Github …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shopify/toxiproxy]]></title>
+        <id>https://github.com/Shopify/toxiproxy</id>
+        <link href="https://github.com/Shopify/toxiproxy"/>
+        <updated>2021-11-06T00:51:09.779Z</updated>
+        <summary type="html"><![CDATA[⏰ 🔥 A TCP proxy to simulate network and system conditions for chaos and resiliency testing
+
+Toxiproxy
+ 
+ 
+ 
+
+ 
+Toxiproxy is a framework for simulating network conditions. It's made specifically to work in testing, CI and development environments, supporting deterministic tampering with connections, but with support for randomized chaos and customization. Toxiproxy is the tool you need to prove with tests that your application doesn't have single points of failure. We've been successfully using it in all development and test environments at Shopify since October, 2014. See our blog post on resiliency for more information.
+ 
+Toxiproxy usage consists of two parts. A TCP proxy written in Go (what this repository contains) and a client communicating with the proxy over HTTP. You configure your…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cosmos/cosmos-sdk]]></title>
+        <id>https://github.com/cosmos/cosmos-sdk</id>
+        <link href="https://github.com/cosmos/cosmos-sdk"/>
+        <updated>2021-11-06T00:51:09.700Z</updated>
+        <summary type="html"><![CDATA[⛓️ A Framework for Building High Value Public Blockchains ✨
+
+ 
+ 
+ Cosmos SDK 
+ 
+ 
+
+ 
+ 
+    
+    
+    
+    
+    
+ 
+ 
+    
+    
+    
+  
+  
+ 
+The Cosmos SDK is a framework for building blockchain applications. Tendermint Core (BFT Consensus) and the Cosmos SDK are written in the Golang programming language. Cosmos SDK is used to build Gaia, the first implementation of the Cosmos Hub.
+ 
+WARNING: The Cosmos SDK has mostly stabilized, but we are still making some breaking changes.
+ 
+Note: Requires Go 1.17+
+ 
+Quick Start
+ 
+To learn how the Cosmos SDK works from a high-level perspective, see the Cosmos SDK High-Level Intro.
+ 
+If you want to get started quickly and learn how to build on top of Cosmos SDK, visit Cosmos SDK Tutorials. You can also fork the tutorial's repository to get started buildin…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[h5bp/Front-end-Developer-Interview-Questions]]></title>
+        <id>https://github.com/h5bp/Front-end-Developer-Interview-Questions</id>
+        <link href="https://github.com/h5bp/Front-end-Developer-Interview-Questions"/>
+        <updated>2021-11-06T00:51:09.640Z</updated>
+        <summary type="html"><![CDATA[A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.
+
+Front-end Developer Interview Questions
+ 
+This repository contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
+ 
+Note: Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
+ 
+You can read more about this project & its history here.
+ 
+Table of Contents
+ 
+ 
+ 
+General Questions
+ 
+ 
+HTML Questions…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MangoDB-io/MangoDB]]></title>
+        <id>https://github.com/MangoDB-io/MangoDB</id>
+        <link href="https://github.com/MangoDB-io/MangoDB"/>
+        <updated>2021-11-06T00:51:09.574Z</updated>
+        <summary type="html"><![CDATA[A truly Open Source MongoDB alternative
+
+MangoDB
+ 
+MangoDB is set out to become the de-facto open-source alternative to MongoDB. MangoDB is an open-source proxy, which converts MongoDB wire protocol queries to SQL, and uses PostgreSQL as a database engine.
+ 
+Why do we need MangoDB?
+ 
+MongoDB is a life-changing technology for many developers, empowering them to build applications faster than using relational databases. Its easy-to-use and well-documented drivers make MongoDB one of the easiest to use database solutions available. However, MongoDB abandoned its open-source roots, changing the license to SSPL - making it unusable for many open source and commercial projects.
+ 
+Most MongoDB users are not in need of many of the advanced features offered by MongoDB; however, they are in need of …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[motor-admin/motor-admin]]></title>
+        <id>https://github.com/motor-admin/motor-admin</id>
+        <link href="https://github.com/motor-admin/motor-admin"/>
+        <updated>2021-11-06T00:51:09.532Z</updated>
+        <summary type="html"><![CDATA[Deploy a no-code admin panel for your application in less than a minute. Search, create, update, and delete data entries, create custom actions, and build reports.
+
+  
+Motor Admin
+ 
+🤓 Live Demo | 👀 Features overview | 💬 Discord | ⭐ Pro
+ 
+
+ 
+ 
+Motor Admin is a self-hosted, open-source, no-code Admin Panel and Business Intelligence software.
+ 
+Search, create, update, and delete data entries using a convenient UI. Create complex custom actions like sending an automated email to your customers via API integration. Build custom reports with SQL and visualize the results with charts. Combine individual reports into a single dashboard and share it with your team.
+ 
+Deployment
+ 
+Heroku
+ 
+
+ 
+Ubuntu
+ 
+curl -o motor-admin -L https://github.com/motor-admin/motor-admin/releases/download/latest/motor…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[deepmind/alphafold]]></title>
+        <id>https://github.com/deepmind/alphafold</id>
+        <link href="https://github.com/deepmind/alphafold"/>
+        <updated>2021-11-06T00:51:09.452Z</updated>
+        <summary type="html"><![CDATA[Open source code for AlphaFold.
+
+
+ 
+AlphaFold
+ 
+This package provides an implementation of the inference pipeline of AlphaFold v2.0. This is a completely new model that was entered in CASP14 and published in Nature. For simplicity, we refer to this model as AlphaFold throughout the rest of this document.
+ 
+We also provide an implementation of AlphaFold-Multimer. This represents a work in progress and AlphaFold-Multimer isn't expected to be as stable as our monomer AlphaFold system. Read the guide for how to upgrade and update code.
+ 
+Any publication that discloses findings arising from using this source code or the model parameters should cite the AlphaFold paper and, if applicable, the AlphaFold-Multimer paper.
+ 
+Please also refer to the Supplementary Information for a detailed descriptio…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[naganandy/graph-based-deep-learning-literature]]></title>
+        <id>https://github.com/naganandy/graph-based-deep-learning-literature</id>
+        <link href="https://github.com/naganandy/graph-based-deep-learning-literature"/>
+        <updated>2021-11-06T00:51:09.381Z</updated>
+        <summary type="html"><![CDATA[links to conference publications in graph-based deep learning
+
+Graph-based Deep Learning Literature
+ 
+The repository contains links primarily to conference publications in graph-based deep learning. The repository contains links also to
+ 
+ 
+ 
+Related Workshops
+ 
+ 
+Surveys / Literature Reviews / Books
+ 
+ 
+Software/Libraries.
+ 
+ 
+The links to conference publications are arranged in the reverse chronological order of conference dates from the conferences below (and also arranged year-wise for each conference).
+ 
+ 
+ 
+ Machine Learning Conferences
+ 
+  
+ 
+   
+ NeurIPS - 2021 | 2020 | 2019 | 2018 | 2017 | 2016 | 2015
+  
+   
+ ICML - 2021 | 2020 | 2019 | 2018 | 2017 | 2016
+  
+   
+ ICLR - 2022 (S) | 2021 | 2020 | 2019 | 2018 | 2017 | 2016 | 2014
+  
+  
+  
+ 
+
+ 
+ 
+ 
+ 
+ Computer Vision Conferences
+ 
+  
+…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CesiumGS/cesium]]></title>
+        <id>https://github.com/CesiumGS/cesium</id>
+        <link href="https://github.com/CesiumGS/cesium"/>
+        <updated>2021-11-06T00:51:09.335Z</updated>
+        <summary type="html"><![CDATA[An open-source JavaScript library for world-class 3D globes and maps 🌎
+
+  
+ 
+  
+ 
+CesiumJS is a JavaScript library for creating 3D globes and 2D maps in a web browser without a plugin. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization.
+ 
+CesiumJS Homepage
+ 
+CesiumJS Features Checklist
+ 
+🚀 Get Started
+ 
+Visit the Downloads page or install the npm package:
+ 
+npm install cesium
+
+ 
+Have questions? Ask them on the community forum.
+ 
+Interested in contributing? See CONTRIBUTING.md. ❤️
+ 
+❄ Mission
+ 
+Our mission is to create the leading 3D globe and map for static and time-dynamic content, with the best possible performance, precision, visual quality, platform support, community, and ease of use.
+ 
+📗 License
+ 
+Apache 2.0. CesiumJS is free for both commercial and non-commercial use.
+ 
+🌎 Where Does the 3D Content Come From?
+ 
+CesiumJS can stream 3D content such as terrain, imagery, and 3D Tiles from the commercial Cesium ion platform and other content sources. You are free to use any combination of content sources with CesiumJS that you please. Using Cesium ion helps support CesiumJS development. ❤️
+ 
+👏 Featured Demos
+ 
+                                   
+  
+ 
+See all demos]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[kenp-io/not-for-iphone-usb-c]]></title>
+        <id>https://github.com/kenp-io/not-for-iphone-usb-c</id>
+        <link href="https://github.com/kenp-io/not-for-iphone-usb-c"/>
+        <updated>2021-11-06T00:51:09.270Z</updated>
+        <summary type="html"><![CDATA[The Not-for-iPhone USB-C Mod
+ 
+The content of this repository is licensed under the WTFPL License. Please have a close look at the terms before using this material.
+ 
+Nothing in this repository is part of Apple's Intellectual Property. Any resemblance to actual products or registered trademarks is entirely coincidental.
+ 
+Want to contribute to the project? Make a pull request!
+ 
+Please don't hesitate to star the repo if you want to be updated on this project :)]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Drunkmars/BypassUAC]]></title>
+        <id>https://github.com/Drunkmars/BypassUAC</id>
+        <link href="https://github.com/Drunkmars/BypassUAC"/>
+        <updated>2021-11-06T00:51:09.200Z</updated>
+        <summary type="html"><![CDATA[By write list bypassuac
+
+README
+ 
+本程序基于白名单bypassuac，使用cs的免杀马即可直接上线并获得uac权限
+ 
+使用格式：bypassuac.exe <绝对路径>
+ 
+
+ 
+演示效果如下
+ 
+
+ 
+whoami /priv如下
+ 
+
+ 
+hashdump抓取密码如下
+ 
+
+ 
+免杀效果
+ 
+windows defender测试通过
+ 
+
+ 
+360安全卫士测试通过]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sgoulas/pdpProject]]></title>
+        <id>https://github.com/sgoulas/pdpProject</id>
+        <link href="https://github.com/sgoulas/pdpProject"/>
+        <updated>2021-11-06T00:51:09.159Z</updated>
+        <summary type="html"><![CDATA[A project that is part of my personal development plan at Agile Actors.
+
+pdpProject
+ 
+
+ 
+click the image above to see the demo
+ 
+This project is part of my personal development plan at Agile Actors. My aim is to use technologies and practices that I am not familiar with in order to build an e-commerce site and futher develop my professional skills.
+ 
+One of the major aims of this project is to set up the toolchain from the scratch, in order to familiarise myself with the whole process of creating an application, rather than writing code on top of a pre-configured development environment.
+ 
+Stack
+ 
+ 
+ 
+React
+ 
+ 
+Material-UI
+ 
+ 
+Redux, redux-saga, redux toolkit
+ 
+ 
+Webpack 5
+ 
+ 
+Babel
+ 
+ 
+Typescript
+ 
+ 
+Next 11
+ 
+ 
+Apollo
+ 
+ 
+GraphQL
+ 
+ 
+Jest and React Testing Library
+ 
+ 
+Points of interest
+ 
+ 
+ 
+Project and toolchain set up from zero, no forks of premade projects, no create react app.
+ 
+ 
+Mobile first design
+ 
+ 
+Apollo server introspection script for generating server schema on the front end
+ 
+ 
+Github pipeline
+ 
+ 
+DUCKS folder structure
+ 
+ 
+Husky pre-commit hooks
+ 
+ 
+SEO, OpenGraph protocol implementation and structure data mark up
+ 
+ 
+Mark up validated by W3C mark up validator
+ 
+ 
+Accessibility validated by WAVE validator
+ 
+ 
+ADR folder detailing architectural decisions
+ 
+ 
+Detailed development diary with daily entries for each development day, the problems I encountered, the driving factors behind my decisions and my thoughts during each step of the way
+ 
+ 
+How to deploy locally
+ 
+ 
+ 
+Clone this repository
+ 
+ 
+Install the dependencies by running yarn
+ 
+ 
+In two separate terminal instances run yarn startServer to start the mock back end server and yarn dev to start the front end client.
+ 
+ 
+The front end should be deployed at http://localhost:3000/ and the back end at http://localhost:4000/ (check the terminals to make sure these are the ports)]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[foxsen/archbase]]></title>
+        <id>https://github.com/foxsen/archbase</id>
+        <link href="https://github.com/foxsen/archbase"/>
+        <updated>2021-11-06T00:51:09.109Z</updated>
+        <summary type="html"><![CDATA[教科书《计算机体系结构基础》（胡伟武等，第三版）的开源版本
+
+计算机体系结构基础
+ 
+这是龙芯团队胡伟武老师等人编写的《计算机体系结构基础》（第三版）的开源版本。本书纸质版本由机械工业出版社发行，前两版可以通过各种常规渠道购买，第三版纸质版本也即将发行。
+ 
+内容提要
+ 
+本书由从事微处理器设计的一线科研人员编写而成。作者从微处理器设计的角度出发，充分考虑计算机体系结构的学科完整性，强调体系结构、基础软件、电路和器件的融会贯通。全书共分12章，包括指令系统结构、计算机硬件结构、CPU微结构、并行处理结构、计算机性能分析等主要内容，重点放在作为软硬件界面的指令系统结构，以及包含CPU、GPU、南北桥协同的计算机硬件结构。本书可作为高等学校“计算机体系结构”课程的本科生教材，同时也适合相关专业研究生或计算机技术人员参考阅读。
+ 
+关于本书内容更多的介绍可以参考推荐序、自序、第三版序和前言等相关章节。
+ 
+关于本书的开源维护
+ 
+在第三版的改版过程中，作者们引入了一个创新尝试，试图将本书打造为一本活的教科书。具体来说，我们采用以文本为基础的rmarkdown格式编辑书本内容（采用bookdown工具包），用git对其进行版本管理，并在互联网进行开源维护。在相应的网站上，还会提供出版社提供的与纸质版本一致的电子版本，以及相关的参考课件PPT和其他补充资源。我们认为这么做有几个好处：
+ 
+ 
+ 
+文字、图片和参考课件等素材的开放更方便教学使用。通过开源本书，我们期望能够它得到更广泛的采用，得到更多的批评指正意见，使得它能够更快成熟。
+ 
+ 
+方便的版本管理系统有助于及时吸收对本书的勘误和改进。一方面，读者可以通过项目的问题管理系统或者其他渠道反馈问题，被接纳后会立即反映到在线的版本中，不必等待下一次改版印刷周期。另一方面，作者们也可以将之前对由于时间仓促未来得及完善的内容进行补充完善…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sberbank-ai/ru-dalle]]></title>
+        <id>https://github.com/sberbank-ai/ru-dalle</id>
+        <link href="https://github.com/sberbank-ai/ru-dalle"/>
+        <updated>2021-11-06T00:51:09.053Z</updated>
+        <summary type="html"><![CDATA[Generate images from texts. In Russian
+
+ruDALL-E
+ 
+Generate images from texts
+ 
+   
+ 
+pip install rudalle==0.0.1rc4
+
+ 
+🤗 HF Models:
+ 
+ruDALL-E Malevich (XL)
+ 
+Minimal Example:
+ 
+  
+ 
+English translation example 
+ 
+generation by ruDALLE:
+ 
+from rudalle.pipelines import generate_images, show, super_resolution, cherry_pick_by_clip
+from rudalle import get_rudalle_model, get_tokenizer, get_vae, get_realesrgan, get_ruclip
+from rudalle.utils import seed_everything
+
+# prepare models
+device = 'cuda'
+dalle = get_rudalle_model('Malevich', pretrained=True, fp16=True, device=device)
+realesrgan = get_realesrgan('x4', device=device)
+tokenizer = get_tokenizer()
+vae = get_vae().to(device)
+ruclip, ruclip_processor = get_ruclip('ruclip-vit-base-patch32-v5')
+ruclip = ruclip.to(device)
+
+text = 'изображение ра…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Key takeaways from KubeCon: deeper focus on FinOps, GitOps]]></title>
+        <id>https://www.cncf.io/?p=65479</id>
+        <link href="https://www.cncf.io/blog/2021/11/05/key-takeaways-from-kubecon-deeper-focus-on-finops-gitops/"/>
+        <updated>2021-11-05T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on the GlobalData blog by Charlotte Dunlap, Principal Analyst, Cloud and DevOps Services, GlobalData Technology Summary Bullets: The Open Source Security Foundation (OpenSSF), a new group focused on...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[home-assistant/core]]></title>
         <id>https://github.com/home-assistant/core</id>
@@ -18035,567 +18590,6 @@ Read CONTRIBUTING.md]]></summary>
         <link href="https://www.cncf.io/blog/2021/10/07/server-side-reconciliation-is-coming/"/>
         <updated>2021-10-07T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[Guest post originally published on Flux’ blog by Daniel Holbach tl;dr: Server-side reconciliation will make Flux more performant, improve overall observability and going forward will allow us to add new capabilities, like...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[aws/aws-cdk]]></title>
-        <id>https://github.com/aws/aws-cdk</id>
-        <link href="https://github.com/aws/aws-cdk"/>
-        <updated>2021-10-07T00:55:18.984Z</updated>
-        <summary type="html"><![CDATA[The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code
-
-AWS Cloud Development Kit (AWS CDK)
- 
-       
- 
-The AWS Cloud Development Kit (AWS CDK) is an open-source software development framework to define cloud infrastructure in code and provision it through AWS CloudFormation.
- 
-It offers a high-level object-oriented abstraction to define AWS resources imperatively using the power of modern programming languages. Using the CDK’s library of infrastructure constructs, you can easily encapsulate AWS best practices in your infrastructure definition and share it without worrying about boilerplate logic.
- 
-The CDK is available in the following languages:
- 
- 
- 
-JavaScript, TypeScript (Node.js ≥ 10.13.0) 
-  
- 
-   
-We recommend using a version in Active LTS
- 
-   
-⚠️ v…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ebazhanov/linkedin-skill-assessments-quizzes]]></title>
-        <id>https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes</id>
-        <link href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes"/>
-        <updated>2021-10-07T00:55:18.935Z</updated>
-        <summary type="html"><![CDATA[Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, css, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test
-
-Linkedin Quiz Answers, Skill Assessments Test
- 
- 
-
- 
- 
- 
- 
-This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use online grammar checker when you contribute!
- 
- 
-PLEASE
- 
-add explanation (or reference link) to your answers. That will help anyone to better learn co…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Harsha200105/DesktopAssitant]]></title>
-        <id>https://github.com/Harsha200105/DesktopAssitant</id>
-        <link href="https://github.com/Harsha200105/DesktopAssitant"/>
-        <updated>2021-10-07T00:55:18.796Z</updated>
-        <summary type="html"><![CDATA[A Virtual Desktop Assistant Written in Python
-
-DesktopAssitant
- 
-A Virtual Desktop Assistant Written in Python. 
- It's generally a basic virtual assistant  
- The basic purpose of this is to make work easier as it re-directs you to various main sites and performs various important functions for your PC as well just install it for your system and run it in your code editor or IDE. I will be soon updating it as an application for MacOS, Linux and Windows. Until then you can follow the Contributing Guidelines and Contribute into this Desktop Assistant.
- 
-Contributing Guidelines :
- 
- 
- 
-We are Open for Pull Requests
- 
- 
-Please contribute and add value to the code
- 
- 
-If you have some ideas for new features and you don't have time to implement them please open an issue with the tag new_feature.
- 
- 
-Please don't forget to comment (document) your code!
- 
- 
-Also If you feel like developing or working out on the Documentation section of this repository make sure to raise an issue regarding and i'll assign you that!
- 
- 
-Before creating a Pull Request please go through the above guidelines and the code!]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[fchollet/deep-learning-with-python-notebooks]]></title>
-        <id>https://github.com/fchollet/deep-learning-with-python-notebooks</id>
-        <link href="https://github.com/fchollet/deep-learning-with-python-notebooks"/>
-        <updated>2021-10-07T00:55:18.736Z</updated>
-        <summary type="html"><![CDATA[Jupyter notebooks for the code samples of the book "Deep Learning with Python"
-
-Companion Jupyter notebooks for the book "Deep Learning with Python"
- 
-This repository contains Jupyter notebooks implementing the code samples found in the book Deep Learning with Python, 2nd Edition (Manning Publications).
- 
-For readability, these notebooks only contain runnable code blocks and section titles, and omit everything else in the book: text paragraphs, figures, and pseudocode. If you want to be able to follow what's going on, I recommend reading the notebooks side by side with your copy of the book.
- 
-These notebooks use TensorFlow 2.6.
- 
-Table of contents
- 
- 
- 
-Chapter 2: The mathematical building blocks of neural networks
- 
- 
-Chapter 3: Introduction to Keras and TensorFlow
- 
- 
-Chapter 4: Getting started with neural networks: classification and regression
- 
- 
-Chapter 5: Fundamentals of machine learning
- 
- 
-Chapter 7: Working with Keras: a deep dive
- 
- 
-Chapter 8: Introduction to deep learning for computer vision
- 
- 
-Chapter 9: Advanced deep learning for computer vision 
-  
- 
-   
-Part 1: Image segmentation
- 
-   
-Part 2: Modern convnet architecture patterns
- 
-   
-Part 3: Interpreting what convnets learn
- 
-  
-  
- 
-Chapter 10: Deep learning for timeseries
- 
- 
-Chapter 11: Deep learning for text 
-  
- 
-   
-Part 1: Introduction
- 
-   
-Part 2: Sequence models
- 
-   
-Part 3: Transformer
- 
-   
-Part 4: Sequence-to-sequence learning
- 
-  
-  
- 
-Chapter 12: Generative deep learning 
-  
- 
-   
-Part 1: Text generation
- 
-   
-Part 2: Deep Dream
- 
-   
-Part 3: Neural style transfer
- 
-   
-Part 4: Variational autoencoders
- 
-   
-Part 5: Generative adversarial networks
- 
-  
-  
- 
-Chapter 13: Best practices for the real world
- 
- 
-Chapter 14: Conclusions]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[mentebinaria/retoolkit]]></title>
-        <id>https://github.com/mentebinaria/retoolkit</id>
-        <link href="https://github.com/mentebinaria/retoolkit"/>
-        <updated>2021-10-07T00:55:18.699Z</updated>
-        <summary type="html"><![CDATA[Reverse Engineer's Toolkit
-
-English | 中文简体 | Français
- 
-Reverse Engineer's Toolkit
- 
-What?
- 
-This is a collection of tools you may like if you are interested on reverse engineering and/or malware analysis on x86 and x64 Windows systems. After installing this program, you'll have to ways to access the tools:
- 
- 
- 
-Double-click the retoolkit icon in the Desktop.
- 
- 
-Right-click on a file, choose Send to -> retoolkit. This way the selected file is passed as argument to the desired program.
- 
- 
-
- 
-Why do I need it?
- 
-You don't. Obviously, you can download such tools from their own website and install them by yourself in a new VM. But if you download retoolkit, it can probably save you some time. Additionally, the tools come pre-configured so you'll find things like x64dbg with a few plugins, c…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[awesome-selfhosted/awesome-selfhosted]]></title>
-        <id>https://github.com/awesome-selfhosted/awesome-selfhosted</id>
-        <link href="https://github.com/awesome-selfhosted/awesome-selfhosted"/>
-        <updated>2021-10-07T00:55:18.666Z</updated>
-        <summary type="html"><![CDATA[A list of Free Software network services and web applications which can be hosted on your own servers
-
-Awesome-Selfhosted
- 
- 
- 
-Self-hosting is the practice of locally hosting and managing applications instead of renting from SaaSS providers.
- 
-This is a list of Free Software network services and web applications which can be hosted locally. Non-Free software is listed on the Non-Free page.
- 
-See Contributing.
- 
- 
-Table of contents
- 
-Click on the menu icon next to README.md for a list of sections
- 
- 
-Software
- 
- 
-Analytics
- 
-^ back to top ^
- 
-Please visit Awesome Analytics
- 
-Related: Personal Dashboards
- 
-Archiving and Digital Preservation (DP)
- 
-^ back to top ^
- 
-Related: Content Management Systems (CMS)
- 
- 
- 
-Access to Memory (AtoM) - Web-based, open source application for standards-base…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[microsoft/Git-Credential-Manager-Core]]></title>
-        <id>https://github.com/microsoft/Git-Credential-Manager-Core</id>
-        <link href="https://github.com/microsoft/Git-Credential-Manager-Core"/>
-        <updated>2021-10-07T00:55:18.485Z</updated>
-        <summary type="html"><![CDATA[Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.
-
-Git Credential Manager Core
- 
-
- 
- 
-Git Credential Manager Core (GCM Core) is a secure Git credential helper built on .NET that runs on Windows, macOS, and Linux.
- 
-Compared to Git's built-in credential helpers (Windows: wincred, macOS: osxkeychain, Linux: gnome-keyring/libsecret) which provides single-factor authentication support working on any HTTP-enabled Git repository, GCM Core provides multi-factor authentication support for Azure DevOps, Azure DevOps Server (formerly Team Foundation Server), GitHub, and Bitbucket.
- 
-Git Credential Manager Core (GCM Core) replaces the .NET Framework-based Git Credential Manager for Windows (GCM), and the Java-based Git Cr…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ohmyzsh/ohmyzsh]]></title>
-        <id>https://github.com/ohmyzsh/ohmyzsh</id>
-        <link href="https://github.com/ohmyzsh/ohmyzsh"/>
-        <updated>2021-10-07T00:55:18.415Z</updated>
-        <summary type="html"><![CDATA[🙃 A delightful community-driven (with 1900+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, OSX, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
-
-
- 
-Oh My Zsh is an open source, community-driven framework for managing your zsh configuration.
- 
-Sounds boring. Let's try again.
- 
-Oh My Zsh will not make you a 10x developer...but you may feel like one.
- 
-Once installed, your terminal shell will become the talk of the town or your money back! With each keystroke in your command prompt, you'll take advantage of the hundreds of powerful plugins and beautiful themes. Strangers will come up to you in café…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[trufflesuite/truffle]]></title>
-        <id>https://github.com/trufflesuite/truffle</id>
-        <link href="https://github.com/trufflesuite/truffle"/>
-        <updated>2021-10-07T00:55:18.356Z</updated>
-        <summary type="html"><![CDATA[A tool for developing smart contracts. Crafted with the finest cacaos.
- 
-   
- 
- 
-Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier. With Truffle, you get:
- 
- 
- 
-Built-in smart contract compilation, linking, deployment and binary management.
- 
- 
-Automated contract testing with Mocha and Chai.
- 
- 
-Configurable build pipeline with support for custom build processes.
- 
- 
-Scriptable deployment & migrations framework.
- 
- 
-Network management for deploying to many public & private networks.
- 
- 
-Interactive console for direct contract communication.
- 
- 
-Instant rebuilding of assets during development.
- 
- 
-External script runner that executes scripts within a Truffle environment.
- 
- 
- 
-  
-  
- 
-   ℹ️ Contributo…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[abhpd/hacktoberfest2021]]></title>
-        <id>https://github.com/abhpd/hacktoberfest2021</id>
-        <link href="https://github.com/abhpd/hacktoberfest2021"/>
-        <updated>2021-10-07T00:55:18.277Z</updated>
-        <summary type="html"><![CDATA[🌱 Contribute your favorite 📚 Data Structure implementation, 🕸 Algorithms, and 🎲 Projects. 😊 | Very Active Repository, Star and Share with your friends |
-
-✨ hacktoberfest2021 💫
- 
-
- 
-🌱 Contributing to hacktoberfest 2021
- 
-Welcome to hacktoberfest 2021 Public Repository. 👨🏻‍💻
- 
-A month-long celebration from October 1st - 31st sponsored by Digital Ocean and GitHub to get people involved in Open Source. Create your very first pull request to any public repository on GitHub and contribute to the open source developer community. 
-https://hacktoberfest.digitalocean.com/
- 
- 
-What can You contribute ⚠️
- 
- 
- 
-There are language Specific folders in the repository choose any you're comfortable with if not, make one.
- 
- 
-Inside the language folder there will be multiple topic folders like Data Structures, Algorithms, Problems and projects.
- 
- 
-Contribute any algorithm, data-structure implementation or your favourite problmes or projects.
- 
- 
-Make sure your follow the below steps.
- 
- 
- 
-Process are as follows :-
- 
- 
- 
-Login using github @ Hacktoberfest
- 
- 
-Create four valid pull requests (PRs) between 1st - 31st October
- 
- 
- 
-How to Contribute to this repository
- 
- 
- 
-Fork the repository (Click the Fork button in the top right of this page, click your Profile Image)
- 
- 
-Clone the forked repository to your local machine.
- 
- 
-git clone https://github.com/your-username/HacktoberFest2021.git
-
- 
- 
- 
-change the present working directory
- 
- 
-cd HacktoberFest2021
-
- 
- 
- 
-Add/Create your project to the specific folder as described in what you can contribute section.
- 
- 
-Make a new branch
- 
- 
-git checkout -b branch-name
-
- 
- 
- 
-Make change in the repository with the new branch.
- 
- 
-push the changes.
- 
- 
-git add .
-git commit -m "Your commit Message"
-git push origin branch-name
-
- 
- 
- 
-Make a pull request.
- 
- 
-Star the repository.
- 
- 
-NOTE
- 
- 
- 
-Make Sure you commit your changes in a new branch.
- 
- 
-Make Sure you Give proper name to your files describing the addition.
- 
- 
-Also Make Sure you comment your code whereever necessary.]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[kh4sh3i/ICS-Pentesting-Tools]]></title>
-        <id>https://github.com/kh4sh3i/ICS-Pentesting-Tools</id>
-        <link href="https://github.com/kh4sh3i/ICS-Pentesting-Tools"/>
-        <updated>2021-10-07T00:55:18.215Z</updated>
-        <summary type="html"><![CDATA[A curated list of tools related to Industrial Control System (ICS) security and Penetration Testing
-
-ICS Pentesting Tools
- 
-A curated list of tools related to Industrial Control System (ICS) security and Penetration Testing
- 
-Firmware
- 
- 
- 
-OWASP General Firmware Pointers - General pointers that will get you started in understanding embedded systems firmware images.
- 
- 
-Firmwalker - Script for extracting some useful things from embedded firmware images
- 
- 
-Firmware Mod Kit - Basic framework for doing firmware modifications
- 
- 
-Firmadyne - System for emulation and dynamic analysis of Linux-based firmware
- 
- 
-ICSREF - ICSREF is a modular framework that automates the reverse engineering process of CODESYS binaries compiled with the CODESYS v2 compiler.
- 
- 
-Thomas Roth - Embedded Serial Gatewa…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PlummersSoftwareLLC/NightDriverStrip]]></title>
-        <id>https://github.com/PlummersSoftwareLLC/NightDriverStrip</id>
-        <link href="https://github.com/PlummersSoftwareLLC/NightDriverStrip"/>
-        <updated>2021-10-07T00:55:18.177Z</updated>
-        <summary type="html"><![CDATA[NightDriver client for ESP32
-
-NightDriverStrip
- 
-
- 
- 
-Davepl, 9/19/2021
- 
- 
- 
-See Discussions for questions and comments.
- 
- 
-See source code and COPYING.txt for detailed technical and licensing information including versions.
- 
- 
-What NightDriverStrip is
- 
-NightDriverStrip is a source code package for building a flash program that you upload to the ESP32 microcontroller. It can drive up to 8 channels of WS2812B style LEDs connected to the chip pins and display fancy colors and patterns and designs on them. There are numerous effects built in that can be configured to be shown on the LED strip, including audio/music/beat-reactive effects for modules equipped with a microphone. It can also optionally receive color data for the LEDs in a simple LZ-compressed (or noncompressed) format over a …]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes Cluster API reaches production readiness with version 1.0]]></title>
-        <id>https://www.cncf.io/?p=64958</id>
-        <link href="https://www.cncf.io/blog/2021/10/06/kubernetes-cluster-api-reaches-production-readiness-with-version-1-0/"/>
-        <updated>2021-10-06T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today, we announce Cluster API v1.0 is production-ready and officially moving to v1beta1 APIs. To move from the maturity level of an alpha project Cluster API has demonstrated growing adoption, feature maturity,...]]></summary>
-        <author>
-            <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[micro-lc: a new open-source project for micro frontend orchestration]]></title>
-        <id>https://www.cncf.io/?p=64859</id>
-        <link href="https://www.cncf.io/blog/2021/10/06/micro-lc-the-new-open-source-project-for-micro-frontend-orchestration/"/>
-        <updated>2021-10-06T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Guest post originally published on Mia-Platform‘s blog by Mia-Platform Team What is micro frontend orchestration? And, what are the bene5fits of micro-lc? Read the article below to discover everything you need to...]]></summary>
         <author>
             <name>Jessie</name>
         </author>

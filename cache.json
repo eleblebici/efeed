@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=65479",
+          "author": "Jessie",
+          "description": "Guest post originally published on the GlobalData blog by Charlotte Dunlap, Principal Analyst, Cloud and DevOps Services, GlobalData Technology Summary Bullets: The Open Source Security Foundation (OpenSSF), a new group focused on...",
+          "link": "https://www.cncf.io/blog/2021/11/05/key-takeaways-from-kubecon-deeper-focus-on-finops-gitops/",
+          "publishedOn": "2021-11-05T15:00:00.000Z",
+          "wordCount": 1117,
+          "title": "Key takeaways from KubeCon: deeper focus on FinOps, GitOps"
+        },
+        {
           "id": "https://www.cncf.io/?p=65554",
           "author": "Jessie",
           "description": "Project guest post by the Emissary-ingress project maintainers Cloud Native Computing Foundation (CNCF) incubating project Emissary-ingress, an open source ingress controller and API gateway for Kubernetes, announces official support by major service...",
@@ -344,24 +353,6 @@
           "publishedOn": "2021-10-07T15:00:00.000Z",
           "wordCount": 1410,
           "title": "Flux: Server-side reconciliation is coming"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64958",
-          "author": "Jessie",
-          "description": "Today, we announce Cluster API v1.0 is production-ready and officially moving to v1beta1 APIs. To move from the maturity level of an alpha project Cluster API has demonstrated growing adoption, feature maturity,...",
-          "link": "https://www.cncf.io/blog/2021/10/06/kubernetes-cluster-api-reaches-production-readiness-with-version-1-0/",
-          "publishedOn": "2021-10-06T19:00:00.000Z",
-          "wordCount": 3433,
-          "title": "Kubernetes Cluster API reaches production readiness with version 1.0"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64859",
-          "author": "Jessie",
-          "description": "Guest post originally published on Mia-Platform‘s blog by Mia-Platform Team What is micro frontend orchestration? And, what are the bene5fits of micro-lc? Read the article below to discover everything you need to...",
-          "link": "https://www.cncf.io/blog/2021/10/06/micro-lc-the-new-open-source-project-for-micro-frontend-orchestration/",
-          "publishedOn": "2021-10-06T15:00:00.000Z",
-          "wordCount": 1025,
-          "title": "micro-lc: a new open-source project for micro frontend orchestration"
         }
       ]
     },
@@ -376,6 +367,132 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/Azure-Samples/container-apps-store-api-microservice",
+          "author": null,
+          "description": "Sample microservices solution using Azure Container Apps, Dapr, Cosmos DB, and Azure API Management\n\nContainer App Store Microservice Sample\n \nThis is a sample microservice solution for Azure Container Apps. It will create a store microservice which will need to call into an order service and an inventory service. Dapr is used to secure communication and calls between services, and Azure API Management and Azure Cosmos DB are created alongside the microservices.\n \nThe entire solution is configured with GitHub Actions and Bicep for CI/CD.\n \nIMPORTANT: In general, each microservice should have an independent release and deployment. For the sake of this sample we are building and deploying as part of a single repo.\n \n \n \nDeploy\n \n \nSolution Overview\n \n \nBuild and run\n \n \n \nDemo\n \n\n \n \nGithub …",
+          "link": "https://github.com/Azure-Samples/container-apps-store-api-microservice",
+          "publishedOn": "2021-11-06T00:51:09.834Z",
+          "wordCount": 1769,
+          "title": "Azure-Samples/container-apps-store-api-microservice"
+        },
+        {
+          "id": "https://github.com/Shopify/toxiproxy",
+          "author": null,
+          "description": "⏰ 🔥 A TCP proxy to simulate network and system conditions for chaos and resiliency testing\n\nToxiproxy\n \n \n \n\n \nToxiproxy is a framework for simulating network conditions. It's made specifically to work in testing, CI and development environments, supporting deterministic tampering with connections, but with support for randomized chaos and customization. Toxiproxy is the tool you need to prove with tests that your application doesn't have single points of failure. We've been successfully using it in all development and test environments at Shopify since October, 2014. See our blog post on resiliency for more information.\n \nToxiproxy usage consists of two parts. A TCP proxy written in Go (what this repository contains) and a client communicating with the proxy over HTTP. You configure your…",
+          "link": "https://github.com/Shopify/toxiproxy",
+          "publishedOn": "2021-11-06T00:51:09.779Z",
+          "wordCount": 3269,
+          "title": "Shopify/toxiproxy"
+        },
+        {
+          "id": "https://github.com/cosmos/cosmos-sdk",
+          "author": null,
+          "description": "⛓️ A Framework for Building High Value Public Blockchains ✨\n\n \n \n Cosmos SDK \n \n \n\n \n \n    \n    \n    \n    \n    \n \n \n    \n    \n    \n  \n  \n \nThe Cosmos SDK is a framework for building blockchain applications. Tendermint Core (BFT Consensus) and the Cosmos SDK are written in the Golang programming language. Cosmos SDK is used to build Gaia, the first implementation of the Cosmos Hub.\n \nWARNING: The Cosmos SDK has mostly stabilized, but we are still making some breaking changes.\n \nNote: Requires Go 1.17+\n \nQuick Start\n \nTo learn how the Cosmos SDK works from a high-level perspective, see the Cosmos SDK High-Level Intro.\n \nIf you want to get started quickly and learn how to build on top of Cosmos SDK, visit Cosmos SDK Tutorials. You can also fork the tutorial's repository to get started buildin…",
+          "link": "https://github.com/cosmos/cosmos-sdk",
+          "publishedOn": "2021-11-06T00:51:09.700Z",
+          "wordCount": 815,
+          "title": "cosmos/cosmos-sdk"
+        },
+        {
+          "id": "https://github.com/h5bp/Front-end-Developer-Interview-Questions",
+          "author": null,
+          "description": "A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.\n\nFront-end Developer Interview Questions\n \nThis repository contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.\n \nNote: Keep in mind that many of these questions are open-ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.\n \nYou can read more about this project & its history here.\n \nTable of Contents\n \n \n \nGeneral Questions\n \n \nHTML Questions…",
+          "link": "https://github.com/h5bp/Front-end-Developer-Interview-Questions",
+          "publishedOn": "2021-11-06T00:51:09.640Z",
+          "wordCount": 925,
+          "title": "h5bp/Front-end-Developer-Interview-Questions"
+        },
+        {
+          "id": "https://github.com/MangoDB-io/MangoDB",
+          "author": null,
+          "description": "A truly Open Source MongoDB alternative\n\nMangoDB\n \nMangoDB is set out to become the de-facto open-source alternative to MongoDB. MangoDB is an open-source proxy, which converts MongoDB wire protocol queries to SQL, and uses PostgreSQL as a database engine.\n \nWhy do we need MangoDB?\n \nMongoDB is a life-changing technology for many developers, empowering them to build applications faster than using relational databases. Its easy-to-use and well-documented drivers make MongoDB one of the easiest to use database solutions available. However, MongoDB abandoned its open-source roots, changing the license to SSPL - making it unusable for many open source and commercial projects.\n \nMost MongoDB users are not in need of many of the advanced features offered by MongoDB; however, they are in need of …",
+          "link": "https://github.com/MangoDB-io/MangoDB",
+          "publishedOn": "2021-11-06T00:51:09.574Z",
+          "wordCount": 884,
+          "title": "MangoDB-io/MangoDB"
+        },
+        {
+          "id": "https://github.com/motor-admin/motor-admin",
+          "author": null,
+          "description": "Deploy a no-code admin panel for your application in less than a minute. Search, create, update, and delete data entries, create custom actions, and build reports.\n\n  \nMotor Admin\n \n🤓 Live Demo | 👀 Features overview | 💬 Discord | ⭐ Pro\n \n\n \n \nMotor Admin is a self-hosted, open-source, no-code Admin Panel and Business Intelligence software.\n \nSearch, create, update, and delete data entries using a convenient UI. Create complex custom actions like sending an automated email to your customers via API integration. Build custom reports with SQL and visualize the results with charts. Combine individual reports into a single dashboard and share it with your team.\n \nDeployment\n \nHeroku\n \n\n \nUbuntu\n \ncurl -o motor-admin -L https://github.com/motor-admin/motor-admin/releases/download/latest/motor…",
+          "link": "https://github.com/motor-admin/motor-admin",
+          "publishedOn": "2021-11-06T00:51:09.532Z",
+          "wordCount": 889,
+          "title": "motor-admin/motor-admin"
+        },
+        {
+          "id": "https://github.com/deepmind/alphafold",
+          "author": null,
+          "description": "Open source code for AlphaFold.\n\n\n \nAlphaFold\n \nThis package provides an implementation of the inference pipeline of AlphaFold v2.0. This is a completely new model that was entered in CASP14 and published in Nature. For simplicity, we refer to this model as AlphaFold throughout the rest of this document.\n \nWe also provide an implementation of AlphaFold-Multimer. This represents a work in progress and AlphaFold-Multimer isn't expected to be as stable as our monomer AlphaFold system. Read the guide for how to upgrade and update code.\n \nAny publication that discloses findings arising from using this source code or the model parameters should cite the AlphaFold paper and, if applicable, the AlphaFold-Multimer paper.\n \nPlease also refer to the Supplementary Information for a detailed descriptio…",
+          "link": "https://github.com/deepmind/alphafold",
+          "publishedOn": "2021-11-06T00:51:09.452Z",
+          "wordCount": 3891,
+          "title": "deepmind/alphafold"
+        },
+        {
+          "id": "https://github.com/naganandy/graph-based-deep-learning-literature",
+          "author": null,
+          "description": "links to conference publications in graph-based deep learning\n\nGraph-based Deep Learning Literature\n \nThe repository contains links primarily to conference publications in graph-based deep learning. The repository contains links also to\n \n \n \nRelated Workshops\n \n \nSurveys / Literature Reviews / Books\n \n \nSoftware/Libraries.\n \n \nThe links to conference publications are arranged in the reverse chronological order of conference dates from the conferences below (and also arranged year-wise for each conference).\n \n \n \n Machine Learning Conferences\n \n  \n \n   \n NeurIPS - 2021 | 2020 | 2019 | 2018 | 2017 | 2016 | 2015\n  \n   \n ICML - 2021 | 2020 | 2019 | 2018 | 2017 | 2016\n  \n   \n ICLR - 2022 (S) | 2021 | 2020 | 2019 | 2018 | 2017 | 2016 | 2014\n  \n  \n  \n \n\n \n \n \n \n Computer Vision Conferences\n \n  \n…",
+          "link": "https://github.com/naganandy/graph-based-deep-learning-literature",
+          "publishedOn": "2021-11-06T00:51:09.381Z",
+          "wordCount": 825,
+          "title": "naganandy/graph-based-deep-learning-literature"
+        },
+        {
+          "id": "https://github.com/CesiumGS/cesium",
+          "author": null,
+          "description": "An open-source JavaScript library for world-class 3D globes and maps 🌎\n\n  \n \n  \n \nCesiumJS is a JavaScript library for creating 3D globes and 2D maps in a web browser without a plugin. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for dynamic-data visualization.\n \nCesiumJS Homepage\n \nCesiumJS Features Checklist\n \n🚀 Get Started\n \nVisit the Downloads page or install the npm package:\n \nnpm install cesium\n\n \nHave questions? Ask them on the community forum.\n \nInterested in contributing? See CONTRIBUTING.md. ❤️\n \n❄ Mission\n \nOur mission is to create the leading 3D globe and map for static and time-dynamic content, with the best possible performance, precision, visual quality, platform support, community, and ease of use.\n \n📗 License\n \nApache 2.0. CesiumJS is free for both commercial and non-commercial use.\n \n🌎 Where Does the 3D Content Come From?\n \nCesiumJS can stream 3D content such as terrain, imagery, and 3D Tiles from the commercial Cesium ion platform and other content sources. You are free to use any combination of content sources with CesiumJS that you please. Using Cesium ion helps support CesiumJS development. ❤️\n \n👏 Featured Demos\n \n                                   \n  \n \nSee all demos",
+          "link": "https://github.com/CesiumGS/cesium",
+          "publishedOn": "2021-11-06T00:51:09.335Z",
+          "wordCount": 931,
+          "title": "CesiumGS/cesium"
+        },
+        {
+          "id": "https://github.com/kenp-io/not-for-iphone-usb-c",
+          "author": null,
+          "description": "The Not-for-iPhone USB-C Mod\n \nThe content of this repository is licensed under the WTFPL License. Please have a close look at the terms before using this material.\n \nNothing in this repository is part of Apple's Intellectual Property. Any resemblance to actual products or registered trademarks is entirely coincidental.\n \nWant to contribute to the project? Make a pull request!\n \nPlease don't hesitate to star the repo if you want to be updated on this project :)",
+          "link": "https://github.com/kenp-io/not-for-iphone-usb-c",
+          "publishedOn": "2021-11-06T00:51:09.270Z",
+          "wordCount": 405,
+          "title": "kenp-io/not-for-iphone-usb-c"
+        },
+        {
+          "id": "https://github.com/Drunkmars/BypassUAC",
+          "author": null,
+          "description": "By write list bypassuac\n\nREADME\n \n本程序基于白名单bypassuac，使用cs的免杀马即可直接上线并获得uac权限\n \n使用格式：bypassuac.exe <绝对路径>\n \n\n \n演示效果如下\n \n\n \nwhoami /priv如下\n \n\n \nhashdump抓取密码如下\n \n\n \n免杀效果\n \nwindows defender测试通过\n \n\n \n360安全卫士测试通过",
+          "link": "https://github.com/Drunkmars/BypassUAC",
+          "publishedOn": "2021-11-06T00:51:09.200Z",
+          "wordCount": 367,
+          "title": "Drunkmars/BypassUAC"
+        },
+        {
+          "id": "https://github.com/sgoulas/pdpProject",
+          "author": null,
+          "description": "A project that is part of my personal development plan at Agile Actors.\n\npdpProject\n \n\n \nclick the image above to see the demo\n \nThis project is part of my personal development plan at Agile Actors. My aim is to use technologies and practices that I am not familiar with in order to build an e-commerce site and futher develop my professional skills.\n \nOne of the major aims of this project is to set up the toolchain from the scratch, in order to familiarise myself with the whole process of creating an application, rather than writing code on top of a pre-configured development environment.\n \nStack\n \n \n \nReact\n \n \nMaterial-UI\n \n \nRedux, redux-saga, redux toolkit\n \n \nWebpack 5\n \n \nBabel\n \n \nTypescript\n \n \nNext 11\n \n \nApollo\n \n \nGraphQL\n \n \nJest and React Testing Library\n \n \nPoints of interest\n \n \n \nProject and toolchain set up from zero, no forks of premade projects, no create react app.\n \n \nMobile first design\n \n \nApollo server introspection script for generating server schema on the front end\n \n \nGithub pipeline\n \n \nDUCKS folder structure\n \n \nHusky pre-commit hooks\n \n \nSEO, OpenGraph protocol implementation and structure data mark up\n \n \nMark up validated by W3C mark up validator\n \n \nAccessibility validated by WAVE validator\n \n \nADR folder detailing architectural decisions\n \n \nDetailed development diary with daily entries for each development day, the problems I encountered, the driving factors behind my decisions and my thoughts during each step of the way\n \n \nHow to deploy locally\n \n \n \nClone this repository\n \n \nInstall the dependencies by running yarn\n \n \nIn two separate terminal instances run yarn startServer to start the mock back end server and yarn dev to start the front end client.\n \n \nThe front end should be deployed at http://localhost:3000/ and the back end at http://localhost:4000/ (check the terminals to make sure these are the ports)",
+          "link": "https://github.com/sgoulas/pdpProject",
+          "publishedOn": "2021-11-06T00:51:09.159Z",
+          "wordCount": 671,
+          "title": "sgoulas/pdpProject"
+        },
+        {
+          "id": "https://github.com/foxsen/archbase",
+          "author": null,
+          "description": "教科书《计算机体系结构基础》（胡伟武等，第三版）的开源版本\n\n计算机体系结构基础\n \n这是龙芯团队胡伟武老师等人编写的《计算机体系结构基础》（第三版）的开源版本。本书纸质版本由机械工业出版社发行，前两版可以通过各种常规渠道购买，第三版纸质版本也即将发行。\n \n内容提要\n \n本书由从事微处理器设计的一线科研人员编写而成。作者从微处理器设计的角度出发，充分考虑计算机体系结构的学科完整性，强调体系结构、基础软件、电路和器件的融会贯通。全书共分12章，包括指令系统结构、计算机硬件结构、CPU微结构、并行处理结构、计算机性能分析等主要内容，重点放在作为软硬件界面的指令系统结构，以及包含CPU、GPU、南北桥协同的计算机硬件结构。本书可作为高等学校“计算机体系结构”课程的本科生教材，同时也适合相关专业研究生或计算机技术人员参考阅读。\n \n关于本书内容更多的介绍可以参考推荐序、自序、第三版序和前言等相关章节。\n \n关于本书的开源维护\n \n在第三版的改版过程中，作者们引入了一个创新尝试，试图将本书打造为一本活的教科书。具体来说，我们采用以文本为基础的rmarkdown格式编辑书本内容（采用bookdown工具包），用git对其进行版本管理，并在互联网进行开源维护。在相应的网站上，还会提供出版社提供的与纸质版本一致的电子版本，以及相关的参考课件PPT和其他补充资源。我们认为这么做有几个好处：\n \n \n \n文字、图片和参考课件等素材的开放更方便教学使用。通过开源本书，我们期望能够它得到更广泛的采用，得到更多的批评指正意见，使得它能够更快成熟。\n \n \n方便的版本管理系统有助于及时吸收对本书的勘误和改进。一方面，读者可以通过项目的问题管理系统或者其他渠道反馈问题，被接纳后会立即反映到在线的版本中，不必等待下一次改版印刷周期。另一方面，作者们也可以将之前对由于时间仓促未来得及完善的内容进行补充完善…",
+          "link": "https://github.com/foxsen/archbase",
+          "publishedOn": "2021-11-06T00:51:09.109Z",
+          "wordCount": 709,
+          "title": "foxsen/archbase"
+        },
+        {
+          "id": "https://github.com/sberbank-ai/ru-dalle",
+          "author": null,
+          "description": "Generate images from texts. In Russian\n\nruDALL-E\n \nGenerate images from texts\n \n   \n \npip install rudalle==0.0.1rc4\n\n \n🤗 HF Models:\n \nruDALL-E Malevich (XL)\n \nMinimal Example:\n \n  \n \nEnglish translation example \n \ngeneration by ruDALLE:\n \nfrom rudalle.pipelines import generate_images, show, super_resolution, cherry_pick_by_clip\nfrom rudalle import get_rudalle_model, get_tokenizer, get_vae, get_realesrgan, get_ruclip\nfrom rudalle.utils import seed_everything\n\n# prepare models\ndevice = 'cuda'\ndalle = get_rudalle_model('Malevich', pretrained=True, fp16=True, device=device)\nrealesrgan = get_realesrgan('x4', device=device)\ntokenizer = get_tokenizer()\nvae = get_vae().to(device)\nruclip, ruclip_processor = get_ruclip('ruclip-vit-base-patch32-v5')\nruclip = ruclip.to(device)\n\ntext = 'изображение ра…",
+          "link": "https://github.com/sberbank-ai/ru-dalle",
+          "publishedOn": "2021-11-06T00:51:09.053Z",
+          "wordCount": 719,
+          "title": "sberbank-ai/ru-dalle"
+        },
         {
           "id": "https://github.com/home-assistant/core",
           "author": null,
@@ -3354,114 +3471,6 @@
           "publishedOn": "2021-10-08T00:57:28.518Z",
           "wordCount": 753,
           "title": "kentcdodds/kentcdodds.com"
-        },
-        {
-          "id": "https://github.com/aws/aws-cdk",
-          "author": null,
-          "description": "The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code\n\nAWS Cloud Development Kit (AWS CDK)\n \n       \n \nThe AWS Cloud Development Kit (AWS CDK) is an open-source software development framework to define cloud infrastructure in code and provision it through AWS CloudFormation.\n \nIt offers a high-level object-oriented abstraction to define AWS resources imperatively using the power of modern programming languages. Using the CDK’s library of infrastructure constructs, you can easily encapsulate AWS best practices in your infrastructure definition and share it without worrying about boilerplate logic.\n \nThe CDK is available in the following languages:\n \n \n \nJavaScript, TypeScript (Node.js ≥ 10.13.0) \n  \n \n   \nWe recommend using a version in Active LTS\n \n   \n⚠️ v…",
-          "link": "https://github.com/aws/aws-cdk",
-          "publishedOn": "2021-10-07T00:55:18.984Z",
-          "wordCount": 1729,
-          "title": "aws/aws-cdk"
-        },
-        {
-          "id": "https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes",
-          "author": null,
-          "description": "Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, css, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test\n\nLinkedin Quiz Answers, Skill Assessments Test\n \n \n\n \n \n \n \nThis repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use online grammar checker when you contribute!\n \n \nPLEASE\n \nadd explanation (or reference link) to your answers. That will help anyone to better learn co…",
-          "link": "https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes",
-          "publishedOn": "2021-10-07T00:55:18.935Z",
-          "wordCount": 3373,
-          "title": "Ebazhanov/linkedin-skill-assessments-quizzes"
-        },
-        {
-          "id": "https://github.com/Harsha200105/DesktopAssitant",
-          "author": null,
-          "description": "A Virtual Desktop Assistant Written in Python\n\nDesktopAssitant\n \nA Virtual Desktop Assistant Written in Python. \n It's generally a basic virtual assistant  \n The basic purpose of this is to make work easier as it re-directs you to various main sites and performs various important functions for your PC as well just install it for your system and run it in your code editor or IDE. I will be soon updating it as an application for MacOS, Linux and Windows. Until then you can follow the Contributing Guidelines and Contribute into this Desktop Assistant.\n \nContributing Guidelines :\n \n \n \nWe are Open for Pull Requests\n \n \nPlease contribute and add value to the code\n \n \nIf you have some ideas for new features and you don't have time to implement them please open an issue with the tag new_feature.\n \n \nPlease don't forget to comment (document) your code!\n \n \nAlso If you feel like developing or working out on the Documentation section of this repository make sure to raise an issue regarding and i'll assign you that!\n \n \nBefore creating a Pull Request please go through the above guidelines and the code!",
-          "link": "https://github.com/Harsha200105/DesktopAssitant",
-          "publishedOn": "2021-10-07T00:55:18.796Z",
-          "wordCount": 609,
-          "title": "Harsha200105/DesktopAssitant"
-        },
-        {
-          "id": "https://github.com/fchollet/deep-learning-with-python-notebooks",
-          "author": null,
-          "description": "Jupyter notebooks for the code samples of the book \"Deep Learning with Python\"\n\nCompanion Jupyter notebooks for the book \"Deep Learning with Python\"\n \nThis repository contains Jupyter notebooks implementing the code samples found in the book Deep Learning with Python, 2nd Edition (Manning Publications).\n \nFor readability, these notebooks only contain runnable code blocks and section titles, and omit everything else in the book: text paragraphs, figures, and pseudocode. If you want to be able to follow what's going on, I recommend reading the notebooks side by side with your copy of the book.\n \nThese notebooks use TensorFlow 2.6.\n \nTable of contents\n \n \n \nChapter 2: The mathematical building blocks of neural networks\n \n \nChapter 3: Introduction to Keras and TensorFlow\n \n \nChapter 4: Getting started with neural networks: classification and regression\n \n \nChapter 5: Fundamentals of machine learning\n \n \nChapter 7: Working with Keras: a deep dive\n \n \nChapter 8: Introduction to deep learning for computer vision\n \n \nChapter 9: Advanced deep learning for computer vision \n  \n \n   \nPart 1: Image segmentation\n \n   \nPart 2: Modern convnet architecture patterns\n \n   \nPart 3: Interpreting what convnets learn\n \n  \n  \n \nChapter 10: Deep learning for timeseries\n \n \nChapter 11: Deep learning for text \n  \n \n   \nPart 1: Introduction\n \n   \nPart 2: Sequence models\n \n   \nPart 3: Transformer\n \n   \nPart 4: Sequence-to-sequence learning\n \n  \n  \n \nChapter 12: Generative deep learning \n  \n \n   \nPart 1: Text generation\n \n   \nPart 2: Deep Dream\n \n   \nPart 3: Neural style transfer\n \n   \nPart 4: Variational autoencoders\n \n   \nPart 5: Generative adversarial networks\n \n  \n  \n \nChapter 13: Best practices for the real world\n \n \nChapter 14: Conclusions",
-          "link": "https://github.com/fchollet/deep-learning-with-python-notebooks",
-          "publishedOn": "2021-10-07T00:55:18.736Z",
-          "wordCount": 784,
-          "title": "fchollet/deep-learning-with-python-notebooks"
-        },
-        {
-          "id": "https://github.com/mentebinaria/retoolkit",
-          "author": null,
-          "description": "Reverse Engineer's Toolkit\n\nEnglish | 中文简体 | Français\n \nReverse Engineer's Toolkit\n \nWhat?\n \nThis is a collection of tools you may like if you are interested on reverse engineering and/or malware analysis on x86 and x64 Windows systems. After installing this program, you'll have to ways to access the tools:\n \n \n \nDouble-click the retoolkit icon in the Desktop.\n \n \nRight-click on a file, choose Send to -> retoolkit. This way the selected file is passed as argument to the desired program.\n \n \n\n \nWhy do I need it?\n \nYou don't. Obviously, you can download such tools from their own website and install them by yourself in a new VM. But if you download retoolkit, it can probably save you some time. Additionally, the tools come pre-configured so you'll find things like x64dbg with a few plugins, c…",
-          "link": "https://github.com/mentebinaria/retoolkit",
-          "publishedOn": "2021-10-07T00:55:18.699Z",
-          "wordCount": 854,
-          "title": "mentebinaria/retoolkit"
-        },
-        {
-          "id": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-          "author": null,
-          "description": "A list of Free Software network services and web applications which can be hosted on your own servers\n\nAwesome-Selfhosted\n \n \n \nSelf-hosting is the practice of locally hosting and managing applications instead of renting from SaaSS providers.\n \nThis is a list of Free Software network services and web applications which can be hosted locally. Non-Free software is listed on the Non-Free page.\n \nSee Contributing.\n \n \nTable of contents\n \nClick on the menu icon next to README.md for a list of sections\n \n \nSoftware\n \n \nAnalytics\n \n^ back to top ^\n \nPlease visit Awesome Analytics\n \nRelated: Personal Dashboards\n \nArchiving and Digital Preservation (DP)\n \n^ back to top ^\n \nRelated: Content Management Systems (CMS)\n \n \n \nAccess to Memory (AtoM) - Web-based, open source application for standards-base…",
-          "link": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-          "publishedOn": "2021-10-07T00:55:18.666Z",
-          "wordCount": 24396,
-          "title": "awesome-selfhosted/awesome-selfhosted"
-        },
-        {
-          "id": "https://github.com/microsoft/Git-Credential-Manager-Core",
-          "author": null,
-          "description": "Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.\n\nGit Credential Manager Core\n \n\n \n \nGit Credential Manager Core (GCM Core) is a secure Git credential helper built on .NET that runs on Windows, macOS, and Linux.\n \nCompared to Git's built-in credential helpers (Windows: wincred, macOS: osxkeychain, Linux: gnome-keyring/libsecret) which provides single-factor authentication support working on any HTTP-enabled Git repository, GCM Core provides multi-factor authentication support for Azure DevOps, Azure DevOps Server (formerly Team Foundation Server), GitHub, and Bitbucket.\n \nGit Credential Manager Core (GCM Core) replaces the .NET Framework-based Git Credential Manager for Windows (GCM), and the Java-based Git Cr…",
-          "link": "https://github.com/microsoft/Git-Credential-Manager-Core",
-          "publishedOn": "2021-10-07T00:55:18.485Z",
-          "wordCount": 1549,
-          "title": "microsoft/Git-Credential-Manager-Core"
-        },
-        {
-          "id": "https://github.com/ohmyzsh/ohmyzsh",
-          "author": null,
-          "description": "🙃 A delightful community-driven (with 1900+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, OSX, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.\n\n\n \nOh My Zsh is an open source, community-driven framework for managing your zsh configuration.\n \nSounds boring. Let's try again.\n \nOh My Zsh will not make you a 10x developer...but you may feel like one.\n \nOnce installed, your terminal shell will become the talk of the town or your money back! With each keystroke in your command prompt, you'll take advantage of the hundreds of powerful plugins and beautiful themes. Strangers will come up to you in café…",
-          "link": "https://github.com/ohmyzsh/ohmyzsh",
-          "publishedOn": "2021-10-07T00:55:18.415Z",
-          "wordCount": 2478,
-          "title": "ohmyzsh/ohmyzsh"
-        },
-        {
-          "id": "https://github.com/trufflesuite/truffle",
-          "author": null,
-          "description": "A tool for developing smart contracts. Crafted with the finest cacaos.\n \n   \n \n \nTruffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier. With Truffle, you get:\n \n \n \nBuilt-in smart contract compilation, linking, deployment and binary management.\n \n \nAutomated contract testing with Mocha and Chai.\n \n \nConfigurable build pipeline with support for custom build processes.\n \n \nScriptable deployment & migrations framework.\n \n \nNetwork management for deploying to many public & private networks.\n \n \nInteractive console for direct contract communication.\n \n \nInstant rebuilding of assets during development.\n \n \nExternal script runner that executes scripts within a Truffle environment.\n \n \n \n  \n  \n \n   ℹ️ Contributo…",
-          "link": "https://github.com/trufflesuite/truffle",
-          "publishedOn": "2021-10-07T00:55:18.356Z",
-          "wordCount": 926,
-          "title": "trufflesuite/truffle"
-        },
-        {
-          "id": "https://github.com/abhpd/hacktoberfest2021",
-          "author": null,
-          "description": "🌱 Contribute your favorite 📚 Data Structure implementation, 🕸 Algorithms, and 🎲 Projects. 😊 | Very Active Repository, Star and Share with your friends |\n\n✨ hacktoberfest2021 💫\n \n\n \n🌱 Contributing to hacktoberfest 2021\n \nWelcome to hacktoberfest 2021 Public Repository. 👨🏻‍💻\n \nA month-long celebration from October 1st - 31st sponsored by Digital Ocean and GitHub to get people involved in Open Source. Create your very first pull request to any public repository on GitHub and contribute to the open source developer community. \nhttps://hacktoberfest.digitalocean.com/\n \n \nWhat can You contribute ⚠️\n \n \n \nThere are language Specific folders in the repository choose any you're comfortable with if not, make one.\n \n \nInside the language folder there will be multiple topic folders like Data Structures, Algorithms, Problems and projects.\n \n \nContribute any algorithm, data-structure implementation or your favourite problmes or projects.\n \n \nMake sure your follow the below steps.\n \n \n \nProcess are as follows :-\n \n \n \nLogin using github @ Hacktoberfest\n \n \nCreate four valid pull requests (PRs) between 1st - 31st October\n \n \n \nHow to Contribute to this repository\n \n \n \nFork the repository (Click the Fork button in the top right of this page, click your Profile Image)\n \n \nClone the forked repository to your local machine.\n \n \ngit clone https://github.com/your-username/HacktoberFest2021.git\n\n \n \n \nchange the present working directory\n \n \ncd HacktoberFest2021\n\n \n \n \nAdd/Create your project to the specific folder as described in what you can contribute section.\n \n \nMake a new branch\n \n \ngit checkout -b branch-name\n\n \n \n \nMake change in the repository with the new branch.\n \n \npush the changes.\n \n \ngit add .\ngit commit -m \"Your commit Message\"\ngit push origin branch-name\n\n \n \n \nMake a pull request.\n \n \nStar the repository.\n \n \nNOTE\n \n \n \nMake Sure you commit your changes in a new branch.\n \n \nMake Sure you Give proper name to your files describing the addition.\n \n \nAlso Make Sure you comment your code whereever necessary.",
-          "link": "https://github.com/abhpd/hacktoberfest2021",
-          "publishedOn": "2021-10-07T00:55:18.277Z",
-          "wordCount": 821,
-          "title": "abhpd/hacktoberfest2021"
-        },
-        {
-          "id": "https://github.com/kh4sh3i/ICS-Pentesting-Tools",
-          "author": null,
-          "description": "A curated list of tools related to Industrial Control System (ICS) security and Penetration Testing\n\nICS Pentesting Tools\n \nA curated list of tools related to Industrial Control System (ICS) security and Penetration Testing\n \nFirmware\n \n \n \nOWASP General Firmware Pointers - General pointers that will get you started in understanding embedded systems firmware images.\n \n \nFirmwalker - Script for extracting some useful things from embedded firmware images\n \n \nFirmware Mod Kit - Basic framework for doing firmware modifications\n \n \nFirmadyne - System for emulation and dynamic analysis of Linux-based firmware\n \n \nICSREF - ICSREF is a modular framework that automates the reverse engineering process of CODESYS binaries compiled with the CODESYS v2 compiler.\n \n \nThomas Roth - Embedded Serial Gatewa…",
-          "link": "https://github.com/kh4sh3i/ICS-Pentesting-Tools",
-          "publishedOn": "2021-10-07T00:55:18.215Z",
-          "wordCount": 1260,
-          "title": "kh4sh3i/ICS-Pentesting-Tools"
-        },
-        {
-          "id": "https://github.com/PlummersSoftwareLLC/NightDriverStrip",
-          "author": null,
-          "description": "NightDriver client for ESP32\n\nNightDriverStrip\n \n\n \n \nDavepl, 9/19/2021\n \n \n \nSee Discussions for questions and comments.\n \n \nSee source code and COPYING.txt for detailed technical and licensing information including versions.\n \n \nWhat NightDriverStrip is\n \nNightDriverStrip is a source code package for building a flash program that you upload to the ESP32 microcontroller. It can drive up to 8 channels of WS2812B style LEDs connected to the chip pins and display fancy colors and patterns and designs on them. There are numerous effects built in that can be configured to be shown on the LED strip, including audio/music/beat-reactive effects for modules equipped with a microphone. It can also optionally receive color data for the LEDs in a simple LZ-compressed (or noncompressed) format over a …",
-          "link": "https://github.com/PlummersSoftwareLLC/NightDriverStrip",
-          "publishedOn": "2021-10-07T00:55:18.177Z",
-          "wordCount": 1917,
-          "title": "PlummersSoftwareLLC/NightDriverStrip"
         }
       ]
     }
