@@ -335,24 +335,6 @@
           "publishedOn": "2021-10-08T15:00:00.000Z",
           "wordCount": 1348,
           "title": "7 Ways to mitigate your SaaS application security risks"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64926",
-          "author": "Jessie",
-          "description": "Guest post originally published on CloudWeGo’s blog by ByteDance Architecture Team Background ByteDance is proud to announce the launch of open source software CloudWeGo. Focusing on microservice communication and governance, it offers high...",
-          "link": "https://www.cncf.io/blog/2021/10/07/cloudwego-open-source-announcement/",
-          "publishedOn": "2021-10-07T15:00:00.000Z",
-          "wordCount": 2054,
-          "title": "Open source CloudWeGo"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64919",
-          "author": "Jessie",
-          "description": "Guest post originally published on Flux’ blog by Daniel Holbach tl;dr: Server-side reconciliation will make Flux more performant, improve overall observability and going forward will allow us to add new capabilities, like...",
-          "link": "https://www.cncf.io/blog/2021/10/07/server-side-reconciliation-is-coming/",
-          "publishedOn": "2021-10-07T15:00:00.000Z",
-          "wordCount": 1410,
-          "title": "Flux: Server-side reconciliation is coming"
         }
       ]
     },
@@ -367,6 +349,123 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/maxvfischer/DIY-CNC-machine",
+          "author": null,
+          "description": "How to build your own CNC machine from scratch\n\n\n \nThis guide goes through all the steps to build your own CNC machine from scratch. It includes a complete bill of materials (BOM), STL/OBJ-files for all the 3d-printed parts and detailed instructions of how everything is assembled. It also includes instructions of how all the necessary open-source softwares are installed.\n \nThe guide is based on Ivan Miranada's design and is a complement to Ivan's Youtube-videos:\n \n \n \nOriginal video: https://www.youtube.com/watch?v=_atw3e0nIrg\n \n \nUpdates with geared stepper motors etc: https://www.youtube.com/watch?v=qpjf5D3WngY\n \n \nUpdating to metal parts: https://www.youtube.com/watch?v=RDnGvhdGFEY\n \n \nIf you have any questions, feel free to contact me on LinkedIn: https://www.linkedin.com/in/max-fische…",
+          "link": "https://github.com/maxvfischer/DIY-CNC-machine",
+          "publishedOn": "2021-11-07T00:54:46.776Z",
+          "wordCount": 12751,
+          "title": "maxvfischer/DIY-CNC-machine"
+        },
+        {
+          "id": "https://github.com/Azure/azure-cli",
+          "author": null,
+          "description": "Azure Command-Line Interface\n\nMicrosoft Azure CLI\n \n  \n \nA great cloud needs great tools; we're excited to introduce Azure CLI, our next generation multi-platform command line experience for Azure.\n \nTake a test run now from Azure Cloud Shell!\n \nInstallation\n \nPlease refer to the install guide for detailed install instructions.\n \nA list of common install issues and their resolutions are available at install troubleshooting.\n \nDeveloper installation (see below)\n \n \n \nDocker\n \n \nEdge Builds\n \n \nDeveloper Setup\n \n \nUsage\n \n$ az [ group ] [ subgroup ] [ command ] {parameters}\n\n \nGet Started\n \nPlease refer to the \"get started\" guide for in-depth instructions.\n \nFor usage and help content, pass in the -h parameter, for example:\n \n$ az storage -h\n$ az vm create -h\n\n \nHighlights\n \nHere are a few f…",
+          "link": "https://github.com/Azure/azure-cli",
+          "publishedOn": "2021-11-07T00:54:46.675Z",
+          "wordCount": 1911,
+          "title": "Azure/azure-cli"
+        },
+        {
+          "id": "https://github.com/n8n-io/n8n",
+          "author": null,
+          "description": "Free and open fair-code licensed node based Workflow Automation Tool. Easily automate tasks across different services.\n\nn8n - Workflow Automation Tool\n \n\n \nn8n is an extendable workflow automation tool. With a fair-code distribution model, n8n will always have visible source code, be available to self-host, and allow you to add your own custom functions, logic and apps. n8n's node-based approach makes it highly versatile, enabling you to connect anything to everything.\n \n\n \nDemo\n \n📺 A short demo (< 3 min) which shows how to create a simple workflow which automatically sends a new Slack notification every time a Github repository received or lost a star.\n \nAvailable integrations\n \nn8n has 200+ different nodes to automate workflows. The list can be found on: https://n8n.io/nodes\n \nDocumenta…",
+          "link": "https://github.com/n8n-io/n8n",
+          "publishedOn": "2021-11-07T00:54:46.607Z",
+          "wordCount": 919,
+          "title": "n8n-io/n8n"
+        },
+        {
+          "id": "https://github.com/microsoft/Power-Fx",
+          "author": null,
+          "description": "Power Fx low-code programming language\n\nMicrosoft Power Fx\n \n\n \nMicrosoft Power Fx is a low-code general purpose programming language based on spreadsheet-like formulas. It is a strongly typed, declarative, and functional language, with imperative logic and state management available as needed.\n \nPower Fx started with Power Apps canvas apps and that is where you can experience it now. We are in the process of extracting the language from that product so that we can use it in more Microsoft Power Platform products and make it available here for you to use. That's going to take some time and we will report on our progress here and on the Power Apps blog.\n \nA start on the language documentation is available in the docs folder. As with the implementation, it is being extracted from the Power A…",
+          "link": "https://github.com/microsoft/Power-Fx",
+          "publishedOn": "2021-11-07T00:54:46.555Z",
+          "wordCount": 842,
+          "title": "microsoft/Power-Fx"
+        },
+        {
+          "id": "https://github.com/extremecodetv/ExtremeCodeOS",
+          "author": null,
+          "description": "New gen. Linux\n\nExtremeCodeOS\n \n              \n \n \n New gen. Linux \n \nПреамбула\n \nНеобходимо исправить все недостатки линукса и сделать самый лучший и самый доступный дистрибутив из всех существующих, чтобы любой человек на планете мог получать удовольствие от использования этой операционной системы. Эту концепцию я решил назвать Линуксом нового поколения.\n \nКто я такой вообще?\n \nЯ Линус Торвальдс.\n \nЭто не троллинг, говорю абсолютно серьёзно. Я решил стать Линусом Торвальдсом. Внезапно осознал, что я и есть Линус Торвальдс и был им всю жизнь. Я посмотрел на ядро линукса и оно меня освободило. И я понял, что пора. Пора наконец то сделать свой собственный дистрибутив - идеальный, лучший, единственный.\n \nЦель\n \nС установкой софта на моей оси должна справится любая домохозяйка\n \nКонцепция\n \n \n \nНикаких терминалов\n \n \nНикаких скучных обоев\n \n \nНикаких рут пользователей\n \n \nНикаких тайловых WM\n \n \nСкачать\n \nСкачать самый свежий релиз\n \nКонтрибуция\n \nНакидывайте свои идеи в Issues, будем отбирать в Backlog самые лучшие\n \nВидео-обзор концепции\n \n\n \nБалдёжная визиточка нашей самой лучшей операционной системы в мире",
+          "link": "https://github.com/extremecodetv/ExtremeCodeOS",
+          "publishedOn": "2021-11-07T00:54:46.519Z",
+          "wordCount": 647,
+          "title": "extremecodetv/ExtremeCodeOS"
+        },
+        {
+          "id": "https://github.com/open-mmlab/mmdetection3d",
+          "author": null,
+          "description": "OpenMMLab's next-generation platform for general 3D object detection.\n\n \n  \n \n   \n \nNews: We released the codebase v0.17.2.\n \nIn addition, we have preliminarily supported several new models on the v1.0.0.dev0 branch, including DGCNN, SMOKE and PGD.\n \nNote: We are going through large refactoring to provide simpler and more unified usage of many modules. Thus, few features will be added to the master branch in the following months.\n \nThe compatibilities of models are broken due to the unification and simplification of coordinate systems. For now, most models are benchmarked with similar performance, though few models are still being benchmarked.\n \nYou can start experiments with v1.0.0.dev0 if you are interested. Please note that our new features will only be supported in v1.0.0 branch afterw…",
+          "link": "https://github.com/open-mmlab/mmdetection3d",
+          "publishedOn": "2021-11-07T00:54:46.482Z",
+          "wordCount": 1581,
+          "title": "open-mmlab/mmdetection3d"
+        },
+        {
+          "id": "https://github.com/ThioJoe/YouTube-Spammer-Purge",
+          "author": null,
+          "description": "Allows you to purge all reply comments left by a user on a YouTube channel or video.\n\nYouTube Spammer Purge\n \nAllows you to purge all comments left by a user on a specific video or across the entire channel.\n \nHow to Download: Click the \"Releases\" link on the right, then on the latest release, under 'Assets' click to download \"YouTubeSpammerPurge.exe\". NOTE: You may get a warning - See \"Download & Windows Warning\" section below for details.\n \nPurpose\n \nRecently, there has been a massive infestation of spam on YouTube where fake impersonator accounts leave spam/scam replies to hundreds of users on a creator's videos. For some god-forsaken reason, YouTube offers no way to delete all comments by a specific user at once, meaning you must delete them one by one BY HAND.\n \nYouTube offers a funct…",
+          "link": "https://github.com/ThioJoe/YouTube-Spammer-Purge",
+          "publishedOn": "2021-11-07T00:54:46.437Z",
+          "wordCount": 1401,
+          "title": "ThioJoe/YouTube-Spammer-Purge"
+        },
+        {
+          "id": "https://github.com/ossu/computer-science",
+          "author": null,
+          "description": "🎓 Path to a free self-taught education in Computer Science!\n\n\n \nOpen Source Society University\n \n Path to a free self-taught education in Computer Science! \n \n       \n \nContents\n \n \n \nSummary\n \n \nCommunity\n \n \nCurriculum\n \n \nCode of conduct\n \n \nTeam\n \n \nSummary\n \nThe OSSU curriculum is a complete education in computer science using online materials. It's not merely for career training or professional development. It's for those who want a proper, well-rounded grounding in concepts fundamental to all computing disciplines, and for those who have the discipline, will, and (most importantly!) good habits to obtain this education largely on their own, but with support from a worldwide community of fellow learners.\n \nIt is designed according to the degree requirements of undergraduate computer…",
+          "link": "https://github.com/ossu/computer-science",
+          "publishedOn": "2021-11-07T00:54:46.405Z",
+          "wordCount": 3601,
+          "title": "ossu/computer-science"
+        },
+        {
+          "id": "https://github.com/PaddlePaddle/PaddleClas",
+          "author": null,
+          "description": "A treasure chest for visual recognition powered by PaddlePaddle\n\n简体中文 | English\n \nPaddleClas\n \n简介\n \n飞桨图像识别套件PaddleClas是飞桨为工业界和学术界所准备的一个图像识别任务的工具集，助力使用者训练出更好的视觉模型和应用落地。\n \n近期更新\n \n \n \n2021.11.1 发布PP-ShiTu技术报告，新增饮料识别demo\n \n \n2021.10.23 发布轻量级图像识别系统PP-ShiTu，CPU上0.2s即可完成在10w+库的图像识别。 点击这里立即体验\n \n \n2021.09.17 发布PP-LCNet系列超轻量骨干网络模型, 在Intel CPU上，单张图像预测速度约5ms，ImageNet-1K数据集上Top1识别准确率达到80.82%，超越ResNet152的模型效果。PP-LCNet的介绍可以参考论文, 或者PP-LCNet模型介绍，相关指标和预训练权重可以从 这里下载。\n \n \nmore\n \n \n特性\n \n \n \n PP-ShiTu轻量图像识别系统：集成了目标检测、特征学习、图像检索等模块，广泛适用于各类图像识别任务。cpu上0.2s即可完成在10w+库的图像识别。\n  \n \n PP-LCNet轻量级CPU骨干网络：专门为CPU设备打造轻量级骨干网络，速度、精度均远超竞品。\n  \n \n 丰富的预训练模型库：提供了36个系列共175个ImageNet预训练模型，其中7个精选系列模型支持结构快速修改。\n  \n \n 全面易用的特征学习组件：集成arcmargin, triplet loss等12度量学习方法，通过配置文件即可随意组合切换。\n  \n \n SSLD知识蒸馏：14个分类预训练模型，精度普遍提升3%以上；其中ResNet50_vd模型在ImageNe…",
+          "link": "https://github.com/PaddlePaddle/PaddleClas",
+          "publishedOn": "2021-11-07T00:54:46.285Z",
+          "wordCount": 521,
+          "title": "PaddlePaddle/PaddleClas"
+        },
+        {
+          "id": "https://github.com/knownsec/KCon",
+          "author": null,
+          "description": "KCon is a famous Hacker Con powered by Knownsec Team.\n\nKCon\n \nKCon is a famous Hacker Con powered by Knownsec Team.\n \nhttp://kcon.knownsec.com/",
+          "link": "https://github.com/knownsec/KCon",
+          "publishedOn": "2021-11-07T00:54:46.224Z",
+          "wordCount": 447,
+          "title": "knownsec/KCon"
+        },
+        {
+          "id": "https://github.com/whyour/qinglong",
+          "author": null,
+          "description": "A timed task management panel that supports typescript, javaScript, python3, and shell.（支持python3、javaScript、shell、typescript 的定时任务管理面板）\n\n    \n \n青龙\n \n \n \nA timed task management panel that supports typescript, javaScript, python3, and shell.（支持python3、javaScript、shell、typescript 的定时任务管理面板）\n \n \n    \n \n \n   \n \n青龙，又名苍龙，在中国传统文化中是四象之一、天之四灵之一，根据五行学说，它是代表东方的灵兽，为青色的龙，五行属木，代表的季节是春季，八卦主震。苍龙与应龙一样，都是身具羽翼。《张果星宗》称“又有辅翼，方为真龙”。\n \n《后汉书·律历志下》记载：日周于天，一寒一暑，四时备成，万物毕改，摄提迁次，青龙移辰，谓之岁。\n \n在中国二十八宿中，青龙是东方七宿（角、亢、氐、房、心、尾、箕）的总称。 在早期星宿信仰中，祂是最尊贵的天神。 但被道教信仰吸纳入其神系后，神格大跌，道教将其称为“孟章”，在不同的道经中有“帝君”、“圣将”、“神将”和“捕鬼将”等称呼，与白虎监兵神君一起，是道教的护卫天神。\n \n如何安装\n \n请查看INSTALL.md\n \n多谢\n \n \n \n nevinee\n  \n \n crontab-ui\n  \n \n Ant Design\n  \n \n Ant Design Pro\n  \n \n Umijs3.0\n  \n \n darkreader",
+          "link": "https://github.com/whyour/qinglong",
+          "publishedOn": "2021-11-07T00:54:46.153Z",
+          "wordCount": 549,
+          "title": "whyour/qinglong"
+        },
+        {
+          "id": "https://github.com/Roblox/luau",
+          "author": null,
+          "description": "A fast, small, safe, gradually typed embeddable scripting language derived from Lua\n\nLuau  \n \nLuau (lowercase u, /ˈlu.aʊ/) is a fast, small, safe, gradually typed embeddable scripting language derived from Lua.\n \nIt is designed to be backwards compatible with Lua 5.1, as well as incorporating some features from future Lua releases, but also expands the feature set (most notably with type annotations). Luau is largely implemented from scratch, with the language runtime being a very heavily modified version of Lua 5.1 runtime, with completely rewritten interpreter and other performance innovations. The runtime mostly preserves Lua 5.1 API, so existing bindings should be more or less compatible with a few caveats.\n \nLuau is used by Roblox game developers to write game code, as well as by Robl…",
+          "link": "https://github.com/Roblox/luau",
+          "publishedOn": "2021-11-07T00:54:46.108Z",
+          "wordCount": 1307,
+          "title": "Roblox/luau"
+        },
+        {
+          "id": "https://github.com/artart222/CodeArt",
+          "author": null,
+          "description": "Use NeoVim as general purpose IDE\n\n👨‍💻CodeArt🎨\n \n 📸 Screenshots 🚧 Installation ⬆️📅 How to update CodeArt ✨ Important features ✅ TODOS \n \n \n    \n  \n    \n    \n    \n \n\n \n🚧 Install CodeArt easily\n \nTo install CodeArt you must have python3 and pip3 installed.\n \n🐧 On linux:\n \nsudo pip3 install distro\npython3 install.py\n\n \n⚠️ IMPORTANT NOTE: The installer for MacOS is not tested since I don't have a device with macOS (and the installer does not work on debian)\n \n🍎 On macOS:\n \npython3 install.py\n\n \n🪟 on Windows:\n \nplease backup any existing configuration files\n \n⚡🐚 open a powershell session as administrator and run these commands one by one:\n \nSet-ExecutionPolicy AllSigned\nSet-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.…",
+          "link": "https://github.com/artart222/CodeArt",
+          "publishedOn": "2021-11-07T00:54:46.041Z",
+          "wordCount": 998,
+          "title": "artart222/CodeArt"
+        },
         {
           "id": "https://github.com/Azure-Samples/container-apps-store-api-microservice",
           "author": null,
@@ -3309,168 +3408,6 @@
           "publishedOn": "2021-10-09T00:51:27.773Z",
           "wordCount": 741,
           "title": "mvpsbr/livrocsharp"
-        },
-        {
-          "id": "https://github.com/rwightman/pytorch-image-models",
-          "author": null,
-          "description": "PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more\n\nPyTorch Image Models\n \n \n \nSponsors\n \n \nWhat's New\n \n \nIntroduction\n \n \nModels\n \n \nFeatures\n \n \nResults\n \n \nGetting Started (Documentation)\n \n \nTrain, Validation, Inference Scripts\n \n \nAwesome PyTorch Resources\n \n \nLicenses\n \n \nCiting\n \n \nSponsors\n \nA big thank you to my GitHub Sponsors for their support!\n \nIn addition to the sponsors at the link above, I've received hardware and/or cloud resources from\n \n \n \nNvidia (https://www.nvidia.com/en-us/)\n \n \nTFRC (https://www.tensorflow.org/tfrc)\n \n \nI'm fortunate to be able to dedicate significant time and money of my own supporting this and other open source projec…",
-          "link": "https://github.com/rwightman/pytorch-image-models",
-          "publishedOn": "2021-10-08T00:57:29.657Z",
-          "wordCount": 4293,
-          "title": "rwightman/pytorch-image-models"
-        },
-        {
-          "id": "https://github.com/PrefectHQ/prefect",
-          "author": null,
-          "description": "The easiest way to automate your data\n\n  \n \n                \n \nHello, world! 👋\n \nWe've rebuilt data engineering for the data science era.\n \nPrefect is a new workflow management system, designed for modern infrastructure and powered by the open-source Prefect Core workflow engine. Users organize Tasks into Flows, and Prefect takes care of the rest.\n \nRead the docs; get the code; ask us anything!\n \nWelcome to Workflows\n \nPrefect's Pythonic API should feel familiar for newcomers. Mark functions as tasks and call them on each other to build up a flow.\n \nfrom prefect import task, Flow, Parameter\n\n\n@task(log_stdout=True)\ndef say_hello(name):\n    print(\"Hello, {}!\".format(name))\n\n\nwith Flow(\"My First Flow\") as flow:\n    name = Parameter('name')\n    say_hello(name)\n\n\nflow.run(name='world') # \"Hel…",
-          "link": "https://github.com/PrefectHQ/prefect",
-          "publishedOn": "2021-10-08T00:57:29.592Z",
-          "wordCount": 1443,
-          "title": "PrefectHQ/prefect"
-        },
-        {
-          "id": "https://github.com/facebook/flipper",
-          "author": null,
-          "description": "A desktop debugging platform for mobile developers.\n\n  \n \n Flipper \n \n       \n \n Flipper (formerly Sonar) is a platform for debugging mobile apps on iOS and Android. Visualize, inspect, and control your apps from a simple desktop interface. Use Flipper as is or extend it using the plugin API. \n \n\n \nTable of Contents\n \n \n \nMobile development\n \n \nExtending Flipper\n \n \nContributing to Flipper\n \n \nIn this repo\n \n \nGetting started \n  \n \n   \nRequirements\n \n  \n  \n \nBuilding from Source \n  \n \n   \nDesktop \n    \n \n     \nRunning from source\n \n     \nBuilding standalone application\n \n    \n  \n  \n  \n \niOS SDK + Sample App\n \n \nAndroid SDK + Sample app\n \n \nDocumentation\n \n \nContributing\n \n \nLicense\n \n \nMobile development\n \nFlipper aims to be your number one companion for mobile app development on iOS and A…",
-          "link": "https://github.com/facebook/flipper",
-          "publishedOn": "2021-10-08T00:57:29.546Z",
-          "wordCount": 1356,
-          "title": "facebook/flipper"
-        },
-        {
-          "id": "https://github.com/vmware-tanzu/community-edition",
-          "author": null,
-          "description": "VMware Tanzu Community Edition is a full-featured, easy to manage Kubernetes platform for learners and users on your local workstation or your favorite cloud. Tanzu Community Edition enables the creation of application platforms: infrastructure, tooling, and services providing location to run applications and enable positive developer experiences.\n \nTanzu Community Edition\n \n\n \nTanzu Community Edition is a fully-featured, easy to manage, Kubernetes platform for learners and users. It is a freely available, community supported, and open source distribution of VMware Tanzu. It can be installed and deployed in minutes to your local workstation or favorite infrastructure provider. Along with cluster management, powered by Cluster API, Tanzu Community Edition enables higher-level functionality …",
-          "link": "https://github.com/vmware-tanzu/community-edition",
-          "publishedOn": "2021-10-08T00:57:29.487Z",
-          "wordCount": 1326,
-          "title": "vmware-tanzu/community-edition"
-        },
-        {
-          "id": "https://github.com/opencodeiiita/Collaborative-Web",
-          "author": null,
-          "description": "Opencode 21 Collaborative website!\n\nOpencode Collaborative 2021\n \n\n \n\n \nLike us on Facebook\n \nAbout us\n \nOpenCode is a month long open source program organised by GeekHaven IIIT Allahabad. OpenCode attracts talent from all over the world. People contribute to various open source projects. We welcome everyone to experience the awesome event and win exciting prizes.\n \nRequirements:\n \n \n \nGitHub Account\n \n \nGit\n \n \nSetting up git:\n \n \n \nDownload and install the latest version of Git.\n \n \nSet your username in Git.\n \n \nSet your commit email address in Git.\n \n \nAdding a mentor\n \nTo add a mentor open mentors.json and please maintain the following format EXACTLY (replacing values where indicated):\n \n     {\n\n        \"name\" : \"Mentors Name\",\n        \"imageurl\" : \"mentor/image.jpg\",\n        \"about\" :…",
-          "link": "https://github.com/opencodeiiita/Collaborative-Web",
-          "publishedOn": "2021-10-08T00:57:29.442Z",
-          "wordCount": 1138,
-          "title": "opencodeiiita/Collaborative-Web"
-        },
-        {
-          "id": "https://github.com/PowerShell/PowerShell",
-          "author": null,
-          "description": "PowerShell for every system!\n\n PowerShell\n \nWelcome to the PowerShell GitHub Community! PowerShell Core is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.\n \nWindows PowerShell vs. PowerShell Core\n \nAlthough this repository started as a fork of the Windows PowerShell code base, changes made in this repository do not make their way back to Windows PowerShell 5.1 automatically. This also means that issues tracked here are only for PowerShell Core 6 and higher. Windows PowerShell specific issues shoul…",
-          "link": "https://github.com/PowerShell/PowerShell",
-          "publishedOn": "2021-10-08T00:57:29.417Z",
-          "wordCount": 1644,
-          "title": "PowerShell/PowerShell"
-        },
-        {
-          "id": "https://github.com/louislam/uptime-kuma",
-          "author": null,
-          "description": "A fancy self-hosted monitoring tool\n\nUptime Kuma\n \n    \n \n \n  \n \nIt is a self-hosted monitoring tool like \"Uptime Robot\".\n \n \n🥔 Live Demo\n \nTry it!\n \nhttps://demo.uptime.kuma.pet\n \nIt is a 5 minutes live demo, all data will be deleted after that. The server is located at Tokyo, if you live far away from here, it may affact your experience. I suggest that you should install to try it.\n \nVPS is sponsored by Uptime Kuma sponsors on Open Collective! Thank you so much!\n \n⭐ Features\n \n \n \nMonitoring uptime for HTTP(s) / TCP / Ping / DNS Record.\n \n \nFancy, Reactive, Fast UI/UX.\n \n \nNotifications via Telegram, Discord, Gotify, Slack, Pushover, Email (SMTP), and 70+ notification services, click here for the full list.\n \n \n20 seconds interval.\n \n \nMulti Languages\n \n \n🔧 How to Install\n \n🐳 Docker\n …",
-          "link": "https://github.com/louislam/uptime-kuma",
-          "publishedOn": "2021-10-08T00:57:29.358Z",
-          "wordCount": 1117,
-          "title": "louislam/uptime-kuma"
-        },
-        {
-          "id": "https://github.com/nvm-sh/nvm",
-          "author": null,
-          "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions\n\nNode Version Manager   \n \n \n \n \nTable of Contents\n \n \n \nIntro\n \n \nAbout\n \n \nInstalling and Updating \n  \n \n   \nInstall & Update Script \n    \n \n     \nAdditional Notes\n \n     \nTroubleshooting on Linux\n \n     \nTroubleshooting on macOS\n \n     \nAnsible\n \n    \n  \n   \nVerify Installation\n \n   \nImportant Notes\n \n   \nGit Install\n \n   \nManual Install\n \n   \nManual Upgrade\n \n  \n  \n \nUsage \n  \n \n   \nLong-term Support\n \n   \nMigrating Global Packages While Installing\n \n   \nDefault Global Packages From File While Installing\n \n   \nio.js\n \n   \nSystem Version of Node\n \n   \nListing Versions\n \n   \nSetting Custom Colors \n    \n \n     \nPersisting custom colors\n \n     \nSuppressing colorized output\n \n     \nRestoring PATH\n …",
-          "link": "https://github.com/nvm-sh/nvm",
-          "publishedOn": "2021-10-08T00:57:29.311Z",
-          "wordCount": 6013,
-          "title": "nvm-sh/nvm"
-        },
-        {
-          "id": "https://github.com/tiangolo/fastapi",
-          "author": null,
-          "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production\n\n  \n \n FastAPI framework, high performance, easy to learn, fast to code, ready for production \n \n          \n \n \nDocumentation: https://fastapi.tiangolo.com\n \nSource Code: https://github.com/tiangolo/fastapi\n \n \nFastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.\n \nThe key features are:\n \n \n \n Fast: Very high performance, on par with NodeJS and Go (thanks to Starlette and Pydantic). One of the fastest Python frameworks available.\n  \n \n Fast to code: Increase the speed to develop features by about 200% to 300%. *\n  \n \n Fewer bugs: Reduce about 40% of human (developer) induced errors. *\n  \n \n Intuitive: Great editor support. Com…",
-          "link": "https://github.com/tiangolo/fastapi",
-          "publishedOn": "2021-10-08T00:57:29.231Z",
-          "wordCount": 2208,
-          "title": "tiangolo/fastapi"
-        },
-        {
-          "id": "https://github.com/files-community/Files",
-          "author": null,
-          "description": "A modern file manager that pushes the boundaries of the platform.\n\n  \n \n \n \nWelcome to the Files repository\n \n\n \nWhat is Files?\n \nFiles is a file manager which leverages the latest features of the Windows platform including Fluent Design, seamless updates, and APIs which enable the performance and lifecycle behavior that users expect. Whether you want to simplify your experience with your files or try something new, Files is a one-stop solution for exploring your files on the fly.\n \nWhere to get Files\n \n \n \nMicrosoft Store\n \n \nVision for Files\n \nOur vision for Files is to be fully functional while keeping it simple and easy to use. Whether it's implementing new features, or pushing the boundaries of the platform, your input will help shape the future of Files.\n \nWhy should I contribute?\n \nWe can confidently assert Files is the platform's best file explorer project to bring your innovations to. We focus heavily on extensibility and code modularity and have no plans to stop doing so. When you contribute to this project, you're helping everyone by fixing reported bugs, adding new features, or correcting existing behavior. These changes are quickly included in the final product for all users to benefit from.\n \nWe welcome discussions and contributions on our repository, however to help maintain a healthy community, please check out our code of conduct.\n \nBuilding Files source\n \n \n \nInstall Visual Studio 2019 and the UWP Development Kit.\n \n \nClone the repository and open the Files.sln in VS.\n \n \nVisual Studio will install all missing dependencies.\n \n \nRun the Files.Package project.\n \n \nView our Contributing guidelines\n \nFAQ\n \nHave any questions? Check out our documentation site!",
-          "link": "https://github.com/files-community/Files",
-          "publishedOn": "2021-10-08T00:57:29.186Z",
-          "wordCount": 820,
-          "title": "files-community/Files"
-        },
-        {
-          "id": "https://github.com/oatpp/oatpp",
-          "author": null,
-          "description": "🌱Light and powerful C++ web framework for highly scalable and resource-efficient web application. It's zero-dependency and easy-portable.\n\n \n  \n \n \n \n          \n \nOat++\n \nNews\n \n \n \nHey, meet the new oatpp version 1.2.5! See the changelog for details.\n \n \nCheck out the new oatpp ORM - read more here.\n \n \n \nOat++ is a modern Web Framework for C++. It's fully loaded and contains all necessary components for effective production level development. It's also light and has a small memory footprint.\n \nStart\n \n \n \nGet Started\n \n \nBuild For Unix/Linux\n \n \nBuild For Windows\n \n \nExamples\n \n \nAbout\n \n \n \nWebsite\n \n \nSupported Platforms\n \n \nLatest Benchmarks: 5 Million WebSockets\n \n \nContributing to Oat++\n \n \nJoin Our Community\n \n \n \nGitter - Talk to Oat++ developers and to other Oat++ users.\n \n \nTwi…",
-          "link": "https://github.com/oatpp/oatpp",
-          "publishedOn": "2021-10-08T00:57:29.149Z",
-          "wordCount": 1283,
-          "title": "oatpp/oatpp"
-        },
-        {
-          "id": "https://github.com/M2Team/NanaZip",
-          "author": null,
-          "description": "The 7-Zip derivative intended for the modern Windows experience.\n\n NanaZip\n \n \n \nWarning: This project is in early stages of development, the final product may differ from what you see now.\n \nNanaZip is an open source file archiver intended for the modern Windows experience, forked from the source code of well-known open source file archiver 7-Zip 21.03.\n \nWe need help to translate NanaZip into native languages that have not been supported.\n \nKnown issues\n \n \n \nYou may meet the application crash in some cases in NanaZip 1.0 Preview 1 because there are some issues in the exception handler implementation from VC-LTL 5.x. I need to wait mingkuang (the author of VC-LTL) to fix it.\n \n \nWindows may show the contrast white icon in the taskbar when you using the contrast standard mode.\n \n \nDevelop…",
-          "link": "https://github.com/M2Team/NanaZip",
-          "publishedOn": "2021-10-08T00:57:29.105Z",
-          "wordCount": 1013,
-          "title": "M2Team/NanaZip"
-        },
-        {
-          "id": "https://github.com/peregrine-lang/Peregrine",
-          "author": null,
-          "description": "An easy to use systems programming language with Python-like syntax.\n \nPeregrine\n \nPeregrine is a compiled programming language currently under development. Docs coming soon.\n \n\n \nWhy am I creating this language?\n \nI am creating it as a fast alternative to Python and an easy one to C.\n \n\n \nGoals\n \n \n \nEase of use\n \n \nFast\n \n \nHighly modular\n \n \nOccupies less memory\n \n \nCompiled\n \n \n\n \nHow does it work?\n \nYou can consider it to be a superset of C which compiles to clean C. So valid c code is also valid Peregrine code (the language is named Peregrine). It will have no garbage collector because it is a system programming language but it will be very easy to use so there will be less chance of memory leak.\n \n\n \nRequirements to build from source\n \n \n \nGcc compiler\n \n \nV compiler\n \n \nBuild instruction\n \n \n \nClone this repository using the following command -> git clone https://github.com/Peregrine-lang/Peregrine.git\n \n \nRun cd Peregrine/Peregrine\n \n \nTo build it run v peregrine.v\n \n \nThat's it\n \n \n\n \nPrimary implementation language\n \nFor now it is written in V but in the future it will be self hosted.\n \n\n \nProgress\n \nCurrently we are working on the codegen and some Peregrine programs are working :)\n \n\n \nExample\n \nHere is a small example for you to understand:\n \ndef main():\n    print(\"hi\")\n\n \nThe main function is the entry point for the program.\n \n\n \nHave more questions?\n \nCool, you can contact me via mail. \n Email: saptakbhoumik@gmail.com\n \n\n \nWant to contribute?\n \nGreat, go ahead and make the changes you want.\n \nHave a look at the open issues to find a mission that resonates with you.\n \nPlease check CONTRIBUTING.md to know how you can contribute.\n \nIf you create any new file make sure to comment your name in the file as shown Original author: Your name\n \n\n \nLicense\n \nThe Peregrine compiler is licensed under the Mozilla Public License",
-          "link": "https://github.com/peregrine-lang/Peregrine",
-          "publishedOn": "2021-10-08T00:57:29.080Z",
-          "wordCount": 738,
-          "title": "peregrine-lang/Peregrine"
-        },
-        {
-          "id": "https://github.com/Harsha200105/DesktopAssistant",
-          "author": null,
-          "description": "A Virtual Desktop Assistant Written in Python\n\nDesktopAssitant\n \nA Virtual Desktop Assistant Written in Python. \n It's generally a basic virtual assistant  \n The basic purpose of this is to make work easier as it re-directs you to various main sites and performs various important functions for your PC as well just install it for your system and run it in your code editor or IDE. I will be soon updating it as an application for MacOS, Linux and Windows. Until then you can follow the Contributing Guidelines and Contribute into this Desktop Assistant.\n \nContributing Guidelines :\n \n \n \nWe are Open for Pull Requests\n \n \nPlease contribute and add value to the code\n \n \nIf you have some ideas for new features and you don't have time to implement them please open an issue with the tag new_feature.\n \n \nPlease don't forget to comment (document) your code!\n \n \nAlso If you feel like developing or working out on the Documentation section of this repository make sure to raise an issue regarding and i'll assign you that!\n \n \nBefore creating a Pull Request please go through the above guidelines and the code!",
-          "link": "https://github.com/Harsha200105/DesktopAssistant",
-          "publishedOn": "2021-10-08T00:57:29.024Z",
-          "wordCount": 650,
-          "title": "Harsha200105/DesktopAssistant"
-        },
-        {
-          "id": "https://github.com/syncthing/syncthing",
-          "author": null,
-          "description": "Open Source Continuous File Synchronization\n\n\n \n \n     \n \nGoals\n \nSyncthing is a continuous file synchronization program. It synchronizes files between two or more computers. We strive to fulfill the goals below. The goals are listed in order of importance, the most important one being the first. This is the summary version of the goal list - for more commentary, see the full Goals document.\n \nSyncthing should be:\n \n \n \n Safe From Data Loss\n Protecting the user's data is paramount. We take every reasonable precaution to avoid corrupting the user's files.\n  \n \n Secure Against Attackers\n Again, protecting the user's data is paramount. Regardless of our other goals we must never allow the user's data to be susceptible to eavesdropping or modification by unauthorized parties.\n  \n \n Easy to Use…",
-          "link": "https://github.com/syncthing/syncthing",
-          "publishedOn": "2021-10-08T00:57:28.998Z",
-          "wordCount": 1232,
-          "title": "syncthing/syncthing"
-        },
-        {
-          "id": "https://github.com/novaspirit/pi-hosted",
-          "author": null,
-          "description": "Raspberry Pi Self Hosted Server Based on Docker / Portainer.io\n\nPi-Hosted Portainer Template V2\n \n  \n \nThis git is a collection of tutorials for docker / portainer made using raspberry pi / arm also hosting a ARM based App Template for Portainer.io\n \ninstall_docker.sh -> this script will install docker and add user pi to the docker group\n \ninstall_portainer.sh -> this script will install portainer\n \nApp Template for Portainer.io\n \n\n \nVersions\n \n \n  \n  \n \n   Application \n   URL \n  \n \n  \n  \n  \n \n   Portainer v2 \n   https://raw.githubusercontent.com/novaspirit/pi-hosted/main/pi-hosted_template/template/portainer-v2.json \n  \n \n  \n \nInstalling\n \n \n \nLogin to the Web-UI for the corresponding project.\n \n \nNavigate to the area where you add a template (in portainer you'll need to enable external templates)\n \n \nAdd the template URL corresponding to the application you're using in the table above.\n \n \nPi-hosted Youtube series\n \nYoutube Playlist\n \n\n \nContributors\n \nSee List of contributors who participated in this project.\n \nAcknowledgment\n \n \n \nbased template on SelfHosted Portainer App Template",
-          "link": "https://github.com/novaspirit/pi-hosted",
-          "publishedOn": "2021-10-08T00:57:28.825Z",
-          "wordCount": 525,
-          "title": "novaspirit/pi-hosted"
-        },
-        {
-          "id": "https://github.com/JoeWDavies/geoblender",
-          "author": null,
-          "description": "Tutorials for making 3D-looking maps with Blender and QGIS\n\nShaded relief maps in blender\n \nTutorial\n \nThis guide will help you prepare DEM data using QGIS in order to render 3D looking shaded-relief maps in Blender.\n \nTweet me your finished maps, and feel free to ask any questions! \n \n \n \nRequirements\n \nFor this tutorial i used the following software:\n - Blender 2.92\n - QGIS 3.20\n \nI will be going through the whole process, using Wales as my area of interest.\n \nTable of Contents\n \n \n \nPrepare the DEM\n \n \nPrepare blender scene \n  \n \n   \nScene settings\n \n   \nLighting settings\n \n   \nCamera settings\n \n  \n  \n \nPlug the DEM into the plane\n \n \nAdd modifier\n \n \nAdd colour\n \n \nAdd mask (optional)\n \n \nStep 1: Prepare the DEM \n \n \n \n First download the elevation tiles from your preferred source. I u…",
-          "link": "https://github.com/JoeWDavies/geoblender",
-          "publishedOn": "2021-10-08T00:57:28.592Z",
-          "wordCount": 1960,
-          "title": "JoeWDavies/geoblender"
-        },
-        {
-          "id": "https://github.com/kentcdodds/kentcdodds.com",
-          "author": null,
-          "description": "My personal website\n\nKent C. Dodds' site (rewritten with Remix)\n \n \n \nContributing\n \nRead CONTRIBUTING.md",
-          "link": "https://github.com/kentcdodds/kentcdodds.com",
-          "publishedOn": "2021-10-08T00:57:28.518Z",
-          "wordCount": 753,
-          "title": "kentcdodds/kentcdodds.com"
         }
       ]
     }
