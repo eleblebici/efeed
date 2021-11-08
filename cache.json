@@ -326,15 +326,6 @@
           "publishedOn": "2021-10-11T20:49:14.000Z",
           "wordCount": 2528,
           "title": "How to run containers and VMs side-by-side on Nutanix Karbon"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64963",
-          "author": "Jessie",
-          "description": "Originally published on the Msys Technologies blog If you’re a SaaS entrepreneur or you’re looking to build a SaaS application, in that case, you may already be aware of the fact that...",
-          "link": "https://www.cncf.io/blog/2021/10/08/7-ways-to-mitigate-your-saas-application-security-risks/",
-          "publishedOn": "2021-10-08T15:00:00.000Z",
-          "wordCount": 1348,
-          "title": "7 Ways to mitigate your SaaS application security risks"
         }
       ]
     },
@@ -349,6 +340,150 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/github/gitignore",
+          "author": null,
+          "description": "A collection of useful .gitignore templates\n\nA collection of .gitignore templates\n \nThis is GitHub’s collection of .gitignore file templates. We use this list to populate the .gitignore template choosers available in the GitHub.com interface when creating new repositories and files.\n \nFor more information about how .gitignore files work, and how to use them, the following resources are a great place to start:\n \n \n \nThe Ignoring Files chapter of the Pro Git book.\n \n \nThe Ignoring Files article on the GitHub Help site.\n \n \nThe gitignore(5) manual page.\n \n \nFolder structure\n \nWe support a collection of templates, organized in this way:\n \n \n \nThe root folder contains templates in common use, to help people get started with popular programming languages and technologies. These define a meaningf…",
+          "link": "https://github.com/github/gitignore",
+          "publishedOn": "2021-11-08T00:53:28.044Z",
+          "wordCount": 2552,
+          "title": "github/gitignore"
+        },
+        {
+          "id": "https://github.com/facebook/react-native",
+          "author": null,
+          "description": "A framework for building native applications using React\n\n  React Native  \n \n Learn once, write anywhere:\n Build mobile apps with React. \n \n                \n \n Getting Started  ·  Learn the Basics  ·  Showcase  ·  Contribute  ·  Community  ·  Support \n \nReact Native brings React's declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform.\n \n \n \nDeclarative. React makes it painless to create interactive UIs. Declarative views make your code more predictable and easier to debug.\n \n \nComponent-Based. Build encapsulated components that manage their state, then compose them to make complex UIs.\n \n \nDeveloper Velocity. See local changes in seconds. Changes to JavaScript code can be live reloaded without rebuilding the n…",
+          "link": "https://github.com/facebook/react-native",
+          "publishedOn": "2021-11-08T00:53:27.790Z",
+          "wordCount": 1682,
+          "title": "facebook/react-native"
+        },
+        {
+          "id": "https://github.com/FaridSafi/react-native-gifted-chat",
+          "author": null,
+          "description": "💬 The most complete chat UI for React Native\n\n \n       \n \n 💬 Gifted Chat \n \n The most complete chat UI for React Native & Web \n \n     \n \n         \n \n Demo Web 🖥 \n \n Snack GiftedChat playground  \n \nSponsor\n \n \n    \n \n Coding Bootcamp in Paris co-founded by Farid Safi \n \n \n Click to learn more \n  \n\n \n \n    \n \n Scalable chat API/Server written in Go \n \n API Tour | React Native Gifted tutorial \n \n\n \n \n    \n \nDelivering Personalized Healthcare\n \n  Find out more \n \n\n \nThe future of GiftedChat 🎉\n \nPlease give us your advice: Related PR\n \nPlease vote\n \nGiftedChat depends on other packages and some needs a boost, please vote for PRs will improve it, thanks:\n \n \n \nhttps://github.com/watadarkstar/react-native-typing-animation/issues/18\n \n \nFeatures\n \n \n \n🎉 react-native-webable (since 0.10.0) web…",
+          "link": "https://github.com/FaridSafi/react-native-gifted-chat",
+          "publishedOn": "2021-11-08T00:53:27.720Z",
+          "wordCount": 2894,
+          "title": "FaridSafi/react-native-gifted-chat"
+        },
+        {
+          "id": "https://github.com/fmtlib/fmt",
+          "author": null,
+          "description": "A modern formatting library\n\n{fmt}\n \n.. image:: https://github.com/fmtlib/fmt/workflows/linux/badge.svg :target: https://github.com/fmtlib/fmt/actions?query=workflow%3Alinux\n \n.. image:: https://github.com/fmtlib/fmt/workflows/macos/badge.svg :target: https://github.com/fmtlib/fmt/actions?query=workflow%3Amacos\n \n.. image:: https://github.com/fmtlib/fmt/workflows/windows/badge.svg :target: https://github.com/fmtlib/fmt/actions?query=workflow%3Awindows\n \n.. image:: https://ci.appveyor.com/api/projects/status/ehjkiefde6gucy1v?svg=true :target: https://ci.appveyor.com/project/vitaut/fmt\n \n.. image:: https://oss-fuzz-build-logs.storage.googleapis.com/badges/fmt.svg :alt: fmt is continuously fuzzed at oss-fuzz :target: https://bugs.chromium.org/p/oss-fuzz/issues/list?\\ colspec=ID%20Type%20Compo…",
+          "link": "https://github.com/fmtlib/fmt",
+          "publishedOn": "2021-11-08T00:53:27.662Z",
+          "wordCount": 2236,
+          "title": "fmtlib/fmt"
+        },
+        {
+          "id": "https://github.com/helix-editor/helix",
+          "author": null,
+          "description": "A post-modern modal text editor.\n\nHelix\n \n\n \n\n \nA kakoune / neovim inspired editor, written in Rust.\n \nThe editing model is very heavily based on kakoune; during development I found myself agreeing with most of kakoune's design decisions.\n \nFor more information, see the website or documentation.\n \nAll shortcuts/keymaps can be found in the documentation on the website.\n \nTroubleshooting\n \nFeatures\n \n \n \nVim-like modal editing\n \n \nMultiple selections\n \n \nBuilt-in language server support\n \n \nSmart, incremental syntax highlighting and code editing via tree-sitter\n \n \nIt's a terminal-based editor first, but I'd like to explore a custom renderer (similar to emacs) in wgpu or skulpin.\n \nNote: Only certain languages have indentation definitions at the moment. Check runtime/queries/<lang>/ for inde…",
+          "link": "https://github.com/helix-editor/helix",
+          "publishedOn": "2021-11-08T00:53:27.615Z",
+          "wordCount": 780,
+          "title": "helix-editor/helix"
+        },
+        {
+          "id": "https://github.com/google/re2",
+          "author": null,
+          "description": "RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.\n\nThis is the source code repository for RE2, a regular expression library.\n \nFor documentation about how to install and use RE2, visit https://github.com/google/re2/.\n \nThe short version is:\n \nmake make test make install make testinstall\n \nThere is a fair amount of documentation (including code snippets) in the re2.h header file.\n \nMore information can be found on the wiki: https://github.com/google/re2/wiki\n \nIssue tracker: https://github.com/google/re2/issues\n \nMailing list: https://groups.google.com/group/re2-dev\n \nUnless otherwise noted, the RE2 source files are distributed under the BSD-style license found in the LICENSE file.\n \nRE2's native language is C++.\n \nThe Python wrapper is at https://github.com/google/re2/tree/abseil/python and on PyPI (https://pypi.org/project/google-re2/).\n \nA C wrapper is at https://github.com/marcomaggi/cre2/. A D wrapper is at https://github.com/ShigekiKarita/re2d/ and on DUB (code.dlang.org). An Erlang wrapper is at https://github.com/dukesoferl/re2/ and on Hex (hex.pm). An Inferno wrapper is at https://github.com/powerman/inferno-re2/. A Node.js wrapper is at https://github.com/uhop/node-re2/ and on NPM (npmjs.com). An OCaml wrapper is at https://github.com/janestreet/re2/ and on OPAM (opam.ocaml.org). A Perl wrapper is at https://github.com/dgl/re-engine-RE2/ and on CPAN (cpan.org). An R wrapper is at https://github.com/girishji/re2/ and on CRAN (cran.r-project.org). A Ruby wrapper is at https://github.com/mudge/re2/ and on RubyGems (rubygems.org). A WebAssembly wrapper is at https://github.com/google/re2-wasm/ and on NPM (npmjs.com).",
+          "link": "https://github.com/google/re2",
+          "publishedOn": "2021-11-08T00:53:27.578Z",
+          "wordCount": 659,
+          "title": "google/re2"
+        },
+        {
+          "id": "https://github.com/insitro/redun",
+          "author": null,
+          "description": "Yet another redundant workflow engine\n\nredun\n \nyet another redundant workflow engine\n \nredun aims to be a more expressive and efficient workflow framework, built on top of the popular Python programming language. It takes the somewhat contrarian view that writing dataflows directly is unnecessarily restrictive, and by doing so we lose abstractions we have come to rely on in most modern high-level languages (control flow, compositiblity, recursion, high order functions, etc). redun's key insight is that workflows can be expressed as lazy expressions, that are then evaluated by a scheduler which performs automatic parallelization, caching, and data provenance logging.\n \nredun's key features are:\n \n \n \nWorkflows are defined by lazy expressions that when evaluated emit dynamic directed acyclic…",
+          "link": "https://github.com/insitro/redun",
+          "publishedOn": "2021-11-08T00:53:27.501Z",
+          "wordCount": 2437,
+          "title": "insitro/redun"
+        },
+        {
+          "id": "https://github.com/alibaba/ice",
+          "author": null,
+          "description": "🚀 The Progressive Framework Based On React（基于 React 的渐进式研发框架）\n\nEnglish | 简体中文\n \nicejs\n \n      \n \nA universal framework based on React.js, Docs.\n \nFeatures\n \n \n \n🐒 Engineering：Out of the box support for ES6+、TypeScript、Less、Sass、 CSS Modules，etc\n \n \n🦊 Routing：Powerful Routing System, supports configured routing and conventions routing\n \n \n🐯 State management：Built-in icestore, lightweight state management solution based on React Hooks\n \n \n🐦 Config：Modes and Environment Variables configuration in the config file\n \n \n🐶 Logger：Built-in logger solution, it's a flexible abstraction over using console.log as well\n \n \n🦁 Application configuration：Provide powerful and extensible application configuration\n \n \n🐴 Hooks：Provide Hooks APIs such as useModel and useHistory, etc\n \n \n🐌 Plugin system：…",
+          "link": "https://github.com/alibaba/ice",
+          "publishedOn": "2021-11-08T00:53:27.456Z",
+          "wordCount": 913,
+          "title": "alibaba/ice"
+        },
+        {
+          "id": "https://github.com/TandoorRecipes/recipes",
+          "author": null,
+          "description": "Application for managing recipes, planning meals, building shopping lists and much much more!\n\n   \n Tandoor Recipes \n  \nThe recipe manager that allows you to manage your ever growing collection of digital recipes.\n \n        \n \n Website • Installation • Docs • Demo • Discord \n \n\n \nCore Features\n \n \n \n🥗 Manage your recipes - Manage your ever growing recipe collection\n \n \n📆 Plan - multiple meals for each day\n \n \n🛒 Shopping lists - via the meal plan or straight from recipes\n \n \n📚 Cookbooks - collect recipes into books\n \n \n👪 Share and collaborate on recipes with friends and family\n \n \nMade by and for power users\n \n \n \n🔍 Powerful & customizable search with fulltext support and TrigramSimilarity\n \n \n🏷️ Create and search for tags, assign them in batch to all files matching certain filters\n …",
+          "link": "https://github.com/TandoorRecipes/recipes",
+          "publishedOn": "2021-11-08T00:53:27.397Z",
+          "wordCount": 1229,
+          "title": "TandoorRecipes/recipes"
+        },
+        {
+          "id": "https://github.com/Kholid060/automa",
+          "author": null,
+          "description": "A chrome extension for automating your browser by connecting blocks\n \nAutoma\n \n\n \nAn extension for automating your browser by connecting blocks. \n From auto-fill forms, doing a repetitive task, taking a screenshot, to scraping data of the website, it's up to you what you want to do with this extension. And you also can schedule when the automation will execute.\n \nProject setup\n \n# Install dependencies\nyarn install\n\n# Compiles and hot-reloads for development\nyarn dev\n\n# Compiles and minifies for production\nyarn build\n\n# Create a zip file from the build folder\nyarn build:zip\n\n# Lints and fixes files\nyarn lint",
+          "link": "https://github.com/Kholid060/automa",
+          "publishedOn": "2021-11-08T00:53:27.244Z",
+          "wordCount": 588,
+          "title": "Kholid060/automa"
+        },
+        {
+          "id": "https://github.com/alibaba/easyexcel",
+          "author": null,
+          "description": "快速、简单避免OOM的java处理Excel工具\n\nEasyExcel\n \n  \n \nQQ1群(已满): 662022184\n QQ2群(已满): 1097936804\n QQ3群(已满): 453928496\n QQ4群: 496594404\n 钉钉1群（已满）: 21960511\n 钉钉2群（已满）: 32796397\n 钉钉3群（已满）: 33797247\n 钉钉4群（已满）: 33491624\n 钉钉5群: 32134498\n 官方网站: https://yuque.com/easyexcel\n \n常见问题\n \n因为公司不方便用QQ，所以建议加钉钉群\n \nJAVA解析Excel工具EasyExcel\n \nJava解析、生成Excel比较有名的框架有Apache poi、jxl。但他们都存在一个严重的问题就是非常的耗内存，poi有一套SAX模式的API可以一定程度的解决一些内存溢出的问题，但POI还是有一些缺陷，比如07版Excel解压缩以及解压后存储都是在内存中完成的，内存消耗依然很大。easyexcel重写了poi对07版Excel的解析，一个3M的excel用POI sax解析依然需要100M左右内存，改用easyexcel可以降低到几M，并且再大的excel也不会出现内存溢出；03版依赖POI的sax模式，在上层做了模型转换的封装，让使用者更加简单方便\n \n64M内存20秒读取75M(46W行25列)的Excel（3.0.2+版本）\n \n当然还有极速模式能更快，但是内存占用会在100M多一点 \n \n版本支持\n \n \n \n2+ 版本支持 Java7和Java6\n \n \n3+ 版本至少 Java8\n \n \n关于版本升级\n \n \n \n不建议跨大版本升级 尤其跨2个大版本\n \n \n2+ 升级到 3+ 一些不兼容的地方 \n  \n \n   \n使用了自定义拦截器去修改样式的…",
+          "link": "https://github.com/alibaba/easyexcel",
+          "publishedOn": "2021-11-08T00:53:27.218Z",
+          "wordCount": 738,
+          "title": "alibaba/easyexcel"
+        },
+        {
+          "id": "https://github.com/DrKLO/Telegram",
+          "author": null,
+          "description": "Telegram for Android source\n\nTelegram messenger for Android\n \nTelegram is a messaging app with a focus on speed and security. It’s superfast, simple and free. This repo contains the official source code for Telegram App for Android.\n \nCreating your Telegram Application\n \nWe welcome all developers to use our API and source code to create applications on our platform. There are several things we require from all developers for the moment.\n \n \n \nObtain your own api_id for your application.\n \n \nPlease do not use the name Telegram for your app — or make sure your users understand that it is unofficial.\n \n \nKindly do not use our standard logo (white paper plane in a blue circle) as your app's logo.\n \n \nPlease study our security guidelines and take good care of your users' data and privacy.\n \n \nP…",
+          "link": "https://github.com/DrKLO/Telegram",
+          "publishedOn": "2021-11-08T00:53:27.139Z",
+          "wordCount": 776,
+          "title": "DrKLO/Telegram"
+        },
+        {
+          "id": "https://github.com/nnjeim/world",
+          "author": null,
+          "description": "A Laravel package providing a list of the countries, states, cities, currencies and timezones\n\n\n \nA Laravel package to provide a list of the countries, states, cities, timezones, currencies and phone numbers formatting/validation helpers.\n \nThe package can be consumed through Facades, Helpers and Api routes.\n \nInstallation\n \ncomposer require nnjeim/world\n\nphp artisan vendor:publish --tag=world\n\nphp artisan migrate\n\nphp artisan db:seed --class=WorldSeeder (requires ~ 5 - 10min)\n\n \nChangelog\n \nPlease see CHANGELOG for more information what has changed recently.\n \nUsage\n \nWorld Facade\n \nList all the countries.\n \nuse Nnjeim\\World\\World;\n\n$action =  World::countries();\n\nif ($action->success) {\n\n\t$countries = $action->data;\n}\n\nresponse \n{\n\t\"success\": true,\n\t\"message\": \"countries\",\n\t\"data\": [\n\t\t{…",
+          "link": "https://github.com/nnjeim/world",
+          "publishedOn": "2021-11-08T00:53:27.104Z",
+          "wordCount": 1309,
+          "title": "nnjeim/world"
+        },
+        {
+          "id": "https://github.com/bombomby/optick",
+          "author": null,
+          "description": "C++ Profiler For Games\n\nOptick: C++ Profiler For Games\n \n  \n  Optick is a super-lightweight C++ profiler for Games.\n It provides access for all the necessary tools required for efficient performance analysis and optimization:\n instrumentation, switch-contexts, sampling, GPU counters.\n \n \n \nLooking for 'Brofiler'? It has been renamed to 'Optick', so you are in the right place.\n \n \nBuild Status\n \n \n  \n  \n \n   Windows (x64: msvc) \n   Linux (x64: clang, gcc) \n   MacOS (x64: clang, gcc) \n   Static Code Analysis \n  \n \n  \n  \n  \n \n    \n    \n    \n     \n  \n \n  \n \n \n  \n  \n \n   Features \n   Windows \n   Linux \n   MacOS \n   XBox \n   PS4 \n   UE4 \n  \n \n  \n  \n  \n \n   Instrumentation \n   ✔ \n   ✔ \n   ✔ \n   ✔ \n   ❔ \n   ✔ \n  \n \n  \n \n   Switch Contexts \n   ✔ ETW \n   ✔ FTrace \n   ✔ DTrace \n   ✔ \n   ❔ \n   ✔ Win \n…",
+          "link": "https://github.com/bombomby/optick",
+          "publishedOn": "2021-11-08T00:53:27.052Z",
+          "wordCount": 1003,
+          "title": "bombomby/optick"
+        },
+        {
+          "id": "https://github.com/WordPress/wordpress-develop",
+          "author": null,
+          "description": "WordPress Develop, Git-ified. Synced from git://develop.git.wordpress.org/, including branches and tags! This repository is just a mirror of the WordPress subversion repository. Please include a link to a pre-existing ticket on https://core.trac.wordpress.org/ with every pull request.\n\nWordPress\n \nWelcome to the WordPress development repository! Please check out the contributor handbook for information about how to open bug reports, contribute patches, test changes, write documentation, or get involved in any way you can.\n \n \n \nGetting Started\n \n \nCredentials\n \n \nGetting Started\n \nWordPress is a PHP, MySQL, and JavaScript based project, and uses Node for its JavaScript dependencies. A local development environment is available to quickly get up and running.\n \nYou will need a basic understa…",
+          "link": "https://github.com/WordPress/wordpress-develop",
+          "publishedOn": "2021-11-08T00:53:26.995Z",
+          "wordCount": 1041,
+          "title": "WordPress/wordpress-develop"
+        },
+        {
+          "id": "https://github.com/ibraheemdev/modern-unix",
+          "author": null,
+          "description": "A collection of modern/faster/saner alternatives to common unix commands.\n\nModern Unix\n \n \n bat \n \nA cat clone with syntax highlighting and Git integration.\n \n  \n \n\n \n \n exa \n \nA modern replacement for ls.\n \n  \n \n\n \n \n lsd \n \nThe next gen file listing command. Backwards compatible with ls.\n \n  \n \n\n \n \n delta \n \nA viewer for git and diff output\n \n  \n \n\n \n \n dust \n \nA more intuitive version of du written in rust.\n \n  \n \n\n \n \n duf \n \nA better df alternative \n \n  \n \n\n \n \n broot \n \nA new way to see and navigate directory trees\n \n  \n \n\n \n \n fd \n \nA simple, fast and user-friendly alternative to find.\n \n  \n \n\n \n \n ripgrep \n \nAn extremely fast alternative to grep that respects your gitignore\n \n  \n \n\n \n \n ag \n \nA code searching tool similar to ack, but faster.\n \n  \n \n\n \n \n fzf \n \nA general purpose c…",
+          "link": "https://github.com/ibraheemdev/modern-unix",
+          "publishedOn": "2021-11-08T00:53:26.918Z",
+          "wordCount": 672,
+          "title": "ibraheemdev/modern-unix"
+        },
         {
           "id": "https://github.com/maxvfischer/DIY-CNC-machine",
           "author": null,
@@ -3309,105 +3444,6 @@
           "publishedOn": "2021-10-10T00:55:22.341Z",
           "wordCount": 1338,
           "title": "Hack-with-Github/Awesome-Hacking"
-        },
-        {
-          "id": "https://github.com/psf/black",
-          "author": null,
-          "description": "The uncompromising Python code formatter\n\n\n \nThe Uncompromising Code Formatter\n \n          \n \n \n \n“Any color you like.”\n \n \nBlack is the uncompromising Python code formatter. By using it, you agree to cede control over minutiae of hand-formatting. In return, Black gives you speed, determinism, and freedom from pycodestyle nagging about formatting. You will save time and mental energy for more important matters.\n \nBlackened code looks the same regardless of the project you're reading. Formatting becomes transparent after a while and you can focus on the content instead.\n \nBlack makes code review faster by producing the smallest diffs possible.\n \nTry it out now using the Black Playground. Watch the PyCon 2019 talk to learn more.\n \n \nRead the documentation on ReadTheDocs!\n \n \nInstallation and…",
-          "link": "https://github.com/psf/black",
-          "publishedOn": "2021-10-09T00:51:29.037Z",
-          "wordCount": 1809,
-          "title": "psf/black"
-        },
-        {
-          "id": "https://github.com/projectdiscovery/nuclei-templates",
-          "author": null,
-          "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.\n\n Nuclei Templates \n \nCommunity curated list of templates for the nuclei engine to find security vulnerabilities in applications.\n \n     \n \n Documentation • Contributions • Discussion • Community • FAQs • Join Discord \n \n \nTemplates are the core of the nuclei scanner which powers the actual scanning engine. This repository stores and houses various templates for the scanner provided by our team, as well as contributed by the community. We hope that you also contribute by sending templates via pull requests or Github issues to grow the list.\n \nNuclei Templates overview\n \nAn overview of the nuclei template project, including statistics on unique tags, author, directory, severity, and type of templates…",
-          "link": "https://github.com/projectdiscovery/nuclei-templates",
-          "publishedOn": "2021-10-09T00:51:28.971Z",
-          "wordCount": 1052,
-          "title": "projectdiscovery/nuclei-templates"
-        },
-        {
-          "id": "https://github.com/SAP-samples/devtoberfest-2021",
-          "author": null,
-          "description": "The home of Devtoberfest 2021 - an open celebration of what us developers do - coding and collaboration!\n\nDevtoberfest 2021 from SAP\n \n \n \n\n \n \nDescription\n \nDevtoberfest is a 6-week event, leading up to SAP TechEd. This event is to be seen as a celebration of and for Developers. Every developer is welcome to join 6 weeks of tech talks, guest speakers, community contribution through a gamified learning journey with prizes, and celebratory events.\n \nRead more about the event in the kick-off blog post\n \nRegistration: Devtoberfest Eventbite Registration Page\n \nDiscord: Devtoberfest Gaming Night Server\n \nRegister for the event on Eventbrite to recieve all the latest notifications about Devtoberfest. Registration is also required to be entered in the Contest aspects of Devtoberfest.\n \nKey Dates…",
-          "link": "https://github.com/SAP-samples/devtoberfest-2021",
-          "publishedOn": "2021-10-09T00:51:28.854Z",
-          "wordCount": 1008,
-          "title": "SAP-samples/devtoberfest-2021"
-        },
-        {
-          "id": "https://github.com/ansible/ansible",
-          "author": null,
-          "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.\n\n|PyPI version| |Docs badge| |Chat badge| |Build Status| |Code Of Conduct| |Mailing Lists| |License| |CII Best Practices|\n \n \nAnsible\n \n \nAnsible is a radically simple IT automation system. It handles configuration management, application deployment, cloud provisioning, ad-hoc task execution, network automation, and multi-node orchestration. Ansible makes complex changes like zero-downtime rolling updates with load balancers easy. More information on the An…",
-          "link": "https://github.com/ansible/ansible",
-          "publishedOn": "2021-10-09T00:51:28.771Z",
-          "wordCount": 1191,
-          "title": "ansible/ansible"
-        },
-        {
-          "id": "https://github.com/poteto/hiring-without-whiteboards",
-          "author": null,
-          "description": "⭐️ Companies that don't have a broken hiring process\n\nHiring Without Whiteboards\n \nA list of companies (or teams) that don't do \"whiteboard\" interviews. \"Whiteboards\" is used as a metaphor, and is a symbol for the kinds of CS trivia questions that are associated with bad interview practices. Whiteboards are not bad – CS trivia questions are. Using sites like HackerRank/LeetCode probably fall into a similar category.\n \nThe companies and teams listed here use interview techniques and questions that resemble day-to-day work. For example, pairing on a real world problem or a paid/unpaid take home exercise. Read (and contribute to) our recommendations for ways to conduct better interviews.\n \ntl;dr\n \n \n \nDiscussing a real world problem (with or without whiteboard) is 👍\n \n \nSolving CS trivia, te…",
-          "link": "https://github.com/poteto/hiring-without-whiteboards",
-          "publishedOn": "2021-10-09T00:51:28.721Z",
-          "wordCount": 19186,
-          "title": "poteto/hiring-without-whiteboards"
-        },
-        {
-          "id": "https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation",
-          "author": null,
-          "description": "This repository contains all the DSA (Data-Structures, Algorithms, 450 DSA by Love Babbar Bhaiya, FAANG Questions), Technical Subjects (OS + DBMS + SQL + CN + OOPs) Theory+Questions, FAANG Interview questions, and Miscellaneous Stuff (Programming MCQs, Puzzles, Aptitude, Reasoning). The Programming languages used for demonstration are C++, Pytho…\n\n  \n \n  --> \n\n \n   Full Repository Status   \n \n  \n \n  \n \n[![Discussion Tab](https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation/blob/master/images/Discussion%20Tab.PNG)](https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation/discussions) --> \n \n                            \n             \n \n \n🏆 The Complete FAANG Preparation 🏆\n \nThis repository contains all the DSA (Data-Structures, Algorithms, 450 DSA by Love Babbar Bhaiya,…",
-          "link": "https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation",
-          "publishedOn": "2021-10-09T00:51:28.618Z",
-          "wordCount": 3295,
-          "title": "AkashSingh3031/The-Complete-FAANG-Preparation"
-        },
-        {
-          "id": "https://github.com/odoo/odoo",
-          "author": null,
-          "description": "Odoo. Open Source Apps To Grow Your Business.\n\n   \n \nOdoo\n \nOdoo is a suite of web based open source business apps.\n \nThe main Odoo Apps include an Open Source CRM, Website Builder, eCommerce, Warehouse Management, Project Management, Billing & Accounting, Point of Sale, Human Resources, Marketing, Manufacturing, ...\n \nOdoo Apps can be used as stand-alone applications, but they also integrate seamlessly so you get a full-featured Open Source ERP when you install several Apps.\n \nGetting started with Odoo\n \nFor a standard installation please follow the Setup instructions from the documentation.\n \nTo learn the software, we recommend the Odoo eLearning, or Scale-up, the business game. Developers can start with the developer tutorials",
-          "link": "https://github.com/odoo/odoo",
-          "publishedOn": "2021-10-09T00:51:28.388Z",
-          "wordCount": 696,
-          "title": "odoo/odoo"
-        },
-        {
-          "id": "https://github.com/unlock-music/unlock-music",
-          "author": null,
-          "description": "Unlock encrypted music file in browser. 在浏览器中解锁加密的音乐文件。\n\nUnlock Music 音乐解锁\n \n \n \n在浏览器中解锁加密的音乐文件。 Unlock encrypted music file in the browser.\n \n \nunlock-music项目是以学习和技术研究的初衷创建的，修改、再分发时请遵循License\n \n \nUnlock Music的CLI版本正在开发中。\n \n \n我们新建了Telegram群组，欢迎加入！https://t.me/unlock_music_chat\n \n \nCLI版本 Alpha 大批量转换建议使用CLI版本\n \n \n相关的其他项目\n \n \n  \n \n特性\n \n支持的格式\n \n \n \n QQ音乐 (.qmc0/.qmc2/.qmc3/.qmcflac/.qmcogg/.tkm) \n  \n \n   \n 写入封面图片\n \n  \n  \n \n Moo音乐格式 (.bkcmp3/.bkcflac)\n \n \n QQ音乐Tm格式 (.tm0/.tm2/.tm3/.tm6)\n \n \n QQ音乐新格式 (实验性支持) \n  \n \n   \n .mflac\n \n   \n .mgg\n \n  \n  \n \n 虾米音乐格式 (.xm) (测试阶段)\n \n \n 酷我音乐格式 (.kwm) (测试阶段)\n \n \n 酷狗音乐格式 ( .kgm) (CLI版本)\n \n \n其他特性\n \n \n \n 在浏览器中解锁\n \n \n 拖放文件\n \n \n 在线播放\n \n \n 批量解锁\n \n \n 渐进式Web应用\n \n \n 多线程\n \n \n使用方法\n \n安装浏览器扩展\n \n  \n \n使用已构建版本\n \n \n \n从GitHub Release下载已构建的版本 \n  \n \n   \n本地使用请下载legacy版本（modern版本只能通过http/https协议访问）\n \n  \n  \n \n解压缩后即可部署或本地使用（请勿直接运行源代码）\n \n \n使用Docker镜像\n \ndocker run --name unlock-music -d -p 8080:80 ix64/unlock-music\n\n \n自行构建\n \n \n \n环境要求 \n  \n \n   \nnodejs\n \n   \nnpm\n \n  \n  \n \n \n \n获取项目源代码后执行 npm install 安装相关依赖\n \n \n执行 npm run build 即可进行构建，构建输出为 dist 目录\n \n \n \n \nnpm run serve 可用于开发\n \n \n \n \n如需构建浏览器扩展，build完成后还需要执行npm run make-extension",
-          "link": "https://github.com/unlock-music/unlock-music",
-          "publishedOn": "2021-10-09T00:51:28.236Z",
-          "wordCount": 598,
-          "title": "unlock-music/unlock-music"
-        },
-        {
-          "id": "https://github.com/vercel/next.js",
-          "author": null,
-          "description": "The React Framework\n\n   \nNext.js\n  \n\n \n             \n \nGetting Started\n \nVisit https://nextjs.org/learn to get started with Next.js.\n \nDocumentation\n \nVisit https://nextjs.org/docs to view the full documentation.\n \nWho is using Next.js?\n \nNext.js is used by the world's leading companies. Check out the Next.js Showcase to learn more.\n \nCommunity\n \nThe Next.js community can be found on GitHub Discussions, where you can ask questions, voice ideas, and share your projects.\n \nTo chat with other community members you can join the Next.js Discord.\n \nOur Code of Conduct applies to all Next.js community channels.\n \nContributing\n \nPlease see our contributing.md.\n \nGood First Issues\n \nWe have a list of good first issues that contain bugs which have a relatively limited scope. This is a great place to get started, gain experience, and get familiar with our contribution process.\n \nAuthors\n \n \n \nTim Neutkens (@timneutkens) – Vercel\n \n \nNaoyuki Kanezawa (@nkzawa) – Vercel\n \n \nGuillermo Rauch (@rauchg) – Vercel\n \n \nArunoda Susiripala (@arunoda)\n \n \nTony Kovanen (@tonykovanen)\n \n \nDan Zajdband (@impronunciable)",
-          "link": "https://github.com/vercel/next.js",
-          "publishedOn": "2021-10-09T00:51:28.196Z",
-          "wordCount": 1016,
-          "title": "vercel/next.js"
-        },
-        {
-          "id": "https://github.com/leerob/leerob.io",
-          "author": null,
-          "description": "✨ My portfolio built with Next.js, Tailwind, Prisma, and Vercel.\n\n\n \nleerob.io\n \n \n \nFramework: Next.js\n \n \nDatabase: PlanetScale\n \n \nORM: Prisma\n \n \nAuthentication: NextAuth.js\n \n \nDeployment: Vercel\n \n \nContent: MDX\n \n \nStyling: Tailwind CSS\n \n \nOverview\n \n \n \npages/api/* - API routes powering /dashboard, newsletter subscription, and post views.\n \n \npages/blog/* - Static pre-rendered blog pages using MDX.\n \n \npages/dashboard - Personal dashboard containing metrics like sales, views, and subscribers.\n \n \npages/* - All other static pages.\n \n \nRunning Locally\n \n$ git clone https://github.com/leerob/leerob.io.git\n$ cd leerob.io\n$ yarn\n$ yarn dev\n\n \nCreate a .env file similar to .env.example.",
-          "link": "https://github.com/leerob/leerob.io",
-          "publishedOn": "2021-10-09T00:51:27.998Z",
-          "wordCount": 684,
-          "title": "leerob/leerob.io"
-        },
-        {
-          "id": "https://github.com/mvpsbr/livrocsharp",
-          "author": null,
-          "description": "Códigos Demos do Livro C# para Iniciantes\n \n\n \nRepositório responsável pelos códigos desenvolvidos no livro C# para Iniciantes - DOWNLOAD AQUI\n \nO livro é totalmente grátis e foi desenvolvido pela Comunidade para a Comunidade!\n \n🏃 Colaboradores\n \nEsse projeto foi desenvolvido pela Comunidade para a Comunidade Técnica Brasileira. Abaixo segue as pessoas que contribuíram para o projeto:\n \n \n \n✅ André Carlucci - RD & Global Director of Application Engineering\n \n \n✅ Carlos dos Santos - MVP & P&D - Software Developer and Architect\n \n \n✅ Claudenir Andrade - RD MVP & Tech Director\n \n \n✅ Rafael Almeida - MVP & Principal Software Engineer\n \n \n✅ Ray Carneiro - Sr. Partner Technical Consultant – Azure na Microsoft\n \n \n✅ Renato Haddad - MVP & .NET Developer e Especialista em Power BI\n \n \n🚀 Recursos Utilizados\n \n \n \nVisual Studio - Download\n \n \nVisual Studio Code - Segunda Opção\n \n \n.NET (Windows, Linux ou macOS)\n \n \nExtensão Visual Studio Code - C#\n \n \nCaso sintam dificuldades para executar suas primeiras linhas de código em C# no Visual Studio Code, deixaremos abaixo dois recursos que possam te auxiliar a preparar o ambiente de desenvolvimento para seguir os códigos de exemplos do livro:\n \n \n \n .NET Tutorial - Hello World in 5 minutes\n  \n \n Get started with VS Code using C# and .NET Core on Windows - Video\n  \n \n❗️ Links & Recursos Importantes\n \n \n \n✅ Documentação Oficial do C#\n \n \n✅ Página Oficial do C#\n \n \n✅ Site Oficial DotNET - Learn .NET\n \n \n✅ C# no Visual Studio Code\n \n \n✅ Cursos Grátis C# - Microsoft Learn\n \n \n❓ Tenho Dúvidas... O que Faço?!\n \nCaso tenham dúvidas aos códigos desenvolvidos durante a série de vídeos, sintam-se à vontade em abrir uma ISSUE AQUI. Assim que possível, estaremos respondendo a todas as dúvidas que tiverem!",
-          "link": "https://github.com/mvpsbr/livrocsharp",
-          "publishedOn": "2021-10-09T00:51:27.773Z",
-          "wordCount": 741,
-          "title": "mvpsbr/livrocsharp"
         }
       ]
     }
