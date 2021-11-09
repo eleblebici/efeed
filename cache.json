@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=65481",
+          "author": "Jessie",
+          "description": "Guest post originally published on Magalix’s blog by Andrew Zola Kubernetes is a leader in container orchestration. According to Statista, as much as 46% of respondents in a recent survey stated that they...",
+          "link": "https://www.cncf.io/blog/2021/11/08/kubernetes-main-attack-vectors-tree-an-explainer-guide/",
+          "publishedOn": "2021-11-08T16:00:00.000Z",
+          "wordCount": 2083,
+          "title": "Kubernetes main attack vectors tree: an explainer guide"
+        },
+        {
           "id": "https://www.cncf.io/?p=65479",
           "author": "Jessie",
           "description": "Guest post originally published on the GlobalData blog by Charlotte Dunlap, Principal Analyst, Cloud and DevOps Services, GlobalData Technology Summary Bullets: The Open Source Security Foundation (OpenSSF), a new group focused on...",
@@ -340,6 +349,123 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/sherlock-project/sherlock",
+          "author": null,
+          "description": "🔎 Hunt down social media accounts by username across social networks\n\n  \n Hunt down social media accounts by username across social networks \n        \n \n Installation    |    Usage    |    Docker Notes    |    Contributing \n \n    \n \nInstallation\n \n# clone the repo\n$ git clone https://github.com/sherlock-project/sherlock.git\n\n# change the working directory to sherlock\n$ cd sherlock\n\n# install the requirements\n$ python3 -m pip install -r requirements.txt\n\n \n \n \nUsage\n \n$ python3 sherlock --help\nusage: sherlock [-h] [--version] [--verbose] [--folderoutput FOLDEROUTPUT]\n                [--output OUTPUT] [--tor] [--unique-tor] [--csv]\n                [--site SITE_NAME] [--proxy PROXY_URL] [--json JSON_FILE]\n                [--timeout TIMEOUT] [--print-all] [--print-found] [--no-color]\n        …",
+          "link": "https://github.com/sherlock-project/sherlock",
+          "publishedOn": "2021-11-09T00:53:38.449Z",
+          "wordCount": 1372,
+          "title": "sherlock-project/sherlock"
+        },
+        {
+          "id": "https://github.com/dockersamples/example-voting-app",
+          "author": null,
+          "description": "Example Docker Compose app\n\nExample Voting App\n \nA simple distributed application running across multiple Docker containers.\n \nGetting started\n \nDownload Docker Desktop for Mac or Windows. Docker Compose will be automatically installed. On Linux, make sure you have the latest version of Compose.\n \nLinux Containers\n \nThe Linux stack uses Python, Node.js, .NET Core (or optionally Java), with Redis for messaging and Postgres for storage.\n \n \n \nIf you're using Docker Desktop on Windows, you can run the Linux version by switching to Linux containers, or run the Windows containers version.\n \n \nRun in this directory:\n \ndocker-compose up\n\n \nThe app will be running at http://localhost:5000, and the results will be at http://localhost:5001.\n \nAlternately, if you want to run it on a Docker Swarm, fir…",
+          "link": "https://github.com/dockersamples/example-voting-app",
+          "publishedOn": "2021-11-09T00:53:38.349Z",
+          "wordCount": 1085,
+          "title": "dockersamples/example-voting-app"
+        },
+        {
+          "id": "https://github.com/commaai/openpilot",
+          "author": null,
+          "description": "openpilot is an open source driver assistance system. openpilot performs the functions of Automated Lane Centering and Adaptive Cruise Control for over 100 supported car makes and models.\n\n\n \nTable of Contents\n \n \n \nWhat is openpilot?\n \n \nRunning in a car\n \n \nRunning on PC\n \n \nCommunity and Contributing\n \n \nUser Data and comma Account\n \n \nSafety and Testing\n \n \nDirectory Structure\n \n \nLicensing\n \n \n \nWhat is openpilot?\n \nopenpilot is an open source driver assistance system. Currently, openpilot performs the functions of Adaptive Cruise Control (ACC), Automated Lane Centering (ALC), Forward Collision Warning (FCW) and Lane Departure Warning (LDW) for a growing variety of supported car makes, models and model years. In addition, while openpilot is engaged, a camera based Driver Monitoring (D…",
+          "link": "https://github.com/commaai/openpilot",
+          "publishedOn": "2021-11-09T00:53:38.281Z",
+          "wordCount": 1879,
+          "title": "commaai/openpilot"
+        },
+        {
+          "id": "https://github.com/v2fly/v2ray-core",
+          "author": null,
+          "description": "A platform for building proxies to bypass network restrictions.\n\n \n  \n \n \n \nProject V\n \n \nProject V is a set of network tools that helps you to build your own computer network. It secures your network connections and thus protects your privacy.\n \n \n    \n \nRelated Links\n \n \n \nDocumentation and Newcomer's Instructions\n \n \nWelcome to translate V2Ray documents via Transifex\n \n \nPackaging Status\n \n \n \nIf you are willing to package V2Ray for other distros/platforms, please let us know or seek for help via GitHub issues.\n \n \n\n \nLicense\n \nThe MIT License (MIT)\n \nCredits\n \nThis repo relies on the following third-party projects:\n \n \n \n In production:\n \n  \n \n   \ngorilla/websocket\n \n   \nlucas-clemente/quic-go\n \n   \npires/go-proxyproto\n \n   \nseiflotfy/cuckoofilter\n \n   \ngoogle/starlark-go\n \n   \njhump/protoreflect\n \n   \ninetaf/netaddr\n \n  \n  \n \n For testing only:\n \n  \n \n   \nmiekg/dns\n \n   \nh12w/socks",
+          "link": "https://github.com/v2fly/v2ray-core",
+          "publishedOn": "2021-11-09T00:53:38.201Z",
+          "wordCount": 771,
+          "title": "v2fly/v2ray-core"
+        },
+        {
+          "id": "https://github.com/obsproject/obs-studio",
+          "author": null,
+          "description": "OBS Studio - Free and open source software for live streaming and screen recording\n\nOBS Studio https://obsproject.com\n \n.. image:: https://github.com/obsproject/obs-studio/actions/workflows/main.yml/badge.svg?branch=master&event=push :alt: OBS Studio Build Status - GitHub Actions :target: https://github.com/obsproject/obs-studio/actions/workflows/main.yml?query=event%3Apush+branch%3Amaster\n \n.. image:: https://d322cqt584bo4o.cloudfront.net/obs-studio/localized.svg :alt: OBS Studio Translation Project Progress :target: https://crowdin.com/project/obs-studio\n \n.. image:: https://img.shields.io/discord/348973006581923840.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2 :alt: OBS Studio Discord Server :target: https://obsproject.com/discord\n \nWhat is OBS Studio?\n \nOBS St…",
+          "link": "https://github.com/obsproject/obs-studio",
+          "publishedOn": "2021-11-09T00:53:38.108Z",
+          "wordCount": 918,
+          "title": "obsproject/obs-studio"
+        },
+        {
+          "id": "https://github.com/Dreamacro/clash",
+          "author": null,
+          "description": "A rule-based tunnel in Go.\n\n  \nClash\n  \nA rule-based tunnel in Go.\n \n              \n \nFeatures\n \n \n \nLocal HTTP/HTTPS/SOCKS server with authentication support\n \n \nVMess, Shadowsocks, Trojan, Snell protocol support for remote connections\n \n \nBuilt-in DNS server that aims to minimize DNS pollution attack impact, supports DoH/DoT upstream and fake IP.\n \n \nRules based off domains, GEOIP, IPCIDR or Process to forward packets to different nodes\n \n \nRemote groups allow users to implement powerful rules. Supports automatic fallback, load balancing or auto select node based off latency\n \n \nRemote providers, allowing users to get node lists remotely instead of hardcoding in config\n \n \nNetfilter TCP redirecting. Deploy Clash on your Internet gateway with iptables.\n \n \nComprehensive HTTP RESTful API controller\n \n \nPremium Features\n \n \n \nTUN mode on macOS, Linux and Windows. Doc\n \n \nMatch your tunnel by Script\n \n \nRule Provider\n \n \nGetting Started\n \nDocumentations are now moved to GitHub Wiki.\n \nPremium Release\n \nRelease\n \nDevelopment\n \nIf you want to build an application that uses clash as a library, check out the the GitHub Wiki\n \nCredits\n \n \n \nriobard/go-shadowsocks2\n \n \nv2ray/v2ray-core\n \n \nWireGuard/wireguard-go\n \n \nLicense\n \nThis software is released under the GPL-3.0 license.",
+          "link": "https://github.com/Dreamacro/clash",
+          "publishedOn": "2021-11-09T00:53:38.035Z",
+          "wordCount": 770,
+          "title": "Dreamacro/clash"
+        },
+        {
+          "id": "https://github.com/files-community/Files",
+          "author": null,
+          "description": "A modern file manager that pushes the boundaries of the platform.\n\n  \n \n \n \nWelcome to the Files repository\n \n\n \nWhat is Files?\n \nFiles is a file manager with a powerful yet intuitive design. It has features like multiple tabs, panes, columns, shell extensions in the context menu and tags.\n \nWhere to get Files\n \n \n \nMicrosoft Store\n \n \nVision for Files\n \nOur vision for Files is to be fully functional while keeping it simple and easy to use. Whether it's implementing new features, or pushing the boundaries of the platform, your input will help shape the future of Files.\n \nWhy should I contribute?\n \nWe can confidently assert Files is the platform's best file explorer project to bring your innovations to. We focus heavily on extensibility and code modularity and have no plans to stop doing so. When you contribute to this project, you're helping everyone by fixing reported bugs, adding new features, or correcting existing behavior. These changes are quickly included in the final product for all users to benefit from.\n \nWe welcome discussions and contributions to our repository, however to help maintain a healthy community, please read our code of conduct.\n \nBuilding Files source\n \n \n \nInstall Visual Studio 2019 and the UWP Development Kit.\n \n \nClone the repository and open the Files.sln in VS.\n \n \nVisual Studio will install all missing dependencies.\n \n \nRun the Files.Package project.\n \n \nView our Contributing guidelines\n \nFAQ\n \nHave any questions? Check out our documentation site!",
+          "link": "https://github.com/files-community/Files",
+          "publishedOn": "2021-11-09T00:53:37.980Z",
+          "wordCount": 804,
+          "title": "files-community/Files"
+        },
+        {
+          "id": "https://github.com/aeon0/botty",
+          "author": null,
+          "description": "D2R Pixel Bot\n\n\n \nSimple Pixelbot for Diablo 2 Resurrected written in python and opencv. Obviously only use it in offline mode as it is against the TOS of Blizzard to use it in online mode! Download here\n \nJoin the Discord Channel for help and discussions.\n \n\n \nWhat it does\n \n \n \nRun Pindle, Eldtritch, Shenk\n \n \nPickit with per item config\n \n \nStash picked up items (using all 4 stashes)\n \n \nPrebuff\n \n \nRevive Merc if dead\n \n \nHeal at Malah if needed\n \n \nTake potions (health and mana) and chicken if in trouble during fights\n \n \nCheck for death. In this case start another game and pick up corpse.\n \n \nSupported builds: Sorceress (Blizz, Light, Meteor), Hammerdin\n \n \nDebug color checker to easily verify your settings\n \n \nRuns in Hyper-V\n \n \nGetting started\n \n1) Graphics and Gameplay Settings\n …",
+          "link": "https://github.com/aeon0/botty",
+          "publishedOn": "2021-11-09T00:53:37.932Z",
+          "wordCount": 1595,
+          "title": "aeon0/botty"
+        },
+        {
+          "id": "https://github.com/babysor/MockingBird",
+          "author": null,
+          "description": "🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time\n\n\n \n\n \n \n \nEnglish | 中文\n \n \nFeatures\n \n🌍 Chinese supported mandarin and tested with multiple datasets: aidatatang_200zh, magicdata, aishell3, data_aishell, and etc.\n \n🤩 PyTorch worked for pytorch, tested in version of 1.9.0(latest in August 2021), with GPU Tesla T4 and GTX 2060\n \n🌍 Windows + Linux run in both Windows OS and linux OS (even in M1 MACOS)\n \n🤩 Easy & Awesome effect with only newly-trained synthesizer, by reusing the pretrained encoder/vocoder\n \n🌍 Webserver Ready to serve your result with remote calling\n \nDEMO VIDEO\n \nQuick Start\n \n1. Install Requirements\n \n \n \nFollow the original repo to test if you got all environment ready. **Python 3.7 or higher ** is needed to run the toolbo…",
+          "link": "https://github.com/babysor/MockingBird",
+          "publishedOn": "2021-11-09T00:53:37.850Z",
+          "wordCount": 1661,
+          "title": "babysor/MockingBird"
+        },
+        {
+          "id": "https://github.com/ACL4SSR/ACL4SSR",
+          "author": null,
+          "description": "SSR 去广告ACL规则/SS完整GFWList规则/Clash规则碎片，Telegram频道订阅地址\n\nrm",
+          "link": "https://github.com/ACL4SSR/ACL4SSR",
+          "publishedOn": "2021-11-09T00:53:37.786Z",
+          "wordCount": 334,
+          "title": "ACL4SSR/ACL4SSR"
+        },
+        {
+          "id": "https://github.com/freefq/free",
+          "author": null,
+          "description": "翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子\n\n更新时间 2021-11-08 08:00\n 所有免费节点都爬取自网络，请勿用于非法用途\n \n \n  \n  \n \n   工具 \n   Android \n   Windows \n   iOS \n  \n \n  \n  \n  \n \n   v2ray \n   v2rayNG \n   v2rayN \n   OneClick \n  \n \n  \n \nv2rayN使用教程：点击查看\n \n节点导入方法\n \nCTRL+A网页全选，CTRL+C复制，右键点击任务栏v2rayN客户端图标，左键点击从剪贴板批量导入URL，即可一键导入所有v2ray节点\n \n节点更新订阅\n \n \n \nhttps://raw.fastgit.org/freefq/free/master/v2\n \n \n自建节点订阅\n \nbulink.xyz注册（要翻墙）除可订阅本页免费节点，还有每月5G自建节点免费流量，不用打卡签到长期有效，欢迎体验\n \nv2ray\n \ntrojan://d8aacec8-e256-427b-a927-0c6013f6595b@t1.ssrsub.com:833#github.com/freefq%20-%20%E7%BE%8E%E5%9B%BD%E5%86%85%E5%8D%8E%E8%BE%BE%E5%B7%9E%E6%8B%89%E6%96%AF%E7%BB%B4%E5%8A%A0%E6%96%AFBuyVM%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%201  \nvmess://eyJ2IjogIjIiLCAicHMiOiAiZ2l0aHViLmNvbS9mcmVlZnEgLSBcdTgyZjFcdTU2ZmRcdTRmMjZcdTY1NjZBbWF6b…",
+          "link": "https://github.com/freefq/free",
+          "publishedOn": "2021-11-09T00:53:37.746Z",
+          "wordCount": 393,
+          "title": "freefq/free"
+        },
+        {
+          "id": "https://github.com/getfotiaoqiang/download",
+          "author": null,
+          "description": "佛跳墙官方版本下载页 翻墙 代理 科学上网 外网 加速器 梯子 路由\n\n佛跳墙（fotiaoqiang）最新版本下载 Latest version of fotiaoqiang\n \n \n \n Android \n \n \n Android备用下载地址 \n \n \n Android备用下载地址2 \n \n \n Android备用下载地址3 \n \n \n Windows \n \n \n Windows备用下载地址 \n \n \n Windows备用下载地址2 \n \n \n Windows备用下载地址3 \n \n \n Mac OS \n \n \n Mac OS备用下载地址 \n \n \n Mac OS备用下载地址2 \n \n \n Mac OS备用下载地址3 \n \n \n IOS \n \n \n备注：请务必收藏本页面，方便日后下载新版本（本页面为官方唯一防封下载发布页）Remarks: Please be sure to bookmark this page so that you can download new versions in the future (this page is the only official anti-blocking download release page)\n \nFAQ",
+          "link": "https://github.com/getfotiaoqiang/download",
+          "publishedOn": "2021-11-09T00:53:37.675Z",
+          "wordCount": 430,
+          "title": "getfotiaoqiang/download"
+        },
+        {
+          "id": "https://github.com/233boy/v2ray",
+          "author": null,
+          "description": "最好用的 V2Ray 一键安装脚本 & 管理脚本\n\nRemoved",
+          "link": "https://github.com/233boy/v2ray",
+          "publishedOn": "2021-11-09T00:53:37.628Z",
+          "wordCount": 341,
+          "title": "233boy/v2ray"
+        },
         {
           "id": "https://github.com/github/gitignore",
           "author": null,
@@ -3309,141 +3435,6 @@
           "publishedOn": "2021-10-11T00:55:26.852Z",
           "wordCount": 368,
           "title": "peng-zhihui/Dummy-Robot"
-        },
-        {
-          "id": "https://github.com/angular/angular",
-          "author": null,
-          "description": "The modern web developer’s platform\n\nAngular - The modern web developer's platform.\n \n  \n Angular is a development platform for building mobile and desktop web applications \n using Typescript/JavaScript and other languages. \n  \n www.angular.io \n  \n Contributing Guidelines · Submit an Issue · Blog \n  \n \n            \n \n \nDocumentation\n \nGet started with Angular, learn the fundamentals and explore advanced topics on our documentation website.\n \n \n \nGetting Started\n \n \nArchitecture\n \n \nComponents and Templates\n \n \nForms\n \n \nAPI\n \n \nAdvanced\n \n \n \nAngular Elements\n \n \nServer Side Rendering\n \n \nSchematics\n \n \nLazy Loading\n \n \nDevelopment Setup\n \nPrerequisites\n \n \n \nInstall Node.js which includes Node Package Manager\n \n \nSetting Up a Project\n \nInstall the Angular CLI globally:\n \nnpm install -g @angular/cli\n\n \nCreate workspace:\n \nng new [PROJECT NAME]\n\n \nRun the application:\n \ncd [PROJECT NAME]\nng serve\n\n \nAngular is cross-platform, fast, scalable, has incredible tooling, and is loved by millions.\n \nQuickstart\n \nGet started in 5 minutes.\n \nEcosystem\n \n  \n \n \n \nAngular Command Line (CLI)\n \n \nAngular Material\n \n \nChangelog\n \nLearn about the latest improvements.\n \nUpgrading\n \nCheck out our upgrade guide to find out the best way to upgrade your project.\n \nContributing\n \nContributing Guidelines\n \nRead through our contributing guidelines to learn about our submission process, coding rules and more.\n \nWant to Help?\n \nWant to file a bug, contribute some code, or improve documentation? Excellent! Read up on our guidelines for contributing and then check out one of our issues labeled as help wanted or good first issue.\n \nCode of Conduct\n \nHelp us keep Angular open and inclusive. Please read and follow our Code of Conduct.\n \nCommunity\n \nJoin the conversation and help the community.\n \n \n \nTwitter\n \n \nDiscord\n \n \nGitter\n \n \nYouTube\n \n \nStackOverflow\n \n \nFind a Local Meetup\n \n \n\n \nLove Angular? Give our repo a star ⭐ ⬆.",
-          "link": "https://github.com/angular/angular",
-          "publishedOn": "2021-10-10T00:55:23.748Z",
-          "wordCount": 1240,
-          "title": "angular/angular"
-        },
-        {
-          "id": "https://github.com/trailofbits/algo",
-          "author": null,
-          "description": "Set up a personal VPN in the cloud\n\nAlgo VPN\n \n \n \nAlgo VPN is a set of Ansible scripts that simplify the setup of a personal WireGuard and IPsec VPN. It uses the most secure defaults available and works with common cloud providers. See our release announcement for more information.\n \nFeatures\n \n \n \nSupports only IKEv2 with strong crypto (AES-GCM, SHA2, and P-256) for iOS, macOS, and Linux\n \n \nSupports WireGuard for all of the above, in addition to Android and Windows 10\n \n \nGenerates .conf files and QR codes for iOS, macOS, Android, and Windows WireGuard clients\n \n \nGenerates Apple profiles to auto-configure iOS and macOS devices for IPsec - no client software required\n \n \nIncludes a helper script to add and remove users\n \n \nBlocks ads with a local DNS resolver (optional)\n \n \nSets up limi…",
-          "link": "https://github.com/trailofbits/algo",
-          "publishedOn": "2021-10-10T00:55:23.578Z",
-          "wordCount": 2798,
-          "title": "trailofbits/algo"
-        },
-        {
-          "id": "https://github.com/arkenfox/user.js",
-          "author": null,
-          "description": "Firefox privacy, security and anti-fingerprinting: a comprehensive user.js template for configuration and hardening\n\n🟪 user.js\n \nA user.js is a configuration file that can control hundreds of Firefox settings. For a more technical breakdown and explanation, you can read more on the overview wiki page.\n \n🟩 the arkenfox user.js\n \n\n \nThe arkenfox user.js is a template which aims to provide as much privacy and enhanced security as possible, and to reduce tracking and fingerprinting as much as possible - while minimizing any loss of functionality and breakage (but it will happen).\n \nEveryone, experts included, should at least read the implementation wiki page, as it contains important information regarding a few user.js settings.\n \nNote that we do not recommend connecting over Tor on Firefox. Use the Tor Browser if your threat model calls for it, or for accessing hidden services.\n \nAlso be aware that the arkenfox user.js is made specifically for desktop Firefox. Using it as-is in other Gecko-based browsers can be counterproductive, especially in the Tor Browser.\n \n🟧 sitemap\n \n \n \nreleases\n \n \nchangelogs\n \n \nwiki\n \n \nstickies\n \n \ndiffs\n \n \n🟥 acknowledgments\n \nLiterally thousands of sources, references and suggestions. Many thanks, and much appreciated.",
-          "link": "https://github.com/arkenfox/user.js",
-          "publishedOn": "2021-10-10T00:55:23.258Z",
-          "wordCount": 669,
-          "title": "arkenfox/user.js"
-        },
-        {
-          "id": "https://github.com/WordPress/twentytwentytwo",
-          "author": null,
-          "description": "Twenty Twenty-Two, the default WordPress theme that will launch with WordPress 5.9.\n\nTwenty Twenty-Two\n \nWelcome to the development repository for the default theme that will launch with WordPress 5.9.\n \n \nAbout\n \nTwenty Twenty-Two is designed to be the most flexible default theme ever created for WordPress. It's built for full site editing first as a block theme. The theme aims to ship with as little CSS as possible: our goal is for all theme styles to be configured through theme.json and editable through Global Styles. The theme development team will work closely with Gutenberg contributors to build design tools in the block editor that enable this goal.\n \nContributing\n \nIf you would like to contribute code, the list of open issues is a great place to start looking for tasks. Pull reques…",
-          "link": "https://github.com/WordPress/twentytwentytwo",
-          "publishedOn": "2021-10-10T00:55:23.225Z",
-          "wordCount": 951,
-          "title": "WordPress/twentytwentytwo"
-        },
-        {
-          "id": "https://github.com/aws/jsii",
-          "author": null,
-          "description": "jsii allows code in any language to naturally interact with JavaScript classes. It is the technology that enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase!\n\n\n \n    \n \nOverview\n \njsii allows code in any language to naturally interact with JavaScript classes. It is the technology that enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase!\n \nA class library written in TypeScript can be used in projects authored in TypeScript or Javascript (as usual), but also in Python, Java, C# (and other languages from the .NET family), ...\n \n❓ Documentation\n \nHead over to our documentation website!\n \n📖 Blog Posts\n \nHere's a collection of blog posts (in chronological order) related to jsii:\n \n \n \n2020-01-11:  How to Create CDK C…",
-          "link": "https://github.com/aws/jsii",
-          "publishedOn": "2021-10-10T00:55:23.011Z",
-          "wordCount": 1376,
-          "title": "aws/jsii"
-        },
-        {
-          "id": "https://github.com/argoproj/argo-cd",
-          "author": null,
-          "description": "Declarative continuous deployment for Kubernetes.\n\n    \n \nArgo CD - Declarative Continuous Delivery for Kubernetes\n \nWhat is Argo CD?\n \nArgo CD is a declarative, GitOps continuous delivery tool for Kubernetes.\n \n\n \n\n \nWhy Argo CD?\n \n \n \nApplication definitions, configurations, and environments should be declarative and version controlled.\n \n \nApplication deployment and lifecycle management should be automated, auditable, and easy to understand.\n \n \nWho uses Argo CD?\n \nOfficial Argo CD user list\n \nDocumentation\n \nTo learn more about Argo CD go to the complete documentation. Check live demo at https://cd.apps.argoproj.io/.\n \nCommunity\n \nContribution, Discussion and Support\n \nYou can reach the Argo CD community and developers via the following channels:\n \n \n \nQ & A : Github Discussions\n \n \nCh…",
-          "link": "https://github.com/argoproj/argo-cd",
-          "publishedOn": "2021-10-10T00:55:22.916Z",
-          "wordCount": 1329,
-          "title": "argoproj/argo-cd"
-        },
-        {
-          "id": "https://github.com/tristanhimmelman/ObjectMapper",
-          "author": null,
-          "description": "Simple JSON Object mapping written in Swift\n\nObjectMapper\n \n   \n \nObjectMapper is a framework written in Swift that makes it easy for you to convert your model objects (classes and structs) to and from JSON.\n \n \n \nFeatures\n \n \nThe Basics\n \n \nMapping Nested Objects\n \n \nCustom Transformations\n \n \nSubclassing\n \n \nGeneric Objects\n \n \nMapping Context\n \n \nObjectMapper + Alamofire\n \n \nObjectMapper + Realm\n \n \nProjects using ObjectMapper\n \n \nTo Do\n \n \nContributing\n \n \nInstallation\n \n \nFeatures:\n \n \n \nMapping JSON to objects\n \n \nMapping objects to JSON\n \n \nNested Objects (stand alone, in arrays or in dictionaries)\n \n \nCustom transformations during mapping\n \n \nStruct support\n \n \nImmutable support\n \n \nThe Basics\n \nTo support mapping, a class or struct just needs to implement the Mappable protocol whi…",
-          "link": "https://github.com/tristanhimmelman/ObjectMapper",
-          "publishedOn": "2021-10-10T00:55:22.865Z",
-          "wordCount": 2670,
-          "title": "tristanhimmelman/ObjectMapper"
-        },
-        {
-          "id": "https://github.com/lvgl/lvgl",
-          "author": null,
-          "description": "Powerful and easy-to-use embedded GUI library with many widgets, advanced visual effects (opacity, antialiasing, animations) and low memory requirements (16K RAM, 64K Flash).\n\n LVGL - Light and Versatile Graphics Library\n \n  \n \n LVGL provides everything you need to create an embedded GUI with easy-to-use graphical elements, beautiful visual effects and a low memory footprint. \n \n Website  · Docs · Forum · Services · Interactive examples \n \n \nTable of content\n \n \n \nOverview\n \n \nGet started\n \n \nExamples\n \n \nServices\n \n \nContributing\n \n \nOverview\n \nFeatures\n \n \n \nPowerful building blocks: buttons, charts, lists, sliders, images, etc.\n \n \nAdvanced graphics engine: animations, anti-aliasing, opacity, smooth scrolling, blending modes, etc\n \n \nSupports various input devices: touchscreen, mouse, k…",
-          "link": "https://github.com/lvgl/lvgl",
-          "publishedOn": "2021-10-10T00:55:22.821Z",
-          "wordCount": 1359,
-          "title": "lvgl/lvgl"
-        },
-        {
-          "id": "https://github.com/wireshark/wireshark",
-          "author": null,
-          "description": "Read-only mirror of Wireshark's Git repository at https://gitlab.com/wireshark/wireshark. GitHub won't let us disable pull requests. ☞ THEY WILL BE IGNORED HERE ☜ Please upload them at GitLab.\n\nGeneral Information\n \nWireshark is a network traffic analyzer, or \"sniffer\", for Linux, macOS, *BSD and other Unix and Unix-like operating systems and for Windows. It uses Qt, a graphical user interface library, and libpcap and npcap as packet capture and filtering libraries.\n \nThe Wireshark distribution also comes with TShark, which is a line-oriented sniffer (similar to Sun's snoop or tcpdump) that uses the same dissection, capture-file reading and writing, and packet filtering code as Wireshark, and with editcap, which is a program to read capture files and write the packets from that capture fil…",
-          "link": "https://github.com/wireshark/wireshark",
-          "publishedOn": "2021-10-10T00:55:22.764Z",
-          "wordCount": 1933,
-          "title": "wireshark/wireshark"
-        },
-        {
-          "id": "https://github.com/vapor/vapor",
-          "author": null,
-          "description": "💧 A server-side Swift HTTP web framework.\n \n \n \n                   \n \n \nVapor is an HTTP web framework for Swift. It provides a beautifully expressive and easy-to-use foundation for your next website, API, or cloud project.\n \nTake a look at some of the awesome stuff created with Vapor.\n \n💧 Community\n \nJoin the welcoming community of fellow Vapor developers on Discord.\n \n🚀 Contributing\n \nTo contribute a feature or idea to Vapor, create an issue explaining your idea or bring it up on Discord.\n \nIf you find a bug, please create an issue.\n \nIf you find a security vulnerability, please contact security@vapor.codes as soon as possible.\n \n💛 Sponsors\n \nSupport Vapor's development by becoming a sponsor.\n \n   \n   \n   \n   \n   \n   \n   \n   \n💚 Backers\n \nSupport Vapor's development by becoming a backer.",
-          "link": "https://github.com/vapor/vapor",
-          "publishedOn": "2021-10-10T00:55:22.661Z",
-          "wordCount": 588,
-          "title": "vapor/vapor"
-        },
-        {
-          "id": "https://github.com/hashicorp/boundary",
-          "author": null,
-          "description": "Boundary enables identity-based access management for dynamic infrastructure.\n\nBoundary\n \n \n \nPlease note: We take Boundary's security and our users' trust very seriously. If you believe you have found a security issue in Boundary, please responsibly disclose by contacting us at security@hashicorp.com.\n \n \nBoundary provides simple and secure access to hosts and services.\n \nTraditional approaches like SSH bastion hosts or VPNs require distributing and managing credentials, configuring network controls like firewalls, and exposing the private network. Boundary provides a secure way to access hosts and critical systems without having to manage credentials or expose your network, and is entirely open source.\n \nBoundary is designed to be straightforward to understand, highly scalable, and resil…",
-          "link": "https://github.com/hashicorp/boundary",
-          "publishedOn": "2021-10-10T00:55:22.582Z",
-          "wordCount": 1863,
-          "title": "hashicorp/boundary"
-        },
-        {
-          "id": "https://github.com/raywenderlich/flta-materials",
-          "author": null,
-          "description": "The projects and the materials that accompany the Flutter Apprentice book\n\nFlutter Apprentice: Materials\n \nThis repo contains all the downloadable materials and projects associated with the Flutter Apprentice from raywenderlich.com.\n \nEach edition has its own branch, named editions/[EDITION]. The default branch for this repo is for the most recent edition.\n \nForum\n \nWe’ve set up an official forum for the book at https://forums.raywenderlich.com/c/books/flutter-apprentice. This is a great place to ask questions about the book or to submit any errors you may find.\n \nRelease History\n \n \n  \n  \n \n   Branch \n   Edition \n   Release Date \n  \n \n  \n  \n  \n \n   editions/1.0 \n   1.0 \n   2021-06-02 \n  \n \n  \n \n   editions/2.0 \n   2.0 \n   2021-10-06",
-          "link": "https://github.com/raywenderlich/flta-materials",
-          "publishedOn": "2021-10-10T00:55:22.535Z",
-          "wordCount": 632,
-          "title": "raywenderlich/flta-materials"
-        },
-        {
-          "id": "https://github.com/gnuradio/gnuradio",
-          "author": null,
-          "description": "GNU Radio – the Free and Open Software Radio Ecosystem\n\n  \n \n    \n \nGNU Radio is a free & open-source software development toolkit that provides signal processing blocks to implement software radios. It can be used with readily-available, low-cost external RF hardware to create software-defined radios, or without hardware in a simulation-like environment. It is widely used in hobbyist, academic, and commercial environments to support both wireless communications research and real-world radio systems.\n \nPlease visit the GNU Radio website at https://www.gnuradio.org/ and the wiki at https://wiki.gnuradio.org/. Bugs and feature requests are tracked on GitHub's Issue Tracker. If you have questions about GNU Radio, please search the discuss-gnuradio mailing list archive, as many questions have …",
-          "link": "https://github.com/gnuradio/gnuradio",
-          "publishedOn": "2021-10-10T00:55:22.492Z",
-          "wordCount": 1299,
-          "title": "gnuradio/gnuradio"
-        },
-        {
-          "id": "https://github.com/isometimes/rpi4-osdev",
-          "author": null,
-          "description": "Tutorial: Writing a \"bare metal\" operating system for Raspberry Pi 4\n\nWriting a \"bare metal\" operating system for Raspberry Pi 4\n \nIntroduction\n \nAs a tech CEO @RealVNC, I don't write code any more. And I've recently realised just how much I miss it.\n \nCurrently in the throes of a nationwide \"lockdown\" due to Covid-19 (and having been spared my usual commute), I've found myself with more hours in the day. I have taken this time for myself and used it to fulfil a childhood ambition - to write a bare metal operating system that runs on commercial hardware.\n \nWhat does bare metal mean?\n \nWhen we buy a computer or a tablet/smartphone it typically comes with some basic software pre-installed. You'll likely be familiar with watching Microsoft Windows, Mac OS, iOS, Android or maybe even Linux sta…",
-          "link": "https://github.com/isometimes/rpi4-osdev",
-          "publishedOn": "2021-10-10T00:55:22.439Z",
-          "wordCount": 1756,
-          "title": "isometimes/rpi4-osdev"
-        },
-        {
-          "id": "https://github.com/Hack-with-Github/Awesome-Hacking",
-          "author": null,
-          "description": "A collection of various awesome lists for hackers, pentesters and security researchers\n\n\n \nAwesome Hacking \n \nA collection of awesome lists for hackers, pentesters & security researchers.\n \nYour contributions are always welcome !\n \nAwesome Repositories\n \n \n  \n  \n \n   Repository \n   Description \n  \n \n  \n  \n  \n \n   Android Security \n   Collection of Android security related resources \n  \n \n  \n \n   AppSec \n   Resources for learning about application security \n  \n \n  \n \n   Asset Discovery \n   List of resources which help during asset discovery phase of a security assessment engagement \n  \n \n  \n \n   Bug Bounty \n   List of Bug Bounty Programs and write-ups from the Bug Bounty hunters \n  \n \n  \n \n   Capsulecorp Pentest \n   Vagrant+Ansible virtual network penetration testing lab. Companion to \"The …",
-          "link": "https://github.com/Hack-with-Github/Awesome-Hacking",
-          "publishedOn": "2021-10-10T00:55:22.341Z",
-          "wordCount": 1338,
-          "title": "Hack-with-Github/Awesome-Hacking"
         }
       ]
     }
