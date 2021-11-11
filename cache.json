@@ -22,6 +22,24 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=65580",
+          "author": "Jessie",
+          "description": "Guest post originally published on Vitess’ blog by Andres Taylor Query planning is hard # Have you ever wondered what goes on behind the scenes when you execute a SQL query? What steps...",
+          "link": "https://www.cncf.io/blog/2021/11/10/why-write-a-new-planner/",
+          "publishedOn": "2021-11-10T16:00:00.000Z",
+          "wordCount": 1632,
+          "title": "Vitess: Why write a new planner"
+        },
+        {
+          "id": "https://www.cncf.io/?p=65576",
+          "author": "Jessie",
+          "description": "Guest post originally published on Kiratech’s blog by Diego Brag Krateo PlatformOps, an open-source project developed by Kiratech’s Cloud Native Dev Team, integrating Backstage, an open platform created by the Spotify IT team and...",
+          "link": "https://www.cncf.io/blog/2021/11/10/how-krateo-platformops-integrates-backstage/",
+          "publishedOn": "2021-11-10T16:00:00.000Z",
+          "wordCount": 1102,
+          "title": "How Krateo PlatformOps integrates Backstage"
+        },
+        {
           "id": "https://www.cncf.io/?p=65570",
           "author": "Jessie",
           "description": "Guest post originally published on Kong’s blog by Scott Lowe In my Service Mesh 101 article, I talked about some of the basics behind a service mesh: what it is, what it does and...",
@@ -335,15 +353,6 @@
           "publishedOn": "2021-10-12T13:00:00.000Z",
           "wordCount": 2154,
           "title": "Falco plugins early access"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64998",
-          "author": "Jessie",
-          "description": "Guest post from Nutanix Organizations worldwide are adopting Kubernetes and cloud native technologies at breakneck pace. Containers have become the new norm of packaging applications and Kubernetes is at the forefront, orchestrating...",
-          "link": "https://www.cncf.io/blog/2021/10/11/how-to-run-containers-and-vms-side-by-side-on-nutanix-karbon/",
-          "publishedOn": "2021-10-11T20:49:14.000Z",
-          "wordCount": 2528,
-          "title": "How to run containers and VMs side-by-side on Nutanix Karbon"
         }
       ]
     },
@@ -358,6 +367,123 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/digitalocean/nginxconfig.io",
+          "author": null,
+          "description": "⚙️ NGINX config generator on steroids 💉\n\n   \n    \n \n\n \n⚙️ NGINX configuration generator on steroids 💉\n \n The only tool you'll ever need to configure your NGINX server. \n do.co/nginxconfig » \n  Report a bug · Request a feature \n \n \n✨ NGINX Config\n \nNGINX is so much more than just a webserver. You already knew that, probably.\n \nWe love NGINX, because:\n \n \n \nLow memory usage\n \n \nHigh concurrency\n \n \nAsynchronous event-driven architecture\n \n \nLoad balancing\n \n \nReverse proxying\n \n \nFastCGI support with caching (PHP)\n \n \nAmazing fast handling of static files\n \n \nTLS/SSL with SNI\n \n \nA lot of features with corresponding configuration directives. You can deep dive into the NGINX documentation right now OR you can use this tool to check how NGINX works, observe how your inputs are affecting the …",
+          "link": "https://github.com/digitalocean/nginxconfig.io",
+          "publishedOn": "2021-11-11T00:54:16.922Z",
+          "wordCount": 804,
+          "title": "digitalocean/nginxconfig.io"
+        },
+        {
+          "id": "https://github.com/halfrost/LeetCode-Go",
+          "author": null,
+          "description": "✅ Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% / LeetCode 题解\n\nLeetCode in Go\n \nLeetCode Online Judge is a website containing many algorithm questions. Most of them are real interview questions of Google, Facebook, LinkedIn, Apple, etc. and it always help to sharp our algorithm Skills. Level up your coding skills and quickly land a job. This is the best place to expand your knowledge and get prepared for your next interview. This repo shows my solutions in Go with the code style strictly follows the Google Golang Style Guide. Please feel free to reference and STAR to support this repo, thank you!\n \n  \n \n\n \n        \n -->   \n \n           \n \n支持 Progressive Web Apps 和 Dark Mode 的题解电子书《LeetCode Cookbook》 Online Reading\n \n   \n \n离线版本的电子书《LeetCode Cookbook》PDF Download here\n …",
+          "link": "https://github.com/halfrost/LeetCode-Go",
+          "publishedOn": "2021-11-11T00:54:16.896Z",
+          "wordCount": 19167,
+          "title": "halfrost/LeetCode-Go"
+        },
+        {
+          "id": "https://github.com/minio/minio",
+          "author": null,
+          "description": "High Performance, Kubernetes Native Object Storage\n\nMinIO Quickstart Guide\n \n  \n \n\n \nMinIO is a High Performance Object Storage released under GNU Affero General Public License v3.0. It is API compatible with Amazon S3 cloud storage service. Use MinIO to build high performance infrastructure for machine learning, analytics and application data workloads.\n \nThis README provides quickstart instructions on running MinIO on baremetal hardware, including container-based installations. For Kubernetes environments, use the MinIO Kubernetes Operator.\n \nContainer Installation\n \nUse the following commands to run a standalone MinIO server as a container.\n \nStandalone MinIO servers are best suited for early development and evaluation. Certain features such as versioning, object locking, and bucket rep…",
+          "link": "https://github.com/minio/minio",
+          "publishedOn": "2021-11-11T00:54:16.623Z",
+          "wordCount": 3322,
+          "title": "minio/minio"
+        },
+        {
+          "id": "https://github.com/halfrost/Halfrost-Field",
+          "author": null,
+          "description": "✍🏻 这里是写博客的地方 —— Halfrost-Field 冰霜之地\n\nHalfrost-Field 冰霜之地\n \n  \n \n          \n \n        \n \n⭐️ 为什么要建这个仓库\n \n世人都说阅读开源框架的源代码对于功力有显著的提升，所以我也尝试阅读开源框架的源代码，并对其内容进行详细地分析和理解。在这里将自己阅读开源框架源代码的心得记录下来，希望能对各位开发者有所帮助。我会不断更新这个仓库中的文章，如果想要关注可以点 star。\n \n📖 目录\n \n🐳 Go\n \n \n  \n  \n \n   Project \n   Version \n   Article \n  \n \n  \n  \n  \n \n   Go \n   1.16 darwin/amd64 \n   Go 初学者的成长之路\n初探 Go 的编译命令执行过程\n深入解析 Go Slice 底层实现\n如何设计并实现一个线程安全的 Map ？(上篇)\n如何设计并实现一个线程安全的 Map ？(下篇)\n面试中 LRU / LFU 的青铜与王者\n深入研究 Go interface 底层实现\nGo reflection 三定律与最佳实践\n深入 Go 并发原语 — Channel 底层实现\n \n  \n \n  \n \n   空间搜索 \n   golang/geo \n   如何理解 n 维空间和 n 维时空\n高效的多维空间点索引算法 — Geohash 和 Google S2\nGoogle S2 中的 CellID 是如何生成的 ？\nGoogle S2 中的四叉树求 LCA 最近公共祖先\n神奇的德布鲁因序列\n四叉树上如何求希尔伯特曲线的邻居 ？\nGoogle S2 是如何解决空间覆盖最优解问题的?\n---------------------------------------------------------------…",
+          "link": "https://github.com/halfrost/Halfrost-Field",
+          "publishedOn": "2021-11-11T00:54:16.567Z",
+          "wordCount": 1127,
+          "title": "halfrost/Halfrost-Field"
+        },
+        {
+          "id": "https://github.com/Asabeneh/30-Days-Of-JavaScript",
+          "author": null,
+          "description": "30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days, please just follow your own pace.\n\n30 Days Of JavaScript\n \n \n  \n  \n \n   # Day \n   Topics \n  \n \n  \n  \n  \n \n   01 \n   Introduction \n  \n \n  \n \n   02 \n   Data Types \n  \n \n  \n \n   03 \n   Booleans, Operators, Date \n  \n \n  \n \n   04 \n   Conditionals \n  \n \n  \n \n   05 \n   Arrays \n  \n \n  \n \n   06 \n   Loops \n  \n \n  \n \n   07 \n   Functions \n  \n \n  \n \n   08 \n   Objects \n  \n \n  \n \n   09 \n   Higher Order Functions \n  \n \n  \n \n   10 \n   Sets and Maps \n  \n \n  \n \n   11 \n   Destructuring and Spreading \n  \n \n  \n \n   12 \n   Regular Expressions \n  \n \n  \n \n   13 \n   Console Object Methods \n  \n \n  \n \n   14 \n   Error Handling \n  \n \n  \n \n   15 \n   Classes …",
+          "link": "https://github.com/Asabeneh/30-Days-Of-JavaScript",
+          "publishedOn": "2021-11-11T00:54:16.520Z",
+          "wordCount": 3581,
+          "title": "Asabeneh/30-Days-Of-JavaScript"
+        },
+        {
+          "id": "https://github.com/thunlp/WantWords",
+          "author": null,
+          "description": "An open-source online reverse dictionary.\n\n    \n \nAn open-source online reverse dictionary \n \nWhat Is a Reverse Dictionary?\n \nOpposite to a regular (forward) dictionary that provides definitions for query words, a reverse dictionary returns words semantically matching the query descriptions.\n \n \nWhat Can a Reverse Dictionary Do?\n \n \n \nSolve the tip-of-the-tongue problem, the phenomenon of failing to retrieve a word from memory\n \n \nHelp new language learners\n \n \nHelp word selection (or word dictionary) anomia patients, people who can recognize and describe an object but fail to name it due to neurological disorder\n \n \nOur System\n \nWorkflow\n \n \nCore Model\n \nThe core model of WantWords is based on our proposed Multi-channel Reverse Dictionary Model [paper] [code], as illustrate in the following figure.\n \n \nPre-trained Models and Data\n \nDownload and decompress data and pretrained models to BASE_PATH/website_RD/.\n \nDecompress data.rar under BASE_PATH/website_RD/.\n \nKey Requirements\n \n \n \nDjango==2.2.5\n \n \ndjango-cors-headers==3.5.0\n \n \nnumpy==1.17.2\n \n \npytorch-transformers==1.2.0\n \n \nrequests==2.22.0\n \n \nscikit-learn==0.22.1\n \n \nscipy==1.4.1\n \n \nthulac==0.2.0\n \n \ntorch==1.2.0\n \n \nurllib3==1.25.6\n \n \nuWSGI==2.0.18\n \n \nuwsgitop==0.11\n \n \nCite\n \nIf the code or data help you, please cite the following two papers.\n \n@inproceedings{qi2020wantwords,\n  title={WantWords: An Open-source Online Reverse Dictionary System},\n  author={Qi, Fanchao and Zhang, Lei and Yang, Yanhui and Liu, Zhiyuan and Sun, Maosong},\n  booktitle={Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations},\n  pages={175--181},\n  year={2020}\n}\n\n@inproceedings{zhang2020multi,\n  title={Multi-channel reverse dictionary model},\n  author={Zhang, Lei and Qi, Fanchao and Liu, Zhiyuan and Wang, Yasheng and Liu, Qun and Sun, Maosong},\n  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},\n  pages={312--319},\n  year={2020}\n}",
+          "link": "https://github.com/thunlp/WantWords",
+          "publishedOn": "2021-11-11T00:54:16.448Z",
+          "wordCount": 667,
+          "title": "thunlp/WantWords"
+        },
+        {
+          "id": "https://github.com/Skykai521/AndroidDeveloperAdvancedManual",
+          "author": null,
+          "description": "Android 工程师进阶手册（8 年 Android 开发者的成长感悟）\n\nAndroidDeveloperAdvancedManual\n \nAndroid 工程师进阶手册（8 年 Android 开发者的成长感悟）\n \n2021 年是我做 Android 开发的第 8 年了，随着工作的不断深入，我越来越发现对于多数工程师来说，除了把技术能力搞好之外，更需要学习如何沟通，如何思考以及如何在职场中协调资源。这些能力反而更决定了一个工程师发展的上限。为此我写了这本小册子，这里我把 Android 开发的进阶分为了三个阶段，初级，中级和高级。这只是为了让读者更容易找到开始阅读的章节。在进行阅读之前，你可以先过一下整体的目录，如果你对某个阶段的内容早已了然于心，那么可以跳过这个阶段阅读。如果整本手册都没有感兴趣的话题，当然也就不必再看下去了。\n \n如果你有任何想法或者问题，可以通过提 issue 的方式跟我交流，同时也欢迎关注我的公众号：SkyKai ，期待你的交流！\n \n第一部分、初级工程师进阶\n \n初级工程师的首要任务是提高工作能力，努力向中高级工程师进阶。这个过程艰难且漫长，需要一步一个脚印的往上走，最终才能成为高级工程师。 第一个脚印就是成为能出色完成上级布置的任务，能独立排查问题，态度积极，乐于迎接挑战的工程师。 我给优秀初级工程师的定义为：“又快又好”，其中“快”指需求完成的速度快，问题响应的速度快，问题解决的速度快等等。而“好”指代码编写的质量好，工作态度好，任务完成度好等等。 接下来我将从认知篇，知识篇与职场篇，来聊聊初级工程师如何进阶。\n \n认知篇\n \n \n \n1.1 遇到问题应该怎么办？\n \n \n1.2 优秀工程师离不开 GitHub\n \n \n1.3 反编译不是高级技巧\n \n \n1.4 学会调试\n \n \n1.5 对自己的代码负责\n \n \n知识篇\n \n \n \n2.1 Activity 与 Fragment\n \n \n2.2 Handler 消息机制\n \n \n2.3 理解 View 体系\n \n \n2.4 自定义 View\n \n \n2.5 动画机制\n \n \n2.6 线程与进程\n \n \n职场篇\n \n \n \n3.1 职场注意事项\n \n \n3.2 需求开发的完整流程\n \n \n3.3 什么时候跳槽？\n \n \n3.4 要努力进大厂吗？\n \n \n3.5 如何准备面试？\n \n \n3.6 如何选择 Offer ？\n \n \n第二部分、中级工程师进阶\n \n初级工程师只要又快又好的完成任务就可以，中级工程师阶段不仅要又快又好，还要能独当一面。独当一面是要能独立负责一个项目，或者一个独立业务。并在遇到问题时可以独立解决，成为最熟悉自己负责业务的那个人。 中级工程师开始要注重代码规范，学习更底层的知识，一般还要指导初级工程师。同时要懂得更多职场规则，并做好长远的职业规划。\n \n认知篇\n \n \n \n4.1 如何引入开源项目\n \n \n4.2 如何快速排查问题\n \n \n4.3 怎样写出漂亮的代码\n \n \n4.4 怎样写好注释\n \n \n4.5 代码出 Bug 该怎么办？\n \n \n4.6 怎样才能少出 Bug ？\n \n \n4.7 业务开发与架构开发\n \n \n知识篇\n \n \n \n5.1 进程间通信\n \n \n5.2 热修复技术\n \n \n5.3 常用设计模式\n \n \n5.4 常用架构模式\n \n \n5.5 如何优化应用启动性能\n \n \n5.6 经典开源项目解析\n \n \n职场篇\n \n \n \n6.1 职场沟通技巧\n \n \n6.2 做好一个需求的要点\n \n \n6.3 做好长期规划\n \n \n6.4 要不要拒绝 996 ？\n \n \n第三部分、高级工程师进阶\n \n高级工程师阶段，无论是编程能力还是业务能力，你都具有了一些不可替代性。你通常负责新技术的预研，重要需求推进以及新项目的技术选型。高级工程师会让老板和同事觉得：非你不可。你更多的时间是在解决别人解决不了的事情，尝试业界还未尝试过的方案以及帮助其他工程师成长。 到了这个阶段编程语言已经不重要了，一切选择都为了业务更好的发展。同时也要考虑更多代码之外的事情了。\n \n认知篇\n \n \n \n7.1 高级工程师的特点\n \n \n7.2 参与开源项目\n \n \n7.3 如何判断技术发展趋势\n \n \n知识篇\n \n \n \n8.1 了解跨平台开发\n \n \n8.2 Flutter 是跨平台的未来吗？\n \n \n8.3 最优跨平台方案是什么？\n \n \n8.4 大型项目架构解析\n \n \n8.5 构建移动开发平台\n \n \n职场篇\n \n \n \n9.1 如何成为项目核心\n \n \n9.2 工资要存起来，理财还是买房？\n \n \n9.3 如何面对35岁问题",
+          "link": "https://github.com/Skykai521/AndroidDeveloperAdvancedManual",
+          "publishedOn": "2021-11-11T00:54:16.407Z",
+          "wordCount": 517,
+          "title": "Skykai521/AndroidDeveloperAdvancedManual"
+        },
+        {
+          "id": "https://github.com/louisfb01/best_AI_papers_2021",
+          "author": null,
+          "description": "A curated list of the latest breakthroughs in AI by release date with a clear video explanation, link to a more in-depth article, and code. [work in progress]\n\n2021: A Year Full of Amazing AI papers- A Review\n 📌 [work in progress...]\n \nA curated list of the latest breakthroughs in AI by release date with a clear video explanation, link to a more in-depth article, and code.\n \nWhile the world is still recovering, research hasn't slowed its frenetic pace, especially in the field of artificial intelligence. More, many important aspects were highlighted this year, like the ethical aspects, important biases, governance, transparency and much more. Artificial intelligence and our understanding of the human brain and its link to AI are constantly evolving, showing promising applications improving…",
+          "link": "https://github.com/louisfb01/best_AI_papers_2021",
+          "publishedOn": "2021-11-11T00:54:16.386Z",
+          "wordCount": 5199,
+          "title": "louisfb01/best_AI_papers_2021"
+        },
+        {
+          "id": "https://github.com/abhishekkrthakur/mlspace",
+          "author": null,
+          "description": "MLSpace: Hassle-free machine learning & deep learning development\n\n MLSpace\n  \n             \n \n \nHassle-Free Machine Learning & Deep Learning Development\n  \n \n \nNo need to worry about CUDA\n \n \nNo need to worry about cuDNN\n \n \nNo need to worry about TensorFlow version\n \n \nNo need to worry about PyTorch version\n \n \nNo need to install any libraries\n \n \ncoming soon\n \nNOTE: PRs are currently not accepted. All PRs will be closed. Please use issues instead.",
+          "link": "https://github.com/abhishekkrthakur/mlspace",
+          "publishedOn": "2021-11-11T00:54:16.330Z",
+          "wordCount": 479,
+          "title": "abhishekkrthakur/mlspace"
+        },
+        {
+          "id": "https://github.com/stephencelis/SQLite.swift",
+          "author": null,
+          "description": "A type-safe, Swift-language layer over SQLite3.\n\nSQLite.swift\n \n     \n \nA type-safe, Swift-language layer over SQLite3.\n \nSQLite.swift provides compile-time confidence in SQL statement syntax and intent.\n \nFeatures\n \n \n \nA pure-Swift interface\n \n \nA type-safe, optional-aware SQL expression builder\n \n \nA flexible, chainable, lazy-executing query layer\n \n \nAutomatically-typed data access\n \n \nA lightweight, uncomplicated query and parameter binding interface\n \n \nDeveloper-friendly error handling and debugging\n \n \nFull-text search support\n \n \nWell-documented\n \n \nExtensively tested\n \n \nSQLCipher support via CocoaPods\n \n \nWorks on Linux (with some limitations)\n \n \nActive support at StackOverflow, and Gitter Chat Room (experimental)\n \n \nUsage\n \nimport SQLite\n\n// Wrap everything in a do...catch to…",
+          "link": "https://github.com/stephencelis/SQLite.swift",
+          "publishedOn": "2021-11-11T00:54:16.294Z",
+          "wordCount": 1240,
+          "title": "stephencelis/SQLite.swift"
+        },
+        {
+          "id": "https://github.com/bryandlee/animegan2-pytorch",
+          "author": null,
+          "description": "PyTorch implementation of AnimeGANv2\n\nPyTorch Implementation of AnimeGANv2\n \nUpdates\n \n \n \n 2021-10-17 Add weights for FacePortraitV2\n  \n \n 2021-11-07 Thanks to ak92501, a web demo is integrated to Huggingface Spaces with Gradio.\n See demo: \n  \n \n 2021-11-07 Thanks to xhlulu, the torch.hub model is now available. See Torch Hub Usage.\n  \n \n 2021-11-07 Add FacePortraitV2 style demo to a telegram bot. See @face2stickerbot by sxela\n  \n \nBasic Usage\n \nWeight Conversion from the Original Repo (Requires TensorFlow 1.x)\n \ngit clone https://github.com/TachibanaYoshino/AnimeGANv2\npython convert_weights.py\n\n \nInference\n \npython test.py --input_dir [image_folder_path] --device [cpu/cuda]\n\n \nResults from converted [Paprika] style model\n \n(input image, original tensorflow result, pytorch result from lef…",
+          "link": "https://github.com/bryandlee/animegan2-pytorch",
+          "publishedOn": "2021-11-11T00:54:16.251Z",
+          "wordCount": 741,
+          "title": "bryandlee/animegan2-pytorch"
+        },
+        {
+          "id": "https://github.com/lwch/natpass",
+          "author": null,
+          "description": "新一代NAT内网穿透+shell+vnc工具\n\nnatpass\n \n     \n \n新一代NAT内网穿透工具，支持tcp隧道、shell隧道，实现原理\n \n \n \n如何部署\n \n \n隧道配置\n \n \n效果图\n \ndashboard页面\n \n\n \nlinux命令行效果\n \n\n \nwindows命令行效果\n \n\n \nwindows2008远程桌面\n \n\n \nwindows10远程桌面\n \n\n \nwindows11远程桌面\n \n\n \niperf3压测对比\n \n使用相同参数，iperf3压测1分钟\n \n# natpass10路复用，读写均为1s超时\n[ ID] Interval           Transfer     Bitrate         Retr\n[  5]   0.00-60.00  sec  70.0 MBytes  9.79 Mbits/sec   22             sender\n[  5]   0.00-60.02  sec  57.9 MBytes  8.10 Mbits/sec                  receiver\n\n# frp10路复用stcp，tls\n[ ID] Interval           Transfer     Bitrate         Retr\n[  5]   0.00-60.00  sec  66.2 MBytes  9.26 Mbits/sec   31             sender\n[  5]   0.00-60.10  sec  57.7 MBytes  8.05 Mbits/sec                  receiver\n\n \nTODO\n \n \n \n支持include的yaml配置文件\n \n \n通用的connect、connect_response、disconnect消息\n \n \n所有隧道的dashboard页面\n \n \n文件传输\n \n \nweb远程桌面\n \n \n流量监控统计页面，server还是client?\n \n \nweb端管理tunnel",
+          "link": "https://github.com/lwch/natpass",
+          "publishedOn": "2021-11-11T00:54:16.224Z",
+          "wordCount": 496,
+          "title": "lwch/natpass"
+        },
+        {
+          "id": "https://github.com/ensdomains/governance",
+          "author": null,
+          "description": "Contribute to ensdomains/governance development by creating an account on GitHub.",
+          "link": "https://github.com/ensdomains/governance",
+          "publishedOn": "2021-11-11T00:54:16.182Z",
+          "wordCount": 449,
+          "title": "ensdomains/governance"
+        },
         {
           "id": "https://github.com/bregman-arie/devops-exercises",
           "author": null,
@@ -3282,141 +3408,6 @@
           "publishedOn": "2021-10-13T00:54:06.183Z",
           "wordCount": 446,
           "title": "cobaltdisco/Google-Chinese-Results-Blocklist"
-        },
-        {
-          "id": "https://github.com/anncwb/vue-vben-admin",
-          "author": null,
-          "description": "A modern vue admin. It is based on Vue3, vite and TypeScript. It's fast！\n\n \n    \n \n \n \n \n \n\n \n \nVue vben admin\n \n \nEnglish | 中文\n \nIntroduction\n \nVue Vben Admin is a free and open source middle and back-end template. Using the latest vue3, vite2, TypeScript and other mainstream technology development, the out-of-the-box middle and back-end front-end solutions can also be used for learning reference.\n \nFeature\n \n \n \nState of The Art Development：Use front-end front-end technology development such as Vue3/vite2\n \n \nTypeScript: Application-level JavaScript language\n \n \nTheming: Configurable themes\n \n \nInternational：Built-in complete internationalization program\n \n \nMock Server Built-in mock data scheme\n \n \nAuthority Built-in complete dynamic routing permission generation scheme.\n \n \nComponent M…",
-          "link": "https://github.com/anncwb/vue-vben-admin",
-          "publishedOn": "2021-10-12T00:57:47.049Z",
-          "wordCount": 1243,
-          "title": "anncwb/vue-vben-admin"
-        },
-        {
-          "id": "https://github.com/yt-dlp/yt-dlp",
-          "author": null,
-          "description": "A youtube-dl fork with additional features and fixes\n\n \n \n\n \n \n          \n \n \nyt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project\n \n \n \nNEW FEATURES \n  \n \n   \nDifferences in default behavior\n \n  \n  \n \nINSTALLATION \n  \n \n   \nUpdate\n \n   \nDependencies\n \n   \nCompile\n \n  \n  \n \nUSAGE AND OPTIONS \n  \n \n   \nGeneral Options\n \n   \nNetwork Options\n \n   \nGeo-restriction\n \n   \nVideo Selection\n \n   \nDownload Options\n \n   \nFilesystem Options\n \n   \nThumbnail Options\n \n   \nInternet Shortcut Options\n \n   \nVerbosity and Simulation Options\n \n   \nWorkarounds\n \n   \nVideo Format Options\n \n   \nSubtitle Options\n \n   \nAuthentication Options\n \n   \nPost-processing Options\n \n   \nSpo…",
-          "link": "https://github.com/yt-dlp/yt-dlp",
-          "publishedOn": "2021-10-12T00:57:46.961Z",
-          "wordCount": 13049,
-          "title": "yt-dlp/yt-dlp"
-        },
-        {
-          "id": "https://github.com/vuejs/vue",
-          "author": null,
-          "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.\n\n\n \n       \n  \n \nSupporting Vue.js\n \nVue.js is an MIT-licensed open source project with its ongoing development made possible entirely by the support of these awesome backers. If you'd like to join them, please consider:\n \n \n \nBecome a backer or sponsor on Patreon.\n \n \nBecome a backer or sponsor on Open Collective.\n \n \nOne-time donation via PayPal or crypto-currencies.\n \n \nWhat's the difference between Patreon and OpenCollective?\n \nFunds donated via Patreon go directly to support Evan You's full-time work on Vue.js. Funds donated via OpenCollective are managed with transparent expenses and will be used for compensating work and expenses for core team members or sponsoring community events. …",
-          "link": "https://github.com/vuejs/vue",
-          "publishedOn": "2021-10-12T00:57:46.855Z",
-          "wordCount": 1026,
-          "title": "vuejs/vue"
-        },
-        {
-          "id": "https://github.com/wimpysworld/quickemu",
-          "author": null,
-          "description": "Quickly create and run optimised Windows, macOS and Linux desktop virtual machines.\n\n  \n Quickemu \n \nQuickly create and run optimised Windows, macOS and Linux desktop virtual machines.\n \n\n \n \nMade with 💝 for \n \nIntroduction\n \nQuickly create and run highly optimised desktop virtual machines for Linux, macOS and Windows; with just two commands. You decide what operating system you want to run and Quickemu will figure out the best way to do it for you. For example:\n \nquickget ubuntu-mate hirsute\nquickemu --vm ubuntu-mate-hirsute.conf\n\n \nThe original objective of the project was to enable quick testing of Linux distributions where the virtual machine configurations can be stored anywhere, such as external USB storage or your home directory, and no elevated permissions are required to run the …",
-          "link": "https://github.com/wimpysworld/quickemu",
-          "publishedOn": "2021-10-12T00:57:46.811Z",
-          "wordCount": 2655,
-          "title": "wimpysworld/quickemu"
-        },
-        {
-          "id": "https://github.com/vinta/awesome-python",
-          "author": null,
-          "description": "A curated list of awesome Python frameworks, libraries, software and resources\n\nAwesome Python \n \nA curated list of awesome Python frameworks, libraries, software and resources.\n \nInspired by awesome-php.\n \n \n \nAwesome Python \n  \n \n   \nAdmin Panels\n \n   \nAlgorithms and Design Patterns\n \n   \nASGI Servers\n \n   \nAsynchronous Programming\n \n   \nAudio\n \n   \nAuthentication\n \n   \nBuild Tools\n \n   \nBuilt-in Classes Enhancement\n \n   \nCaching\n \n   \nChatOps Tools\n \n   \nCMS\n \n   \nCode Analysis\n \n   \nCommand-line Interface Development\n \n   \nCommand-line Tools\n \n   \nCompatibility\n \n   \nComputer Vision\n \n   \nConcurrency and Parallelism\n \n   \nConfiguration\n \n   \nCryptography\n \n   \nData Analysis\n \n   \nData Validation\n \n   \nData Visualization\n \n   \nDatabase Drivers\n \n   \nDatabase\n \n   \nDate and Time\n \n   \nDe…",
-          "link": "https://github.com/vinta/awesome-python",
-          "publishedOn": "2021-10-12T00:57:46.773Z",
-          "wordCount": 8613,
-          "title": "vinta/awesome-python"
-        },
-        {
-          "id": "https://github.com/alibaba/Sentinel",
-          "author": null,
-          "description": "A powerful flow control component enabling reliability, resilience and monitoring for microservices. (面向云原生微服务的高可用流控防护组件)\n \nSentinel: The Sentinel of Your Microservices\n \n     \n \nIntroduction\n \nAs distributed systems become increasingly popular, the reliability between services is becoming more important than ever before. Sentinel takes \"flow\" as breakthrough point, and works on multiple fields including flow control, traffic shaping, circuit breaking and system adaptive protection, to guarantee reliability and resilience for microservices.\n \nSentinel has the following features:\n \n \n \nRich applicable scenarios: Sentinel has been wildly used in Alibaba, and has covered almost all the core-scenarios in Double-11 (11.11) Shopping Festivals in the past 10 years, such as “Second Kill” which nee…",
-          "link": "https://github.com/alibaba/Sentinel",
-          "publishedOn": "2021-10-12T00:57:46.687Z",
-          "wordCount": 1496,
-          "title": "alibaba/Sentinel"
-        },
-        {
-          "id": "https://github.com/apache/rocketmq",
-          "author": null,
-          "description": "Mirror of Apache RocketMQ\n\nApache RocketMQ\n \n        \n \nApache RocketMQ is a distributed messaging and streaming platform with low latency, high performance and reliability, trillion-level capacity and flexible scalability.\n \nIt offers a variety of features:\n \n \n \nMessaging patterns including publish/subscribe, request/reply and streaming\n \n \nFinancial grade transactional message\n \n \nBuilt-in fault tolerance and high availability configuration options base on DLedger\n \n \nA variety of cross language clients, such as Java, C/C++, Python, Go\n \n \nPluggable transport protocols, such as TCP, SSL, AIO\n \n \nBuilt-in message tracing capability, also support opentracing\n \n \nVersatile big-data and streaming ecosytem integration\n \n \nMessage retroactivity by time or offset\n \n \nReliable FIFO and strict o…",
-          "link": "https://github.com/apache/rocketmq",
-          "publishedOn": "2021-10-12T00:57:46.636Z",
-          "wordCount": 1045,
-          "title": "apache/rocketmq"
-        },
-        {
-          "id": "https://github.com/sdras/awesome-actions",
-          "author": null,
-          "description": "A curated list of awesome actions to use on GitHub\n\n   \n  \nAwesome Actions  \n  \n \n \n \nA curated list of awesome things related to GitHub Actions.\n \n \nActions are triggered by GitHub platform events directly in a repo and run on-demand workflows either on Linux, Windows or macOS virtual machines or inside a container in response. With GitHub Actions you can automate your workflow from idea to production.\n \nContents\n \n \n \nOfficial Resources \n  \n \n   \nWorkflow Examples\n \n   \nOfficial Actions\n \n   \nCreate your Actions\n \n  \n  \n \nCommunity Resources \n  \n \n   \nGitHub Tools and Management\n \n   \nCollection of Actions\n \n   \nUtility\n \n   \nStatic Analysis\n \n   \nDynamic Analysis\n \n   \nMonitoring\n \n   \nPull Requests\n \n   \nGitHub Pages\n \n   \nNotifications and Messages\n \n   \nDeployment\n \n   \nExternal Serv…",
-          "link": "https://github.com/sdras/awesome-actions",
-          "publishedOn": "2021-10-12T00:57:46.601Z",
-          "wordCount": 3883,
-          "title": "sdras/awesome-actions"
-        },
-        {
-          "id": "https://github.com/fatedier/frp",
-          "author": null,
-          "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.\n\nfrp\n \n \n \nREADME | 中文文档\n \nWhat is frp?\n \nfrp is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the Internet. As of now, it supports TCP and UDP, as well as HTTP and HTTPS protocols, where requests can be forwarded to internal services by domain name.\n \nfrp also has a P2P connect mode.\n \nTable of Contents\n \n \n \n \nDevelopment Status\n \n \nArchitecture\n \n \nExample Usage \n  \n \n   \nAccess your computer in LAN by SSH\n \n   \nVisit your web service in LAN by custom domains\n \n   \nForward DNS query request\n \n   \nForward Unix domain socket\n \n   \nExpose a simple HTTP file server\n \n   \nEnable HTTPS for local HTTP(S) service\n \n   \nExpose your service privately\n \n   \nP2P Mode…",
-          "link": "https://github.com/fatedier/frp",
-          "publishedOn": "2021-10-12T00:57:46.538Z",
-          "wordCount": 4747,
-          "title": "fatedier/frp"
-        },
-        {
-          "id": "https://github.com/herosi/CTO",
-          "author": null,
-          "description": "Call Tree Overviewer\n\nCTO (Call Tree Overviewer)\n \nCTO (Call Tree Overviewer) is an IDA plugin for creating a simple and efficiant function call tree graph. It can also summarize function information such as internal function calls, API calls, static linked library function calls, unresolved function calls, string references, structure member accesses, specific comments.\n \nCTO has another helper plugin named \"CTO Function Lister\", although it can work as a standalone tool. You can think this is an enhanced version of functions window. It lists functions with summarized important information, which is the same as the CTO's one. You can use a regex filter to find nodes with a specific pattern as well.\n \n \n \nAn introduction video is here.\n https://youtu.be/zVCpb82UfFs\n \nYou can also check the…",
-          "link": "https://github.com/herosi/CTO",
-          "publishedOn": "2021-10-12T00:57:46.468Z",
-          "wordCount": 933,
-          "title": "herosi/CTO"
-        },
-        {
-          "id": "https://github.com/ossrs/srs",
-          "author": null,
-          "description": "SRS is a simple, high efficiency and realtime video server, supports RTMP/WebRTC/HLS/HTTP-FLV/SRT/GB28181.\n\nSRS(Simple Realtime Server)\n \n      \n \nSRS/4.0，Leo，是一个简单高效的实时视频服务器，支持RTMP/WebRTC/HLS/HTTP-FLV/SRT。\n \nSRS is a simple, high efficiency and realtime video server, supports RTMP/WebRTC/HLS/HTTP-FLV/SRT.\n \nSRS is licenced under MIT, but some depended libraries are distributed using their own licenses.\n \n \n \nUsage\n \nBuild SRS from source or docker(CN / EN), please read Wiki: Gettting Started(CN / EN):\n \ngit clone -b 4.0release https://gitee.com/ossrs/srs.git &&\ncd srs/trunk && ./configure && make && ./objs/srs -c conf/srs.conf\n\n \nOpen http://localhost:8080/ to check it, then publish by FFmpeg or OBS as:\n \nffmpeg -re -i ./doc/source.flv -c copy -f flv -y rtmp://localhost/live/livestream\n\n …",
-          "link": "https://github.com/ossrs/srs",
-          "publishedOn": "2021-10-12T00:57:46.448Z",
-          "wordCount": 1019,
-          "title": "ossrs/srs"
-        },
-        {
-          "id": "https://github.com/donet5/WebFirst",
-          "author": null,
-          "description": ".NET CORE 代码生成器 ，Web中使用CodeFirst模式， 实体生成器，UI代码生成器，在线建表，导出文档，模版配置， WEB代码生成器 ，API代码生成器\n\nWebFirst 代码生成器\n \n \n \n在线生成entity、xml、dao、service、html、js、sql代码，减少70%以上的开发任务\n \n \n可以在线创建数据库和导出文档\n \n \n可在线建类并且生成表\n \n \n支持方案保存，模版管理\n \n \n超级流畅的性能\n \n \n \n如何交流、反馈、参与贡献？\n \n \n \nGithub： https://github.com/donet5/WebFirst\n \n \nOSC Gitee：https://gitee.com/sunkaixuan/web-first\n \n \n[果糖官网] https://www.donet5.com/\n \n \n[使用文档] https://www.donet5.com/Doc/11\n \n \n官方QQ群：958343000\n \n \n技术讨论、二次开发等咨询、问题和建议，请移步到人人开源社区，我会在第一时间进行解答和回复\n \n \n如需关注项目最新动态，请Watch、Star项目，同时也是对项目最好的支持\n \n \n微信扫码加好友【果糖网】，与作者互动\n \n \n \n本地部署代码生成器\n \n \n \n通过git下载源码\n \n \nF5直接运行项目\n \n \n安装VS2019 c#，则可启动项目\n \n \n项目访问路径：默认\n \n \n代码生成器演示效果图：",
-          "link": "https://github.com/donet5/WebFirst",
-          "publishedOn": "2021-10-12T00:57:46.400Z",
-          "wordCount": 395,
-          "title": "donet5/WebFirst"
-        },
-        {
-          "id": "https://github.com/Python-World/Python_and_the_Web",
-          "author": null,
-          "description": "Build Bots, Scrape a website or use an API to solve a problem.\n\nPython🐍and_the_Web\n \n   \n \n \n\n \n \n    \n \nScripts/Programs in python that scrape the web, create a bot or use an API to solve a problem. We now have a section for miscellaneous scripts/programs as well.\n \nNote: 100 Ideas implemented using python🐍: python-mini-projects\n \nHow to Contribute?\n \n \n \nTake a look at the Existing Issues or create your own Issues!\n \n \nWait for the Issue to be assigned to you after which you can start working on it.\n \n \nFork the Repo and create a branch for any Issue that you are working upon.\n \n \nRead the Code of Conduct\n \n \nCreate a Pull Request which will be promptly reviewed and suggestions would be added to improve it.\n \n \nAdd Screenshots to help us know what this Script is all about.\n \n \nHaving d…",
-          "link": "https://github.com/Python-World/Python_and_the_Web",
-          "publishedOn": "2021-10-12T00:57:46.373Z",
-          "wordCount": 826,
-          "title": "Python-World/Python_and_the_Web"
-        },
-        {
-          "id": "https://github.com/mattiasgustavsson/dos-like",
-          "author": null,
-          "description": "Engine for making things with a MS-DOS feel, but for modern platforms\n\n\n \ndos-like\n \n\n \ndos-like is a programming library/framework, kind of like a tiny game engine, for writing games and programs with a similar feel to MS-DOS productions from the early 90s. But rather than writing code that would run on a real DOS machine, dos-like is about making programs which runs on modern platforms like Windows, Mac and Linux, but which attempts to recreate the look, feel, and sound of old DOS programs.\n \nIt includes a bunch of examples of classic DOS techniques and effects, a few of which can be seen above.\n \nFor more information and screenshots, please see the project home at https://mattiasgustavsson.itch.io/dos-like\n \nOperating\n \nWhile running, you can use F11 to toggle between fullscreen and win…",
-          "link": "https://github.com/mattiasgustavsson/dos-like",
-          "publishedOn": "2021-10-12T00:57:46.279Z",
-          "wordCount": 829,
-          "title": "mattiasgustavsson/dos-like"
-        },
-        {
-          "id": "https://github.com/alibaba/spring-cloud-alibaba",
-          "author": null,
-          "description": "Spring Cloud Alibaba provides a one-stop solution for application development for the distributed solutions of Alibaba middleware.\n\nSpring Cloud Alibaba\n \n   \n \nA project maintained by Alibaba.\n \nSee the 中文文档 for Chinese readme.\n \nSpring Cloud Alibaba provides a one-stop solution for distributed application development. It contains all the components required to develop distributed applications, making it easy for you to develop your applications using Spring Cloud.\n \nWith Spring Cloud Alibaba, you only need to add some annotations and a small amount of configurations to connect Spring Cloud applications to the distributed solutions of Alibaba, and build a distributed application system with Alibaba middleware.\n \nFeatures\n \n \n \nFlow control and service degradation：Flow control for HTTP ser…",
-          "link": "https://github.com/alibaba/spring-cloud-alibaba",
-          "publishedOn": "2021-10-12T00:57:46.236Z",
-          "wordCount": 1682,
-          "title": "alibaba/spring-cloud-alibaba"
         }
       ]
     }
