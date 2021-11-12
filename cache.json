@@ -22,6 +22,24 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=65620",
+          "author": "Jessie",
+          "description": "Project post cross-posted from the Flux blog As Flux is an Incubation project within the Cloud Native Computing Foundation, we were graciously granted a sponsored audit. The primary aim was to assess...",
+          "link": "https://www.cncf.io/blog/2021/11/11/flux-security-audit-has-concluded/",
+          "publishedOn": "2021-11-11T17:00:00.000Z",
+          "wordCount": 1407,
+          "title": "Flux Security Audit has concluded"
+        },
+        {
+          "id": "https://www.cncf.io/?p=65643",
+          "author": "Jessie",
+          "description": "Guest post by Second State and FutureWei This work is supported by Second State and FutureWei based on Open Source projects WasmEdge and seL4. Application containers, such as Docker, are a key...",
+          "link": "https://www.cncf.io/blog/2021/11/11/containerization-on-the-edge/",
+          "publishedOn": "2021-11-11T16:00:00.000Z",
+          "wordCount": 1489,
+          "title": "Containerization on the edge"
+        },
+        {
           "id": "https://www.cncf.io/?p=65580",
           "author": "Jessie",
           "description": "Guest post originally published on Vitess’ blog by Andres Taylor Query planning is hard # Have you ever wondered what goes on behind the scenes when you execute a SQL query? What steps...",
@@ -335,24 +353,6 @@
           "publishedOn": "2021-10-13T16:00:00.000Z",
           "wordCount": 672,
           "title": "CNCF’s KubeCon + CloudNativeCon diversity scholarship will now be named the Dan Kohn Diversity Scholarship"
-        },
-        {
-          "id": "https://www.cncf.io/?p=65040",
-          "author": "Katie Meinders",
-          "description": "With the help of the CNCF Security Technical Advisory Group (TAG), CNCF recently conducted a microsurvey of the community to see how organizations are managing cloud native security.  Overall, the report shows...",
-          "link": "https://www.cncf.io/blog/2021/10/12/cloud-native-security-microsurvey-more-than-80-of-organizations-want-to-build-modern-security-systems-with-open-source-software/",
-          "publishedOn": "2021-10-12T16:00:00.000Z",
-          "wordCount": 943,
-          "title": "Cloud Native Security Microsurvey: More than 80% of organizations want to build modern security systems with open source software"
-        },
-        {
-          "id": "https://www.cncf.io/?p=65054",
-          "author": "Jessie",
-          "description": "Project guest post originally published on the Falco blog by Mark Stemm One of the upcoming features in Falco that we’re really excited about is the ability to extend Falco’s functionality by...",
-          "link": "https://www.cncf.io/blog/2021/10/12/falco-plugins-early-access/",
-          "publishedOn": "2021-10-12T13:00:00.000Z",
-          "wordCount": 2154,
-          "title": "Falco plugins early access"
         }
       ]
     },
@@ -367,6 +367,150 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/fonoster/fonoster",
+          "author": null,
+          "description": "🚀 The open-source alternative to Twilio\n\n   \n \n\n \n💬 Join the conversation 👈\n \nFonoster Inc researches an innovative Programmable Telecommunications Stack that will allow for an entirely cloud-based utility for businesses to connect telephony services with the Internet.\n \nFeatures\n \nThe most notable features on FN 0.1 are:\n \n \n \n Cloud initialization with Cloud-Init\n \n \n Multitenancy\n \n \n Easy deployment of PBXs functionalities\n \n \n Programmable Voice Applications\n \n \n NodeJS SDK\n \n \n Web SDK\n \n \n Support for Amazon Simple Storage Service (S3)\n \n \n Secure API endpoints with Let's Encrypt\n \n \n Authentication with OAuth2\n \n \n Authentication with JWT\n \n \n Role-Based Access Control (RBAC)\n \n \n Plugins-based Command-line Tool\n \n \n Support for Google Speech API\n \n \n Experimental support for Cl…",
+          "link": "https://github.com/fonoster/fonoster",
+          "publishedOn": "2021-11-12T00:54:44.390Z",
+          "wordCount": 1105,
+          "title": "fonoster/fonoster"
+        },
+        {
+          "id": "https://github.com/dotnet/docs",
+          "author": null,
+          "description": "This repository contains .NET Documentation.\n\n.NET Docs\n \n \n \nThis repository contains the conceptual documentation for .NET. The .NET documentation site is built from multiple repositories in addition to this one:\n \n \n \nAPI reference\n \n \n.NET Compiler Platform SDK reference\n \n \nIssues and tasks for all but the API reference repository are tracked here. We have a large community using these resources. We make our best effort to respond to issues in a timely fashion. You can read more about our procedures for classifying and resolving issues in our Issues policy topic.\n \nWe welcome contributions to help us improve and complete the .NET docs. This is a very large repo, covering a large area. If this is your first visit, see our labels and projects roadmap for help navigating the issues and projects in this repository.\n \nTo contribute, see:\n \n \n \nThe Contributing Guide for instructions on procedures we use.\n \n \nIssues labeled up-for-grabs for ideas.\n \n \n#Hacktoberfest and Microsoft Docs for details on our participation in the annual event.\n \n \nIf you're interested in helping migrate existing code that targets the .NET Framework from the retired Code Gallery site to .NET Core applications stored in our samples repository and downloadable from the Samples Browser, see the Code Gallery migration project. The code gallery samples were moved to the Microsoft Archive organization.\n \nThis project has adopted the code of conduct defined by the Contributor Covenant to clarify expected behavior in our community. For more information, see the .NET Foundation Code of Conduct.",
+          "link": "https://github.com/dotnet/docs",
+          "publishedOn": "2021-11-12T00:54:44.344Z",
+          "wordCount": 885,
+          "title": "dotnet/docs"
+        },
+        {
+          "id": "https://github.com/dotnet/maui",
+          "author": null,
+          "description": ".NET MAUI is the .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop.\n\n.NET Multi-platform App UI (.NET MAUI)\n \n \n \n.NET Multi-platform App UI (.NET MAUI) is a cross-platform framework for creating native mobile and desktop apps with C# and XAML. Using .NET MAUI, you can develop apps that can run on Android, iOS, iPadOS, macOS, and Windows from a single shared codebase.\n \nGetting Started\n \n \n \nInstall .NET MAUI\n \n \n.NET MAUI documentation\n \n \nWeather '21 Sample App\n \n \nDevelopment Guide\n \n \nOverview\n \n.NET Multi-platform App UI (.NET MAUI) is the evolution of Xamarin.Forms that expands capabilities beyond mobile Android and iOS into native desktop apps for Windows and macOS. With .NET MAUI, you can build native apps that perform great for any device that runs Windows, macOS, Android, & iOS from a single codebase. Coupled with Visual Studio productivity tools and emulators, .NET and Visual Studio significantly speed up the development process for building apps that target the widest possible set of native devices. Use a single development stack that supports the best of breed solutions for all modern workloads with a unified SDK, base class libraries, and toolchain. Read More\n \n\n \nCurrent News\n \n \n \nOctober 12, 2021 - Announcing .NET MAUI Preview 9\n \n \nSeptember 14, 2021 - Update on .NET Multi-platform App UI (.NET MAUI)\n \n \nFollow the .NET MAUI Blog and visit the News wiki page for more news and updates.\n \nFAQs\n \nDo you have questions? Do not worry, we have prepared a complete FAQ answering the most common questions.\n \nHow to Engage, Contribute, and Give Feedback\n \nSome of the best ways to contribute are to try things out, file issues, join in design conversations, and make pull-requests. Proposals for changes specific to MAUI can be found here for discussion.\n \nSee CONTRIBUTING\n \nCode of conduct\n \nSee CODE-OF-CONDUCT\n \nStats",
+          "link": "https://github.com/dotnet/maui",
+          "publishedOn": "2021-11-12T00:54:44.298Z",
+          "wordCount": 1073,
+          "title": "dotnet/maui"
+        },
+        {
+          "id": "https://github.com/huggingface/datasets",
+          "author": null,
+          "description": "🤗 The largest hub of ready-to-use datasets for ML models with fast, easy-to-use and efficient data manipulation tools\n\n   \n \n \n                    \n \n🤗 Datasets is a lightweight library providing two main features:\n \n \n \none-line dataloaders for many public datasets: one-liners to download and pre-process any of the  major public datasets (in 467 languages and dialects!) provided on the HuggingFace Datasets Hub. With a simple command like squad_dataset = load_dataset(\"squad\"), get any of these datasets ready to use in a dataloader for training/evaluating a ML model (Numpy/Pandas/PyTorch/TensorFlow/JAX),\n \n \nefficient data pre-processing: simple, fast and reproducible data pre-processing for the above public datasets as well as your own local datasets in CSV/JSON/text. With simple command…",
+          "link": "https://github.com/huggingface/datasets",
+          "publishedOn": "2021-11-12T00:54:44.246Z",
+          "wordCount": 2156,
+          "title": "huggingface/datasets"
+        },
+        {
+          "id": "https://github.com/PowerShell/PowerShell",
+          "author": null,
+          "description": "PowerShell for every system!\n\n PowerShell\n \nWelcome to the PowerShell GitHub Community! PowerShell Core is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.\n \nWindows PowerShell vs. PowerShell Core\n \nAlthough this repository started as a fork of the Windows PowerShell code base, changes made in this repository do not make their way back to Windows PowerShell 5.1 automatically. This also means that issues tracked here are only for PowerShell Core 6 and higher. Windows PowerShell specific issues shoul…",
+          "link": "https://github.com/PowerShell/PowerShell",
+          "publishedOn": "2021-11-12T00:54:44.187Z",
+          "wordCount": 1644,
+          "title": "PowerShell/PowerShell"
+        },
+        {
+          "id": "https://github.com/PHPOffice/PHPWord",
+          "author": null,
+          "description": "A pure PHP library for reading and writing word processing documents\n\n\n \nMaster:       \n \nDevelop:    \n \nPHPWord is a library written in pure PHP that provides a set of classes to write to and read from different document file formats. The current version of PHPWord supports Microsoft Office Open XML (OOXML or OpenXML), OASIS Open Document Format for Office Applications (OpenDocument or ODF), Rich Text Format (RTF), HTML, and PDF.\n \nPHPWord is an open source project licensed under the terms of LGPL version 3. PHPWord is aimed to be a high quality software product by incorporating continuous integration and unit testing. You can learn more about PHPWord by reading the Developers' Documentation.\n \nIf you have any questions, please ask on StackOverFlow\n \nRead more about PHPWord:\n \n \n \nFeature…",
+          "link": "https://github.com/PHPOffice/PHPWord",
+          "publishedOn": "2021-11-12T00:54:44.110Z",
+          "wordCount": 1479,
+          "title": "PHPOffice/PHPWord"
+        },
+        {
+          "id": "https://github.com/prestodb/presto",
+          "author": null,
+          "description": "The official home of the Presto distributed SQL query engine for big data\n\nPresto \n \nPresto is a distributed SQL query engine for big data.\n \nSee the User Manual for deployment instructions and end user documentation.\n \n2021 Elections\n \nElections are now open for all TSC seats. Please see here for more details, including how to submit your nomination.\n \nRequirements\n \n \n \nMac OS X or Linux\n \n \nJava 8 Update 151 or higher (8u151+), 64-bit. Both Oracle JDK and OpenJDK are supported.\n \n \nMaven 3.3.9+ (for building)\n \n \nPython 2.4+ (for running with the launcher script)\n \n \nBuilding Presto\n \nPresto is a standard Maven project. Simply run the following command from the project root directory:\n \n./mvnw clean install\n\n \nOn the first build, Maven will download all the dependencies from the interne…",
+          "link": "https://github.com/prestodb/presto",
+          "publishedOn": "2021-11-12T00:54:44.062Z",
+          "wordCount": 2609,
+          "title": "prestodb/presto"
+        },
+        {
+          "id": "https://github.com/dotnet/roslyn",
+          "author": null,
+          "description": "The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.\n\n  \n \nThe .NET Compiler Platform\n \n \n \nRoslyn is the open-source implementation of both the C# and Visual Basic compilers with an API surface for building code analysis tools.\n \nC# and Visual Basic Language Feature Suggestions\n \nIf you want to suggest a new feature for the C# or Visual Basic languages go here:\n \n \n \ndotnet/csharplang for C# specific issues\n \n \ndotnet/vblang for VB-specific features\n \n \ndotnet/csharplang for features that affect both languages\n \n \nContributing\n \nAll work on the C# and Visual Basic compiler happens directly on GitHub. Both core team members and external contributors send pull requests which go through the same review process.\n \nIf you are interested in fixing issues…",
+          "link": "https://github.com/dotnet/roslyn",
+          "publishedOn": "2021-11-12T00:54:43.979Z",
+          "wordCount": 1153,
+          "title": "dotnet/roslyn"
+        },
+        {
+          "id": "https://github.com/dotnet/csharplang",
+          "author": null,
+          "description": "The official repo for the design of the C# programming language\n\nC# Language Design\n \n \n \nWelcome to the official repo for C# language design. This is where new C# language features are developed, adopted and specified.\n \nC# is designed by the C# Language Design Team (LDT) in close coordination with the Roslyn project, which implements the language.\n \nYou can find:\n \n \n \nActive C# language feature proposals in the proposals folder\n \n \nNotes from C# language design meetings in the meetings folder\n \n \nFull C# 6 language specification (draft) in the spec folder\n \n \nSummary of the language version history here.\n \n \nIf you discover bugs or deficiencies in the above, please leave an issue to raise them, or even better: a pull request to fix them.\n \nFor new feature proposals, however, please rais…",
+          "link": "https://github.com/dotnet/csharplang",
+          "publishedOn": "2021-11-12T00:54:43.924Z",
+          "wordCount": 1650,
+          "title": "dotnet/csharplang"
+        },
+        {
+          "id": "https://github.com/solana-labs/token-list",
+          "author": null,
+          "description": "The community maintained Solana token registry\n\n@solana/spl-token-registry\n \n \n \nSolana Token Registry is a package that allows application to query for list of tokens. The JSON schema for the tokens includes: chainId, address, name, decimals, symbol, logoURI (optional), tags (optional), and custom extensions metadata.\n \nInstallation\n \nnpm install @solana/spl-token-registry\n\n \nyarn add @solana/spl-token-registry\n\n \nExamples\n \nQuery available tokens\n \nnew TokenListProvider().resolve().then((tokens) => {\n  const tokenList = tokens.filterByClusterSlug('mainnet-beta').getList();\n  console.log(tokenList);\n});\n\n \nRender icon for token in React\n \nimport React, { useEffect, useState } from 'react';\nimport { TokenListProvider, TokenInfo } from '@solana/spl-token-registry';\n\n\nexport const Icon = (pr…",
+          "link": "https://github.com/solana-labs/token-list",
+          "publishedOn": "2021-11-12T00:54:43.682Z",
+          "wordCount": 1023,
+          "title": "solana-labs/token-list"
+        },
+        {
+          "id": "https://github.com/Shopify/hydrogen",
+          "author": null,
+          "description": "React-based framework for building dynamic, Shopify-powered custom storefronts.\n\n    \n \n \n \n📚 Docs | 🗣 Discord | 💬 Discussions | 📝 Changelog\n \n \nHydrogen is a React-based framework for building dynamic, Shopify-powered custom storefronts.\n \nSpin up a Hydrogen app in your browser with our playground or set up your local environment with the instructions below ⬇️\n \nThis is a developer preview of Hydrogen. The documentation will be updated as Shopify introduces new features and refines existing functionality. Production launches of Hydrogen custom storefronts aren't yet supported as Shopify is evolving the Hydrogen framework.\n \nGetting Started\n \nRequirements:\n \n \n \nyarn or npm\n \n \nNode.js version 14.0 or higher\n \n \nInstallation:\n \n# Using `yarn`\nyarn create hydrogen-app\n\n# Using `npm`\nnpm init hydrogen-app@latest\n\n# Using `npx`\nnpx create-hydrogen-app\n\n \nRunning locally:\n \n \n \nStart a development server\n \n \n# Using `yarn`\nyarn install\nyarn dev\n\n# Using `npm`\nnpm i --legacy-peer-deps\nnpm run dev\n\n \n \n \nVisit the development environment running at http://localhost:3000.\n \n \nLearn more about getting started with Hydrogen.\n \nContributing to Hydrogen\n \nRead our contributing guide\n \nOther handy links\n \n🎁 Give us the gift of feedback.\n \n📍 Check out Hydrogen examples on Github.\n \n🤩 Learn more about Hydrogen.\n \n👷‍♀️ Add npm packages to your project:\n \n \n \n@shopify/hydrogen\n \n \n@shopify/hydrogen-cli\n \n \n@shopify/hydrogen-plugin-sanity\n \n \ncreate-hydrogen-app\n \n \neslint-plugin-hydrogen",
+          "link": "https://github.com/Shopify/hydrogen",
+          "publishedOn": "2021-11-12T00:54:43.638Z",
+          "wordCount": 749,
+          "title": "Shopify/hydrogen"
+        },
+        {
+          "id": "https://github.com/NVIDIA/DeepLearningExamples",
+          "author": null,
+          "description": "Deep Learning Examples\n\nNVIDIA Deep Learning Examples for Tensor Cores\n \nIntroduction\n \nThis repository provides State-of-the-Art Deep Learning examples that are easy to train and deploy, achieving the best reproducible accuracy and performance with NVIDIA CUDA-X software stack running on NVIDIA Volta, Turing and Ampere GPUs.\n \nNVIDIA GPU Cloud (NGC) Container Registry\n \nThese examples, along with our NVIDIA deep learning software stack, are provided in a monthly updated Docker container on the NGC container registry (https://ngc.nvidia.com). These containers include:\n \n \n \nThe latest NVIDIA examples from this repository\n \n \nThe latest NVIDIA contributions shared upstream to the respective framework\n \n \nThe latest NVIDIA Deep Learning software libraries, such as cuDNN, NCCL, cuBLAS, etc. w…",
+          "link": "https://github.com/NVIDIA/DeepLearningExamples",
+          "publishedOn": "2021-11-12T00:54:43.532Z",
+          "wordCount": 1540,
+          "title": "NVIDIA/DeepLearningExamples"
+        },
+        {
+          "id": "https://github.com/salmer/CppDeveloperRoadmap",
+          "author": null,
+          "description": "Roadmap for learning the C++ programming language for beginners and experienced devs. // Дорожная карта по изучению языка программирования C++ для начинающих и практикующих.\n\nC++ Developer Roadmap\n \nAdditional languages: Русский\n \nC++ is still one of the most popular development languages. There are quite a number of people that want to start learning it and become a C++ developer. They face with the questions: \"Where should I start? What and in what order should I study? What books should I read?\"\n \nWe tried to answer these questions in the presented roadmap. The map focuses on general competencies and skills that could be found in most projects. It is designed to help those who are just starting their education or have little experience. You can create a more productive learning plan wit…",
+          "link": "https://github.com/salmer/CppDeveloperRoadmap",
+          "publishedOn": "2021-11-12T00:54:43.481Z",
+          "wordCount": 850,
+          "title": "salmer/CppDeveloperRoadmap"
+        },
+        {
+          "id": "https://github.com/dotnet/core",
+          "author": null,
+          "description": "Home repository for .NET Core\n\n.NET Core Home\n \nThe dotnet/core repository is a good starting point for .NET Core.\n \nThe latest major release is .NET 6.0. The latest patch updates are listed in .NET Core release notes.\n \n.NET Core Releases\n \n \n \nDownload the latest .NET Core SDK\n \n \n.NET Core releases\n \n \n.NET Core daily builds\n \n \nLearn about .NET Core\n \n \n \nLearn about .NET Core\n \n \n.NET Core Roadmap\n \n \nLearn about the .NET platform\n \n \n.NET Core release notes\n \n \n.NET Core Announcements\n \n \n.NET Core blog\n \n \nGetting help\n \n \n \nFile an issue\n \n \nAsk on Stack Overflow\n \n \nContact Microsoft Support\n \n \nVS Developer Community Portal for .NET Framework feedback (or via Report a Problem tool)\n \n \nHow to Engage, Contribute and Provide Feedback\n \nThe .NET Core team encourages contributions, both issues and PRs. The first step is finding the .NET Core repository that you want to contribute to.\n \nCheck the product roadmap to see what the team is focusing on.\n \nCommunity\n \nThis project uses the .NET Foundation Code of Conduct to define expected conduct in our community. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting a project maintainer at conduct@dotnetfoundation.org.\n \n.NET Foundation\n \nThe .NET Core platform is part of the .NET Foundation.\n \nLicenses\n \n.NET Core repos typically use either the MIT or Apache 2 licenses for code. Some projects license documentation and other forms of content under Creative Commons Attribution 4.0.\n \nSee specific repos to understand the license used.",
+          "link": "https://github.com/dotnet/core",
+          "publishedOn": "2021-11-12T00:54:43.412Z",
+          "wordCount": 810,
+          "title": "dotnet/core"
+        },
+        {
+          "id": "https://github.com/gradle/gradle",
+          "author": null,
+          "description": "Adaptable, fast automation for all\n \n \n \nGradle is a build tool with a focus on build automation and support for multi-language development. If you are building, testing, publishing, and deploying software on any platform, Gradle offers a flexible model that can support the entire development lifecycle from compiling and packaging code to publishing web sites. Gradle has been designed to support build automation across multiple languages and platforms including Java, Scala, Android, Kotlin, C/C++, and Groovy, and is closely integrated with development tools and continuous integration servers including Eclipse, IntelliJ, and Jenkins.\n \nFor more information, please visit the official project homepage\n \nGetting Started\n \n \n \nInstalling Gradle\n \n \nBuilding Android Apps\n \n \nBuilding Java Applications\n \n \nBuilding Java Libraries\n \n \nBuilding Groovy Applications\n \n \nBuilding Groovy Libraries\n \n \nBuilding Scala Applications\n \n \nBuilding Scala Libraries\n \n \nBuilding Kotlin JVM Applications\n \n \nBuilding Kotlin JVM Libraries\n \n \nBuilding C++ Applications\n \n \nBuilding C++ Libraries\n \n \nBuilding Swift Applications\n \n \nBuilding Swift Libraries\n \n \nCreating Build Scans\n \n \nStay in Flow\n \nEnjoy first-class Gradle support in your IDE of choice.\n \n \n \nAndroid Studio\n \n \nEclipse\n \n \nIntelliJ IDEA\n \n \nNetBeans\n \n \nVisual Studio Code\n \n \nNeed Help?\n \n \n \nGet familiar with the Gradle User Manual\n \n \nUpcoming trainings\n \n \nAsk on the forum or StackOverflow\n \n \nHave a look at the Samples\n \n \nCheckout the Community Resources as well\n \n \nJoin our Slack Channel\n \n \nContributing\n \nIf you're looking to contribute to Gradle or provide a patch/pull request, you can find more info here.\n \nThis project adheres to the Gradle Code of Conduct. By participating, you are expected to uphold this code.",
+          "link": "https://github.com/gradle/gradle",
+          "publishedOn": "2021-11-12T00:54:43.361Z",
+          "wordCount": 892,
+          "title": "gradle/gradle"
+        },
+        {
+          "id": "https://github.com/dogecoin/dogecoin",
+          "author": null,
+          "description": "very currency\n\n Dogecoin Core [DOGE, Ð] \n  \n \n \n \n \n \n \nSelect language: EN | CN\n \nDogecoin is a community-driven cryptocurrency that was inspired by a Shiba Inu meme. The Dogecoin Core software allows anyone to operate a node in the Dogecoin blockchain networks and uses the Scrypt hashing method for Proof of Work. It is adapted from Bitcoin Core and other cryptocurrencies.\n \nFor information about the default fees used on the Dogecoin network, please refer to the fee recommendation.\n \nWebsite: dogecoin.com\n \nUsage 💻\n \nTo start your journey with Dogecoin Core, see the installation guide and the getting started tutorial.\n \nThe JSON-RPC API provided by Dogecoin Core is self-documenting and can be browsed with dogecoin-cli help, while detailed information for each command can be viewed with d…",
+          "link": "https://github.com/dogecoin/dogecoin",
+          "publishedOn": "2021-11-12T00:54:43.266Z",
+          "wordCount": 1135,
+          "title": "dogecoin/dogecoin"
+        },
         {
           "id": "https://github.com/digitalocean/nginxconfig.io",
           "author": null,
@@ -3255,159 +3399,6 @@
           "publishedOn": "2021-10-14T00:52:51.782Z",
           "wordCount": 637,
           "title": "QianMo/Real-Time-Rendering-4th-Bibliography-Collection"
-        },
-        {
-          "id": "https://github.com/raimohanska/ourboard",
-          "author": null,
-          "description": "An online whiteboard\n\nAn online whiteboard.\n \nFeel free to try at https://www.ourboard.io/\n \nFeatures and User Guide\n \nBasics\n \nSetting your nickname\n \n \n \nClick on the top right corner nickname field to change\n \n \nAdding items\n \n \n \nDrag from palette\n \n \nDouble click to add a new note\n \n \nUse keyboard shortcuts below\n \n \nAdding links\n \n \n \nPaste a link to text, it'll automatically converted to a hyperlink\n \n \nSelect text and paste a link to convert the text to a link\n \n \nAdding images\n \n \n \nAdd by dragging a file from your computer or from a browser window\n \n \nAdd by pasting an image from the clipboard using Command-V\n \n \nAdding videos\n \n \n \nAdd by dragging a file from your computer or from a browser window\n \n \nKeyboard shortcuts\n \nDEL/Backspace       Delete item\nA                   Creat…",
-          "link": "https://github.com/raimohanska/ourboard",
-          "publishedOn": "2021-10-13T00:54:06.948Z",
-          "wordCount": 1657,
-          "title": "raimohanska/ourboard"
-        },
-        {
-          "id": "https://github.com/ethereum/ethereum-org-website",
-          "author": null,
-          "description": "Ethereum.org is a primary online resource for the Ethereum community.\n\n    \n \n \n\n 👋 Welcome to ethereum.org!\n  \nThis is the repo for the ethereum.org website, a resource for the Ethereum community. The purpose of the site is to “Be the best portal to Ethereum for our growing global community\" - read more about what this means here.\n \nethereum.org is improved and changed over time through the contributions of community members who submit content, give feedback, or volunteer their time to managing its evolution. If you’re interested in helping to improve ethereum.org, find out how to contribute.\n \nLooking for the Ethereum blockchain's code?\n \nIf you're looking for the Ethereum blockchain itself, there is no single repo. Instead, Ethereum has multiple implementations of the protocol written …",
-          "link": "https://github.com/ethereum/ethereum-org-website",
-          "publishedOn": "2021-10-13T00:54:06.910Z",
-          "wordCount": 3968,
-          "title": "ethereum/ethereum-org-website"
-        },
-        {
-          "id": "https://github.com/NationalSecurityAgency/ghidra",
-          "author": null,
-          "description": "Ghidra is a software reverse engineering (SRE) framework\n \nGhidra Software Reverse Engineering Framework\n \nGhidra is a software reverse engineering (SRE) framework created and maintained by the National Security Agency Research Directorate. This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features. Ghidra supports a wide variety of processor instruction sets and executable formats and can be run in both user-interactive and automated modes. Users may also develop their own Ghidra extension components and/or scripts using Java or Python.\n \nIn…",
-          "link": "https://github.com/NationalSecurityAgency/ghidra",
-          "publishedOn": "2021-10-13T00:54:06.786Z",
-          "wordCount": 985,
-          "title": "NationalSecurityAgency/ghidra"
-        },
-        {
-          "id": "https://github.com/ckosmic/sm64ex-ios",
-          "author": null,
-          "description": "iOS port of https://github.com/sm64pc/sm64ex/\n\nsm64ex-ios\n \nFork of sm64pc/sm64ex ported to iOS devices.\n \nFeel free to report bugs and contribute, but remember, there must be no upload of any copyrighted asset. Run ./extract_assets.py --clean && make clean or make distclean to remove ROM-originated content.\n \nBuilding\n \nFor building instructions, please refer to the wiki.",
-          "link": "https://github.com/ckosmic/sm64ex-ios",
-          "publishedOn": "2021-10-13T00:54:06.743Z",
-          "wordCount": 766,
-          "title": "ckosmic/sm64ex-ios"
-        },
-        {
-          "id": "https://github.com/openwrt/openwrt",
-          "author": null,
-          "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins or for reporting issues. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git. All issues should be reported at: https://bugs.openwrt.org\n\n\n \nOpenWrt Project is a Linux operating system targeting embedded devices. Instead of trying to create a single, static firmware, OpenWrt provides a fully writable filesystem with package management. This frees you from the application selection and configuration provided by the vendor and allows you to customize the device through the use of packages to suit any application. For developers, OpenWrt is the framework to build an application without having to build a compl…",
-          "link": "https://github.com/openwrt/openwrt",
-          "publishedOn": "2021-10-13T00:54:06.696Z",
-          "wordCount": 1131,
-          "title": "openwrt/openwrt"
-        },
-        {
-          "id": "https://github.com/ethereum/EIPs",
-          "author": null,
-          "description": "The Ethereum Improvement Proposal repository\n\nEthereum Improvement Proposals (EIPs)\n \n\n \nEthereum Improvement Proposals (EIPs) describe standards for the Ethereum platform, including core protocol specifications, client APIs, and contract standards.\n \nBefore you initiate a pull request, please read the EIP-1 process document. Ideas should be thoroughly discussed prior to opening a pull request, such as on the Ethereum Magicians forums or in a GitHub issue in this repository.\n \nThis repository tracks the ongoing status of EIPs. It contains:\n \n \n \nDraft proposals where the author(s) are still making changes and is not ready for review.\n \n \nReview  for proposals ready for EIP review process and the author(s) are ready for improvement suggestions.\n \n \nLast Call for proposals that may become fi…",
-          "link": "https://github.com/ethereum/EIPs",
-          "publishedOn": "2021-10-13T00:54:06.661Z",
-          "wordCount": 1238,
-          "title": "ethereum/EIPs"
-        },
-        {
-          "id": "https://github.com/jklepatch/eattheblocks",
-          "author": null,
-          "description": "Source code for Eat The Blocks, a screencast for Ethereum Dapp Developers\n\nEaTheBlocks\n \nBlockchain tutorials of EatTheBlocks. Learn how to build Decentralized Applications (Dapps) on Ethereum and Solidity Smart contracts\n \nCovers:\n \n \n \nEthereum\n \n \nSolidity\n \n \nWeb3\n \n \nTruffle\n \n \nDeFi (Decentralized Finance)\n \n \nOrganization\n \n \n \nYoutube: screencast folder\n \n \nCourses: other folders\n \n \nCourses\n \n \n \n6-Figures Blockchain Development\n \n \nProfitable Flashloan",
-          "link": "https://github.com/jklepatch/eattheblocks",
-          "publishedOn": "2021-10-13T00:54:06.621Z",
-          "wordCount": 532,
-          "title": "jklepatch/eattheblocks"
-        },
-        {
-          "id": "https://github.com/valinet/ExplorerPatcher",
-          "author": null,
-          "description": "This project aims to bring back a productive working environment on Windows 11.\n\nExplorer Patcher for Windows 11\n \nThis project aims to bring back a productive working environment on Windows 11.\n \n \n About ExplorerPatcher and StartIsBack The well-known [StartIsBack](https://www.startisback.com/) application recently introduced support for Windows 11. Currently, regarding Windows 11 functionality, it offers the same features as this patcher, plus all the functionalities from the older releases of the software; thus the differences between the two at the moment, besides their internal implementation (probably) resort in the cost, licensing, support and development model: StartIsBack is a paid app, proprietary, closed source and comes with support, while ExplorerPatcher is free ([gratis and l…",
-          "link": "https://github.com/valinet/ExplorerPatcher",
-          "publishedOn": "2021-10-13T00:54:06.583Z",
-          "wordCount": 3107,
-          "title": "valinet/ExplorerPatcher"
-        },
-        {
-          "id": "https://github.com/bitcoin/bitcoin",
-          "author": null,
-          "description": "Bitcoin Core integration/staging tree\n\nBitcoin Core integration/staging tree\n \nhttps://bitcoincore.org\n \nFor an immediately usable, binary version of the Bitcoin Core software, see https://bitcoincore.org/en/download/.\n \nFurther information about Bitcoin Core is available in the doc folder.\n \nWhat is Bitcoin?\n \nBitcoin is an experimental digital currency that enables instant payments to anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network. Bitcoin Core is the name of open source software which enables the use of this currency.\n \nFor more information read the original Bitcoin whitepaper.\n \nLicense\n \nBitcoin Core is released under the terms of the MIT licen…",
-          "link": "https://github.com/bitcoin/bitcoin",
-          "publishedOn": "2021-10-13T00:54:06.541Z",
-          "wordCount": 1221,
-          "title": "bitcoin/bitcoin"
-        },
-        {
-          "id": "https://github.com/iptv-org/iptv",
-          "author": null,
-          "description": "Collection of publicly available IPTV channels from all over the world\n\nIPTV\n \n\n \nCollection of publicly available IPTV channels from all over the world.\n \nInternet Protocol television (IPTV) is the delivery of television content over Internet Protocol (IP) networks.\n \nUsage\n \nTo watch IPTV you just need to paste this link https://iptv-org.github.io/iptv/index.m3u to any player which supports M3U-playlists.\n \n\n \nAlso you can instead use one of these playlists:\n \n \n \nhttps://iptv-org.github.io/iptv/index.country.m3u (grouped by country)\n \n \nhttps://iptv-org.github.io/iptv/index.category.m3u (grouped by category)\n \n \nhttps://iptv-org.github.io/iptv/index.language.m3u (grouped by language)\n \n \nhttps://iptv-org.github.io/iptv/index.nsfw.m3u (includes adult channels)\n \n \nOr select one of the pl…",
-          "link": "https://github.com/iptv-org/iptv",
-          "publishedOn": "2021-10-13T00:54:06.502Z",
-          "wordCount": 1490,
-          "title": "iptv-org/iptv"
-        },
-        {
-          "id": "https://github.com/trekhleb/promote-your-next-startup",
-          "author": null,
-          "description": "🚀 Free resources you may use to promote your next startup\n\nPromote Your Next Startup\n \nFree web-resources you may want to use to promote your next startup.\n \n \n \nThe main advertisement channel is of course people who are in love with your product. Their sharing activities is the best advertisement. Thus, the main idea is to create the product that is useful, usable and attractive to the end users. And only after that it does make sense to spread the word about something you've done.\n \n \n\n \nPost News\n \n \n  \n  \n \n   Link \n   About \n  \n \n  \n  \n  \n \n   reddit.com \n   The front-page of the internet \n  \n \n  \n \n   news.ycombinator.com \n   Hacker news \n  \n \n  \n \n   lobste.rs \n   Lobsters \n  \n \n  \n \n   facebook.com \n   Post news to your niche groups \n  \n \n  \n \n   twitter.com \n   Of course \n  \n \n  …",
-          "link": "https://github.com/trekhleb/promote-your-next-startup",
-          "publishedOn": "2021-10-13T00:54:06.421Z",
-          "wordCount": 1489,
-          "title": "trekhleb/promote-your-next-startup"
-        },
-        {
-          "id": "https://github.com/bevyengine/bevy",
-          "author": null,
-          "description": "A refreshingly simple data-driven game engine built in Rust\n\n\n \n     \n \nWhat is Bevy?\n \nBevy is a refreshingly simple data-driven game engine built in Rust. It is free and open-source forever!\n \nWARNING\n \nBevy is still in the very early stages of development. APIs can and will change (now is the time to make suggestions!). Important features are missing. Documentation is sparse. Please don't build any serious projects in Bevy unless you are prepared to be broken by API changes constantly.\n \nDesign Goals\n \n \n \nCapable: Offer a complete 2D and 3D feature set\n \n \nSimple: Easy for newbies to pick up, but infinitely flexible for power users\n \n \nData Focused: Data-oriented architecture using the Entity Component System paradigm\n \n \nModular: Use only what you need. Replace what you don't like\n \n …",
-          "link": "https://github.com/bevyengine/bevy",
-          "publishedOn": "2021-10-13T00:54:06.385Z",
-          "wordCount": 1213,
-          "title": "bevyengine/bevy"
-        },
-        {
-          "id": "https://github.com/golang/go",
-          "author": null,
-          "description": "The Go programming language\n\nThe Go Programming Language\n \nGo is an open source programming language that makes it easy to build simple, reliable, and efficient software.\n \n Gopher image by Renee French, licensed under Creative Commons 3.0 Attributions license.\n \nOur canonical Git repository is located at https://go.googlesource.com/go. There is a mirror of the repository at https://github.com/golang/go.\n \nUnless otherwise noted, the Go source files are distributed under the BSD-style license found in the LICENSE file.\n \nDownload and Install\n \nBinary Distributions\n \nOfficial binary distributions are available at https://golang.org/dl/.\n \nAfter downloading a binary release, visit https://golang.org/doc/install for installation instructions.\n \nInstall From Source\n \nIf a binary distribution is not available for your combination of operating system and architecture, visit https://golang.org/doc/install/source for source installation instructions.\n \nContributing\n \nGo is the work of thousands of contributors. We appreciate your help!\n \nTo contribute, please read the contribution guidelines at https://golang.org/doc/contribute.\n \nNote that the Go project uses the issue tracker for bug reports and proposals only. See https://golang.org/wiki/Questions for a list of places to ask questions about the Go language.",
-          "link": "https://github.com/golang/go",
-          "publishedOn": "2021-10-13T00:54:06.344Z",
-          "wordCount": 844,
-          "title": "golang/go"
-        },
-        {
-          "id": "https://github.com/peng-zhihui/peng-zhihui.github.io",
-          "author": null,
-          "description": "稚晖的个人站",
-          "link": "https://github.com/peng-zhihui/peng-zhihui.github.io",
-          "publishedOn": "2021-10-13T00:54:06.309Z",
-          "wordCount": 471,
-          "title": "peng-zhihui/peng-zhihui.github.io"
-        },
-        {
-          "id": "https://github.com/peng-zhihui/L-ink_Card",
-          "author": null,
-          "description": "Smart NFC & ink-Display Card\n\n[L-ink]电子墨水屏NFC智能卡片\n \n \n \n这是为了解决个人使用IC卡时遇到的一些痛点设计的一个迷你NFC智能卡片，基于STM32L051和ST25DV。\n \n \n想着既然要自制这玩意那就往炫酷了做，于是很自觉地把电子墨水屏也加上了，顺手也写了个配套APP用于显示内容定制。\n \n \n总之是个比较有意思的小项目，方案不算复杂，第一版设计也存在一些值得改进的地方，后续有空会继续优化方案设计的。\n \n \n\n \n演示视频\n \nB站指路：https://www.bilibili.com/video/BV1Cf4y1y7KT/\n \n项目文件说明\n \n \n \nHardware：source里面是电路原理图和PCB文件，使用Altium Designer打开；release里面是gerber文件可以直接发给厂家打样，也包含了元器件BOM表（部分IC不太常用可能要单独购买）。\n \n \nFirmware：STM32L051的固件，我提供了Clion和Keil两个版本的工程文件，源码内容是一致的，分两个版本只是因为个人对Clion爱得深沉。\n \n \n3D Model：屏幕架和外壳的3D文件，step格式一般3D建模软件都能打开编辑，STL格式用于直接3D打印。\n \n \nDAP-Link：自己设计的下载调试器的硬件和固件源码，也包括预编译的hex固件，如果你有J-Link或者ST-Link之类的下载器就不用这个了。\n \n \nAndroid：配套的APP安装包。\n \n \n固件编译说明\n \nSTM32因为使用了L0系列的MCU，所以如果你是第一次在你的电脑上开发STM32L0，那么需要先装一下L0的固件支持包，有两种方式：\n \n \n \n 使用STM32CubMX安装：\n \n \n  \n \n 使用Keil的Package Installer安装：\n \n \n  \n \n然后就不会报头文件的错误了。\n \n有几点注意的：\n \n \n \n如果想在Clion中编译工程的话可以参考我这篇教程：https://zhuanlan.zhihu.com/p/145801160\n \n \nClion中OpenOCD默认是使用ST-Link下载，其他下载器自己修改工程目录下的stlink.cfg文件\n \n \n关于硬件方案\n \n硬件方案比较简单，主要IC就两个--STM32和ST25DV，电子墨水屏是200x200的单色屏幕，我是买的微雪的（注意如果是买的几年前的库存，那驱动芯片会有点区别导致代码不通用，只要是新款的应该都没问题）。\n \nST25DV作为NFC的PHY通过I2C总线和STM32通信，主要作用有两个：能量采集以及NFC通信。注意，ST25DV只是负责和手机进行NFC通信，而不负责IC卡的读写功能，因为ST25DV只支持ISO 15693的RFID协议，而我们常用的IC卡（M1卡）是ISO 14443协议的，所以并不能直接使用这颗芯片进行IC卡模拟。\n \nIC卡的模拟功能这一版中实现得比较简单，就是直接集成了多颗UID芯片（很便宜，1~2元一片），然后和ST25DV共用NFC天线，卡片的切换是通过拨轮换挡实现的。好处在于，你可以把L-ink当作多张独立卡片的合集处理，复制和刷卡都是很直接的（使用PM3或者PN532等模块读取原卡信息并写入L-link）。当然缺点就是添加的卡片一多，按键的数量就要增加（因为每一档对应一张卡）。\n \n所以我也在改进方案，后面可能会使用支持ISO 14443协议的ST95或者ST25T系列的芯片来实现软件层面的IC卡模拟功能。\n \n另外下一个版本的硬件方案我会把黑白的电子墨水屏换成彩色的。\n \n关于配套APP\n \nAndroid APP目前只是实现了功能，这是基于我以前做的一个算法验证框架APP改的，UI还没有重新做设计，可以等后续更新。\n \n工程文件的话我后面可以把其中的核心功能模块封装成Module，然后给个Sample Project供参考使用，工作太忙等我缓过这阵子先~\n \n教程整理中...\n \n有问题先看Issue（包括已经close的），另外\n \n跟项目工程无关的问题不要发在Issues里面！跟项目工程无关的问题不要发在Issues里面！跟项目工程无关的问题不要发在Issues里面！\n \n聊天内容可以给我发评论或者私信（B站、知乎），我看到的话基本都会回复，issue里面发的话所有watch项目的人都会收到邮件，会对大家产生困扰的！\n \n \n以下是simonire修改的版本，适配新款的屏幕驱动，修改拨轮为五维按键，有需要的可以参考：\n \nhttps://github.com/simonire/L-ink_Card",
-          "link": "https://github.com/peng-zhihui/L-ink_Card",
-          "publishedOn": "2021-10-13T00:54:06.285Z",
-          "wordCount": 474,
-          "title": "peng-zhihui/L-ink_Card"
-        },
-        {
-          "id": "https://github.com/WebDevSimplified/useful-custom-react-hooks",
-          "author": null,
-          "description": "Getting Started with Create React App\n \nThis project was bootstrapped with Create React App.\n \nAvailable Scripts\n \nIn the project directory, you can run:\n \nnpm start\n \nRuns the app in the development mode.\n Open http://localhost:3000 to view it in the browser.\n \nThe page will reload if you make edits.\n You will also see any lint errors in the console.\n \nnpm test\n \nLaunches the test runner in the interactive watch mode.\n See the section about running tests for more information.\n \nnpm run build\n \nBuilds the app for production to the build folder.\n It correctly bundles React in production mode and optimizes the build for the best performance.\n \nThe build is minified and the filenames include the hashes.\n Your app is ready to be deployed!\n \nSee the section about deployment for more information…",
-          "link": "https://github.com/WebDevSimplified/useful-custom-react-hooks",
-          "publishedOn": "2021-10-13T00:54:06.211Z",
-          "wordCount": 763,
-          "title": "WebDevSimplified/useful-custom-react-hooks"
-        },
-        {
-          "id": "https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist",
-          "author": null,
-          "description": "我终于能用谷歌搜中文了……\n\n中文搜索结果黑名单\n \n垃圾站点出现在 Google、百度的中文搜索结果中，实在是恶心——于是这个黑名单就这么出来了。\n \n黑名单主要由我自己使用 Google 搜索时收集（ 当然，也离不开来自网友的热心分享、提交 ），所以更新频率无法保证。然而已经断断续续更新了 4 年，就职的公司都被收购了，部门也换了 4 次。\n \n如何使用\n \n安装以下插件导入黑名单，插件选其中之一即可。\n \n强烈建议使用 uBlacklist，因为该插件可以对搜索结果标题进行匹配（ 即下方提到的“模糊匹配” ）。例如，Google 搜索结果中可能有成百上千的“小 X 百科网”、“小 X 知识网”，以域名匹配的方式几乎是不可能的（ 即下方提到的“精确匹配” ）。这时用正则模糊匹配结果标题，将会非常简单。\n \n同理，由于 Google Hit Hider by Domain 和 AC-baidu 没有匹配标题的功能，屏蔽效果会比 uBlacklist 差。\n \n屏蔽 Google 中文搜索结果\n \n1. uBlacklist（ 下载地址：Chrome Web Store、Firefox Add-ons、Mac App Store ）\n \n \n \n 将以下 2 个链接，通过点击 Add a subscription 添加到 Subscription 分类下。\n \n  \n \n   \n 精确匹配：该匹配方式主要是通过 *://*.xxxx.com/* 的方式来匹配搜索结果，进行过滤。基本不会有误杀。\n  \n   \n 模糊匹配：该匹配方式主要是通过如 *://*/list.php?s=*、title/小.(百科|知识)网/ 的方式来匹配搜索结果，进行过滤。存在小范围的误杀。\n  \n  \n  \n \n2. Google Hit Hider by Domain（ 下载地址：GreasyFork ）\n \n \n \n将该列表中的网址，通过 List Until -> Import 进行导入。\n \n \n屏蔽百度中文搜索结果\n \n1. Google Hit Hider by Domain（ 下载地址：GreasyFork ）\n \n \n \n同 Google 方案操作。\n \n \n2. AC-baidu（ 下载地址：GreasyFork ）\n \n \n \n开启“附加2-自主拦截域名”，点击 DIY，将该列表中的网址导入。\n \n \n \n \n注：这个脚本似乎也会同时对搜狗、谷歌、必应搜索结果同时产生影响。\n \n \n反馈\n \n加入反馈群（ Telegram ）来更快的分享规则、提出建议。",
-          "link": "https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist",
-          "publishedOn": "2021-10-13T00:54:06.183Z",
-          "wordCount": 446,
-          "title": "cobaltdisco/Google-Chinese-Results-Blocklist"
         }
       ]
     }
