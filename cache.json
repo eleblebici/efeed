@@ -281,78 +281,6 @@
           "publishedOn": "2021-10-15T17:15:00.000Z",
           "wordCount": 1183,
           "title": "Cloud Native Computing Foundation Announces 2021 Community Awards Winners"
-        },
-        {
-          "id": "https://www.cncf.io/?p=65051",
-          "author": "Jessie",
-          "description": "The CNCF Technical Oversight Committee (TOC) has voted to accept Cilium as a CNCF incubating project.  Cilium provides networking, security, and observability for cloud native environments by acting as a CNI and...",
-          "link": "https://www.cncf.io/blog/2021/10/13/cilium-joins-cncf-as-an-incubating-project/",
-          "publishedOn": "2021-10-13T16:50:00.000Z",
-          "wordCount": 1035,
-          "title": "Cilium joins CNCF as an incubating project"
-        },
-        {
-          "id": "https://www.cncf.io/?p=65139",
-          "author": "Jessie",
-          "description": "CNCF is home to some of the most critical open source software infrastructure technologies in the world. It is our goal to ensure the stability, dependability, and credibility of our projects for...",
-          "link": "https://www.cncf.io/blog/2021/10/13/announcing-the-cloud-native-credits-program/",
-          "publishedOn": "2021-10-13T16:00:00.000Z",
-          "wordCount": 753,
-          "title": "Announcing the Cloud Native Credits program"
-        },
-        {
-          "id": "https://www.cncf.io/?p=65093",
-          "author": "Jessie",
-          "description": "New Language Recommendations and Training Courses Propel Organizations Forward in Mission to Replace Harmful Language in Code  LOS ANGELES, Calif. – KubeCon + CloudNativeCon North America 2021 – October 13, 2021 –...",
-          "link": "https://www.cncf.io/announcements/2021/10/13/inclusive-naming-initiative-announces-new-community-resources-for-a-more-inclusive-future/",
-          "publishedOn": "2021-10-13T16:00:00.000Z",
-          "wordCount": 1232,
-          "title": "Inclusive Naming Initiative Announces New Community Resources for A More Inclusive Future"
-        },
-        {
-          "id": "https://www.cncf.io/?p=65087",
-          "author": "Jessie",
-          "description": "98 new members joined CNCF this quarter, driving an increasingly diverse ecosystem that continues to provide leading-edge technology innovations across the globe  LOS ANGELES, Calif. – KubeCon + CloudNativeCon North America –...",
-          "link": "https://www.cncf.io/announcements/2021/10/13/cloud-native-computing-foundation-welcomes-record-number-of-new-silver-members/",
-          "publishedOn": "2021-10-13T16:00:00.000Z",
-          "wordCount": 3424,
-          "title": "Cloud Native Computing Foundation Welcomes Record Number of New Silver Members"
-        },
-        {
-          "id": "https://www.cncf.io/?p=65059",
-          "author": "Jessie",
-          "description": "At KubeCon + CloudNativeCon NA 2021, the Flux team is celebrating a major milestone! Top Cloud and GitOps vendors – Microsoft, Amazon, VMware, D2iQ, and Weaveworks – all trust CNCF Flux to...",
-          "link": "https://www.cncf.io/blog/2021/10/13/flux-celebrates-major-milestone/",
-          "publishedOn": "2021-10-13T16:00:00.000Z",
-          "wordCount": 894,
-          "title": "Flux celebrates major milestone"
-        },
-        {
-          "id": "https://www.cncf.io/?p=65048",
-          "author": "Jessie",
-          "description": "New certification exam from CNCF and The Linux Foundation will test basic knowledge of Kubernetes and cloud native architectures LOS ANGELES – KubeCon + CloudNativeCon North America – October 13, 2021 –...",
-          "link": "https://www.cncf.io/announcements/2021/10/13/entry-level-kubernetes-certification-to-help-advance-cloud-careers/",
-          "publishedOn": "2021-10-13T16:00:00.000Z",
-          "wordCount": 1183,
-          "title": "Entry Level Kubernetes Certification to Help Advance Cloud Careers"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64955",
-          "author": "Jessie",
-          "description": "Leading financial institution joins forces with the cloud native community to advance the future of infrastructure     SAN FRANCISCO, Calif. – October 13, 2021 – The Cloud Native Computing Foundation® (CNCF®), which builds...",
-          "link": "https://www.cncf.io/announcements/2021/10/13/cloud-native-computing-foundation-welcomes-american-express-as-gold-member/",
-          "publishedOn": "2021-10-13T16:00:00.000Z",
-          "wordCount": 873,
-          "title": "Cloud Native Computing Foundation Welcomes American Express as Gold Member"
-        },
-        {
-          "id": "https://www.cncf.io/?p=64951",
-          "author": "Jessie",
-          "description": "We are honored to announce that Cloud Native Computing Foundation’s KubeCon + CloudNativeCon scholarship program will now officially be named the Dan Kohn Diversity Scholarship.  Dan was a titan of the open...",
-          "link": "https://www.cncf.io/blog/2021/10/13/cncfs-kubecon-cloudnativecon-diversity-scholarship-will-now-be-named-the-dan-kohn-diversity-scholarship/",
-          "publishedOn": "2021-10-13T16:00:00.000Z",
-          "wordCount": 672,
-          "title": "CNCF’s KubeCon + CloudNativeCon diversity scholarship will now be named the Dan Kohn Diversity Scholarship"
         }
       ]
     },
@@ -367,6 +295,87 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/trimstray/the-book-of-secret-knowledge",
+          "author": null,
+          "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.\n\n    \n \n\"Knowledge is powerful, be careful how you use it!\"\n \nA collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools, and more.\n \n \n       \n \n    \n \n \n Created by trimstray and contributors \n \n \n \n📔  What is it?\n \nThis repository is a collection of various materials and tools that I use every day in my work. It contains a lot of useful information gathered in one piece. It is an invaluable source of knowledge for me that I often look back on.\n \n🚻  For whom?\n \nFor everyone, really. Here everyone can find their favourite tastes. But to be perfectly honest, it is aimed towards System and Network administrators, DevOps, Pentesters, and Security Rese…",
+          "link": "https://github.com/trimstray/the-book-of-secret-knowledge",
+          "publishedOn": "2021-11-13T00:51:59.715Z",
+          "wordCount": 22161,
+          "title": "trimstray/the-book-of-secret-knowledge"
+        },
+        {
+          "id": "https://github.com/alan2207/bulletproof-react",
+          "author": null,
+          "description": "🛡️ ⚛️ A simple, scalable, and powerful architecture for building production ready React applications.\n\nBulletproof React 🛡️ ⚛️\n \n \n \nA simple, scalable, and powerful architecture for building production ready React applications.\n \nIntroduction\n \nReact is a great tool for building frontend applications. It has a very diverse ecosystem with hundreds of great libraries for literally anything you might need. However, it can be overwhelming to be forced to make so many choices. It is also very flexible, you can write React applications in any way you like but that flexibility comes with a cost. Since there is no pre-defined architecture developers can follow, it often leads to messy, inconsistent, or over-complicated codebases.\n \nThis is an attempt to present a way of creating React applicati…",
+          "link": "https://github.com/alan2207/bulletproof-react",
+          "publishedOn": "2021-11-13T00:51:59.322Z",
+          "wordCount": 938,
+          "title": "alan2207/bulletproof-react"
+        },
+        {
+          "id": "https://github.com/clusternet/clusternet",
+          "author": null,
+          "description": "Managing your Kubernetes clusters (including public, private, edge, etc) as easily as visiting the Internet\n\nClusternet\n \n      \n \n \nManaging Your Clusters (including public, private, hybrid, edge, etc) as easily as Visiting the Internet.\n \nOut of the Box.\n \n \n\n \n \nClusternet (Cluster Internet) is an open source add-on that helps you manage thousands of millions of Kubernetes clusters as easily as visiting the Internet. No matter the clusters are running on public cloud, private cloud, hybrid cloud, or at the edge, Clusternet lets you manage/visit them all as if they were running locally. This also help eliminate the need to juggle different management tools for each cluster.\n \nClusternet can also help deploy and coordinate applications to multiple clusters from a single set of APIs in a h…",
+          "link": "https://github.com/clusternet/clusternet",
+          "publishedOn": "2021-11-13T00:51:59.282Z",
+          "wordCount": 1186,
+          "title": "clusternet/clusternet"
+        },
+        {
+          "id": "https://github.com/dotnet/aspnetcore",
+          "author": null,
+          "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.\n\n    \n \nASP.NET Core\n \nASP.NET Core is an open-source and cross-platform framework for building modern cloud based internet connected applications, such as web apps, IoT apps and mobile backends. ASP.NET Core apps run on .NET Core, a free, cross-platform and open-source application runtime. It was architected to provide an optimized development framework for apps that are deployed to the cloud or run on-premises. It consists of modular components with minimal overhead, so you retain flexibility while constructing your solutions. You can develop and run your ASP.NET Core apps cross-platform on Windows, Mac and Linux. Learn more about ASP.NET Core.\n \nGet Started\n \nFollo…",
+          "link": "https://github.com/dotnet/aspnetcore",
+          "publishedOn": "2021-11-13T00:51:59.245Z",
+          "wordCount": 1208,
+          "title": "dotnet/aspnetcore"
+        },
+        {
+          "id": "https://github.com/dair-ai/ML-YouTube-Courses",
+          "author": null,
+          "description": "A repository to index and organize the latest machine learning courses found on YouTube.\n\n📺 ML YouTube Courses\n \nAt dair.ai we ❤️ open education. We are excited to share some of the best and most recent machine learning courses available on YouTube.\n \nCourse List:\n \n \n \nStanford CS229: Machine Learning\n \n \nApplied Machine Learning\n \n \nMachine Learning with Graphs (Stanford)\n \n \nProbabilistic Machine Learning\n \n \nIntroduction to Deep Learning (MIT)\n \n \nDeep Learning: CS 182\n \n \nDeep Unsupervised Learning\n \n \nNYU Deep Learning SP21\n \n \nCS224N: Natural Language Processing with Deep Learning\n \n \nCMU Neural Networks for NLP\n \n \nMultilingual NLP\n \n \nAdvanced NLP\n \n \nDeep Learning for Computer Vision\n \n \nDeep Reinforcement Learning\n \n \nFull Stack Deep Learning\n \n \nAMMI Geometric Deep Learning Co…",
+          "link": "https://github.com/dair-ai/ML-YouTube-Courses",
+          "publishedOn": "2021-11-13T00:51:59.193Z",
+          "wordCount": 1350,
+          "title": "dair-ai/ML-YouTube-Courses"
+        },
+        {
+          "id": "https://github.com/yeemachine/kalidokit",
+          "author": null,
+          "description": "Blendshape and kinematics solver for Mediapipe/Tensorflow.js face, eyes, pose, and hand tracking models.\n\nKalidoKit - Face, Pose, and Hand Tracking Kinematics\n \n \nKalidokit is a blendshape and kinematics solver for Mediapipe/Tensorflow.js face, eyes, pose, and hand tracking models, compatible with Facemesh, Blazepose, Handpose, and Holistic. It takes predicted 3D landmarks and calculates simple euler rotations and blendshape face values.\n \nAs the core to Vtuber web apps, Kalidoface and Kalidoface 3D, KalidoKit is designed specifically for rigging 3D VRM models and Live2D avatars!\n \n\n \n\n \nInstall\n \nVia NPM\n \nnpm install kalidokit\n\n \nimport * as Kalidokit from \"kalidokit\";\n\n// or only import the class you need\n\nimport { Face, Pose, Hand } from \"kalidokit\";\n\n \nVia CDN\n \n<script src=\"https://c…",
+          "link": "https://github.com/yeemachine/kalidokit",
+          "publishedOn": "2021-11-13T00:51:59.158Z",
+          "wordCount": 1465,
+          "title": "yeemachine/kalidokit"
+        },
+        {
+          "id": "https://github.com/r0eXpeR/supplier",
+          "author": null,
+          "description": "主流供应商的一些攻击性漏洞汇总\n\n主流供应商的一些攻击性漏洞汇总\n \n网络安全专家 @Alexander Knorr 在推特上分享的一些有关于供应商的一些 CVE 严重漏洞，详情，仅列出了 CVE 编号，无相关漏洞详情。所以在分享的图片基础上进行新增了漏洞 Title，官方公告，漏洞分析，利用代码，概念证明以及新增或删减了多个CVE等，另外修正了部分 CVE 编号的错误。\n \n红队中易被攻击的一些重点系统漏洞整理详见：https://forum.ywhack.com/bountytips.php?Vulnerability\n \n\n \n \n \n主流供应商的一些攻击性漏洞汇总 TOC \n  \n \n   \nCitrix VPN\n \n   \nPulse Secure VPN\n \n   \nCisco AnyConnect\n \n   \nFortinet\n \n   \nSonicWall\n \n   \nF5\n \n   \nPalo Alto\n \n   \nQNAP\n \n   \nMS Exchange\n \n   \nMS SharePoint\n \n   \nMS Windows\n \n   \nMS Office\n \n   \nVMware\n \n   \nFileZen\n \n   \nMS Azure\n \n   \nAtlassian\n \n   \nZoho(卓豪) Corp.\n \n   \nCisco ASA\n \n   \nJuniper（瞻博网络）\n \n  \n  \n \nCitrix VPN\n \nCVE-2021-22941 Citrix ShareFile 存储区控制器中的 RCE\n \n \n \n官方公告\n \n \n漏洞分析\n \n \n利用代码\n \n \nCVE-2020-8195 Citrix 未授权访问漏洞\n \n \n \n官方公告\n \n \n利用代码\n \n \nCVE-2020-8196 Citrix Nitro API 未…",
+          "link": "https://github.com/r0eXpeR/supplier",
+          "publishedOn": "2021-11-13T00:51:59.106Z",
+          "wordCount": 1064,
+          "title": "r0eXpeR/supplier"
+        },
+        {
+          "id": "https://github.com/laravel/framework",
+          "author": null,
+          "description": "The Laravel Framework.\n\n\n \n     \n \nAbout Laravel\n \n \n \nNote: This repository contains the core code of the Laravel framework. If you want to build an application using Laravel, visit the main Laravel repository.\n \n \nLaravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:\n \n \n \nSimple, fast routing engine.\n \n \nPowerful dependency injection container.\n \n \nMultiple back-ends for session and cache storage.\n \n \nDatabase agnostic schema migrations.\n \n \nRobust background job processing.\n \n \nReal-time event broadcasting.\n \n \nLaravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation gives you a complete toolset required to build any application with which you are tasked.\n \nLearning Laravel\n \nLaravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The Laravel documentation is in-depth and complete, making it a breeze to get started learning the framework.\n \nIf you're not in the mood to read, Laracasts contains over 1100 video tutorials covering a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.\n \nContributing\n \nThank you for considering contributing to the Laravel framework! The contribution guide can be found in the Laravel documentation.\n \nCode of Conduct\n \nIn order to ensure that the Laravel community is welcoming to all, please review and abide by the Code of Conduct.\n \nSecurity Vulnerabilities\n \nPlease review our security policy on how to report security vulnerabilities.\n \nLicense\n \nThe Laravel framework is open-sourced software licensed under the MIT license.",
+          "link": "https://github.com/laravel/framework",
+          "publishedOn": "2021-11-13T00:51:59.053Z",
+          "wordCount": 832,
+          "title": "laravel/framework"
+        },
+        {
+          "id": "https://github.com/jasontaylordev/CleanArchitecture",
+          "author": null,
+          "description": "Clean Architecture Solution Template for .NET 6\n \nClean Architecture Solution Template\n \n    \n \n \nThis is a solution template for creating a Single Page App (SPA) with Angular and ASP.NET Core following the principles of Clean Architecture. Create a new project based on this template by clicking the above Use this template button or by installing and running the associated NuGet package (see Getting Started for full details).\n \nLearn about Clean Architecture\n \n\n \nTechnologies\n \n \n \nASP.NET Core 6\n \n \nEntity Framework Core 6\n \n \nAngular 12\n \n \nMediatR\n \n \nAutoMapper\n \n \nFluentValidation\n \n \nNUnit, FluentAssertions, Moq & Respawn\n \n \nDocker\n \n \nGetting Started\n \nThe easiest way to get started is to install the NuGet package and run dotnet new ca-sln:\n \n \n \nInstall the latest .NET 6 SDK\n \n \nI…",
+          "link": "https://github.com/jasontaylordev/CleanArchitecture",
+          "publishedOn": "2021-11-13T00:51:58.995Z",
+          "wordCount": 1173,
+          "title": "jasontaylordev/CleanArchitecture"
+        },
         {
           "id": "https://github.com/fonoster/fonoster",
           "author": null,
@@ -3273,132 +3282,6 @@
           "publishedOn": "2021-10-15T00:57:13.145Z",
           "wordCount": 675,
           "title": "marcelja/facebook-delete"
-        },
-        {
-          "id": "https://github.com/milvus-io/milvus",
-          "author": null,
-          "description": "An open-source vector database for embedding similarity search and AI applications.\n   \n \n    \n  \n  \n \n \n    \n    \n \nWhat is Milvus?\n \nMilvus is an open-source vector database built to power embedding similarity search and AI applications. Milvus makes unstructured data search more accessible, and provides a consistent user experience regardless of the deployment environment.\n \nMilvus 2.0 is a cloud-native vector database with storage and computation separated by design. All components in this refactored version of Milvus are stateless to enhance elasticity and flexibility. For more architecture details, see Milvus Architecture Overview.\n \nMilvus was released under the open-source Apache License 2.0 in October 2019. It is currently a graduate project under LF AI & Data Foundation.\n \nKey fe…",
-          "link": "https://github.com/milvus-io/milvus",
-          "publishedOn": "2021-10-14T00:52:52.501Z",
-          "wordCount": 1631,
-          "title": "milvus-io/milvus"
-        },
-        {
-          "id": "https://github.com/AveYo/MediaCreationTool.bat",
-          "author": null,
-          "description": "Universal MCT wrapper script for all Windows 10/11 versions from 1507 to 21H2!\n\nNot just an Universal MediaCreationTool wrapper script with ingenious support for business editions,\n  A powerful yet simple windows 10 / 11 deployment automation tool as well!\n \n \n \nconfigure via set vars, commandline parameters or rename script like iso 21H2 Pro MediaCreationTool.bat\n recommended windows setup options with the least amount of issues on upgrades set via auto.cmd\n awesome dialogs with keyboard focus to pick target version and preset action\n \n \n \n \nAuto Setup with detected media without confirmation\n - can troubleshoot upgrade failing by adding no_update to script name\n Create ISO with detected media in C:\\ESD folder without confirmation\n - can override detected media by adding edition name / la…",
-          "link": "https://github.com/AveYo/MediaCreationTool.bat",
-          "publishedOn": "2021-10-14T00:52:52.463Z",
-          "wordCount": 1145,
-          "title": "AveYo/MediaCreationTool.bat"
-        },
-        {
-          "id": "https://github.com/smartcontractkit/full-blockchain-solidity-course-py",
-          "author": null,
-          "description": "Ultimate Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course | Python Edition\n\nYouTube Video\n \n \n    \n \n \nWelcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course | Python Edition FreeCodeCamp course!\n \nTable of Contents\n \n \n \nTable of Contents\n \n \nResources For This Course \n  \n \n   \nQuestions\n \n  \n  \n \nLesson 0: Welcome To Blockchain \n  \n \n   \nWhat is a Blockchain?\n \n   \nMaking Your First Transaction\n \n   \nHow Do Blockchains Work? \n    \n \n     \nConsensus\n \n    \n  \n   \nThe Future\n \n   \nMiscellaneous\n \n  \n  \n \nLesson 1: Welcome to Remix! Simple Storage \n  \n \n   \nEverything in this section can be read about in the Solidity Documentation\n \n   \nRemix\n \n   \nBasic Solidity\n \n   \nDeploying to a \"Live\" network\n \n  \n …",
-          "link": "https://github.com/smartcontractkit/full-blockchain-solidity-course-py",
-          "publishedOn": "2021-10-14T00:52:52.404Z",
-          "wordCount": 3069,
-          "title": "smartcontractkit/full-blockchain-solidity-course-py"
-        },
-        {
-          "id": "https://github.com/peng-zhihui/Peak",
-          "author": null,
-          "description": "Tiny Mobile Terminal Device Kit.\n\n说明\n \n\n \n \n \n本项目是一个超迷你的智能小终端，集成LVGL图像框架、MVC框架、消息框架、WiFi蓝牙能力，未来会加入触摸屏支持。可以作为智能控制器用于实现很多应用。\n \n \n另外我正在上面实现一个非常小型的3D引擎，可以用于动态显示一些3D模型（就像Dummy示教器中展示的那样）。\n \n \n非常感谢 https://github.com/FASTSHIFT 开源的X-Track项目，本文是对于X-Track硬件和固件往ESP32平台移植的记录说明。\n \n1. 硬件移植\n \n关于芯片选型\n \n主要考虑MCU的Flash、SRAM、SPI速度，需要满足以下要求：\n \n \n \n主频 > 150MHz\n \n \nRAM >= 200KB\n \n \nFLASH >= 512KB\n \n \nSPI速度 >= 50Mbps（60fps刷新率的要求）\n \n \n \n \nlvgl中需要设置LCD buffer，一般设置为屏幕分辨率大小，在本项目中为240x240x2（因为是16bit色深所以每个像素2字节），算下来至少需要112KB的SRAM。\n \n \nSPI的CLK速度计算如下：240x240x2x8x60=55.296MHz，因此最好是达到50MHz以上的频率才能保证刷新流畅（实际上不使用DMA传输数据的话帧率会更低）。\n \n \n经过筛选满足以上要求的MCU，综合考虑成本和购买渠道问题，除了官方项目使用的雅特力AT32F403ACGU7主控外，还有两款是比较合适的：STM32F405RGT6、ESP32。\n \n对比优缺点如下：\n \n \n \nSTM32F405的主频不如ESP32高且后者为双核；\n \n \n外设方面STM32F405更丰富，也支持使用DMA+SPI驱动屏幕；\n \n \nESP32带WiFi能力，STM32不…",
-          "link": "https://github.com/peng-zhihui/Peak",
-          "publishedOn": "2021-10-14T00:52:52.354Z",
-          "wordCount": 612,
-          "title": "peng-zhihui/Peak"
-        },
-        {
-          "id": "https://github.com/ArduPilot/ardupilot",
-          "author": null,
-          "description": "ArduPlane, ArduCopter, ArduRover, ArduSub source\n\nArduPilot Project\n \n\n \n    \n \n   \n \n \n \n\n \n \n \n\n \n\n \n\n \nArduPilot is the most advanced, full-featured and reliable open source autopilot software available. It has been under development since 2010 by a diverse team of professional engineers, computer scientists and community contributors. Our autopilot software is capable of controlling almost any vehicle system imaginable, from conventional airplanes, quad planes, multi-rotors, and helicopters to rovers, boats, balance bots and even submarines. It is continually being expanded to provide support for new emerging vehicle types.\n \nThe ArduPilot project is made up of:\n \n \n \n ArduCopter: code, wiki\n  \n \n ArduPlane: code, wiki\n  \n \n Rover: code, wiki\n  \n \n ArduSub : code, wiki\n  \n \n Antenna Tr…",
-          "link": "https://github.com/ArduPilot/ardupilot",
-          "publishedOn": "2021-10-14T00:52:52.323Z",
-          "wordCount": 868,
-          "title": "ArduPilot/ardupilot"
-        },
-        {
-          "id": "https://github.com/localstack/localstack",
-          "author": null,
-          "description": "💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!\n\n  \n \n         \n --> \n \n LocalStack provides an easy-to-use test/mocking framework for developing Cloud applications. \n \n Overview • Install • Run • Configure • Play \n– 📖 Docs • 💻 Pro version • ☑️ Feature coverage • 📢 Announcements \n \n \nOverview\n \nLocalStack 💻 is a cloud service emulator that runs in a single container on your laptop or in your CI environment. With LocalStack, you can run your AWS applications or Lambdas entirely on your local machine without connecting to a remote cloud provider! Whether you are testing complex CDK applications or Terraform configurations, or just beginning to learn about AWS services, LocalStack helps speed up and simplify your testing and development …",
-          "link": "https://github.com/localstack/localstack",
-          "publishedOn": "2021-10-14T00:52:52.283Z",
-          "wordCount": 5796,
-          "title": "localstack/localstack"
-        },
-        {
-          "id": "https://github.com/apache/apisix",
-          "author": null,
-          "description": "The Cloud-Native API Gateway\n\nApache APISIX\n \n \n    \n \nApache APISIX is a dynamic, real-time, high-performance API gateway.\n \nAPISIX provides rich traffic management features such as load balancing, dynamic upstream, canary release, circuit breaking, authentication, observability, and more.\n \nYou can use Apache APISIX to handle traditional north-south traffic, as well as east-west traffic between services. It can also be used as a k8s ingress controller.\n \nThe technical architecture of Apache APISIX:\n \n\n \nCommunity\n \n \n \nMailing List: Mail to dev-subscribe@apisix.apache.org, follow the reply to subscribe to the mailing list.\n \n \nQQ Group - 578997126\n \n \nSlack Workspace - Please subscribe the mailing list then ask for invitation link\n \n \n - follow and interact with us using hashtag #ApacheA…",
-          "link": "https://github.com/apache/apisix",
-          "publishedOn": "2021-10-14T00:52:52.210Z",
-          "wordCount": 2096,
-          "title": "apache/apisix"
-        },
-        {
-          "id": "https://github.com/microsoft/playwright",
-          "author": null,
-          "description": "Node.js library to automate Chromium, Firefox and WebKit with a single API\n\n🎭 Playwright\n \n  \n \n  \n \n  \n \n \n \nDocumentation | API reference\n \nPlaywright is a Node.js library to automate Chromium, Firefox and WebKit with a single API. Playwright is built to enable cross-browser web automation that is ever-green, capable, reliable and fast.\n \n \n  \n  \n \n    \n   Linux \n   macOS \n   Windows \n  \n \n  \n  \n  \n \n   Chromium \n    97.0.4666.0\n     \n   ✅ \n   ✅ \n   ✅ \n  \n \n  \n \n   WebKit \n    15.4\n     \n   ✅ \n   ✅ \n   ✅ \n  \n \n  \n \n   Firefox \n    92.0\n     \n   ✅ \n   ✅ \n   ✅ \n  \n \n  \n \nHeadless execution is supported for all the browsers on all platforms. Check out system requirements for details.\n \nUsage\n \nnpm i -D playwright\n\n \nThis installs Playwright and browser binaries for Chromium, Firefox and We…",
-          "link": "https://github.com/microsoft/playwright",
-          "publishedOn": "2021-10-14T00:52:52.164Z",
-          "wordCount": 1136,
-          "title": "microsoft/playwright"
-        },
-        {
-          "id": "https://github.com/taichi-dev/taichi",
-          "author": null,
-          "description": "Parallel programming for everyone.\n\n \n  \n \n  Tutorial  |  Examples  |  Forum \n   Playground  -->\n \n \n  Documentation  |  简体中文文档  |  Contributor Guidelines  \n \n \n   \n \nOverview\n \nTaichi (太极) is a parallel programming language for high-performance numerical computations. It is embedded in Python, and its just-in-time compiler offloads compute-intensive tasks to multi-core CPUs and massively parallel GPUs.\n \n  \n \nAdvanced features of Taichi include spatially sparse computing, differentiable programming [examples], and quantized computation.\n \nPlease check out our SIGGRAPH 2020 course on Taichi basics: YouTube, Bilibili, slides (pdf).\n \n中文视频教程: [哔哩哔哩], [幻灯片]\n \nExamples (More...)\n \n    \n \n \n \nInstallation \n \npython3 -m pip install taichi\n\n \nSupported OS: Windows, Linux, Mac OS X; Python: 3.6-3.…",
-          "link": "https://github.com/taichi-dev/taichi",
-          "publishedOn": "2021-10-14T00:52:52.112Z",
-          "wordCount": 1101,
-          "title": "taichi-dev/taichi"
-        },
-        {
-          "id": "https://github.com/Chakazul/Lenia",
-          "author": null,
-          "description": "Lenia - Mathematical Life Forms\n\n\n \nFor full version list, see Timeline in Lenia portal\n \n \n \n[2020-10-13] Update Python version with multi-kernel and multi-channel extensions (v3.4 LeniaNDK.py, v3.5 LeniaNDKC.py). To see the most advanced Lenia patterns, run \"python LeniaNDKC.py -c3 -k3\", and press \"B\"\n \n \n[2020-07-22] Companion video \"Lenia: Expanded Universe\" available at https://youtu.be/HT49wpyux-k\n \n \n[2020-07-14] Paper published in ALIFE 2020 Proceedings at https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00297\n \n \n[2020-05-07] Preprint paper \"Lenia and Expanded Universe\" for ALIFE2020 available at https://arxiv.org/abs/2005.03742\n \n \n[2020-01-13] Major update in Python version: n-Dimensional Lenia. List of changes see LeniaND changes.txt\n \n \n[2019-12-14] Lifeforms found in 3…",
-          "link": "https://github.com/Chakazul/Lenia",
-          "publishedOn": "2021-10-14T00:52:52.001Z",
-          "wordCount": 686,
-          "title": "Chakazul/Lenia"
-        },
-        {
-          "id": "https://github.com/practical-tutorials/project-based-learning",
-          "author": null,
-          "description": "Curated list of project-based tutorials\n\nProject Based Learning\n \n\n \nA list of programming tutorials in which aspiring software developers learn how to build an application from scratch. These tutorials are divided into different primary programming languages. Tutorials may involve multiple technologies and languages.\n \nTo get started, simply fork this repo. Please refer to CONTRIBUTING.md for contribution guidelines.\n \nTable of Contents:\n \n \n \nC#\n \n \nC/C++\n \n \nClojure\n \n \nElixir\n \n \nErlang\n \n \nF#\n \n \nGo\n \n \nHaskell\n \n \nHTML/CSS\n \n \nJava\n \n \nJavaScript\n \n \nKotlin\n \n \nLua\n \n \nOCaml\n \n \nPHP\n \n \nPython\n \n \nR\n \n \nRuby\n \n \nRust\n \n \nScala\n \n \nSwift\n \n \nAdditional resources\n \n \nC/C++:\n \n \n \nBuild an Interpreter (Chapter 14 on is written in C)\n \n \nMemory Allocators 101 - Write a simple memory allo…",
-          "link": "https://github.com/practical-tutorials/project-based-learning",
-          "publishedOn": "2021-10-14T00:52:51.939Z",
-          "wordCount": 3192,
-          "title": "practical-tutorials/project-based-learning"
-        },
-        {
-          "id": "https://github.com/PaddlePaddle/PaddleOCR",
-          "author": null,
-          "description": "Awesome multilingual OCR toolkits based on PaddlePaddle （practical ultra lightweight OCR system, support 80+ languages recognition, provide data annotation and synthesis tools, support training and deployment among server, mobile, embedded and IoT devices）\n\nEnglish | 简体中文\n \n  \n \n \n         \n \nIntroduction\n \nPaddleOCR aims to create multilingual, awesome, leading, and practical OCR tools that help users train better models and apply them into practice.\n \nRecent updates\n \n \n \n PaddleOCR R&D team would like to share the key points of PP-OCRv2, at 20:15 pm on September 8th, Live Address.\n  \n \n 2021.9.7 release PaddleOCR v2.3, PP-OCRv2 is proposed. The inference speed of PP-OCRv2 is 220% higher than that of PP-OCR server in CPU device. The F-score of PP-OCRv2 is 7% higher than that of PP-OCR mo…",
-          "link": "https://github.com/PaddlePaddle/PaddleOCR",
-          "publishedOn": "2021-10-14T00:52:51.856Z",
-          "wordCount": 1752,
-          "title": "PaddlePaddle/PaddleOCR"
-        },
-        {
-          "id": "https://github.com/tihanyin/PSSW100AVB",
-          "author": null,
-          "description": "A list of useful Powershell scripts with 100% AV bypass (At the time of publication).\n\nPSSW100AVB\n \nThis is the Powershell Scripts with 100% AV Bypass Repository (PSSW100AVB). A list of useful Powershell scripts with 100% AV bypass (At the time of publication).",
-          "link": "https://github.com/tihanyin/PSSW100AVB",
-          "publishedOn": "2021-10-14T00:52:51.804Z",
-          "wordCount": 387,
-          "title": "tihanyin/PSSW100AVB"
-        },
-        {
-          "id": "https://github.com/QianMo/Real-Time-Rendering-4th-Bibliography-Collection",
-          "author": null,
-          "description": "Real-Time Rendering 4th (RTR4) 参考文献合集典藏 | Collection of  Bibliography\n\n<Real Time Rendering 4th> Bibliography Collection\n \n《Real-Time Rendering 4th》 (RTR4) 参考文献合集典藏。目前已收录超过2000份的 《Real-Time Rendering 4th》 (RTR4)参考文献。\n \nCollection of Real-Time Rendering 4th (RTR4) Bibliography.Currently,more than 2000 bibliography of Real-Time Rendering 4th (RTR4) have been included.\n \n\n \nPreview\n \n\n \nContent\n \n \n \n Chapter 1-24 : 1956+ Files\n \n  \n \n   \nChapter 1 Introduction\n \n   \nChapter 2 The Graphics Rendering Pipeline\n \n   \nChapter 3 The Graphics Processing Unit\n \n   \nChapter 4 Transforms\n \n   \nChapter 5 Shading Basics\n \n   \nChapter 6 Texturing\n \n   \nChapter 7 Shadows\n \n   \nChapter 8 Light and Color\n \n   \nChapter 9 Physically Based Shading\n \n   \nChapter 10 Local Illumination\n \n   \nChapter 11 Global Illumination\n \n   \nChapter 12 Image-Space Effects\n \n   \nChapter 13 Beyond Polygons\n \n   \nChapter 14 Volumetric and Translucency Rendering\n \n   \nChapter 15 Non-Photorealistic Rendering\n \n   \nChapter 16 Polygonal Techniques\n \n   \nChapter 17 Curves and Curved Surfaces\n \n   \nChapter 18 Pipeline Optimization\n \n   \nChapter 19 Acceleration Algorithms\n \n   \nChapter 20 Efficient Shading\n \n   \nChapter 21 Virtual and Augmented Reality\n \n   \nChapter 22 Intersection Test Methods\n \n   \nChapter 23 Graphics Hardware\n \n   \nChapter 24 The Future\n \n  \n  \n \n Chapter 25 Collision Detection \n \n  \n \n   \n105+ Files\n \n  \n  \n \n Chapter 26 Real-Time Ray Tracing\n \n  \n \n   \n106+ Files\n \n  \n  \n \n Appendices - Linear Algebra and Trigonometry\n \n  \n \n   \n14+ Files\n \n  \n  \n \n \nReferences\n \n[1] http://www.realtimerendering.com/refs.html",
-          "link": "https://github.com/QianMo/Real-Time-Rendering-4th-Bibliography-Collection",
-          "publishedOn": "2021-10-14T00:52:51.782Z",
-          "wordCount": 637,
-          "title": "QianMo/Real-Time-Rendering-4th-Bibliography-Collection"
         }
       ]
     }
