@@ -16,6 +16,811 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-11-14">2021-11-14</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="http://mshibanami.github.io/GitHubTrendingRSS">GitHub All Languages Daily Trending</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">sirupsen/logrus</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/sirupsen/logrus">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(9 min)</span>
+                    <span>Structured, pluggable logging for Go.
+
+Logrus    
+ 
+Logrus is a structured logger for Go (golang), completely API compatible with the standard library logger.
+ 
+Logrus is in maintenance-mode. We will not be introducing new features. It&#x27;s simply too hard to do in a way that won&#x27;t break many people&#x27;s projects, which is the last thing you want from your Logging library (again...).
+ 
+This does not mean Logrus is dead. Logrus will continue to be maintained for security, (backwards compatible) bug fixes, and performance (where we are limited by the interface).
+ 
+I believe Logrus&#x27; biggest contribution is to have played a part in today&#x27;s widespread use of structured logging in Golang. There doesn&#x27;t seem to be a reason to do a major, breaking iteration into Logrus V2, since the fantastic Go communi…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">PyTorchLightning/pytorch-lightning</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/PyTorchLightning/pytorch-lightning">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>The lightweight PyTorch wrapper for high-performance AI research. Scale your models, not the boilerplate.
+
+ 
+  
+ 
+The lightweight PyTorch wrapper for high-performance AI research. Scale your models, not the boilerplate.
+ 
+ 
+ 
+ 
+ Website • Key Features • How To Use • Docs • Examples • Community • Grid AI • License 
+ 
+  
+ 
+     
+ 
+ 
+  
+ 
+  
+ 
+*Codecov is &gt; 90%+ but build delays may show less
+ 
+ 
+PyTorch Lightning is just organized PyTorch
+ 
+Lightning disentangles PyTorch code to decouple the science from the engineering. 
+ 
+ 
+Lightning Design Philosophy
+ 
+Lightning structures PyTorch code with these principles:
+ 
+ 
+  
+ 
+Lightning forces the following structure to your code which makes it reusable and shareable:
+ 
+ 
+ 
+Research code (the LightningModule).
+ 
+ 
+Engineering code (you delete, and …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">dotnetcore/FastGithub</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/dotnetcore/FastGithub">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题
+
+FastGithub
+ 
+github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题。
+ 
+1 程序下载
+ 
+ 
+ 
+github-release
+ 
+ 
+Q群1 307306673 [已满]
+ 
+ 
+Q群2 742376932
+ 
+ 
+2 部署方式
+ 
+2.1 windows-x64
+ 
+ 
+ 
+双击运行FastGithub.UI.exe
+ 
+ 
+fastgithub.exe start // 以windows服务安装并启动
+ 
+ 
+fastgithub.exe stop // 以windows服务卸载并删除
+ 
+ 
+2.2 linux-x64
+ 
+ 
+ 
+执行./fastgithub
+ 
+ 
+安装cacert/fastgithub.cer到受信任的根证书颁发机构
+ 
+ 
+设置系统自动代理为http://127.0.0.1:38457，或手动代理http/https为127.0.0.1:38457
+ 
+ 
+2.3 macOS-x64
+ 
+ 
+ 
+双击运行fastgithub
+ 
+ 
+安装cacert/fastgithub.cer并设置信任
+ 
+ 
+设置系统自动代理为http://127.0.0.1:38457，或手动代理http/https为127.0.0.1:38457
+ 
+ 
+具体配置详情
+ 
+ 
+2.4 docker-compose一键部署
+ 
+ 
+ 
+准备好docker 18.09, docker-compose.
+ 
+ 
+在源码目录下，有一个docker-compose.yaml 文件，专用于在实际项目中，临时使用github.com源码，而做的demo配置。
+ 
+ 
+根据自己的需要更新docker-compose.yaml中的sample和build镜像即可完成拉github.com源码加速，并基于源码做后续的操作。
+ 
+ 
+3 软件功能
+ 
+ 
+ 
+提供域名的纯净IP解析；
+ 
+ 
+提供IP测速并选择最快的IP；
+ 
+ 
+提供域名的tls连接自定义配置；
+ 
+ 
+google的CDN资源替换，解决大量国外网站无法加载js和css的问题；
+ 
+ 
+4 证书验证
+ 
+4.1 git
+ 
+git操作提示SSL certificate problem
+ 需要关闭git的证书验证：git config --global http.sslverify false
+ 
+4.2 firefox
+ 
+firefox提示连接有潜在的安全问题
+ 设置-&gt;隐私与安全-&gt;证书-&gt;查看证书-&gt;证书颁发机构，导入cacert/fastgithub.cer，勾选“信任由此证书颁发机构来标识网站”
+ 
+5 安全性说明
+ 
+FastGithub为每台不同的主机生成自颁发CA证书，保存在cacert文件夹下。客户端设备需要安装和无条件信任自颁发的CA证书，请不要将证书私钥泄露给他人，以免造成损失。
+ 
+6 合法性说明
+ 
+《国际联网暂行规定》第六条规定：“计算机信息网络直接进行国际联网，必须使用邮电部国家公用电信网提供的国际出入口信道。任何单位和个人不得自行建立或者使用其他信道进行国际联网。” FastGithub本地代理使用的都是“公用电信网提供的国际出入口信道”，从国外Github服务器到国内用户电脑上FastGithub程序的流量，使用的是正常流量通道，其间未对流量进行任何额外加密（仅有网页原有的TLS加密，区别于VPN的流量加密），而FastGithub获取到网页数据之后发生的整个代理过程完全在国内，不再适用国际互联网相关之规定。</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">RicoSuter/NSwag</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/RicoSuter/NSwag">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>The Swagger/OpenAPI toolchain for .NET, ASP.NET Core and TypeScript.
+
+NSwag: The Swagger/OpenAPI toolchain for .NET, ASP.NET Core and TypeScript
+ 
+       
+ 
+👉 Announcing Apimundo: An API documentation system based on NSwag and NJsonSchema 👈
+ 
+NSwag is a Swagger/OpenAPI 2.0 and 3.0 toolchain for .NET, .NET Core, Web API, ASP.NET Core, TypeScript (jQuery, AngularJS, Angular 2+, Aurelia, KnockoutJS and more) and other platforms, written in C#. The OpenAPI/Swagger specification uses JSON and JSON Schema to describe a RESTful web API. The NSwag project provides tools to generate OpenAPI specifications from existing ASP.NET Web API controllers and client code from these OpenAPI specifications.
+ 
+The project combines the functionality of Swashbuckle (OpenAPI/Swagger generation) and AutoRest (cl…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">bregman-arie/devops-resources</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/bregman-arie/devops-resources">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP
+
+
+ 
+ℹ  This repository is about gathering any useful resources and information regarding DevOps and secondly, provide some roadmap for those who want to practice DevOps.
+ 
+📝  Feel free to add more resources by sumitting pull requests
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+   
+ 
+    
+DevOps 
+    
+Jenkins 
+    
+Git 
+    
+Ansible 
+    
+Network 
+    
+Linux 
+    
+Terraform 
+   
+ 
+   
+ 
+    
+Coding 
+    
+Python 
+    
+Go 
+    
+Shell Scripting 
+    
+Kubernetes 
+    
+Prometheus 
+    
+Mongo 
+   
+ 
+   
+ 
+    
+Cloud 
+    
+AWS 
+    
+Azure 
+    
+Google Cloud Platform 
+    
+OpenStack 
+    
+Security 
+    
+Puppet 
+   
+ 
+   
+ 
+    
+ELK 
+    
+DataOps 
+    
+OpenShift 
+    
+SQL 
+    
+Con…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">WyvernTKC/cpuminer-gr-avx2</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/WyvernTKC/cpuminer-gr-avx2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>Optimised Version of GR miner for RTM
+
+cpuminer-gr is a fork of cpuminer-opt by Jay D Dee which is a fork of cpuminer-multi with optimizations imported from other miners developped by lucas Jones, djm34, Wolf0, pooler, Jeff garzik, ig0tik3d, elmad, palmd, and Optiminer, with additional optimizations by Jay D Dee.
+ 
+All of the code is believed to be open and free. If anyone has a claim to any of it post your case in the cpuminer-gr by email.
+ 
+Miner programs are often flagged as malware by antivirus programs. This is a false positive, they are flagged simply because they are cryptocurrency miners. The source code is open for anyone to inspect. If you don&#x27;t trust the software, don&#x27;t use it.
+ 
+There is NO official bitcointalk thread about this miner. It is due to unjust ban after posting abou…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">protocolbuffers/protobuf</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/protocolbuffers/protobuf">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Protocol Buffers - Google&#x27;s data interchange format
+
+Protocol Buffers - Google&#x27;s data interchange format
+ 
+Copyright 2008 Google Inc.
+ 
+https://developers.google.com/protocol-buffers/
+ 
+Overview
+ 
+Protocol Buffers (a.k.a., protobuf) are Google&#x27;s language-neutral, platform-neutral, extensible mechanism for serializing structured data. You can find protobuf&#x27;s documentation on the Google Developers site.
+ 
+This README file contains protobuf installation instructions. To install protobuf, you need to install the protocol compiler (used to compile .proto files) and the protobuf runtime for your chosen programming language.
+ 
+Protocol Compiler Installation
+ 
+The protocol compiler is written in C++. If you are using C++, please follow the C++ Installation Instructions to install protoc along with…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">nocodb/nocodb</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/nocodb/nocodb">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>🔥 🔥 🔥 Open Source Airtable Alternative
+
+  NocoDB
+  🎃 The Open Source Airtable Alternative 🎃 
+  
+ Turns any MySQL, PostgreSQL, SQL Server, SQLite &amp; MariaDB into a smart-spreadsheet. 
+ 
+ 
+ 
+  
+ 
+ 
+ Website • Discord • Twitter • Reddit • Documentation 
+ 
+
+ 
+ 
+ 
+        
+ 
+ 
+See other languages »
+ 
+ 
+
+ 
+Quick try
+ 
+1-Click Deploy
+ 
+Heroku
+ 
+   
+ 
+Using Docker
+ 
+docker run -d --name nocodb -p 8080:8080 nocodb/nocodb:latest
+
+ 
+ 
+ 
+To persist data you can mount volume at /usr/app/data/.
+ 
+ 
+Using Npm
+ 
+npx create-nocodb-app
+
+ 
+Using Git
+ 
+git clone https://github.com/nocodb/nocodb-seed
+cd nocodb-seed
+npm install
+npm start
+
+ 
+GUI
+ 
+Access Dashboard using : http://localhost:8080/dashboard
+ 
+Join Our Community
+ 
+   
+ 
+Screenshots
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+Features
+ 
+Rich Spre…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">mrdoob/three.js</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/mrdoob/three.js">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>JavaScript 3D Library.
+
+three.js
+ 
+   
+ 
+JavaScript 3D library
+ 
+The aim of the project is to create an easy to use, lightweight, cross-browser, general purpose 3D library. The current builds only include a WebGL renderer but WebGPU (experimental), SVG and CSS3D renderers are also available in the examples.
+ 
+Examples — Documentation — Wiki — Migrating — Questions — Forum — Slack — Discord
+ 
+Usage
+ 
+This code creates a scene, a camera, and a geometric cube, and it adds the cube to the scene. It then creates a WebGL renderer for the scene and camera, and it adds that viewport to the document.body element. Finally, it animates the cube within the scene for the camera.
+ 
+import * as THREE from &#x27;./js/three.module.js&#x27;;
+
+let camera, scene, renderer;
+let geometry, material, mesh;
+
+init();
+
+function init() {
+
+	camera &#x3D; new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 10 );
+	camera.position.z &#x3D; 1;
+
+	scene &#x3D; new THREE.Scene();
+
+	geometry &#x3D; new THREE.BoxGeometry( 0.2, 0.2, 0.2 );
+	material &#x3D; new THREE.MeshNormalMaterial();
+
+	mesh &#x3D; new THREE.Mesh( geometry, material );
+	scene.add( mesh );
+
+	renderer &#x3D; new THREE.WebGLRenderer( { antialias: true } );
+	renderer.setSize( window.innerWidth, window.innerHeight );
+	renderer.setAnimationLoop( animation );
+	document.body.appendChild( renderer.domElement );
+
+}
+
+function animation( time ) {
+
+	mesh.rotation.x &#x3D; time / 2000;
+	mesh.rotation.y &#x3D; time / 1000;
+
+	renderer.render( scene, camera );
+
+}
+
+ 
+If everything went well, you should see this.
+ 
+Cloning this repository
+ 
+Cloning the repo with all its history results in a ~2 GB download. If you don&#x27;t need the whole history you can use the depth parameter to significantly reduce download size.
+ 
+git clone --depth&#x3D;1 https://github.com/mrdoob/three.js.git
+
+ 
+Change log
+ 
+Releases</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">elastic/elasticsearch</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/elastic/elasticsearch">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Free and Open, Distributed, RESTful Search Engine
+
+Elasticsearch
+ 
+ 
+ 
+ 
+  
+ 
+   
+Elasticsearch is the distributed, RESTful search and analytics engine at the heart of the Elastic Stack. You can use Elasticsearch to store, search, and manage data for:
+ 
+  
+ 
+  
+ 
+   
+ 
+    
+ Logs
+  
+    
+ Metrics
+  
+    
+ A search backend
+  
+    
+ Application monitoring
+  
+    
+ Endpoint security
+ 
+     
+ 
+      
+ 
+       
+ and more!
+  
+      
+ 
+     
+  
+   
+ 
+  
+ 
+  
+ 
+   
+To learn more about Elasticsearch’s features and capabilities, see our product page.
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Get started
+ 
+ 
+ 
+  
+ 
+   
+The simplest way to set up Elasticsearch is to create a managed deployment with Elasticsearch Service on Elastic Cloud.
+ 
+  
+ 
+  
+ 
+   
+If you prefer to install and manage Elasticsearch yourself, you can downl…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">sunym1993/flash-linux0.11-talk</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/sunym1993/flash-linux0.11-talk">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>你管这破玩意叫操作系统源码 — 像小说一样品读 Linux 0.11 核心代码
+
+你管这破玩意叫操作系统源码 —— 像小说一样品读 Linux 0.11 核心代码
+ 
+   
+ 
+目标：带大家把 Linux 0.11 核心代码与操作系统的设计思想啃下来
+ 
+首发地址：公众号 低并发编程
+ 
+
+ 
+发文时间：每周一和每周四
+ 
+开篇词：闪客新系列！你管这破玩意叫操作系统源码
+ 
+一些非必须的资料：资料包
+ 
+一些共性的问题：FAQ
+ 
+一些读者分享和见解：读者分享
+ 
+还有个有趣的事情大家可以共同参与进来：Intel手册翻译计划
+ 
+ 
+架构图
+ 
+
+ 
+ 
+已发布文章：
+ 
+ 
+ 
+ 第一部分：进入内核前的苦力活
+ 
+  
+ 
+   
+第一回 最开始的两行代码
+ 
+  
+  
+ 
+ 第二部分：大战前期的初始化工作
+  
+ 
+ 第三部分：一个新进程的诞生
+  
+ 
+ 第四部分：shell 程序的到来
+  
+ 
+ 第五部分：从一个命令的执行看操作系统各模块的运作
+  
+ 
+ 第六部分：操作系统哲学与思想</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">soulmachine/machine-learning-cheat-sheet</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/soulmachine/machine-learning-cheat-sheet">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Classical equations and diagrams in machine learning
+
+Machine learning cheat sheet
+ 
+This cheat sheet contains many classical equations and diagrams on machine learning, which will help you quickly recall knowledge and ideas on machine learning.
+ 
+The cheat sheet will also appeal to someone who is preparing for a job interview related to machine learning.
+ 
+Download PDF
+ 
+machine-learning-cheat-sheet.pdf
+ 
+How to compile
+ 
+docker pull soulmachine/texlive
+docker run -it --rm -v $(pwd):/data -w /data soulmachine/texlive xelatex -synctex&#x3D;1 --enable-write18 -interaction&#x3D;nonstopmode machine-learning-cheat-sheet.tex
+
+ 
+LaTeX template
+ 
+This open-source book adopts the Springer latex template.
+ 
+How to compile on Windows
+ 
+ 
+ 
+ Install Tex Live 2014, then add its bin path for example D:\texlive\2012\bin\win32 to he PATH environment variable.
+  
+ 
+ Install TeXstudio.
+  
+ 
+ Configure TeXstudio.
+ Run TeXstudio, click Options--&gt;Configure Texstudio--&gt;Commands, set XeLaTex to xelatex -synctex&#x3D;1 -interaction&#x3D;nonstopmode %.tex.
+ Click Options--&gt;Configure Texstudio--&gt;Build,
+ set Build &amp; View to Compile &amp; View,
+ set Default Compiler to XeLaTex,
+ set PDF Viewer to Internal PDF Viewer(windowed), so that when previewing it will pop up a standalone window, which will be convenient.
+  
+ 
+ Compile. Use Open machine-learning-cheat-sheet.tex with TeXstudio，click the green arrow on the menu bar, then it will start to compile.
+ In the messages window below we can see the compilation command that TeXstudio is using is xelatex -synctex&#x3D;1 --enable-write18 -interaction&#x3D;nonstopmode &quot;machine-learning-cheat-sheet&quot;.tex</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">stong/infosec-resources</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/stong/infosec-resources">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>A list of helpful cybersecurity / infosec resources
+
+List of InfoSec resources
+ 
+I get this question a lot so I compiled a big list that I can just link people to directly.
+ 
+Where to start?
+ 
+ 
+ 
+How to start hacking? The ultimate two path guide to information security. - /r/hacking
+ 
+ 
+LiveOverflow&#x27;s YouTube channel
+ 
+ 
+Advice for young hackers. How to teach yourself
+ 
+ 
+CTFs
+ 
+If you are new, you should start with high school level and eventually level up to college level.
+ 
+ 
+ 
+https://ctftime.org - Find CTFs and write-ups
+ 
+ 
+https://picoctf.com/ (high school level)
+ 
+ 
+NSA Codebreaker challenge
+ 
+ 
+CSAW RED (high school level) - Formerly known as CSAW HSF
+ 
+ 
+CSAW CTF (college level)
+ 
+ 
+HackTheBox - I never did this, but it&#x27;s popular
+ 
+ 
+Binary Exploitation
+ 
+ 
+ 
+pwn.college - Guide…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-11-13">2021-11-13</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -17733,540 +18538,6 @@ GitHub 每日备份 https://github.com/WorkerLivesMatter/WorkerLivesMatter
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="http://mshibanami.github.io/GitHubTrendingRSS">GitHub All Languages Daily Trending</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">KieSun/all-of-frontend</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/KieSun/all-of-frontend">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>你想知道的前端内容都在这
-
-       
- 
-  
- 
-
- 重要资料已经整合在公众号「前端真好玩」，另外还附赠了前端 10 万字的面试攻略，已经帮助上千人拿到 offer。扫码发送关键字「资料」，你会发现相见恨晚！
- 
-
-  
- 
-🔥 这是什么？
- 
-笔者在学会 JS 以及框架的应用后，有一段时间不知道该如何深入下去，活能干，就是不知道该学啥。相信这个问题也会有很多读者朋友遇到。
- 
-当然笔者目前已经突破了这个瓶颈，也成为了知名公司基础架构组的成员。因此想通过自己成长的经历及积累的资料整理出一系列的学习路线及资料推荐，帮助各位读者朋友解决这个问题。
- 
- 
- 
-笔者会列出所有前端必学及热门领域的学习路径及推荐资料，比如浏览器、性能优化、框架、工程化、算法等等，工程浩大，大家可以持续关注该项目！
- 
- 
-此资料适用于小白入门、初中级进阶、高级查漏补缺。
- 
-内容每天都在更新，大家可以持续关注。
- 
-💻 如何使用
- 
-如果你是初中级工程师来说，笔者也推荐先行学习「前端核心学习路径」，主要是巩固基础，之后再挑选感兴趣的主题。
- 
-如果你是高级工程师，笔者推荐跳过「前端核心学习路径」，直接挑选感兴趣的主题学习即可。
- 
-以下所有知识点笔者都会帮助读者朋友们将知识连贯起来，从而建立自己的知识体系而不是单独记忆松散的知识点。
- 
-推荐大家 Star 并 Fork 本项目（点击仓库顶部右上角按钮），然后 git clone 到本地后从上至下逐步完成学习计划。
- 
-Comming soon!
- 
- 
- 
-构建器相关内容
- 
- 
-前端核心学习路径思维导图
- 
- 
-另外各位读者有任何想了解的主题都可以告诉我。
- 
-如何获取本仓库资料
- 
-笔者已经将仓库内容里的重要资料整理好了，还附赠了前端 10 万字的面试攻略，已经帮助上千人拿到 offer。大家可以关注公众号发送「资料」获取。
- 
-
-…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">tensorflow/tensorflow</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/tensorflow/tensorflow">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>An Open Source Machine Learning Framework for Everyone
-
- 
-  
- 
-  
- 
- 
-  
-  
- 
-   Documentation 
-  
- 
-  
-  
-  
- 
-    
-  
- 
-  
- 
-TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML-powered applications.
- 
-TensorFlow was originally developed by researchers and engineers working on the Google Brain team within Google&#x27;s Machine Intelligence Research organization to conduct machine learning and deep neural networks research. The system is general enough to be applicable in a wide variety of other domains, as well.
- 
-TensorFlow provides stable Python and C++ APIs, as well as non-guaranteed backwar…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">umijs/umi</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/umijs/umi">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>🌋 Pluggable enterprise-level react application framework.
-
-English | 简体中文
- 
-umi
- 
-      
- 
-🍙 Extensible enterprise-level front-end application framework.
- 
- 
- 
-Please consider following this project&#x27;s author, sorrycc, and consider starring the project to show your ❤️ and support.
- 
- 
- 
-Features
- 
- 
- 
-🎉 Extensible, Umi implements the complete lifecycle and makes it extensible, and Umi&#x27;s internal functions are all plugins. Umi also support plugins and presets.
- 
- 
-📦 Out of the Box, Umi has built-in routing, building, deployment, testing, and so on. It only requires one dependency to get started. Umi also provides an integrated preset for React with rich functionaries.
- 
- 
-🐠 Enterprise, It has been verified by 3000+ projects in Ant Financial and projects of Alibaba, Youku, Netease, Fligg…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">fosscord/fosscord-server</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/fosscord/fosscord-server">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Fosscord Server (selfhostable open source discord server) (contains api + cdn + gateway + dashboard + voice)
-
-  
- 
-Fosscord Server
- 
-         
- 
-About
- 
-This repository contains:
- 
- 
- 
-Fosscord HTTP API Server
- 
- 
-WebSocket Gateway Server
- 
- 
-HTTP CDN Server
- 
- 
-Utility and Database Models
- 
- 
-RTC Server
- 
- 
-WebRTC Server
- 
- 
-Admin Dashboard
- 
- 
-Resources
- 
- 
- 
-Contributing
- 
- 
-Download
- 
- 
- 
-Work in progress</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">hoppscotch/hoppscotch</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/hoppscotch/hoppscotch">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>👽 Open source API development ecosystem https://hoppscotch.io
-
- 
-    
- 
- 
- 
- 
- 
-  Hoppscotch  
- 
- 
- 
- 
-  Open source API development ecosystem  
- 
- 
- 
- 
-   
- 
- 
- 
- 
-  Built with ❤︎ by  contributors   
- 
- 
- 
- 
-    
- 
- 
-Support
- 
- 
- 
- 
- Table of contents 
- 
- 
- 
- 
-  
-Features
- 
-  
-Demo
- 
-  
-Usage
- 
-  
-Built with
- 
-  
-Developing
- 
-  
-Docker
- 
-  
-Releasing
- 
-  
-Contributing
- 
-  
-Continuous Integration
- 
-  
-Changelog
- 
-  
-Authors
- 
-  
-License
- 
- 
- 
- 
- 
- 
-Features
- 
-❤️ Lightweight: Crafted with minimalistic UI design.
- 
-⚡️ Fast: Send requests and get/copy responses in real-time.
- 
-HTTP Methods
- 
- 
- 
-GET - Requests retrieve resource information
- 
- 
-POST - The server creates a new entry in a database
- 
- 
-PUT - Updates an existing resource
- 
- 
-PATCH - Very similar to PUT but makes a partial update …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">thunlp/OpenPrompt</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/thunlp/OpenPrompt">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>An Open-Source Toolkit for Prompt-Learning.
-
- 
-  
- 
-An Open-Source Framework for Prompt-learning.
- 
- 
- 
- 
- Overview • Installation • How To Use • Docs • 
- 
- 
-
- 
-Overview
- 
-Prompt-learning is the latest paradigm to adapt pre-trained language models (PLMs) to downstream NLP tasks, which modifies the input text with a textual template and directly uses PLMs to conduct pre-trained tasks. This library provides a standard, flexible and extensible framework to deploy the prompt-learning pipeline. OpenPrompt supports loading PLMs directly from huggingface transformers. In the future, we will also support PLMs implemented by other libraries.
- 
- 
-  
- 
-What Can You Do via OpenPrompt?
- 
-
- 
- 
- 
-Use the implementations of current prompt-learning approaches.* We have implemented various of prompting meth…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">ZhangNanBei/WokerLifeMatters</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/ZhangNanBei/WokerLifeMatters">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>各大公司作息统计
-
-WorkerLivesMatter
- 
-请转到 https://github.com/WorkerLivesMatter/WorkingTime
- 
-感谢 @SwJay 提醒，本项目名打错了，最新地址如上
- 
-重要链接
- 
- 
- 
-填写问卷匿名发布自己部门的作息时间 https://docs.qq.com/form/page/DUUdPbWhnWVF3ekh6
- 
- 
-实时查看数据的收集表 https://docs.qq.com/sheet/DUXVoa3BsRG1HYlZE?tab&#x3D;BB08J2
- 
- 
-每日凌晨整理数据的总表 https://docs.qq.com/sheet/DVmhnRG15TG1Tb2Js
- 
- 
-GitHub 每日备份 https://github.com/WorkerLivesMatter/WorkerLivesMatter
- 
- 
-项目介绍
- 
-Worker lives matter！ 由于众所周知的原因，包含互联网在内的各行业企业加班盛行且无监管。这导致劳动者入职前无法确定公司的具体工作时间。本项目依托于同学们的奉献，致力于统计各大公司的作息时间，为劳动者们提供准确的参考。
- 
-交流群
- 
-官方 QQ 二群 965192435，一群 186964319 已满。 有问题请咨询群管理员。
- 
-致谢
- 
-感谢 一学习就犯困 Tibbers Ale 秃头才能变强 和所有贡献了数据的兄弟们。 感谢 richar 提供方法解决了恶意编辑的问题。</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">NVlabs/stylegan3</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/NVlabs/stylegan3">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>Official PyTorch implementation of StyleGAN3
-
-Alias-Free Generative Adversarial Networks (StyleGAN3)
-Official PyTorch implementation of the NeurIPS 2021 paper
- 
-
- 
-Alias-Free Generative Adversarial Networks
- Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne Hellsten, Jaakko Lehtinen, Timo Aila
- https://nvlabs.github.io/stylegan3
- 
-Abstract: We observe that despite their hierarchical convolutional nature, the synthesis process of typical generative adversarial networks depends on absolute pixel coordinates in an unhealthy manner. This manifests itself as, e.g., detail appearing to be glued to image coordinates instead of the surfaces of depicted objects. We trace the root cause to careless signal processing that causes aliasing in the generator network. Interpreting all signals…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">fosscord/fosscord</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/fosscord/fosscord">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Fosscord is a free open source selfhostable discord compatible chat, voice and video platform
-
-  
- 
-Fosscord
- 
-         
- 
-About
- 
-Fosscord is a free open source selfhostable discord compatible chat, voice and video platform
- 
- 
- 
-Discord-compatible (Communicate with all friends who are &quot;still&quot; using discord.com)
- 
- 
-Selfhostable (Download Server)
- 
- 
-Open Source (GitHub Organization)
- 
- 
-Configurable (Configure every aspect and limits to your needs)
- 
- 
-Decentralized (no abuse of power and doesn&#x27;t have a single point of failure)
- 
- 
-Extendable (secure and cross-platform plugin system)
- 
- 
-Themeable (cross-platform theme system with design editor)
- 
- 
-Encrypted (End to end encryption for secure and private conversation)
- 
- 
-Secure (publicly audited and hosted FOSS software for transparent …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">marcelja/facebook-delete</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/marcelja/facebook-delete">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Fast facebook activity deletion
-
-Fast Facebook Activity Deletion
- 
-This program can be used to clean up a facebook account without deleting the entire account.
- 
-Note: Facebook has a very strange login process. Please open a GitHub issue if the program is not able to login.
- 
-
- 
-Run program
- 
-Binaries for Linux, macOS and Windows are attached to a release.
- 
-Download binary
- 
-Download the binary file for your platform of the latest release.
- 
-Linux/macOS: Make the binary executable and run it. Example:
- 
-$ chmod +x deleter-linux
-$ ./deleter-linux
-
- 
-Windows: Run the .exe file and select &quot;More information&quot; and &quot;Run anyway&quot;.
- 
-From source
- 
-A recent Go version needs to be installed. This can be done via your package manager or the golang website.
- 
-Clone this repository
- 
-$ git clone https://github.com/marcelja/facebook-delete.git
-$ cd facebook-delete
-$ go install
-$ go run deleter.go
-
- 
-Cookies
- 
-Cookies are saved to $HOME/.go-cookies if the $GOCOOKIES variable is not set (see https://github.com/juju/persistent-cookiejar).
- 
-Options
- 
-Rate-limiting
- 
-Facebook will temp-block you if you make too many requests too quickly. Run the command with the -rateLimit  to introduce a delay before each request. If you&#x27;re getting hung up on just searches or deletes, you can disable rate-limiting for one or the other with -limitSearch&#x3D;0 or -limitDelete&#x3D;0.
- 
-E.g. one of:
- 
-$ ./deleter-linux -rateLimit 500
-$ ./deleter-linux -rateLimit 500 -limitSearch&#x3D;0
-$ ./deleter-linux -rateLimit 500 -limitDelete&#x3D;0</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://www.cncf.io">Cloud Native Computing Foundation</a></h3>
           <section class="articles-per-source">
             <article>
@@ -18286,7 +18557,7 @@ $ ./deleter-linux -rateLimit 500 -limitDelete&#x3D;0</span>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-11-13T00:51:59.716Z">2021-11-13T00:51:59.716Z</time>
+    <time id="build-timestamp" datetime="2021-11-14T00:55:01.356Z">2021-11-14T00:55:01.356Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>
