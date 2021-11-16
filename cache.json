@@ -12,6 +12,24 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=65670",
+          "author": "Jessie",
+          "description": "Guest post originally published on InfraCloud’s blog by Frederick Fernando When you start building your cloud infrastructure, security might not be a top priority as much as getting your project up and...",
+          "link": "https://www.cncf.io/blog/2021/11/15/how-to-start-your-cloud-security-journey/",
+          "publishedOn": "2021-11-15T16:00:00.000Z",
+          "wordCount": 1688,
+          "title": "How to start your cloud security journey"
+        },
+        {
+          "id": "https://www.cncf.io/?p=65675",
+          "author": "Jessie",
+          "description": "Guest post originally published on Dev.to by Purneswar Prasad Let’s have some context: KubeCon+CloudNativeCon is one of the biggest conferences in the world where users, developers and companies who have/want to adopt the Cloud...",
+          "link": "https://www.cncf.io/blog/2021/11/12/a-first-timers-journey-at-kubecon-cloudnativecon/",
+          "publishedOn": "2021-11-12T16:00:00.000Z",
+          "wordCount": 3720,
+          "title": "A first timer’s journey at KubeCon + CloudNativeCon"
+        },
+        {
           "id": "https://www.cncf.io/?p=65620",
           "author": "Jessie",
           "description": "Project post cross-posted from the Flux blog As Flux is an Incubation project within the Cloud Native Computing Foundation, we were graciously granted a sponsored audit. The primary aim was to assess...",
@@ -276,6 +294,123 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/assimp/assimp",
+          "author": null,
+          "description": "The official Open-Asset-Importer-Library Repository. Loads 40+ 3D-file-formats into one unified and clean data structure.\n\nOpen Asset Import Library (assimp)\n \nA library to import and export various 3d-model-formats including scene-post-processing to generate missing render data.\n \nCurrent project status\n \n          \n \nAPIs are provided for C and C++. There are various bindings to other languages (C#, Java, Python, Delphi, D). Assimp also runs on Android and iOS. Additionally, assimp features various mesh post processing tools: normals and tangent space generation, triangulation, vertex cache locality optimization, removal of degenerate primitives and duplicate vertices, sorting by primitive type, merging of redundant materials and many more.\n \nLatest Doc's\n \nPlease check the latest docume…",
+          "link": "https://github.com/assimp/assimp",
+          "publishedOn": "2021-11-16T00:53:57.295Z",
+          "wordCount": 1108,
+          "title": "assimp/assimp"
+        },
+        {
+          "id": "https://github.com/adrianscheff/useful-sed",
+          "author": null,
+          "description": "Useful sed scripts & patterns.\n\nUseful sed\n \nUseful sed tips, techniques and tricks for daily usage.\n \n \n \n One liners with short explanation 💡\n  \n \n Short sed tut 📚\n  \n \n About\n  \n \n Please consider donating to support this type of content! 🙏\n  \n \n Credits\n  \n \nRecommended books (not written by me)\n \nDefinitive Guide to sed - by Daniel Goldman \n Sed & Awk - Dale Dougherty & Arnold Robbins \n Effective awk programming - by Arnold Robbins\n \nMore guides that I wrote\n \nsimple-awk - A simple but practical guide to awk. \n wizardly-tips-vim - Less known Vim tips & tricks\n \n \nONE LINERS WITH SHORT EXPLANATION\n \nPrint one line\n \nsed -n '10p' myfile.txt\n \nDo replacement on all lines except line 5\n \nsed '5!/s/foo/bar/' file.txt\n \nDo replacement on lines matching regex (eg: lines starting with 'hel…",
+          "link": "https://github.com/adrianscheff/useful-sed",
+          "publishedOn": "2021-11-16T00:53:57.248Z",
+          "wordCount": 2414,
+          "title": "adrianscheff/useful-sed"
+        },
+        {
+          "id": "https://github.com/bitcoin-core/secp256k1",
+          "author": null,
+          "description": "Optimized C library for EC operations on curve secp256k1\n\nlibsecp256k1\n \n\n \nOptimized C library for ECDSA signatures and secret/public key operations on curve secp256k1.\n \nThis library is intended to be the highest quality publicly available library for cryptography on the secp256k1 curve. However, the primary focus of its development has been for usage in the Bitcoin system and usage unlike Bitcoin's may be less well tested, verified, or suffer from a less well thought out interface. Correct usage requires some care and consideration that the library is fit for your application's purpose.\n \nFeatures:\n \n \n \nsecp256k1 ECDSA signing/verification and key generation.\n \n \nAdditive and multiplicative tweaking of secret/public keys.\n \n \nSerialization/parsing of secret keys, public keys, signature…",
+          "link": "https://github.com/bitcoin-core/secp256k1",
+          "publishedOn": "2021-11-16T00:53:57.136Z",
+          "wordCount": 1127,
+          "title": "bitcoin-core/secp256k1"
+        },
+        {
+          "id": "https://github.com/termux/termux-packages",
+          "author": null,
+          "description": "A build system and primary set of packages for Termux.\n\nTermux packages\n \n     \n \n\n \nThis project contains scripts and patches to build packages for the Termux Android application.\n \nQuick how-to about Termux package management is available at Package Management. It also has info on how to fix repository is under maintenance or down errors when running apt or pkg commands.\n \nContributing\n \n@termux is looking for help with fixing issues, adding new packages and maintaining existing ones. It would be very helpful if you submit a pull request with bug fixes.\n \nRead CONTRIBUTING.md and Developer's Wiki for more details.\n \nContacts\n \nGeneral mailing list: https://groups.io/g/termux\n \nDeveloper mailing list: https://groups.io/g/termux-dev\n \nGeneral chat: https://gitter.im/termux/termux or #termux on IRC/libera.chat.\n \nDeveloper chat: https://gitter.im/termux/dev.",
+          "link": "https://github.com/termux/termux-packages",
+          "publishedOn": "2021-11-16T00:53:57.076Z",
+          "wordCount": 531,
+          "title": "termux/termux-packages"
+        },
+        {
+          "id": "https://github.com/taichi-dev/taichi",
+          "author": null,
+          "description": "Parallel programming for everyone.\n\n \n  \n \n  Tutorial  |  Examples  |  Forum \n   Playground  -->\n \n \n  Documentation  |  简体中文文档  |  Contributor Guidelines  \n \n \n    \n \nOverview\n \nTaichi (太极) is a parallel programming language for high-performance numerical computations. It is embedded in Python, and its just-in-time compiler offloads compute-intensive tasks to multi-core CPUs and massively parallel GPUs.\n \n  \n \nAdvanced features of Taichi include spatially sparse computing, differentiable programming [examples], and quantized computation.\n \nPlease check out our SIGGRAPH 2020 course on Taichi basics: YouTube, Bilibili, slides (pdf).\n \n中文视频教程: [哔哩哔哩], [幻灯片]\n \nExamples (More...)\n \n    \n \n \n \nInstallation \n \npython3 -m pip install taichi\n\n \nSupported OS: Windows, Linux, Mac OS X; Python: 3.6-3…",
+          "link": "https://github.com/taichi-dev/taichi",
+          "publishedOn": "2021-11-16T00:53:57.036Z",
+          "wordCount": 1069,
+          "title": "taichi-dev/taichi"
+        },
+        {
+          "id": "https://github.com/TheCherno/Hazel",
+          "author": null,
+          "description": "Hazel Engine\n\nHazel \n \n\n \nHazel is primarily an early-stage interactive application and rendering engine for Windows. Currently not much is implemented, however (almost) everything inside this repository is being created within YouTube videos, found at thecherno.com/engine.\n \n \nGetting Started\n \nVisual Studio 2017 or 2019 is recommended, Hazel is officially untested on other development environments whilst we focus on a Windows build.\n \n1. Downloading the repository:\n \nStart by cloning the repository with git clone --recursive https://github.com/TheCherno/Hazel.\n \nIf the repository was cloned non-recursively previously, use git submodule update --init to clone the necessary submodules.\n \n2. Configuring the dependencies:\n \n \n \nRun the Setup.bat file found in scripts folder. This will downlo…",
+          "link": "https://github.com/TheCherno/Hazel",
+          "publishedOn": "2021-11-16T00:53:56.980Z",
+          "wordCount": 1053,
+          "title": "TheCherno/Hazel"
+        },
+        {
+          "id": "https://github.com/CCob/lsarelayx",
+          "author": null,
+          "description": "NTLM relaying for Windows made easy\n\nlsarelayx\n \nIntroduction\n \nlsarelayx is system wide NTLM relay tool designed to relay incoming NTLM based authentication to the host it is running on. lsarelayx will relay any incoming authentication request which includes SMB. Since lsarelayx hooks into existing application authentication flows, the tool will also attempt to service the original authentication request after the relay is complete. This will prevent the target application/protocol from displaying errors and function as normal for end users authenticating against the lsarelayx host.\n \nFeatures\n \n \n \nRelays NTLM connections system wide, including SMB, HTTP/HTTPS, LDAP/LDAPS or any other third party application implementing the Windows authentication APIs.\n \n \nWhere possible, downgrades inc…",
+          "link": "https://github.com/CCob/lsarelayx",
+          "publishedOn": "2021-11-16T00:53:56.942Z",
+          "wordCount": 1483,
+          "title": "CCob/lsarelayx"
+        },
+        {
+          "id": "https://github.com/JamesIves/github-pages-deploy-action",
+          "author": null,
+          "description": "Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like.\n\n    \n \n GitHub Pages Deploy Action 🚀 \n \n                \n \n This GitHub Action will automatically deploy your project to GitHub Pages. It can be configured to push your production-ready code into any branch you'd like, including gh-pages and docs. It can also handle cross repository deployments and works with GitHub Enterprise too. \n \n  \n \nGetting Started ✈\n \nYou can include the action in your workflow to trigger on any event that GitHub actions supports. If the remote branch that you wish to deploy to doesn't already exist the action will create it for you. Your workflow will also need to include the actions/checkout step be…",
+          "link": "https://github.com/JamesIves/github-pages-deploy-action",
+          "publishedOn": "2021-11-16T00:53:56.860Z",
+          "wordCount": 2787,
+          "title": "JamesIves/github-pages-deploy-action"
+        },
+        {
+          "id": "https://github.com/aqlaboratory/openfold",
+          "author": null,
+          "description": "Trainable PyTorch reproduction of AlphaFold 2\n\nOpenFold\n \nA faithful PyTorch reproduction of DeepMind's AlphaFold 2.\n \nFeatures\n \nOpenFold carefully reproduces (almost) all of the features of the original open source inference code. The sole exception is model ensembling, which fared poorly in DeepMind's own ablation testing and is being phased out in future DeepMind experiments. It is omitted here for the sake of reducing clutter. In cases where the Nature paper differs from the source, we always defer to the latter.\n \nOpenFold is built to support inference with AlphaFold's original JAX weights. Try it out with our Colab notebook.\n \nUnlike DeepMind's public code, OpenFold is also trainable. It can be trained with DeepSpeed and with mixed precision. bfloat16 training is not currently suppo…",
+          "link": "https://github.com/aqlaboratory/openfold",
+          "publishedOn": "2021-11-16T00:53:56.779Z",
+          "wordCount": 1439,
+          "title": "aqlaboratory/openfold"
+        },
+        {
+          "id": "https://github.com/cabaletta/baritone",
+          "author": null,
+          "description": "google maps for block game\n\nBaritone\n \n  \n \n      \n \n                \n \n        \n \n   \n \nA Minecraft pathfinder bot.\n \nBaritone Discord Server\n \nBaritone is the pathfinding system used in Impact since 4.4. There's a showcase video made by @Adovin#0730 on Baritone which I recommend. Here's a (very old!) video I made showing off what it can do. Tutorial playlist\n \nThe easiest way to install Baritone is to install Impact, which comes with Baritone. The second easiest way (for 1.12.2 only) is to install the v1.2.* api-forge jar from releases. For 1.12.2 Forge, just click here. Otherwise, see Installation & setup. Once Baritone is installed, look here for instructions on how to use it.\n \nFor 1.15.2, click here and see description. If you need Forge 1.15.2, look here, follow the instructions, an…",
+          "link": "https://github.com/cabaletta/baritone",
+          "publishedOn": "2021-11-16T00:53:56.705Z",
+          "wordCount": 991,
+          "title": "cabaletta/baritone"
+        },
+        {
+          "id": "https://github.com/telegramdesktop/tdesktop",
+          "author": null,
+          "description": "Telegram Desktop messaging app\n\nTelegram Desktop – Official Messenger\n \nThis is the complete source code and the build instructions for the alpha version of the official desktop client for the Telegram messenger, based on the Telegram API and the MTProto secure protocol.\n \n   \n \n\n \nThe source code is published under GPLv3 with OpenSSL exception, the license is available here.\n \nSupported systems\n \nThe latest version is available for\n \n \n \nWindows 7 and above (64 bit) (portable)\n \n \nWindows 7 and above (32 bit) (portable)\n \n \nmacOS 10.12 and above\n \n \nLinux static build for 64 bit\n \n \nSnap\n \n \nFlatpak\n \n \nOld system versions\n \nVersion 2.4.4 was the last that supports older systems\n \n \n \nOS X 10.10 and 10.11\n \n \nLinux static build for 32 bit\n \n \nVersion 1.8.15 was the last that supports older systems\n \n \n \nWindows XP and Vista (portable)\n \n \nOS X 10.8 and 10.9\n \n \nOS X 10.6 and 10.7\n \n \nThird-party\n \n \n \nQt 6 (LGPL) and Qt 5.15.2 (LGPL) slightly patched\n \n \nOpenSSL 1.1.1 and 1.0.1 (OpenSSL License)\n \n \nWebRTC (New BSD License)\n \n \nzlib 1.2.11 (zlib License)\n \n \nLZMA SDK 9.20 (public domain)\n \n \nliblzma (public domain)\n \n \nGoogle Breakpad (License)\n \n \nGoogle Crashpad (Apache License 2.0)\n \n \nGYP (BSD License)\n \n \nNinja (Apache License 2.0)\n \n \nOpenAL Soft (LGPL)\n \n \nOpus codec (BSD License)\n \n \nFFmpeg (LGPL)\n \n \nGuideline Support Library (MIT License)\n \n \nRange-v3 (Boost License)\n \n \nOpen Sans font (Apache License 2.0)\n \n \nVazir font (SIL Open Font License 1.1)\n \n \nEmoji alpha codes (MIT License)\n \n \nCatch test framework (Boost License)\n \n \nxxHash (BSD License)\n \n \nQR Code generator (MIT License)\n \n \nCMake (New BSD License)\n \n \nHunspell (LGPL)\n \n \nBuild instructions\n \n \n \nWindows (32-bit) (64-bit)\n \n \nmacOS\n \n \nGNU/Linux using Docker",
+          "link": "https://github.com/telegramdesktop/tdesktop",
+          "publishedOn": "2021-11-16T00:53:56.659Z",
+          "wordCount": 773,
+          "title": "telegramdesktop/tdesktop"
+        },
+        {
+          "id": "https://github.com/Raptor3um/raptoreum",
+          "author": null,
+          "description": "What is Raptoreum?\n \nThe name Raptoreum is derived from the Victoria term for a bird of prey and ium/eum place for a pertaining to in this case birds of prey. The name comes from the team’s extensive experience in the security field with top level skills covering all aspects of it. This is a unique strength in the crypto community and will leverage well into a successful project.\n \nIntroduction Raptoreum began as the fairly simple idea, introducing smart contracts which would allow on chain, trustless transfers (goodbye centralized marketplaces) on the Ravencoin codebase, however with the automation of assets and RTM (Raptoreum). The project has quickly evolved, adding innovative features that not only further expand the asset layer, but also introduce features that could help other Blockc…",
+          "link": "https://github.com/Raptor3um/raptoreum",
+          "publishedOn": "2021-11-16T00:53:56.616Z",
+          "wordCount": 1253,
+          "title": "Raptor3um/raptoreum"
+        },
+        {
+          "id": "https://github.com/rmcelreath/stat_rethinking_2022",
+          "author": null,
+          "description": "Statistical Rethinking course winter 2022\n \nStatistical Rethinking (2022 Edition)\n \nInstructor: Richard McElreath\n \nLectures: Uploaded and pre-recorded, two per week\n \nDiscussion: Online, Fridays 3pm-4pm Central European Time\n \nPurpose\n \nThis course teaches data analysis, but it focuses on scientific models first. The unfortunate truth about data is that nothing much can be done with it, until we say what caused it. We will prioritize conceptual, causal models and precise questions about those models. We will use Bayesian data analysis to connect scientific models to evidence. And we will learn powerful computational tools for coping with high-dimension, imperfect data of the kind that biologists and social scientists face.\n \nFormat\n \nOnline, flipped instruction. The lectures are pre-recor…",
+          "link": "https://github.com/rmcelreath/stat_rethinking_2022",
+          "publishedOn": "2021-11-16T00:53:56.546Z",
+          "wordCount": 928,
+          "title": "rmcelreath/stat_rethinking_2022"
+        },
         {
           "id": "https://github.com/airbnb/javascript",
           "author": null,

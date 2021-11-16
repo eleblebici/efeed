@@ -2,10 +2,542 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-11-15T00:53:11.055Z</updated>
+    <updated>2021-11-16T00:53:57.337Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[assimp/assimp]]></title>
+        <id>https://github.com/assimp/assimp</id>
+        <link href="https://github.com/assimp/assimp"/>
+        <updated>2021-11-16T00:53:57.295Z</updated>
+        <summary type="html"><![CDATA[The official Open-Asset-Importer-Library Repository. Loads 40+ 3D-file-formats into one unified and clean data structure.
+
+Open Asset Import Library (assimp)
+ 
+A library to import and export various 3d-model-formats including scene-post-processing to generate missing render data.
+ 
+Current project status
+ 
+          
+ 
+APIs are provided for C and C++. There are various bindings to other languages (C#, Java, Python, Delphi, D). Assimp also runs on Android and iOS. Additionally, assimp features various mesh post processing tools: normals and tangent space generation, triangulation, vertex cache locality optimization, removal of degenerate primitives and duplicate vertices, sorting by primitive type, merging of redundant materials and many more.
+ 
+Latest Doc's
+ 
+Please check the latest docume…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[adrianscheff/useful-sed]]></title>
+        <id>https://github.com/adrianscheff/useful-sed</id>
+        <link href="https://github.com/adrianscheff/useful-sed"/>
+        <updated>2021-11-16T00:53:57.248Z</updated>
+        <summary type="html"><![CDATA[Useful sed scripts & patterns.
+
+Useful sed
+ 
+Useful sed tips, techniques and tricks for daily usage.
+ 
+ 
+ 
+ One liners with short explanation 💡
+  
+ 
+ Short sed tut 📚
+  
+ 
+ About
+  
+ 
+ Please consider donating to support this type of content! 🙏
+  
+ 
+ Credits
+  
+ 
+Recommended books (not written by me)
+ 
+Definitive Guide to sed - by Daniel Goldman 
+ Sed & Awk - Dale Dougherty & Arnold Robbins 
+ Effective awk programming - by Arnold Robbins
+ 
+More guides that I wrote
+ 
+simple-awk - A simple but practical guide to awk. 
+ wizardly-tips-vim - Less known Vim tips & tricks
+ 
+ 
+ONE LINERS WITH SHORT EXPLANATION
+ 
+Print one line
+ 
+sed -n '10p' myfile.txt
+ 
+Do replacement on all lines except line 5
+ 
+sed '5!/s/foo/bar/' file.txt
+ 
+Do replacement on lines matching regex (eg: lines starting with 'hel…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[bitcoin-core/secp256k1]]></title>
+        <id>https://github.com/bitcoin-core/secp256k1</id>
+        <link href="https://github.com/bitcoin-core/secp256k1"/>
+        <updated>2021-11-16T00:53:57.136Z</updated>
+        <summary type="html"><![CDATA[Optimized C library for EC operations on curve secp256k1
+
+libsecp256k1
+ 
+
+ 
+Optimized C library for ECDSA signatures and secret/public key operations on curve secp256k1.
+ 
+This library is intended to be the highest quality publicly available library for cryptography on the secp256k1 curve. However, the primary focus of its development has been for usage in the Bitcoin system and usage unlike Bitcoin's may be less well tested, verified, or suffer from a less well thought out interface. Correct usage requires some care and consideration that the library is fit for your application's purpose.
+ 
+Features:
+ 
+ 
+ 
+secp256k1 ECDSA signing/verification and key generation.
+ 
+ 
+Additive and multiplicative tweaking of secret/public keys.
+ 
+ 
+Serialization/parsing of secret keys, public keys, signature…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[termux/termux-packages]]></title>
+        <id>https://github.com/termux/termux-packages</id>
+        <link href="https://github.com/termux/termux-packages"/>
+        <updated>2021-11-16T00:53:57.076Z</updated>
+        <summary type="html"><![CDATA[A build system and primary set of packages for Termux.
+
+Termux packages
+ 
+     
+ 
+
+ 
+This project contains scripts and patches to build packages for the Termux Android application.
+ 
+Quick how-to about Termux package management is available at Package Management. It also has info on how to fix repository is under maintenance or down errors when running apt or pkg commands.
+ 
+Contributing
+ 
+@termux is looking for help with fixing issues, adding new packages and maintaining existing ones. It would be very helpful if you submit a pull request with bug fixes.
+ 
+Read CONTRIBUTING.md and Developer's Wiki for more details.
+ 
+Contacts
+ 
+General mailing list: https://groups.io/g/termux
+ 
+Developer mailing list: https://groups.io/g/termux-dev
+ 
+General chat: https://gitter.im/termux/termux or #termux on IRC/libera.chat.
+ 
+Developer chat: https://gitter.im/termux/dev.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[taichi-dev/taichi]]></title>
+        <id>https://github.com/taichi-dev/taichi</id>
+        <link href="https://github.com/taichi-dev/taichi"/>
+        <updated>2021-11-16T00:53:57.036Z</updated>
+        <summary type="html"><![CDATA[Parallel programming for everyone.
+
+ 
+  
+ 
+  Tutorial  |  Examples  |  Forum 
+   Playground  -->
+ 
+ 
+  Documentation  |  简体中文文档  |  Contributor Guidelines  
+ 
+ 
+    
+ 
+Overview
+ 
+Taichi (太极) is a parallel programming language for high-performance numerical computations. It is embedded in Python, and its just-in-time compiler offloads compute-intensive tasks to multi-core CPUs and massively parallel GPUs.
+ 
+  
+ 
+Advanced features of Taichi include spatially sparse computing, differentiable programming [examples], and quantized computation.
+ 
+Please check out our SIGGRAPH 2020 course on Taichi basics: YouTube, Bilibili, slides (pdf).
+ 
+中文视频教程: [哔哩哔哩], [幻灯片]
+ 
+Examples (More...)
+ 
+    
+ 
+ 
+ 
+Installation 
+ 
+python3 -m pip install taichi
+
+ 
+Supported OS: Windows, Linux, Mac OS X; Python: 3.6-3…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TheCherno/Hazel]]></title>
+        <id>https://github.com/TheCherno/Hazel</id>
+        <link href="https://github.com/TheCherno/Hazel"/>
+        <updated>2021-11-16T00:53:56.980Z</updated>
+        <summary type="html"><![CDATA[Hazel Engine
+
+Hazel 
+ 
+
+ 
+Hazel is primarily an early-stage interactive application and rendering engine for Windows. Currently not much is implemented, however (almost) everything inside this repository is being created within YouTube videos, found at thecherno.com/engine.
+ 
+ 
+Getting Started
+ 
+Visual Studio 2017 or 2019 is recommended, Hazel is officially untested on other development environments whilst we focus on a Windows build.
+ 
+1. Downloading the repository:
+ 
+Start by cloning the repository with git clone --recursive https://github.com/TheCherno/Hazel.
+ 
+If the repository was cloned non-recursively previously, use git submodule update --init to clone the necessary submodules.
+ 
+2. Configuring the dependencies:
+ 
+ 
+ 
+Run the Setup.bat file found in scripts folder. This will downlo…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CCob/lsarelayx]]></title>
+        <id>https://github.com/CCob/lsarelayx</id>
+        <link href="https://github.com/CCob/lsarelayx"/>
+        <updated>2021-11-16T00:53:56.942Z</updated>
+        <summary type="html"><![CDATA[NTLM relaying for Windows made easy
+
+lsarelayx
+ 
+Introduction
+ 
+lsarelayx is system wide NTLM relay tool designed to relay incoming NTLM based authentication to the host it is running on. lsarelayx will relay any incoming authentication request which includes SMB. Since lsarelayx hooks into existing application authentication flows, the tool will also attempt to service the original authentication request after the relay is complete. This will prevent the target application/protocol from displaying errors and function as normal for end users authenticating against the lsarelayx host.
+ 
+Features
+ 
+ 
+ 
+Relays NTLM connections system wide, including SMB, HTTP/HTTPS, LDAP/LDAPS or any other third party application implementing the Windows authentication APIs.
+ 
+ 
+Where possible, downgrades inc…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JamesIves/github-pages-deploy-action]]></title>
+        <id>https://github.com/JamesIves/github-pages-deploy-action</id>
+        <link href="https://github.com/JamesIves/github-pages-deploy-action"/>
+        <updated>2021-11-16T00:53:56.860Z</updated>
+        <summary type="html"><![CDATA[Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like.
+
+    
+ 
+ GitHub Pages Deploy Action 🚀 
+ 
+                
+ 
+ This GitHub Action will automatically deploy your project to GitHub Pages. It can be configured to push your production-ready code into any branch you'd like, including gh-pages and docs. It can also handle cross repository deployments and works with GitHub Enterprise too. 
+ 
+  
+ 
+Getting Started ✈
+ 
+You can include the action in your workflow to trigger on any event that GitHub actions supports. If the remote branch that you wish to deploy to doesn't already exist the action will create it for you. Your workflow will also need to include the actions/checkout step be…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[aqlaboratory/openfold]]></title>
+        <id>https://github.com/aqlaboratory/openfold</id>
+        <link href="https://github.com/aqlaboratory/openfold"/>
+        <updated>2021-11-16T00:53:56.779Z</updated>
+        <summary type="html"><![CDATA[Trainable PyTorch reproduction of AlphaFold 2
+
+OpenFold
+ 
+A faithful PyTorch reproduction of DeepMind's AlphaFold 2.
+ 
+Features
+ 
+OpenFold carefully reproduces (almost) all of the features of the original open source inference code. The sole exception is model ensembling, which fared poorly in DeepMind's own ablation testing and is being phased out in future DeepMind experiments. It is omitted here for the sake of reducing clutter. In cases where the Nature paper differs from the source, we always defer to the latter.
+ 
+OpenFold is built to support inference with AlphaFold's original JAX weights. Try it out with our Colab notebook.
+ 
+Unlike DeepMind's public code, OpenFold is also trainable. It can be trained with DeepSpeed and with mixed precision. bfloat16 training is not currently suppo…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cabaletta/baritone]]></title>
+        <id>https://github.com/cabaletta/baritone</id>
+        <link href="https://github.com/cabaletta/baritone"/>
+        <updated>2021-11-16T00:53:56.705Z</updated>
+        <summary type="html"><![CDATA[google maps for block game
+
+Baritone
+ 
+  
+ 
+      
+ 
+                
+ 
+        
+ 
+   
+ 
+A Minecraft pathfinder bot.
+ 
+Baritone Discord Server
+ 
+Baritone is the pathfinding system used in Impact since 4.4. There's a showcase video made by @Adovin#0730 on Baritone which I recommend. Here's a (very old!) video I made showing off what it can do. Tutorial playlist
+ 
+The easiest way to install Baritone is to install Impact, which comes with Baritone. The second easiest way (for 1.12.2 only) is to install the v1.2.* api-forge jar from releases. For 1.12.2 Forge, just click here. Otherwise, see Installation & setup. Once Baritone is installed, look here for instructions on how to use it.
+ 
+For 1.15.2, click here and see description. If you need Forge 1.15.2, look here, follow the instructions, an…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[telegramdesktop/tdesktop]]></title>
+        <id>https://github.com/telegramdesktop/tdesktop</id>
+        <link href="https://github.com/telegramdesktop/tdesktop"/>
+        <updated>2021-11-16T00:53:56.659Z</updated>
+        <summary type="html"><![CDATA[Telegram Desktop messaging app
+
+Telegram Desktop – Official Messenger
+ 
+This is the complete source code and the build instructions for the alpha version of the official desktop client for the Telegram messenger, based on the Telegram API and the MTProto secure protocol.
+ 
+   
+ 
+
+ 
+The source code is published under GPLv3 with OpenSSL exception, the license is available here.
+ 
+Supported systems
+ 
+The latest version is available for
+ 
+ 
+ 
+Windows 7 and above (64 bit) (portable)
+ 
+ 
+Windows 7 and above (32 bit) (portable)
+ 
+ 
+macOS 10.12 and above
+ 
+ 
+Linux static build for 64 bit
+ 
+ 
+Snap
+ 
+ 
+Flatpak
+ 
+ 
+Old system versions
+ 
+Version 2.4.4 was the last that supports older systems
+ 
+ 
+ 
+OS X 10.10 and 10.11
+ 
+ 
+Linux static build for 32 bit
+ 
+ 
+Version 1.8.15 was the last that supports older systems
+ 
+ 
+ 
+Windows XP and Vista (portable)
+ 
+ 
+OS X 10.8 and 10.9
+ 
+ 
+OS X 10.6 and 10.7
+ 
+ 
+Third-party
+ 
+ 
+ 
+Qt 6 (LGPL) and Qt 5.15.2 (LGPL) slightly patched
+ 
+ 
+OpenSSL 1.1.1 and 1.0.1 (OpenSSL License)
+ 
+ 
+WebRTC (New BSD License)
+ 
+ 
+zlib 1.2.11 (zlib License)
+ 
+ 
+LZMA SDK 9.20 (public domain)
+ 
+ 
+liblzma (public domain)
+ 
+ 
+Google Breakpad (License)
+ 
+ 
+Google Crashpad (Apache License 2.0)
+ 
+ 
+GYP (BSD License)
+ 
+ 
+Ninja (Apache License 2.0)
+ 
+ 
+OpenAL Soft (LGPL)
+ 
+ 
+Opus codec (BSD License)
+ 
+ 
+FFmpeg (LGPL)
+ 
+ 
+Guideline Support Library (MIT License)
+ 
+ 
+Range-v3 (Boost License)
+ 
+ 
+Open Sans font (Apache License 2.0)
+ 
+ 
+Vazir font (SIL Open Font License 1.1)
+ 
+ 
+Emoji alpha codes (MIT License)
+ 
+ 
+Catch test framework (Boost License)
+ 
+ 
+xxHash (BSD License)
+ 
+ 
+QR Code generator (MIT License)
+ 
+ 
+CMake (New BSD License)
+ 
+ 
+Hunspell (LGPL)
+ 
+ 
+Build instructions
+ 
+ 
+ 
+Windows (32-bit) (64-bit)
+ 
+ 
+macOS
+ 
+ 
+GNU/Linux using Docker]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raptor3um/raptoreum]]></title>
+        <id>https://github.com/Raptor3um/raptoreum</id>
+        <link href="https://github.com/Raptor3um/raptoreum"/>
+        <updated>2021-11-16T00:53:56.616Z</updated>
+        <summary type="html"><![CDATA[What is Raptoreum?
+ 
+The name Raptoreum is derived from the Victoria term for a bird of prey and ium/eum place for a pertaining to in this case birds of prey. The name comes from the team’s extensive experience in the security field with top level skills covering all aspects of it. This is a unique strength in the crypto community and will leverage well into a successful project.
+ 
+Introduction Raptoreum began as the fairly simple idea, introducing smart contracts which would allow on chain, trustless transfers (goodbye centralized marketplaces) on the Ravencoin codebase, however with the automation of assets and RTM (Raptoreum). The project has quickly evolved, adding innovative features that not only further expand the asset layer, but also introduce features that could help other Blockc…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[rmcelreath/stat_rethinking_2022]]></title>
+        <id>https://github.com/rmcelreath/stat_rethinking_2022</id>
+        <link href="https://github.com/rmcelreath/stat_rethinking_2022"/>
+        <updated>2021-11-16T00:53:56.546Z</updated>
+        <summary type="html"><![CDATA[Statistical Rethinking course winter 2022
+ 
+Statistical Rethinking (2022 Edition)
+ 
+Instructor: Richard McElreath
+ 
+Lectures: Uploaded and pre-recorded, two per week
+ 
+Discussion: Online, Fridays 3pm-4pm Central European Time
+ 
+Purpose
+ 
+This course teaches data analysis, but it focuses on scientific models first. The unfortunate truth about data is that nothing much can be done with it, until we say what caused it. We will prioritize conceptual, causal models and precise questions about those models. We will use Bayesian data analysis to connect scientific models to evidence. And we will learn powerful computational tools for coping with high-dimension, imperfect data of the kind that biologists and social scientists face.
+ 
+Format
+ 
+Online, flipped instruction. The lectures are pre-recor…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to start your cloud security journey]]></title>
+        <id>https://www.cncf.io/?p=65670</id>
+        <link href="https://www.cncf.io/blog/2021/11/15/how-to-start-your-cloud-security-journey/"/>
+        <updated>2021-11-15T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on InfraCloud’s blog by Frederick Fernando When you start building your cloud infrastructure, security might not be a top priority as much as getting your project up and...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[airbnb/javascript]]></title>
         <id>https://github.com/airbnb/javascript</id>
@@ -1719,6 +2251,16 @@ Install the latest .NET 6 SDK
 I…]]></summary>
         <author>
             <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A first timer’s journey at KubeCon + CloudNativeCon]]></title>
+        <id>https://www.cncf.io/?p=65675</id>
+        <link href="https://www.cncf.io/blog/2021/11/12/a-first-timers-journey-at-kubecon-cloudnativecon/"/>
+        <updated>2021-11-12T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Guest post originally published on Dev.to by Purneswar Prasad Let’s have some context: KubeCon+CloudNativeCon is one of the biggest conferences in the world where users, developers and companies who have/want to adopt the Cloud...]]></summary>
+        <author>
+            <name>Jessie</name>
         </author>
     </entry>
     <entry>
