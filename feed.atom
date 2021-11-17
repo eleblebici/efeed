@@ -2,10 +2,886 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eleblebici.github.io/efeed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-11-16T00:53:57.337Z</updated>
+    <updated>2021-11-17T00:53:08.467Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://eleblebici.github.io/efeed/index.html"/>
     <link rel="self" href="https://eleblebici.github.io/efeed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[bitcoin/bitcoin]]></title>
+        <id>https://github.com/bitcoin/bitcoin</id>
+        <link href="https://github.com/bitcoin/bitcoin"/>
+        <updated>2021-11-17T00:53:08.429Z</updated>
+        <summary type="html"><![CDATA[Bitcoin Core integration/staging tree
+
+Bitcoin Core integration/staging tree
+ 
+https://bitcoincore.org
+ 
+For an immediately usable, binary version of the Bitcoin Core software, see https://bitcoincore.org/en/download/.
+ 
+Further information about Bitcoin Core is available in the doc folder.
+ 
+What is Bitcoin?
+ 
+Bitcoin is an experimental digital currency that enables instant payments to anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network. Bitcoin Core is the name of open source software which enables the use of this currency.
+ 
+For more information read the original Bitcoin whitepaper.
+ 
+License
+ 
+Bitcoin Core is released under the terms of the MIT licen…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PaddlePaddle/PaddleSeg]]></title>
+        <id>https://github.com/PaddlePaddle/PaddleSeg</id>
+        <link href="https://github.com/PaddlePaddle/PaddleSeg"/>
+        <updated>2021-11-17T00:53:08.216Z</updated>
+        <summary type="html"><![CDATA[Easy-to-use segmentation library with awesome pre-trained model zoo, supporting wide-range of practical tasks from research to industrial applications.
+
+简体中文 | English
+ 
+PaddleSeg
+ 
+    
+ 
+近期活动
+ 
+PaddleSeg团队将举办主题为《产业图像分割应用与实战》的两日课向大家分析在交互式智能标注工具和精细化分割Matting方向的研究工作。
+ 
+ 
+  
+ 
+PaddleSeg发布2.3版本，欢迎体验
+ 
+ 
+ 
+PaddleSeg团队发表交互式分割论文EdgeFlow，升级了交互式分割工具EISeg。
+ 
+ 
+开源两种Matting算法，经典方法DIM，和实时性方法MODNet，实现精细化人像分割。
+ 
+ 
+发布图像分割高阶功能，模型蒸馏和模型量化方案，进一步提升模型的部署效率。
+ 
+ 
+PaddleSeg介绍
+ 
+PaddleSeg是基于飞桨PaddlePaddle开发的端到端图像分割开发套件，涵盖了高精度和轻量级等不同方向的大量高质量分割模型。通过模块化的设计，提供了配置化驱动和API调用两种应用方式，帮助开发者更便捷地完成从训练到部署的全流程图像分割应用。
+ 
+ 
+ 
+ PaddleSeg提供了语义分割、交互式分割、全景分割、Matting四大图像分割能力。
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ PaddleSeg被广泛地应用在自动驾驶、医疗、质检、巡检、娱乐等场景。
+  
+ 
+ 
+  
+ 
+ 
+特性 
+ 
+ 
+ 
+  高精度模型：基于百度自研的半监督标签知识蒸馏方案（SSLD）训练得到高精度骨干网络，结合前沿的分割技术，提供了50+的高质量预训练模型，效果优于其他开源实现。
+ …]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[unlock-music/unlock-music]]></title>
+        <id>https://github.com/unlock-music/unlock-music</id>
+        <link href="https://github.com/unlock-music/unlock-music"/>
+        <updated>2021-11-17T00:53:08.167Z</updated>
+        <summary type="html"><![CDATA[Unlock encrypted music file in browser. 在浏览器中解锁加密的音乐文件。
+
+Unlock Music 音乐解锁
+ 
+ 
+ 
+在浏览器中解锁加密的音乐文件。 Unlock encrypted music file in the browser.
+ 
+ 
+unlock-music项目是以学习和技术研究的初衷创建的，修改、再分发时请遵循License
+ 
+ 
+Unlock Music的CLI版本正在开发中。
+ 
+ 
+我们新建了Telegram群组，欢迎加入！https://t.me/unlock_music_chat
+ 
+ 
+CLI版本 Alpha 大批量转换建议使用CLI版本
+ 
+ 
+相关的其他项目
+ 
+ 
+  
+ 
+特性
+ 
+支持的格式
+ 
+ 
+ 
+ QQ音乐 (.qmc0/.qmc2/.qmc3/.qmcflac/.qmcogg/.tkm) 
+  
+ 
+   
+ 写入封面图片
+ 
+  
+  
+ 
+ Moo音乐格式 (.bkcmp3/.bkcflac)
+ 
+ 
+ QQ音乐Tm格式 (.tm0/.tm2/.tm3/.tm6)
+ 
+ 
+ QQ音乐新格式 (实验性支持) 
+  
+ 
+   
+ .mflac
+ 
+   
+ .mgg
+ 
+  
+  
+ 
+ 虾米音乐格式 (.xm) (测试阶段)
+ 
+ 
+ 酷我音乐格式 (.kwm) (测试阶段)
+ 
+ 
+ 酷狗音乐格式 ( .kgm) (CLI版本)
+ 
+ 
+其他特性
+ 
+ 
+ 
+ 在浏览器中解锁
+ 
+ 
+ 拖放文件
+ 
+ 
+ 在线播放
+ 
+ 
+ 批量解锁
+ 
+ 
+ 渐进式Web应用
+ 
+ 
+ 多线程
+ 
+ 
+使用方法
+ 
+安装浏览器扩展
+ 
+  
+ 
+使用已构建版本
+ 
+ 
+ 
+从GitHub Release下载已构建的版本 
+  
+ 
+   
+本地使用请下载legacy版本（modern版本只能通过http/https协议访问）
+ 
+  
+  
+ 
+解压缩后即可部署或本地使用（请勿直接运行源代码）
+ 
+ 
+使用Docker镜像
+ 
+docker run --name unlock-music -d -p 8080:80 ix64/unlock-music
+
+ 
+自行构建
+ 
+ 
+ 
+环境要求 
+  
+ 
+   
+nodejs
+ 
+   
+npm
+ 
+  
+  
+ 
+ 
+ 
+获取项目源代码后执行 npm install 安装相关依赖
+ 
+ 
+执行 npm run build 即可进行构建，构建输出为 dist 目录
+ 
+ 
+ 
+ 
+npm run serve 可用于开发
+ 
+ 
+ 
+ 
+如需构建浏览器扩展，build完成后还需要执行npm run make-extension]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XTLS/Xray-core]]></title>
+        <id>https://github.com/XTLS/Xray-core</id>
+        <link href="https://github.com/XTLS/Xray-core"/>
+        <updated>2021-11-17T00:53:08.123Z</updated>
+        <summary type="html"><![CDATA[Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support. Fully compatible configuration.
+
+Project X
+ 
+Project X originates from XTLS protocol, provides a set of network tools such as Xray-core and Xray-flutter.
+ 
+License
+ 
+Mozilla Public License Version 2.0
+ 
+Installation
+ 
+ 
+ 
+Linux Script 
+  
+ 
+   
+Xray-install
+ 
+   
+Xray-script
+ 
+  
+  
+ 
+Docker 
+  
+ 
+   
+teddysun/xray
+ 
+   
+Xray-docker
+ 
+  
+  
+ 
+One Click 
+  
+ 
+   
+ProxySU
+ 
+   
+v2ray-agent
+ 
+   
+Xray-yes
+ 
+   
+Xray_onekey
+ 
+  
+  
+ 
+Magisk 
+  
+ 
+   
+Xray4Magisk
+ 
+   
+Xray_For_Magisk
+ 
+  
+  
+ 
+Homebrew 
+  
+ 
+   
+brew install xray
+ 
+   
+(Tap) Repository 0
+ 
+   
+(Tap) Repository 1
+ 
+  
+  
+ 
+Usage
+ 
+Xray-examples / VLESS-TCP-XTLS-WHATEVER
+ 
+GUI Clients
+ 
+ 
+ 
+OpenWrt 
+  
+ 
+   
+PassWall
+ 
+   
+Hello World
+ 
+   
+ShadowSocksR Plus+
+ 
+   
+luci-app-xray (openwrt-xray)
+ 
+  
+  
+ 
+Windows 
+  
+ 
+   
+v2rayN
+ 
+   
+Qv2ray (This project had been archived and currently inactive)
+ 
+   
+Netch (NetFilter & TUN/TAP)
+ 
+  
+  
+ 
+Android 
+  
+ 
+   
+v2rayNG
+ 
+   
+AnXray
+ 
+   
+Kitsunebi
+ 
+  
+  
+ 
+iOS & macOS (with M1 chip) 
+  
+ 
+   
+Shadowrocket
+ 
+  
+  
+ 
+macOS (Intel chip & M1 chip) 
+  
+ 
+   
+Qv2ray (This project had been archived and currently inactive)
+ 
+  
+  
+ 
+Credits
+ 
+This repo relies on the following third-party projects:
+ 
+ 
+ 
+Special thanks: 
+  
+ 
+   
+v2fly/v2ray-core
+ 
+  
+  
+ 
+In production: 
+  
+ 
+   
+gorilla/websocket
+ 
+   
+lucas-clemente/quic-go
+ 
+   
+pires/go-proxyproto
+ 
+   
+seiflotfy/cuckoofilter
+ 
+   
+google/starlark-go
+ 
+  
+  
+ 
+For testing only: 
+  
+ 
+   
+miekg/dns
+ 
+   
+h12w/socks
+ 
+  
+  
+ 
+Compilation
+ 
+Windows
+ 
+go build -o xray.exe -trimpath -ldflags "-s -w -buildid=" ./main
+
+ 
+Linux / macOS
+ 
+go build -o xray -trimpath -ldflags "-s -w -buildid=" ./main
+
+ 
+Telegram
+ 
+Project X
+ 
+Project X Channel
+ 
+Stargazers over time]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[eugeneyan/applied-ml]]></title>
+        <id>https://github.com/eugeneyan/applied-ml</id>
+        <link href="https://github.com/eugeneyan/applied-ml"/>
+        <updated>2021-11-17T00:53:08.051Z</updated>
+        <summary type="html"><![CDATA[📚 Papers & tech blogs by companies sharing their work on data science & machine learning in production.
+
+applied-ml
+ 
+Curated papers, articles, and blogs on data science & machine learning in production. ⚙️
+ 
+  
+ 
+Figuring out how to implement your ML project? Learn how other organizations did it:
+ 
+ 
+ 
+How the problem is framed 🔎(e.g., personalization as recsys vs. search vs. sequences)
+ 
+ 
+What machine learning techniques worked ✅ (and sometimes, what didn't ❌)
+ 
+ 
+Why it works, the science behind it with research, literature, and references 📂
+ 
+ 
+What real-world results were achieved (so you can better assess ROI ⏰💰📈)
+ 
+ 
+P.S., Want a summary of ML advancements? 👉ml-surveys
+ 
+P.P.S, Looking for guides and interviews on applying ML? 👉applyingML
+ 
+Table of Contents
+ 
+ 
+ 
+Data Quali…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[antfu/unocss]]></title>
+        <id>https://github.com/antfu/unocss</id>
+        <link href="https://github.com/antfu/unocss"/>
+        <updated>2021-11-17T00:53:07.992Z</updated>
+        <summary type="html"><![CDATA[The instant on-demand atomic CSS engine.
+
+ 
+  
+ 
+UnoCSS
+ 
+ The instant on-demand Atomic CSS engine. 
+ 
+ 
+ 
+ 
+ 
+💡 I highly recommend reading this blog post - 
+Reimagine Atomic CSS
+for the story behind
+ 
+ 
+ 
+🤹‍♂️ Online Playground
+ 
+ 
+Features
+ 
+Inspired by Windi CSS, Tailwind CSS, Twind but:
+ 
+ 
+ 
+Fully customizable - no core utilities, all functionalities are provided via presets.
+ 
+ 
+No parsing, no AST, no scanning, it's INSTANT (200x faster than Windi CSS or Tailwind JIT)
+ 
+ 
+~3.5kb min+gzip - zero deps and browser friendly.
+ 
+ 
+Shortcuts - aliasing utilities, dynamically.
+ 
+ 
+Attributify Mode - group utilities in attributes
+ 
+ 
+Pure CSS Icons - use any icon as a single class.
+ 
+ 
+Inspector - inspect and debug interatively.
+ 
+ 
+CSS-in-JS Runtime version
+ 
+ 
+CSS Scoping
+ 
+ 
+Code-splitti…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[td512/re3]]></title>
+        <id>https://github.com/td512/re3</id>
+        <link href="https://github.com/td512/re3"/>
+        <updated>2021-11-17T00:53:07.810Z</updated>
+        <summary type="html"><![CDATA[GTA III, Vice City
+ 
+ 
+ 
+Intro
+ 
+In this repository you'll find the fully reversed source code for GTA III (master branch) and GTA VC (miami branch).
+ 
+It has been tested and works on Windows, Linux, MacOS and FreeBSD, on x86, amd64, arm and arm64.
+ Rendering is handled either by original RenderWare (D3D8) or the reimplementation librw (D3D9, OpenGL 2.1 or above, OpenGL ES 2.0 or above).
+ Audio is done with MSS (using dlls from original GTA) or OpenAL.
+ 
+The project has also been ported to the Nintendo Switch, Playstation Vita and Nintendo Wii U.
+ 
+We cannot build for PS2 or Xbox yet. If you're interested in doing so, get in touch with us.
+ 
+Installation
+ 
+ 
+ 
+re3 requires PC game assets to work, so you must own a copy of GTA III.
+ 
+ 
+Build re3 or download the latest build: 
+  
+ 
+   
+Windo…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ycd/dstp]]></title>
+        <id>https://github.com/ycd/dstp</id>
+        <link href="https://github.com/ycd/dstp"/>
+        <updated>2021-11-17T00:53:07.764Z</updated>
+        <summary type="html"><![CDATA[🧪 Run common networking tests against your site.
+
+ 
+ 
+dstp
+ 
+ 
+dstp, run common networking tests against your site.
+ 
+ 
+
+ 
+ 
+ 
+Usage
+ 
+Usage: dstp [OPTIONS] [ARGS]
+Options:
+	-a, --addr   <string>  The URL or the IP address to run tests against      [REQUIRED]
+	-o, --out    <string>  The type of the output, either json or plaintext    [Default: plaintext] 
+	-c           <bool>    Run all the tests concurrently.                     [Default: false]
+	-h, --help             Show this message and exit.
+
+ 
+Motivation
+ 
+A comment on lobste.rs, in a thread about DNS gave a great idea and thought a robust tool like that come in handy!
+ 
+Installation
+ 
+Packages
+ 
+Homebrew
+ 
+For Homebrew on macOS, install the ycd/tap/dstp formula.
+ 
+brew install ycd/tap/dstp
+
+ 
+Go Install
+ 
+go install github.com/ycd…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[github/opensource.guide]]></title>
+        <id>https://github.com/github/opensource.guide</id>
+        <link href="https://github.com/github/opensource.guide"/>
+        <updated>2021-11-17T00:53:07.727Z</updated>
+        <summary type="html"><![CDATA[📚 Community guides for open source creators
+
+Open Source Guides
+ 
+
+ 
+Open Source Guides (https://opensource.guide/) are a collection of resources for individuals, communities, and companies who want to learn how to run and contribute to an open source project.
+ 
+Background
+ 
+Open Source Guides were created and are curated by GitHub, along with input from outside community reviewers, but they are not exclusive to GitHub products. One reason we started this project is because we felt that there weren't enough resources for people creating open source projects.
+ 
+Our goal was to aggregate community best practices, not what GitHub (or any other individual or entity) thinks is best. Therefore, we used examples and quotations from others to illustrate our points.
+ 
+Contributing
+ 
+This site is powered by Jekyll. Check out our contributing guidelines for ways to offer feedback and contribute.
+ 
+Licenses
+ 
+Content is released under CC-BY-4.0. See notices for complete details, including attribution guidelines, contribution terms, and software and third-party licenses and permissions.
+ 
+Acknowledgments
+ 
+The initial release of these guides were authored by @nayafia, @bkeepers, @stephbwills, and @mlinksva.
+ 
+Thanks to @aitchabee, @benbalter, @brettcannon, @caabernathy, @coralineada, @dmleong, @ericholscher, @gr2m, @janl, @jessfraz, @joshsimmons, @kfogel, @kytrinyx, @lee-dohm, @mikeal, @mikemcquaid, @nathansobo, @nruff, @nsqe, @orta, @parkr, @shazow, @steveklabnik, and @wooorm for lending their valuable input and expertise leading up to the initial release, and to @sophshep and @jeejkang for designing and illustrating the guides.
+ 
+Disclaimer
+ 
+While we've got advice about running an open source project, we're not lawyers. Be sure to read our disclaimer before diving in.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FiloSottile/age]]></title>
+        <id>https://github.com/FiloSottile/age</id>
+        <link href="https://github.com/FiloSottile/age"/>
+        <updated>2021-11-17T00:53:07.685Z</updated>
+        <summary type="html"><![CDATA[A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
+
+
+ 
+ 
+ 
+age is a simple, modern and secure file encryption tool, format, and Go library.
+ 
+It features small explicit keys, no config options, and UNIX-style composability.
+ 
+$ age-keygen -o key.txt
+Public key: age1ql3z7hjy54pw3hyww5ayyfg7zqgvc7w3j2elw8zmrj2kg5sfn9aqmcac8p
+$ tar cvz ~/data | age -r age1ql3z7hjy54pw3hyww5ayyfg7zqgvc7w3j2elw8zmrj2kg5sfn9aqmcac8p > data.tar.gz.age
+$ age --decrypt -i key.txt data.tar.gz.age > data.tar.gz
+
+ 
+The format specification is at age-encryption.org/v1. age was designed by @Benjojo12 and @FiloSottile.
+ 
+An alternative interoperable Rust implementation is available at github.com/str4d/rage.
+ 
+The author pronounces it [aɡ…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Genymobile/scrcpy]]></title>
+        <id>https://github.com/Genymobile/scrcpy</id>
+        <link href="https://github.com/Genymobile/scrcpy"/>
+        <updated>2021-11-17T00:53:07.550Z</updated>
+        <summary type="html"><![CDATA[Display and control your Android device
+
+scrcpy (v1.20)
+ 
+ 
+Read in another language
+ 
+This application provides display and control of Android devices connected via USB (or over TCP/IP). It does not require any root access. It works on GNU/Linux, Windows and macOS.
+ 
+
+ 
+It focuses on:
+ 
+ 
+ 
+lightness: native, displays only the device screen
+ 
+ 
+performance: 30~120fps, depending on the device
+ 
+ 
+quality: 1920×1080 or above
+ 
+ 
+low latency: 35~70ms
+ 
+ 
+low startup time: ~1 second to display the first image
+ 
+ 
+non-intrusiveness: nothing is left installed on the device
+ 
+ 
+user benefits: no account, no ads, no internet required
+ 
+ 
+freedom: free and open source software
+ 
+ 
+Its features include:
+ 
+ 
+ 
+recording
+ 
+ 
+mirroring with device screen off
+ 
+ 
+copy-paste in both directions
+ 
+ 
+confi…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[0xCGonzalo/Golden-Guide-for-Pentesting]]></title>
+        <id>https://github.com/0xCGonzalo/Golden-Guide-for-Pentesting</id>
+        <link href="https://github.com/0xCGonzalo/Golden-Guide-for-Pentesting"/>
+        <updated>2021-11-17T00:53:07.486Z</updated>
+        <summary type="html"><![CDATA[Golden Guide
+
+Golden Guide for Pentesters.]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Janspiry/Image-Super-Resolution-via-Iterative-Refinement]]></title>
+        <id>https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement</id>
+        <link href="https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement"/>
+        <updated>2021-11-17T00:53:07.444Z</updated>
+        <summary type="html"><![CDATA[Unoffical implementation about Image Super-Resolution via Iterative Refinement by Pytorch
+
+Image Super-Resolution via Iterative Refinement
+ 
+Paper | Project
+ 
+Brief
+ 
+This is a unoffical implementation about Image Super-Resolution via Iterative Refinement(SR3) by Pytorch.
+ 
+There are some implement details with paper description, which maybe different with actual SR3 structure due to details missing.
+ 
+ 
+ 
+We used the ResNet block and channel concatenation style like vanilla DDPM.
+ 
+ 
+We used the attention mechanism in low resolution feature(16×16) like vanilla DDPM.
+ 
+ 
+We encoding the $\gamma$ as FilM strcutrue did in WaveGrad, and embedding it without affine transformation.
+ 
+ 
+If you just want to upscale 64x64px -> 512x512px images using the pre-trained model, check out this google col…]]></summary>
+        <author>
+            <name>GitHub All Languages Daily Trending</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CNCF TOC Elections for 2022]]></title>
+        <id>https://www.cncf.io/?p=65768</id>
+        <link href="https://www.cncf.io/blog/2021/11/16/cncf-toc-elections-for-2022/"/>
+        <updated>2021-11-16T18:42:23.000Z</updated>
+        <summary type="html"><![CDATA[The Cloud Native Computing Foundation (CNCF) has three main bodies: a Governing Board (GB) that is responsible for marketing, budget, and other business oversight decisions for the CNCF, a Technical Oversight Committee...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prometheus announces an Agent to address a new range of use cases]]></title>
+        <id>https://www.cncf.io/?p=65672</id>
+        <link href="https://www.cncf.io/blog/2021/11/16/prometheus-announces-an-agent-to-address-a-new-range-of-use-cases/"/>
+        <updated>2021-11-16T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Project post by Prometheus maintainers Prometheus, the leading open source monitoring solution hosted by CNCF, has announced today a new operating mode: the Prometheus Agent. This new way of working enables new...]]></summary>
+        <author>
+            <name>Jessie</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[assimp/assimp]]></title>
         <id>https://github.com/assimp/assimp</id>
@@ -18128,32 +19004,6 @@ Feel free…]]></summary>
         <summary type="html"><![CDATA[Guest post originally published on Snapt’s blog by Craig Risi In the corporate tech fight against security threats, there is perhaps no struggle more difficult than dealing with Edge Security. While companies can...]]></summary>
         <author>
             <name>Jessie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[trekhleb/javascript-algorithms]]></title>
-        <id>https://github.com/trekhleb/javascript-algorithms</id>
-        <link href="https://github.com/trekhleb/javascript-algorithms"/>
-        <updated>2021-10-18T00:56:29.630Z</updated>
-        <summary type="html"><![CDATA[📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
-
-JavaScript Algorithms and Data Structures
- 
- 
- 
-This repository contains JavaScript based examples of many popular algorithms and data structures.
- 
-Each algorithm and data structure has its own separate README with related explanations and links for further reading (including ones to YouTube videos).
- 
-Read this in other languages: 简体中文, 繁體中文, 한국어, 日本語, Polski, Français, Español, Português, Русский, Türk, Italiana, Bahasa Indonesia, Українська, Arabic, Deutsch
- 
-☝ Note that this project is meant to be used for learning and researching purposes only, and it is not meant to be used for production.
- 
-Data Structures
- 
-A data structure is a particular way of organizing and storing data…]]></summary>
-        <author>
-            <name>GitHub All Languages Daily Trending</name>
         </author>
     </entry>
 </feed>

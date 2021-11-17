@@ -12,6 +12,24 @@
       "siteUrl": "https://www.cncf.io",
       "articles": [
         {
+          "id": "https://www.cncf.io/?p=65768",
+          "author": "Jessie",
+          "description": "The Cloud Native Computing Foundation (CNCF) has three main bodies: a Governing Board (GB) that is responsible for marketing, budget, and other business oversight decisions for the CNCF, a Technical Oversight Committee...",
+          "link": "https://www.cncf.io/blog/2021/11/16/cncf-toc-elections-for-2022/",
+          "publishedOn": "2021-11-16T18:42:23.000Z",
+          "wordCount": 743,
+          "title": "CNCF TOC Elections for 2022"
+        },
+        {
+          "id": "https://www.cncf.io/?p=65672",
+          "author": "Jessie",
+          "description": "Project post by Prometheus maintainers Prometheus, the leading open source monitoring solution hosted by CNCF, has announced today a new operating mode: the Prometheus Agent. This new way of working enables new...",
+          "link": "https://www.cncf.io/blog/2021/11/16/prometheus-announces-an-agent-to-address-a-new-range-of-use-cases/",
+          "publishedOn": "2021-11-16T16:00:00.000Z",
+          "wordCount": 798,
+          "title": "Prometheus announces an Agent to address a new range of use cases"
+        },
+        {
           "id": "https://www.cncf.io/?p=65670",
           "author": "Jessie",
           "description": "Guest post originally published on InfraCloud’s blog by Frederick Fernando When you start building your cloud infrastructure, security might not be a top priority as much as getting your project up and...",
@@ -294,6 +312,123 @@
       "feedUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
       "siteUrl": "http://mshibanami.github.io/GitHubTrendingRSS",
       "articles": [
+        {
+          "id": "https://github.com/bitcoin/bitcoin",
+          "author": null,
+          "description": "Bitcoin Core integration/staging tree\n\nBitcoin Core integration/staging tree\n \nhttps://bitcoincore.org\n \nFor an immediately usable, binary version of the Bitcoin Core software, see https://bitcoincore.org/en/download/.\n \nFurther information about Bitcoin Core is available in the doc folder.\n \nWhat is Bitcoin?\n \nBitcoin is an experimental digital currency that enables instant payments to anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out collectively by the network. Bitcoin Core is the name of open source software which enables the use of this currency.\n \nFor more information read the original Bitcoin whitepaper.\n \nLicense\n \nBitcoin Core is released under the terms of the MIT licen…",
+          "link": "https://github.com/bitcoin/bitcoin",
+          "publishedOn": "2021-11-17T00:53:08.429Z",
+          "wordCount": 1201,
+          "title": "bitcoin/bitcoin"
+        },
+        {
+          "id": "https://github.com/PaddlePaddle/PaddleSeg",
+          "author": null,
+          "description": "Easy-to-use segmentation library with awesome pre-trained model zoo, supporting wide-range of practical tasks from research to industrial applications.\n\n简体中文 | English\n \nPaddleSeg\n \n    \n \n近期活动\n \nPaddleSeg团队将举办主题为《产业图像分割应用与实战》的两日课向大家分析在交互式智能标注工具和精细化分割Matting方向的研究工作。\n \n \n  \n \nPaddleSeg发布2.3版本，欢迎体验\n \n \n \nPaddleSeg团队发表交互式分割论文EdgeFlow，升级了交互式分割工具EISeg。\n \n \n开源两种Matting算法，经典方法DIM，和实时性方法MODNet，实现精细化人像分割。\n \n \n发布图像分割高阶功能，模型蒸馏和模型量化方案，进一步提升模型的部署效率。\n \n \nPaddleSeg介绍\n \nPaddleSeg是基于飞桨PaddlePaddle开发的端到端图像分割开发套件，涵盖了高精度和轻量级等不同方向的大量高质量分割模型。通过模块化的设计，提供了配置化驱动和API调用两种应用方式，帮助开发者更便捷地完成从训练到部署的全流程图像分割应用。\n \n \n \n PaddleSeg提供了语义分割、交互式分割、全景分割、Matting四大图像分割能力。\n  \n \n \n  \n \n \n \n \n PaddleSeg被广泛地应用在自动驾驶、医疗、质检、巡检、娱乐等场景。\n  \n \n \n  \n \n \n特性 \n \n \n \n  高精度模型：基于百度自研的半监督标签知识蒸馏方案（SSLD）训练得到高精度骨干网络，结合前沿的分割技术，提供了50+的高质量预训练模型，效果优于其他开源实现。\n …",
+          "link": "https://github.com/PaddlePaddle/PaddleSeg",
+          "publishedOn": "2021-11-17T00:53:08.216Z",
+          "wordCount": 800,
+          "title": "PaddlePaddle/PaddleSeg"
+        },
+        {
+          "id": "https://github.com/unlock-music/unlock-music",
+          "author": null,
+          "description": "Unlock encrypted music file in browser. 在浏览器中解锁加密的音乐文件。\n\nUnlock Music 音乐解锁\n \n \n \n在浏览器中解锁加密的音乐文件。 Unlock encrypted music file in the browser.\n \n \nunlock-music项目是以学习和技术研究的初衷创建的，修改、再分发时请遵循License\n \n \nUnlock Music的CLI版本正在开发中。\n \n \n我们新建了Telegram群组，欢迎加入！https://t.me/unlock_music_chat\n \n \nCLI版本 Alpha 大批量转换建议使用CLI版本\n \n \n相关的其他项目\n \n \n  \n \n特性\n \n支持的格式\n \n \n \n QQ音乐 (.qmc0/.qmc2/.qmc3/.qmcflac/.qmcogg/.tkm) \n  \n \n   \n 写入封面图片\n \n  \n  \n \n Moo音乐格式 (.bkcmp3/.bkcflac)\n \n \n QQ音乐Tm格式 (.tm0/.tm2/.tm3/.tm6)\n \n \n QQ音乐新格式 (实验性支持) \n  \n \n   \n .mflac\n \n   \n .mgg\n \n  \n  \n \n 虾米音乐格式 (.xm) (测试阶段)\n \n \n 酷我音乐格式 (.kwm) (测试阶段)\n \n \n 酷狗音乐格式 ( .kgm) (CLI版本)\n \n \n其他特性\n \n \n \n 在浏览器中解锁\n \n \n 拖放文件\n \n \n 在线播放\n \n \n 批量解锁\n \n \n 渐进式Web应用\n \n \n 多线程\n \n \n使用方法\n \n安装浏览器扩展\n \n  \n \n使用已构建版本\n \n \n \n从GitHub Release下载已构建的版本 \n  \n \n   \n本地使用请下载legacy版本（modern版本只能通过http/https协议访问）\n \n  \n  \n \n解压缩后即可部署或本地使用（请勿直接运行源代码）\n \n \n使用Docker镜像\n \ndocker run --name unlock-music -d -p 8080:80 ix64/unlock-music\n\n \n自行构建\n \n \n \n环境要求 \n  \n \n   \nnodejs\n \n   \nnpm\n \n  \n  \n \n \n \n获取项目源代码后执行 npm install 安装相关依赖\n \n \n执行 npm run build 即可进行构建，构建输出为 dist 目录\n \n \n \n \nnpm run serve 可用于开发\n \n \n \n \n如需构建浏览器扩展，build完成后还需要执行npm run make-extension",
+          "link": "https://github.com/unlock-music/unlock-music",
+          "publishedOn": "2021-11-17T00:53:08.167Z",
+          "wordCount": 604,
+          "title": "unlock-music/unlock-music"
+        },
+        {
+          "id": "https://github.com/XTLS/Xray-core",
+          "author": null,
+          "description": "Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support. Fully compatible configuration.\n\nProject X\n \nProject X originates from XTLS protocol, provides a set of network tools such as Xray-core and Xray-flutter.\n \nLicense\n \nMozilla Public License Version 2.0\n \nInstallation\n \n \n \nLinux Script \n  \n \n   \nXray-install\n \n   \nXray-script\n \n  \n  \n \nDocker \n  \n \n   \nteddysun/xray\n \n   \nXray-docker\n \n  \n  \n \nOne Click \n  \n \n   \nProxySU\n \n   \nv2ray-agent\n \n   \nXray-yes\n \n   \nXray_onekey\n \n  \n  \n \nMagisk \n  \n \n   \nXray4Magisk\n \n   \nXray_For_Magisk\n \n  \n  \n \nHomebrew \n  \n \n   \nbrew install xray\n \n   \n(Tap) Repository 0\n \n   \n(Tap) Repository 1\n \n  \n  \n \nUsage\n \nXray-examples / VLESS-TCP-XTLS-WHATEVER\n \nGUI Clients\n \n \n \nOpenWrt \n  \n \n   \nPassWall\n \n   \nHello World\n \n   \nShadowSocksR Plus+\n \n   \nluci-app-xray (openwrt-xray)\n \n  \n  \n \nWindows \n  \n \n   \nv2rayN\n \n   \nQv2ray (This project had been archived and currently inactive)\n \n   \nNetch (NetFilter & TUN/TAP)\n \n  \n  \n \nAndroid \n  \n \n   \nv2rayNG\n \n   \nAnXray\n \n   \nKitsunebi\n \n  \n  \n \niOS & macOS (with M1 chip) \n  \n \n   \nShadowrocket\n \n  \n  \n \nmacOS (Intel chip & M1 chip) \n  \n \n   \nQv2ray (This project had been archived and currently inactive)\n \n  \n  \n \nCredits\n \nThis repo relies on the following third-party projects:\n \n \n \nSpecial thanks: \n  \n \n   \nv2fly/v2ray-core\n \n  \n  \n \nIn production: \n  \n \n   \ngorilla/websocket\n \n   \nlucas-clemente/quic-go\n \n   \npires/go-proxyproto\n \n   \nseiflotfy/cuckoofilter\n \n   \ngoogle/starlark-go\n \n  \n  \n \nFor testing only: \n  \n \n   \nmiekg/dns\n \n   \nh12w/socks\n \n  \n  \n \nCompilation\n \nWindows\n \ngo build -o xray.exe -trimpath -ldflags \"-s -w -buildid=\" ./main\n\n \nLinux / macOS\n \ngo build -o xray -trimpath -ldflags \"-s -w -buildid=\" ./main\n\n \nTelegram\n \nProject X\n \nProject X Channel\n \nStargazers over time",
+          "link": "https://github.com/XTLS/Xray-core",
+          "publishedOn": "2021-11-17T00:53:08.123Z",
+          "wordCount": 744,
+          "title": "XTLS/Xray-core"
+        },
+        {
+          "id": "https://github.com/eugeneyan/applied-ml",
+          "author": null,
+          "description": "📚 Papers & tech blogs by companies sharing their work on data science & machine learning in production.\n\napplied-ml\n \nCurated papers, articles, and blogs on data science & machine learning in production. ⚙️\n \n  \n \nFiguring out how to implement your ML project? Learn how other organizations did it:\n \n \n \nHow the problem is framed 🔎(e.g., personalization as recsys vs. search vs. sequences)\n \n \nWhat machine learning techniques worked ✅ (and sometimes, what didn't ❌)\n \n \nWhy it works, the science behind it with research, literature, and references 📂\n \n \nWhat real-world results were achieved (so you can better assess ROI ⏰💰📈)\n \n \nP.S., Want a summary of ML advancements? 👉ml-surveys\n \nP.P.S, Looking for guides and interviews on applying ML? 👉applyingML\n \nTable of Contents\n \n \n \nData Quali…",
+          "link": "https://github.com/eugeneyan/applied-ml",
+          "publishedOn": "2021-11-17T00:53:08.051Z",
+          "wordCount": 4737,
+          "title": "eugeneyan/applied-ml"
+        },
+        {
+          "id": "https://github.com/antfu/unocss",
+          "author": null,
+          "description": "The instant on-demand atomic CSS engine.\n\n \n  \n \nUnoCSS\n \n The instant on-demand Atomic CSS engine. \n \n \n \n \n \n💡 I highly recommend reading this blog post - \nReimagine Atomic CSS\nfor the story behind\n \n \n \n🤹‍♂️ Online Playground\n \n \nFeatures\n \nInspired by Windi CSS, Tailwind CSS, Twind but:\n \n \n \nFully customizable - no core utilities, all functionalities are provided via presets.\n \n \nNo parsing, no AST, no scanning, it's INSTANT (200x faster than Windi CSS or Tailwind JIT)\n \n \n~3.5kb min+gzip - zero deps and browser friendly.\n \n \nShortcuts - aliasing utilities, dynamically.\n \n \nAttributify Mode - group utilities in attributes\n \n \nPure CSS Icons - use any icon as a single class.\n \n \nInspector - inspect and debug interatively.\n \n \nCSS-in-JS Runtime version\n \n \nCSS Scoping\n \n \nCode-splitti…",
+          "link": "https://github.com/antfu/unocss",
+          "publishedOn": "2021-11-17T00:53:07.992Z",
+          "wordCount": 2417,
+          "title": "antfu/unocss"
+        },
+        {
+          "id": "https://github.com/td512/re3",
+          "author": null,
+          "description": "GTA III, Vice City\n \n \n \nIntro\n \nIn this repository you'll find the fully reversed source code for GTA III (master branch) and GTA VC (miami branch).\n \nIt has been tested and works on Windows, Linux, MacOS and FreeBSD, on x86, amd64, arm and arm64.\n Rendering is handled either by original RenderWare (D3D8) or the reimplementation librw (D3D9, OpenGL 2.1 or above, OpenGL ES 2.0 or above).\n Audio is done with MSS (using dlls from original GTA) or OpenAL.\n \nThe project has also been ported to the Nintendo Switch, Playstation Vita and Nintendo Wii U.\n \nWe cannot build for PS2 or Xbox yet. If you're interested in doing so, get in touch with us.\n \nInstallation\n \n \n \nre3 requires PC game assets to work, so you must own a copy of GTA III.\n \n \nBuild re3 or download the latest build: \n  \n \n   \nWindo…",
+          "link": "https://github.com/td512/re3",
+          "publishedOn": "2021-11-17T00:53:07.810Z",
+          "wordCount": 1871,
+          "title": "td512/re3"
+        },
+        {
+          "id": "https://github.com/ycd/dstp",
+          "author": null,
+          "description": "🧪 Run common networking tests against your site.\n\n \n \ndstp\n \n \ndstp, run common networking tests against your site.\n \n \n\n \n \n \nUsage\n \nUsage: dstp [OPTIONS] [ARGS]\nOptions:\n\t-a, --addr   <string>  The URL or the IP address to run tests against      [REQUIRED]\n\t-o, --out    <string>  The type of the output, either json or plaintext    [Default: plaintext] \n\t-c           <bool>    Run all the tests concurrently.                     [Default: false]\n\t-h, --help             Show this message and exit.\n\n \nMotivation\n \nA comment on lobste.rs, in a thread about DNS gave a great idea and thought a robust tool like that come in handy!\n \nInstallation\n \nPackages\n \nHomebrew\n \nFor Homebrew on macOS, install the ycd/tap/dstp formula.\n \nbrew install ycd/tap/dstp\n\n \nGo Install\n \ngo install github.com/ycd…",
+          "link": "https://github.com/ycd/dstp",
+          "publishedOn": "2021-11-17T00:53:07.764Z",
+          "wordCount": 847,
+          "title": "ycd/dstp"
+        },
+        {
+          "id": "https://github.com/github/opensource.guide",
+          "author": null,
+          "description": "📚 Community guides for open source creators\n\nOpen Source Guides\n \n\n \nOpen Source Guides (https://opensource.guide/) are a collection of resources for individuals, communities, and companies who want to learn how to run and contribute to an open source project.\n \nBackground\n \nOpen Source Guides were created and are curated by GitHub, along with input from outside community reviewers, but they are not exclusive to GitHub products. One reason we started this project is because we felt that there weren't enough resources for people creating open source projects.\n \nOur goal was to aggregate community best practices, not what GitHub (or any other individual or entity) thinks is best. Therefore, we used examples and quotations from others to illustrate our points.\n \nContributing\n \nThis site is powered by Jekyll. Check out our contributing guidelines for ways to offer feedback and contribute.\n \nLicenses\n \nContent is released under CC-BY-4.0. See notices for complete details, including attribution guidelines, contribution terms, and software and third-party licenses and permissions.\n \nAcknowledgments\n \nThe initial release of these guides were authored by @nayafia, @bkeepers, @stephbwills, and @mlinksva.\n \nThanks to @aitchabee, @benbalter, @brettcannon, @caabernathy, @coralineada, @dmleong, @ericholscher, @gr2m, @janl, @jessfraz, @joshsimmons, @kfogel, @kytrinyx, @lee-dohm, @mikeal, @mikemcquaid, @nathansobo, @nruff, @nsqe, @orta, @parkr, @shazow, @steveklabnik, and @wooorm for lending their valuable input and expertise leading up to the initial release, and to @sophshep and @jeejkang for designing and illustrating the guides.\n \nDisclaimer\n \nWhile we've got advice about running an open source project, we're not lawyers. Be sure to read our disclaimer before diving in.",
+          "link": "https://github.com/github/opensource.guide",
+          "publishedOn": "2021-11-17T00:53:07.727Z",
+          "wordCount": 850,
+          "title": "github/opensource.guide"
+        },
+        {
+          "id": "https://github.com/FiloSottile/age",
+          "author": null,
+          "description": "A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.\n\n\n \n \n \nage is a simple, modern and secure file encryption tool, format, and Go library.\n \nIt features small explicit keys, no config options, and UNIX-style composability.\n \n$ age-keygen -o key.txt\nPublic key: age1ql3z7hjy54pw3hyww5ayyfg7zqgvc7w3j2elw8zmrj2kg5sfn9aqmcac8p\n$ tar cvz ~/data | age -r age1ql3z7hjy54pw3hyww5ayyfg7zqgvc7w3j2elw8zmrj2kg5sfn9aqmcac8p > data.tar.gz.age\n$ age --decrypt -i key.txt data.tar.gz.age > data.tar.gz\n\n \nThe format specification is at age-encryption.org/v1. age was designed by @Benjojo12 and @FiloSottile.\n \nAn alternative interoperable Rust implementation is available at github.com/str4d/rage.\n \nThe author pronounces it [aɡ…",
+          "link": "https://github.com/FiloSottile/age",
+          "publishedOn": "2021-11-17T00:53:07.685Z",
+          "wordCount": 1476,
+          "title": "FiloSottile/age"
+        },
+        {
+          "id": "https://github.com/Genymobile/scrcpy",
+          "author": null,
+          "description": "Display and control your Android device\n\nscrcpy (v1.20)\n \n \nRead in another language\n \nThis application provides display and control of Android devices connected via USB (or over TCP/IP). It does not require any root access. It works on GNU/Linux, Windows and macOS.\n \n\n \nIt focuses on:\n \n \n \nlightness: native, displays only the device screen\n \n \nperformance: 30~120fps, depending on the device\n \n \nquality: 1920×1080 or above\n \n \nlow latency: 35~70ms\n \n \nlow startup time: ~1 second to display the first image\n \n \nnon-intrusiveness: nothing is left installed on the device\n \n \nuser benefits: no account, no ads, no internet required\n \n \nfreedom: free and open source software\n \n \nIts features include:\n \n \n \nrecording\n \n \nmirroring with device screen off\n \n \ncopy-paste in both directions\n \n \nconfi…",
+          "link": "https://github.com/Genymobile/scrcpy",
+          "publishedOn": "2021-11-17T00:53:07.550Z",
+          "wordCount": 3833,
+          "title": "Genymobile/scrcpy"
+        },
+        {
+          "id": "https://github.com/0xCGonzalo/Golden-Guide-for-Pentesting",
+          "author": null,
+          "description": "Golden Guide\n\nGolden Guide for Pentesters.",
+          "link": "https://github.com/0xCGonzalo/Golden-Guide-for-Pentesting",
+          "publishedOn": "2021-11-17T00:53:07.486Z",
+          "wordCount": 344,
+          "title": "0xCGonzalo/Golden-Guide-for-Pentesting"
+        },
+        {
+          "id": "https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement",
+          "author": null,
+          "description": "Unoffical implementation about Image Super-Resolution via Iterative Refinement by Pytorch\n\nImage Super-Resolution via Iterative Refinement\n \nPaper | Project\n \nBrief\n \nThis is a unoffical implementation about Image Super-Resolution via Iterative Refinement(SR3) by Pytorch.\n \nThere are some implement details with paper description, which maybe different with actual SR3 structure due to details missing.\n \n \n \nWe used the ResNet block and channel concatenation style like vanilla DDPM.\n \n \nWe used the attention mechanism in low resolution feature(16×16) like vanilla DDPM.\n \n \nWe encoding the $\\gamma$ as FilM strcutrue did in WaveGrad, and embedding it without affine transformation.\n \n \nIf you just want to upscale 64x64px -> 512x512px images using the pre-trained model, check out this google col…",
+          "link": "https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement",
+          "publishedOn": "2021-11-17T00:53:07.444Z",
+          "wordCount": 1221,
+          "title": "Janspiry/Image-Super-Resolution-via-Iterative-Refinement"
+        },
         {
           "id": "https://github.com/assimp/assimp",
           "author": null,
@@ -3425,15 +3560,6 @@
           "publishedOn": "2021-10-20T00:56:54.953Z",
           "wordCount": 795,
           "title": "LeCoupa/awesome-cheatsheets"
-        },
-        {
-          "id": "https://github.com/trekhleb/javascript-algorithms",
-          "author": null,
-          "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings\n\nJavaScript Algorithms and Data Structures\n \n \n \nThis repository contains JavaScript based examples of many popular algorithms and data structures.\n \nEach algorithm and data structure has its own separate README with related explanations and links for further reading (including ones to YouTube videos).\n \nRead this in other languages: 简体中文, 繁體中文, 한국어, 日本語, Polski, Français, Español, Português, Русский, Türk, Italiana, Bahasa Indonesia, Українська, Arabic, Deutsch\n \n☝ Note that this project is meant to be used for learning and researching purposes only, and it is not meant to be used for production.\n \nData Structures\n \nA data structure is a particular way of organizing and storing data…",
-          "link": "https://github.com/trekhleb/javascript-algorithms",
-          "publishedOn": "2021-10-18T00:56:29.630Z",
-          "wordCount": 2735,
-          "title": "trekhleb/javascript-algorithms"
         }
       ]
     }
